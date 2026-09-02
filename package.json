@@ -1,6 +1,7 @@
 {
   "name": "step-reading",
   "version": "1.0.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "start": "vite",
@@ -10,7 +11,8 @@
     "validate:records": "py -3 scripts/validate_reading_records.py",
     "validate:ui": "py -3 scripts/validate_reading_ui_data.py",
     "validate:visual": "py -3 scripts/validate_visual_question_review.py",
-    "validate": "npm run validate:records && npm run validate:visual && npm run validate:ui"
+    "validate:manual": "node scripts/validate_manual_quizzes.mjs",
+    "validate": "npm run validate:records && npm run validate:visual && npm run validate:ui && npm run validate:manual"
   },
   "devDependencies": {
     "vite": "^6.1.0"

@@ -1,81 +1,246 @@
 import './style.css';
-import { readings, readingsById } from './data/readings.js';
+import { readings } from './data/readings.js';
+import { manualQuizModelsById } from './data/manualQuizzes.js';
 
-const storageKey = 'step-reading-progress-v1';
-const settingKey = 'step-reading-settings-v1';
-const readStored = (key, fallback) => { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } };
+const storageKey = 'step-reading-progress-v2';
+const readStored = (key, fallback) => {
+  try {
+    return JSON.parse(localStorage.getItem(key)) ?? fallback;
+  } catch {
+    return fallback;
+  }
+};
+
 let progress = readStored(storageKey, {});
-let settings = { mode: 'normal', soundEnabled: true, ...readStored(settingKey, {}) };
-let state = { selectedId: null, tab: 'content', query: '', filter: 'all', sourceBlock: 0 };
-
-const saveProgress = () => localStorage.setItem(storageKey, JSON.stringify(progress));
-const saveSettings = () => localStorage.setItem(settingKey, JSON.stringify(settings));
-const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
-const normalizeArabic = (value = '') => String(value).toLowerCase().replace(/[أإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/[ً-ْ]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
-const readingNumber = (reading) => String(reading.order).padStart(2, '0');
-const progressFor = (id) => progress[id] ?? { status: 'not-started' };
-const statusLabel = (status) => ({ 'not-started': 'لم تبدأ', 'in-progress': 'قيد الحل', completed: 'مكتملة' })[status] ?? 'لم تبدأ';
+let state = { view: 'library', selectedModelId: null, selectedPassageId: null, query: '' };
 const app = document.querySelector('#app');
 
-function setProgress(id, update) { progress[id] = { ...progressFor(id), ...update }; saveProgress(); }
+const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
+const normalizeArabic = (value = '') => String(value).toLowerCase().replace(/[أإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/[ً-ْ]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+const modelNumber = (model) => String(model.order).padStart(2, '0');
+const saveProgress = () => localStorage.setItem(storageKey, JSON.stringify(progress));
+const quizKey = (modelId, passageId) => `${modelId}:${passageId}`;
+const quizProgress = (modelId, passageId) => progress[quizKey(modelId, passageId)] ?? { answers: {}, status: 'not-started' };
 
-function matches(reading) {
-  if (!state.query) return true;
-  const query = normalizeArabic(state.query);
-  const numberMatch = query.match(/^(?:reading\s*)?0*(\d{1,2})$/);
-  if (numberMatch) return reading.order === Number(numberMatch[1]);
-  const compact = query.replace(/\s/g, '');
-  return [reading.id, String(reading.order), readingNumber(reading), reading.arabicTitle, ...reading.internalSections, reading.content.slice(0, 18000)].some((candidate) => {
-    const normalized = normalizeArabic(candidate);
-    return normalized.includes(query) || normalized.replace(/\s/g, '').includes(compact);
-  });
+const arabicModelNames = [
+  'الأول', 'الثاني', 'الثالث', 'الرابع', 'الخامس', 'السادس', 'السابع', 'الثامن', 'التاسع', 'العاشر',
+  'الحادي عشر', 'الثاني عشر', 'الثالث عشر', 'الرابع عشر', 'الخامس عشر', 'السادس عشر', 'السابع عشر',
+  'الثامن عشر', 'التاسع عشر', 'العشرون',
+];
+
+const models = readings.map((reading) => {
+  const manual = manualQuizModelsById.get(reading.id);
+  return {
+    id: reading.id,
+    order: reading.order,
+    title: manual?.title ?? `النموذج ${arabicModelNames[reading.order - 1] ?? modelNumber(reading)}`,
+    subtitle: manual?.subtitle ?? 'سيتم إضافة القطع الداخلية بعد إرسالها',
+    passages: manual?.passages ?? [],
+  };
+});
+
+function setQuizProgress(modelId, passageId, update) {
+  const key = quizKey(modelId, passageId);
+  progress[key] = { ...quizProgress(modelId, passageId), ...update };
+  saveProgress();
 }
 
-function card(reading) {
-  const itemProgress = progressFor(reading.id);
-  const meta = reading.verifiedQuestionCount ? `${reading.verifiedQuestionCount} سؤالًا متاحًا` : 'لا توجد أسئلة مؤكدة للعرض';
-  return `<button class="reading-card" data-open="${reading.id}"><span class="reading-number">${readingNumber(reading)}</span><span class="reading-title">${escapeHtml(reading.arabicTitle)}</span><span class="reading-meta">${meta}</span><span class="reading-status ${itemProgress.status}">${statusLabel(itemProgress.status)}</span></button>`;
+function visibleModels() {
+  if (!state.query) return models;
+  const query = normalizeArabic(state.query);
+  return models.filter((model) => normalizeArabic(`${modelNumber(model)} ${model.title} ${model.subtitle} ${model.passages.map((passage) => `${passage.title} ${passage.englishTitle}`).join(' ')}`).includes(query));
+}
+
+function displayedOptions(question) {
+  const offset = question.number % question.options.length;
+  return [...question.options.slice(offset), ...question.options.slice(0, offset)];
 }
 
 function libraryView() {
-  const visible = readings.filter((reading) => matches(reading) && (state.filter === 'all' || progressFor(reading.id).status === state.filter));
-  const completed = readings.filter((reading) => progressFor(reading.id).status === 'completed').length;
-  return `<main class="app-shell"><section class="hero"><p class="eyebrow">STEP</p><h1>STEP Reading</h1><p>استعرض نماذج القراءة الأصلية بالترتيب، واحفظ تقدمك داخل كل نموذج.</p></section><section class="toolbar" aria-label="أدوات القراءة"><label class="search"><span>⌕</span><input id="search" value="${escapeHtml(state.query)}" placeholder="ابحث برقم القطعة أو اسمها" /></label><div class="mode-switch" role="group" aria-label="وضع القراءة">${['normal', 'practice', 'exam'].map((mode) => `<button class="${settings.mode === mode ? 'selected' : ''}" data-mode="${mode}">${({ normal: 'العادي', practice: 'التدريب', exam: 'الاختبار' })[mode]}</button>`).join('')}</div><select id="status-filter" aria-label="فلتر الحالة"><option value="all">كل الحالات</option><option value="not-started">لم تبدأ</option><option value="in-progress">قيد الحل</option><option value="completed">مكتملة</option></select><button class="sound-button" id="sound-toggle">${settings.soundEnabled ? '🔊 الصوت' : '🔇 مكتوم'}</button><span class="completion">${completed} / ${readings.length} مكتملة</span></section><section class="reading-grid">${visible.length ? visible.map(card).join('') : '<div class="empty-state"><h2>لم نجد قطعة مطابقة</h2><button id="clear-search">مسح البحث</button></div>'}</section></main>`;
+  const filtered = visibleModels();
+  const completed = Object.values(progress).filter((item) => item.status === 'completed').length;
+  return `<main class="app-shell">
+    <section class="hero">
+      <p class="eyebrow">STEP</p>
+      <h1>STEP Reading</h1>
+      <p>اختر النموذج، ثم ادخل على القطعة الداخلية وابدأ الاختبار.</p>
+    </section>
+    <section class="toolbar" aria-label="أدوات القراءة">
+      <label class="search"><span>⌕</span><input id="search" value="${escapeHtml(state.query)}" placeholder="ابحث برقم النموذج أو اسم القطعة" /></label>
+      <span class="completion">${completed} اختبارات مكتملة</span>
+    </section>
+    <section class="reading-grid">
+      ${filtered.map((model) => `<button class="reading-card ${model.passages.length ? '' : 'locked'}" data-open-model="${model.id}">
+        <span class="reading-number">${modelNumber(model)}</span>
+        <span class="reading-title">${escapeHtml(model.title)}</span>
+        <span class="reading-meta">${model.passages.length ? `${model.passages.length} قطع داخلية` : 'بانتظار الإضافة'}</span>
+        <span class="reading-status ${model.passages.length ? 'in-progress' : 'not-started'}">${model.passages.length ? 'جاهز للاختبار' : 'غير مضاف'}</span>
+      </button>`).join('')}
+    </section>
+  </main>`;
 }
 
-function sourceBlock(block) { return `<article class="source-block"><header>صفحة المصدر ${block.page ?? block.sourcePage}</header><div dir="auto">${escapeHtml(block.text ?? block.content)}</div></article>`; }
-
-function questionView(question, selectedAnswer) {
-  const selection = selectedAnswer ? `<p class="selection-note">اختيارك محفوظ: ${escapeHtml(selectedAnswer)}</p>` : '';
-  if (question.visualVerificationStatus !== 'verified') return '';
-  return `<article class="question-card"><p class="question-status">لا يتوفر مفتاح إجابة موثوق حاليًا.</p><h2 dir="auto">${escapeHtml(question.questionText)}</h2>${question.options.length ? `<div class="options">${question.options.map((option) => `<button class="option ${selectedAnswer === option.selectionId ? 'selected' : ''}" data-answer="${escapeHtml(option.selectionId)}" data-question="${question.id}">${option.label ? `<b>${escapeHtml(option.label)}</b>` : ''}<span dir="auto">${escapeHtml(option.text)}</span></button>`).join('')}</div>` : ''}${selection}</article>`;
+function modelView(model) {
+  return `<main class="reader-shell">
+    <header class="reader-top">
+      <button class="back-button" data-library>← النماذج</button>
+      <div><p>النموذج ${modelNumber(model)}</p><h1>${escapeHtml(model.title)}</h1><small>${escapeHtml(model.subtitle)}</small></div>
+    </header>
+    <section class="passage-grid">
+      ${model.passages.length ? model.passages.map((passage) => {
+        const item = quizProgress(model.id, passage.id);
+        return `<button class="passage-card" data-open-passage="${passage.id}">
+          <span>${String(passage.order).padStart(2, '0')}</span>
+          <strong>${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</strong>
+          <em>${escapeHtml(passage.externalTitle)}</em>
+          <small>${passage.questions.length} أسئلة · ${item.status === 'completed' ? 'مكتملة' : item.status === 'in-progress' ? 'قيد الحل' : 'لم تبدأ'}</small>
+          <b>ابدأ الاختبار</b>
+        </button>`;
+      }).join('') : '<div class="empty-state"><h2>لا توجد قطع داخل هذا النموذج بعد</h2><p>أرسل القطعة التالية بنفس التنسيق وسأضيفها كاختبار مستقل.</p></div>'}
+    </section>
+  </main>`;
 }
 
-function readerView(reading) {
-  const itemProgress = progressFor(reading.id);
-  const isQuestionTab = state.tab === 'questions';
-  const verifiedQuestions = reading.questions.filter((question) => question.visualVerificationStatus === 'verified');
-  const entries = isQuestionTab ? verifiedQuestions : reading.contentBlocks;
-  const current = entries[Math.min(state.sourceBlock, Math.max(0, entries.length - 1))];
-  const modeNote = settings.mode === 'exam' ? 'لا يبدأ المؤقت إلا للأسئلة التي اكتملت مراجعة خياراتها. لا يتوفر تقييم للإجابات حاليًا.' : settings.mode === 'practice' ? 'يمكن حفظ الاختيار للأسئلة التي تم التحقق من خياراتها، من دون تصحيح أو صوت تقييم.' : 'المحتوى معروض كما حفظ من المصدر، دون إعادة صياغة أو تقييم للإجابات.';
-  const questionContent = current ? questionView(current, itemProgress.answers?.[current.id]) : '<div class="empty-state"><h2>الأسئلة المؤكدة غير متوفرة لهذه القطعة حاليًا</h2><p>المحتوى الأصلي محفوظ، لكنه لا يعرض للطالب قبل اكتمال مراجعة الحدود والخيارات.</p></div>';
-  return `<main class="reader-shell"><header class="reader-top"><button class="back-button" data-back>← قائمة القطع</button><div><p>القطعة ${readingNumber(reading)}</p><h1>${escapeHtml(reading.arabicTitle)}</h1><small>${reading.sourcePages.length} صفحات مصدر · ${statusLabel(itemProgress.status)}</small></div><button class="sound-button" id="sound-toggle">${settings.soundEnabled ? '🔊 الصوت' : '🔇 مكتوم'}</button></header><div class="reader-layout"><aside class="reader-navigation"><h2>الأقسام داخل النموذج</h2><ol>${reading.internalSections.map((section) => `<li>${escapeHtml(section)}</li>`).join('')}</ol><button data-next-reading>${reading.order === 49 ? 'القطعة الأولى ←' : 'القطعة التالية ←'}</button></aside><section class="reader-content"><div class="tabs"><button data-tab="content" class="${state.tab === 'content' ? 'active' : ''}">القطعة</button><button data-tab="questions" class="${isQuestionTab ? 'active' : ''}">الأسئلة${verifiedQuestions.length ? ` (${verifiedQuestions.length})` : ''}</button></div><p class="mode-note">${modeNote}</p>${isQuestionTab ? `<div class="source-intro"><strong>الأسئلة المتاحة</strong><p>يعرض الطالب فقط ${verifiedQuestions.length} سؤالًا ثبتت حدودها وخياراتها. المرشحات الأخرى محفوظة داخليًا للمراجعة ولا تظهر هنا. لا يوجد مفتاح إجابة.</p></div>${questionContent}` : (current ? sourceBlock(current) : '<div class="empty-state"><h2>لا توجد كتلة مصدر متاحة</h2></div>')}${entries.length ? `<footer class="block-navigation"><button data-block="previous" ${state.sourceBlock === 0 ? 'disabled' : ''}>السابق</button><span>${isQuestionTab ? `السؤال ${state.sourceBlock + 1} من ${entries.length}` : `${state.sourceBlock + 1} / ${entries.length}`}</span><button data-block="next" ${state.sourceBlock >= entries.length - 1 ? 'disabled' : ''}>التالي</button></footer>` : ''}</section></div></main>`;
+function quizView(model, passage) {
+  const item = quizProgress(model.id, passage.id);
+  const answered = Object.keys(item.answers ?? {}).length;
+  return `<main class="quiz-shell">
+    <header class="quiz-top">
+      <button class="back-button" data-model>← قطع النموذج</button>
+      <div><p>${escapeHtml(model.title)}</p><h1>${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</h1><small>${escapeHtml(passage.externalTitle)}</small></div>
+      <strong>${answered} / ${passage.questions.length}</strong>
+    </header>
+    <section class="quiz-list">
+      ${passage.questions.map((question) => `<article class="quiz-question">
+        <h2><span>${question.number}</span>${escapeHtml(question.question)}</h2>
+        <div class="quiz-options">
+          ${displayedOptions(question).map((option) => `<button class="quiz-option ${item.answers?.[question.id] === option.id ? 'selected' : ''}" data-question="${question.id}" data-option="${option.id}">
+            ${escapeHtml(option.text)}
+          </button>`).join('')}
+        </div>
+      </article>`).join('')}
+    </section>
+    <footer class="quiz-actions">
+      <button data-reset-quiz>إعادة الاختبار</button>
+      <button class="primary-action" data-submit-quiz ${answered < passage.questions.length ? 'disabled' : ''}>إنهاء الاختبار</button>
+    </footer>
+  </main>`;
 }
 
-function render() { app.innerHTML = state.selectedId ? readerView(readingsById.get(state.selectedId)) : libraryView(); const filter = document.querySelector('#status-filter'); if (filter) filter.value = state.filter; }
+function resultView(model, passage) {
+  const item = quizProgress(model.id, passage.id);
+  const correct = passage.questions.filter((question) => question.options.find((option) => option.id === item.answers?.[question.id])?.isCorrect).length;
+  const unanswered = passage.questions.filter((question) => !item.answers?.[question.id]).length;
+  const wrong = passage.questions.length - correct - unanswered;
+  const percentage = Math.round((correct / passage.questions.length) * 100);
+  return `<main class="quiz-shell">
+    <header class="quiz-top">
+      <button class="back-button" data-model>← قطع النموذج</button>
+      <div><p>نتيجة الاختبار</p><h1>${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</h1><small>${escapeHtml(model.title)}</small></div>
+      <strong>${correct} / ${passage.questions.length}</strong>
+    </header>
+    <section class="result-summary">
+      <div><strong>${percentage}%</strong><span>النسبة</span></div>
+      <div><strong>${correct}</strong><span>صحيح</span></div>
+      <div><strong>${wrong}</strong><span>خطأ</span></div>
+      <div><strong>${unanswered}</strong><span>غير مجاب</span></div>
+    </section>
+    <section class="quiz-list review-mode">
+      ${passage.questions.map((question) => {
+        const selectedId = item.answers?.[question.id];
+        return `<article class="quiz-question">
+          <h2><span>${question.number}</span>${escapeHtml(question.question)}</h2>
+          <div class="quiz-options">
+            ${displayedOptions(question).map((option) => `<div class="quiz-option ${option.isCorrect ? 'correct' : ''} ${selectedId === option.id && !option.isCorrect ? 'wrong' : ''}">
+              ${escapeHtml(option.text)}
+            </div>`).join('')}
+          </div>
+        </article>`;
+      }).join('')}
+    </section>
+    <footer class="quiz-actions">
+      <button data-reset-quiz>إعادة الاختبار</button>
+      <button class="primary-action" data-model>العودة للقطع</button>
+    </footer>
+  </main>`;
+}
+
+function currentModel() {
+  return models.find((model) => model.id === state.selectedModelId);
+}
+
+function currentPassage(model = currentModel()) {
+  return model?.passages.find((passage) => passage.id === state.selectedPassageId);
+}
+
+function render() {
+  const model = currentModel();
+  const passage = currentPassage(model);
+  if (state.view === 'model' && model) app.innerHTML = modelView(model);
+  else if (state.view === 'quiz' && model && passage) app.innerHTML = quizView(model, passage);
+  else if (state.view === 'result' && model && passage) app.innerHTML = resultView(model, passage);
+  else app.innerHTML = libraryView();
+}
+
 let debounce;
-app.addEventListener('input', (event) => { if (event.target.id === 'search') { clearTimeout(debounce); debounce = setTimeout(() => { state.query = event.target.value; render(); }, 250); } });
-app.addEventListener('change', (event) => { if (event.target.id === 'status-filter') { state.filter = event.target.value; render(); } });
+app.addEventListener('input', (event) => {
+  if (event.target.id !== 'search') return;
+  clearTimeout(debounce);
+  debounce = setTimeout(() => {
+    state.query = event.target.value;
+    render();
+  }, 200);
+});
+
 app.addEventListener('click', (event) => {
-  const opener = event.target.closest('[data-open]'); if (opener) { state.selectedId = opener.dataset.open; state.tab = 'content'; state.sourceBlock = 0; setProgress(state.selectedId, { status: 'in-progress', answers: progressFor(state.selectedId).answers ?? {} }); render(); return; }
-  const mode = event.target.closest('[data-mode]'); if (mode) { settings.mode = mode.dataset.mode; saveSettings(); render(); return; }
-  if (event.target.closest('#sound-toggle')) { settings.soundEnabled = !settings.soundEnabled; saveSettings(); render(); return; }
-  if (event.target.closest('[data-back]')) { state.selectedId = null; render(); return; }
-  const tab = event.target.closest('[data-tab]'); if (tab) { state.tab = tab.dataset.tab; state.sourceBlock = 0; render(); return; }
-  const answer = event.target.closest('[data-answer]'); if (answer) { const current = progressFor(state.selectedId); setProgress(state.selectedId, { answers: { ...(current.answers ?? {}), [answer.dataset.question]: answer.dataset.answer } }); render(); return; }
-  const block = event.target.closest('[data-block]'); if (block) { const reading = readingsById.get(state.selectedId); const max = (state.tab === 'questions' ? reading.questions.filter((question) => question.visualVerificationStatus === 'verified') : reading.contentBlocks).length - 1; state.sourceBlock = Math.max(0, Math.min(max, state.sourceBlock + (block.dataset.block === 'next' ? 1 : -1))); render(); return; }
-  if (event.target.closest('[data-next-reading]')) { const reading = readingsById.get(state.selectedId); state.selectedId = readings[reading.order % readings.length].id; state.tab = 'content'; state.sourceBlock = 0; setProgress(state.selectedId, { status: 'in-progress' }); render(); return; }
-  if (event.target.closest('#clear-search')) { state.query = ''; render(); }
+  const modelButton = event.target.closest('[data-open-model]');
+  if (modelButton) {
+    state = { ...state, view: 'model', selectedModelId: modelButton.dataset.openModel, selectedPassageId: null };
+    render();
+    return;
+  }
+
+  const passageButton = event.target.closest('[data-open-passage]');
+  if (passageButton) {
+    state = { ...state, view: 'quiz', selectedPassageId: passageButton.dataset.openPassage };
+    const passage = currentPassage();
+    setQuizProgress(state.selectedModelId, passage.id, { ...quizProgress(state.selectedModelId, passage.id), status: 'in-progress' });
+    render();
+    return;
+  }
+
+  const optionButton = event.target.closest('[data-option]');
+  if (optionButton) {
+    const item = quizProgress(state.selectedModelId, state.selectedPassageId);
+    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers: { ...(item.answers ?? {}), [optionButton.dataset.question]: optionButton.dataset.option }, status: 'in-progress' });
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-submit-quiz]')) {
+    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...quizProgress(state.selectedModelId, state.selectedPassageId), status: 'completed' });
+    state.view = 'result';
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-reset-quiz]')) {
+    setQuizProgress(state.selectedModelId, state.selectedPassageId, { answers: {}, status: 'not-started' });
+    state.view = 'quiz';
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-model]')) {
+    state.view = 'model';
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-library]')) {
+    state = { ...state, view: 'library', selectedModelId: null, selectedPassageId: null };
+    render();
+  }
 });
 
 render();
