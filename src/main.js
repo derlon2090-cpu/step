@@ -129,18 +129,24 @@ function quizView(model, passage) {
       <strong>${answered} / ${passage.questions.length}</strong>
     </header>
     <section class="quiz-list">
-      ${passage.questions.map((question) => `<article class="quiz-question">
+      ${passage.questions.map((question) => {
+        const selectedId = item.answers?.[question.id];
+        const selectedOption = question.options.find((option) => option.id === selectedId);
+        const answeredCorrectly = selectedOption?.isCorrect;
+        return `<article class="quiz-question ${selectedId ? answeredCorrectly ? 'answered-correct' : 'answered-wrong' : ''}">
         <div class="question-tools">
           <button data-toggle-translation="${question.id}">${state.translationQuestionId === question.id ? 'إخفاء ترجمة الكلمات' : 'ترجمة الكلمات'}</button>
           ${state.translationQuestionId === question.id && state.translatedWords[question.id] ? `<strong>${escapeHtml(state.translatedWords[question.id])}: ${escapeHtml(wordMeaning(state.translatedWords[question.id]))}</strong>` : '<small>اضغط على أي كلمة إنجليزية في السؤال لمعرفة معناها.</small>'}
         </div>
         <h2><span>${question.number}</span><b>${renderQuestionText(question)}</b></h2>
         <div class="quiz-options">
-          ${displayedOptions(question).map((option) => `<button class="quiz-option ${item.answers?.[question.id] === option.id ? 'selected' : ''}" data-question="${question.id}" data-option="${option.id}">
+          ${displayedOptions(question).map((option) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && option.isCorrect ? 'correct' : ''} ${selectedId === option.id && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}">
             ${escapeHtml(option.text)}
           </button>`).join('')}
         </div>
-      </article>`).join('')}
+        ${selectedId ? answeredCorrectly ? '<p class="answer-note correct-note">صحيح، إجابتك ممتازة.</p>' : `<div class="answer-note wrong-note"><strong>غير صحيح. الحل الصحيح: ${escapeHtml(question.correctAnswer)}</strong><p>${escapeHtml(question.explanation)}</p></div>` : ''}
+      </article>`;
+      }).join('')}
     </section>
     <footer class="quiz-actions">
       <button data-reset-quiz>إعادة الاختبار</button>
@@ -184,7 +190,7 @@ function resultView(model, passage) {
       }).join('')}
     </section>
     <footer class="quiz-actions">
-      <button data-reset-quiz>إعادة الاختبار</button>
+      <button class="primary-action" data-reset-quiz>معاودة الاختبار</button>
       <button class="primary-action" data-model>العودة للقطع</button>
     </footer>
   </main>`;
