@@ -1,0 +1,674 @@
+{
+  "readingId": "reading-12",
+  "sourcePages": [
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147
+  ],
+  "sourcePageRange": {
+    "start": 138,
+    "end": 147
+  },
+  "visualQuestionReviewStatus": "in_progress",
+  "firstReviewStatus": "in_progress",
+  "secondReviewStatus": "not_started",
+  "questions": [
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 1,
+      "questionText": "What is paragraph 2 talking about?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        139
+      ],
+      "sourceBlockIds": [
+        "page-139-line-14"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 2,
+      "questionText": "Who suggested using Miswak?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        139
+      ],
+      "sourceBlockIds": [
+        "page-139-line-16"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 3,
+      "questionText": "What does Miswak contain?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        140
+      ],
+      "sourceBlockIds": [
+        "page-140-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 4,
+      "questionText": "Who used Miswak?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        140
+      ],
+      "sourceBlockIds": [
+        "page-140-line-5"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 5,
+      "questionText": "Why do Muslims regularly use it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        140
+      ],
+      "sourceBlockIds": [
+        "page-140-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 6,
+      "questionText": "Paragraph (1) What is he talking about?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        140
+      ],
+      "sourceBlockIds": [
+        "page-140-line-10"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 7,
+      "questionText": "How did these islands at the surface of the water?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        140
+      ],
+      "sourceBlockIds": [
+        "page-140-line-12"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 8,
+      "questionText": "What can cause a volcanic eruption?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        141
+      ],
+      "sourceBlockIds": [
+        "page-141-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 9,
+      "questionText": "The \"undecided\" word tsunamis probably mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        141
+      ],
+      "sourceBlockIds": [
+        "page-141-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 10,
+      "questionText": "\" piles \" what does it mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        141
+      ],
+      "sourceBlockIds": [
+        "page-141-line-10"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 11,
+      "questionText": "Meaning of the word (.....)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        141
+      ],
+      "sourceBlockIds": [
+        "page-141-line-12"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 12,
+      "questionText": "Comparing between mountains and hills?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        142
+      ],
+      "sourceBlockIds": [
+        "page-142-line-4"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 13,
+      "questionText": "How much of the earth's surface do mountains cover?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        142
+      ],
+      "sourceBlockIds": [
+        "page-142-line-6"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 14,
+      "questionText": "What is true?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        143
+      ],
+      "sourceBlockIds": [
+        "page-143-line-6"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 15,
+      "questionText": "What did the second scientist do?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        143
+      ],
+      "sourceBlockIds": [
+        "page-143-line-11"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 16,
+      "questionText": "Which English dialect was similar to the one in the Cape?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        143
+      ],
+      "sourceBlockIds": [
+        "page-143-line-14"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 17,
+      "questionText": "What word best describes the history of the English language at South Africa?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        143
+      ],
+      "sourceBlockIds": [
+        "page-143-line-24"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 18,
+      "questionText": "How did English reach South Africa?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        144
+      ],
+      "sourceBlockIds": [
+        "page-144-line-9"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 19,
+      "questionText": "Who are those who colonized Africa in ancient times?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        144
+      ],
+      "sourceBlockIds": [
+        "page-144-line-11"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 20,
+      "questionText": "The pronoun \" it \" refers to what?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        144
+      ],
+      "sourceBlockIds": [
+        "page-144-line-13"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 21,
+      "questionText": "What did you understand from the first paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        144
+      ],
+      "sourceBlockIds": [
+        "page-144-line-16"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 22,
+      "questionText": "What did Professor Mohammed Younus do for the poor?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        144
+      ],
+      "sourceBlockIds": [
+        "page-144-line-21"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 23,
+      "questionText": "What makes milk production more?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        145
+      ],
+      "sourceBlockIds": [
+        "page-145-line-4"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 24,
+      "questionText": "What is topic of paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        145
+      ],
+      "sourceBlockIds": [
+        "page-145-line-6"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 25,
+      "questionText": "What's the suitable title?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        145
+      ],
+      "sourceBlockIds": [
+        "page-145-line-8"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 26,
+      "questionText": "What's the benefit of showing dogs some videos?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        145
+      ],
+      "sourceBlockIds": [
+        "page-145-line-10"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 27,
+      "questionText": "What causes anemia?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        145
+      ],
+      "sourceBlockIds": [
+        "page-145-line-21"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 28,
+      "questionText": "Graphite is made of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        146
+      ],
+      "sourceBlockIds": [
+        "page-146-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 29,
+      "questionText": "What does transfigure mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        146
+      ],
+      "sourceBlockIds": [
+        "page-146-line-9"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 30,
+      "questionText": "Where does he work?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        146
+      ],
+      "sourceBlockIds": [
+        "page-146-line-11"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 31,
+      "questionText": "What did scientists discover about the death of penguins?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        146
+      ],
+      "sourceBlockIds": [
+        "page-146-line-16"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 32,
+      "questionText": "What is the correct sentence?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        147
+      ],
+      "sourceBlockIds": [
+        "page-147-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 33,
+      "questionText": "What can we understand from the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        147
+      ],
+      "sourceBlockIds": [
+        "page-147-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-12",
+      "sourceQuestionNumber": null,
+      "displayOrder": 34,
+      "questionText": "The word winner in this passage refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        147
+      ],
+      "sourceBlockIds": [
+        "page-147-line-11"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    }
+  ],
+  "duplicateTechnicalRecordsRemoved": 0,
+  "reviewNotes": [
+    "A source-traceable geometry worklist was staged for visual review. No item was automatically approved and no answer key was created."
+  ]
+}

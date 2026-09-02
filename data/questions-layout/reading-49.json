@@ -1,0 +1,1181 @@
+{
+  "readingId": "reading-49",
+  "questions": [
+    {
+      "id": "reading-49-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "1- Who is America’s leading export partner?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        649
+      ],
+      "sourceBlockIds": [
+        "page-649-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 167.33,
+        "x0": 14.16,
+        "x1": 269.66
+      }
+    },
+    {
+      "id": "reading-49-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "2- What was China’s total world trade share in 2003?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        649
+      ],
+      "sourceBlockIds": [
+        "page-649-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 285.32,
+        "x0": 14.16,
+        "x1": 321.54
+      }
+    },
+    {
+      "id": "reading-49-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "3- Which country is a member of the Central European Free Trade Association?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        649
+      ],
+      "sourceBlockIds": [
+        "page-649-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 403.28,
+        "x0": 14.16,
+        "x1": 472.12
+      }
+    },
+    {
+      "id": "reading-49-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "bed in the morning! Where does energy in living systems come from?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        649
+      ],
+      "sourceBlockIds": [
+        "page-649-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 629.98,
+        "x0": 14.16,
+        "x1": 561.58
+      }
+    },
+    {
+      "id": "reading-49-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "does the energy in this food come from?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        649
+      ],
+      "sourceBlockIds": [
+        "page-649-line-31"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 707.14,
+        "x0": 14.16,
+        "x1": 549.78
+      }
+    },
+    {
+      "id": "reading-49-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "4- Why are autotrophs known as primary producers?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        650
+      ],
+      "sourceBlockIds": [
+        "page-650-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 136.49,
+        "x0": 14.16,
+        "x1": 321.2
+      }
+    },
+    {
+      "id": "reading-49-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "7- What do psychologists do to help people who are unhappy in their lives?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        651
+      ],
+      "sourceBlockIds": [
+        "page-651-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 171.65,
+        "x0": 14.16,
+        "x1": 451.33
+      }
+    },
+    {
+      "id": "reading-49-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "9- Which word can we use to replace the word “But” in paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        651
+      ],
+      "sourceBlockIds": [
+        "page-651-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 407.48,
+        "x0": 14.16,
+        "x1": 422.5
+      }
+    },
+    {
+      "id": "reading-49-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "10- What does the writer think about our knowledge of psychology?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        651
+      ],
+      "sourceBlockIds": [
+        "page-651-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 525.46,
+        "x0": 14.16,
+        "x1": 410.5
+      }
+    },
+    {
+      "id": "reading-49-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "11- How many people traveled for leisure?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        652
+      ],
+      "sourceBlockIds": [
+        "page-652-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 483.34,
+        "x0": 14.16,
+        "x1": 261.82
+      }
+    },
+    {
+      "id": "reading-49-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "12- Which year had the most pilgrims from outside Saudi Arabia?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        653
+      ],
+      "sourceBlockIds": [
+        "page-653-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 483.34,
+        "x0": 14.16,
+        "x1": 392.45
+      }
+    },
+    {
+      "id": "reading-49-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "10)Can California find a less toxic way to raise 90 percent of the nation’s fresh strawberries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        655
+      ],
+      "sourceBlockIds": [
+        "page-655-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.72,
+        "x0": 14.16,
+        "x1": 576.79
+      }
+    },
+    {
+      "id": "reading-49-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "13- What are two plant pathogens that harm strawberries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        655
+      ],
+      "sourceBlockIds": [
+        "page-655-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 584.38,
+        "x0": 14.16,
+        "x1": 357.78
+      }
+    },
+    {
+      "id": "reading-49-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "14- Between which years did organic strawberry production rise by fivefold?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        655
+      ],
+      "sourceBlockIds": [
+        "page-655-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 702.37,
+        "x0": 14.16,
+        "x1": 457.63
+      }
+    },
+    {
+      "id": "reading-49-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "17- What are two words that the writer uses to mean “Find out”?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        657
+      ],
+      "sourceBlockIds": [
+        "page-657-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 290.96,
+        "x0": 14.16,
+        "x1": 393.84
+      }
+    },
+    {
+      "id": "reading-49-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "18- How is the writer’s view about plane crash risk different from the general belief?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        657
+      ],
+      "sourceBlockIds": [
+        "page-657-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 408.92,
+        "x0": 14.16,
+        "x1": 504.79
+      }
+    },
+    {
+      "id": "reading-49-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "19- According to the passage, which of the following is a fact about most plane crashes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        657
+      ],
+      "sourceBlockIds": [
+        "page-657-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 546.46,
+        "x0": 14.16,
+        "x1": 524.04
+      }
+    },
+    {
+      "id": "reading-49-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "20- What can we understand from the passage about airplane crashes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        657
+      ],
+      "sourceBlockIds": [
+        "page-657-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 664.45,
+        "x0": 14.16,
+        "x1": 426.8
+      }
+    },
+    {
+      "id": "reading-49-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "21- According to the passage, what are kinds of wage taxes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        659
+      ],
+      "sourceBlockIds": [
+        "page-659-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 213.77,
+        "x0": 14.16,
+        "x1": 363.29
+      }
+    },
+    {
+      "id": "reading-49-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "22- According to the passage, which of the following are kinds of excise tax?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        659
+      ],
+      "sourceBlockIds": [
+        "page-659-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 331.64,
+        "x0": 14.16,
+        "x1": 455.43
+      }
+    },
+    {
+      "id": "reading-49-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "public care who’s paying for science?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        660
+      ],
+      "sourceBlockIds": [
+        "page-660-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 301.49,
+        "x0": 14.16,
+        "x1": 179.89
+      }
+    },
+    {
+      "id": "reading-49-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "related?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        661
+      ],
+      "sourceBlockIds": [
+        "page-661-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 62.5
+      }
+    },
+    {
+      "id": "reading-49-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "26- Which of the following is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        661
+      ],
+      "sourceBlockIds": [
+        "page-661-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 208.13,
+        "x0": 14.16,
+        "x1": 251.93
+      }
+    },
+    {
+      "id": "reading-49-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "27- How is the public’s view about funding science different from the industry’s view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        661
+      ],
+      "sourceBlockIds": [
+        "page-661-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 404.72,
+        "x0": 14.16,
+        "x1": 512.38
+      }
+    },
+    {
+      "id": "reading-49-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "28- Which theories believe that a nation’s wealth is the same as its gold and silver?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        662
+      ],
+      "sourceBlockIds": [
+        "page-662-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 455.26,
+        "x0": 14.16,
+        "x1": 495.79
+      }
+    },
+    {
+      "id": "reading-49-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "29- Which of the theories believe that exports should be higher than imports?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        662
+      ],
+      "sourceBlockIds": [
+        "page-662-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 573.1,
+        "x0": 14.16,
+        "x1": 466.51
+      }
+    },
+    {
+      "id": "reading-49-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "30- Which theories believe that countries should have no limits on imports and exports?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        662
+      ],
+      "sourceBlockIds": [
+        "page-662-line-31"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 691.09,
+        "x0": 14.16,
+        "x1": 526.5
+      }
+    },
+    {
+      "id": "reading-49-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "31- According to the passage, what are the heavy metals that affect the growth of algae?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        664
+      ],
+      "sourceBlockIds": [
+        "page-664-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 502.9,
+        "x0": 14.16,
+        "x1": 529.86
+      }
+    },
+    {
+      "id": "reading-49-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "32- What are three things needed for generating radioactive Wastes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        664
+      ],
+      "sourceBlockIds": [
+        "page-664-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 660.25,
+        "x0": 14.16,
+        "x1": 416.4
+      }
+    },
+    {
+      "id": "reading-49-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "33- What are three methods currently used for toxic waste treatment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        665
+      ],
+      "sourceBlockIds": [
+        "page-665-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 424.16
+      }
+    },
+    {
+      "id": "reading-49-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "34- What word other than “analytic content” does the writer use to talk about economic writing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        665
+      ],
+      "sourceBlockIds": [
+        "page-665-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 692.17,
+        "x0": 14.16,
+        "x1": 579.53
+      }
+    },
+    {
+      "id": "reading-49-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "35- Which of the following does the writer say is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        666
+      ],
+      "sourceBlockIds": [
+        "page-666-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 339.84
+      }
+    },
+    {
+      "id": "reading-49-q33",
+      "displayOrder": 33,
+      "sourceQuestionNumber": null,
+      "questionText": "36- What can we understand about economic thought from Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        666
+      ],
+      "sourceBlockIds": [
+        "page-666-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 227.81,
+        "x0": 14.16,
+        "x1": 451.18
+      }
+    },
+    {
+      "id": "reading-49-q34",
+      "displayOrder": 34,
+      "sourceQuestionNumber": null,
+      "questionText": "37- What can we understand about Zhong’s ideas from Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        666
+      ],
+      "sourceBlockIds": [
+        "page-666-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 345.68,
+        "x0": 14.16,
+        "x1": 421.19
+      }
+    },
+    {
+      "id": "reading-49-q35",
+      "displayOrder": 35,
+      "sourceQuestionNumber": null,
+      "questionText": "38- What do passages A and B say about consumer price perceptions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        667
+      ],
+      "sourceBlockIds": [
+        "page-667-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 554.86,
+        "x0": 14.16,
+        "x1": 422.54
+      }
+    },
+    {
+      "id": "reading-49-q36",
+      "displayOrder": 36,
+      "sourceQuestionNumber": null,
+      "questionText": "39- According to passages A and B, what role do marketers play in pricing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        667
+      ],
+      "sourceBlockIds": [
+        "page-667-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 672.85,
+        "x0": 14.16,
+        "x1": 446.14
+      }
+    },
+    {
+      "id": "reading-49-q37",
+      "displayOrder": 37,
+      "sourceQuestionNumber": null,
+      "questionText": "40- Which of the following statements best summarizes pricing strategies from passages A and B?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        668
+      ],
+      "sourceBlockIds": [
+        "page-668-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 580.83
+      }
+    },
+    {
+      "id": "reading-49-q38",
+      "displayOrder": 38,
+      "sourceQuestionNumber": null,
+      "questionText": "\"ocean\" describe?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        668
+      ],
+      "sourceBlockIds": [
+        "page-668-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 561.94,
+        "x0": 14.16,
+        "x1": 119.98
+      }
+    },
+    {
+      "id": "reading-49-q39",
+      "displayOrder": 39,
+      "sourceQuestionNumber": null,
+      "questionText": "2. Which sentence expresses an opinion in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        668
+      ],
+      "sourceBlockIds": [
+        "page-668-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 679.81,
+        "x0": 14.16,
+        "x1": 338.51
+      }
+    },
+    {
+      "id": "reading-49-q40",
+      "displayOrder": 40,
+      "sourceQuestionNumber": null,
+      "questionText": "3. What is the difference between the two described features?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        669
+      ],
+      "sourceBlockIds": [
+        "page-669-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 377.95
+      }
+    },
+    {
+      "id": "reading-49-q41",
+      "displayOrder": 41,
+      "sourceQuestionNumber": null,
+      "questionText": "4. What happens when tectonic plates move apart?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        669
+      ],
+      "sourceBlockIds": [
+        "page-669-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 168.77,
+        "x0": 14.16,
+        "x1": 313.79
+      }
+    },
+    {
+      "id": "reading-49-q42",
+      "displayOrder": 42,
+      "sourceQuestionNumber": null,
+      "questionText": "5. What is formed in the gap between tectonic plates?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        669
+      ],
+      "sourceBlockIds": [
+        "page-669-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 286.76,
+        "x0": 14.16,
+        "x1": 328.85
+      }
+    },
+    {
+      "id": "reading-49-q43",
+      "displayOrder": 43,
+      "sourceQuestionNumber": null,
+      "questionText": "1. How can a team be successful?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        669
+      ],
+      "sourceBlockIds": [
+        "page-669-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 432.7,
+        "x0": 14.16,
+        "x1": 207.67
+      }
+    },
+    {
+      "id": "reading-49-q44",
+      "displayOrder": 44,
+      "sourceQuestionNumber": null,
+      "questionText": "2. What makes a team effective?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        669
+      ],
+      "sourceBlockIds": [
+        "page-669-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 530.98,
+        "x0": 14.16,
+        "x1": 204.74
+      }
+    },
+    {
+      "id": "reading-49-q45",
+      "displayOrder": 45,
+      "sourceQuestionNumber": null,
+      "questionText": "1. According to the passage, what health problem may obesity and anorexia lead to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        669
+      ],
+      "sourceBlockIds": [
+        "page-669-line-35"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 705.13,
+        "x0": 14.16,
+        "x1": 505.85
+      }
+    },
+    {
+      "id": "reading-49-q46",
+      "displayOrder": 46,
+      "sourceQuestionNumber": null,
+      "questionText": "2. According to the passage, what is one possible cause of anorexia?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        670
+      ],
+      "sourceBlockIds": [
+        "page-670-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 409.77
+      }
+    },
+    {
+      "id": "reading-49-q47",
+      "displayOrder": 47,
+      "sourceQuestionNumber": null,
+      "questionText": "3. According to the passage, what does the passage say about obesity in some societies?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        670
+      ],
+      "sourceBlockIds": [
+        "page-670-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 227.81,
+        "x0": 14.16,
+        "x1": 527.08
+      }
+    },
+    {
+      "id": "reading-49-q48",
+      "displayOrder": 48,
+      "sourceQuestionNumber": null,
+      "questionText": "Which store has the higher income?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        670
+      ],
+      "sourceBlockIds": [
+        "page-670-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 393.44,
+        "x0": 14.16,
+        "x1": 222.71
+      }
+    },
+    {
+      "id": "reading-49-q49",
+      "displayOrder": 49,
+      "sourceQuestionNumber": null,
+      "questionText": "2. نع ةعطق sugar research Who found sugar research?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        671
+      ],
+      "sourceBlockIds": [
+        "page-671-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 145.62,
+        "x0": 119.18,
+        "x1": 476.13
+      }
+    }
+  ]
+}

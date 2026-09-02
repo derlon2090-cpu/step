@@ -1,0 +1,773 @@
+{
+  "readingId": "reading-32",
+  "questions": [
+    {
+      "id": "reading-32-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        392
+      ],
+      "sourceBlockIds": [
+        "page-392-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 585.43,
+        "x0": 14.16,
+        "x1": 197.83
+      }
+    },
+    {
+      "id": "reading-32-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        392
+      ],
+      "sourceBlockIds": [
+        "page-392-line-37"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 733.78,
+        "x0": 14.16,
+        "x1": 291.54
+      }
+    },
+    {
+      "id": "reading-32-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer think about the process of separating mixtures?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        393
+      ],
+      "sourceBlockIds": [
+        "page-393-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 272.57,
+        "x0": 14.16,
+        "x1": 379.45
+      }
+    },
+    {
+      "id": "reading-32-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph (2) say about filtering?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        393
+      ],
+      "sourceBlockIds": [
+        "page-393-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 451.99,
+        "x0": 14.16,
+        "x1": 252.84
+      }
+    },
+    {
+      "id": "reading-32-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "Which words can we use to replace the words \"for example\" in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        393
+      ],
+      "sourceBlockIds": [
+        "page-393-line-31"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 645.22,
+        "x0": 14.16,
+        "x1": 429.26
+      }
+    },
+    {
+      "id": "reading-32-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the word \"so\" at the end of Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        394
+      ],
+      "sourceBlockIds": [
+        "page-394-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 96.98,
+        "x0": 14.16,
+        "x1": 370.54
+      }
+    },
+    {
+      "id": "reading-32-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "How does centrifuging solve the problem of separating very small solids from a liquid?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        394
+      ],
+      "sourceBlockIds": [
+        "page-394-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 304.01,
+        "x0": 14.16,
+        "x1": 470.12
+      }
+    },
+    {
+      "id": "reading-32-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        394
+      ],
+      "sourceBlockIds": [
+        "page-394-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 558.67,
+        "x0": 14.4,
+        "x1": 245.11
+      }
+    },
+    {
+      "id": "reading-32-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        394
+      ],
+      "sourceBlockIds": [
+        "page-394-line-37"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 737.98,
+        "x0": 14.4,
+        "x1": 198.07
+      }
+    },
+    {
+      "id": "reading-32-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "In which year is the percentage change the lowest?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        395
+      ],
+      "sourceBlockIds": [
+        "page-395-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 722.62,
+        "x0": 14.16,
+        "x1": 262.25
+      }
+    },
+    {
+      "id": "reading-32-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        396
+      ],
+      "sourceBlockIds": [
+        "page-396-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 101.66,
+        "x0": 14.16,
+        "x1": 220.94
+      }
+    },
+    {
+      "id": "reading-32-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "Which stage of production are hotels an example of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        396
+      ],
+      "sourceBlockIds": [
+        "page-396-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 294.77,
+        "x0": 14.16,
+        "x1": 294.19
+      }
+    },
+    {
+      "id": "reading-32-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea in Paragraph (3) related to the secondary stage of production?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        396
+      ],
+      "sourceBlockIds": [
+        "page-396-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 487.99,
+        "x0": 14.16,
+        "x1": 490.81
+      }
+    },
+    {
+      "id": "reading-32-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea related to jobs in developing countries in Paragraph (5)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        396
+      ],
+      "sourceBlockIds": [
+        "page-396-line-35"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 695.02,
+        "x0": 14.16,
+        "x1": 458.21
+      }
+    },
+    {
+      "id": "reading-32-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea related to the secondary stage of production in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        397
+      ],
+      "sourceBlockIds": [
+        "page-397-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 193.58,
+        "x0": 14.16,
+        "x1": 490.69
+      }
+    },
+    {
+      "id": "reading-32-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "What will lead countries to have a stable population growth?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        398
+      ],
+      "sourceBlockIds": [
+        "page-398-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 83.18,
+        "x0": 14.16,
+        "x1": 332.94
+      }
+    },
+    {
+      "id": "reading-32-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "Why will the population continue to grow in 2050?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        398
+      ],
+      "sourceBlockIds": [
+        "page-398-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 262.61,
+        "x0": 14.16,
+        "x1": 277.56
+      }
+    },
+    {
+      "id": "reading-32-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "What two things can psychoanalysis begin with?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        398
+      ],
+      "sourceBlockIds": [
+        "page-398-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 597.19,
+        "x0": 14.4,
+        "x1": 271.09
+      }
+    },
+    {
+      "id": "reading-32-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "What are two characteristics of traditional psychoanalysis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        399
+      ],
+      "sourceBlockIds": [
+        "page-399-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 85.34,
+        "x0": 14.4,
+        "x1": 325.18
+      }
+    },
+    {
+      "id": "reading-32-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "How many millionaires did Australia lose between 2015 and 2016?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        399
+      ],
+      "sourceBlockIds": [
+        "page-399-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 445.27,
+        "x0": 14.16,
+        "x1": 338.13
+      }
+    },
+    {
+      "id": "reading-32-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "How can statistics be more accurate?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        399
+      ],
+      "sourceBlockIds": [
+        "page-399-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 619.78,
+        "x0": 14.16,
+        "x1": 213.56
+      }
+    },
+    {
+      "id": "reading-32-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the word If in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        400
+      ],
+      "sourceBlockIds": [
+        "page-400-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.36,
+        "x0": 14.16,
+        "x1": 298.74
+      }
+    },
+    {
+      "id": "reading-32-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer think the selected sample should do?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        400
+      ],
+      "sourceBlockIds": [
+        "page-400-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 276.41,
+        "x0": 14.16,
+        "x1": 324.92
+      }
+    },
+    {
+      "id": "reading-32-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the passage say about statistics?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        400
+      ],
+      "sourceBlockIds": [
+        "page-400-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 483.43,
+        "x0": 14.16,
+        "x1": 251.52
+      }
+    },
+    {
+      "id": "reading-32-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Descartes' principle of duality deal with?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        401
+      ],
+      "sourceBlockIds": [
+        "page-401-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 123.86,
+        "x0": 14.16,
+        "x1": 287.74
+      }
+    },
+    {
+      "id": "reading-32-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "What three examples did the structuralists use to explain introspection?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        401
+      ],
+      "sourceBlockIds": [
+        "page-401-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 289.49,
+        "x0": 14.16,
+        "x1": 392.88
+      }
+    },
+    {
+      "id": "reading-32-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "What idea do the words \"with a little help from our cells\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        401
+      ],
+      "sourceBlockIds": [
+        "page-401-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 574.63,
+        "x0": 14.4,
+        "x1": 353.7
+      }
+    },
+    {
+      "id": "reading-32-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from Paragraph (1) about viruses?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        402
+      ],
+      "sourceBlockIds": [
+        "page-402-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.36,
+        "x0": 14.4,
+        "x1": 333.04
+      }
+    },
+    {
+      "id": "reading-32-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        402
+      ],
+      "sourceBlockIds": [
+        "page-402-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 329.33,
+        "x0": 14.4,
+        "x1": 182.41
+      }
+    },
+    {
+      "id": "reading-32-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "What do passages A and B say about a private limited company?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        402
+      ],
+      "sourceBlockIds": [
+        "page-402-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 753.34,
+        "x0": 14.16,
+        "x1": 360.88
+      }
+    },
+    {
+      "id": "reading-32-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "What do passages A and B say about the shareholders of a private limited company?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        403
+      ],
+      "sourceBlockIds": [
+        "page-403-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 221.18,
+        "x0": 14.16,
+        "x1": 466.86
+      }
+    },
+    {
+      "id": "reading-32-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "What do passages A and B say about a private limited company obtaining capital investment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        403
+      ],
+      "sourceBlockIds": [
+        "page-403-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 414.41,
+        "x0": 14.16,
+        "x1": 512.15
+      }
+    }
+  ]
+}

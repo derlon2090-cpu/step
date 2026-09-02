@@ -1,0 +1,509 @@
+{
+  "readingId": "reading-27",
+  "questions": [
+    {
+      "id": "reading-27-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "By 1801, what was the population of Manchester?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        333
+      ],
+      "sourceBlockIds": [
+        "page-333-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 110.97,
+        "x0": 14.4,
+        "x1": 324.11
+      }
+    },
+    {
+      "id": "reading-27-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "Who owned the new factories, mines, and railroads?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        333
+      ],
+      "sourceBlockIds": [
+        "page-333-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 336.36,
+        "x0": 14.4,
+        "x1": 339.69
+      }
+    },
+    {
+      "id": "reading-27-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "Which group of people benefited most from the Industrial Revolution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        333
+      ],
+      "sourceBlockIds": [
+        "page-333-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 561.86,
+        "x0": 14.4,
+        "x1": 443.94
+      }
+    },
+    {
+      "id": "reading-27-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        334
+      ],
+      "sourceBlockIds": [
+        "page-334-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 110.97,
+        "x0": 14.4,
+        "x1": 228.75
+      }
+    },
+    {
+      "id": "reading-27-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        334
+      ],
+      "sourceBlockIds": [
+        "page-334-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 320.28,
+        "x0": 14.4,
+        "x1": 338.11
+      }
+    },
+    {
+      "id": "reading-27-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        334
+      ],
+      "sourceBlockIds": [
+        "page-334-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 545.66,
+        "x0": 14.4,
+        "x1": 338.11
+      }
+    },
+    {
+      "id": "reading-27-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        335
+      ],
+      "sourceBlockIds": [
+        "page-335-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 101.85,
+        "x0": 14.4,
+        "x1": 283.72
+      }
+    },
+    {
+      "id": "reading-27-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        335
+      ],
+      "sourceBlockIds": [
+        "page-335-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 311.16,
+        "x0": 14.4,
+        "x1": 228.75
+      }
+    },
+    {
+      "id": "reading-27-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "According to the graph, how many gallons of coffee did people drink in 1950?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        336
+      ],
+      "sourceBlockIds": [
+        "page-336-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.4,
+        "x1": 492.93
+      }
+    },
+    {
+      "id": "reading-27-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "According to the graph, in what year was coffee drinking the lowest in the U.S?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        336
+      ],
+      "sourceBlockIds": [
+        "page-336-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 262.8,
+        "x0": 14.4,
+        "x1": 502.09
+      }
+    },
+    {
+      "id": "reading-27-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "How do most Americans deal with unexpected costs?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        336
+      ],
+      "sourceBlockIds": [
+        "page-336-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 518.9,
+        "x0": 14.4,
+        "x1": 345.74
+      }
+    },
+    {
+      "id": "reading-27-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the word also in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        336
+      ],
+      "sourceBlockIds": [
+        "page-336-line-35"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 712.13,
+        "x0": 14.4,
+        "x1": 364.49
+      }
+    },
+    {
+      "id": "reading-27-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "Which expression can we use to replace the expression due to in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        337
+      ],
+      "sourceBlockIds": [
+        "page-337-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 198.45,
+        "x0": 14.4,
+        "x1": 515.38
+      }
+    },
+    {
+      "id": "reading-27-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "How does the writer feel about unnecessary shopping?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        337
+      ],
+      "sourceBlockIds": [
+        "page-337-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 407.76,
+        "x0": 14.4,
+        "x1": 355.25
+      }
+    },
+    {
+      "id": "reading-27-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer say about personal debts in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        337
+      ],
+      "sourceBlockIds": [
+        "page-337-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 633.17,
+        "x0": 14.4,
+        "x1": 415.87
+      }
+    },
+    {
+      "id": "reading-27-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "problems?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        339
+      ],
+      "sourceBlockIds": [
+        "page-339-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 119.49,
+        "x0": 14.4,
+        "x1": 79.91
+      }
+    },
+    {
+      "id": "reading-27-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What two things can psychoanalysis begin with?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        339
+      ],
+      "sourceBlockIds": [
+        "page-339-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 343.68,
+        "x0": 14.4,
+        "x1": 314.01
+      }
+    },
+    {
+      "id": "reading-27-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "What are two characteristics of traditional psychoanalysis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        339
+      ],
+      "sourceBlockIds": [
+        "page-339-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 602.9,
+        "x0": 14.4,
+        "x1": 376.8
+      }
+    },
+    {
+      "id": "reading-27-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "What two phrases does the writer use to say that deserts have few people?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        340
+      ],
+      "sourceBlockIds": [
+        "page-340-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 110.97,
+        "x0": 14.4,
+        "x1": 480.47
+      }
+    },
+    {
+      "id": "reading-27-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        340
+      ],
+      "sourceBlockIds": [
+        "page-340-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 336.36,
+        "x0": 14.4,
+        "x1": 210.44
+      }
+    },
+    {
+      "id": "reading-27-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about desert species?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        340
+      ],
+      "sourceBlockIds": [
+        "page-340-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 561.86,
+        "x0": 14.4,
+        "x1": 310.07
+      }
+    }
+  ]
+}

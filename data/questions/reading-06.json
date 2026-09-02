@@ -1,0 +1,555 @@
+{
+  "readingId": "reading-06",
+  "sourceQuestionBlocks": 10,
+  "questions": [
+    {
+      "id": "reading-06-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "When did the Second World War begin? In 1939",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 65,
+      "sourceLine": 29,
+      "sourcePages": [
+        65,
+        66
+      ],
+      "rawBlock": "When did the Second World War begin?   In 1939 \n1939في عام   متى بدأت الحرب العالمية الثانية؟\n65 \nMore than 25 millionwere killed in it?    iesHow many militar \nكم عدد الجيوش أو العسكريين الذين قتل وا فيها؟    أكثر من 25 مليون ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "Why did the war end in the winter?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 66,
+      "sourceLine": 6,
+      "sourcePages": [
+        66
+      ],
+      "rawBlock": "Why did the war end in the winter?   \nBecause it was too cold in Russia.                                     There were no means to warm. \nNo means to warm for cool atmosphere. \nوممكن يكون لأنهم عملوا اتفاقية موسكو للسلام لإنهاء الحرب \nThe Moscow Peace Treaty was signed in Moscow.   \nProviding food for peopleWhat was the first reforms?     \nما هي الإصلاحات الأولى؟  توفير الطعام للناس  \n .happened ionmore destruct ?   from other wars sWorld War (2) differ   \nالحرب العالمية2) تختلف عن الحروب الأخرى؟حدث المزيد من الدمار.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "Why are modern weapons more destroyed or why equipment shatters a city easily?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 66,
+      "sourceLine": 20,
+      "sourcePages": [
+        66,
+        67
+      ],
+      "rawBlock": "Why are modern weapons more destroyed or why equipment shatters a city easily?  \nare advanced. Because weapons \nلماذا الاسلحة الحديثة أكثر تدمير أو لماذا المعدات تحطم مدينة وحدةبسهولة؟  لأنها أسلحة متقدمة      \nCrime and breaking the law      increased:After the end of the war, which of the following  \nبعد انتهاء الحرب ازدادالآتي:    الجريمة وخرق القانون  \nMore than three wars beforeThe cost of World War 2?  \nتكلفة الحرب العالمية الثانية؟أكثر من ثلاث حروب من قبل  \n- After the war:  \n   problems.with People were busy  \nThey were sad because of the number of dead.\n66 \nThey lost the desire to live. \nReady for an upcoming war \n- بعدالحرب:          \nكان الناس مشغولين بالمشاكل الملحة        كانوا حزينين بسبب عدد القتلى       فقدوا الرغبة في العيش        جاهز للحرب القادمة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "HappenWhat does occur mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 67,
+      "sourceLine": 7,
+      "sourcePages": [
+        67
+      ],
+      "rawBlock": " HappenWhat does     occur     mean?   \nماذا يعني   يقع؟  يحدث  \nstopped. disaster          disaster remained      war:of  ndThe e \nنهاية الحرب:  توقفت الكارثة         استمرت  الكارثة  \n Lack of coal  :  1947  s inrikeSt \nالإضرابات عام1947  :نقص الفحم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "The Moscow Peace TreatyWhat is the best title of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 67,
+      "sourceLine": 17,
+      "sourcePages": [
+        67
+      ],
+      "rawBlock": "The Moscow Peace TreatyWhat is the best title of the passage?    \nما هو العنوان المناسب للقطعة؟  معاهدة موسكو للسلام  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "Six yearsHow long did the world war last?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 67,
+      "sourceLine": 20,
+      "sourcePages": [
+        67,
+        68
+      ],
+      "rawBlock": "Six yearsHow long did the world war last?    \nكم من الوقت استمرت الحرب العالمية؟   ست سنوات  \nMilitary=عسكري          Conflict=صراع         ( Soviet union (USSR=الاتحاد السوفيتي           Invasion=الغزو       Fight =قتال \nMoscow peace Treaty=معاهدة موسكو  للسلام        Defeated=هزيمة      Destruction=تدمير      Weapons=أسلحة      Axis=محور \nAllies=حلفاء           Audience=جمهور           Acceptance=قبول                  Majority=عظمى         Reforms=الاصلاحات\n67 \nثانياً / الراديو في السعودية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What is the best title for the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 68,
+      "sourceLine": 6,
+      "sourcePages": [
+        68
+      ],
+      "rawBlock": "What is the best title for the passage?    \nThe development in Saudi Arabia.                      development made radio cheaper. \nما هو أفضل عنوان للمقطع؟  \nالراديو أرخص  طورجعل الت                       التطور في المملكة العربية السعودية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What is the true from the following?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 68,
+      "sourceLine": 11,
+      "sourcePages": [
+        68
+      ],
+      "rawBlock": "What is the true from the following?             \n A lot of people listen to the radio in cars.    \n60 % percent of listeners are listening while driving vehicles. \n70% are majority young. \nما هي الحقيقة مما يلي؟    أكثر الناس يستمعون إلى الراديو في السيارات     \n يستمع  60٪ من المستمعين أثناء قيادة المركبات   \n70% منهم رجال الاكثرية فيهم شباب Young ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "7 am 9 am 3 pmWhen does Urdu broadcast?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 68,
+      "sourceLine": 19,
+      "sourcePages": [
+        68
+      ],
+      "rawBlock": "7  am      9 am                  3 pmWhen does Urdu broadcast?   \nمتى تبث إذاعةالأردو؟      الساعة  3 مساءً           9  صباحا7  صباحا ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "What does the pronoun \" them \" refer to? Private players",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 68,
+      "sourceLine": 24,
+      "sourcePages": [
+        68
+      ],
+      "rawBlock": "What does the pronoun \" them \" refer to?     Private players \nإلى ماذا يشير الضمير \"هم\"؟ \nlion share\" )نصيب الأسد(  means?  Majority العظمى  النسبة       minority أقلية     lions power      young صغير       ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "Are the English stations few or many? Few",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 68,
+      "sourceLine": 30,
+      "sourcePages": [
+        68,
+        69
+      ],
+      "rawBlock": "Are the English stations few or many?    Few  \nقليل     الإنجليزية قليلة أم كثيرة؟  ذاعات هل الا\n68 \nأسئلة ناقصة تحتاج لإجابة أكيدة \nأكثر من  60 % يستمعون في المركباتVehicles          /70% منهم رجال الاكثرية فيهم شباب Young   \nثالثاً/ خريطةإسطنبول Istanbul Map \nIstanbul, formerly known as Byzantium and Constantinople, is the most populous city in Turkey and \nthe economic, cultural and historical center of the country Istanbul is an intercontinental city in \nEurasia, stretching across the Bosporus (separating Europe and Asia) between the Sea of Marmara \nand the Black Sea. The commercial and historical center is located on the European side and about \none third. \nاسطنبول، المعروفة سابقًا باسم بيزنطة والقسطنطينية،  هي المدينة الأكثر اكتظاظًا بالسكان في تركيا والمركز الاقتصادي والثقافي  \nوالتاريخي للبلاد اسطنبول هي مدينة عابرة للقارات في أوراسيا،  تمتد عبر مضيق البوسفور (الذي يفصل بين أوروبا وآسيا) بين  \nبحر مرمرة والبحر الأسود. يقع المركز التجاري والتاريخي على الجانب الأوروبي وحوالي الثلث  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "ConstantinopleWhat is the old name of Istanbul? or what's called?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 69,
+      "sourceLine": 14,
+      "sourcePages": [
+        69
+      ],
+      "rawBlock": "ConstantinopleWhat is the old name of Istanbul? or what's called?   \nما هو الاسم القديملإسطنبول؟ أو ما يسمى؟   القسطنطينية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "What does the word \" happen \" mean? Occur",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 69,
+      "sourceLine": 16,
+      "sourcePages": [
+        69
+      ],
+      "rawBlock": "What does the word \" happen \" mean?    Occur  \nيقع    ماذا تعني كلمة \"يحدث\"؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "What does the word \" reign \" mean? Rule",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 69,
+      "sourceLine": 19,
+      "sourcePages": [
+        69
+      ],
+      "rawBlock": "What does the word \" reign \" mean?    Rule    \nيحكم    ماذا تعني كلمة \"حكم\"؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What is the best title of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 69,
+      "sourceLine": 22,
+      "sourcePages": [
+        69
+      ],
+      "rawBlock": "What is the best title of the passage?   \nThe civilization of Turkey                                     Othman Empire and Turkish Republic \nالإمبراطورية العثمانية والجمهورية التركية           حضارة تركيا   ما هو أفضل عنوان للمقطع؟  \ninterested in such passage? Culture and tours \nوالجولات  الثقافة المقطع؟ هذا بمثل  مهتم ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What is the goal of the speaker or It seems to be directed to? Historians Geographers Tourists",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 69,
+      "sourceLine": 28,
+      "sourcePages": [
+        69,
+        70
+      ],
+      "rawBlock": "What is the goal of the speaker or It seems to be directed to?  Historians    Geographers       Tourists     \nما هو هدف المتحدث أ يبدو أنه موجه إلى؟    المؤرخون    الجغرافيونالسياح \nCulture=حضارة \nOttoman empire =\nالامبراطورية العثمانية \nTurkish republic eras =\nعصور الجمهورية التركية\n69 \nسببالاختيار في القطعة كانت تتكلم عن أماكن تاريخية من قصور  ونهر ويجب زيارتها  \nما هو  هدف المتحدث؟  سياحي لأنه يتحدث على خطط للجولات.  \nرابعاً / عادات الأ كل  الصحي في اليابان ومقارنتها مع التشيك  \nAs an example, Japan depends on eating large quantities of seafood, which leads to health \ndiseases. Unlike other countries in the Czech Republic, because of the high price of meat and dairy \nproducts, they have eaten vegetables, diseases have become less, and their lives have become \nhealthier. \nكمثال، تعتمد اليابان على تناول كميات كبيرة من المأكولات البحرية، مما يؤدي إلى أمراض صحية . على عكس  \nالدول الأخرى في جمهورية التشيك،  بسبب ارتفاع أسعار اللحوم ومنتجات الألبان، لقد أكلوا الخضار، وأصبحت  \nالأمراض أقل،  وأصبحت حياتهم أكثر صحة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What is the best title for the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 70,
+      "sourceLine": 17,
+      "sourcePages": [
+        70
+      ],
+      "rawBlock": "What is the best title for the passage?    \nThe changing global diet             Health problems                 Healthy eating habits in Japan  \nعادات الأكل الصحية في اليابان         مشاكل صحية      النظام الغذائي العالمي المتغير  ما هو أفضل عنوان للمقطع؟     \nWestern food?     Making health worse in Japan     Making health worse in Japan        heart attack \nطعام غربي؟ جعل الصحة أسوأ في اليابان         جعل الصحة أسوأ في اليابان        في النوبة القلبية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What does the word \" nutritious \" mean? High food value more healthy",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 70,
+      "sourceLine": 24,
+      "sourcePages": [
+        70
+      ],
+      "rawBlock": "What does the word \" nutritious \" mean?      High food value          more healthy  \n     أكثر صحة           غذائية عاليةقيمة           ماذا تعني كلمة \"مغذية\"؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What does the pronoun \" these \" refer to? Meat and dairy products",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 70,
+      "sourceLine": 27,
+      "sourcePages": [
+        70,
+        71
+      ],
+      "rawBlock": "What does the pronoun \" these \" refer to?   Meat and dairy products  \nاللحوم ومنتجات الألبان      إلى ماذا يشير الضمير \"هؤلاء\"؟    \nIn the Czech Republic:  Most people live healthy lives       few people live healthy lives    fewer  \nأقل         عدد قليل من الناس يعيشون حياة صحية          يعيش معظم الناس حياة صحية      التشيك:في جمهورية\n70 \nخامساً / الشخصيات A&B) \nsome very prominent and that is the reason. Type A and B are tow type of personalities why \nthey are so easily identified if you see someone freaking out because they are made time! even \nif the wait is for hurry and impatience seems to be their middle name, wait they walk fast and \nare, they speak fast. Urgency is seen clearly in their personality constantly aware of the \nrunning time. \n Others are also curious as they are not tolerant of people who speak slowly and usually end \nup completing sentences to them! , The other characteristics of a personality are that they feel \nannoyed by small things easily as they ease their strength when they get angry, So it is better \nnot to provoke them, they have high ambitions, they can overcome the competition to achieve \ntheir goal, as they tend to compete with others. \nالبعض بارز جدًا وهذا هو السبب. النوعA وB  نوعان من الشخصيات التي يمكن التعرف عليها بسهولة إذا رأيت شخصًا يشعر \nبالخوف لأنه تم تخصيص وقت له! اسم ، انتظر أنهم يمشون بسرعة وهم يتكلمون بسرعة. ينظر إلى قساوة بوضوح في شخصياتهم  \nيدركون باستمرار وقت التشغيل. \n  البعض الآخر فضول أيضًا لأنهم لا يتسامحون مع الأشخاص الذين يتحدثون ببطء وعادة ما ينتهي بهم الأمر إلى إكمال الجمل لهم! \n، الخصائص الأخرى للشخصية هي أنها تشعر بالانزعاج من الأشياء الصغيرة بسهولة لأنها تخفف قوتها عندما تغضب ، لذلك من  \nالأفضل عدم استفزازهم ، لد يهم طموحات عالية  يمكنهم التغلب على المنافسة لتحقيق هدفهم ، لأنهم يميلون إلى التنافس مع الآخرين  \n.causes sudden deathReducing sleep?  \nتقليل النوم؟يسبب الموت المفاجئ.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "What does the word \" individual\" mean? Separated",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 71,
+      "sourceLine": 27,
+      "sourcePages": [
+        71
+      ],
+      "rawBlock": "What does the word \" individual\"   mean?  Separated \nفصل      \"؟ماذا تعني كلمة   \"فرد  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "Where is most people between A and B? in the middle",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 71,
+      "sourceLine": 30,
+      "sourcePages": [
+        71,
+        72
+      ],
+      "rawBlock": "Where is most people between A and B?  in the middle \nفي المنتصف؟    أين يوجد معظم الناس بين  A و B \n in a rush doing  ?is different from type B, they A Type\n71 \nالنوع أ يختلف عن النوع ب ، هم؟ في عجلة من أمره  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "Balance work and playWhat is our goal?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 72,
+      "sourceLine": 4,
+      "sourcePages": [
+        72
+      ],
+      "rawBlock": "Balance work and playWhat is our goal?  \nما هو هدفنا؟وازن بين العمل واللعب   \nEasy       من السهل hard   X من الصعب \nسادساً / كيف تنظم اجتماعاً  \nإنه الواحد كيف يرتب أفكاره ويخطط قبل الاجتماع ويشكر كل المشاركين فيه.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "How to give up your meeting effectively? Through the agenda of identifying important",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 72,
+      "sourceLine": 10,
+      "sourcePages": [
+        72
+      ],
+      "rawBlock": "How to give up your meeting effectively? Through the agenda of identifying important \npeople \n Choose people with useful ideas with their comments, and thank them, even if the number \nis few \nMost importantly write a post-meeting meeting because it is a summary \nكيف تتخلى عن اجتماعك بفعالية؟ من خلال جدول أعمال تحديد الأشخاص المهمين \n  اختر الأشخاص الذين لديهم أفكار مفيدة مع تعليقاتهم ، وشكرهم ، حتى لو كان الرقم قليلاً  \nالأهم كتابة اجتماع ما بعد الاجتماع لأنه ملخص  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What does the \" remark\" ملاحظة mean? Comment تعليق أو Suspension",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 72,
+      "sourceLine": 24,
+      "sourcePages": [
+        72
+      ],
+      "rawBlock": "What does the \" remark\"  ملاحظة  mean?        Comment  تعليق        أو   Suspension ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What is the main idea? Meeting is planned and organized.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 72,
+      "sourceLine": 27,
+      "sourcePages": [
+        72
+      ],
+      "rawBlock": "What is the main idea?    Meeting is planned and organized. \nالاجتماع مخطط ومنظمما هي الفكرة الرئيسية؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "Who should invite for a meeting? More people People who are necessary",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 72,
+      "sourceLine": 31,
+      "sourcePages": [
+        72,
+        73
+      ],
+      "rawBlock": "Who should invite for a meeting?   More people                 People who are necessary \nضروريونالناس ال    من الناس    المزيد  من يجب أن يدعو لعقد اجتماع؟\n72 \nسابعاً /السوفت وير نظام تشغيل الكمبيوتر  \nInstalling a computer with a computer, such as a printer, is how to install it on a Mac and Windows \nتثبيت جهاز بالكمبيوتر مثلالطابعة، طريقة تثبيتها على جهاز الماك وعلى جهاز الويندوز  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "driver workDevice about?What does the passage talk",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 73,
+      "sourceLine": 11,
+      "sourcePages": [
+        73
+      ],
+      "rawBlock": "driver workDevice    about?What does the passage talk  \nعن ماذاتتحدث القطعة؟    عمل برنامج تشغيل الجهاز  \nThe recent  ?mean )current( word the doesWhat  \nماذا تعني كلمةحالي؟     في الآونة الأخيرة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "modem printer Piece of softwareDevice driver is?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 73,
+      "sourceLine": 19,
+      "sourcePages": [
+        73,
+        74
+      ],
+      "rawBlock": "modem      printer              Piece of softwareDevice driver is?  \nبرنامج تشغيل الجهاز؟قطعة من البرمجيات             طابعة           مودم  \nconnecting to       to computer hardware ConnectThe main function of device driver? \ninternet   \nالوظيفة الرئيسية لبرنامج تشغيل الجهاز؟    الاتصال بجهاز كمبيوتر               الاتصال بالإنترنت  \nقطعة صغيرة ومعنى كلمة  \nEssential    =     necessary\n73 \nثامناً / أم منشغلة مع أطفالها ويقال شخص اسمه محمد  \nقطعة قصيرة تتكلم عن يومها وأنها توقظ ولدها من النوم وتقوم  بأعمال المنزل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "happy sad angry .busy ? personHow is the",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 74,
+      "sourceLine": 6,
+      "sourcePages": [
+        74
+      ],
+      "rawBlock": "happy           sad          angry             .busy ?   personHow is the  \nكيف حال الشخص ؟   مشغولة       سعيدة              حزينة           غاضبة   \n  studying for the children     going shopping    washing floorAn example of housework?    \nsit with her family. \nمثال على الأعمال المنزلية؟   غسيل الأرضية            الدراسة للأطفال            ال ذهاب للتسوق           مع عائلتها   \nتاسعا / المنتجعات Resorts ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-06-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "and activities. food lodgingIt covers resort mean? \"inclusive all\"What does",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 74,
+      "sourceLine": 14,
+      "sourcePages": [
+        74
+      ],
+      "rawBlock": "and activities. food lodgingIt covers resort mean?  \"inclusive all\"What does  \nماذا يعني المنتجع \"الشامل\"؟يغطي السكن الطعام والأنشطة. \nequipment rentalWhich of the following might cost extra?   \nأي مما يلي قد يكلف أكثر؟ تأجير المعدات",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

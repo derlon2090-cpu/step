@@ -1,0 +1,845 @@
+{
+  "readingId": "reading-46",
+  "questions": [
+    {
+      "id": "reading-46-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "24. According to Paragraph (2), why do the Chinese zookeepers want Mei Lan to learn Chinese?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        603
+      ],
+      "sourceBlockIds": [
+        "page-603-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 567.17
+      }
+    },
+    {
+      "id": "reading-46-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "25. According to Paragraph (2), where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        603
+      ],
+      "sourceBlockIds": [
+        "page-603-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 380.0
+      }
+    },
+    {
+      "id": "reading-46-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "26. Who is the author of the new book “Shackles from the deep”?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        604
+      ],
+      "sourceBlockIds": [
+        "page-604-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 206.33,
+        "x0": 14.16,
+        "x1": 396.38
+      }
+    },
+    {
+      "id": "reading-46-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "27. When did the British slave ship sink?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        604
+      ],
+      "sourceBlockIds": [
+        "page-604-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 324.32,
+        "x0": 14.16,
+        "x1": 247.98
+      }
+    },
+    {
+      "id": "reading-46-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "28. Where did the British slave ship sink?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        604
+      ],
+      "sourceBlockIds": [
+        "page-604-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 442.18,
+        "x0": 14.16,
+        "x1": 252.52
+      }
+    },
+    {
+      "id": "reading-46-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "1) What do drug addiction and Parkinson’s disease have in common?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        604
+      ],
+      "sourceBlockIds": [
+        "page-604-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 638.07,
+        "x0": 14.16,
+        "x1": 559.32
+      }
+    },
+    {
+      "id": "reading-46-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "paragraphs (3) and (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        605
+      ],
+      "sourceBlockIds": [
+        "page-605-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 189.53,
+        "x0": 14.16,
+        "x1": 149.14
+      }
+    },
+    {
+      "id": "reading-46-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "paragraphs (1) and (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        605
+      ],
+      "sourceBlockIds": [
+        "page-605-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 327.08,
+        "x0": 14.16,
+        "x1": 149.14
+      }
+    },
+    {
+      "id": "reading-46-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "31. What does the writer want to show by the example of Parkinson’s disease?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        605
+      ],
+      "sourceBlockIds": [
+        "page-605-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 445.06,
+        "x0": 14.16,
+        "x1": 472.85
+      }
+    },
+    {
+      "id": "reading-46-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "32. What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        605
+      ],
+      "sourceBlockIds": [
+        "page-605-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 563.02,
+        "x0": 14.16,
+        "x1": 260.17
+      }
+    },
+    {
+      "id": "reading-46-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "33. What does paragraph (1) say about skin cancer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        606
+      ],
+      "sourceBlockIds": [
+        "page-606-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 353.24,
+        "x0": 14.16,
+        "x1": 314.14
+      }
+    },
+    {
+      "id": "reading-46-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "34. How can scientists avoid destroying healthy cells?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        606
+      ],
+      "sourceBlockIds": [
+        "page-606-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 471.22,
+        "x0": 14.16,
+        "x1": 324.47
+      }
+    },
+    {
+      "id": "reading-46-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "35. Which word or words can we use to replace the word “therefore” in paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        606
+      ],
+      "sourceBlockIds": [
+        "page-606-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 589.18,
+        "x0": 14.16,
+        "x1": 518.88
+      }
+    },
+    {
+      "id": "reading-46-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "36. Why does the writer use the word “However” in paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        606
+      ],
+      "sourceBlockIds": [
+        "page-606-line-35"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 707.05,
+        "x0": 14.16,
+        "x1": 404.15
+      }
+    },
+    {
+      "id": "reading-46-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "37. How does the writer feel about our understanding of cancer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        607
+      ],
+      "sourceBlockIds": [
+        "page-607-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 390.68
+      }
+    },
+    {
+      "id": "reading-46-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "38. What did tourism lead to in Jamaica?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        607
+      ],
+      "sourceBlockIds": [
+        "page-607-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 497.14,
+        "x0": 14.16,
+        "x1": 250.55
+      }
+    },
+    {
+      "id": "reading-46-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "39. What happened to workers that depended on tourism?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        607
+      ],
+      "sourceBlockIds": [
+        "page-607-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 615.01,
+        "x0": 14.16,
+        "x1": 357.23
+      }
+    },
+    {
+      "id": "reading-46-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "42. Which state had the most marriages per 1000 people in 2014?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        608
+      ],
+      "sourceBlockIds": [
+        "page-608-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 578.86,
+        "x0": 14.16,
+        "x1": 395.46
+      }
+    },
+    {
+      "id": "reading-46-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "43. Which state has the fewest divorces rates per 1000 people?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        608
+      ],
+      "sourceBlockIds": [
+        "page-608-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 696.73,
+        "x0": 14.16,
+        "x1": 381.15
+      }
+    },
+    {
+      "id": "reading-46-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "44. In what two areas is Singapore a successful country?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        610
+      ],
+      "sourceBlockIds": [
+        "page-610-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 106.97,
+        "x0": 14.16,
+        "x1": 339.72
+      }
+    },
+    {
+      "id": "reading-46-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "45. What two attractions are found north of the city of Singapore?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        610
+      ],
+      "sourceBlockIds": [
+        "page-610-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 224.93,
+        "x0": 14.16,
+        "x1": 399.5
+      }
+    },
+    {
+      "id": "reading-46-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "46. In the early days, what helped strengthen Singapore’s economy?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        610
+      ],
+      "sourceBlockIds": [
+        "page-610-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 342.8,
+        "x0": 14.16,
+        "x1": 411.13
+      }
+    },
+    {
+      "id": "reading-46-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "47. What was the reason for low rents and tax cuts?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        611
+      ],
+      "sourceBlockIds": [
+        "page-611-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 316.31
+      }
+    },
+    {
+      "id": "reading-46-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "49. Which of the following is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        611
+      ],
+      "sourceBlockIds": [
+        "page-611-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 684.97,
+        "x0": 14.16,
+        "x1": 251.44
+      }
+    },
+    {
+      "id": "reading-46-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "50. How is the modern view of good management different from the traditional view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        612
+      ],
+      "sourceBlockIds": [
+        "page-612-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 514.63
+      }
+    },
+    {
+      "id": "reading-46-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "51. How is the writer’s view of profitability different from Milton Friedman’s view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        612
+      ],
+      "sourceBlockIds": [
+        "page-612-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 495.61
+      }
+    },
+    {
+      "id": "reading-46-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "52. What can we understand from Paragraph (2) about Milton Friedman?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        612
+      ],
+      "sourceBlockIds": [
+        "page-612-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 326.0,
+        "x0": 14.16,
+        "x1": 439.39
+      }
+    },
+    {
+      "id": "reading-46-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "operates?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        612
+      ],
+      "sourceBlockIds": [
+        "page-612-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 483.34,
+        "x0": 14.16,
+        "x1": 72.23
+      }
+    },
+    {
+      "id": "reading-46-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "54. According to Passage A and B, where did the Huns come from?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        613
+      ],
+      "sourceBlockIds": [
+        "page-613-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 550.9,
+        "x0": 14.16,
+        "x1": 399.32
+      }
+    },
+    {
+      "id": "reading-46-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "55. Which group of tribes do both Passages A and B say the Huns attacked?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        613
+      ],
+      "sourceBlockIds": [
+        "page-613-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 668.77,
+        "x0": 14.16,
+        "x1": 450.42
+      }
+    },
+    {
+      "id": "reading-46-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "56. According to Passages A and B, when did Attila’s rule end?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        614
+      ],
+      "sourceBlockIds": [
+        "page-614-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 374.51
+      }
+    },
+    {
+      "id": "reading-46-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "57. According to Passages A and B, which modern day location did the Huns attack?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        614
+      ],
+      "sourceBlockIds": [
+        "page-614-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 498.88
+      }
+    },
+    {
+      "id": "reading-46-q33",
+      "displayOrder": 33,
+      "sourceQuestionNumber": null,
+      "questionText": "bees?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        614
+      ],
+      "sourceBlockIds": [
+        "page-614-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 460.8,
+        "x0": 14.16,
+        "x1": 285.15
+      }
+    },
+    {
+      "id": "reading-46-q34",
+      "displayOrder": 34,
+      "sourceQuestionNumber": null,
+      "questionText": "59. Why are bees important to humans?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        615
+      ],
+      "sourceBlockIds": [
+        "page-615-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 248.49
+      }
+    },
+    {
+      "id": "reading-46-q35",
+      "displayOrder": 35,
+      "sourceQuestionNumber": null,
+      "questionText": "60. Which paragraph describes how the scientists trained the bees?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        615
+      ],
+      "sourceBlockIds": [
+        "page-615-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 406.17
+      }
+    }
+  ]
+}

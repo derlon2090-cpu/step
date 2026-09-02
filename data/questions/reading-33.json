@@ -1,0 +1,613 @@
+{
+  "readingId": "reading-33",
+  "sourceQuestionBlocks": 13,
+  "questions": [
+    {
+      "id": "reading-33-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What was the main function of packaging traditionally?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 405,
+      "sourceLine": 4,
+      "sourcePages": [
+        405
+      ],
+      "rawBlock": "What was the main function of packaging traditionally? \nTo hold and protect the product \nTo increase competition and clutter \nTo design and produce the container \nTo describe the product and make it safe \nما هي الوظيفة الرئيسية للتغليف تقليديا؟ \nلعقد المنتج وحمايته  \nلزيادة المنافسة والفوضى  \nلتصميم وإنتاج الحاوية  \nلوصف المنتج وجعله آمنًا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "How many items does a typical shopper pass by in a minute?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 405,
+      "sourceLine": 17,
+      "sourcePages": [
+        405
+      ],
+      "rawBlock": "How many items does a typical shopper pass by in a minute? \nكم عدد العناصر التي يمر بها المتسوق العادي في دقيقة واحدة؟ \n45000 \n3000 \n300 \n70 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "How many companies is Amazon working with to reduce \"wrap rage\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 405,
+      "sourceLine": 27,
+      "sourcePages": [
+        405
+      ],
+      "rawBlock": "How many companies is Amazon working with to reduce \"wrap rage\"? \nكم عدد الشركات التي تعمل معها أمازون للحد من \"غضب شديد\"؟ \n1 \n2 \n3 \n4 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (4), how did Heinz revolutionize the condiments industry?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 405,
+      "sourceLine": 35,
+      "sourcePages": [
+        405,
+        406
+      ],
+      "rawBlock": "According to Paragraph (4), how did Heinz revolutionize the condiments industry? \nBy increasing sales \nBy changing the ketchup bottle \nBy changing the ketchup recipe \nBy taking marketing inside homes\n405 \nوفقًا للفقرة4) ، كيف أحدثت شركةHeinz ثورة في صناعة التوابل؟ \nعن طريق زيادة المبيعات  \nعن طريق تغيير زجاجة الكاتشب  \nعن طريق تغيير وصفة الكاتشب  \nبأخذ التسويق داخل المنازل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What percentage increase in sales did Heinz make?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 406,
+      "sourceLine": 9,
+      "sourcePages": [
+        406
+      ],
+      "rawBlock": "What percentage increase in sales did Heinz make? \nما هي النسبة المئوية للزيادة في المبيعات التي حققتهاHeinz؟ \n170 \n12 \n1980 \n15 \nMacroeconomics علم الاقتصاد الكلي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What is the writer's main purpose in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 406,
+      "sourceLine": 19,
+      "sourcePages": [
+        406,
+        407
+      ],
+      "rawBlock": "What is the writer's main purpose in the passage? \nTo study government spending \nTo explain how wealth is created and distributed. \nTo describe economic problems. \nTo inform about microeconomics and macroeconomics. \nما هو الهدف الرئيسي للكاتب في المقطع؟ \nلدراسة الإنفاق الحكومي  \nلشرح كيفية تكوين الثروة وتوزيعها.  \nلوصف المشاكل الاقتصادية.  \nللإبلاغ عن الاقتصاد الجزئي والاقتصاد الكلي.  \nWhat is one important idea that the writer mentions about macroeconomics \nIt examines the effect of home prices. \nIt studies national and global economy \nIt teaches us how to start an investment program. \nIt studies decisions made by individuals and businesses. \nما هي إحدى الأفكار المهمة التي يذكرها الكاتب حول الاقتصاد الكلي \nيدرس تأثير أسعار المساكن.  \nيدرس الاقتصاد الوطني والعالمي \nيعلمنا كيف نبدأ برنامج الاستثمار.  \nيدرس القرارات التي يتخذها الأفراد والشركات.\n406 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions about scarcity?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 407,
+      "sourceLine": 2,
+      "sourcePages": [
+        407
+      ],
+      "rawBlock": "What is one important idea that the writer mentions about scarcity? \nlack of resources \nhow wealth is distributed \na result of microeconomics \na choice we make in business only \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب عن الندرة؟ \nقلة الموارد  \nكيف يتم توزيع الثروة  \nنتيجة للاقتصاد الجزئي  \nخيار نتخذه في العمل فقط  \n أنواع  الكتابة Writing genres \nكتابة أكاديميةAcademic writing ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 407,
+      "sourceLine": 19,
+      "sourcePages": [
+        407
+      ],
+      "rawBlock": "What is the main idea of the passage? \nAcademic writing uses different types of writing styles. \nChildren know about descriptive writing in Elementary school. \nThere are four kinds of writing that are used for different reasons. \nPersuasive writing is used when the writer wants to convince his audience. \nما هي الفكرة الرئيسية لهذا المقطع؟ \nتستخدم الكتابة الأكاديمية أنواعًا مختلفة من أساليب الكتابة.  \nيعرف الأطفال عن الكتابة الوصفية في المدرسة الابتدائية.  \nهناك أربعة أنواع من الكتابة تستخدم لأسباب مختلفة.  \nتستخدم الكتابة المقنعة عندما يريد الكاتب إقناع جمهوره.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "What does the paragraph 2 say about expository writing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 407,
+      "sourceLine": 30,
+      "sourcePages": [
+        407
+      ],
+      "rawBlock": "What does the paragraph 2 say about expository writing? \nIt is the best academic type of writing. \nIt includes a writer’s opinion about a subject. \nIt has information about today’s world events. \nIt shows the writer to describe an issue to the reader. \nماذا تقول الفقرة2 عن الكتابة التفسيرية؟ \nإنه أفضل نوع أكاديمي للكتابة.  \nيتضمن رأي الكاتب حول موضوع ما.  \nيحتوي على معلومات حول أحداث العالم اليوم.  \nيُظهر للكاتب أن يصف قضية ما للقارئ.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 407,
+      "sourceLine": 41,
+      "sourcePages": [
+        407,
+        408
+      ],
+      "rawBlock": "Which sentence gives the main idea of Paragraph (3)?\n407 \nDescriptive writing is often found in fiction, though it can make an appearance in nonfiction as well.  \nWhen an author writes in a descriptive style, they are painting a picture in words of a person, place, or thing for their aud ience. \nThe author might employ metaphor or other literary devices in order to describe the author's impressions \nBut the author is not trying to convince the audience of anything or explain the scene  \nما الجملة التي تعطي الفكرة الرئيسية للفقرة3)؟ \nغالبًا ما توجد الكتابة الوصفية في الأدب الخيالي ، على الرغم من أنها يمكن أن تظهر في الأدب الواقعي أيضًا.  \nعندما يكتب المؤلف بأسلوب وصفي ، فإنه يرسم صورة بكلمات شخص أو مكان أو شيء لجمهوره.  \nقد يستخدم المؤلف استعارة أو أدوات أدبية أخرى من أجل وصف انطباعات المؤلف  \nلكن المؤلف لا يحاول إقناع الجمهور بأي شيء أو شرح المشهد  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (3) say about descriptive writing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 408,
+      "sourceLine": 15,
+      "sourcePages": [
+        408
+      ],
+      "rawBlock": "What does Paragraph (3) say about descriptive writing? \nIt deals with paintings and art. \nlt sometimes appears in works of nonfiction. \nIt includes the writer trying to convince the audience. \nIt contains a writer's explanation of the scene for the audience. \nماذا تقول الفقرة3) عن الكتابة الوصفية؟ \nيتعامل مع اللوحات والفن.  \nيظهر في بعض الأحيان في الأعمال الواقعية.  \nيتضمن الكاتب محاولة إقناع الجمهور.  \nيحتوي على شرح الكاتب للمشهد للجمهور.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 408,
+      "sourceLine": 30,
+      "sourcePages": [
+        408,
+        409
+      ],
+      "rawBlock": "Which sentence gives the main idea of Paragraph (4)? \nPersuasive writing is the main style of writing used in academic papers. \nWhen an author writes in a persuasive style, they are trying to convince the audience of a position or belief. \nAny argumentative\" essay written in school should be in the persuasive style of writing  \nPersuasive writing contains the author's opinions and biases, as well as justification and reasons given by the author \nas evidence of the correctness of their position \nما الجملة التي تعطي الفكرة الرئيسية للفقرة4)؟\n408 \nالكتابة المقنعة هي الأسلوب الرئيسي للكتابة المستخدم في الأوراق الأكاديمية \nعندما يكتب المؤلف بأسلوب مقنع ، فإنه يحاول إقناع الجمهور بموقف أو معتقد.  \nيجب أن يكون أي \"مقال جدلي\" مكتوب في المدرسة بأسلوب الكتابة المقنع \nتحتوي الكتابة المقنعة على آراء المؤلف وتحيزاته ، بالإضافة إلى التبرير والأسباب التي قدمها المؤلف كدليل على صحة موقفهم ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (5) say about narrative writing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 409,
+      "sourceLine": 9,
+      "sourcePages": [
+        409
+      ],
+      "rawBlock": "What does Paragraph (5) say about narrative writing? \nIt is only found in fiction. \nIt is usually used in shorter pieces of writing. \nIt creates a story that it shares with the reader. \nIt is a mix of descriptive and persuasive writing. \nماذا تقول الفقرة5) عن الكتابة السردية؟ \nهو موجود فقط في الخيال.  \nوعادة ما تستخدم في قطع أقصر من الكتابة.  \nتخلق قصة تشاركها مع القارئ.  \nإنها مزيج من الكتابة الوصفية والمقنعة.  \nThe impact of culture on marketing strategies تأثير الثقافة على استراتيجيات التسويق  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "What is one important idea about marketing in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 409,
+      "sourceLine": 26,
+      "sourcePages": [
+        409
+      ],
+      "rawBlock": "What is one important idea about marketing in Paragraph (1)? \nconsumers \ncosmetics \nsurprises \ndevices \nما هي إحدى الأفكار المهمة عن التسويق في الفقرة1)؟ \nالمستهلكين  \nمستحضرات التجميل  \nمفاجآت  \nالأجهزة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What is one important idea about offensive behavior in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 409,
+      "sourceLine": 37,
+      "sourcePages": [
+        409,
+        410
+      ],
+      "rawBlock": "What is one important idea about offensive behavior in Paragraph (2)? \nstanding\n409 \nconversation \nface-to-face \nnose-to-nose \nما هي إحدى الأفكار المهمة عن السلوك العدواني في الفقرة2)؟ \nيقف  \nمحادثة  \nوجها لوجه  \nالأنف إلى الأنف  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What is a major difference in bargaining style between American and South American businesspeople?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 410,
+      "sourceLine": 13,
+      "sourcePages": [
+        410
+      ],
+      "rawBlock": "What is a major difference in bargaining style between American and South American businesspeople? \nface-to-face conversations \nlevel of directness \nbedtime habits \npersonal space \nما هو الاختلاف الرئيسي في أسلوب التفاوض بين رجال الأعمال الأمريكيين وأمريكا الجنوبية؟ \nالمحادثات وجها لوجه  \nمستوى الصراحة  \nعادات النوم  \nمساحة شخصية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What makes LG so internationally successful?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 410,
+      "sourceLine": 27,
+      "sourcePages": [
+        410
+      ],
+      "rawBlock": "What makes LG so internationally successful? \nThey sell most of their products abroad. \nThey have knowledge of local market characteristics \nThey spend a lot of money on marketing. \nThey use telecommunications effectively. \nما الذي يجعلLG  ناجحة على المستوى الدولي؟ \nيبيعون معظم منتجاتهم في الخارج.  \nلديهم معرفة بخصائص السوق المحلية  \nإنهم ينفقون الكثير من المال على التسويق.  \nيستخدمون الاتصالات السلكية واللاسلكية بشكل فعال.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 410,
+      "sourceLine": 39,
+      "sourcePages": [
+        410,
+        411
+      ],
+      "rawBlock": "What is the main topic of the passage? \nEach culture has its unique set of business norms and behavior.\n410 \nBusiness brings different nationalities closer together. \nBusiness negotiations with other nationalities are full of surprises. \nCareful attention to cultural differences leads to success in business \nما هو الموضوع الرئيسي للمقطع؟ \nلكل ثقافة مجموعتها الفريدة من معايير العمل والسلوك.  \nيجمع العمل بين الجنسيات المختلفة.  \nالمفاوضات التجارية مع الجنسيات الأخرى مليئة بالمفاجآت.  \nالاهتمام الدقيق بالاختلافات الثقافية يؤدي إلى النجاح في الأعمال التجارية  \nIrish potato famine مجاعة البطاطس الأيرلندية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What does Paragraph 1 say about the Great Hunger?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 411,
+      "sourceLine": 15,
+      "sourcePages": [
+        411
+      ],
+      "rawBlock": "What does Paragraph 1 say about the Great Hunger? \nIt helped improve relations between Ireland and Britain. \nIt made British landowners stop all crop exports outside of Ireland. \nIt brought about a lot of death and made many Irish people leave their country. \nIt helped Prime Minister Gladstone to become the leader of the Irish nationalists. \nماذا تقول الفقرة1 عن الجوع الكبير؟ \nساعد في تحسين العلاقات بين أيرلندا وبريطانيا.  \nجعل ذلك ملاك الأراضي البريطانيين يوقفون جميع صادرات المحاصيل خارج أيرلندا.  \nلقد تسبب في الكثير من الموت ودفع الكثير من الأيرلنديين إلى مغادرة بلادهم.  \nلقد ساعد رئيس الوزراء جلادستون على أن يصبح زعيم القوميين الأيرلنديين.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word \"Yet\" in Paragraph 1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 411,
+      "sourceLine": 27,
+      "sourcePages": [
+        411
+      ],
+      "rawBlock": "Why does the writer use the word \"Yet\" in Paragraph 1)? \nTo prove that the Irish only liked to eat potatoes most of the time \nTo give more information about which crops were sent to Canada \nTo show that crops, like whether and oats, were also affected by disease. \nTo show that British landowners sold good crops while people were hungry. \nلماذا يستخدم الكاتب كلمة \"بعد\" في الفقرة1)؟ \nلإثبات أن الأيرلنديين يحبون أكل البطاطس فقط في معظم الأوقات  \nلإعطاء مزيد من المعلومات حول المحاصيل التي تم إرسالها إلى كندا  \nلتوضيح أن المحاصيل ، مثل الشوفان ، قد تأثرت أيضًا بالأمراض.  \nلإثبات أن ملاك الأراضي البريطانيين باعوا محاصيل جيدة بينما كان الناس جائعين.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "How did the Irish deal with the problems that followed the great Hunger?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 411,
+      "sourceLine": 39,
+      "sourcePages": [
+        411,
+        412
+      ],
+      "rawBlock": "How did the Irish deal with the problems that followed the great Hunger? \nThey stopped paying taxes to the British and built an army.\n411 \nThey passed laws to stop landlords from stealing their crops. \nThey bought oat and wheat crops from nearby European countries. \nThey created the Fenian Brotherhood to fight back against the British. \nكيف تعامل الأيرلنديون مع المشاكل التي أعقبت الجوع الكبير؟ \nتوقفوا عن دفع الضرائب للبريطانيين وأنشأوا جيشًا.  \nأصدروا قوانين لمنع الملاك من سرقة محاصيلهم.  \nقاموا بشراء محاصيل الشوفان والقمح من الدول الأوروبية المجاورة.  \nلقد أنشأوا جماعة الإخوان الفنيين للقتال ضد البريطانيين.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "What does the writer think about the \"Irish question\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 412,
+      "sourceLine": 12,
+      "sourcePages": [
+        412
+      ],
+      "rawBlock": "What does the writer think about the \"Irish question\"? \nHe believes it divided English people and created problems until a solution was found. \nHe believes it created a split between Ireland's northern and southern counties. \nHe believes it helped the British control Ireland's farms and potato crops for a long time. \nHe believes it created bad feelings towards Irish people who supported the Fenian \nBrotherhood. \nما رأي الكاتب في \"السؤال الأيرلندي\"؟ \nيعتقد أنها قسمت الشعب الإنجليزي وخلقت مشاكل حتى تم العثور على حل.  \nويعتقد أنها أحدثت انقسامًا بين مقاطعات إيرلندا الشمالية والجنوبية.  \nويعتقد أنها ساعدت البريطانيين في السيطرة على مزارع أيرلندا ومحاصيل البطاطس لفترة طويلة.  \nويعتقد أن ذلك خلق مشاعر سيئة تجاه الأيرلنديين الذين دعموا جماعة الإخوان المسلمين.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "How did Prime Minister Gladstone deal with the Irish question?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 412,
+      "sourceLine": 25,
+      "sourcePages": [
+        412,
+        413
+      ],
+      "rawBlock": "How did Prime Minister Gladstone deal with the Irish question? \nHe arrested Charles Parnell and other Irish nationalists. \nHe tried to help Irish farmers through new rent and tax laws. \nHe left over a million Irish people to die of hunger and disease. \nHe allowed Irish people to move to the United States and Canada. \nكيف تعامل رئيس الوزراء جلادستون مع المسألة الأيرلندية؟ \nاعتقل تشارلز بارنيل وغيره من القوميين الأيرلنديين.  \nحاول مساعدة المزارعين الأيرلنديين من خلال قوانين الإيجار والضرائب الجديدة.  \nلقد ترك أكثر من مليون إيرلندي يموتون من الجوع والمرض. \nسمح للشعب الأيرلندي بالانتقال إلى الولايات المتحدة وكندا.  \nbacterial diseases أمراض بكتيرية\n412 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What happened because of Louis Pasteur's research about bacteria?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 413,
+      "sourceLine": 2,
+      "sourcePages": [
+        413
+      ],
+      "rawBlock": "What happened because of Louis Pasteur's research about bacteria? \nPeople learned how diseases can start. \nPeople learned how to stop all diseases. \nPeople learned that diseases are common. \nPeople learned that diseases can be made. \nماذا حدث بسبب بحث لويس باستير عن البكتيريا؟ \nتعلم الناس كيف يمكن أن تبدأ الأمراض.  \nتعلم الناس كيفية إيقاف جميع الأمراض.  \nتعلم الناس أن الأمراض شائعة.  \nتعلم الناس أنه يمكن صنع الأمراض.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What do toxins made by one species of bacteria cause?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 413,
+      "sourceLine": 14,
+      "sourcePages": [
+        413
+      ],
+      "rawBlock": "What do toxins made by one species of bacteria cause? \na new kind of lung disease \na disease found in animals \nan ancient type of virus \nan illness that can kill \nما الذي تسببه السموم التي ينتجها نوع واحد من البكتيريا؟ \nنوع جديد من أمراض الرئة  \nمرض موجود في الحيوانات  \nنوع قديم من الفيروسات  \nمرض يمكن أن يقتل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "What is one negative effect of tuberculosis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 413,
+      "sourceLine": 26,
+      "sourcePages": [
+        413,
+        414,
+        415
+      ],
+      "rawBlock": "What is one negative effect of tuberculosis? \nIt can cause deadly diseases \nIt causes damage to body tissue \nIt destroys blood vessels in the body \nlt releases toxins that cause food poisoning \nما هو أحد الآثار السلبية لمرض السل؟ \nيمكن أن يسبب أمراضًا مميتة  \nيسبب تلف أنسجة الجسم  \nيدمر الأوعية الدموية في الجسم  \nلتر يطلق السموم التي تسبب التسمم الغذائي  \nThe word produce in paragraph (3) is closest in meaning to ... \ncreate \ndestroy\n413 \nprevent \nrespect \nكلمة \"إنتاج\" في الفقرة3) هي الأقرب من حيث المعنى إلى \nخلق \nهدم  \nيحول دون  \nاحترام  \nThe word growth in paragraph (4) is closest in meaning to \ndeath \ndecrease \ndescription \ndevelopment \nكلمة النمو في الفقرة4) هي الأقرب من حيث المعنى \nالموت  \nتخفيض  \nوصف  \nتطوير  \nThe word response in paragraph (4) is closest in meaning to \nmemory \nreply \ndelay \nmethod \nكلمة الرد في الفقرة4) هي الأقرب من حيث المعنى \nذاكرة \nالرد \nتأخير  \nطريقة  \nsleep men and women النوم للرجال والنساء رسم بياني\n414 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "Which group has the lowest number of days absent?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 415,
+      "sourceLine": 5,
+      "sourcePages": [
+        415
+      ],
+      "rawBlock": "Which group has the lowest number of days absent? \nMen who sleep between 7 and 8 hours. \nWomen who sleep between 7 and 8 hours. \nMen and women who do not stay up late at night. \nMen and women who sleep at least 8 hours a night \nأي مجموعة لديها أقل عدد أيام غائبة؟ \nالرجال الذين ينامون ما بين 7 و8 ساعات \nالنساء اللواتي ينمن ما بين  7  و8 ساعات \nالرجال والنساء الذين لا يسهرون في وقت متأخر من الليل.  \nالرجال والنساء الذين ينامون  8  ساعات على الأقل في الليلة \nالفراولة في كالفورنيا Strawberries ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "What are two plant pathogens that harm strawberries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 415,
+      "sourceLine": 19,
+      "sourcePages": [
+        415
+      ],
+      "rawBlock": "What are two plant pathogens that harm strawberries? \nما هما مسببات الأمراض النباتية التي تضر بالفراولة؟ \nverticillium dahliae and macrophomina phaseolina \nmethyl bromide and methyl iodide \nmethyl iodide and macrophomina phaseolina \nverticillium dahliac and methyl bromide ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "Between which years did organic strawberry production rise by fivefold?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 415,
+      "sourceLine": 27,
+      "sourcePages": [
+        415,
+        416
+      ],
+      "rawBlock": "Between which years did organic strawberry production rise by fivefold? \nما بين السنوات التي ارتفع فيها إنتاج الفراولة العضوية خمسة أضعاف؟ \n1960 and 2014 \n2005 and 2015 \n2010 and 2012 \n2000 and 2012 \nforensic science علم الطب الشرعي\n415 \nThe word evidence in the passage is closest in meaning to ............. \npeople \nmethods \nfacts \nexperiments \nكلمة الدليل في المقطع هي الأقرب في المعنى إلى \nاشخاص  \nطُرق  \nحقائق  \nالتجارب  \nThe word examining in the passage is closest in meaning to ........... \ncreating \ndestroying \nproving \ntesting \nكلمة فحص في المقطع هي الأقرب في المعنى إلى \nخلق \nتدمير  \nيثبت  \nاختبارات  \nHypnosis التنويم المغناطيسي ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "What can we understand about hypnosis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 416,
+      "sourceLine": 27,
+      "sourcePages": [
+        416
+      ],
+      "rawBlock": "What can we understand about hypnosis? \nEveryone is hypnotizable. \nMost people are hypnotizable. \n20% of people are hypnotizable. \nYoung people are most hypnotizable. \nماذا يمكن أن نفهم عن التنويم المغناطيسي؟ \nكل شخص قابل للتنويم المغناطيسي.  \nمعظم الناس منومون مغناطيسيًا.  \n20% من الناس قابلون للتنويم المغناطيسي \nالشباب هم الأكثر قابلية للتنويم المغناطيسي.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "Which of the following is the writer's opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 416,
+      "sourceLine": 37,
+      "sourcePages": [
+        416,
+        417
+      ],
+      "rawBlock": "Which of the following is the writer's opinion? \nIn hypnosis, the subject is more important than the hypnotist. \nIt is good to be able to focus your attention completely on a task.\n416 \nThe Stanford Hypnotic Susceptibility Scale is a good test. \nEveryone should read novels and watch movies. \nأي مما يلي رأي الكاتب؟ \nفي التنويم المغناطيسي،  يكون الموضوع أكثر أهمية من المنوم المغناطيسي.  \nمن الجيد أن تكون قادرًا على تركيز انتباهك تمامًا على مهمة ما.  \nمقياس ستانفورد للحساسية المنومة هو اختبار جيد.  \nيجب على الجميع قراءة الروايات ومشاهدة الأفلام.  \nLeadership قيادة \nAristocratic leadership القيادة الارستقراطية \nDemocratic leadership القيادة الديمقراطية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "What can we understand from passages A and B about leadership?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 417,
+      "sourceLine": 16,
+      "sourcePages": [
+        417,
+        418
+      ],
+      "rawBlock": "What can we understand from passages A and B about leadership? \nIt results in a satisfied workforce. \nIt requires a person to influence others to work. \nIt becomes more difficult as an organization grows. \nlt requires employees to be dependent on their leader. \nماذا يمكننا أن نفهم من الفقرتين أ و ب عن القيادة؟ \nينتج عنه قوة عاملة راضية.  \nيتطلب الأمر شخصًا للتأثير على الآخرين للعمل.  \nيصبح الأمر أكثر صعوبة مع نمو المنظمة.  \nيتطلب لتر من الموظفين أن يعتمدوا على قائدهم.  \nAccording to passages A and B, what type of communication can take place leadership \nstyles? \ndownward \nlimited \ntwo-way \ninformal \nوفقًا للفقرتين A وB، ما نوع الاتصال الذي يمكن أن يحدث لأساليب القيادة؟  \nإلى أسفل  \nمحدود\n417 \nاتجاهين \nغير رسمي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-33-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "What can we understand from Passages A and B about leadership styles?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 418,
+      "sourceLine": 6,
+      "sourcePages": [
+        418
+      ],
+      "rawBlock": "What can we understand from Passages A and B about leadership styles? \nThey only include downward communication \nThey influence how decisions are made. \nThe leader delegates a great deal. \nWorkers depend on their leaders. \nماذا يمكننا أن نفهم من الفقرتين أ و ب عن أساليب القيادة؟ \nأنها تشمل فقط الاتصال التنازلي \nأنها تؤثر على كيفية اتخاذ القرارات. \nالقائد يفوض الكثير.  \nيعتمد العمال على قادتهم.",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

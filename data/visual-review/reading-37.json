@@ -1,0 +1,32 @@
+{
+  "readingId": "reading-37",
+  "sourcePages": [
+    463,
+    464,
+    465,
+    466,
+    467,
+    468,
+    469,
+    470,
+    471,
+    472,
+    473,
+    474,
+    475,
+    476,
+    477,
+    478,
+    479
+  ],
+  "sourcePageRange": {
+    "start": 463,
+    "end": 479
+  },
+  "visualQuestionReviewStatus": "not_started",
+  "firstReviewStatus": "not_started",
+  "secondReviewStatus": "not_started",
+  "questions": [],
+  "duplicateTechnicalRecordsRemoved": 0,
+  "reviewNotes": []
+}

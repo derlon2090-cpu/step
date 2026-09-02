@@ -1,0 +1,773 @@
+{
+  "readingId": "reading-45",
+  "questions": [
+    {
+      "id": "reading-45-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "24) What does the passage say about Petra?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        586
+      ],
+      "sourceBlockIds": [
+        "page-586-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 655.57,
+        "x0": 14.16,
+        "x1": 271.3
+      }
+    },
+    {
+      "id": "reading-45-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "25) How many types of Atlantic salmon are there?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        587
+      ],
+      "sourceBlockIds": [
+        "page-587-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 682.69,
+        "x0": 14.16,
+        "x1": 305.43
+      }
+    },
+    {
+      "id": "reading-45-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "26) How much does the Atlantic Salmon usually weigh?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        588
+      ],
+      "sourceBlockIds": [
+        "page-588-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 335.56
+      }
+    },
+    {
+      "id": "reading-45-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "27) Which of the following is the largest species of tuna?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        588
+      ],
+      "sourceBlockIds": [
+        "page-588-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 342.36
+      }
+    },
+    {
+      "id": "reading-45-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "28) What is one important idea related to St. Lucia’s landscape that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        588
+      ],
+      "sourceBlockIds": [
+        "page-588-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 671.41,
+        "x0": 14.16,
+        "x1": 531.13
+      }
+    },
+    {
+      "id": "reading-45-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "29) What is one important idea related to St. Lucia’s population that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        589
+      ],
+      "sourceBlockIds": [
+        "page-589-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 536.42
+      }
+    },
+    {
+      "id": "reading-45-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "30) What does the writer want to show by the example of hot pools and springs?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        589
+      ],
+      "sourceBlockIds": [
+        "page-589-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 484.47
+      }
+    },
+    {
+      "id": "reading-45-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "31) What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        589
+      ],
+      "sourceBlockIds": [
+        "page-589-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 306.44,
+        "x0": 14.16,
+        "x1": 260.77
+      }
+    },
+    {
+      "id": "reading-45-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "32) What does the passage say about the problem of “space junk”?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        590
+      ],
+      "sourceBlockIds": [
+        "page-590-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 403.94
+      }
+    },
+    {
+      "id": "reading-45-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "33) How will countries prevent the increase of \"space junk\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        590
+      ],
+      "sourceBlockIds": [
+        "page-590-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 365.31
+      }
+    },
+    {
+      "id": "reading-45-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "34) Why does the writer use the phrase “After that” in paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        590
+      ],
+      "sourceBlockIds": [
+        "page-590-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 306.44,
+        "x0": 14.16,
+        "x1": 418.6
+      }
+    },
+    {
+      "id": "reading-45-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "35) Which word can we use to replace the words “as well” in paragraph (5)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        590
+      ],
+      "sourceBlockIds": [
+        "page-590-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 424.28,
+        "x0": 14.16,
+        "x1": 455.03
+      }
+    },
+    {
+      "id": "reading-45-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "36) What does the Italian Space Agency think about space junk?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        590
+      ],
+      "sourceBlockIds": [
+        "page-590-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 542.26,
+        "x0": 14.16,
+        "x1": 385.25
+      }
+    },
+    {
+      "id": "reading-45-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "aluminum cans?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        590
+      ],
+      "sourceBlockIds": [
+        "page-590-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 742.3,
+        "x0": 14.16,
+        "x1": 543.4
+      }
+    },
+    {
+      "id": "reading-45-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "37) What is one important cause of shutdown?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        591
+      ],
+      "sourceBlockIds": [
+        "page-591-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 302.24,
+        "x0": 14.16,
+        "x1": 286.8
+      }
+    },
+    {
+      "id": "reading-45-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "38) What is one important effect of inventory control?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        591
+      ],
+      "sourceBlockIds": [
+        "page-591-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 420.08,
+        "x0": 14.16,
+        "x1": 329.93
+      }
+    },
+    {
+      "id": "reading-45-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "41. what is the average temperature of Tokyo in March?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        592
+      ],
+      "sourceBlockIds": [
+        "page-592-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 495.82,
+        "x0": 14.16,
+        "x1": 341.14
+      }
+    },
+    {
+      "id": "reading-45-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "42) In which month was London’s temperature the highest?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        592
+      ],
+      "sourceBlockIds": [
+        "page-592-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 613.81,
+        "x0": 14.16,
+        "x1": 361.34
+      }
+    },
+    {
+      "id": "reading-45-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "43) Which of the following does tobacco contain?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        594
+      ],
+      "sourceBlockIds": [
+        "page-594-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 348.56,
+        "x0": 14.16,
+        "x1": 301.5
+      }
+    },
+    {
+      "id": "reading-45-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "44) What are two types of leaves used for cigars?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        594
+      ],
+      "sourceBlockIds": [
+        "page-594-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 466.42,
+        "x0": 14.16,
+        "x1": 299.62
+      }
+    },
+    {
+      "id": "reading-45-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "45) Which two countries are among the largest growers of tobacco?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        594
+      ],
+      "sourceBlockIds": [
+        "page-594-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 584.38,
+        "x0": 14.16,
+        "x1": 408.01
+      }
+    },
+    {
+      "id": "reading-45-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "50) Which of the following is the writer’s opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        596
+      ],
+      "sourceBlockIds": [
+        "page-596-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 203.93,
+        "x0": 14.16,
+        "x1": 305.2
+      }
+    },
+    {
+      "id": "reading-45-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "51) what is one difference between critical thinking and problem solving?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        596
+      ],
+      "sourceBlockIds": [
+        "page-596-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 321.8,
+        "x0": 14.16,
+        "x1": 440.91
+      }
+    },
+    {
+      "id": "reading-45-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "52) How is the writer’s view of problems different from other people’s views?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        596
+      ],
+      "sourceBlockIds": [
+        "page-596-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 439.78,
+        "x0": 14.16,
+        "x1": 465.59
+      }
+    },
+    {
+      "id": "reading-45-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "How did the discovery of DNA Impact the Scientific Community?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        596
+      ],
+      "sourceBlockIds": [
+        "page-596-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 642.58,
+        "x0": 14.16,
+        "x1": 307.33
+      }
+    },
+    {
+      "id": "reading-45-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "53) What can we understand from passage A and B about the discovery of DNA?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        598
+      ],
+      "sourceBlockIds": [
+        "page-598-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 240.41,
+        "x0": 14.16,
+        "x1": 480.3
+      }
+    },
+    {
+      "id": "reading-45-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "54) According to passages A and B, what did scientists find out about the make-up of DNA?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        598
+      ],
+      "sourceBlockIds": [
+        "page-598-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 358.28,
+        "x0": 14.16,
+        "x1": 542.13
+      }
+    },
+    {
+      "id": "reading-45-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "55) According to passages A and B, what fields have been helped by understanding DNA?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        598
+      ],
+      "sourceBlockIds": [
+        "page-598-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 476.26,
+        "x0": 14.16,
+        "x1": 531.0
+      }
+    },
+    {
+      "id": "reading-45-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "56) What can we understand about DNA’s effect on healthcare from Passages A and B?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        598
+      ],
+      "sourceBlockIds": [
+        "page-598-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 594.22,
+        "x0": 14.16,
+        "x1": 519.23
+      }
+    },
+    {
+      "id": "reading-45-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "fourteen-year-old cousin said, \"Mom, what is your problem?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        599
+      ],
+      "sourceBlockIds": [
+        "page-599-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 322.13,
+        "x0": 14.16,
+        "x1": 284.64
+      }
+    },
+    {
+      "id": "reading-45-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "57) What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        599
+      ],
+      "sourceBlockIds": [
+        "page-599-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 585.46,
+        "x0": 14.16,
+        "x1": 256.64
+      }
+    },
+    {
+      "id": "reading-45-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "daughter?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        600
+      ],
+      "sourceBlockIds": [
+        "page-600-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 109.85,
+        "x0": 14.16,
+        "x1": 73.65
+      }
+    }
+  ]
+}

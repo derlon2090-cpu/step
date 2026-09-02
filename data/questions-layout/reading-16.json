@@ -1,0 +1,701 @@
+{
+  "readingId": "reading-16",
+  "questions": [
+    {
+      "id": "reading-16-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "25. Which year was called \"the year without a summer\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        174
+      ],
+      "sourceBlockIds": [
+        "page-174-line-42"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 695.29,
+        "x0": 14.16,
+        "x1": 345.04
+      }
+    },
+    {
+      "id": "reading-16-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "26. Which Island was formed by volcanoes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        175
+      ],
+      "sourceBlockIds": [
+        "page-175-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 267.16
+      }
+    },
+    {
+      "id": "reading-16-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "27. What is lava?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        175
+      ],
+      "sourceBlockIds": [
+        "page-175-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 208.13,
+        "x0": 14.16,
+        "x1": 113.0
+      }
+    },
+    {
+      "id": "reading-16-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "company treats its workers well?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        176
+      ],
+      "sourceBlockIds": [
+        "page-176-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 227.81,
+        "x0": 14.16,
+        "x1": 206.48
+      }
+    },
+    {
+      "id": "reading-16-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "31. What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        176
+      ],
+      "sourceBlockIds": [
+        "page-176-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 345.68,
+        "x0": 14.16,
+        "x1": 260.17
+      }
+    },
+    {
+      "id": "reading-16-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "32. Why is Finland and Germany's recycling program successful?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        177
+      ],
+      "sourceBlockIds": [
+        "page-177-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 386.35
+      }
+    },
+    {
+      "id": "reading-16-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "33. What does the writer think about Britain's lead recycling program?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        177
+      ],
+      "sourceBlockIds": [
+        "page-177-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 423.43
+      }
+    },
+    {
+      "id": "reading-16-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "34. What does the passage say about recycling glass bottles?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        177
+      ],
+      "sourceBlockIds": [
+        "page-177-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 306.44,
+        "x0": 14.16,
+        "x1": 366.07
+      }
+    },
+    {
+      "id": "reading-16-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "35. Which words can we use to replace \"such as\" in Paragraph (5)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        177
+      ],
+      "sourceBlockIds": [
+        "page-177-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 424.28,
+        "x0": 14.16,
+        "x1": 400.22
+      }
+    },
+    {
+      "id": "reading-16-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "36. Which word can we use to replace the word \"So\" in Paragraph (6)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        177
+      ],
+      "sourceBlockIds": [
+        "page-177-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 542.26,
+        "x0": 14.16,
+        "x1": 423.0
+      }
+    },
+    {
+      "id": "reading-16-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "37. What is the reason for a slow internet connection?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        178
+      ],
+      "sourceBlockIds": [
+        "page-178-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 163.13,
+        "x0": 14.16,
+        "x1": 329.92
+      }
+    },
+    {
+      "id": "reading-16-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "38. What is one negative effect of worms?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        178
+      ],
+      "sourceBlockIds": [
+        "page-178-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 281.12,
+        "x0": 14.16,
+        "x1": 259.33
+      }
+    },
+    {
+      "id": "reading-16-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "41. What was the salary of graduates of upper secondary education in France?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        179
+      ],
+      "sourceBlockIds": [
+        "page-179-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 386.6,
+        "x0": 14.16,
+        "x1": 469.14
+      }
+    },
+    {
+      "id": "reading-16-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "42. What was the typical salary of graduates of upper secondary in Ireland?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        179
+      ],
+      "sourceBlockIds": [
+        "page-179-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 504.58,
+        "x0": 14.16,
+        "x1": 451.97
+      }
+    },
+    {
+      "id": "reading-16-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "43. Who were among the first notable people to illustrate their studies of anatomy?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        181
+      ],
+      "sourceBlockIds": [
+        "page-181-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 85.97,
+        "x0": 14.16,
+        "x1": 501.81
+      }
+    },
+    {
+      "id": "reading-16-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "44. What things did primitive microscopes allow Antonie van Leeuwenhoek to study?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        181
+      ],
+      "sourceBlockIds": [
+        "page-181-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 203.93,
+        "x0": 14.16,
+        "x1": 509.29
+      }
+    },
+    {
+      "id": "reading-16-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "microscopes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        181
+      ],
+      "sourceBlockIds": [
+        "page-181-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 341.48,
+        "x0": 14.16,
+        "x1": 93.11
+      }
+    },
+    {
+      "id": "reading-16-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "(4) But what it sustainability?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        181
+      ],
+      "sourceBlockIds": [
+        "page-181-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 650.98,
+        "x0": 14.16,
+        "x1": 552.08
+      }
+    },
+    {
+      "id": "reading-16-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "49. What word other than analytic content\" does the writer use to talk about economic writing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        182
+      ],
+      "sourceBlockIds": [
+        "page-182-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 699.49,
+        "x0": 14.16,
+        "x1": 572.99
+      }
+    },
+    {
+      "id": "reading-16-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "50. Which of the following does the writer say is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        183
+      ],
+      "sourceBlockIds": [
+        "page-183-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 336.13
+      }
+    },
+    {
+      "id": "reading-16-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "51. What can we understand about economic thought from Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        183
+      ],
+      "sourceBlockIds": [
+        "page-183-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 208.13,
+        "x0": 14.16,
+        "x1": 447.46
+      }
+    },
+    {
+      "id": "reading-16-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "52. What can we understand about Zhong's ideas from Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        183
+      ],
+      "sourceBlockIds": [
+        "page-183-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 326.0,
+        "x0": 14.16,
+        "x1": 420.24
+      }
+    },
+    {
+      "id": "reading-16-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "53. What do Passages A and B say about wind?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        184
+      ],
+      "sourceBlockIds": [
+        "page-184-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 160.49,
+        "x0": 14.16,
+        "x1": 286.48
+      }
+    },
+    {
+      "id": "reading-16-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "54. What can we understand from Passages A and B about energy sources?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        184
+      ],
+      "sourceBlockIds": [
+        "page-184-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 278.48,
+        "x0": 14.16,
+        "x1": 449.84
+      }
+    },
+    {
+      "id": "reading-16-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "55. What can we understand from Passages A and B about wind farms?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        184
+      ],
+      "sourceBlockIds": [
+        "page-184-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 396.32,
+        "x0": 14.16,
+        "x1": 428.0
+      }
+    },
+    {
+      "id": "reading-16-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "Passages A and B?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        184
+      ],
+      "sourceBlockIds": [
+        "page-184-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 533.98,
+        "x0": 14.16,
+        "x1": 120.26
+      }
+    },
+    {
+      "id": "reading-16-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "fourteen-year-old cousin said, \"Mom, what is your problem?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        185
+      ],
+      "sourceBlockIds": [
+        "page-185-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 116.06,
+        "x0": 14.16,
+        "x1": 284.64
+      }
+    },
+    {
+      "id": "reading-16-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        185
+      ],
+      "sourceBlockIds": [
+        "page-185-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 333.08,
+        "x0": 14.16,
+        "x1": 235.04
+      }
+    },
+    {
+      "id": "reading-16-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (3), which of the following is NOT TRUE about the 18-year-old daughter?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        185
+      ],
+      "sourceBlockIds": [
+        "page-185-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 580.18,
+        "x0": 14.16,
+        "x1": 574.18
+      }
+    }
+  ]
+}

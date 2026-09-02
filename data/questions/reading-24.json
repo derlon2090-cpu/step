@@ -1,0 +1,574 @@
+{
+  "readingId": "reading-24",
+  "sourceQuestionBlocks": 11,
+  "questions": [
+    {
+      "id": "reading-24-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 293,
+      "sourceLine": 17,
+      "sourcePages": [
+        293
+      ],
+      "rawBlock": "According to Paragraph (2), Where has Mei Lan been living? \nin the Chengdu Panda Research Center \nin an American research center \nin Atlanta, Georgia \nin Sichuan, China \nوفقًا للفقرة2) ، أين كانت مي لان تعيش؟ \nفي مركز أبحاث تشنغدو باندا  \nفي مركز أبحاث أمريكي  \nفي أتلانتا ، جورجيا  \nفي سيتشوان ، الصين  \n   Nanotechnology تقنية النانو ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "How many hairs does a gecko have at the bottom of each toe?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 293,
+      "sourceLine": 30,
+      "sourcePages": [
+        293,
+        294
+      ],
+      "rawBlock": "How many hairs does a gecko have at the bottom of each toe? \nfifteen  \nhundreds  \naround two thousand  \n around two million \nكم عدد شعيرات الوزغة في أسفل كل إصبع؟ \nخمسة عشر  \nالمئات  \nحوالي ألفي  \nحوالي مليوني\n293 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "What are the forces that allow geckos to climb upside down on glass called?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 294,
+      "sourceLine": 3,
+      "sourcePages": [
+        294
+      ],
+      "rawBlock": "What are the forces that allow geckos to climb upside down on glass called? \nVan der Waals forces  \nSticking forces  \nElectric forces  \nSpatulae forces \nما هي القوى التي تسمح للأبراص بالتسلق رأسًا على عقب على الزجاج؟  \nقوى فان دير فال  \nالقوى الشائكة  \nالقوى الكهربائية  \nقوى الملاعق  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "Who started using the popular phrase \"nano\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 294,
+      "sourceLine": 14,
+      "sourcePages": [
+        294
+      ],
+      "rawBlock": "Who started using the popular phrase \"nano\"? \nGeckoman  \nEric Drexler  \nAlbert Einstein  \nRichard Feynman \nمن بدأ باستخدام العبارة الشعبية \"نانو\"؟ \n Amazon  الأمازون  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What important information about the research study does the writer mention in paragraphs (4) and (5)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 294,
+      "sourceLine": 24,
+      "sourcePages": [
+        294
+      ],
+      "rawBlock": "What important information about the research study does the writer mention in paragraphs (4) and (5)? \nteam of people did the research.  \nThere were no forest fires.  \nManaus is in the Amazon.  \nThe study was in 2014. \nما هي المعلومات المهمة عن الدراسة البحثية التي ذكرها الكاتب في الفقرتين4) و5)؟ \nفريق من الناس أجرى البحث. \nلم تكن هناك حرائق غابات.  \nتقع ماناوس في منطقة الأمازون.  \nكانت الدراسة في عام  2014 . ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What is one important idea related to ultrafine particles that the writer mentions in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 294,
+      "sourceLine": 37,
+      "sourcePages": [
+        294,
+        295
+      ],
+      "rawBlock": "What is one important idea related to ultrafine particles that the writer mentions in Paragraph (3)? \nThere are many of them in the air in the Amazon.  \nThey help produce bigger storms in the Amazon.  \nThey are too small to have an effect on the weather.  \nThe Brazilian Institute for Space Research is studying them. \nما هي إحدى الأفكار المهمة المتعلقة بالجسيمات متناهية الصغر التي ذكرها الكاتب في الفقرة3)؟ \nهناك الكثير منهم في الهواء في منطقة الأمازون.  \nإنها تساعد في إحداث عواصف أكبر في منطقة الأمازون.  \nفهي صغيرة جدًا بحيث لا يكون لها تأثير على الطقس.  \nيقوم المعهد البرازيلي لأبحاث الفضاء بدراستها.\n294 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What is Manaus an example of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 295,
+      "sourceLine": 3,
+      "sourcePages": [
+        295
+      ],
+      "rawBlock": "What is Manaus an example of? \na large university city  \na large Amazon rainforest  \nan area with high pollution  \nan ultrafine aerosol particle \nما هو ماناوس مثالا على؟ \nمدينة جامعية كبيرة  \nغابات الأمازون المطيرة الكبيرة  \nمنطقة ذات نسبة تلوث عالية \nجسيمات الهباء الجوي متناهية الصغر  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 295,
+      "sourceLine": 14,
+      "sourcePages": [
+        295
+      ],
+      "rawBlock": "What is the main topic of the passage?  \neffects of aerosol use on weather in the Amazon  \npollution and aerosol use in the Amazon  \nweather forecasting in the Amazon  \nstorms in the Amazon \nما هو الموضوع الرئيسي للمقطع؟ \nآثار استخدام الهباء الجوي على الطقس في منطقة الأمازون  \nالتلوث واستخدام الهباء الجوي في منطقة الأمازون  \nالتنبؤ بالطقس في منطقة الأمازون  \nالعواصف في الأمازون  \n World Quality Standards  معايير الجودة العالمية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (2) say about standardization?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 295,
+      "sourceLine": 30,
+      "sourcePages": [
+        295
+      ],
+      "rawBlock": "What does Paragraph (2) say about standardization?  \nGuidelines must be used to get certifications.  \nEveryone has different ideas about standardization.  \nIt is controlled by the American National Standards Institute.  \nIt is a result of agreements between business and governments. \nماذا تقول الفقرة2) عن التقييس؟ \nيجب استخدام الإرشادات للحصول على الشهادات.  \nكل شخص لديه أفكار مختلفة حول التقييس.  \nيتم التحكم فيه من قبل المعهد الوطني الأمريكي للمعايير.  \nإنه نتيجة لاتفاقيات بين الشركات والحكومات.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "How was the problem of different perceptions of quality solved?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 295,
+      "sourceLine": 42,
+      "sourcePages": [
+        295,
+        296
+      ],
+      "rawBlock": "How was the problem of different perceptions of quality solved? \nPeople created ISO and developed standards of quality.  \nMore companies started to compete in the world marketplace.  \nCustomers stopped doing business with non-certified companies.  \nNational delegations started to represent suppliers, customers and governments.\n295 \nكيف تم حل مشكلة التصورات المختلفة للجودة؟ \nأنشأ الناس  ISO  وطوروا معايير الجودة \nبدأت المزيد من الشركات في المنافسة في السوق العالمية.  \nتوقف العملاء عن التعامل مع الشركات غير المعتمدة.  \nبدأت الوفود الوطنية في تمثيل الموردين والعملاء والحكومات.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the phrase in fact in Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 296,
+      "sourceLine": 9,
+      "sourcePages": [
+        296
+      ],
+      "rawBlock": "Why does the writer use the phrase in fact in Paragraph (4)? \nTo give more information about the importance of the international ISO standards.  \nTo give an example of how the ISO standards help businesses in member countries.  \nTo show that the common use of ISO standards came after the 161- member countries agreed to them.  \nTo prove that the 161-member countries approved the ISO standards because customers refused to do \nbusiness with non-certified companies. \nلماذا يستخدم الكاتب العبارة في الواقع في الفقرة4)؟ \nلإعطاء مزيد من المعلومات حول أهمية معايير ISO الدولية \nلإعطاء مثال على كيفية مساعدة معايير ISO للشركات في البلدان الأعضاء \nإظهار أن الاستخدام الشائع لمعايير الأيزو جاء بعد موافقة 161  دولة عضو عليها \nلإثبات أن 161 دولة عضوًا وافقت على معايير ISO لأن العملاء رفضوا التعامل مع الشركات غير المعتمدة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "Which word can replace the word (Although) in Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 296,
+      "sourceLine": 24,
+      "sourcePages": [
+        296
+      ],
+      "rawBlock": "Which word can replace the word (Although) in Paragraph (4)? \nAfterwards  \nAs a result  \nHowever  \nWhile \nما الكلمة التي يمكن أن تحل محل كلمة (على الرغم من) في الفقرة4)؟ \nعقب ذلك مباشرة  \nنتيجة ل \nلكن  \nبينما  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "What does the writer think is an added advantage of ISO certification?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 296,
+      "sourceLine": 39,
+      "sourcePages": [
+        296,
+        297
+      ],
+      "rawBlock": "What does the writer think is an added advantage of ISO certification? \nHe thinks many customers will only want to do business with ISO certified companies. \nHe thinks ISO certification is special because business must use independent auditors and laboratory \ntesting to prove that they meet the standards. \nHe thinks the process of certification helps companies save money by improving their processes.  \nHe thinks that having 161-member countries approve the ISO standards makes the standards prevalent \naround the world.\n296 \nما الذي يعتقد الكاتب أنه ميزة إضافية لشهادةISO؟ \nيعتقد أن العديد من العملاء سيرغبون فقط في التعامل مع الشركات المعتمدة من ISO. \nيعتقد أن شهادةISO هي شهادة خاصة لأن الأعمال التجارية يجب أن تستخدم مدققين مستقلين واختبارات معملية لإثبات أنهم يستوفون المعايير \nيعتقد أن عملية الحصول على الشهادة تساعد الشركات على توفير المال من خلال تحسين عملياتها. \nوهو يعتقد أن وجود 161 دولة عضوًا توافق على معايير ISO  يجعل المعايير سائدة في جميع أنحاء العالم \n Accounting  المحاسبة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "According to the text, what is one important effect of non-standard accounting?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 297,
+      "sourceLine": 14,
+      "sourcePages": [
+        297
+      ],
+      "rawBlock": "According to the text, what is one important effect of non-standard accounting? \nIt reduces the cost of doing business.  \nIt increases the number of employees.  \nIt allows companies to choose the results they show.  \nIt has mainly helped companies that produce energy. \nوفقًا للنص ، ما هو أحد الآثار المهمة للمحاسبة غير القياسية؟  \nيقلل من تكلفة ممارسة الأعمال التجارية.  \nيزيد من عدد الموظفين.  \nيسمح للشركات باختيار النتائج التي تظهر.  \nلقد ساعد بشكل رئيسي الشركات التي تنتج الطاقة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What is the reason for companies hiding some business costs?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 297,
+      "sourceLine": 26,
+      "sourcePages": [
+        297,
+        298
+      ],
+      "rawBlock": "What is the reason for companies hiding some business costs? \nIt makes them seem more successful.  \nIt is common when prices are falling  \nIt is easier for them to do their own neath.  \nIt gives them more time to pay for these costs. \nما هو سبب إخفاء الشركات لبعض التكاليف التجارية؟ \nيجعلهم يبدون أكثر نجاحًا.  \nمن الشائع عندما تنخفض الأسعار \nمن الأسهل عليهم القيام بعملهم الخاص.  \nيمنحهم مزيدًا من الوقت لدفع هذه التكاليف.  \nThe word generally in Paragraph (4) is closest in meaning to …………………. \nfinally  \nespecially  \nquickly  \nusually \nالكلمة بشكل عام في الفقرة4) هي الأقرب من حيث المعنى إلى \nأخيراً  \nخصوصاً  \nبسرعة  \nعادة\n297 \nThe word reported in Paragraph (1) is closest in meaning to …………………… \nopened  \nbelieved  \ndescribed  \nexplained \nالكلمة المذكورة في الفقرة1) هي الأقرب من حيث المعنى إلى \nافتتح  \nيعتقد  \nوصفها  \nشرح \nRenewable Internal Freshwater Resources \nمصادر المياه العذبة الداخلية المتجددة ( رسم بياني )  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "In which year was the freshwater level the highest in Morocco?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 298,
+      "sourceLine": 26,
+      "sourcePages": [
+        298
+      ],
+      "rawBlock": "In which year was the freshwater level the highest in Morocco? \nفي أي سنة كان مستوى المياه العذبة هو الأعلى في المغرب؟  \n1967  \n1997  \n2010  \n2011 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "How much did the freshwater levels decrease in Syria between 1967 and 2011?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 298,
+      "sourceLine": 35,
+      "sourcePages": [
+        298,
+        299
+      ],
+      "rawBlock": "How much did the freshwater levels decrease in Syria between 1967 and 2011? \nكم انخفض منسوب المياه العذبة في سوريا بين عامي1967  و2011؟ \nabout 800 cubic meters  \nabout 500 cubic meters  \nabout 400 cubic meters  \nabout 250 cubic meters\n298 \n Software Ownership ملكية البرمجيات ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "Which of the following is the writer's opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 299,
+      "sourceLine": 4,
+      "sourcePages": [
+        299
+      ],
+      "rawBlock": "Which of the following is the writer's opinion? \nSoftware licensing benefits the software companies.  \nPirates copy billions of dollars of software every year.  \nCustomers can usually make one backup copy of software.  \nSoftware licensing brings many advantages to the customer. \nأي مما يلي رأي الكاتب؟ \nيفيد ترخيص البرامج شركات البرمجيات.  \nيقوم القراصنة بنسخ برامج بمليارات الدولارات كل عام.  \nيمكن للعملاء عادةً عمل نسخة احتياطية واحدة من البرنامج.  \nيجلب ترخيص البرامج العديد من المزايا للعميل.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What can we understand from the passage about software piracy?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 299,
+      "sourceLine": 15,
+      "sourcePages": [
+        299
+      ],
+      "rawBlock": "What can we understand from the passage about software piracy? \nIt is a trivial problem for the software industry.  \nIt makes a lot of money for the software industry.  \nIt is a bigger issue in the USA than in other countries.  \nIt is the main reason software companies prefer licensing. \nما الذي يمكن أن نفهمه من المقطع المتعلق بقرصنة البرامج؟ \nإنها مشكلة تافهة بالنسبة لصناعة البرمجيات.  \nإنها تجني الكثير من المال لصناعة البرمجيات.  \nإنها مشكلة أكبر في الولايات المتحدة عنها في البلدان الأخرى.  \nهذا هو السبب الرئيسي الذي يجعل شركات البرمجيات تفضل الترخيص.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "What can we understand from the passage about a lot of people who purchase software?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 299,
+      "sourceLine": 27,
+      "sourcePages": [
+        299,
+        300
+      ],
+      "rawBlock": "What can we understand from the passage about a lot of people who purchase software? \nThey try to modify their software.  \nThey make many copies of their software. \nThey like having a software license agreement. \nThey fail to read their software license agreement. \nما الذي يمكن أن نفهمه من المقطع عن الكثير من الأشخاص الذين يشترون البرامج؟ \nيحاولون تعديل برامجهم.  \nيقومون بعمل نسخ كثيرة من برامجهم.  \nإنهم يحبون الحصول على اتفاقية ترخيص برنامج.  \nفشلوا في قراءة اتفاقية ترخيص البرامج الخاصة بهم.  \n Catalysts مادةالحفاز  الكيميائية   \nThe word undergoing is closest in meaning to …………………………….. \nadding  \npreventing  \ncontrolling  \nexperiencing\n299 \nكلمة المرور هي الأقرب في معناها إلى \nمضيفا  \nمنع  \nالمتابعة  \nتجرب  \n   Evidence شهادة أو دليل \nThe word liability in Paragraph (1) is closest in meaning to …… \nknowledge  \ncrime  \nfault  \nfact \nكلمة المسؤولية في الفقرة1) هي الأقرب في المعنى إلى \nمعرفة \nجريمة  \nالخطأ \nحقيقة  \n Ancient Birds  الطيور القديمة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "What two phrases does the writer use to say that the birds were very large?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 300,
+      "sourceLine": 28,
+      "sourcePages": [
+        300
+      ],
+      "rawBlock": "What two phrases does the writer use to say that the birds were very large? \ngiant bird and towering avian  \nelephant bird and native of Madagascar \nlarge femur bone and the region's fauna  \nseven feet tall and nicknamed \"Thunder bird\" \nما العبارتان اللتان استخدمهما الكاتب ليقول إن الطيور كانت كبيرة جدًا؟ \nطائر عملاق وطيور شاهقة  \nطائر الفيل وموطنه الأصلي مدغشقر  \nعظم الفخذ الكبير وحيوانات المنطقة  \nطوله سبعة أقدام ولقب \"طائر الرعد\"  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "Which of the following does the writer say is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 300,
+      "sourceLine": 41,
+      "sourcePages": [
+        300,
+        301
+      ],
+      "rawBlock": "Which of the following does the writer say is a fact?  \nThe Thunderbird lived in Australia and Europe.  \nThe femur is the largest bone in the body.  \nThe Elephant bird was over nine feet tall.  \nResearchers found a polar bear fossil.\n300 \nأي مما يلي يقول الكاتب إنه حقيقة؟ \nعاش Thunderbird في أستراليا وأوروبا \nعظم الفخذ هو أكبر عظمة في الجسم.  \nكان طول طائر الفيل أكثر من تسعة أقدام.  \nوجد الباحثون أحفورة دب قطبي.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "How are researchers' views since the new discovery different from the views held before?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 301,
+      "sourceLine": 9,
+      "sourcePages": [
+        301
+      ],
+      "rawBlock": "How are researchers' views since the new discovery different from the views held before? \nThey now know what the birds ate.  \nThey now know what the birds looked like.  \nThey now know when the birds became extinct.  \nThey now know a new place in which the birds lived. \nكيف تختلف آراء الباحثين منذ الاكتشاف الجديد عن وجهات النظر السابقة؟ \nإنهم يعرفون الآن ماذا أكلت الطيور.  \nإنهم يعرفون الآن كيف كانت تبدو الطيور.  \nوهم يعرفون الآن متى انقرضت الطيور.  \nإنهم يعرفون الآن مكانًا جديدًا تعيش فيه الطيور.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What can we understand about the giant bird of Crimea from Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 301,
+      "sourceLine": 22,
+      "sourcePages": [
+        301
+      ],
+      "rawBlock": "What can we understand about the giant bird of Crimea from Paragraph (3)? \nResearchers found it at the bottom of the Black Sea.  \nHighway workers found it at a construction site.  \nResearchers did not find all the bones.  \nWe can see it in the Crimea Museum. \nماذا يمكن أن نفهم عن طائر القرم العملاق من الفقرة3)؟ \nوجده الباحثون في قاع البحر الأسود.  \nوجدها عمال الطرق السريعة في موقع بناء.  \nلم يجد الباحثون كل العظام.  \nيمكننا رؤيته في متحف القرم.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What can be understood about Daniel Field from paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 301,
+      "sourceLine": 34,
+      "sourcePages": [
+        301,
+        302
+      ],
+      "rawBlock": "What can be understood about Daniel Field from paragraph (4)? \nHe studies fossil.  \nHe found the fossil.  \nHe weighed the fossil.  \nHe studies at Cambridge University. \nما الذي يمكن فهمه عن دانيال فيلد من الفقرة4)؟ \nيدرس الأحفورة.  \nوجد الحفرية.  \nوزن الأحفورة.  \nيدرس في جامعة كامبريدج.\n301 \n  Sole traders to the UK التجار الوحيدون في المملكة المتحدة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "What is one advantage partnerships and private limited companies have over sole traders?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 302,
+      "sourceLine": 5,
+      "sourcePages": [
+        302
+      ],
+      "rawBlock": "What is one advantage partnerships and private limited companies have over sole traders? \nIt is easier to motivate people working in the business.  \nIt is easier to make decisions about the business.  \nIt is easier to find money to grow the business.  \nIt is easier to find customers for the business. \nما هي الميزة الوحيدة التي تتمتع بها الشراكات والشركات الخاصة المحدودة على التجار الوحيدين؟ \nمن الأسهل تحفيز الأشخاص العاملين في الأعمال التجارية.  \nمن الأسهل اتخاذ قرارات بشأن العمل.  \nمن الأسهل العثور على المال لتنمية الأعمال التجارية.  \nمن الأسهل العثور على عملاء للشركة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What is one advantage sole traders and partnerships have over private limited companies?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 302,
+      "sourceLine": 18,
+      "sourcePages": [
+        302
+      ],
+      "rawBlock": "What is one advantage sole traders and partnerships have over private limited companies? \nThey can share the work.  \nThey are less expensive to establish. \nIt is easier to agree on a business strategy. \nBusiness owners can find more free time. \nما هي الميزة التي يتمتع بها التجار الوحيدون والشراكات على الشركات الخاصة المحدودة؟ \nيمكنهم مشاركة العمل.  \nهم أقل تكلفة في إنشائها.  \n من الأسهل الاتفاق على استراتيجية عمل.  \n يمكن لأصحاب الأعمال العثور على مزيد من وقت الفراغ.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "How is a partnership different from a Sole trader and a private limited company?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 302,
+      "sourceLine": 31,
+      "sourcePages": [
+        302
+      ],
+      "rawBlock": "How is a partnership different from a Sole trader and a private limited company? \nIt usually has two owners.  \nIt can be a family business.  \nIt always has multiple owners.  \nIt must have a legal document. \nكيف تختلف الشراكة عن المتداول الوحيد وشركة محدودة خاصة؟ \nعادة ما يكون لها مالكان.  \nيمكن أن تكون شركة عائلية.  \nدائما لديه العديد من المالكين.  \nيجب أن يكون لديه وثيقة قانونية.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "In which business do the owners have to use their personal money if the business fails?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 302,
+      "sourceLine": 42,
+      "sourcePages": [
+        302,
+        303
+      ],
+      "rawBlock": "In which business do the owners have to use their personal money if the business fails? \nSole trader only.  \nSole trader and partnership. \nPartnership and limited company.  \nSole trader, partnership and limited company.\n302 \nفي أي عمل يتعين على المالكين استخدام أموالهم الشخصية في حالة فشل العمل؟ \nالتاجر الوحيد فقط.  \nالتاجر الوحيد والشراكة.  \nشركة التوصية البسيطة.  \nالتاجر الوحيد والشراكة والشركة المحدودة.  \nBees   النحل ( مكرر من نماذج سابقة   ) \nThe words these amazing creatures in Paragraph (1) refer to ……………. \nbees  \ninsects  \nscientists  \ncommunities \nتشير كلمات هذه المخلوقات المذهلة في الفقرة1) إلى \nالنحل \nالحشرات  \nالعلماء \nمجتمعات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "Why are bees important to humans?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 303,
+      "sourceLine": 26,
+      "sourcePages": [
+        303
+      ],
+      "rawBlock": "Why are bees important to humans? \nThey have communities and can communicate.  \nThey are necessary to produce our food crops.  \nThey are becoming more numerous than us.  \nThey have feelings like us. \nلماذا النحل مهم للبشر؟ \nلديهم مجتمعات ويمكنهم التواصل.  \nإنها ضرورية لإنتاج محاصيلنا الغذائية.  \nلقد أصبحوا أكثر عددا منا.  \nلديهم مشاعر مثلنا.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-24-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "Which paragraph describes how the scientists trained the bees?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 303,
+      "sourceLine": 39,
+      "sourcePages": [
+        303
+      ],
+      "rawBlock": "Which paragraph describes how the scientists trained the bees? \nأي فقرة تصف كيف درب العلماء النحل؟ \nParagraph (1)  \nParagraph (2)  \nParagraph (3)  \nParagraph (4)",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

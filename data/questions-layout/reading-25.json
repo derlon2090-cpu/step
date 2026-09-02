@@ -1,0 +1,629 @@
+{
+  "readingId": "reading-25",
+  "questions": [
+    {
+      "id": "reading-25-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "Chinese?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        305
+      ],
+      "sourceBlockIds": [
+        "page-305-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 123.81,
+        "x0": 14.4,
+        "x1": 73.65
+      }
+    },
+    {
+      "id": "reading-25-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        305
+      ],
+      "sourceBlockIds": [
+        "page-305-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 317.04,
+        "x0": 14.4,
+        "x1": 390.1
+      }
+    },
+    {
+      "id": "reading-25-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following colors is NOT mentioned in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        305
+      ],
+      "sourceBlockIds": [
+        "page-305-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 536.78,
+        "x0": 14.4,
+        "x1": 411.14
+      }
+    },
+    {
+      "id": "reading-25-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "Where can stress come from?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        306
+      ],
+      "sourceBlockIds": [
+        "page-306-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 482.54,
+        "x0": 14.4,
+        "x1": 201.24
+      }
+    },
+    {
+      "id": "reading-25-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "What positive effects can stress have?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        306
+      ],
+      "sourceBlockIds": [
+        "page-306-line-31"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 659.69,
+        "x0": 14.4,
+        "x1": 253.28
+      }
+    },
+    {
+      "id": "reading-25-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "What can cause bodily aches and pains?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        307
+      ],
+      "sourceBlockIds": [
+        "page-307-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 134.01,
+        "x0": 18.36,
+        "x1": 272.78
+      }
+    },
+    {
+      "id": "reading-25-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "According to the passage, what harmful habits may people adopt under pressure?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        307
+      ],
+      "sourceBlockIds": [
+        "page-307-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 327.24,
+        "x0": 14.4,
+        "x1": 522.4
+      }
+    },
+    {
+      "id": "reading-25-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What important idea connected to product-oriented firms does the writer mention in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        307
+      ],
+      "sourceBlockIds": [
+        "page-307-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 595.75,
+        "x0": 14.4,
+        "x1": 505.74
+      }
+    },
+    {
+      "id": "reading-25-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What important idea connected to 20th-century firms does the writer mention in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        307
+      ],
+      "sourceBlockIds": [
+        "page-307-line-37"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 749.5,
+        "x0": 14.4,
+        "x1": 485.23
+      }
+    },
+    {
+      "id": "reading-25-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "What ideas connected to successful companies does the writer mention?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        308
+      ],
+      "sourceBlockIds": [
+        "page-308-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 196.34,
+        "x0": 14.4,
+        "x1": 370.64
+      }
+    },
+    {
+      "id": "reading-25-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer want to show with the examples of Gillette, Coca-Cola, and Travis Perkins?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        308
+      ],
+      "sourceBlockIds": [
+        "page-308-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 366.77,
+        "x0": 14.4,
+        "x1": 484.7
+      }
+    },
+    {
+      "id": "reading-25-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "According to the passage, what made intellectual property law grow and develop?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        308
+      ],
+      "sourceBlockIds": [
+        "page-308-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 647.41,
+        "x0": 14.4,
+        "x1": 482.23
+      }
+    },
+    {
+      "id": "reading-25-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "What percentage of spending was on food in 1929?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        310
+      ],
+      "sourceBlockIds": [
+        "page-310-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 341.04,
+        "x0": 14.4,
+        "x1": 334.34
+      }
+    },
+    {
+      "id": "reading-25-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "In which year was the percentage of spending on transportation highest?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        310
+      ],
+      "sourceBlockIds": [
+        "page-310-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 534.26,
+        "x0": 14.4,
+        "x1": 464.99
+      }
+    },
+    {
+      "id": "reading-25-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What two things are paralegals unable to do?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        311
+      ],
+      "sourceBlockIds": [
+        "page-311-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 112.29,
+        "x0": 14.4,
+        "x1": 295.34
+      }
+    },
+    {
+      "id": "reading-25-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "Which two organizations established voluntary certification?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        311
+      ],
+      "sourceBlockIds": [
+        "page-311-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 305.52,
+        "x0": 14.4,
+        "x1": 383.92
+      }
+    },
+    {
+      "id": "reading-25-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What idea does the expression \"opposite ends of the world\" in Paragraph (1) repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        313
+      ],
+      "sourceBlockIds": [
+        "page-313-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 594.82,
+        "x0": 14.4,
+        "x1": 498.54
+      }
+    },
+    {
+      "id": "reading-25-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following does the writer say are facts?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        314
+      ],
+      "sourceBlockIds": [
+        "page-314-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 87.53,
+        "x0": 14.4,
+        "x1": 314.03
+      }
+    },
+    {
+      "id": "reading-25-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "How is the Universalists' view of emotions different from the social constructivists' view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        314
+      ],
+      "sourceBlockIds": [
+        "page-314-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 287.6,
+        "x0": 14.4,
+        "x1": 519.73
+      }
+    },
+    {
+      "id": "reading-25-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "How is the social constructivists' view of automatic feelings different from that of universalists?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        314
+      ],
+      "sourceBlockIds": [
+        "page-314-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 504.82,
+        "x0": 14.4,
+        "x1": 556.39
+      }
+    },
+    {
+      "id": "reading-25-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about Lutz's view of emotions from Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        314
+      ],
+      "sourceBlockIds": [
+        "page-314-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 705.01,
+        "x0": 14.4,
+        "x1": 448.39
+      }
+    },
+    {
+      "id": "reading-25-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about the social constructivists' view of emotions from Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        315
+      ],
+      "sourceBlockIds": [
+        "page-315-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 185.09,
+        "x0": 14.4,
+        "x1": 558.94
+      }
+    },
+    {
+      "id": "reading-25-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "What do Passages A and B say about liquid petroleum?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        315
+      ],
+      "sourceBlockIds": [
+        "page-315-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 433.82,
+        "x0": 14.4,
+        "x1": 360.81
+      }
+    },
+    {
+      "id": "reading-25-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Passages A and B how can oil be released into the environment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        315
+      ],
+      "sourceBlockIds": [
+        "page-315-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 627.05,
+        "x0": 14.4,
+        "x1": 500.66
+      }
+    },
+    {
+      "id": "reading-25-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Passages A and B what have oil releases led to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        316
+      ],
+      "sourceBlockIds": [
+        "page-316-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 85.65,
+        "x0": 14.4,
+        "x1": 399.63
+      }
+    },
+    {
+      "id": "reading-25-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Passages A and B, how can oil be transported?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        316
+      ],
+      "sourceBlockIds": [
+        "page-316-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 294.96,
+        "x0": 14.4,
+        "x1": 390.91
+      }
+    }
+  ]
+}

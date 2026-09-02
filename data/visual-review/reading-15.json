@@ -1,0 +1,732 @@
+{
+  "readingId": "reading-15",
+  "sourcePages": [
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171
+  ],
+  "sourcePageRange": {
+    "start": 161,
+    "end": 171
+  },
+  "visualQuestionReviewStatus": "in_progress",
+  "firstReviewStatus": "in_progress",
+  "secondReviewStatus": "not_started",
+  "questions": [
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 1,
+      "questionText": "Look at picture …. ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        161
+      ],
+      "sourceBlockIds": [
+        "page-161-line-8"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 2,
+      "questionText": "What is not true about pizza Margherita?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        162
+      ],
+      "sourceBlockIds": [
+        "page-162-line-19"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 3,
+      "questionText": "Why was a kind of Pizza named Margherita?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        163
+      ],
+      "sourceBlockIds": [
+        "page-163-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 4,
+      "questionText": "Why is Rafaelle the founder of pizza?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        163
+      ],
+      "sourceBlockIds": [
+        "page-163-line-5"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 5,
+      "questionText": "The idea is from person?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        163
+      ],
+      "sourceBlockIds": [
+        "page-163-line-11"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 6,
+      "questionText": "Them refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        163
+      ],
+      "sourceBlockIds": [
+        "page-163-line-13"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 7,
+      "questionText": "What is he talking about?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        164
+      ],
+      "sourceBlockIds": [
+        "page-164-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 8,
+      "questionText": "Pronunciation means?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        164
+      ],
+      "sourceBlockIds": [
+        "page-164-line-5"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 9,
+      "questionText": "Why important to learn as children?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        164
+      ],
+      "sourceBlockIds": [
+        "page-164-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 10,
+      "questionText": "You read this in?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        164
+      ],
+      "sourceBlockIds": [
+        "page-164-line-15"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 11,
+      "questionText": "Why homogenized milk is health risk?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        165
+      ],
+      "sourceBlockIds": [
+        "page-165-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 12,
+      "questionText": "Why milk pasteurization?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        165
+      ],
+      "sourceBlockIds": [
+        "page-165-line-9"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 13,
+      "questionText": "The Pronoun That refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        165
+      ],
+      "sourceBlockIds": [
+        "page-165-line-11"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 14,
+      "questionText": "If a guest visits you, what will you offer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        165
+      ],
+      "sourceBlockIds": [
+        "page-165-line-13"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 15,
+      "questionText": "How many people have the vaccine been tried on?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        166
+      ],
+      "sourceBlockIds": [
+        "page-166-line-9"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 16,
+      "questionText": "The word \"great powers\" refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        166
+      ],
+      "sourceBlockIds": [
+        "page-166-line-17"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 17,
+      "questionText": "What can help poverty?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        166
+      ],
+      "sourceBlockIds": [
+        "page-166-line-19"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 18,
+      "questionText": "In which page most likely new movie?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        167
+      ],
+      "sourceBlockIds": [
+        "page-167-line-18"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 19,
+      "questionText": "If the question is about stock, what is the suitable unit/part/section?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        167
+      ],
+      "sourceBlockIds": [
+        "page-167-line-20"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 20,
+      "questionText": "Where to find stock price information?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        167
+      ],
+      "sourceBlockIds": [
+        "page-167-line-22"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 21,
+      "questionText": "Noah story is found in?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        168
+      ],
+      "sourceBlockIds": [
+        "page-168-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 22,
+      "questionText": "International day can be found in?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        168
+      ],
+      "sourceBlockIds": [
+        "page-168-line-5"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 23,
+      "questionText": "Turkish series are found in?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        168
+      ],
+      "sourceBlockIds": [
+        "page-168-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 24,
+      "questionText": "New products can be found in?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        168
+      ],
+      "sourceBlockIds": [
+        "page-168-line-9"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 25,
+      "questionText": "Herbs are plants?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        168
+      ],
+      "sourceBlockIds": [
+        "page-168-line-15"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 26,
+      "questionText": "How much time do we spend inside our houses?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        169
+      ],
+      "sourceBlockIds": [
+        "page-169-line-8"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 27,
+      "questionText": "Why bad air stays inside?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        169
+      ],
+      "sourceBlockIds": [
+        "page-169-line-10"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 28,
+      "questionText": "Pronoun \"They\" refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        169
+      ],
+      "sourceBlockIds": [
+        "page-169-line-14"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 29,
+      "questionText": "Killing animals?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        169
+      ],
+      "sourceBlockIds": [
+        "page-169-line-16"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 30,
+      "questionText": "Extermination is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        169
+      ],
+      "sourceBlockIds": [
+        "page-169-line-18"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 31,
+      "questionText": "Ideas about?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        170
+      ],
+      "sourceBlockIds": [
+        "page-170-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 32,
+      "questionText": "He is ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        170
+      ],
+      "sourceBlockIds": [
+        "page-170-line-10"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 33,
+      "questionText": "The word \" myriad\" is closest in meaning?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        170
+      ],
+      "sourceBlockIds": [
+        "page-170-line-16"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 34,
+      "questionText": "The word \" tamed\" is closest in meaning?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        170
+      ],
+      "sourceBlockIds": [
+        "page-170-line-18"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 35,
+      "questionText": "The word \" mankind\" is closest in meaning?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        171
+      ],
+      "sourceBlockIds": [
+        "page-171-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 36,
+      "questionText": "Discoveries were?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        171
+      ],
+      "sourceBlockIds": [
+        "page-171-line-5"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-15",
+      "sourceQuestionNumber": null,
+      "displayOrder": 37,
+      "questionText": "Which is not mentioned as ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        171
+      ],
+      "sourceBlockIds": [
+        "page-171-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    }
+  ],
+  "duplicateTechnicalRecordsRemoved": 0,
+  "reviewNotes": [
+    "A source-traceable geometry worklist was staged for visual review. No item was automatically approved and no answer key was created."
+  ]
+}

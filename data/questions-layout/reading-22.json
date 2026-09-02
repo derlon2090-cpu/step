@@ -1,0 +1,845 @@
+{
+  "readingId": "reading-22",
+  "questions": [
+    {
+      "id": "reading-22-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "Chinese?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        264
+      ],
+      "sourceBlockIds": [
+        "page-264-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 220.41,
+        "x0": 14.4,
+        "x1": 73.65
+      }
+    },
+    {
+      "id": "reading-22-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        264
+      ],
+      "sourceBlockIds": [
+        "page-264-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 413.64,
+        "x0": 14.4,
+        "x1": 390.1
+      }
+    },
+    {
+      "id": "reading-22-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following colors is NOT mentioned in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        264
+      ],
+      "sourceBlockIds": [
+        "page-264-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 628.73,
+        "x0": 14.4,
+        "x1": 411.14
+      }
+    },
+    {
+      "id": "reading-22-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "Who developed rain harvesting in the third Millennium B.C.?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        265
+      ],
+      "sourceBlockIds": [
+        "page-265-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 545.54,
+        "x0": 14.4,
+        "x1": 386.35
+      }
+    },
+    {
+      "id": "reading-22-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "how long were Rome's aqueducts in total?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        266
+      ],
+      "sourceBlockIds": [
+        "page-266-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.4,
+        "x1": 277.18
+      }
+    },
+    {
+      "id": "reading-22-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "when did Trajan build the Aqua Tariana?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        266
+      ],
+      "sourceBlockIds": [
+        "page-266-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 294.96,
+        "x0": 14.4,
+        "x1": 266.58
+      }
+    },
+    {
+      "id": "reading-22-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "what important point does the writer make about starting friction in Paragraph 3 and 4?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        266
+      ],
+      "sourceBlockIds": [
+        "page-266-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 544.34,
+        "x0": 14.4,
+        "x1": 550.53
+      }
+    },
+    {
+      "id": "reading-22-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "what important idea related to frictional force does the writer mention in paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        266
+      ],
+      "sourceBlockIds": [
+        "page-266-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 785.95,
+        "x0": 14.4,
+        "x1": 540.97
+      }
+    },
+    {
+      "id": "reading-22-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "what point does the writer support with the example of rubbing your hands together?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        267
+      ],
+      "sourceBlockIds": [
+        "page-267-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 294.96,
+        "x0": 14.4,
+        "x1": 535.69
+      }
+    },
+    {
+      "id": "reading-22-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "what is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        267
+      ],
+      "sourceBlockIds": [
+        "page-267-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 536.54,
+        "x0": 14.4,
+        "x1": 252.6
+      }
+    },
+    {
+      "id": "reading-22-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the passage say about the new food control technique?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        268
+      ],
+      "sourceBlockIds": [
+        "page-268-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 135.57,
+        "x0": 14.4,
+        "x1": 428.48
+      }
+    },
+    {
+      "id": "reading-22-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "Why have scientists developed the new food control technique?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        268
+      ],
+      "sourceBlockIds": [
+        "page-268-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 360.96,
+        "x0": 14.4,
+        "x1": 408.85
+      }
+    },
+    {
+      "id": "reading-22-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "Which word can we use to replace the phrase in addition in paragraph 5?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        268
+      ],
+      "sourceBlockIds": [
+        "page-268-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 570.26,
+        "x0": 14.4,
+        "x1": 467.16
+      }
+    },
+    {
+      "id": "reading-22-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the phrase for instance in paragraph 5?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        269
+      ],
+      "sourceBlockIds": [
+        "page-269-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.4,
+        "x1": 412.77
+      }
+    },
+    {
+      "id": "reading-22-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer think of the old mouth guards?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        269
+      ],
+      "sourceBlockIds": [
+        "page-269-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 294.96,
+        "x0": 14.4,
+        "x1": 334.91
+      }
+    },
+    {
+      "id": "reading-22-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "What has the greatest effect on people's ideas about marriage today?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        269
+      ],
+      "sourceBlockIds": [
+        "page-269-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 592.7,
+        "x0": 14.4,
+        "x1": 445.75
+      }
+    },
+    {
+      "id": "reading-22-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main reason people have always lived in social groups?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        269
+      ],
+      "sourceBlockIds": [
+        "page-269-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 785.95,
+        "x0": 14.4,
+        "x1": 434.12
+      }
+    },
+    {
+      "id": "reading-22-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "The word \" obtaining\" in the passage is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        270
+      ],
+      "sourceBlockIds": [
+        "page-270-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 314.04,
+        "x0": 14.4,
+        "x1": 399.48
+      }
+    },
+    {
+      "id": "reading-22-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "The word \" negotiations\" in the passage is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        270
+      ],
+      "sourceBlockIds": [
+        "page-270-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 555.62,
+        "x0": 14.4,
+        "x1": 418.23
+      }
+    },
+    {
+      "id": "reading-22-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "What percentage of steel does the automotive industry use?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        271
+      ],
+      "sourceBlockIds": [
+        "page-271-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 377.04,
+        "x0": 14.4,
+        "x1": 386.9
+      }
+    },
+    {
+      "id": "reading-22-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "what percentage of steel is used by the domestic appliances industry?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        271
+      ],
+      "sourceBlockIds": [
+        "page-271-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 586.34,
+        "x0": 14.4,
+        "x1": 448.43
+      }
+    },
+    {
+      "id": "reading-22-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "What two things happen to the cells in our body?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        272
+      ],
+      "sourceBlockIds": [
+        "page-272-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 123.81,
+        "x0": 14.4,
+        "x1": 316.29
+      }
+    },
+    {
+      "id": "reading-22-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "What two things do cells use for mitosis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        272
+      ],
+      "sourceBlockIds": [
+        "page-272-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 349.2,
+        "x0": 14.4,
+        "x1": 267.42
+      }
+    },
+    {
+      "id": "reading-22-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "What two hormones make people feel hunger?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        272
+      ],
+      "sourceBlockIds": [
+        "page-272-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 574.58,
+        "x0": 14.4,
+        "x1": 304.71
+      }
+    },
+    {
+      "id": "reading-22-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "How many of Britain's CEOs were educated private schools in 2015?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        273
+      ],
+      "sourceBlockIds": [
+        "page-273-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 368.64,
+        "x0": 14.4,
+        "x1": 440.98
+      }
+    },
+    {
+      "id": "reading-22-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "The word \"probable\" in the passage is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        273
+      ],
+      "sourceBlockIds": [
+        "page-273-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 567.74,
+        "x0": 14.4,
+        "x1": 393.24
+      }
+    },
+    {
+      "id": "reading-22-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "The word \" booked\" in the passage is closest in Probable cause meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        273
+      ],
+      "sourceBlockIds": [
+        "page-273-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 760.84,
+        "x0": 14.4,
+        "x1": 490.01
+      }
+    },
+    {
+      "id": "reading-22-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "What are two words that the writer uses for supporter are in paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        274
+      ],
+      "sourceBlockIds": [
+        "page-274-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 333.12,
+        "x0": 14.4,
+        "x1": 469.49
+      }
+    },
+    {
+      "id": "reading-22-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        274
+      ],
+      "sourceBlockIds": [
+        "page-274-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 542.42,
+        "x0": 14.4,
+        "x1": 240.84
+      }
+    },
+    {
+      "id": "reading-22-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "How are college students views about advertising different from their advertiser's view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        274
+      ],
+      "sourceBlockIds": [
+        "page-274-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 783.88,
+        "x0": 14.4,
+        "x1": 553.55
+      }
+    },
+    {
+      "id": "reading-22-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about advertising from the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        275
+      ],
+      "sourceBlockIds": [
+        "page-275-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 294.96,
+        "x0": 14.4,
+        "x1": 399.68
+      }
+    },
+    {
+      "id": "reading-22-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about YouTube from the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        275
+      ],
+      "sourceBlockIds": [
+        "page-275-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 536.54,
+        "x0": 14.4,
+        "x1": 388.88
+      }
+    },
+    {
+      "id": "reading-22-q33",
+      "displayOrder": 33,
+      "sourceQuestionNumber": null,
+      "questionText": "According to both passages, why is it difficult to use energy from renewable sources?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        276
+      ],
+      "sourceBlockIds": [
+        "page-276-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 139.89,
+        "x0": 14.4,
+        "x1": 541.77
+      }
+    },
+    {
+      "id": "reading-22-q34",
+      "displayOrder": 34,
+      "sourceQuestionNumber": null,
+      "questionText": "What do the passages say about the UK?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        276
+      ],
+      "sourceBlockIds": [
+        "page-276-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 358.44,
+        "x0": 14.4,
+        "x1": 272.89
+      }
+    },
+    {
+      "id": "reading-22-q35",
+      "displayOrder": 35,
+      "sourceQuestionNumber": null,
+      "questionText": "passages?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        276
+      ],
+      "sourceBlockIds": [
+        "page-276-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 604.46,
+        "x0": 14.4,
+        "x1": 82.17
+      }
+    }
+  ]
+}

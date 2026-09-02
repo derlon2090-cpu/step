@@ -1,0 +1,773 @@
+{
+  "readingId": "reading-24",
+  "questions": [
+    {
+      "id": "reading-24-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "Chinese?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        293
+      ],
+      "sourceBlockIds": [
+        "page-293-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 123.81,
+        "x0": 14.4,
+        "x1": 73.65
+      }
+    },
+    {
+      "id": "reading-24-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        293
+      ],
+      "sourceBlockIds": [
+        "page-293-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 317.04,
+        "x0": 14.4,
+        "x1": 390.1
+      }
+    },
+    {
+      "id": "reading-24-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "How many hairs does a gecko have at the bottom of each toe?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        293
+      ],
+      "sourceBlockIds": [
+        "page-293-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 593.06,
+        "x0": 14.4,
+        "x1": 402.72
+      }
+    },
+    {
+      "id": "reading-24-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "What are the forces that allow geckos to climb upside down on glass called?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        294
+      ],
+      "sourceBlockIds": [
+        "page-294-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 85.65,
+        "x0": 14.4,
+        "x1": 486.58
+      }
+    },
+    {
+      "id": "reading-24-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "Who started using the popular phrase \"nano\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        294
+      ],
+      "sourceBlockIds": [
+        "page-294-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 262.8,
+        "x0": 14.4,
+        "x1": 300.59
+      }
+    },
+    {
+      "id": "reading-24-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "What important information about the research study does the writer mention in paragraphs (4) and (5)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        294
+      ],
+      "sourceBlockIds": [
+        "page-294-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 428.21,
+        "x0": 14.4,
+        "x1": 564.83
+      }
+    },
+    {
+      "id": "reading-24-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea related to ultrafine particles that the writer mentions in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        294
+      ],
+      "sourceBlockIds": [
+        "page-294-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 635.26,
+        "x0": 14.4,
+        "x1": 528.97
+      }
+    },
+    {
+      "id": "reading-24-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What is Manaus an example of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        295
+      ],
+      "sourceBlockIds": [
+        "page-295-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 85.65,
+        "x0": 14.4,
+        "x1": 214.62
+      }
+    },
+    {
+      "id": "reading-24-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        295
+      ],
+      "sourceBlockIds": [
+        "page-295-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 262.8,
+        "x0": 14.4,
+        "x1": 255.73
+      }
+    },
+    {
+      "id": "reading-24-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph (2) say about standardization?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        295
+      ],
+      "sourceBlockIds": [
+        "page-295-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 525.02,
+        "x0": 14.4,
+        "x1": 342.75
+      }
+    },
+    {
+      "id": "reading-24-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "How was the problem of different perceptions of quality solved?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        295
+      ],
+      "sourceBlockIds": [
+        "page-295-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 718.25,
+        "x0": 14.4,
+        "x1": 407.32
+      }
+    },
+    {
+      "id": "reading-24-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the phrase in fact in Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        296
+      ],
+      "sourceBlockIds": [
+        "page-296-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 182.25,
+        "x0": 14.4,
+        "x1": 388.8
+      }
+    },
+    {
+      "id": "reading-24-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "Which word can replace the word (Although) in Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        296
+      ],
+      "sourceBlockIds": [
+        "page-296-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 400.8,
+        "x0": 14.4,
+        "x1": 402.68
+      }
+    },
+    {
+      "id": "reading-24-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer think is an added advantage of ISO certification?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        296
+      ],
+      "sourceBlockIds": [
+        "page-296-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 642.29,
+        "x0": 14.4,
+        "x1": 447.74
+      }
+    },
+    {
+      "id": "reading-24-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "According to the text, what is one important effect of non-standard accounting?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        297
+      ],
+      "sourceBlockIds": [
+        "page-297-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 246.69,
+        "x0": 14.4,
+        "x1": 502.43
+      }
+    },
+    {
+      "id": "reading-24-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the reason for companies hiding some business costs?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        297
+      ],
+      "sourceBlockIds": [
+        "page-297-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 439.94,
+        "x0": 14.4,
+        "x1": 405.75
+      }
+    },
+    {
+      "id": "reading-24-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "In which year was the freshwater level the highest in Morocco?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        298
+      ],
+      "sourceBlockIds": [
+        "page-298-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 511.22,
+        "x0": 14.4,
+        "x1": 403.22
+      }
+    },
+    {
+      "id": "reading-24-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "How much did the freshwater levels decrease in Syria between 1967 and 2011?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        298
+      ],
+      "sourceBlockIds": [
+        "page-298-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 656.09,
+        "x0": 14.4,
+        "x1": 509.14
+      }
+    },
+    {
+      "id": "reading-24-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following is the writer's opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        299
+      ],
+      "sourceBlockIds": [
+        "page-299-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 106.41,
+        "x0": 14.4,
+        "x1": 292.36
+      }
+    },
+    {
+      "id": "reading-24-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from the passage about software piracy?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        299
+      ],
+      "sourceBlockIds": [
+        "page-299-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 287.52,
+        "x0": 14.4,
+        "x1": 425.9
+      }
+    },
+    {
+      "id": "reading-24-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from the passage about a lot of people who purchase software?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        299
+      ],
+      "sourceBlockIds": [
+        "page-299-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 480.74,
+        "x0": 14.4,
+        "x1": 567.42
+      }
+    },
+    {
+      "id": "reading-24-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "What two phrases does the writer use to say that the birds were very large?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        300
+      ],
+      "sourceBlockIds": [
+        "page-300-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 501.98,
+        "x0": 14.4,
+        "x1": 481.9
+      }
+    },
+    {
+      "id": "reading-24-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following does the writer say is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        300
+      ],
+      "sourceBlockIds": [
+        "page-300-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 711.29,
+        "x0": 14.4,
+        "x1": 331.82
+      }
+    },
+    {
+      "id": "reading-24-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "How are researchers' views since the new discovery different from the views held before?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        301
+      ],
+      "sourceBlockIds": [
+        "page-301-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 182.25,
+        "x0": 14.4,
+        "x1": 568.59
+      }
+    },
+    {
+      "id": "reading-24-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about the giant bird of Crimea from Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        301
+      ],
+      "sourceBlockIds": [
+        "page-301-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 391.56,
+        "x0": 14.4,
+        "x1": 487.44
+      }
+    },
+    {
+      "id": "reading-24-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "What can be understood about Daniel Field from paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        301
+      ],
+      "sourceBlockIds": [
+        "page-301-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 584.78,
+        "x0": 14.4,
+        "x1": 412.04
+      }
+    },
+    {
+      "id": "reading-24-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one advantage partnerships and private limited companies have over sole traders?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        302
+      ],
+      "sourceBlockIds": [
+        "page-302-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 122.49,
+        "x0": 14.4,
+        "x1": 577.77
+      }
+    },
+    {
+      "id": "reading-24-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one advantage sole traders and partnerships have over private limited companies?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        302
+      ],
+      "sourceBlockIds": [
+        "page-302-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 331.8,
+        "x0": 14.4,
+        "x1": 577.76
+      }
+    },
+    {
+      "id": "reading-24-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "How is a partnership different from a Sole trader and a private limited company?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        302
+      ],
+      "sourceBlockIds": [
+        "page-302-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 541.1,
+        "x0": 14.4,
+        "x1": 509.94
+      }
+    },
+    {
+      "id": "reading-24-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "In which business do the owners have to use their personal money if the business fails?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        302
+      ],
+      "sourceBlockIds": [
+        "page-302-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 718.25,
+        "x0": 14.4,
+        "x1": 557.33
+      }
+    },
+    {
+      "id": "reading-24-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "Why are bees important to humans?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        303
+      ],
+      "sourceBlockIds": [
+        "page-303-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 460.58,
+        "x0": 14.4,
+        "x1": 240.12
+      }
+    },
+    {
+      "id": "reading-24-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "Which paragraph describes how the scientists trained the bees?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        303
+      ],
+      "sourceBlockIds": [
+        "page-303-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 669.89,
+        "x0": 14.4,
+        "x1": 411.18
+      }
+    }
+  ]
+}

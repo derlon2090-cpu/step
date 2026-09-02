@@ -1,0 +1,533 @@
+{
+  "readingId": "reading-28",
+  "questions": [
+    {
+      "id": "reading-28-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about the Australian and the Nearctic deserts?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        341
+      ],
+      "sourceBlockIds": [
+        "page-341-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.4,
+        "x1": 461.04
+      }
+    },
+    {
+      "id": "reading-28-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "Why are bees important to humans?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        342
+      ],
+      "sourceBlockIds": [
+        "page-342-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 303.48,
+        "x0": 14.4,
+        "x1": 240.12
+      }
+    },
+    {
+      "id": "reading-28-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "Which paragraph describes how the scientists trained the bees?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        342
+      ],
+      "sourceBlockIds": [
+        "page-342-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 480.62,
+        "x0": 14.4,
+        "x1": 411.18
+      }
+    },
+    {
+      "id": "reading-28-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "What chemical is used in fire extinguishers?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        344
+      ],
+      "sourceBlockIds": [
+        "page-344-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.33,
+        "x0": 14.4,
+        "x1": 286.79
+      }
+    },
+    {
+      "id": "reading-28-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "What is another name for \"Chlorofluorocarbons\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        344
+      ],
+      "sourceBlockIds": [
+        "page-344-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 299.64,
+        "x0": 14.4,
+        "x1": 319.17
+      }
+    },
+    {
+      "id": "reading-28-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "stratosphere?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        344
+      ],
+      "sourceBlockIds": [
+        "page-344-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 541.1,
+        "x0": 14.4,
+        "x1": 100.03
+      }
+    },
+    {
+      "id": "reading-28-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph (1) say about air pollution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        345
+      ],
+      "sourceBlockIds": [
+        "page-345-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 78.81,
+        "x0": 14.4,
+        "x1": 319.46
+      }
+    },
+    {
+      "id": "reading-28-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the words \"In addition\" in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        345
+      ],
+      "sourceBlockIds": [
+        "page-345-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 304.2,
+        "x0": 14.4,
+        "x1": 420.38
+      }
+    },
+    {
+      "id": "reading-28-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "How can we reduce outdoor air pollution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        345
+      ],
+      "sourceBlockIds": [
+        "page-345-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 529.58,
+        "x0": 14.4,
+        "x1": 272.06
+      }
+    },
+    {
+      "id": "reading-28-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "Which word can we use to replace the words \"for example\" in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        345
+      ],
+      "sourceBlockIds": [
+        "page-345-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 754.96,
+        "x0": 14.4,
+        "x1": 491.93
+      }
+    },
+    {
+      "id": "reading-28-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer think about ordinary people reducing air pollution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        346
+      ],
+      "sourceBlockIds": [
+        "page-346-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 246.69,
+        "x0": 14.4,
+        "x1": 456.46
+      }
+    },
+    {
+      "id": "reading-28-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "What happens because of reports of increased inflation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        346
+      ],
+      "sourceBlockIds": [
+        "page-346-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 531.14,
+        "x0": 14.4,
+        "x1": 364.52
+      }
+    },
+    {
+      "id": "reading-28-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "What effect does political situation have on the exchange rate?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        346
+      ],
+      "sourceBlockIds": [
+        "page-346-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 740.44,
+        "x0": 14.4,
+        "x1": 403.59
+      }
+    },
+    {
+      "id": "reading-28-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "Which two fields extract and use the most water?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        348
+      ],
+      "sourceBlockIds": [
+        "page-348-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 442.22,
+        "x0": 14.4,
+        "x1": 318.66
+      }
+    },
+    {
+      "id": "reading-28-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "Which year will have the highest consumption of water for industry use?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        348
+      ],
+      "sourceBlockIds": [
+        "page-348-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 619.37,
+        "x0": 14.4,
+        "x1": 458.74
+      }
+    },
+    {
+      "id": "reading-28-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "Which year represents the highest wind investment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        349
+      ],
+      "sourceBlockIds": [
+        "page-349-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 297.36,
+        "x0": 14.4,
+        "x1": 338.81
+      }
+    },
+    {
+      "id": "reading-28-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "Which year represents the lowest solar investment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        349
+      ],
+      "sourceBlockIds": [
+        "page-349-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 538.82,
+        "x0": 14.4,
+        "x1": 335.02
+      }
+    },
+    {
+      "id": "reading-28-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from Paragraph (2) about a good hug?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        350
+      ],
+      "sourceBlockIds": [
+        "page-350-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 771.22,
+        "x0": 14.4,
+        "x1": 326.05
+      }
+    },
+    {
+      "id": "reading-28-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "How are functionalist theories of emotions different from appraisal theories?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        351
+      ],
+      "sourceBlockIds": [
+        "page-351-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 240.74,
+        "x0": 14.4,
+        "x1": 390.43
+      }
+    },
+    {
+      "id": "reading-28-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "What idea does the word \"relationships\" in Paragraph (4) repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        351
+      ],
+      "sourceBlockIds": [
+        "page-351-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 455.35,
+        "x0": 14.4,
+        "x1": 333.94
+      }
+    },
+    {
+      "id": "reading-28-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following is the writer's opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        351
+      ],
+      "sourceBlockIds": [
+        "page-351-line-31"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 670.06,
+        "x0": 14.4,
+        "x1": 239.22
+      }
+    },
+    {
+      "id": "reading-28-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from the passage about emotions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        352
+      ],
+      "sourceBlockIds": [
+        "page-352-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 140.66,
+        "x0": 14.4,
+        "x1": 309.73
+      }
+    }
+  ]
+}

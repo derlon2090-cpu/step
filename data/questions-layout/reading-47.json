@@ -1,0 +1,653 @@
+{
+  "readingId": "reading-47",
+  "questions": [
+    {
+      "id": "reading-47-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "23) According to Paragraph 3), who supported Ali when he refused to join the army?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        617
+      ],
+      "sourceBlockIds": [
+        "page-617-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 563.26,
+        "x0": 14.16,
+        "x1": 504.39
+      }
+    },
+    {
+      "id": "reading-47-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "25) What is the main food crop in Madagascar?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        618
+      ],
+      "sourceBlockIds": [
+        "page-618-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 568.9,
+        "x0": 14.16,
+        "x1": 288.42
+      }
+    },
+    {
+      "id": "reading-47-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "26) When did Arab sailors first arrive in Madagascar?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        618
+      ],
+      "sourceBlockIds": [
+        "page-618-line-38"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 686.89,
+        "x0": 14.16,
+        "x1": 321.79
+      }
+    },
+    {
+      "id": "reading-47-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "27) When did the country take the name Madagascar?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        619
+      ],
+      "sourceBlockIds": [
+        "page-619-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 330.28
+      }
+    },
+    {
+      "id": "reading-47-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "28) What is one important idea related to fast food that the writer mentions in Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        619
+      ],
+      "sourceBlockIds": [
+        "page-619-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 560.5,
+        "x0": 14.16,
+        "x1": 560.16
+      }
+    },
+    {
+      "id": "reading-47-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "29) What is one important idea related to fast food that the writer mentions in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        619
+      ],
+      "sourceBlockIds": [
+        "page-619-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 678.49,
+        "x0": 14.16,
+        "x1": 560.16
+      }
+    },
+    {
+      "id": "reading-47-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "30) What are examples of unusual fast food?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        620
+      ],
+      "sourceBlockIds": [
+        "page-620-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 274.32
+      }
+    },
+    {
+      "id": "reading-47-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "31) What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        620
+      ],
+      "sourceBlockIds": [
+        "page-620-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 260.77
+      }
+    },
+    {
+      "id": "reading-47-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "32) How many people live in Rio de Janeiro?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        621
+      ],
+      "sourceBlockIds": [
+        "page-621-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 270.81
+      }
+    },
+    {
+      "id": "reading-47-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "33) Who is the governor of São Paulo?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        621
+      ],
+      "sourceBlockIds": [
+        "page-621-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 236.37
+      }
+    },
+    {
+      "id": "reading-47-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "34) How many people in São Paulo say that they are being affected by the water shortage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        621
+      ],
+      "sourceBlockIds": [
+        "page-621-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 306.44,
+        "x0": 14.16,
+        "x1": 541.36
+      }
+    },
+    {
+      "id": "reading-47-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "35) What caused the climate around the Aral Sea to change?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        621
+      ],
+      "sourceBlockIds": [
+        "page-621-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 691.09,
+        "x0": 14.16,
+        "x1": 365.29
+      }
+    },
+    {
+      "id": "reading-47-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "36) What is the main reason people living near the Aral Sea have poor health?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        622
+      ],
+      "sourceBlockIds": [
+        "page-622-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 466.98
+      }
+    },
+    {
+      "id": "reading-47-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "39) In what month was number of visitors the lowest?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        623
+      ],
+      "sourceBlockIds": [
+        "page-623-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 328.71
+      }
+    },
+    {
+      "id": "reading-47-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "40) In the month of January, what was the number of visitors?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        623
+      ],
+      "sourceBlockIds": [
+        "page-623-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 376.08
+      }
+    },
+    {
+      "id": "reading-47-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "41) In what month was the company’s revenue the highest?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        623
+      ],
+      "sourceBlockIds": [
+        "page-623-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 587.14,
+        "x0": 14.16,
+        "x1": 362.21
+      }
+    },
+    {
+      "id": "reading-47-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "42) In the month of January, what was the company’s revenue?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        623
+      ],
+      "sourceBlockIds": [
+        "page-623-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 705.13,
+        "x0": 14.16,
+        "x1": 383.29
+      }
+    },
+    {
+      "id": "reading-47-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "shut down local libraries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        626
+      ],
+      "sourceBlockIds": [
+        "page-626-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 198.29,
+        "x0": 14.16,
+        "x1": 163.12
+      }
+    },
+    {
+      "id": "reading-47-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "50) Which of the following is the writer’s opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        626
+      ],
+      "sourceBlockIds": [
+        "page-626-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 316.28,
+        "x0": 14.16,
+        "x1": 305.2
+      }
+    },
+    {
+      "id": "reading-47-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "51) How is the writer’s view about libraries different from some local government’s view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        626
+      ],
+      "sourceBlockIds": [
+        "page-626-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 434.14,
+        "x0": 14.16,
+        "x1": 535.61
+      }
+    },
+    {
+      "id": "reading-47-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "52) What can we understand from paragraph (3) about print books?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        626
+      ],
+      "sourceBlockIds": [
+        "page-626-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 552.1,
+        "x0": 14.16,
+        "x1": 408.92
+      }
+    },
+    {
+      "id": "reading-47-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "53) What can we understand from paragraph (2) about libraries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        626
+      ],
+      "sourceBlockIds": [
+        "page-626-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 670.09,
+        "x0": 14.16,
+        "x1": 389.86
+      }
+    },
+    {
+      "id": "reading-47-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "54) What can we understand from passages A and B about Saudi Arabian soccer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        627
+      ],
+      "sourceBlockIds": [
+        "page-627-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 588.58,
+        "x0": 14.16,
+        "x1": 484.15
+      }
+    },
+    {
+      "id": "reading-47-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "55) What do passages A and B say about recent results?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        627
+      ],
+      "sourceBlockIds": [
+        "page-627-line-35"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 706.57,
+        "x0": 14.16,
+        "x1": 337.61
+      }
+    },
+    {
+      "id": "reading-47-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "56) What do passages A and B say about managers of the Saudi teams?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        628
+      ],
+      "sourceBlockIds": [
+        "page-628-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 426.96
+      }
+    },
+    {
+      "id": "reading-47-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "57) According to the passage, why was Mr. Ahmad NOT pleased with Mr. Hamad?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        628
+      ],
+      "sourceBlockIds": [
+        "page-628-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 536.62,
+        "x0": 14.16,
+        "x1": 489.46
+      }
+    },
+    {
+      "id": "reading-47-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "58) When did Mr. Ahmad and Mr. Hamad have their last meeting?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        628
+      ],
+      "sourceBlockIds": [
+        "page-628-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 654.61,
+        "x0": 14.16,
+        "x1": 399.18
+      }
+    }
+  ]
+}

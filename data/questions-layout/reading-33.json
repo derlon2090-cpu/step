@@ -1,0 +1,821 @@
+{
+  "readingId": "reading-33",
+  "questions": [
+    {
+      "id": "reading-33-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "What was the main function of packaging traditionally?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        405
+      ],
+      "sourceBlockIds": [
+        "page-405-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 121.89,
+        "x0": 14.16,
+        "x1": 351.79
+      }
+    },
+    {
+      "id": "reading-33-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "How many items does a typical shopper pass by in a minute?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        405
+      ],
+      "sourceBlockIds": [
+        "page-405-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 362.64,
+        "x0": 14.16,
+        "x1": 393.86
+      }
+    },
+    {
+      "id": "reading-33-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "How many companies is Amazon working with to reduce \"wrap rage\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        405
+      ],
+      "sourceBlockIds": [
+        "page-405-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 547.82,
+        "x0": 14.16,
+        "x1": 448.07
+      }
+    },
+    {
+      "id": "reading-33-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (4), how did Heinz revolutionize the condiments industry?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        405
+      ],
+      "sourceBlockIds": [
+        "page-405-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 695.93,
+        "x0": 14.16,
+        "x1": 519.88
+      }
+    },
+    {
+      "id": "reading-33-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "What percentage increase in sales did Heinz make?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        406
+      ],
+      "sourceBlockIds": [
+        "page-406-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 199.17,
+        "x0": 14.16,
+        "x1": 337.12
+      }
+    },
+    {
+      "id": "reading-33-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the writer's main purpose in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        406
+      ],
+      "sourceBlockIds": [
+        "page-406-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 392.16,
+        "x0": 14.16,
+        "x1": 323.36
+      }
+    },
+    {
+      "id": "reading-33-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea that the writer mentions about scarcity?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        407
+      ],
+      "sourceBlockIds": [
+        "page-407-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.16,
+        "x1": 428.06
+      }
+    },
+    {
+      "id": "reading-33-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        407
+      ],
+      "sourceBlockIds": [
+        "page-407-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 382.08,
+        "x0": 14.16,
+        "x1": 252.4
+      }
+    },
+    {
+      "id": "reading-33-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the paragraph 2 say about expository writing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        407
+      ],
+      "sourceBlockIds": [
+        "page-407-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 585.74,
+        "x0": 14.16,
+        "x1": 368.28
+      }
+    },
+    {
+      "id": "reading-33-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        407
+      ],
+      "sourceBlockIds": [
+        "page-407-line-35"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 788.93,
+        "x0": 14.16,
+        "x1": 255.15
+      }
+    },
+    {
+      "id": "reading-33-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph (3) say about descriptive writing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        408
+      ],
+      "sourceBlockIds": [
+        "page-408-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 366.12,
+        "x0": 14.16,
+        "x1": 358.76
+      }
+    },
+    {
+      "id": "reading-33-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        408
+      ],
+      "sourceBlockIds": [
+        "page-408-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 643.46,
+        "x0": 14.16,
+        "x1": 279.54
+      }
+    },
+    {
+      "id": "reading-33-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph (5) say about narrative writing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        409
+      ],
+      "sourceBlockIds": [
+        "page-409-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 245.97,
+        "x0": 14.16,
+        "x1": 346.42
+      }
+    },
+    {
+      "id": "reading-33-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea about marketing in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        409
+      ],
+      "sourceBlockIds": [
+        "page-409-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 555.14,
+        "x0": 14.16,
+        "x1": 397.89
+      }
+    },
+    {
+      "id": "reading-33-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea about offensive behavior in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        409
+      ],
+      "sourceBlockIds": [
+        "page-409-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 758.8,
+        "x0": 14.16,
+        "x1": 450.02
+      }
+    },
+    {
+      "id": "reading-33-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "What is a major difference in bargaining style between American and South American businesspeople?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        410
+      ],
+      "sourceBlockIds": [
+        "page-410-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 273.05,
+        "x0": 14.16,
+        "x1": 561.43
+      }
+    },
+    {
+      "id": "reading-33-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What makes LG so internationally successful?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        410
+      ],
+      "sourceBlockIds": [
+        "page-410-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 529.82,
+        "x0": 14.16,
+        "x1": 300.42
+      }
+    },
+    {
+      "id": "reading-33-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        410
+      ],
+      "sourceBlockIds": [
+        "page-410-line-31"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 752.08,
+        "x0": 14.16,
+        "x1": 255.49
+      }
+    },
+    {
+      "id": "reading-33-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph 1 say about the Great Hunger?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        411
+      ],
+      "sourceBlockIds": [
+        "page-411-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 316.8,
+        "x0": 14.16,
+        "x1": 346.47
+      }
+    },
+    {
+      "id": "reading-33-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the word \"Yet\" in Paragraph 1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        411
+      ],
+      "sourceBlockIds": [
+        "page-411-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 538.94,
+        "x0": 14.16,
+        "x1": 364.82
+      }
+    },
+    {
+      "id": "reading-33-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "How did the Irish deal with the problems that followed the great Hunger?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        411
+      ],
+      "sourceBlockIds": [
+        "page-411-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 761.08,
+        "x0": 14.16,
+        "x1": 461.5
+      }
+    },
+    {
+      "id": "reading-33-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer think about the \"Irish question\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        412
+      ],
+      "sourceBlockIds": [
+        "page-412-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 254.76,
+        "x0": 14.16,
+        "x1": 343.17
+      }
+    },
+    {
+      "id": "reading-33-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "How did Prime Minister Gladstone deal with the Irish question?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        412
+      ],
+      "sourceBlockIds": [
+        "page-412-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 495.5,
+        "x0": 14.16,
+        "x1": 403.07
+      }
+    },
+    {
+      "id": "reading-33-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "What happened because of Louis Pasteur's research about bacteria?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        413
+      ],
+      "sourceBlockIds": [
+        "page-413-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.16,
+        "x1": 443.33
+      }
+    },
+    {
+      "id": "reading-33-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "What do toxins made by one species of bacteria cause?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        413
+      ],
+      "sourceBlockIds": [
+        "page-413-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 291.84,
+        "x0": 14.16,
+        "x1": 361.17
+      }
+    },
+    {
+      "id": "reading-33-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one negative effect of tuberculosis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        413
+      ],
+      "sourceBlockIds": [
+        "page-413-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 513.98,
+        "x0": 14.16,
+        "x1": 284.84
+      }
+    },
+    {
+      "id": "reading-33-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "Which group has the lowest number of days absent?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        415
+      ],
+      "sourceBlockIds": [
+        "page-415-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 121.05,
+        "x0": 14.16,
+        "x1": 340.17
+      }
+    },
+    {
+      "id": "reading-33-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "What are two plant pathogens that harm strawberries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        415
+      ],
+      "sourceBlockIds": [
+        "page-415-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 411.36,
+        "x0": 14.16,
+        "x1": 351.09
+      }
+    },
+    {
+      "id": "reading-33-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "Between which years did organic strawberry production rise by fivefold?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        415
+      ],
+      "sourceBlockIds": [
+        "page-415-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 559.46,
+        "x0": 14.16,
+        "x1": 458.58
+      }
+    },
+    {
+      "id": "reading-33-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about hypnosis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        416
+      ],
+      "sourceBlockIds": [
+        "page-416-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 548.3,
+        "x0": 14.16,
+        "x1": 274.78
+      }
+    },
+    {
+      "id": "reading-33-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following is the writer's opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        416
+      ],
+      "sourceBlockIds": [
+        "page-416-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 733.48,
+        "x0": 14.16,
+        "x1": 292.12
+      }
+    },
+    {
+      "id": "reading-33-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from passages A and B about leadership?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        417
+      ],
+      "sourceBlockIds": [
+        "page-417-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 410.4,
+        "x0": 14.16,
+        "x1": 433.49
+      }
+    },
+    {
+      "id": "reading-33-q33",
+      "displayOrder": 33,
+      "sourceQuestionNumber": null,
+      "questionText": "styles?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        417
+      ],
+      "sourceBlockIds": [
+        "page-417-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 651.17,
+        "x0": 14.16,
+        "x1": 57.8
+      }
+    },
+    {
+      "id": "reading-33-q34",
+      "displayOrder": 34,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from Passages A and B about leadership styles?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        418
+      ],
+      "sourceBlockIds": [
+        "page-418-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 143.61,
+        "x0": 14.16,
+        "x1": 474.73
+      }
+    }
+  ]
+}

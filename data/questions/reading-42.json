@@ -1,0 +1,967 @@
+{
+  "readingId": "reading-42",
+  "sourceQuestionBlocks": 13,
+  "questions": [
+    {
+      "id": "reading-42-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What does the passage say about Petra?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is in northern Syria."
+        },
+        {
+          "label": "B",
+          "text": "It is the capital of Jordan."
+        },
+        {
+          "label": "C",
+          "text": "It was the Nabatean capital."
+        },
+        {
+          "label": "D",
+          "text": "It was a successful commercial city."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 541,
+      "sourceLine": 30,
+      "sourcePages": [
+        541,
+        542
+      ],
+      "rawBlock": "What does the passage say about Petra?  \na) It is in northern Syria.  \nb) It is the capital of Jordan.  \nc) It was the Nabatean capital.  \nd) It was a successful commercial city.\n541 \nsteam train in London  القطار البخاري في لندن   \n1) The period from the late Renaissance to the early Industrial Revolution was one of such massive technological upheaval \nthat its effects can be clearly appreciated in statistical form: before 1600, 12 famines swept through England every 100 years; \nin the next century, thanks to agricultural innovation, there were only four. In 1750, the journey on horseback from London to \nEdinburgh took 10 to 12 days; by 1850, it took 17 hours by steam train.  \n(2) These fundamental changes to the way we lived were the result of invention on an unprecedented scale, the scientific \nrevolution that accompanied the Renaissance had borne technological fruits and the evolution of a self-conscious technique of \ninnovation: what has come to be called 'the invention of the invention'.  \n(3) With a political, commercial and social environment that valued inventors and inventions, Britain led the world in applying \nscientific enquiry to technological improvement, which it used to expand its world influence. The main examples are Robert \nBoyle's and Otto von Guericke's experiments with gases and vacuums, which led to the invention of the steam engine by \nThomas Newcomen in 1712. This has effects throughout industry and society, not least because steam power, developed to \npump water from mines, created a demand for fuel that in turn prompted the coal industry to expand and innovate. A product \nof this was Richard Trevithick's invention of the steam train to move coal from the pit.  \n(4) That conditions in Britain in the early 18th century were ripe for innovation was partly the result of the invention in 1701 of \nthe seed drill by Jethro Tull, an English farmer. Often seen as the beginning of the Agrarian Revolution, this event was in fact \nthe trigger of the Industrial Revolution. In the early 18th century, improvements in cultivation techniques, the wider use of \nhorses as draught animals, the policy of enclosure and the mechanization of agriculture begun by Tull, meant that for the first \ntime the majority of men were liberated from the daily struggle for subsistence. As a result, large portions of the rural \npopulation moved to towns (London's population grew from more than 100,000 in 1600 to more than one million in 1800). \nThis stimulated an even larger requirement for more efficient food production and provided the unskilled labor needed to \nwork in the factories that emerged following James Watt's development in 1781 of rotary steam power to drive the wheels of \nindustry.  \n(5) Steam power transformed the metal industry, increasing supplies of coal to smelt iron and produce steel, and enabling new \ntechniques of working with metals. The improvements in iron manufacture can be seen in the progression from the cast-iron \nbridge, known as the 'Stonehenge of the Industrial Revolution' and completed in 1779 at Ironbridge in Shropshire, to the \nelegant glass-and-iron Crystal Palace exhibition hall erected in Hyde Park in 1851. \n(6) With the harnessing of steam, technology truly released the brake of history, leading to an extraordinary quickening in the \nrate of change in manufacturing that far outpaced the innovation we are currently experiencing in electronics and computers. \nCapital and banking systems were established to initiate investments in mass-production techniques that saw more than \n100,000 power looms with 9,330,000 spindles put into service in England and Scotland between 1790 and 1830.  \n(7) The unpleasant consequence of the Industrial Revolution was a devaluation of the craft skills of artisans, as cottage \nindustries gave way to mechanized manufacturing in the mills. The creation of the modern factory, which relied on unskilled \nlabor doing tedious tasks, introduced the concept of payment by wages rather than the quality of the finished goods, a change \nthat discouraged further innovation. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "How many hours did it take to travel from London to Edinburgh by steam train?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "17"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 542,
+      "sourceLine": 37,
+      "sourcePages": [
+        542,
+        543
+      ],
+      "rawBlock": "How many hours did it take to travel from London to Edinburgh by steam train?  \na) 10  \nb) 12  \nc) 17  \nd) 24\n542 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "Who invented the seed drill?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 543,
+      "sourceLine": 3,
+      "sourcePages": [
+        543
+      ],
+      "rawBlock": "Who invented the seed drill?  \na) Robert Boyle  \nb) James Watt  \nc) George Smith  \nd) Jethro Tull  \nIn which year was the bridge known as the \"Stonehenge of the Industrial Revolution\" \ncompleted?  \na) 1686  \nb) 1779  \nc) 1790  \nd) 1851 \nإحصائيات  Statistics \n1) Statistics is a branch of mathematics. It involves gathering information and summarizing it. The numbers that result from \nthis work are also called statistics. They can help to predict such things as the weather and how sports teams will perform. \nThey also can describe specific things about large groups of people-for example, the reading level of students, the opinions of \nvoters, or the average weight of a city's residents.  \n2) The people who gather statistics are called statisticians. They collect pieces of information, or data, in three basic ways. \nThey refer to trustworthy sources, such as newspapers and reports from reliable organizations. They perform scientific \nexperiments. They also conduct surveys, or ask people questions.  \n3) Sometimes statisticians cannot gather data about every member of a group, often because the group is too large. In such \ncases they study only part of the group, called a sample. A sample must accurately represent the larger population. For \nexample, if women make up 60 percent of the population, then 60 percent of the sample must be women.  \n4) Once statisticians have collected their information, they summarize it. They often put the data in graphs or charts, which \nare easier to read than long lists of data. Statisticians also summarize data by calculating numbers called averages. There are \nthree kinds of averages: mean, mode, and median. The mean is the sum of a set of numbers divided by the number of \nelements in the set. The mode is simply the number that occurs most often in a sample. The median is the number right in the \nmiddle of the sample. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-42-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "What is one important idea related to collecting data from a sample from Paragraph (3)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is too long."
+        },
+        {
+          "label": "B",
+          "text": "It needs to include women."
+        },
+        {
+          "label": "C",
+          "text": "It studies a part of a group."
+        },
+        {
+          "label": "D",
+          "text": "It needs to represent the larger population."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 543,
+      "sourceLine": 38,
+      "sourcePages": [
+        543,
+        544
+      ],
+      "rawBlock": "What is one important idea related to collecting data from a sample from Paragraph (3)?  \na) It is too long.  \nb) It needs to include women.  \nc) It studies a part of a group.  \nd) It needs to represent the larger population.\n543 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What are statistics an example of?",
+      "options": [
+        {
+          "label": "A",
+          "text": "survey"
+        },
+        {
+          "label": "B",
+          "text": "information"
+        },
+        {
+          "label": "C",
+          "text": "mathematics"
+        },
+        {
+          "label": "D",
+          "text": "experiments"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 544,
+      "sourceLine": 2,
+      "sourcePages": [
+        544
+      ],
+      "rawBlock": "What are statistics an example of?  \na) survey  \nb) information  \nc) mathematics  \nd) experiments  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What is median an example of?",
+      "options": [
+        {
+          "label": "A",
+          "text": "sample"
+        },
+        {
+          "label": "B",
+          "text": "element"
+        },
+        {
+          "label": "C",
+          "text": "average"
+        },
+        {
+          "label": "D",
+          "text": "population"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 544,
+      "sourceLine": 8,
+      "sourcePages": [
+        544
+      ],
+      "rawBlock": "What is median an example of?  \na) sample  \nb) element  \nc) average  \nd) population ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "definition of averages"
+        },
+        {
+          "label": "B",
+          "text": "definition of sample"
+        },
+        {
+          "label": "C",
+          "text": "definition of statistics"
+        },
+        {
+          "label": "D",
+          "text": "definition of math"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 544,
+      "sourceLine": 14,
+      "sourcePages": [
+        544,
+        545
+      ],
+      "rawBlock": "What is the main topic of the passage?  \na) definition of averages  \nb) definition of sample  \nc) definition of statistics  \nd) definition of math \nأخلاقيات استخدام أجهزة الكمبيوتر Computer Ethics \nComputer Ethics  \n1) Computer ethics is a set of principles set out to regulate the use of computers. Three factors are considered:  \n• Intellectual Property Rights - this covers, for example, copying of software without the permission of the owner.  \n• Privacy Issues - this covers, for example, hacking or any illegal access to another person's personal data.  \n• Effect of computers on society - this covers factors such as job losses, social impacts and so on.  \n2) Use of the internet has led to an increase in plagiarism - this is when a person takes another person's idea/work and claims \nit as their own. While it is perfectly fine to quote another person's idea, it is essential that some acknowledgement is made so \nthat the originator of the idea is known to others. This can be done by a series of references at the end of a document or \nfootnotes on each page where a reference needs to be made. Software exists that can scan text and then look for examples of \nplagiarism by searching web pages on the internet.  \n3) The ACM (Association for Computer Machinery) and IEEE (Institute of Electrical and Electronics Engineers) have published \nthe following code of ethics:  \n1. to accept responsibility in making decisions consistent with the safety, health and welfare of the public, and to disclose \npromptly the factors that might endanger the public or the environment;  \n2. to be honest and realistic in stating claims or estimates based on available data;\n544 \n3. to maintain and improve our technical ability and to undertake technological tasks for others only if qualified by training or \nexperience;  \n4. to assist colleagues and co-workers in their professional development and to support them in following this code of ethics. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (1) say about computer ethics?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They help people keep their jobs."
+        },
+        {
+          "label": "B",
+          "text": "They control software development."
+        },
+        {
+          "label": "C",
+          "text": "They control computer-related advertisement."
+        },
+        {
+          "label": "D",
+          "text": "They decide right from wrong when using computers."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 545,
+      "sourceLine": 7,
+      "sourcePages": [
+        545
+      ],
+      "rawBlock": "What does Paragraph (1) say about computer ethics?  \na) They help people keep their jobs.  \nb) They control software development.  \nc) They control computer-related advertisement.  \nd) They decide right from wrong when using computers.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "How could writers avoid plagiarism?",
+      "options": [
+        {
+          "label": "A",
+          "text": "by asking for permission"
+        },
+        {
+          "label": "B",
+          "text": "by searching the internet for examples"
+        },
+        {
+          "label": "C",
+          "text": "by writing a reference at the end of a document"
+        },
+        {
+          "label": "D",
+          "text": "by asking a professional to check the document"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 545,
+      "sourceLine": 13,
+      "sourcePages": [
+        545
+      ],
+      "rawBlock": "How could writers avoid plagiarism?  \na) by asking for permission  \nb) by searching the internet for examples  \nc) by writing a reference at the end of a document  \nd) by asking a professional to check the document  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word while in paragraph (2)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to give an example of quoting"
+        },
+        {
+          "label": "B",
+          "text": ""
+        },
+        {
+          "label": "C",
+          "text": ""
+        },
+        {
+          "label": "D",
+          "text": "to show that quoting is OK if made clear."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 545,
+      "sourceLine": 19,
+      "sourcePages": [
+        545
+      ],
+      "rawBlock": "Why does the writer use the word while in paragraph (2)?  \na) to give an example of quoting  \nb)  \nc)  \nd) to show that quoting is OK if made clear.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "Which word can we use to replace the word then at the end of Paragraph (2)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "even though"
+        },
+        {
+          "label": "B",
+          "text": "in addition"
+        },
+        {
+          "label": "C",
+          "text": "in contrast"
+        },
+        {
+          "label": "D",
+          "text": "after that"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 545,
+      "sourceLine": 25,
+      "sourcePages": [
+        545
+      ],
+      "rawBlock": "Which word can we use to replace the word then at the end of Paragraph (2)?  \na) even though  \nb) in addition  \nc) in contrast  \nd) after that  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "How does the writer feel about intellectual property rights?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He believes that privacy issues are more important."
+        },
+        {
+          "label": "B",
+          "text": "He believes these should be fully acknowledged."
+        },
+        {
+          "label": "C",
+          "text": "He believes people DON'T respect these ethics."
+        },
+        {
+          "label": "D",
+          "text": "He believes computer users DON'T like them."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 545,
+      "sourceLine": 31,
+      "sourcePages": [
+        545,
+        546
+      ],
+      "rawBlock": "How does the writer feel about intellectual property rights?  \na) He believes that privacy issues are more important.  \nb) He believes these should be fully acknowledged.  \nc) He believes people DON'T respect these ethics.  \nd) He believes computer users DON'T like them.\n545 \n التطور الحركيMotor Development \nMotor Development  \n1) As an infant’s muscles and nervous system mature, more complicated skills emerge. With minor exceptions, the sequence \nof physical (motor) development is universal. Babies roll over before they sit unsupported, and they creep on all fours before \nthey walk. These behaviors reflect not imitation but a maturing nervous system; blind children too, crawl and walk.  \n2) But there are individual differences in the timing of this sequence. In the United States, for example, 25 percent of all babies \nwalk by age 11 months, 50 percent within a week after their first birthday, and 90 percent by age 15 months.  \n3) There are also cultural differences in timing. Although such differences could be genetic, experiments reveal that \nexperience does predict motor behavior. Consider Ugandan babies, for example, who usually walk by 10 months. Unlike \nbabies from other cultures who spend much of the day lying in a crib, Ugandan babies experience more intimate and rhythmic \nphysical contact while being carried on the back. Two-week-old babies wave their arms more if they can see them, suggesting \nthat they are learning to visually control their movements. Although 3-month-old infants still cannot efficiently reach and grab \nsomething, their seemingly spontaneous kicking movements become more purposeful and coordinated when they activate a \nmobile.  \n4) But nature (genes) plays a major role, too. Identical twins typically begin sitting up and walking on nearly the same day. \nBiological maturation - including the rapid development of the cerebellum at the brain's rear - creates a readiness to learn \nwalking within 2 or 3 month of age 1. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "Why can Ugandan babies usually walk by 10 months?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They imitate their mothers."
+        },
+        {
+          "label": "B",
+          "text": "They wave their arms more."
+        },
+        {
+          "label": "C",
+          "text": "Their muscles develop faster."
+        },
+        {
+          "label": "D",
+          "text": "Their mothers carry them more."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 546,
+      "sourceLine": 19,
+      "sourcePages": [
+        546
+      ],
+      "rawBlock": "Why can Ugandan babies usually walk by 10 months?  \na) They imitate their mothers.  \nb) They wave their arms more.  \nc) Their muscles develop faster.  \nd) Their mothers carry them more.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "What is the effect of infants being able to see their arms?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 546,
+      "sourceLine": 25,
+      "sourcePages": [
+        546,
+        547
+      ],
+      "rawBlock": "What is the effect of infants being able to see their arms?  \na) They move them more.  \nb) Their kicking improves.  \nc) Their brains develop faster.  \nd) They reach and grab sooner  \nThe word sequence in Paragraph (1) is closest in meaning to......  \na) Improvement  \nb) Experience  \nc) Success  \nd) Order\n546 \nThe word major in Paragraph (4) is closest in meaning to......  \na) Usual  \nb) Possible  \nc) Important  \nd) Different \nرسم بياني ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-42-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "How much did life expectancy increase in Latin America between 1960 and 2010?",
+      "options": [
+        {
+          "label": "A",
+          "text": "almost 25 years"
+        },
+        {
+          "label": "B",
+          "text": "almost 20 years"
+        },
+        {
+          "label": "C",
+          "text": "almost 15 years"
+        },
+        {
+          "label": "D",
+          "text": "almost 10 years"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 547,
+      "sourceLine": 23,
+      "sourcePages": [
+        547
+      ],
+      "rawBlock": "How much did life expectancy increase in Latin America between 1960 and 2010?  \na) almost 25 years  \nb) almost 20 years  \nc) almost 15 years  \nd) almost 10 years  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What was the average life expectancy at birth in Sub-Saharan Africa in 1970?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 547,
+      "sourceLine": 29,
+      "sourcePages": [
+        547,
+        548,
+        549
+      ],
+      "rawBlock": "What was the average life expectancy at birth in Sub-Saharan Africa in 1970?  \na) about 45  \nb) about 50  \nc) about 55  \nd) about 60\n547 \nناطحة سحاب  Skyscraper \nSkyscraper \n1) A skyscraper is a very tall, multistoried building. The term skyscraper was first used during the 1880s, when the first tall \nbuildings were constructed in the United States. These original skyscrapers were about 10 to 20 stories high. By the late 20th \ncentury, however, the term skyscraper was used to describe high-rise buildings of unusual height, generally greater than 40 or \n50 stories.  \n2) The increase in urban commerce in the United States in the second half of the 19th century augmented the need for city \nbusiness space, and the installation of the first safe passenger elevator (in the Haughwout Department Store, New York City) in \n1857 made practical the erection of buildings more than four or five stories tall.  \n3) As the population density of urban areas has increased, so has the need for buildings that rise rather than spread. The \nskyscraper, which was originally a form of commercial architecture, has increasingly been used for residential purposes as \nwell.  \n4) The earliest skyscrapers rested on extremely thick masonry walls at the ground level. However, architects soon began to use \na cast-iron and wrought-iron framework to support the weight of the upper floors. In New York City, New York, in 1848, James \nBogardus built the Cast Iron Building with a rigid frame of iron providing the main support for the upper floors and the roof.  \n5) In the 1860s, steel became widely available in the United States. Since it is stronger and lighter than iron, the use of a steel \nframe made it possible to construct truly tall buildings. Generally considered the world's first skyscraper, the first building to \nuse steel-girder construction was William Le Baron Jenney's 10-story Home Insurance Company Building (1884-85) in Chicago, \nIllinois. Jenney's skyscrapers also were the first to use the curtain wall, an outer covering of masonry or other material that is \naffixed to and supported by the steel skeleton. Structurally, skyscrapers consist of a substructure of piers beneath the ground, \na superstructure of columns and girders above the ground, and a curtain wall hung on the girders.  \n6) The design and decoration of skyscrapers have changed over time. Jenney and his protégé Louis Sullivan styled their \nbuildings with delineated columns rising from the ground to the top. By the early 20th century, previous architectural styles \ninfluenced builders. The Metropolitan Life Insurance Building in New York City (1909), for example, was modeled by Napoleon \nLe Brun after the Campanile of St. Mark's in Venice, Italy. The Woolworth Building (1913), by Cass Gilbert, is a prime example \nof neo-Gothic decoration. Even the Art Deco carvings on such towers as the Chrysler Building (1930), the Empire State Building \n(1931), and the RCA Building (1931) in New York City, which were then considered as modern as the new technology, are now \nviewed as more related to the old ornate decorations than to truly modern lines.  \n7) After World War II, skyscrapers were mostly designed in the International Style, with simple lines and lack of \nornamentation. Notable early examples of this style are the Seagram Building (1958) in New York City and the Lake Shore \nDrive Apartments (1951) in Chicago. During the 1970s, urban architecture began to incorporate the human element by \ndesigning plazas and parks into and around the bases of skyscrapers. Office towers, such as the Sears Tower (1973; now called \nWillis Tower) in Chicago, continued to be built, but most of them featured space for shopping and entertainment at the street \nlevel. By the late 20th century. energy conservation began to influence skyscraper design and construction. For example, \nsealed windows that required continuous forced-air cooling gave way in mid-rise buildings to operable windows and glass \nwalls that were tinted to reflect the sun's rays.  \n8) In 1996 the Petronas Twin Towers, in Kuala Lumpur, Malaysia, surpassed the Sears Tower to become the world’s tallest \nbuildings. Since then, many skyscrapers have been built in Asia. At 2,717 feet (828 meters), the 162-story Burj Khalifa, in \nDubai, United Arab Emirates, was hundreds of feet taller than any other structure when it opened in 2010. The title of tallest \nbuilding in the United States was claimed by One World Trade Center in 2014. The building, initially called Freedom Tower \nwhen its design was announced, is 1,776 feet (541 meters) in height. It is located in New York City, near the site of the World \nTrade Center towers that fell in the terrorist attacks of September 11, 2001. Burj Khalifa, One World Trade Center, and many \nother new skyscrapers have spires that extend the measured height far above the highest occupied floor.\n548 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-42-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "Which two materials were used to build tall buildings in the 19th century?",
+      "options": [
+        {
+          "label": "A",
+          "text": "iron and concrete"
+        },
+        {
+          "label": "B",
+          "text": "steel and brick"
+        },
+        {
+          "label": "C",
+          "text": "iron and steel"
+        },
+        {
+          "label": "D",
+          "text": "wood and concrete"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 549,
+      "sourceLine": 2,
+      "sourcePages": [
+        549
+      ],
+      "rawBlock": "Which two materials were used to build tall buildings in the 19th century?  \na) iron and concrete  \nb) steel and brick  \nc) iron and steel  \nd) wood and concrete  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What were the first two examples of skyscrapers in the United States?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The Chrysler Building and the RCA Building."
+        },
+        {
+          "label": "B",
+          "text": "The Woolworth Building and the Empire State Building."
+        },
+        {
+          "label": "C",
+          "text": "The Home Insurance Company Building and the Empire State Building."
+        },
+        {
+          "label": "D",
+          "text": "The Home Insurance Company Building and the Metropolitan Life Insurance Building."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 549,
+      "sourceLine": 8,
+      "sourcePages": [
+        549
+      ],
+      "rawBlock": "What were the first two examples of skyscrapers in the United States?  \na) The Chrysler Building and the RCA Building.  \nb) The Woolworth Building and the Empire State Building.  \nc) The Home Insurance Company Building and the Empire State Building.  \nd) The Home Insurance Company Building and the Metropolitan Life Insurance Building.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "Which two cities had the first examples of skyscrapers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Venice and Chicago."
+        },
+        {
+          "label": "B",
+          "text": "Kuala Lumpur and Dubai."
+        },
+        {
+          "label": "C",
+          "text": "New York City and Venice."
+        },
+        {
+          "label": "D",
+          "text": "New York City and Chicago."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 549,
+      "sourceLine": 14,
+      "sourcePages": [
+        549
+      ],
+      "rawBlock": "Which two cities had the first examples of skyscrapers?  \na) Venice and Chicago.  \nb) Kuala Lumpur and Dubai.  \nc) New York City and Venice.  \nd) New York City and Chicago. \nTheory of motivation  نظرية الدافعية  \nTheory of motivation  \n1)Professor Frederick Herzberg was a clinical psychologist and later Professor of Management at the University of Utah. \nHerzberg carried out a motivation study on 200 accountants and engineers who worked in companies in the USA. These ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "subjects of the study were asked two questions: When did you feel particularly good about your job? When did you feel really",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 549,
+      "sourceLine": 27,
+      "sourcePages": [
+        549,
+        550
+      ],
+      "rawBlock": "subjects of the study were asked two questions: When did you feel particularly good about your job? When did you feel really \nbad about your job?  \n2) The responses that Herzberg obtained were interesting and fairly consistent. Reported good feelings were usually \nassociated with job experiences and job content. One example of these was the head of an accounting department; he was \ngiven the job of installing new computer equipment. He took pride in his work and was pleased to know that the new \nequipment made a big difference in how his department performed.  \n3) Reported bad feelings, on the other hand, were usually associated with the surrounding or peripheral aspects of the job - \nthe job context. An example of these feelings was given by an engineer; his first job was routine record keeping and managing \nthe office when the boss was gone. His boss was always too busy to train him and became annoyed if he tried to ask \nquestions. The engineer said that he was frustrated in this job context and that he felt that he was just an unimportant \nassistant in a dead-end job.  \n4) Herzberg concluded that job satisfiers are related to job content and that job dissatisfiers are related to job context. \nHerzberg named the satisfiers 'motivators' and he called the dissatisfiers 'hygiene factors'.\n549 \nThe word consistent in Paragraph (2) is closest in meaning to……….  \na) routine  \nb) steady  \nc) accurate  \nd) preserved  \nThe word peripheral in Paragraph (3) is closest in meaning to………….  \na) secondary  \nb) crucial  \nc) annoying  \nd) unimportant \nThe Spanish Flu  الانفلونزا الاسبانية    \nThe Spanish Flu \nFrom 1918 to 1920 the virus known as the Spanish Flu infected 500 million people worldwide, killing 50 to 100 million of them. \nThe only continent it did not reach was Antarctica; deaths were registered from northern Alaska to the islands of Samoa. The \nvirus began in conditions that were perfect to help it spread across the globe, turning the battlefields of World War I into huge \ncenters of infection. Though the flu had long been a familiar disease, the subtype (special type) of 1918 took scientists by \nsurprise. They were shocked as much by the speed of its spread as by the number of people it killed. Though some experts \nbelieve the virus's origins were in Europe, the theory most accepted today suggests that it began in the United States, and \nlater travelled on an army ship to the battlefields of France. From there, an army of disease germs, like enemy soldiers in a \nsecret war ‘Ashgan’, spread out through the air and infected a third of the world's population, killing between 2.5% and 5% of \neveryone on earth. In the future, suggests the World Health Organization, there will be more and perhaps more deadly flu \npandemics (worldwide diseases), threatening global health and security and putting the future of human society at risk. The \nvirus won't need a great war to help it cover the earth; it will be enough for one carrier to get on an airplane and, in less than \n20 hours, cover the distance between Tokyo and New York, or between Sydney and Doha. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-42-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "What phrase other than \"Spanish Flu\" does the writer use to describe the deadly virus of 1918?",
+      "options": [
+        {
+          "label": "A",
+          "text": "enemy soldiers"
+        },
+        {
+          "label": "B",
+          "text": "World War I"
+        },
+        {
+          "label": "C",
+          "text": "familiar disease"
+        },
+        {
+          "label": "D",
+          "text": "centers of infection"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 550,
+      "sourceLine": 29,
+      "sourcePages": [
+        550
+      ],
+      "rawBlock": "What phrase other than \"Spanish Flu\" does the writer use to describe the deadly virus of 1918?  \na) enemy soldiers  \nb) World War I  \nc) familiar disease  \nd) centers of infection  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "Which of the following statements about the Spanish Flu is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 550,
+      "sourceLine": 35,
+      "sourcePages": [
+        550,
+        551
+      ],
+      "rawBlock": "Which of the following statements about the Spanish Flu is an opinion?  \na) It began in the United States.  \nb) It killed at least 50 million people.  \nc) There were no infections in Antarctica.  \nd) Now it could spread across the world in one day.\n550 \nHow is the view of some experts about the origins of the Spanish Flu different from the most \ncommon view?  \na) They believe there were two types of the virus.  \nb) They believe it started in the United States.  \nc) They believe it was a biological weapon.  \nd) They believe it began in Europe.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-42-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What can we understand from the passage about World War I?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was a secret war."
+        },
+        {
+          "label": "B",
+          "text": "It was the origin of the Spanish Flu."
+        },
+        {
+          "label": "C",
+          "text": "It increased deaths from the Spanish Flu."
+        },
+        {
+          "label": "D",
+          "text": "It killed between 50 and 100 million people."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 551,
+      "sourceLine": 9,
+      "sourcePages": [
+        551
+      ],
+      "rawBlock": "What can we understand from the passage about World War I?  \na) It was a secret war.  \nb) It was the origin of the Spanish Flu.  \nc) It increased deaths from the Spanish Flu.  \nd) It killed between 50 and 100 million people. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What can we understand from the passage about the Spanish Flu?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Governments lied about it."
+        },
+        {
+          "label": "B",
+          "text": "It would spread faster now."
+        },
+        {
+          "label": "C",
+          "text": "It will come back in the future."
+        },
+        {
+          "label": "D",
+          "text": "Fewer people would die from it now."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 551,
+      "sourceLine": 15,
+      "sourcePages": [
+        551,
+        552
+      ],
+      "rawBlock": "What can we understand from the passage about the Spanish Flu?  \na) Governments lied about it.  \nb) It would spread faster now.  \nc) It will come back in the future.  \nd) Fewer people would die from it now. \nالمقطع ب: الثورة الصناعية في الولايات المتحدة الأمريكية  \nPassage A: The Industrial Revolution in Europe  \n1) The Industrial Revolution began in the United Kingdom, and while it's difficult to pinpoint the exact point at which the \nrevolution began, a key invention was James Watt's steam engine, which entered production in 1775. This steam-driven \nengine was adopted by industries to allow for factory production. Machines could now be used instead of human or animal \nlabor. Interestingly, a side effect of the steam engine was that it enabled better iron production, since iron required an even \nand steady stream of heat. These improvements and new technologies gradually spread across Europe, eventually diffusing to \nthe United States and Japan.  \n2) During this time, there were also significant changes in agricultural production. The Agrarian Revolution began in the mid-\n1750s and was based upon a number of agricultural innovations. This was the Age of Enlightenment, and the scientific \nreasoning championed during this era was applied to the growing of crops. Farmers began using mechanized equipment, \nrather than relying solely on human or animal labor.  \n3) The Agrarian Revolution coupled with the Industrial Revolution profoundly changed European geography. Critically, the \nAgrarian Revolution freed workers from having to farm, since fewer farmers were needed to produce the same amount of \nPassage A: The Industrial Revolution in Europe \nPassage B: The Industrial Revolution in the USA \nالمقطع أ: الثورة الصناعية في أوروبا\n551 \ncrops, enabling people to find work in the factories. These factories were primarily located in cities, and thus it was the \ncombination of these two revolutions that dramatically increased urbanization in Europe.  \n4) The shift in labor that occurred during the Industrial Revolution, as people left rural farms to find work in factories, led to \nthe specialization of labor that is found in Europe today. Areas within Europe tended to specialize in the production of \nparticular goods. Northern Italy for example, has maintained a specialty in the production of textiles. \nPassage B: The Industrial Revolution in the USA  \n1) As the Industrial Revolution began in the United Kingdom in the mid-1700s and spread across Europe, the United States was \nstill primarily based on agriculture and natural resource production. Some of the early innovations in industry were thus based \non these raw resources, such as the cotton mill and textile factories. Water power was the key source of energy for these early \nmanufacturing plants and thus they were located almost exclusively in the north-eastern United States. the only area with \nfast-moving rivers. After the Civil War in the 1860s, steam power manufacturing spread through the United States allowing the \nsouthern states to industrialize.  \n2) The geography of North America shaped industrial development and regional specializations. In the Pittsburgh-Lake Erie \nregion, for example, abundant deposits of iron fueled steel manufacturing, inspiring the name of Pittsburgh's professional \nfootball team. In the south, textile manufacturing developed and remains a regional specialty in many areas still today. Coal \nfrom Appalachia fueled industrial development in the Mid- Atlantic States.  \n3) The Industrial Revolution shaped the pattern of human settlement in North America. As in Europe, industrial development \noccurred in urban areas spurring people to move from rural farming communities to the cities to find work. In 1790, around 5 \npercent of the US population lived in urban areas. At the end of the Civil War, as industrialization began to diffuse across the \ncontinent, around 20 percent lived in cities. By 1920, more people lived in cities than in rural areas. Today, over 80 percent of \npeople in the US live in cities. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "According to Passages A and B, which invention led to industrialization?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Steel"
+        },
+        {
+          "label": "B",
+          "text": "steam engine"
+        },
+        {
+          "label": "C",
+          "text": "water power"
+        },
+        {
+          "label": "D",
+          "text": "agricultural equipment"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 552,
+      "sourceLine": 26,
+      "sourcePages": [
+        552
+      ],
+      "rawBlock": "According to Passages A and B, which invention led to industrialization?  \na) Steel  \nb) steam engine  \nc) water power  \nd) agricultural equipment  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "What can we understand from Passages A and B about the Industrial Revolution?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It led to more textile production."
+        },
+        {
+          "label": "B",
+          "text": "It was only possible in areas with rivers."
+        },
+        {
+          "label": "C",
+          "text": "It began in Europe then spread to the USA."
+        },
+        {
+          "label": "D",
+          "text": "It was associated with the Agrarian Revolution."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 552,
+      "sourceLine": 32,
+      "sourcePages": [
+        552
+      ],
+      "rawBlock": "What can we understand from Passages A and B about the Industrial Revolution?  \na) It led to more textile production. \nb) It was only possible in areas with rivers.  \nc) It began in Europe then spread to the USA.  \nd) It was associated with the Agrarian Revolution.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "According to Passages A and B, which change followed the Industrial Revolution?",
+      "options": [
+        {
+          "label": "A",
+          "text": "People moved to cities."
+        },
+        {
+          "label": "B",
+          "text": "Agriculture used more machines."
+        },
+        {
+          "label": "C",
+          "text": "The Civil War ended immediately."
+        },
+        {
+          "label": "D",
+          "text": "More cotton mills were established."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 552,
+      "sourceLine": 38,
+      "sourcePages": [
+        552,
+        553
+      ],
+      "rawBlock": "According to Passages A and B, which change followed the Industrial Revolution?  \na) People moved to cities.  \nb) Agriculture used more machines.  \nc) The Civil War ended immediately.  \nd) More cotton mills were established.\n552 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "According to Passages A and B, which industry flourished after the Industrial Revolution?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Textiles"
+        },
+        {
+          "label": "B",
+          "text": "Football"
+        },
+        {
+          "label": "C",
+          "text": "Coal"
+        },
+        {
+          "label": "D",
+          "text": "Steel"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 553,
+      "sourceLine": 2,
+      "sourcePages": [
+        553
+      ],
+      "rawBlock": "According to Passages A and B, which industry flourished after the Industrial Revolution?  \na) Textiles  \nb) Football  \nc) Coal  \nd) Steel \nام الكورية  \n1) Language is a way to communicate. We begin to learn language as infants and become accustomed to our native language. \nlanguage therefore becomes a problem for immigrants, especially between the first and second generations. This language \nbarrier also results in the second generation losing their identity.  \n2) First generation immigrants in America suffer in lots of areas because of language difficulties. Naturally, they want their \nchildren to speak English both at home and at school in order to be more successful. This results in their children losing their \nethnic identity and even more. Ignoring their parents because there is now a language between them.  \n3) For example, my three children and they were all born in the States. The eighteen-yearsold daughter speaks both English \nand Korean very well. She has no problems talking with her parents, but she does have trouble understanding Korean jokes, \nand there are sometimes misunderstandings. The second daughter is fourteen years old and she resists speaking Korean. My \naunt often gets upset with her because she is much Americanized and they cannot understand each other Even when my ant \npunishes her, this daughter does not understand what my aunt is talking about. I felt sympathy for my aunt whenever my ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "fourteen-year-old cousin said, \"Mom, what is your problem?",
+      "options": [
+        {
+          "label": "A",
+          "text": "accidents"
+        },
+        {
+          "label": "B",
+          "text": "problems"
+        },
+        {
+          "label": "C",
+          "text": "injuries"
+        },
+        {
+          "label": "D",
+          "text": "Skills"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 553,
+      "sourceLine": 24,
+      "sourcePages": [
+        553,
+        554
+      ],
+      "rawBlock": "fourteen-year-old cousin said, \"Mom, what is your problem?  \n4) The third child is a twelve-year-old son. He speaks English to his parents and my aunt speaks Korean to him he does to the \nsecond canter. He also has a problem communicating with his parents. My aunt is trying to encourage him to learn both \nlanguages, but it is very hard for him because he speaks English all day and fail to understand why he should learn Korean.  \n5) Immigrants try to preserve their native language in their new country while string to learn a new language. My aunt was her \nchildren to succeed in the US, but she also wants to help them understand the Korean language in order to understand the \nKorean heritage. The second generation often gets confused about their Identity. My aunt's children, for example, see \nthemselves as being different from others in both places in the US they look Korean and in Korea they act like Americans. My \ncousins told me that when they visited Korea a few years ago, they felt different because they wore different clothes and \nwalked differently.  \n6) Language is important and valuable for any reasons. Immigrants must imagine a strong mutual understanding with the \nfamily and enable their children to appreciate the heritage. Being at ease in using both the first and second languages is \nimportant not only for attaining familial harmony, but also in helping the second generation establish the identity. \nThe word suffer in Paragraph (2) is closest in meaning to having ……………….  \na) accidents  \nb) problems  \nc) injuries  \nd) Skills\n553 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-42-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (3), which of the following is NOT TRUE about the 18-year-old daughter?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 554,
+      "sourceLine": 2,
+      "sourcePages": [
+        554
+      ],
+      "rawBlock": "According to Paragraph (3), which of the following is NOT TRUE about the 18-year-old daughter?  \na) She was born in the U.S.  \nb) She speaks only English very well  \nc) She sometimes misunderstands things in Korean  \nd) She communicates better with her parents than her brother and sister do.  \nThe pronoun they in Paragraph (3) refers to the mother and her …………..  \na) second daughter  \nb) eldest daughter  \nc) children  \nd) son",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

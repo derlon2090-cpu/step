@@ -1,0 +1,821 @@
+{
+  "readingId": "reading-34",
+  "questions": [
+    {
+      "id": "reading-34-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "What idea do the words \"susceptible to automation\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        420
+      ],
+      "sourceBlockIds": [
+        "page-420-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 603.98,
+        "x0": 11.88,
+        "x1": 382.73
+      }
+    },
+    {
+      "id": "reading-34-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from Paragraph (2) about the McKinsey Global Institute research?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        421
+      ],
+      "sourceBlockIds": [
+        "page-421-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 11.88,
+        "x1": 579.12
+      }
+    },
+    {
+      "id": "reading-34-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following is an opinion in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        421
+      ],
+      "sourceBlockIds": [
+        "page-421-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 278.88,
+        "x0": 11.88,
+        "x1": 333.19
+      }
+    },
+    {
+      "id": "reading-34-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        421
+      ],
+      "sourceBlockIds": [
+        "page-421-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 488.18,
+        "x0": 11.88,
+        "x1": 207.92
+      }
+    },
+    {
+      "id": "reading-34-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "What idea do the words \"administrative support\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        421
+      ],
+      "sourceBlockIds": [
+        "page-421-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 778.0,
+        "x0": 11.88,
+        "x1": 361.13
+      }
+    },
+    {
+      "id": "reading-34-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from Paragraphs (4) and (5) about automation around the world?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        422
+      ],
+      "sourceBlockIds": [
+        "page-422-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 294.96,
+        "x0": 11.88,
+        "x1": 572.16
+      }
+    },
+    {
+      "id": "reading-34-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph (1) say about freeware?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        422
+      ],
+      "sourceBlockIds": [
+        "page-422-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 686.09,
+        "x0": 14.16,
+        "x1": 302.16
+      }
+    },
+    {
+      "id": "reading-34-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        423
+      ],
+      "sourceBlockIds": [
+        "page-423-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 180.69,
+        "x0": 14.16,
+        "x1": 351.99
+      }
+    },
+    {
+      "id": "reading-34-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph (2) say about shareware's trial period?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        423
+      ],
+      "sourceBlockIds": [
+        "page-423-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 500.78,
+        "x0": 14.16,
+        "x1": 391.77
+      }
+    },
+    {
+      "id": "reading-34-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following statements about shareware Paragraph (2) support?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        423
+      ],
+      "sourceBlockIds": [
+        "page-423-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 722.93,
+        "x0": 14.16,
+        "x1": 479.4
+      }
+    },
+    {
+      "id": "reading-34-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "Helmont's view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        424
+      ],
+      "sourceBlockIds": [
+        "page-424-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 350.04,
+        "x0": 14.16,
+        "x1": 115.71
+      }
+    },
+    {
+      "id": "reading-34-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "What word other than food does the writer use to talk about the need of all living things?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        424
+      ],
+      "sourceBlockIds": [
+        "page-424-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 582.74,
+        "x0": 14.16,
+        "x1": 557.93
+      }
+    },
+    {
+      "id": "reading-34-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from the passage about the source of food hypothesis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        425
+      ],
+      "sourceBlockIds": [
+        "page-425-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.16,
+        "x1": 514.39
+      }
+    },
+    {
+      "id": "reading-34-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from Paragraph (3) about Helmont's experiment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        425
+      ],
+      "sourceBlockIds": [
+        "page-425-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 278.52,
+        "x0": 14.16,
+        "x1": 476.69
+      }
+    },
+    {
+      "id": "reading-34-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "The word \"outcome\" is closest in meaning?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        428
+      ],
+      "sourceBlockIds": [
+        "page-428-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 588.62,
+        "x0": 14.4,
+        "x1": 324.13
+      }
+    },
+    {
+      "id": "reading-34-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "What is true?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        429
+      ],
+      "sourceBlockIds": [
+        "page-429-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 175.49,
+        "x0": 14.4,
+        "x1": 272.33
+      }
+    },
+    {
+      "id": "reading-34-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What did you understand from the first paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        429
+      ],
+      "sourceBlockIds": [
+        "page-429-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 284.84,
+        "x0": 14.4,
+        "x1": 373.77
+      }
+    },
+    {
+      "id": "reading-34-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "What did you understand from the second paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        429
+      ],
+      "sourceBlockIds": [
+        "page-429-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 360.32,
+        "x0": 14.4,
+        "x1": 457.25
+      }
+    },
+    {
+      "id": "reading-34-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the name of the state?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        429
+      ],
+      "sourceBlockIds": [
+        "page-429-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 435.94,
+        "x0": 14.4,
+        "x1": 251.99
+      }
+    },
+    {
+      "id": "reading-34-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "The meaning of the word \"rule\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        429
+      ],
+      "sourceBlockIds": [
+        "page-429-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 511.42,
+        "x0": 17.88,
+        "x1": 233.13
+      }
+    },
+    {
+      "id": "reading-34-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the best way to learn English language?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        429
+      ],
+      "sourceBlockIds": [
+        "page-429-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 602.26,
+        "x0": 14.4,
+        "x1": 283.27
+      }
+    },
+    {
+      "id": "reading-34-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "What's the suitable title?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        430
+      ],
+      "sourceBlockIds": [
+        "page-430-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 98.33,
+        "x0": 14.4,
+        "x1": 295.88
+      }
+    },
+    {
+      "id": "reading-34-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        430
+      ],
+      "sourceBlockIds": [
+        "page-430-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 339.68,
+        "x0": 14.4,
+        "x1": 344.1
+      }
+    },
+    {
+      "id": "reading-34-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "Paragraph 1 talks about?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        430
+      ],
+      "sourceBlockIds": [
+        "page-430-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 425.24,
+        "x0": 14.4,
+        "x1": 244.56
+      }
+    },
+    {
+      "id": "reading-34-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "They refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        430
+      ],
+      "sourceBlockIds": [
+        "page-430-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 510.82,
+        "x0": 14.4,
+        "x1": 160.95
+      }
+    },
+    {
+      "id": "reading-34-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "Where is the place of pharmacy?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        430
+      ],
+      "sourceBlockIds": [
+        "page-430-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 658.57,
+        "x0": 21.24,
+        "x1": 568.62
+      }
+    },
+    {
+      "id": "reading-34-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "What are the work hours?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        430
+      ],
+      "sourceBlockIds": [
+        "page-430-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 692.65,
+        "x0": 21.24,
+        "x1": 573.17
+      }
+    },
+    {
+      "id": "reading-34-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "He is?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        430
+      ],
+      "sourceBlockIds": [
+        "page-430-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 760.69,
+        "x0": 14.4,
+        "x1": 128.74
+      }
+    },
+    {
+      "id": "reading-34-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "What does \"location\" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        431
+      ],
+      "sourceBlockIds": [
+        "page-431-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 100.97,
+        "x0": 14.4,
+        "x1": 211.43
+      }
+    },
+    {
+      "id": "reading-34-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "What does (ancestor) mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        431
+      ],
+      "sourceBlockIds": [
+        "page-431-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 194.45,
+        "x0": 14.4,
+        "x1": 520.96
+      }
+    },
+    {
+      "id": "reading-34-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "why are roller coasters of interest to physics students?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        431
+      ],
+      "sourceBlockIds": [
+        "page-431-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 280.04,
+        "x0": 14.4,
+        "x1": 316.79
+      }
+    },
+    {
+      "id": "reading-34-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "why did the French change to rolling carts?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        431
+      ],
+      "sourceBlockIds": [
+        "page-431-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 422.6,
+        "x0": 14.4,
+        "x1": 476.65
+      }
+    },
+    {
+      "id": "reading-34-q33",
+      "displayOrder": 33,
+      "sourceQuestionNumber": null,
+      "questionText": "What do you understand from the passage 4?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        431
+      ],
+      "sourceBlockIds": [
+        "page-431-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 508.18,
+        "x0": 14.4,
+        "x1": 266.8
+      }
+    },
+    {
+      "id": "reading-34-q34",
+      "displayOrder": 34,
+      "sourceQuestionNumber": null,
+      "questionText": "Dramatic?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        432
+      ],
+      "sourceBlockIds": [
+        "page-432-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 171.49,
+        "x0": 169.82,
+        "x1": 425.99
+      }
+    }
+  ]
+}

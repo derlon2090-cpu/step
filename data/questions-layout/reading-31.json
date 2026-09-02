@@ -1,0 +1,509 @@
+{
+  "readingId": "reading-31",
+  "questions": [
+    {
+      "id": "reading-31-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "What was the healthy life expectancy for men in Germany in 1990?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        383
+      ],
+      "sourceBlockIds": [
+        "page-383-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 466.03,
+        "x0": 14.16,
+        "x1": 370.09
+      }
+    },
+    {
+      "id": "reading-31-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "How much did women's healthy life expectancy increase in India from 1990-2013?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        383
+      ],
+      "sourceBlockIds": [
+        "page-383-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 604.03,
+        "x0": 14.16,
+        "x1": 450.95
+      }
+    },
+    {
+      "id": "reading-31-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "How many hectares of palm area did the Private Estate reach by 2008?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        384
+      ],
+      "sourceBlockIds": [
+        "page-384-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 288.17,
+        "x0": 14.16,
+        "x1": 393.6
+      }
+    },
+    {
+      "id": "reading-31-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "What year did the government estate reach 500,000 hectares?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        384
+      ],
+      "sourceBlockIds": [
+        "page-384-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 384.77,
+        "x0": 14.16,
+        "x1": 347.03
+      }
+    },
+    {
+      "id": "reading-31-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from passages A and B about children's eating habits?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        384
+      ],
+      "sourceBlockIds": [
+        "page-384-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 580.15,
+        "x0": 14.16,
+        "x1": 439.72
+      }
+    },
+    {
+      "id": "reading-31-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "What do passages A and B say about the cause of obesity?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        384
+      ],
+      "sourceBlockIds": [
+        "page-384-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 773.38,
+        "x0": 14.16,
+        "x1": 331.49
+      }
+    },
+    {
+      "id": "reading-31-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from passages A and B about soft drinks?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        385
+      ],
+      "sourceBlockIds": [
+        "page-385-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 221.18,
+        "x0": 14.16,
+        "x1": 372.82
+      }
+    },
+    {
+      "id": "reading-31-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What do passages A and B say about today's environment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        385
+      ],
+      "sourceBlockIds": [
+        "page-385-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 400.61,
+        "x0": 14.16,
+        "x1": 331.81
+      }
+    },
+    {
+      "id": "reading-31-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea about heat transfer that the writer mentions in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        385
+      ],
+      "sourceBlockIds": [
+        "page-385-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 653.62,
+        "x0": 14.16,
+        "x1": 485.58
+      }
+    },
+    {
+      "id": "reading-31-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important point about heat that the writer mentions in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        386
+      ],
+      "sourceBlockIds": [
+        "page-386-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 138.38,
+        "x0": 14.16,
+        "x1": 444.83
+      }
+    },
+    {
+      "id": "reading-31-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer want to show by the example of a hot coffee cup?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        386
+      ],
+      "sourceBlockIds": [
+        "page-386-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 345.41,
+        "x0": 14.16,
+        "x1": 390.85
+      }
+    },
+    {
+      "id": "reading-31-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        386
+      ],
+      "sourceBlockIds": [
+        "page-386-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 566.23,
+        "x0": 14.16,
+        "x1": 220.94
+      }
+    },
+    {
+      "id": "reading-31-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "How much energy is reflected into space by the earth's atmosphere and the earth's surface?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        387
+      ],
+      "sourceBlockIds": [
+        "page-387-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 570.79,
+        "x0": 14.16,
+        "x1": 503.46
+      }
+    },
+    {
+      "id": "reading-31-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "Which three man-made gases have had the greatest greenhouse effect?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        387
+      ],
+      "sourceBlockIds": [
+        "page-387-line-43"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 750.22,
+        "x0": 14.16,
+        "x1": 399.63
+      }
+    },
+    {
+      "id": "reading-31-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        388
+      ],
+      "sourceBlockIds": [
+        "page-388-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 294.77,
+        "x0": 14.16,
+        "x1": 197.83
+      }
+    },
+    {
+      "id": "reading-31-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        388
+      ],
+      "sourceBlockIds": [
+        "page-388-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 487.99,
+        "x0": 14.16,
+        "x1": 291.54
+      }
+    },
+    {
+      "id": "reading-31-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What percentage of adults have problems falling asleep?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        388
+      ],
+      "sourceBlockIds": [
+        "page-388-line-35"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 782.38,
+        "x0": 14.16,
+        "x1": 316.12
+      }
+    },
+    {
+      "id": "reading-31-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "How many people suffer from narcolepsy?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        389
+      ],
+      "sourceBlockIds": [
+        "page-389-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 179.78,
+        "x0": 14.16,
+        "x1": 238.86
+      }
+    },
+    {
+      "id": "reading-31-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "Who did a study on sleep apnea?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        389
+      ],
+      "sourceBlockIds": [
+        "page-389-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 304.01,
+        "x0": 14.16,
+        "x1": 192.29
+      }
+    },
+    {
+      "id": "reading-31-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "Who did Wilse Webb and Scott Campbell study?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        389
+      ],
+      "sourceBlockIds": [
+        "page-389-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 497.23,
+        "x0": 14.16,
+        "x1": 272.15
+      }
+    },
+    {
+      "id": "reading-31-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "Who usually experiences sleep apnea?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        389
+      ],
+      "sourceBlockIds": [
+        "page-389-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 731.86,
+        "x0": 14.16,
+        "x1": 222.86
+      }
+    }
+  ]
+}

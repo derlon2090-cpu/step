@@ -1,0 +1,1058 @@
+{
+  "readingId": "reading-10",
+  "sourcePages": [
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127
+  ],
+  "sourcePageRange": {
+    "start": 114,
+    "end": 127
+  },
+  "visualQuestionReviewStatus": "in_progress",
+  "firstReviewStatus": "in_progress",
+  "secondReviewStatus": "not_started",
+  "questions": [
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 1,
+      "questionText": "What is the best title for the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        115
+      ],
+      "sourceBlockIds": [
+        "page-115-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 2,
+      "questionText": "This sign means not to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        115
+      ],
+      "sourceBlockIds": [
+        "page-115-line-10"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 3,
+      "questionText": "Message addressed to …...?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        116
+      ],
+      "sourceBlockIds": [
+        "page-116-line-9"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 4,
+      "questionText": "To whom the opening of the Suez Canal is important?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        116
+      ],
+      "sourceBlockIds": [
+        "page-116-line-16"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 5,
+      "questionText": "Port Saeed is?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        116
+      ],
+      "sourceBlockIds": [
+        "page-116-line-18"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 6,
+      "questionText": "What is the nationality of the project manager?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        116
+      ],
+      "sourceBlockIds": [
+        "page-116-line-20"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 7,
+      "questionText": "Title of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        117
+      ],
+      "sourceBlockIds": [
+        "page-117-line-11"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 8,
+      "questionText": "How do messages arrive in the old days?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        117
+      ],
+      "sourceBlockIds": [
+        "page-117-line-13"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 9,
+      "questionText": "Which country uses most stamps?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        117
+      ],
+      "sourceBlockIds": [
+        "page-117-line-16"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 10,
+      "questionText": "Why does sending messages cost money?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        117
+      ],
+      "sourceBlockIds": [
+        "page-117-line-18"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 11,
+      "questionText": "What is the first country to apply a Postage stamp?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        118
+      ],
+      "sourceBlockIds": [
+        "page-118-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 12,
+      "questionText": "Did people accept that or not?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        118
+      ],
+      "sourceBlockIds": [
+        "page-118-line-5"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 13,
+      "questionText": "Why did not people receive their stuff from the mail?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        118
+      ],
+      "sourceBlockIds": [
+        "page-118-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 14,
+      "questionText": "The meaning of the word \"adapted\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        118
+      ],
+      "sourceBlockIds": [
+        "page-118-line-9"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 15,
+      "questionText": "What did Hill suggest the government employee do?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        118
+      ],
+      "sourceBlockIds": [
+        "page-118-line-11"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 16,
+      "questionText": "Before 1384 how to deal with messages?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        118
+      ],
+      "sourceBlockIds": [
+        "page-118-line-16"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 17,
+      "questionText": "Title of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        119
+      ],
+      "sourceBlockIds": [
+        "page-119-line-12"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 18,
+      "questionText": "What did you understand from paragraph number ... about the weather?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        119
+      ],
+      "sourceBlockIds": [
+        "page-119-line-20"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 19,
+      "questionText": "What does \" it \" refer to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        119
+      ],
+      "sourceBlockIds": [
+        "page-119-line-22"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 20,
+      "questionText": "What does \" dabble \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        119
+      ],
+      "sourceBlockIds": [
+        "page-119-line-24"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 21,
+      "questionText": "What does \" exhausted \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        119
+      ],
+      "sourceBlockIds": [
+        "page-119-line-26"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 22,
+      "questionText": "Why was he happy in the last days?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        120
+      ],
+      "sourceBlockIds": [
+        "page-120-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 23,
+      "questionText": "Why did the writer talk about the weather?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        120
+      ],
+      "sourceBlockIds": [
+        "page-120-line-5"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 24,
+      "questionText": "What does the man do every summer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        120
+      ],
+      "sourceBlockIds": [
+        "page-120-line-8"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 25,
+      "questionText": "What did the man and the people with him learn?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        120
+      ],
+      "sourceBlockIds": [
+        "page-120-line-10"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 26,
+      "questionText": "What is meant by paragraph 2 about the city where the man is?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        120
+      ],
+      "sourceBlockIds": [
+        "page-120-line-12"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 27,
+      "questionText": "Why was he happy in the last days?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        120
+      ],
+      "sourceBlockIds": [
+        "page-120-line-20"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 28,
+      "questionText": "Why did the writer talk about the weather?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        120
+      ],
+      "sourceBlockIds": [
+        "page-120-line-22"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 29,
+      "questionText": "What does the expression 'fight or flight response' used in paragraph (2) mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        121
+      ],
+      "sourceBlockIds": [
+        "page-121-line-14"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 30,
+      "questionText": "According to Paragraph (3), what is the best advice in the event of an earthquake?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        121
+      ],
+      "sourceBlockIds": [
+        "page-121-line-24"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 31,
+      "questionText": "According to paragraph (5), what is TRUE about a 'fight or flight' situation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        122
+      ],
+      "sourceBlockIds": [
+        "page-122-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 32,
+      "questionText": "Why does the author use the pronoun \"we\" throughout the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        122
+      ],
+      "sourceBlockIds": [
+        "page-122-line-17"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 33,
+      "questionText": "What does the word antique mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        122
+      ],
+      "sourceBlockIds": [
+        "page-122-line-29"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 34,
+      "questionText": "Why did Indian food or \"plant\" mention?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        123
+      ],
+      "sourceBlockIds": [
+        "page-123-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 35,
+      "questionText": "If the text is completed, it will talk about what?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        123
+      ],
+      "sourceBlockIds": [
+        "page-123-line-5"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 36,
+      "questionText": "Where is pepper grown?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        123
+      ],
+      "sourceBlockIds": [
+        "page-123-line-13"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 37,
+      "questionText": "\"it'' refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        123
+      ],
+      "sourceBlockIds": [
+        "page-123-line-16"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 38,
+      "questionText": "What does ''herbs '' mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        124
+      ],
+      "sourceBlockIds": [
+        "page-124-line-4"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 39,
+      "questionText": "Who Invented Globalization?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        124
+      ],
+      "sourceBlockIds": [
+        "page-124-line-8"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 40,
+      "questionText": "The great power of the passage refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        124
+      ],
+      "sourceBlockIds": [
+        "page-124-line-10"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 41,
+      "questionText": "What limits poverty rates?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        124
+      ],
+      "sourceBlockIds": [
+        "page-124-line-12"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 42,
+      "questionText": "Who is the best car driver?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        125
+      ],
+      "sourceBlockIds": [
+        "page-125-line-4"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 43,
+      "questionText": "What is the best title for this passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        125
+      ],
+      "sourceBlockIds": [
+        "page-125-line-8"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 44,
+      "questionText": "What is the car's name?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        125
+      ],
+      "sourceBlockIds": [
+        "page-125-line-10"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 45,
+      "questionText": "What is the type of car?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        125
+      ],
+      "sourceBlockIds": [
+        "page-125-line-12"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 46,
+      "questionText": "What is right about ice cream's car driver?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        125
+      ],
+      "sourceBlockIds": [
+        "page-125-line-14"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 47,
+      "questionText": "What does \" expedition \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        125
+      ],
+      "sourceBlockIds": [
+        "page-125-line-17"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 48,
+      "questionText": "The frozen desert includes 60% of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        125
+      ],
+      "sourceBlockIds": [
+        "page-125-line-19"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 49,
+      "questionText": "Who discovers ice cream?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        125
+      ],
+      "sourceBlockIds": [
+        "page-125-line-21"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 50,
+      "questionText": "Who added fruits to ice cream?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        126
+      ],
+      "sourceBlockIds": [
+        "page-126-line-4"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 51,
+      "questionText": "What happened to ice-cream during the World War?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        126
+      ],
+      "sourceBlockIds": [
+        "page-126-line-10"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 52,
+      "questionText": "Why did the government reduce production?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        127
+      ],
+      "sourceBlockIds": [
+        "page-127-line-5"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 53,
+      "questionText": "What is the reaction of the speaker?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        127
+      ],
+      "sourceBlockIds": [
+        "page-127-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-10",
+      "sourceQuestionNumber": null,
+      "displayOrder": 54,
+      "questionText": "Why did use less gasoline in 2008?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        127
+      ],
+      "sourceBlockIds": [
+        "page-127-line-11"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    }
+  ],
+  "duplicateTechnicalRecordsRemoved": 0,
+  "reviewNotes": [
+    "A source-traceable geometry worklist was staged for visual review. No item was automatically approved and no answer key was created."
+  ]
+}

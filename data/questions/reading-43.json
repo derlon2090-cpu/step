@@ -1,0 +1,559 @@
+{
+  "readingId": "reading-43",
+  "sourceQuestionBlocks": 13,
+  "questions": [
+    {
+      "id": "reading-43-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (2), why do the Chinese zookeepers want Mei Lan to learn Chinese?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 556,
+      "sourceLine": 15,
+      "sourcePages": [
+        556
+      ],
+      "rawBlock": "According to Paragraph (2), why do the Chinese zookeepers want Mei Lan to learn Chinese? \nso that she can speak with her caretakers \nso that she will feel at home in China \nso that she can forget her English \nso that she will like her new diet ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 556,
+      "sourceLine": 22,
+      "sourcePages": [
+        556,
+        557
+      ],
+      "rawBlock": "According to Paragraph (2), Where has Mei Lan been living? \nin the Chengdu Panda Research Center \nin an American research center \nin Atlanta, Georgia \nin Sichuan, China \nStars    النجوم \nIf we look at the night sky carefully, we will see that the stars are of many different colors. Some are red, others are yellow and \nsome are blue. This is also shown when we take color photographs of the night sky. You can take such a photograph with an \nordinary camera as long as it is kept steady. A thirty second exposure is sufficient. Astronomers have been able to classify stars \naccording to color. They have found that blue stars are the largest and red stars the smallest. However, there are a few stars \nwhich cannot be classified in this way. These are the superstars. For example, Ryiejol is a blue superstar as big as 40,000 suns \nand Beetle juice is a superstar with a size equal to 17,000 suns. Suppose an astronomer observes two stars, one brighter than \nthe other. If neither of them is a superstar, he will know immediately that the brighter star is closer. Astronomers have \ninstruments like light meters which can measure the brightness of a star quite accurately. It is possible to measure a star's \ndistance from the Earth if astronomers know the color, brightness and whether or not it is a superstar. \nThe pronoun it in Paragraph (1) refers to the ……………………..  \nphotograph  \nexposure  \ncamera  \nstar\n556 \nThe word brighter in Paragraph (3) is closest in meaning to ……………..  \nmore colorful  \nmore shiny  \nsmaller  \nlarger  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "Which of the following colors is NOT mentioned in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 557,
+      "sourceLine": 11,
+      "sourcePages": [
+        557,
+        558
+      ],
+      "rawBlock": "Which of the following colors is NOT mentioned in the passage? \ngreen \nyellow \nblue \nred \n  الكويكباتAsteroids \nAsteroids \nAsteroids are very small, irregularly shaped, rocky bodies. Asteroids orbit the sun, but they are more like giant rocks than \nplanets. Since they are small, they do not have enough gravity to become round. They are too small to have an atmosphere. \nExcept for a few of the largest asteroids, they are too small to have internal heat, so they are not geologically active. These \nasteroids can only change due to a collision. A collision may cause the asteroid to break up. It may create craters on the \nasteroid’s surface. An asteroid may strike a planet if it comes near enough to be pulled in by its gravity.  \nHundreds of thousands of asteroids have been found in our solar system. They are now being discovered at a rate of tens of \nthousands of new asteroids per year! The majority are located in between the orbits of Mars and Jupiter. This region is called \nthe asteroid belt. There are many thousands of asteroids in the asteroid belt. Still, their total mass adds up to only about 4 \npercent of Earth’s moon. Asteroids formed at the same time as the rest of the solar system. Although there are many in the \nasteroid belt, Jupiter’s gravity kept the material in this region from forming into a planet, throwing much of it either out of the \nsolar system or into the sun.  \nNear-Earth Asteroids  \nNear-Earth Asteroids have orbits that come near to or cross Earth’s orbit. This means that they could possibly collide with \nEarth. There are over 10.000 known near-Earth asteroids. Small asteroids do sometimes collide with Earth. An asteroid about \n5-10 m in diameter hits about once per year. About a thousand of the known near-Earth asteroids are much bigger. They are \nover 1 kilometer in diameter. When large asteroids hit Earth in the past, many organisms died. At times, many species became \nextinct. Astronomers keep looking for near-Earth asteroids. They hope to predict a possible collision early so they can try to \nstop it.\n557 \nMeteors  \nIf you look at the sky on a dark night, you may see a meteor, like in the figure below. A meteor forms a streak of light across \nthe sky. People call them shooting stars because that’s what they look like. But meteors are not stars at all. The light you see \ncomes from a small piece of matter burning up as it flies through Earth’s atmosphere.  \nMeteoroids  \nBefore these small pieces of matter enter Earth’s atmosphere, they are called meteoroids. Meteoroids are as large as boulders \nor as small as tiny sand grains. Larger objects are called asteroids; smaller objects are interplanetary dust. Meteoroids \nsometimes cluster together in long trails. They are the debris left behind by comets, when Earth passes through a comet trail, \nthere is a meteor shower. During a meteor shower, there are many more meteors than normal for a night or two. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "How many asteroids have been found in our solar system?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 558,
+      "sourceLine": 12,
+      "sourcePages": [
+        558
+      ],
+      "rawBlock": "How many asteroids have been found in our solar system?  \nThousands  \nTens of thousands  \nHundreds of thousands  \nOver one million  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What do asteroids orbit?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 558,
+      "sourceLine": 19,
+      "sourcePages": [
+        558
+      ],
+      "rawBlock": "What do asteroids orbit?  \nthe Earth  \nMars  \nVenus  \nthe sun  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "How many known asteroids are near the Earth?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 558,
+      "sourceLine": 26,
+      "sourcePages": [
+        558,
+        559
+      ],
+      "rawBlock": "How many known asteroids are near the Earth?  \nbetween 5-10  \nover ten thousand  \nhundreds of thousands  \nover one million\n558 \nعلم الاجتماع  Sociology \nSociology \ngenerally, learning sociology provides us with what sociologists call the sociological imagination. Sociological imagination is a \nparticular way of looking at the world around us through sociological lenses. It is a way of looking at our experiences in light of \nwhat is going on in the social world around us. This helps us to appreciate the social and non-biological forces that affect, \ninfluence and shape our lives as individuals, groups, and communities. Sociological imagination helps us look beyond individual \npsychology to the many and varied facets of social and cultural forces, and “the recurring patterns in peoples’ attitudes and \nactions, and how these patterns vary across time, cultures and social groups. \nLearning sociology helps us understand how social forces influence our goals, attitudes, behavior, and personality. We become \nmore sensitive towards the social issues. Furthermore, learning sociology helps to cast aside our own biased assumptions, \nstereotypes and ethno-centric thinking and practices to become more critical, broad-minded and respectful in our \ninterpersonal and inter-group relationships. By learning sociology. We can be more humane and people- centered; we give \nhigh value to human dignity. \nIn general, sociology increases our self-knowledge. Learning sociology can provide us with self-enlightenment. When we learn \nsociology, we gain more knowledge about the conditions of our own lives, and about the way our society and social system \nfunction. As such knowledge increases, we can be more empowered to influence the direction of forces that affect our lives. \nFor example, we can be more responsive to the various policies set by governments; and can suggest our own policy initiatives \nand alternatives. \nWhat important idea about the “sociological imagination” does the writer mention in paragraph \n(1)?  \nIt helps us see how the situations and events around us affect our lives and the lives of others.  \nIt helps us think fairly, be open and honest, and treat others with kindness and respect.  \nIt helps us understand the reasons why we think and act the way we do.  \nIt helps us understand how government policies affect us, and how we can affect government \npolicies.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What important point about learning sociology does the writer make in paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 559,
+      "sourceLine": 32,
+      "sourcePages": [
+        559,
+        560
+      ],
+      "rawBlock": "What important point about learning sociology does the writer make in paragraph (2)?  \nIt helps us influence society.  \nIt helps us see the forces that shape society.  \nIt helps us understand our hopes and beliefs better.  \nIt helps us understand others and treat them kindly.\n559 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "Why does the writer mention government policies?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 560,
+      "sourceLine": 2,
+      "sourcePages": [
+        560
+      ],
+      "rawBlock": "Why does the writer mention government policies?  \nTo give an example of how we can treat others more fairly.  \nTo give an example of how we can become more critical.  \nTo give an example of how social forces affect our beliefs.  \nTo give an example of how we can affect the forces in our lives.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 560,
+      "sourceLine": 9,
+      "sourcePages": [
+        560
+      ],
+      "rawBlock": "What is the main topic of the passage?  \nLearning sociology helps us become ethno-centric thinkers.  \nSelf-enlightenment is a particular way of looking at the world.  \nLearning sociology helps us understand the world and our place in it.  \nSeeing the world through “sociological imagination” makes the world seem better. \nالتكنولوجيا الحيوية     Biotechnology \nBiotechnology \nIn the past couple of decades, the field of biotechnology has exploded. Biotechnology companies make products including \nvaccinations, medicines, and industrial bacteria that can be used to treat waste or clean up toxic spills. Biotechnology is closely \nrelated to the fields of genetics and genetic engineering, which have also made dramatic advances in recent years. Genetics is \nthe study of genes and heredity, while genetic engineering is the changing of genetic material to produce specific results. \nBeginning in the 1950s, genetic researchers led by Rosalind Franklin, J.D. Waston and F.H.C. Crick, examined the chemical code \ncarried by all living things. Their research established the central role of DNA in the chromosomes that determine human \nheredity. Their work revealed the “double helix” spiral-shaped DNA that carries hereditary traits from parents to children. \nOngoing genetic research has produced new drug therapies to fight human diseases. Research has also created new strains of \nfruits and vegetables that are intended to fight disease or thrive in conditions where they usually don’t grow. Genetic clothing, \nor the process of creating identical organisms from the cell of an organism, has many practical applications in raising animals \nand in biological research. \nBiotechnology and genetic engineering have brought benefits, but also debate. Some people understandably, believe that \ngenetically modified foods are unnatural and potentially dangerous. The possibility of cloning genetically identical mammals \nhas also raised questions about the role of science in creating and changing life. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "What does paragraph (4) say about biotechnology and genetic engineering?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 560,
+      "sourceLine": 33,
+      "sourcePages": [
+        560,
+        561
+      ],
+      "rawBlock": "What does paragraph (4) say about biotechnology and genetic engineering?  \nThey are dangerous for mammals.  \nThey can fight diseases.  \nThey have brought benefits and debate.  \nThey are useful for the sciences.\n560 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "What can be used to fight human disease?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 561,
+      "sourceLine": 3,
+      "sourcePages": [
+        561
+      ],
+      "rawBlock": "What can be used to fight human disease?  \nFruit created from genetic research.  \nDNA that carries hereditary traits.  \nBiological research on animals.  \nGenetic cloning of animals.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word “also” in paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 561,
+      "sourceLine": 9,
+      "sourcePages": [
+        561
+      ],
+      "rawBlock": "Why does the writer use the word “also” in paragraph (3)?  \nTo give an example of drug therapies.  \nTo show that genetic engineering is different from biotechnology.  \nTo explain the dangers of genetically modified foods.  \nTo give more information about products made from genetic research.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "What does the writer think about the dangers of genetically modified foods?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 561,
+      "sourceLine": 16,
+      "sourcePages": [
+        561,
+        562
+      ],
+      "rawBlock": "What does the writer think about the dangers of genetically modified foods?  \nHe thinks it is safe.  \nHe is NOT sure if it has a negative effect.  \nHe understands why people think it is dangerous.  \nHe believes more research should be done. \n  فقدانالنوم Sleeping Loss \nSleeping Loss \nA major effect of lessened sleep, as tired college students know, is sleepiness, and sometimes a general malaise. People today \nmore than ever suffer from sleep patterns that prevent their having and energized feeling of well-being. Teenagers typically \nneed 8 or 9 hours of sleep, but they now average nearly 2 hours less sleep a night than their counterparts of 80 years ago. \nMany fill this need by using homeroom for their siesta. \nSome sleep-loss effects are more subtle. One such effect is suppression of the disease-fighting immune system. In rats, sleep \ndeprivation increases the pathogens normally suppressed by the immune system. In humans, sleep deprivation suppresses \nimmune cells that fight off viral infections. When infections do set in, immune-boosting sleep typically increases.\n561 \nOther sleep-loss include reduced creativity and concentration, slight hand tremors, irritability, slowed performance, and \noccasional misperceptions on monotonous tasks. These effects can be devastating for some tasks, such as driving and piloting. \nSome 30 percent of Australian highway deaths occur when drivers fall asleep on long, monotonous roads. consider also the \nExxon Valdez oil spill; Union Carbide’s Bhopal India disaster; and Chernobyl nuclear accidents. They all occurred after midnight, \nwhen operators were likely to be drowsiest, apparently, asleep, the Exxon Valdez captain was unresponsive to clear signals to \nturn his ship back into the shipping lanes. On short, highly motivated tasks, however, sleep deprivation has little effect. When \n17-year-old Randy Gardner made his way into the Guinness Book of World Records by staying awake for 11 days, he suffered \nhallucinations and speech and movement problems. Nevertheless, during his final night of sleeplessness, Gardner managed to \nbeat researcher Dement 100 times in a pinball game. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "What may suppress the immune system?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 562,
+      "sourceLine": 12,
+      "sourcePages": [
+        562
+      ],
+      "rawBlock": "What may suppress the immune system?  \nSleep loss  \nSerious injury  \nViral infection  \nMonotonous tasks  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What was the effect of sleep deprivation on Randy Gardner?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 562,
+      "sourceLine": 19,
+      "sourcePages": [
+        562,
+        563
+      ],
+      "rawBlock": "What was the effect of sleep deprivation on Randy Gardner?  \nHe won at pinball.  \nHe slept for 9 days.  \nHe developed speech problems.  \nHe developed a viral infection.  \nThe word suffered in paragraph (4) is closest in meaning to……  \nCried  \nAchieved  \nDelivered  \nExperienced  \nThe word lanes in paragraph (3) is closest in meaning to……….  \nArrivals  \nPlans  \nRoutes  \nDepartures\n562 \nرسم بياني ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "In 1996, what was the percentage of female Jordanian nationals ages 25-29?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 563,
+      "sourceLine": 18,
+      "sourcePages": [
+        563
+      ],
+      "rawBlock": "In 1996, what was the percentage of female Jordanian nationals ages 25-29?  \n4%  \n6%  \n8%  \n10%  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "In 1996, 17% of male Saudis were between which ages?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 563,
+      "sourceLine": 24,
+      "sourcePages": [
+        563,
+        564,
+        565
+      ],
+      "rawBlock": "In 1996, 17% of male Saudis were between which ages?  \n0-4 years old  \n5-9 years old  \n10-14 years old  \n15-19 years old\n563 \nقطعة صغيرة \nAlthough the idea isn't new, the delivery is. There's something special about people around the world all pitting themselves \nagainst the same puzzle. The ease of sharing results on social media is what first led to the exorbitant increase in the number \nof players, and whether people are sharing or bragging is perhaps a moot point. These days, we're all looking for something to \nconnect with other people over, and wordle delivers. It offers home-workers an excuse to unchain themselves from the \nkeyboard and, although players are looked, there's no danger of wasting lots of time with only one puzzle released every day. \nThe word pitting is closest in meaning to ....... \nsupporting \nSolving \nOpposing \nForcing \nword moot is closest in meaning to \n Entertaining \nSignificant \nObvious \nArguable \nThe word exorbitant is closest in meaning to.. \nReasonable \nConsistent \nSteady \nSteep \nقطعة عن الساعات  \nA watch is a portable timepiece that is designed to be worn on the wrist or carried in the pocket. The movement of a watch is \ndriven either by a spring or by electricity. Along with clocks, watches are the most common devices for measuring time. \nWatches were developed later than clocks. The first portable timekeeper or watch was produced during the Renaissance. A \nweight and a crude escapement were suitable in clocks but could not be used in a portable watch. In the early 1500s a coiled \nmetal spring that transmitted energy as it unwound was substituted for the weight. By the 1580s, about the time of Galileo’s \npendulum experiments, the first commercial watches were being produced in small quantities in Nuremberg (Nunberg),\n564 \nGermany. Known as Nuremberg eggs, these early watches were portable but had only an hour hand because the escapement \nmechanism was too inaccurate to show minutes. \nThe English physicist Robert Hooke, who introduced the basic pendulum and escapement mechanisms in clocks in the 1660s, \napplied the same idea to watches. He attached a small balance unit to the mainspring unit. A balance spring, or hairspring, was \nused to control the oscillations of the balance unit. This design formed the basis foe all subsequent mechanical watches. \nThe mechanism of mechanical watch is made up of six different parts. These are the mainspring, which is the source of energy; \nthe gear train, which transmits the energy; the dial train, which governs the movement of the hands; the winding and setting \nmechanism; the escapement and balance unit, which controls the release of energy; and the plates, or framework, which \nenclose and protect the movement.  \nIn operation the mainspring unwinds to turn the barrel, which drives the escape, or great, wheel through a gear train. The \nwheel moves in one direction until stopped by a pallet arm of the pallet and fork – the part analogous to the detent of a clock. \nThe pallet and fork assembly is attached to the balance wheel, which is then given an impulse from the escape wheel. \nThe escapement and balance assembly are essential to an accurate watch mechanism because they control the release of \nenergy from the mainspring and the time in which each release of energy is made. The oscillations of the balance, regularity of \nits movements, are controlled with a hairspring or escapement spring. When the balance wheel moves in one direction, its \ntiny hairspring is wound. As the escape wheel is stopped by one of the pallet arms, the hairspring uncoils. The balance wheel, \nin turn, is connected to the coiled mainspring, which winds as the balance wheel moves. When the pallet and fork assembly \nreleases the escape wheel, the wheel rotates one tooth until caught again by the other pallet arm. The balance wheel then \nturns in the opposite direction until the other pallet arm stops the escape wheel. This cycle continues and causes the familiar \nticking sound of the mechanical watch. The escape wheel is stopped and released every one-fifth of a second. Thus, the \nbalance wheel swings back and forth 300 times a minute, or 432,000 times a day. As in a clock, a series of gears transfers the \nmotion of the escape wheel to the hour, minute, and second hands. \nElectric-powered watches use one of three drive systems: (1) the galvanometer drive, consisting of the conventional balance-\nhairspring oscillator, kept in motion by the magnetic interaction of a coil and a permanent magnet, (2) the induction drive, in \nwhich an electromagnet attracts a balance containing soft magnetic material, or (3) the resonance drive, in which a tiny tuning \nfork (about 1 inch [25 millimeters] in length), driven electrically, provides the motive power. Both galvanometer and induction \ndrive types use a mechanical contact, actuated by the balance motion, to provide properly timed electric-drive pulses. Each \noscillation of the balance operates a time-indicating gear train by advancing a toothed wheel one tooth. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What starts the movement of a watch?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 565,
+      "sourceLine": 30,
+      "sourcePages": [
+        565
+      ],
+      "rawBlock": "What starts the movement of a watch?  \nA spring or a pendulum  \nElectricity or a weight  \nA spring or a weight  \nElectricity or a spring  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What controls the release of energy in a mechanical watch?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 565,
+      "sourceLine": 37,
+      "sourcePages": [
+        565,
+        566
+      ],
+      "rawBlock": "What controls the release of energy in a mechanical watch?  \nThe gear and dial train  \nThe plates and balance unit  \nThe winding and setting system  \nThe balance and escapement unit.\n565 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "Which two types provide timed electric-drive pulses?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 566,
+      "sourceLine": 3,
+      "sourcePages": [
+        566,
+        567
+      ],
+      "rawBlock": "Which two types provide timed electric-drive pulses?  \nThe galvanometer and induction drive  \nThe induction and resonance drive  \nThe electronic and induction drive  \nThe galvanometer and resonance drive \nتجارب سكينر     Skinner’s Experiments \nSkinner’s Experiments \nB.F. Skinner (1904-1990) was a college English major and an aspiring writer who, seeking a new direction, entered graduate \nschool in psychology. He went on to become modern behaviorism’s most influential and controversial figure. Skinner’s work \nelaborated a simple fact of life that turn-of-the-century psychologist Edward Thorndike called the “Low of Effect”: Rewarded \nbehavior is likely to recur. Using Thorndike’s law of effect as a starting point, Skinner developed a behavioral technology that \nenabled him to teach pigeons such unpigeonlike behaviors as walking in a figure 8, playing ping pong, and keeping a missile on \ncourse by pecking at a target on a screen. For his pioneering studies with rats, Skinner designed the now famous Skinner box. \nThe box is typically a soundproof chamber with a car or a key that an animal presses or pecks to release a food or water \nreward, and with a device that records these responses. \nThe word elaborated in paragraph (1) is closest in meaning to………  \nExplained  \nCreated  \nDesigned  \nInfluenced  \nThe word recur in paragraph (1) is closest in meaning to……….  \nChange  \nStop  \nRepeat  \nAccelerate  \nThe word pioneering in paragraph (2) is closest in meaning to…………  \nEstablished  \nCelebrated  \nOriginal  \nRepeated\n566 \nقطعة عن الثقافات  \nCultures differ in terms of the particular norms that they find important and that guide the behavior of the group members. \nSocial psychologists have found that there is a fundamental difference in social norms between Western cultures and East \nAsians cultures. Norms in Western cultures are primarily oriented toward individualism, selfenhancement and independence. \nChildren in Western cultures feel special about themselves. They enjoy getting gold stars on their projects and the best grade \nin the class. Adults in Western cultures are oriented toward promoting their own individual success, frequently in comparison \nwith others. \nNorms in the East Asian cultures, on the other hand, are more focused on other-concern. These norms indicate that people \nshould be more fundamentally connected with others and thus are more oriented toward interdependence, or collectivism. In \nEast Asian cultures, children are taught to focus on developing harmonious social relationships with others, and the \npredominant norms relate to group togetherness, connectedness, and duty and responsibility to one’s family. As one example \nof these cultural differences, research conducted by Shinobu Kitayama and his colleagues found that East Asians were more \nlikely than Westerners to experience happiness as a result of their connections with other people, whereas Westerners were \nmore likely to experience happiness as a result of their own personal accomplishments. \nIt is important to be aware of cultures and cultural differences, at least in part because people with different cultural \nbackgrounds are increasingly coming into contact with each other as a result of increased travel and immigration and the \ndevelopment of the internet and other forms of communication. In the United States, for instance, there are many different \nethnic groups, and the proportion of the population that comes from minority groups is increasing from year to year. Being \naware of cultural differences and considering their influence on how we behave toward others in an important part of a basic \nunderstanding of social psychology. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "What idea does the expression ‘personal accomplishments’ repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 567,
+      "sourceLine": 24,
+      "sourcePages": [
+        567
+      ],
+      "rawBlock": "What idea does the expression ‘personal accomplishments’ repeat?  \nSocial relationship  \nIndividual success  \nPredominant norms  \nCultural differences  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "Which of the following does the writer say is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 567,
+      "sourceLine": 30,
+      "sourcePages": [
+        567
+      ],
+      "rawBlock": "Which of the following does the writer say is a fact?  \nThe USA includes various ethnic groups  \nEast Asian cultures focus on connectivity  \nAchievement determines happiness in the West  \nCultures change as they interact with each other.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "How is the Western culture’s view of happiness different from the Eastern culture’s view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 567,
+      "sourceLine": 36,
+      "sourcePages": [
+        567,
+        568
+      ],
+      "rawBlock": "How is the Western culture’s view of happiness different from the Eastern culture’s view?  \nIt is linked to past experiences.  \nIt is linked to physical health.  \nIt is linked to relationship.  \nIt is linked individuals.\n567 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What can we understand about Western cultures from paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 568,
+      "sourceLine": 3,
+      "sourcePages": [
+        568
+      ],
+      "rawBlock": "What can we understand about Western cultures from paragraph (1)? \nThey respect social duties.  \nThey encourage competition.  \nThey promote artistic values.  \nThey rely on modern technology.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What can we understand about cultures from paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 568,
+      "sourceLine": 10,
+      "sourcePages": [
+        568
+      ],
+      "rawBlock": "What can we understand about cultures from paragraph (3)?  \nThey are dynamic.  \nThey act in isolation.  \nThey are hard to analyze.  \nThey have several levels. \n أجهزة الكمبيوتر   computers \ncomputers ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "Passage A: What is a computer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 568,
+      "sourceLine": 18,
+      "sourcePages": [
+        568,
+        569
+      ],
+      "rawBlock": "Passage A: What is a computer? \nAll computer systems, no matter which size, can be divided into four basic elements that perform certain tasks. 1- INPUT – \nMethods of getting instructions and data into the computer. 2- PROCESS – the central processing unit (CPU) processes data \naccording to instructions. Actions include arithmetic operations, comparison, data transfer. Main memory is used to store \ntemporary data and software in current use, and is also involved in running the software. 3- STORE – Ways to file data for \nfuture use onto what is known as ‘backing store’. 4- OUTPUT – Methods to produce information that is going out. \nA computer system is a series of devices which are capable of doing 1-4 above. Altogether this equipment is called hardware. \nDevices other than the computer itself are called peripheral (external devices). Computers carry out instructions – a set of \nwhich is called a program which will be written in a computer language. A program controls the computer by telling the \ncomputer’s control unit what to do. Software is the general term to describe all the programs and data used in a computer \nsystem. Interface is the hardware and linked software needed between processors and peripherals to make up for the \ndifferences in their operating speeds and codes. \nPassage B: CPU and Memory \nThe performance of the CPU is affected by the number of cores, clock speed and memory. There are different types of volatile \nand non-volatile memory.  \nComputers work with data, and the equipment enabling this is called hardware. Computers require input hardware, \nprocessing hardware and output hardware. The hardware that defines a computer is the CPU and memory. Without these a \ncomputer could not function.  \nThe CPU and memory work together to run programs. The CPU executes programs using the fetch-decode-execute cycle. The \nmemory stores program operations and data while a program is being executed. There are several types of memory, including: \nregisters, cache, RAM and virtual memory. The storage stores programs and file long term, even when they are not in use.\n568 \nDevices such as hard drives, USB memory sticks or SD cards are used to store files such as photos, music and software \napplications long term.  \nMost computers have a CPU and a separate graphics processing unit (GPU) for images. The (GPU) can be. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What do passages A and B say about the CPU?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 569,
+      "sourceLine": 5,
+      "sourcePages": [
+        569
+      ],
+      "rawBlock": "What do passages A and B say about the CPU?  \nIt carries out arithmetic operations and controls internet access.  \nIt is a piece of hardware that works together with memory.  \nIt helps transfer data and functions as virtual memory.  \nIt controls the computer’s clock and the GPU ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "What can we understand from passages A and B about memory?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 569,
+      "sourceLine": 12,
+      "sourcePages": [
+        569
+      ],
+      "rawBlock": "What can we understand from passages A and B about memory?  \nIt allows a computer to perform its basic functions and affects CPU performance. \nIt is important for memory and the CPU to be capable of the same speeds. \nIt helps run programs and works as a temporary data storage. \nIt can be expanded and be volatile or non-volatile. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "What can we understand from passages A and B about hardware?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 569,
+      "sourceLine": 19,
+      "sourcePages": [
+        569
+      ],
+      "rawBlock": "What can we understand from passages A and B about hardware? \nIt enables data input, data output and data processing. \nIt includes the CPU, memory and power supply. \nIt is a type of peripheral, or external device. \nIt controls the CPU's operating speed. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-43-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "What can we understand from the passages about software?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 569,
+      "sourceLine": 26,
+      "sourcePages": [
+        569
+      ],
+      "rawBlock": "What can we understand from the passages about software?  \nIts speed affects the overall speed of a computer system. \nits function is to store programs and data both long term and short term. \nIt is a set of instructions used to communicate with the computer's control unit.",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

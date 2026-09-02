@@ -1,0 +1,354 @@
+{
+  "summary": {
+    "readings": 49,
+    "geometryBoundedCandidates": 1897,
+    "strongQuestionSignal": 1597,
+    "visualVerified": 0,
+    "requiresReview": 1897
+  },
+  "readings": [
+    {
+      "readingId": "reading-01",
+      "geometryBoundedCandidates": 45,
+      "strongQuestionSignal": 29,
+      "visualVerified": 0,
+      "requiresReview": 45
+    },
+    {
+      "readingId": "reading-02",
+      "geometryBoundedCandidates": 40,
+      "strongQuestionSignal": 33,
+      "visualVerified": 0,
+      "requiresReview": 40
+    },
+    {
+      "readingId": "reading-03",
+      "geometryBoundedCandidates": 73,
+      "strongQuestionSignal": 58,
+      "visualVerified": 0,
+      "requiresReview": 73
+    },
+    {
+      "readingId": "reading-04",
+      "geometryBoundedCandidates": 59,
+      "strongQuestionSignal": 48,
+      "visualVerified": 0,
+      "requiresReview": 59
+    },
+    {
+      "readingId": "reading-05",
+      "geometryBoundedCandidates": 69,
+      "strongQuestionSignal": 60,
+      "visualVerified": 0,
+      "requiresReview": 69
+    },
+    {
+      "readingId": "reading-06",
+      "geometryBoundedCandidates": 43,
+      "strongQuestionSignal": 33,
+      "visualVerified": 0,
+      "requiresReview": 43
+    },
+    {
+      "readingId": "reading-07",
+      "geometryBoundedCandidates": 61,
+      "strongQuestionSignal": 47,
+      "visualVerified": 0,
+      "requiresReview": 61
+    },
+    {
+      "readingId": "reading-08",
+      "geometryBoundedCandidates": 60,
+      "strongQuestionSignal": 47,
+      "visualVerified": 0,
+      "requiresReview": 60
+    },
+    {
+      "readingId": "reading-09",
+      "geometryBoundedCandidates": 49,
+      "strongQuestionSignal": 47,
+      "visualVerified": 0,
+      "requiresReview": 49
+    },
+    {
+      "readingId": "reading-10",
+      "geometryBoundedCandidates": 54,
+      "strongQuestionSignal": 42,
+      "visualVerified": 0,
+      "requiresReview": 54
+    },
+    {
+      "readingId": "reading-11",
+      "geometryBoundedCandidates": 46,
+      "strongQuestionSignal": 33,
+      "visualVerified": 0,
+      "requiresReview": 46
+    },
+    {
+      "readingId": "reading-12",
+      "geometryBoundedCandidates": 34,
+      "strongQuestionSignal": 27,
+      "visualVerified": 0,
+      "requiresReview": 34
+    },
+    {
+      "readingId": "reading-13",
+      "geometryBoundedCandidates": 44,
+      "strongQuestionSignal": 34,
+      "visualVerified": 0,
+      "requiresReview": 44
+    },
+    {
+      "readingId": "reading-14",
+      "geometryBoundedCandidates": 4,
+      "strongQuestionSignal": 1,
+      "visualVerified": 0,
+      "requiresReview": 4
+    },
+    {
+      "readingId": "reading-15",
+      "geometryBoundedCandidates": 37,
+      "strongQuestionSignal": 18,
+      "visualVerified": 0,
+      "requiresReview": 37
+    },
+    {
+      "readingId": "reading-16",
+      "geometryBoundedCandidates": 29,
+      "strongQuestionSignal": 24,
+      "visualVerified": 0,
+      "requiresReview": 29
+    },
+    {
+      "readingId": "reading-17",
+      "geometryBoundedCandidates": 23,
+      "strongQuestionSignal": 23,
+      "visualVerified": 0,
+      "requiresReview": 23
+    },
+    {
+      "readingId": "reading-18",
+      "geometryBoundedCandidates": 71,
+      "strongQuestionSignal": 65,
+      "visualVerified": 0,
+      "requiresReview": 71
+    },
+    {
+      "readingId": "reading-19",
+      "geometryBoundedCandidates": 51,
+      "strongQuestionSignal": 43,
+      "visualVerified": 0,
+      "requiresReview": 51
+    },
+    {
+      "readingId": "reading-20",
+      "geometryBoundedCandidates": 80,
+      "strongQuestionSignal": 78,
+      "visualVerified": 0,
+      "requiresReview": 80
+    },
+    {
+      "readingId": "reading-21",
+      "geometryBoundedCandidates": 50,
+      "strongQuestionSignal": 49,
+      "visualVerified": 0,
+      "requiresReview": 50
+    },
+    {
+      "readingId": "reading-22",
+      "geometryBoundedCandidates": 35,
+      "strongQuestionSignal": 33,
+      "visualVerified": 0,
+      "requiresReview": 35
+    },
+    {
+      "readingId": "reading-23",
+      "geometryBoundedCandidates": 34,
+      "strongQuestionSignal": 34,
+      "visualVerified": 0,
+      "requiresReview": 34
+    },
+    {
+      "readingId": "reading-24",
+      "geometryBoundedCandidates": 32,
+      "strongQuestionSignal": 29,
+      "visualVerified": 0,
+      "requiresReview": 32
+    },
+    {
+      "readingId": "reading-25",
+      "geometryBoundedCandidates": 26,
+      "strongQuestionSignal": 24,
+      "visualVerified": 0,
+      "requiresReview": 26
+    },
+    {
+      "readingId": "reading-26",
+      "geometryBoundedCandidates": 28,
+      "strongQuestionSignal": 27,
+      "visualVerified": 0,
+      "requiresReview": 28
+    },
+    {
+      "readingId": "reading-27",
+      "geometryBoundedCandidates": 21,
+      "strongQuestionSignal": 19,
+      "visualVerified": 0,
+      "requiresReview": 21
+    },
+    {
+      "readingId": "reading-28",
+      "geometryBoundedCandidates": 22,
+      "strongQuestionSignal": 21,
+      "visualVerified": 0,
+      "requiresReview": 22
+    },
+    {
+      "readingId": "reading-29",
+      "geometryBoundedCandidates": 28,
+      "strongQuestionSignal": 26,
+      "visualVerified": 0,
+      "requiresReview": 28
+    },
+    {
+      "readingId": "reading-30",
+      "geometryBoundedCandidates": 33,
+      "strongQuestionSignal": 31,
+      "visualVerified": 0,
+      "requiresReview": 33
+    },
+    {
+      "readingId": "reading-31",
+      "geometryBoundedCandidates": 21,
+      "strongQuestionSignal": 21,
+      "visualVerified": 0,
+      "requiresReview": 21
+    },
+    {
+      "readingId": "reading-32",
+      "geometryBoundedCandidates": 32,
+      "strongQuestionSignal": 31,
+      "visualVerified": 0,
+      "requiresReview": 32
+    },
+    {
+      "readingId": "reading-33",
+      "geometryBoundedCandidates": 34,
+      "strongQuestionSignal": 32,
+      "visualVerified": 0,
+      "requiresReview": 34
+    },
+    {
+      "readingId": "reading-34",
+      "geometryBoundedCandidates": 34,
+      "strongQuestionSignal": 28,
+      "visualVerified": 0,
+      "requiresReview": 34
+    },
+    {
+      "readingId": "reading-35",
+      "geometryBoundedCandidates": 29,
+      "strongQuestionSignal": 27,
+      "visualVerified": 0,
+      "requiresReview": 29
+    },
+    {
+      "readingId": "reading-36",
+      "geometryBoundedCandidates": 33,
+      "strongQuestionSignal": 33,
+      "visualVerified": 0,
+      "requiresReview": 33
+    },
+    {
+      "readingId": "reading-37",
+      "geometryBoundedCandidates": 27,
+      "strongQuestionSignal": 25,
+      "visualVerified": 0,
+      "requiresReview": 27
+    },
+    {
+      "readingId": "reading-38",
+      "geometryBoundedCandidates": 33,
+      "strongQuestionSignal": 29,
+      "visualVerified": 0,
+      "requiresReview": 33
+    },
+    {
+      "readingId": "reading-39",
+      "geometryBoundedCandidates": 33,
+      "strongQuestionSignal": 31,
+      "visualVerified": 0,
+      "requiresReview": 33
+    },
+    {
+      "readingId": "reading-40",
+      "geometryBoundedCandidates": 30,
+      "strongQuestionSignal": 27,
+      "visualVerified": 0,
+      "requiresReview": 30
+    },
+    {
+      "readingId": "reading-41",
+      "geometryBoundedCandidates": 32,
+      "strongQuestionSignal": 27,
+      "visualVerified": 0,
+      "requiresReview": 32
+    },
+    {
+      "readingId": "reading-42",
+      "geometryBoundedCandidates": 33,
+      "strongQuestionSignal": 28,
+      "visualVerified": 0,
+      "requiresReview": 33
+    },
+    {
+      "readingId": "reading-43",
+      "geometryBoundedCandidates": 30,
+      "strongQuestionSignal": 27,
+      "visualVerified": 0,
+      "requiresReview": 30
+    },
+    {
+      "readingId": "reading-44",
+      "geometryBoundedCandidates": 30,
+      "strongQuestionSignal": 27,
+      "visualVerified": 0,
+      "requiresReview": 30
+    },
+    {
+      "readingId": "reading-45",
+      "geometryBoundedCandidates": 32,
+      "strongQuestionSignal": 28,
+      "visualVerified": 0,
+      "requiresReview": 32
+    },
+    {
+      "readingId": "reading-46",
+      "geometryBoundedCandidates": 35,
+      "strongQuestionSignal": 29,
+      "visualVerified": 0,
+      "requiresReview": 35
+    },
+    {
+      "readingId": "reading-47",
+      "geometryBoundedCandidates": 27,
+      "strongQuestionSignal": 22,
+      "visualVerified": 0,
+      "requiresReview": 27
+    },
+    {
+      "readingId": "reading-48",
+      "geometryBoundedCandidates": 42,
+      "strongQuestionSignal": 30,
+      "visualVerified": 0,
+      "requiresReview": 42
+    },
+    {
+      "readingId": "reading-49",
+      "geometryBoundedCandidates": 49,
+      "strongQuestionSignal": 12,
+      "visualVerified": 0,
+      "requiresReview": 49
+    }
+  ]
+}

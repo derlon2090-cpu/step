@@ -1,0 +1,29 @@
+{
+  "readingId": "reading-19",
+  "sourcePages": [
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228,
+    229
+  ],
+  "sourcePageRange": {
+    "start": 216,
+    "end": 229
+  },
+  "visualQuestionReviewStatus": "not_started",
+  "firstReviewStatus": "not_started",
+  "secondReviewStatus": "not_started",
+  "questions": [],
+  "duplicateTechnicalRecordsRemoved": 0,
+  "reviewNotes": []
+}

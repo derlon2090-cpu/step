@@ -1,0 +1,797 @@
+{
+  "readingId": "reading-42",
+  "questions": [
+    {
+      "id": "reading-42-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the passage say about Petra?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        541
+      ],
+      "sourceBlockIds": [
+        "page-541-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 657.49,
+        "x0": 14.16,
+        "x1": 249.64
+      }
+    },
+    {
+      "id": "reading-42-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "How many hours did it take to travel from London to Edinburgh by steam train?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        542
+      ],
+      "sourceBlockIds": [
+        "page-542-line-38"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 694.09,
+        "x0": 14.16,
+        "x1": 477.09
+      }
+    },
+    {
+      "id": "reading-42-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "Who invented the seed drill?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        543
+      ],
+      "sourceBlockIds": [
+        "page-543-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 182.13
+      }
+    },
+    {
+      "id": "reading-42-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "completed?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        543
+      ],
+      "sourceBlockIds": [
+        "page-543-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 227.81,
+        "x0": 14.16,
+        "x1": 82.91
+      }
+    },
+    {
+      "id": "reading-42-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea related to collecting data from a sample from Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        543
+      ],
+      "sourceBlockIds": [
+        "page-543-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 687.01,
+        "x0": 14.16,
+        "x1": 528.68
+      }
+    },
+    {
+      "id": "reading-42-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "What are statistics an example of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        544
+      ],
+      "sourceBlockIds": [
+        "page-544-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 214.61
+      }
+    },
+    {
+      "id": "reading-42-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What is median an example of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        544
+      ],
+      "sourceBlockIds": [
+        "page-544-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 197.47
+      }
+    },
+    {
+      "id": "reading-42-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        544
+      ],
+      "sourceBlockIds": [
+        "page-544-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 306.44,
+        "x0": 14.16,
+        "x1": 239.24
+      }
+    },
+    {
+      "id": "reading-42-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph (1) say about computer ethics?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        545
+      ],
+      "sourceBlockIds": [
+        "page-545-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 187.73,
+        "x0": 14.16,
+        "x1": 322.39
+      }
+    },
+    {
+      "id": "reading-42-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "How could writers avoid plagiarism?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        545
+      ],
+      "sourceBlockIds": [
+        "page-545-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 305.72,
+        "x0": 14.16,
+        "x1": 225.69
+      }
+    },
+    {
+      "id": "reading-42-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the word while in paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        545
+      ],
+      "sourceBlockIds": [
+        "page-545-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 423.56,
+        "x0": 14.16,
+        "x1": 350.32
+      }
+    },
+    {
+      "id": "reading-42-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "Which word can we use to replace the word then at the end of Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        545
+      ],
+      "sourceBlockIds": [
+        "page-545-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 541.54,
+        "x0": 14.16,
+        "x1": 466.01
+      }
+    },
+    {
+      "id": "reading-42-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "How does the writer feel about intellectual property rights?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        545
+      ],
+      "sourceBlockIds": [
+        "page-545-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 659.53,
+        "x0": 14.16,
+        "x1": 361.13
+      }
+    },
+    {
+      "id": "reading-42-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "Why can Ugandan babies usually walk by 10 months?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        546
+      ],
+      "sourceBlockIds": [
+        "page-546-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 398.84,
+        "x0": 14.16,
+        "x1": 324.51
+      }
+    },
+    {
+      "id": "reading-42-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the effect of infants being able to see their arms?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        546
+      ],
+      "sourceBlockIds": [
+        "page-546-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 516.7,
+        "x0": 14.16,
+        "x1": 347.57
+      }
+    },
+    {
+      "id": "reading-42-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "How much did life expectancy increase in Latin America between 1960 and 2010?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        547
+      ],
+      "sourceBlockIds": [
+        "page-547-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 570.1,
+        "x0": 14.16,
+        "x1": 486.24
+      }
+    },
+    {
+      "id": "reading-42-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What was the average life expectancy at birth in Sub-Saharan Africa in 1970?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        547
+      ],
+      "sourceBlockIds": [
+        "page-547-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 687.97,
+        "x0": 14.16,
+        "x1": 461.02
+      }
+    },
+    {
+      "id": "reading-42-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "Which two materials were used to build tall buildings in the 19th century?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        549
+      ],
+      "sourceBlockIds": [
+        "page-549-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 444.44
+      }
+    },
+    {
+      "id": "reading-42-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "What were the first two examples of skyscrapers in the United States?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        549
+      ],
+      "sourceBlockIds": [
+        "page-549-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 422.88
+      }
+    },
+    {
+      "id": "reading-42-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "Which two cities had the first examples of skyscrapers?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        549
+      ],
+      "sourceBlockIds": [
+        "page-549-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 306.44,
+        "x0": 14.16,
+        "x1": 335.23
+      }
+    },
+    {
+      "id": "reading-42-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "subjects of the study were asked two questions: When did you feel particularly good about your job?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        549
+      ],
+      "sourceBlockIds": [
+        "page-549-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 567.43,
+        "x0": 14.16,
+        "x1": 576.35
+      }
+    },
+    {
+      "id": "reading-42-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "bad about your job?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        549
+      ],
+      "sourceBlockIds": [
+        "page-549-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 582.79,
+        "x0": 14.16,
+        "x1": 104.57
+      }
+    },
+    {
+      "id": "reading-42-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "What phrase other than \"Spanish Flu\" does the writer use to describe the deadly virus of 1918?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        550
+      ],
+      "sourceBlockIds": [
+        "page-550-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 543.82,
+        "x0": 14.16,
+        "x1": 567.38
+      }
+    },
+    {
+      "id": "reading-42-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following statements about the Spanish Flu is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        550
+      ],
+      "sourceBlockIds": [
+        "page-550-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 661.69,
+        "x0": 14.16,
+        "x1": 427.97
+      }
+    },
+    {
+      "id": "reading-42-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "common view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        551
+      ],
+      "sourceBlockIds": [
+        "page-551-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 102.74
+      }
+    },
+    {
+      "id": "reading-42-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from the passage about World War I?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        551
+      ],
+      "sourceBlockIds": [
+        "page-551-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 208.13,
+        "x0": 14.16,
+        "x1": 381.6
+      }
+    },
+    {
+      "id": "reading-42-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from the passage about the Spanish Flu?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        551
+      ],
+      "sourceBlockIds": [
+        "page-551-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 326.0,
+        "x0": 14.16,
+        "x1": 399.05
+      }
+    },
+    {
+      "id": "reading-42-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Passages A and B, which invention led to industrialization?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        552
+      ],
+      "sourceBlockIds": [
+        "page-552-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 441.22,
+        "x0": 14.16,
+        "x1": 431.19
+      }
+    },
+    {
+      "id": "reading-42-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from Passages A and B about the Industrial Revolution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        552
+      ],
+      "sourceBlockIds": [
+        "page-552-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 559.06,
+        "x0": 14.16,
+        "x1": 486.11
+      }
+    },
+    {
+      "id": "reading-42-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Passages A and B, which change followed the Industrial Revolution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        552
+      ],
+      "sourceBlockIds": [
+        "page-552-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 677.05,
+        "x0": 14.16,
+        "x1": 485.03
+      }
+    },
+    {
+      "id": "reading-42-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Passages A and B, which industry flourished after the Industrial Revolution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        553
+      ],
+      "sourceBlockIds": [
+        "page-553-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 530.57
+      }
+    },
+    {
+      "id": "reading-42-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "fourteen-year-old cousin said, \"Mom, what is your problem?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        553
+      ],
+      "sourceBlockIds": [
+        "page-553-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 436.27,
+        "x0": 14.16,
+        "x1": 284.64
+      }
+    },
+    {
+      "id": "reading-42-q33",
+      "displayOrder": 33,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (3), which of the following is NOT TRUE about the 18-year-old daughter?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        554
+      ],
+      "sourceBlockIds": [
+        "page-554-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 574.18
+      }
+    }
+  ]
+}

@@ -1,0 +1,810 @@
+{
+  "readingId": "reading-10",
+  "sourceQuestionBlocks": 13,
+  "questions": [
+    {
+      "id": "reading-10-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What is the best title for the passage? History of Sheba and Bilqis The prophet Solomon",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 115,
+      "sourceLine": 10,
+      "sourcePages": [
+        115,
+        116
+      ],
+      "rawBlock": "What is the best title for the passage?   History of Sheba and Bilqis         The prophet Solomon           \n      النبي سليمان عليه السلام          وبلقيسسبأ  تاريخ    ؟ للقطعة ما هو أفضل عنوان  \nثانياً/ صورة تحذيرية فيها نار ومكتوب Fire Risk  \nplay          study         emoks?  s not tohis sign meanT \nهذهالإشارة تعني ألا؟ يدخن          يلعب          يدرس  \nثالثاً / رسالة ايميل شكر من طالب إلى معلمة  \nقطعة قصيرة عبارة عن رسالة ايميل مكتوب Sir  بالبداية \nوأشكرك على تعليمي ومساعدتي في حلول الواجبات وممتنة لك. .  \nطائر ثقيل غير قادر على الطيران\n115 \nوآخر شي احتراميواسمه..  \nأو قطعة موجهة من طالب لصديقه لمساعدته في حل الواجبات وفي الأخير كاتب أني لن أنساك. \nملاحظة: رسالة ايميل لشكر، البعض قال الجواب لزميل الدراسة، والبعض قال الجواب لمعلمه، فكلا اجابتين صحيحة حسب  \nالي ذكر، إذا قال في رسالته في ايميل شكر بحله للواجب تقولي إجابة موجهة لصديق، أما إذا كان رسالة شكر بفهم لدرس  \nتقولي إجابة معلم  \nالرسالة موجهة لـ ...؟  أبوه                          المعلم                              زميله في الكلاس                               المدرسة  \nThe school                      Classmate                Teacher               his dad   …...?Message addressed to  \nرابعاً/ قناة السويس  \n(تحدثت عن الفرنسي اللي كان مسؤول عن مشروع السويس وكيف العائلات \nالحاكمة في أوروبا فرحت بالافتتاح) قطعة قصيرة عليها سؤالين أو 3 . \nBy the new building compared to the Suez Canal was  \n   expensiveinExtremely     \nبالمبنى الجديد مقارنة بقناة السويس كان      غير مكلف ة للغاية                       ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "sFor the European To whom the opening of the Suez Canal is important?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 116,
+      "sourceLine": 28,
+      "sourcePages": [
+        116
+      ],
+      "rawBlock": " sFor the European   To whom the opening of the Suez Canal is important? \nكان هذا المشروع مهمًا لمن؟    الأوروبية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "harbor made-ManPort Saeed is?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 116,
+      "sourceLine": 32,
+      "sourcePages": [
+        116
+      ],
+      "rawBlock": "harbor made-ManPort Saeed is?  \nبور سعيد هو؟صنع الإنسان المرفأ ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "French What is the nationality of the project manager?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 116,
+      "sourceLine": 36,
+      "sourcePages": [
+        116,
+        117
+      ],
+      "rawBlock": "French  What is the nationality of the project manager? \nما هي جنسية مدير المشروع؟  فرنسي\n116 \nSuez Canal connects between: \nTwo rivers               ChannelsTwo                 Two Seas \nقناة السويس يربط بين \nبحرين                           قناتين                       نهرين  \nحضر الافتتاح رؤساء وملوك ووزراء من كل العالم. \nThe opening of the Suez canal was attended by a lot of royal families, \npresidents, prime Ministers from over the world \nخامساً/ تاريخ الطابع البريدي  \nPostage Stamp     HistoryMailing     Mail Postage      Mail Story      Start Mail    Title of the passage? \nعنوان المقطع؟         بداية البريد                 قصة البريد             طابع البريد         تاريخ البريد             طابع بريدي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "How do messages arrive in the old days? Or why didn't the letters arrive?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 117,
+      "sourceLine": 24,
+      "sourcePages": [
+        117
+      ],
+      "rawBlock": "How do messages arrive in the old days? Or why didn't the letters arrive?  \nReceivers pay to receive a message \nكيف تصل الرسائل قديما؟ أو لماذا لم تصل الرسائل ؟  يدفع المستقبلون لتلقي رسالة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "Britain Which country uses most stamps?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 117,
+      "sourceLine": 31,
+      "sourcePages": [
+        117
+      ],
+      "rawBlock": " Britain Which country uses most stamps? \nأي بلد يستخدم الطوابع كثيرا؟  بريطانيا   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "Because she is gaining weight Why does sending messages cost money?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 117,
+      "sourceLine": 36,
+      "sourcePages": [
+        117,
+        118
+      ],
+      "rawBlock": "Because she is gaining weight  Why does sending messages cost money? \nلماذا إرسال الرسائل يكلف المال؟  لأنها تكتسب وزناً\n117 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "Britain ( UK ) Postage stamp? a apply to What is the first country",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 118,
+      "sourceLine": 3,
+      "sourcePages": [
+        118
+      ],
+      "rawBlock": "Britain ( UK )   Postage stamp? a apply to What is the first country \nما هي أول دولة تطبق طابع بريد؟  بريطانيا (المملكة المتحدة)  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "he system was applied in most countries.. Tthey accept Yes, Did people accept that or not?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 118,
+      "sourceLine": 7,
+      "sourcePages": [
+        118
+      ],
+      "rawBlock": "he system was applied in most countries.. Tthey accept Yes, Did people accept that or not? \nهل قبل الناس ذلك أم لا؟ نعم قبلوا ، وتم تطبيق النظام في معظم الدول. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "they are forced to pay money Becausemail? Why did not people receive their stuff from the",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 118,
+      "sourceLine": 11,
+      "sourcePages": [
+        118
+      ],
+      "rawBlock": "they are forced to pay money Becausemail? Why did not people receive their stuff from the  \nلماذا لم يستلم الناس أغراضهم من البريد؟ لأنهم مجبرون على دفع المال  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "accepted The meaning of the word \"adapted\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 118,
+      "sourceLine": 15,
+      "sourcePages": [
+        118
+      ],
+      "rawBlock": "accepted The meaning of the word \"adapted\"? \nمعنى كلمة \"تكييف\"؟ قبلت  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "What did Hill suggest the government employee do?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 118,
+      "sourceLine": 19,
+      "sourcePages": [
+        118
+      ],
+      "rawBlock": "What did Hill suggest the government employee do? \nThe price should be proportionate to the weight Senders must buy a stamp \nماذا اقترح هيل على الموظف الحكومي أن يفعل؟  يجب أن يكون السعر متناسبًا مع الوزن الذي يجب على المرسلين شراء طابع به  \nDelivery  was:In 1800 the hardship of sending messages  \nفي عام1800 كانت مشقة إرسال الرسائل هيالتسليم أو التوصيل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "weight by Number of pages Before 1384 how to deal with messages?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 118,
+      "sourceLine": 28,
+      "sourcePages": [
+        118,
+        119
+      ],
+      "rawBlock": "weight by        Number of pages  Before 1384 how to deal with messages?  \nقبل1384 كيف يتم التعامل مع الرسائل؟  عدد الصفحا ت       بالوزن  \nسادساً / جو ايسلندا  \nواحد دائماً يسافر لمكان عند البحر بس السنة الماضية قرر يسافر لجزيرة  \nمع علمه أنها باردة وممطرة ولما راح هناك طلع الجو أكثر مما يتوقع أبرد وممطر أكثر \n وذكر أنه ما شاف الشمس واستمر المطر 9 أياممتواصلة، وكان معهم مرشد سياحي \nعلمهم كيف يحافظون على اشياءهم جافة ( Dry) وغير معرضةللخطر،\n118 \nوآخر4 ايام رجعت الاجواء مشمسة وحلوة واستمتعوا فيهابالشاطئ. \nOne always travels to a place by the sea, but last year he decided to \ntravel to an island Knowing that it was cold and rainy, and when he \nwas there, it got colder and rainier than he expected. He mentioned that \nhe did not see the sun and the rain continued for 9 continuous days, \nand he had a tour guide with them \nTeach them how to keep their things dry and invulnerable \nAnd the last 4 days the weather returned, sunny and sweet, and they \nenjoyed the beach. \nTitle of the passage?  \nThe worst vacation of my life \nI advise you not to travel to Iceland \nDifficult times, you learn new things in these times \nعنوان المقطع؟ \nأسوأ عطلة في حياتي  \nأنصحك بعدم السفر إلى أيسلندا \nفي الأوقات الصعبة، تتعلم أشياء جديدة في هذه الأوقات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "a weekis rainy Itweather? What did you understand from paragraph number ... about the",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 119,
+      "sourceLine": 28,
+      "sourcePages": [
+        119
+      ],
+      "rawBlock": "a weekis rainy  Itweather? What did you understand from paragraph number ... about the  \nماذا فهمت من رقمالفقرة.. عن الطقس.. ؟  الجو ممطر اسبوع  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "The sunWhat does \" it \" refer to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 119,
+      "sourceLine": 33,
+      "sourcePages": [
+        119
+      ],
+      "rawBlock": " The sunWhat does \" it \" refer to?  \nالى ماذا يشير الضمير؟ الشمس ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "WetWhat does \" dabble \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 119,
+      "sourceLine": 37,
+      "sourcePages": [
+        119
+      ],
+      "rawBlock": " WetWhat does \" dabble \" mean?  \nماذا تعني كلمة بلل \"؟  رطب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "wet refund not happy TiredWhat does \" exhausted \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 119,
+      "sourceLine": 41,
+      "sourcePages": [
+        119,
+        120
+      ],
+      "rawBlock": "wet         refund        not happy           TiredWhat does \" exhausted \" mean?   \nماذا تعني كلمة \"مرهق\"؟       متعبه     مبلل       إعادة مال         ليس سعيدا\n119 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "Because the weather got better Why was he happy in the last days?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 120,
+      "sourceLine": 3,
+      "sourcePages": [
+        120
+      ],
+      "rawBlock": "Because the weather got better Why was he happy in the last days? \nلماذا كان سعيدا في الايام الاخيرة؟ لأن الطقس أصبح أفضل ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "Why did the writer talk about the weather?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 120,
+      "sourceLine": 7,
+      "sourcePages": [
+        120
+      ],
+      "rawBlock": "Why did the writer talk about the weather? \nHe wanted to give information about the weather for everyone who wants to go to a particular city \nلماذا تحدث الكاتب عن الطقس؟ أراد تقديم معلومات حول الطقس لكل من يريد الذهاب إلى مدينة معينة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "Relaxing ead booksR What does the man do every summer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 120,
+      "sourceLine": 12,
+      "sourcePages": [
+        120
+      ],
+      "rawBlock": "Relaxing            ead booksR         What does the man do every summer? \nماذا يفعل الرجل كل صيف؟     اقرأ كتب          الاسترخاء ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "how to keep their objects dry What did the man and the people with him learn?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 120,
+      "sourceLine": 16,
+      "sourcePages": [
+        120
+      ],
+      "rawBlock": "how to keep their objects dry   What did the man and the people with him learn? \nماذا تعلم الرجل ومن معه؟ كيفية الحفاظ على أجسامهم جافة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "He did not see the sun for 9 days. 2 about the city where the man is? paragraphWhat is meant by",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 120,
+      "sourceLine": 20,
+      "sourcePages": [
+        120
+      ],
+      "rawBlock": "He did not see the sun for 9 days. 2 about the city where the man is? paragraphWhat is meant by  \nما المقصود بالفقرة2  عن المدينة التي يوجد فيها الرجل؟ لم ير الشمس لمدة 9 أيام \nWhat is the correct of the following options:  \nThe man did not know anything about Iceland \nweather.The man was not ready for the  \nما هو الصحيح من الخيارات التالية: أحد الإجابات التالية صحيح \nلم يكن الرجل يعرف شيئًا عن أيسلندا  \nلم يكن الرجل مستعدا للطقس. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "has improved weatherBecause the Why was he happy in the last days?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 120,
+      "sourceLine": 32,
+      "sourcePages": [
+        120
+      ],
+      "rawBlock": "has improved weatherBecause the  Why was he happy in the last days?  \nلماذا انبسط بآخر الايام؟   لأنه الجو تحسن  improved. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "Everyone wants to understand and know about Why did the writer talk about the weather?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 120,
+      "sourceLine": 36,
+      "sourcePages": [
+        120,
+        121
+      ],
+      "rawBlock": "Everyone wants to understand and know about Why did the writer talk about the weather? \nthe weather when they travel to a specific city \nلماذا الكاتب تكلم عن الطقس؟  يبغى الكل يفهم ويعرف عن الطقس لما يسافروا لمدينة معينة.\n120 \nسابعاًStress) وتأثيره على الانسان  والزلزال   \nThe word overloaded in paragraph (1), is closest in meaning to........  \nFeeling NOT listened to \nFeeling NOT supported \nFeeling under pressure \nFeeling overweight \nوالكلمة المثقلة بالفقرة1) هي الأقرب في معناها إلى \nالشعور بعدم الإنصات  \nالشعور بعدم الدعم  \nالشعور بالضغط  \nالشعور بالوزن الزائد  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What does the expression 'fight or flight response' used in paragraph (2) mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 121,
+      "sourceLine": 17,
+      "sourcePages": [
+        121
+      ],
+      "rawBlock": "What does the expression 'fight or flight response' used in paragraph (2) mean?  \nStaying in a dangerous situation or facing it \nGetting away from a dangerous situation very quickly \nThe ways a dangerous situation changes with stress \nThe ways a person's body reacts to a dangerous situation \nماذا تعني عبارة \"القتال أو الهروب\" المستخدمة في الفقرة2)؟ \nالبقاء في موقف خطير أو مواجهته  \nالابتعاد عن المواقف الخطرة بسرعة كبيرة  \nالطرق التي يتغير بها الموقف الخطير مع التوتر  \nالطرق التي يتفاعل بها جسم الإنسان مع المواقف الخطيرة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (3), what is the best advice in the event of an earthquake?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 121,
+      "sourceLine": 29,
+      "sourcePages": [
+        121,
+        122
+      ],
+      "rawBlock": "According to Paragraph (3), what is the best advice in the event of an earthquake? \nTry to save someone else's life as well as your own \nMake sure that no heavy weight have fallen on top of you. \nTry to get out of the building as quickly as possible. \nStay inside and wait until the earthquake has finished \nحسب الفقرة3) ما هي افضل نصيحة في حال وقوع زلزال؟ \nحاول إنقاذ حياة شخص آخر بالإضافة إلى حياتك  \nتأكد من عدم سقوط أي وزن ثقيل فوقك.  \nحاول الخروج من المبنى بأسرع ما يمكن.  \nابق في الداخل وانتظر حتى ينتهي الزلزال \nThe word it in paragraph (4) refers to ...........\" \nbody \ncortisol \nadrenaline \nnoradrenaline \nتشير الكلمة الواردة في الفقرة4) إلى\n121 \nجسم \nالكورتيزول  \nالأدرينالين  \nنورادرينالين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "According to paragraph (5), what is TRUE about a 'fight or flight' situation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 122,
+      "sourceLine": 7,
+      "sourcePages": [
+        122
+      ],
+      "rawBlock": "According to paragraph (5), what is TRUE about a 'fight or flight' situation? \nAll body functions are considered essential. \nAll body functions are considered NON essential. \nThe digestive and immune systems are considered NON essential. \nThe digestive and immune systems are considered essential \nوفقًا للفقرة5) ، ما هو صحيح في حالة \"القتال أو الفرار\"؟ \nتعتبر جميع وظائف الجسم ضرورية. \nتعتبر جميع وظائف الجسم غير أساسية.  \nيعتبر الجهاز الهضمي وجهاز المناعة غير أساسيين.  \nيعتبر الجهاز الهضمي والجهاز المناعي ضروريين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "Why does the author use the pronoun \"we\" throughout the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 122,
+      "sourceLine": 19,
+      "sourcePages": [
+        122
+      ],
+      "rawBlock": "Why does the author use the pronoun \"we\" throughout the passage? \nBecause he is describing the experience of someone else. \nBecause he distances himself from the experience he describes \nBecause he is describing an experience unique to himself \nBecause he believes that his feeling will be shared by many others \nلماذا يستخدم المؤلف الضمير \"نحن\" في جميع أنحاء المقطع؟ \nلأنه يصف تجربة شخص آخر. \nلأنه ينأى بنفسه عن التجربة التي يصفها  \nلأنه يصف تجربة فريدة لنفسه \nلأنه يعتقد أن العديد من الآخرين يشاركونه مشاعره  \nثامناً / العولمة Globalization \n) تكلمت عن شيء يجيبونه من أمريكا على سفن إلى الهند)  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "old new Tiredmean? antique What does the word",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 122,
+      "sourceLine": 41,
+      "sourcePages": [
+        122,
+        123
+      ],
+      "rawBlock": "old        new       Tiredmean?     antique  What does the word  \nماذا تعني كلمةعتيق؟  متعب       جديد         القديمة\n122 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "?????????? example an ''As Why did Indian food or \"plant\" mention?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 123,
+      "sourceLine": 4,
+      "sourcePages": [
+        123
+      ],
+      "rawBlock": "?????????? example an ''As Why did Indian food or \"plant\" mention?  \nلماذا ذكر الطعام الهندي أو \"النبات\"؟  بداية الإجابة هي '' كمثال ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "About the importance of globalization todayIf the text is completed, it will talk about what?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 123,
+      "sourceLine": 13,
+      "sourcePages": [
+        123
+      ],
+      "rawBlock": "About the importance of globalization todayIf the text is completed, it will talk about what?  \nإذا اكتمل النص سيتحدث عن ماذا؟ حول أهمية العولمة اليوم  \n.)between them-The first answer. it is two words and there is (( \"it \" refers to: \nتشير كلمةit\" إلى(الجواب الأول: كلمتان وهناك (-) بينهما).  \nWhere does pepper /spicy food come from OR where did peppers & spicy \n North and South America \nمن أين يأتي الفلفل / الطعام الحار أو من أين يأتي الفلفل والتوابل \nأمريكا الشمالية والجنوبية   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "North America and South Where is pepper grown?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 123,
+      "sourceLine": 36,
+      "sourcePages": [
+        123,
+        124
+      ],
+      "rawBlock": "North America and South  Where is pepper grown? \nالفلفل من وين أصله؟ أمريكا الجنوبية والشمالية.  \nمن وين يجيبونه؟  أمريكا الشمالية والجنوبية  \nit'' refers to?  \nأنها '' تشير إلى؟ قد يكون الجواب أحد الذين ذكروا في المقطع\n123 \nكلمةThey) تعود لـ ...؟ يمكن يعود على شعب دول مذكورين  بالقطعة.. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "Plants mean?What does ''herbs ''",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 124,
+      "sourceLine": 7,
+      "sourcePages": [
+        124
+      ],
+      "rawBlock": "Plants  mean?What does ''herbs ''  \nماذا تعني كلمة أعشاب؟النباتات  \nChoose the passage's title   \nاختر عنوان المقطع ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q34",
+      "order": 34,
+      "questionNumber": null,
+      "questionText": "Long time Who Invented Globalization?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 124,
+      "sourceLine": 17,
+      "sourcePages": [
+        124,
+        125
+      ],
+      "rawBlock": "Long time  Who Invented Globalization? \nمن اخترع العولمة؟  من وقت طويل  \nGlobal Government  The great power of the passage refers to? \nالقوة العظيمة للمقطع يشير إلى؟الحكومة العالمية  \nGlobalization    Education    poverty rates? sWhat limit \nما يحد من معدلات الفقر؟     التعليم           العولمة  \nChina and the Arabian Peninsula  The origin of artifacts and antiques: \nأصل القطع الأثريةوالتحف: الصين وشبه الجزيرة العربية  \nThe great power الموجود بالقطعة يعود على ..؟ Global government (غير متأكدين من الاجابة \ndevelopment- improvement. \ntraditions - Habit\n124 \nتاسعاً / سيارة الآيس كريم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q35",
+      "order": 35,
+      "questionNumber": null,
+      "questionText": ".ice cream caran The driver of Who is the best car driver?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 125,
+      "sourceLine": 6,
+      "sourcePages": [
+        125
+      ],
+      "rawBlock": ".ice cream caran The driver of  Who is the best car driver? \nمن هو أفضل سائق سيارة؟سائق سيارة مثلجات .  \nsells ice cream        good driver   :(1) you understand that paragraphFrom  \nمن الفقرة1) أنت تفهمأن:   سائق جيد        تبيع الآيس كريم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q36",
+      "order": 36,
+      "questionNumber": null,
+      "questionText": "Ice cream history What is the best title for this passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 125,
+      "sourceLine": 15,
+      "sourcePages": [
+        125
+      ],
+      "rawBlock": "Ice cream history What is the best title for this passage? \nما هو أفضل عنوان لهذا المقطع؟تاريخ الآيس كريم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q37",
+      "order": 37,
+      "questionNumber": null,
+      "questionText": "arcream cIce What is the car's name?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 125,
+      "sourceLine": 19,
+      "sourcePages": [
+        125
+      ],
+      "rawBlock": "arcream cIce  What is the car's name? \nما اسم السيارة؟سيارة ايس كريم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q38",
+      "order": 38,
+      "questionNumber": null,
+      "questionText": "Ice cream carWhat is the type of car?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 125,
+      "sourceLine": 22,
+      "sourcePages": [
+        125
+      ],
+      "rawBlock": "Ice cream carWhat is the type of car?  \nما هو نوع السيارة؟سيارة آيس كريم.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q39",
+      "order": 39,
+      "questionNumber": null,
+      "questionText": "He is happy and does not complain. What is right about ice cream's car driver?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 125,
+      "sourceLine": 27,
+      "sourcePages": [
+        125
+      ],
+      "rawBlock": "He is happy and does not complain. What is right about ice cream's car driver? \nما هو الصواب في سائق سيارة الآيس كريم؟إنه سعيد ولا يشتكي.  \nما هو الصحيح عن السائق؟  أنه مو متذمر ومبسوط فيها.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q40",
+      "order": 40,
+      "questionNumber": null,
+      "questionText": "Journey What does \" expedition \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 125,
+      "sourceLine": 34,
+      "sourcePages": [
+        125,
+        126
+      ],
+      "rawBlock": "Journey  What does \" expedition \" mean? \nماذا تعني \"إكسبيديشن\"؟رحلة \nIce cream. of? The frozen desert includes 60%  \nالحلوى المجمدة تشمل60٪ من؟آيس كريم    \nSmithsonice cream?  sWho discover\n125 \nمن اكتشف الآيس كريم؟سميثسون  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q41",
+      "order": 41,
+      "questionNumber": null,
+      "questionText": "Asia Who added fruits to ice cream?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 126,
+      "sourceLine": 5,
+      "sourcePages": [
+        126,
+        127
+      ],
+      "rawBlock": "Asia  Who added fruits to ice cream? \nمن أضاف الفاكهة إلى الآيس كريم؟ آسيا  \nالسؤال غير معروف؟  \nIce cream in its natural form \nالسؤالغير معروف؟  \nآيس كريم بشكله الطبيعي  \nnot enough sugar  during the World War? cream-iceWhat happened to  \nماذا حدث للآيس كريم خلال الحرب العالمية؟ ما يكفي من السكر \n سؤال عن معنى كلمة واللي فهمته من قبل السياق أنها ما سوت حوادث \nومن ضمن الاختيارات لمعنى الكلمة (Low ) أعتقد أنه يقصد \nأنها ما اخذت مخالفات مرورية.  \nعاشراً / الاكل الهندي Relation \nالحادي عشر / مدغشقر وكان يتكلم فيها عنحيوانات ومنها  الليمور \nThey are species and around 100 existing genera and consisting of 15 families , divided into 8 mammals are Lemurs\n. Most existing lemurs are small, have a pointed snout, large eyes, and a long tail. Madagascar native only to the island of\n).nocturnalThey chiefly live in trees and are active at night ( \nالليمور ثدييات ، مقسمة إلى  8 عائلات وتتكون من15  جنسًا وحوالي 100 نوع موجود. هم مواطنون فقط في جزيرة مدغشقر\nمعظم الليمورات الموجودة صغيرة وذات أنف مدبب وعينان كبيرتان وذيل طويل. هم يعيشون بشكل رئيسي في الأشجار وينشطون  \nفي الليل (ليلي). \ntailed lemur-Ring                bang lumber            Species        :refers to \"its\" \nتشير كلمة \"لهاإلى:    نوع                   فرقعة الخشب                     ليمور حلقي الذيل\n126 \nالثاني عشر/ تقليل إنتاج الغاز من قبل الحكومة \nامريكا جعلت سعره أغلى، والنَاس أصبحوا لا يستخدموه بسبب غلاء سعره . ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q42",
+      "order": 42,
+      "questionNumber": null,
+      "questionText": "Because they want to increase the price of gas Why did the government reduce production?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 127,
+      "sourceLine": 6,
+      "sourcePages": [
+        127
+      ],
+      "rawBlock": "Because they want to increase the price of gas Why did the government reduce production? \nلماذا خفضت الحكومة الإنتاج؟لأنهم يريدون زيادة سعر الغاز ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q43",
+      "order": 43,
+      "questionNumber": null,
+      "questionText": "What is the reaction of the speaker?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 127,
+      "sourceLine": 9,
+      "sourcePages": [
+        127
+      ],
+      "rawBlock": "What is the reaction of the speaker?    \na good sign. He thinks it isUnpleasant     he did not know about the change         \nما هو رد فعل المتحدث؟ \nغير سارة         لم يكن يعلم عن التغيير         علامة جيدة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-10-q44",
+      "order": 44,
+      "questionNumber": null,
+      "questionText": "expensive Gasoline became very? oline in 2008gas essWhy did use l",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 127,
+      "sourceLine": 14,
+      "sourcePages": [
+        127
+      ],
+      "rawBlock": "expensive Gasoline became very? oline in 2008gas essWhy did use l \nلماذا استخدمت كمية أقل من البنزين في عام2008؟لأنها باهظة الثمن  \nالثالث عشر / النمو السكاني \nالرابع عشر / طائر ثقيل غير قادر على الطيران",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

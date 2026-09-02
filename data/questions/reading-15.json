@@ -1,0 +1,502 @@
+{
+  "readingId": "reading-15",
+  "sourceQuestionBlocks": 11,
+  "questions": [
+    {
+      "id": "reading-15-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "Look at picture …. ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 161,
+      "sourceLine": 8,
+      "sourcePages": [
+        161,
+        162
+      ],
+      "rawBlock": "Look at picture …. ? \nالدمية الروسية \nحليب البقر الطازج  والبسترة \nمكتشف لقاح  \nAirplanes are not …... \nالقوى العظمى great powers   \nجدول عدد صفحات وعناوين كتاب \nمثل انجليزي ...  \nقطعة عن ال Herbs   \nالعولمةGlobalization   \nعناوين النموذجالخامس عشر\n161 \nالنموذج الخامس عشر \nاستيعاب المقروء   \nأولا/ بيتزا المارغريتا  \nPizzeria Brandi's chef, invented Raffaele Espositoin June 1889 the pizzaiolo \na dish called \"Pizza Margherita\" in honor of the Queen of Italy, Margherita \nsince toppings are tomato (red), , of Savoy, and the Italian unification\nmozzarella (white) and basil (green), representing the same colors of the \n.national flag of Italy  \nفي يونيو1889 ، اخترعpizzaiolo Raffaele Esposito ، رئيس الطهاة في مطعمPizzeria \nBrandi ، طبقًا يسمىPizza Margherita\" تكريماً لملكة إيطاليا ،Margherita of Savoy  \n، والتوحيد الإيطالي ، لأن الإضافات هي الطماطم (الحمراء) ، وجبن الموزاريلا (الأبيض) و ريحان\n(أخضر) ، ويمثل نفس ألوان العلم الوطني لإيطاليا.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": ".It is a peasant food today ? Margherita about pizza What is not true",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 162,
+      "sourceLine": 27,
+      "sourcePages": [
+        162,
+        163
+      ],
+      "rawBlock": ".It is a peasant food today ? Margherita about pizza What is not true \nما هو الخطأ في بيتزا مارغريتا؟إنه طعام الفلاحين اليوم. \nالتلوث \nAir pollution   \nالحيوانات المهددة بالانقراض \nendangered animals\n162 \nmargherita.After the name of queen   Margherita?Why was a kind of Pizza named  \nلماذا سمي نوع من البيتزا مارغريتا؟   بعد  اسم الملكة مارجريتا.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "ish is famous in the world. Because his dWhy is Rafaelle the founder of pizza?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 163,
+      "sourceLine": 6,
+      "sourcePages": [
+        163
+      ],
+      "rawBlock": "ish is famous in the world. Because his dWhy is Rafaelle the founder of pizza?  \nلماذا رافاييل مؤسس البيتزا؟لأن طبقه مشهور في العالم.  \nثانياً / قطعة عن ذبح الحيوانات واستخدامها في الطعام الصيني  \nمكرر \nثالثاً/ شخص عنده أصدقاء وصديق يتكلم عدة لغات وقال أنا بعطيكم 10 نصائح \nعطاني إياها صديقي ...  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "languages.Speak many ? idea is from personThe",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 163,
+      "sourceLine": 22,
+      "sourcePages": [
+        163,
+        164
+      ],
+      "rawBlock": "languages.Speak many  ? idea is from personThe  \nالفكرة من شخص؟يتكلم العديد من اللغات .  \nideasThem refers to?  \n(Them) تعود لـ ...؟ sIdea  \n(القطعة تتكلم عن افكار ونصائح صديق الكاتب كيف اكتسب اللغة\n163 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "About his friend that he speaks more than nine languages talking about? heWhat is",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 164,
+      "sourceLine": 3,
+      "sourcePages": [
+        164
+      ],
+      "rawBlock": "About his friend that he speaks more than nine languages  talking about? heWhat is  \nعن ماذا يتحدث؟  عن صديقه أنه يتحدث  أكثر من تسع لغات  \nremember       write            say    Pronunciation means?    \nالنطق يعني؟        يقول              اكتب                  تذكر ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "worry about mistakes.Because they do not to learn as children? importantWhy",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 164,
+      "sourceLine": 14,
+      "sourcePages": [
+        164
+      ],
+      "rawBlock": "worry about mistakes.Because they do not    to learn as children? importantWhy  \nلماذا من المهم أن نتعلم كأطفال؟لأنهم لا يهتمون بالأخطاء. \nرابعاً/ شخص مسوي اجتماع أو ورشة عمل Worksheet \nورشة عمل خالد \n (مكرر) \nخامساً / Look at picture , in Paris, answer questions : \nانظر إلى الصورة في باريس اطرح سؤال وجواب \nلا يوجد صورة؛  عبارة وعليها سؤال  أين يكون هذا السؤال؟    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "You read this in?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 164,
+      "sourceLine": 31,
+      "sourcePages": [
+        164,
+        165
+      ],
+      "rawBlock": "You read this in?  \nBank                    restaurant         hotel                poSh                          classroom \nسادساً / الدمية الروسية(تكلمت عن صناعة الدمى ومن أي دولة انطلقت هذه الصناعة)\n164 \n(مكرر) \nسابعاً/ حليب البقر -  الحليب الخام raw milk \n(بدأ البرقراف بنصيحة شرب الحليب الطازج عندما نذهب إلىالمزرعة،  \nتكلم عن أضرار الحليب الطازج غير المغلي ولماذا يتم غلي الحليب..)  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "Molecules of fat enter blood.Why homogenized milk is health risk?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 165,
+      "sourceLine": 15,
+      "sourcePages": [
+        165
+      ],
+      "rawBlock": "Molecules of fat enter blood.Why homogenized milk is health risk?  \nلماذا الحليب المتجانس خطر على الصحة؟تدخل جزيئات الدهون إلى الدم. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": ".make milk safer to drink asteurization?p milk Why",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 165,
+      "sourceLine": 20,
+      "sourcePages": [
+        165
+      ],
+      "rawBlock": ".make milk safer to drink asteurization?p milk Why \nلماذا بسترة الحليب؟جعل الحليب أكثر أمانًا للشرب . \nfarm using milk        visiting           Drinking milk from a cowThe Pronoun That refers to?   \nالضمير الذي يشير إليه؟شرب الحليب من بقرة                   استخدام الحليب                    زيارة المزرعة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "If a guest visits you, what will you offer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 165,
+      "sourceLine": 31,
+      "sourcePages": [
+        165,
+        166
+      ],
+      "rawBlock": "If a guest visits you, what will you offer?  \ncow's milk                                Any kind of milk \ntaste.People have different                                      coffee. \nإذا جاك ضيف تقدم له حليب أبقار طازج أو كوفي أو ......؟\n165 \nثامناً /مكتشف لقاح وجربه على عائلته وذكر أفراد العائلة  \nHe discovered a vaccine and tried it on his family and mentioned \nfamily members. \nشخص اكتشف اللقاح، وجربه على عائلته..  ذكر أفراد عائلته.  \nSomeone discovered the vaccine, and tried it on his family, ... mentioned \nhis family members. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "Three How many people have the vaccine been tried on?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 166,
+      "sourceLine": 16,
+      "sourcePages": [
+        166
+      ],
+      "rawBlock": "Three How many people have the vaccine been tried on?  \nكم عدد الاشخاص الذين جرب عليهم اللقاح؟ثلاثة  \nتاسعاً / Airplanes are not as dangerous as motorcycle \nالطائرات ليست خطيرة مثل الدراجات النارية \nتفهم من العبارة ...؟  \nmotorcycles.n aless dangerous th are sAirplane \nالطائرات أقل خطورة من الدراجات النارية \nعاشراً /  القوى العظمى  \nulersr colonial refers to? \"great powers\"The word  \nتشير كلمة القوى العظمى؟الحكام المستعمرون   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "Globalizationpoverty? What can help",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 166,
+      "sourceLine": 38,
+      "sourcePages": [
+        166,
+        167
+      ],
+      "rawBlock": "Globalizationpoverty? What can help\n166 \nما الذي يمكن أن يساعد الفقر؟ العولمة \nالحادي عشر / جدول عن عدد صفحات وعناوين الكتب \n                         Contents                                              pages \n                         Cover Story                                          3 - 13 \n                         National news                                    14 – 24 \n                         Economy and business                     25 – 31 \n                         World news                                        32 – 40 \n                         Entertainment                                    41 – 45 \n                         Sport                                                    46 - 55 \n                         Editorial                                              56  \nجدول مكتوب مثل برامج التلفزيونماذا يعرض منها وعندكم بالجدول 5 خيارات \n Tutorial - Economic News  World News – \nأخبار العالم - الأخبار الاقتصادية - البرنامج التعليمي  \nworld News - Local - Articles today - Economy - Sports - Movies and shows) \n(أخبار العالم - محلي - مقالات  اليوم - اقتصاد  - رياضة  - أفلام وعروض )  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "30 55 45new movie? 22 n which page most likely I",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 167,
+      "sourceLine": 28,
+      "sourcePages": [
+        167
+      ],
+      "rawBlock": "30               55                   45new movie?  22                 n which page most likely I \nفي أي صفحة على الأرجح فيلم جديد؟    22      45       30           55      إجابة صحيحة من الاختبار ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": ".business and yeconom If the question is about stock, what is the suitable unit/part/section?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 167,
+      "sourceLine": 34,
+      "sourcePages": [
+        167
+      ],
+      "rawBlock": ".business and yeconom If the question is about stock, what is the suitable unit/part/section? \nإذا كان السؤال عن الأسهم،  فما هي الوحدة / الجزء / القسم المناسب؟ الاقتصاد  والأ عمال  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "Economic NewsWhere to find stock price information?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 167,
+      "sourceLine": 39,
+      "sourcePages": [
+        167,
+        168
+      ],
+      "rawBlock": " Economic NewsWhere to find stock price information?      \nأين تجد معلومات سعر السهم؟الأخبار الاقتصادية\n167 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "Noah story is found in?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 168,
+      "sourceLine": 4,
+      "sourcePages": [
+        168
+      ],
+      "rawBlock": "Noah story is found in?   \nتم العثور على قصة نوح في؟ ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "International news? International day can be found in",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 168,
+      "sourceLine": 8,
+      "sourcePages": [
+        168
+      ],
+      "rawBlock": "International news?  International day can be found in \nيمكن العثور على اليوم الدولي في؟ أخبار  عالمية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "Films/ movies and series.? Turkish series are found in",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 168,
+      "sourceLine": 12,
+      "sourcePages": [
+        168
+      ],
+      "rawBlock": "Films/ movies and series.?    Turkish series are found in \nالمسلسلات التركية موجودة  في؟ أفلام / أفلام ومسلسلات . ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "ursesoEducation c? New products can be found in",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 168,
+      "sourceLine": 16,
+      "sourcePages": [
+        168
+      ],
+      "rawBlock": "ursesoEducation c?  New products can be found in \nيمكن العثور على منتجات  جديدة في؟ دورات  تعليمية  \nالثاني عشر / العولمة Globalization \nمكرر \nالثالث عشر /قطعة عن ال Herbs وماذا  تعني  ...؟  \nمعنى كلمة Herbs؟  .Plant ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "Pressure with water. Herbs are plants?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 168,
+      "sourceLine": 34,
+      "sourcePages": [
+        168,
+        169
+      ],
+      "rawBlock": "Pressure with water. Herbs are plants?  \nأعشاب نباتات؟مضغوطة بالماء.\n168 \nالرابع عشر / مثل انجليزي معناه(إذا  جفت المويه اللي ع  الارض راح تعرف قيمة  الماء)  \n(When the well is dry, we will learn the worth of water) \nالجواب الأصح هو  ...؟  \nWe don’t know value until it is not available. \nالخامس عشر / ال تلوث ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "90 % ? How much time do we spend inside our houses",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 169,
+      "sourceLine": 14,
+      "sourcePages": [
+        169
+      ],
+      "rawBlock": "  90 % ?  How much time do we spend inside our houses \nكم نقضي من الوقت داخل البيت؟09 ٪   \nBecause people want save energyWhy bad air stays inside?  \nلماذا يبقى الهواء السيئ بالداخل؟لأن الناس يريدون توفير الطاقة \nالسادس عشر / الحيوانات المهددة بالانقراض \nEndangered animals \nAnimal species.refers to?  \"They\"Pronoun  \nضمير \"هم\" يشير إلى؟أنواع الحيوانات .  \n affect the food chain.Killing animals?  \nقتل الحيوانات؟تؤثر على السلسلة الغذائية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "kill.Extermination is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 169,
+      "sourceLine": 34,
+      "sourcePages": [
+        169,
+        170
+      ],
+      "rawBlock": "kill.Extermination is closest in meaning to?  \nالإبادة هي الأقرب في المعنى؟قتل\n169 \nالسابع عشر /  \n Define = explain \nتعريف = شرح \nالثامن عشر / د. سميث \n New programIdeas about?  \nأفكار حول؟برنامج جديد  \nالتاسع عشر /  خالد والجامعة والمال  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "Money???????????????? because he lacks? He is",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 170,
+      "sourceLine": 19,
+      "sourcePages": [
+        170
+      ],
+      "rawBlock": "Money???????????????? because he lacks? He is  \nهو ؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟ لأنه يفتقر؟مال  \nالعشرون / اختراعات واكتشافات \nالنار –  العجلات –  الكتابة \nInventions and discoveries \nFire - wheels – writing ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "MultipleThe word \" myriad\" is closest in meaning?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 170,
+      "sourceLine": 30,
+      "sourcePages": [
+        170
+      ],
+      "rawBlock": "MultipleThe word \" myriad\" is closest in meaning?  \nكلمة \"لا تعد ولا تحصى\" هي الأقرب في المعنى؟عديد  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "Controlled The word \" tamed\" is closest in meaning?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 170,
+      "sourceLine": 36,
+      "sourcePages": [
+        170,
+        171
+      ],
+      "rawBlock": "Controlled The word \" tamed\" is closest in meaning?  \nكلمة ترويض هي الأقرب في المعنى؟خاضع للسيطرة\n170 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "Human being The word \" mankind\" is closest in meaning?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 171,
+      "sourceLine": 4,
+      "sourcePages": [
+        171
+      ],
+      "rawBlock": "Human being The word \" mankind\" is closest in meaning?  \nكلمة \"البشرية\" هي الأقرب في المعنى؟كائن بشري  \nLong time ago.Discoveries were?  \nكانت الاكتشافات؟منذ زمن طويل.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-15-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "Fire Wheel WritingWhich is not mentioned as ??????????????????? ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 171,
+      "sourceLine": 14,
+      "sourcePages": [
+        171
+      ],
+      "rawBlock": "Fire               Wheel                 WritingWhich is not mentioned as ???????????????????   ?  \nما هو الشيء الذي لم يذكر ك ؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟؟ ؟ كتابة       النار        عجلة \nقطعة قصيرة ومعنى كلمة  \nDefine = explain",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

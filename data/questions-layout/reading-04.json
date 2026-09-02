@@ -1,0 +1,1421 @@
+{
+  "readingId": "reading-04",
+  "questions": [
+    {
+      "id": "reading-04-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "Where did he get the gold medal from?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        37
+      ],
+      "sourceBlockIds": [
+        "page-37-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 211.01,
+        "x0": 14.16,
+        "x1": 281.48
+      }
+    },
+    {
+      "id": "reading-04-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "When did he change his name?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        37
+      ],
+      "sourceBlockIds": [
+        "page-37-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 296.6,
+        "x0": 14.16,
+        "x1": 188.72
+      }
+    },
+    {
+      "id": "reading-04-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "When he won gold medal he was?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        37
+      ],
+      "sourceBlockIds": [
+        "page-37-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 439.18,
+        "x0": 14.16,
+        "x1": 297.41
+      }
+    },
+    {
+      "id": "reading-04-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "How old was he when he converted to Islam?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        37
+      ],
+      "sourceBlockIds": [
+        "page-37-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 524.74,
+        "x0": 14.16,
+        "x1": 269.06
+      }
+    },
+    {
+      "id": "reading-04-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the meaning of the word \" ؟؟؟؟؟؟ \" ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        37
+      ],
+      "sourceBlockIds": [
+        "page-37-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 685.69,
+        "x0": 14.16,
+        "x1": 333.98
+      }
+    },
+    {
+      "id": "reading-04-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "How many competitions did he take part until he got the medal?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        37
+      ],
+      "sourceBlockIds": [
+        "page-37-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 759.73,
+        "x0": 14.16,
+        "x1": 460.65
+      }
+    },
+    {
+      "id": "reading-04-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What does “assumed\" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        38
+      ],
+      "sourceBlockIds": [
+        "page-38-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 106.73,
+        "x0": 14.16,
+        "x1": 309.17
+      }
+    },
+    {
+      "id": "reading-04-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "Who supported his rejection of the Vietnam War?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        38
+      ],
+      "sourceBlockIds": [
+        "page-38-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 180.77,
+        "x0": 14.16,
+        "x1": 389.81
+      }
+    },
+    {
+      "id": "reading-04-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "How old was he when he won the championships?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        38
+      ],
+      "sourceBlockIds": [
+        "page-38-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 254.84,
+        "x0": 14.16,
+        "x1": 372.79
+      }
+    },
+    {
+      "id": "reading-04-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "When did he win the third golden medal?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        38
+      ],
+      "sourceBlockIds": [
+        "page-38-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 338.36,
+        "x0": 14.16,
+        "x1": 446.29
+      }
+    },
+    {
+      "id": "reading-04-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "He became famous after the third prize after beating?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        38
+      ],
+      "sourceBlockIds": [
+        "page-38-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 412.04,
+        "x0": 14.16,
+        "x1": 355.65
+      }
+    },
+    {
+      "id": "reading-04-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "when did he die?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        38
+      ],
+      "sourceBlockIds": [
+        "page-38-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 583.18,
+        "x0": 14.16,
+        "x1": 270.02
+      }
+    },
+    {
+      "id": "reading-04-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "What are the benefits of cupping?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        38
+      ],
+      "sourceBlockIds": [
+        "page-38-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 710.02,
+        "x0": 14.4,
+        "x1": 307.32
+      }
+    },
+    {
+      "id": "reading-04-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "When is it recommended to do cupping?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        38
+      ],
+      "sourceBlockIds": [
+        "page-38-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 769.33,
+        "x0": 14.4,
+        "x1": 354.91
+      }
+    },
+    {
+      "id": "reading-04-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What are the reasons of headache?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        39
+      ],
+      "sourceBlockIds": [
+        "page-39-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 132.86,
+        "x0": 14.4,
+        "x1": 237.95
+      }
+    },
+    {
+      "id": "reading-04-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "How to make cupping?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        39
+      ],
+      "sourceBlockIds": [
+        "page-39-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 194.21,
+        "x0": 14.4,
+        "x1": 241.37
+      }
+    },
+    {
+      "id": "reading-04-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "Does it recommend making cupping?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        39
+      ],
+      "sourceBlockIds": [
+        "page-39-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 280.76,
+        "x0": 14.16,
+        "x1": 505.4
+      }
+    },
+    {
+      "id": "reading-04-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "Cupping treats these except?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        39
+      ],
+      "sourceBlockIds": [
+        "page-39-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 353.12,
+        "x0": 14.16,
+        "x1": 248.74
+      }
+    },
+    {
+      "id": "reading-04-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of these things is needed by cupping according to what was mentioned in the paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        39
+      ],
+      "sourceBlockIds": [
+        "page-39-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 441.34,
+        "x0": 14.4,
+        "x1": 562.06
+      }
+    },
+    {
+      "id": "reading-04-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "What does paragraph (1) talk about?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        39
+      ],
+      "sourceBlockIds": [
+        "page-39-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 680.53,
+        "x0": 14.4,
+        "x1": 319.19
+      }
+    },
+    {
+      "id": "reading-04-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "What does \"nocturnal \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        40
+      ],
+      "sourceBlockIds": [
+        "page-40-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.67,
+        "x0": 14.4,
+        "x1": 303.06
+      }
+    },
+    {
+      "id": "reading-04-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "Why did the writer say that pigeon similar to mice rats?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        40
+      ],
+      "sourceBlockIds": [
+        "page-40-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 184.19,
+        "x0": 14.4,
+        "x1": 370.76
+      }
+    },
+    {
+      "id": "reading-04-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "Why did the writer not breath?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        40
+      ],
+      "sourceBlockIds": [
+        "page-40-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 332.12,
+        "x0": 14.4,
+        "x1": 186.73
+      }
+    },
+    {
+      "id": "reading-04-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "Where did the pigeon build nests?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        40
+      ],
+      "sourceBlockIds": [
+        "page-40-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 457.3,
+        "x0": 21.24,
+        "x1": 360.19
+      }
+    },
+    {
+      "id": "reading-04-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "Urban pigeons are dirty?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        40
+      ],
+      "sourceBlockIds": [
+        "page-40-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 582.18,
+        "x0": 21.24,
+        "x1": 310.8
+      }
+    },
+    {
+      "id": "reading-04-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "Not a use of pigeons is?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        40
+      ],
+      "sourceBlockIds": [
+        "page-40-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 710.73,
+        "x0": 21.24,
+        "x1": 249.11
+      }
+    },
+    {
+      "id": "reading-04-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the paragraph about ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        41
+      ],
+      "sourceBlockIds": [
+        "page-41-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 112.49,
+        "x0": 21.24,
+        "x1": 481.09
+      }
+    },
+    {
+      "id": "reading-04-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "Do all the ants lay eggs?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        41
+      ],
+      "sourceBlockIds": [
+        "page-41-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 329.16,
+        "x0": 14.4,
+        "x1": 296.99
+      }
+    },
+    {
+      "id": "reading-04-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "No skeleton in?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        41
+      ],
+      "sourceBlockIds": [
+        "page-41-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 384.6,
+        "x0": 14.4,
+        "x1": 178.72
+      }
+    },
+    {
+      "id": "reading-04-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "In paragraph ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        41
+      ],
+      "sourceBlockIds": [
+        "page-41-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 440.18,
+        "x0": 14.4,
+        "x1": 286.78
+      }
+    },
+    {
+      "id": "reading-04-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "How do ants know each other?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        41
+      ],
+      "sourceBlockIds": [
+        "page-41-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 514.3,
+        "x0": 14.4,
+        "x1": 248.14
+      }
+    },
+    {
+      "id": "reading-04-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "The pronoun ( they ) refers to ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        41
+      ],
+      "sourceBlockIds": [
+        "page-41-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 580.06,
+        "x0": 14.4,
+        "x1": 219.45
+      }
+    },
+    {
+      "id": "reading-04-q33",
+      "displayOrder": 33,
+      "sourceQuestionNumber": null,
+      "questionText": "Ants live in?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        41
+      ],
+      "sourceBlockIds": [
+        "page-41-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 673.85,
+        "x0": 14.4,
+        "x1": 156.09
+      }
+    },
+    {
+      "id": "reading-04-q34",
+      "displayOrder": 34,
+      "sourceQuestionNumber": null,
+      "questionText": "Which is true?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        41
+      ],
+      "sourceBlockIds": [
+        "page-41-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 766.48,
+        "x0": 14.4,
+        "x1": 246.48
+      }
+    },
+    {
+      "id": "reading-04-q35",
+      "displayOrder": 35,
+      "sourceQuestionNumber": null,
+      "questionText": "What food can eat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        42
+      ],
+      "sourceBlockIds": [
+        "page-42-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 106.65,
+        "x0": 14.4,
+        "x1": 185.0
+      }
+    },
+    {
+      "id": "reading-04-q36",
+      "displayOrder": 36,
+      "sourceQuestionNumber": null,
+      "questionText": "The meaning of the word \"Colony \"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        42
+      ],
+      "sourceBlockIds": [
+        "page-42-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 180.69,
+        "x0": 14.4,
+        "x1": 406.35
+      }
+    },
+    {
+      "id": "reading-04-q37",
+      "displayOrder": 37,
+      "sourceQuestionNumber": null,
+      "questionText": "He described it as ( Compound ). What does this word mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        42
+      ],
+      "sourceBlockIds": [
+        "page-42-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 273.95,
+        "x0": 14.4,
+        "x1": 483.84
+      }
+    },
+    {
+      "id": "reading-04-q38",
+      "displayOrder": 38,
+      "sourceQuestionNumber": null,
+      "questionText": "Do ants live long?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        42
+      ],
+      "sourceBlockIds": [
+        "page-42-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 364.2,
+        "x0": 14.4,
+        "x1": 345.06
+      }
+    },
+    {
+      "id": "reading-04-q39",
+      "displayOrder": 39,
+      "sourceQuestionNumber": null,
+      "questionText": "What are the holes in the ant's eyes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        42
+      ],
+      "sourceBlockIds": [
+        "page-42-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 449.66,
+        "x0": 14.4,
+        "x1": 503.5
+      }
+    },
+    {
+      "id": "reading-04-q40",
+      "displayOrder": 40,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the best title of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        42
+      ],
+      "sourceBlockIds": [
+        "page-42-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 553.82,
+        "x0": 14.4,
+        "x1": 409.02
+      }
+    },
+    {
+      "id": "reading-04-q41",
+      "displayOrder": 41,
+      "sourceQuestionNumber": null,
+      "questionText": "Why do people watch TV?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        43
+      ],
+      "sourceBlockIds": [
+        "page-43-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 88.25,
+        "x0": 14.4,
+        "x1": 504.44
+      }
+    },
+    {
+      "id": "reading-04-q42",
+      "displayOrder": 42,
+      "sourceQuestionNumber": null,
+      "questionText": "How is watching TV shorten your life?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        43
+      ],
+      "sourceBlockIds": [
+        "page-43-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 143.69,
+        "x0": 14.4,
+        "x1": 446.12
+      }
+    },
+    {
+      "id": "reading-04-q43",
+      "displayOrder": 43,
+      "sourceQuestionNumber": null,
+      "questionText": "How does the exercising make your life longer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        43
+      ],
+      "sourceBlockIds": [
+        "page-43-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 236.33,
+        "x0": 14.4,
+        "x1": 282.96
+      }
+    },
+    {
+      "id": "reading-04-q44",
+      "displayOrder": 44,
+      "sourceQuestionNumber": null,
+      "questionText": "What does ( premature ) mean ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        43
+      ],
+      "sourceBlockIds": [
+        "page-43-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 569.62,
+        "x0": 14.4,
+        "x1": 403.48
+      }
+    },
+    {
+      "id": "reading-04-q45",
+      "displayOrder": 45,
+      "sourceQuestionNumber": null,
+      "questionText": "The pronoun ( that ) refers to ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        44
+      ],
+      "sourceBlockIds": [
+        "page-44-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 486.82,
+        "x0": 14.4,
+        "x1": 242.01
+      }
+    },
+    {
+      "id": "reading-04-q46",
+      "displayOrder": 46,
+      "sourceQuestionNumber": null,
+      "questionText": "What happened to the people who don’t drink bone soup?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        44
+      ],
+      "sourceBlockIds": [
+        "page-44-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 572.38,
+        "x0": 14.16,
+        "x1": 446.6
+      }
+    },
+    {
+      "id": "reading-04-q47",
+      "displayOrder": 47,
+      "sourceQuestionNumber": null,
+      "questionText": "Meaning of the word ( lacking ) ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        44
+      ],
+      "sourceBlockIds": [
+        "page-44-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 670.93,
+        "x0": 14.4,
+        "x1": 253.64
+      }
+    },
+    {
+      "id": "reading-04-q48",
+      "displayOrder": 48,
+      "sourceQuestionNumber": null,
+      "questionText": "When was the previous meeting?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        45
+      ],
+      "sourceBlockIds": [
+        "page-45-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 187.97,
+        "x0": 14.4,
+        "x1": 200.38
+      }
+    },
+    {
+      "id": "reading-04-q49",
+      "displayOrder": 49,
+      "sourceQuestionNumber": null,
+      "questionText": "When was the last meeting?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        45
+      ],
+      "sourceBlockIds": [
+        "page-45-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 398.48,
+        "x0": 14.4,
+        "x1": 334.82
+      }
+    },
+    {
+      "id": "reading-04-q50",
+      "displayOrder": 50,
+      "sourceQuestionNumber": null,
+      "questionText": "Why was the manger angry at the clerk?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        45
+      ],
+      "sourceBlockIds": [
+        "page-45-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 483.1,
+        "x0": 14.4,
+        "x1": 428.51
+      }
+    },
+    {
+      "id": "reading-04-q51",
+      "displayOrder": 51,
+      "sourceQuestionNumber": null,
+      "questionText": "Why was he upset with him ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        45
+      ],
+      "sourceBlockIds": [
+        "page-45-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 557.14,
+        "x0": 14.4,
+        "x1": 179.99
+      }
+    },
+    {
+      "id": "reading-04-q52",
+      "displayOrder": 52,
+      "sourceQuestionNumber": null,
+      "questionText": "What are the skills required for the jobs?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        46
+      ],
+      "sourceBlockIds": [
+        "page-46-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 117.02,
+        "x0": 14.4,
+        "x1": 438.58
+      }
+    },
+    {
+      "id": "reading-04-q53",
+      "displayOrder": 53,
+      "sourceQuestionNumber": null,
+      "questionText": "What is not mentioned in the job offer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        46
+      ],
+      "sourceBlockIds": [
+        "page-46-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 208.73,
+        "x0": 14.4,
+        "x1": 281.13
+      }
+    },
+    {
+      "id": "reading-04-q54",
+      "displayOrder": 54,
+      "sourceQuestionNumber": null,
+      "questionText": "Who are you asking for these jobs, which company?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        46
+      ],
+      "sourceBlockIds": [
+        "page-46-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 274.4,
+        "x0": 14.4,
+        "x1": 307.77
+      }
+    },
+    {
+      "id": "reading-04-q55",
+      "displayOrder": 55,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the word ( forceful ) mean ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        46
+      ],
+      "sourceBlockIds": [
+        "page-46-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 468.22,
+        "x0": 14.16,
+        "x1": 472.3
+      }
+    },
+    {
+      "id": "reading-04-q56",
+      "displayOrder": 56,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the word ( express ) mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        46
+      ],
+      "sourceBlockIds": [
+        "page-46-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 564.1,
+        "x0": 14.4,
+        "x1": 289.87
+      }
+    },
+    {
+      "id": "reading-04-q57",
+      "displayOrder": 57,
+      "sourceQuestionNumber": null,
+      "questionText": "What is Dave's response?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        46
+      ],
+      "sourceBlockIds": [
+        "page-46-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 746.8,
+        "x0": 14.4,
+        "x1": 363.44
+      }
+    },
+    {
+      "id": "reading-04-q58",
+      "displayOrder": 58,
+      "sourceQuestionNumber": null,
+      "questionText": "Who should respond to the questionnaires?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        47
+      ],
+      "sourceBlockIds": [
+        "page-47-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 166.37,
+        "x0": 14.4,
+        "x1": 255.73
+      }
+    },
+    {
+      "id": "reading-04-q59",
+      "displayOrder": 59,
+      "sourceQuestionNumber": null,
+      "questionText": "When was the highest percentage of high health in cities?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        47
+      ],
+      "sourceBlockIds": [
+        "page-47-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 320.27,
+        "x0": 14.4,
+        "x1": 400.94
+      }
+    }
+  ]
+}

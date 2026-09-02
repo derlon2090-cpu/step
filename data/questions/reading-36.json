@@ -1,0 +1,613 @@
+{
+  "readingId": "reading-36",
+  "sourceQuestionBlocks": 13,
+  "questions": [
+    {
+      "id": "reading-36-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What are the economics of meat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 449,
+      "sourceLine": 40,
+      "sourcePages": [
+        449,
+        450
+      ],
+      "rawBlock": "What are the economics of meat? \nما هي اقتصاديات اللحوم؟      \nمناخ بعض مناطق السعودية \nعناوين النموذج 63\n449 \npapyrus and paper ورق البردي والورق  \nThe word them in Paragraph 2 refers to ...... \nAncient Egyptians. \nwriting materials. \npapyrus stems. \npaper. \nتشير الكلمة لهم في الفقرة2 إلى \nالمصريون القدماء.  \nمواد الكتابة.  \nجذع  ورق البردي.  \nورق.  \nThe first real paper was made in ....... \nChina. \nEgypt. \nFrance. \nSamarkand. \nتم صنع أول ورقة حقيقية في \nالصين .  \nمصر.  \nفرنسا.  \nسمرقند.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "Who introduced the paper-making process to Europe?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 450,
+      "sourceLine": 32,
+      "sourcePages": [
+        450,
+        451
+      ],
+      "rawBlock": "Who introduced the paper-making process to Europe? \nTs'ailun. \nChinese traders. \nthe Arabs. \nthe Spanish. \nمن الذي قدم عملية صناعة الورق إلى أوروبا؟ \nتسايلون.\n450 \nالتجار الصينيون \nالعرب. \nالإسبانية.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "Which component is necessary for making both paper and papyrus?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 451,
+      "sourceLine": 8,
+      "sourcePages": [
+        451
+      ],
+      "rawBlock": "Which component is necessary for making both paper and papyrus? \ntree bark. \ntree wood. \nplant starch. \nfibrous material. \nما هو المكون الضروري لصنع كل من الورق والبردي؟ \nلحاء الشجر.  \nخشب الشجرة.  \nنشا النبات.  \nمادة ليفية.  \nThe Universe الكون  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "How far is the nearest galaxy from the sun?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 451,
+      "sourceLine": 20,
+      "sourcePages": [
+        451
+      ],
+      "rawBlock": "How far is the nearest galaxy from the sun?  \n75,000 light-years  \n160,000 light-years  \n110 million light-years  \n112 million light-years \nكم تبعد أقرب مجرة عن الشمس؟  \n سنة ضوئية  75000  \n سنة ضوئية 160.000  \n سنة ضوئية مليون  110  \n سنة ضوئية  مليون  112  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What is the name of nearest large galaxy?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 451,
+      "sourceLine": 31,
+      "sourcePages": [
+        451,
+        452
+      ],
+      "rawBlock": "What is the name of nearest large galaxy?  \nMagellanic clouds  \nAndromeda  \nVirgo  \nCartwheel \nما هو اسم أقرب مجرة كبيرة؟  \nغيوم ماجلان  \nأندروميدا  \nبُرْجُ العَذْراء  \nكارتوييل\n451 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "How wide is the Virgo Supercluster?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 452,
+      "sourceLine": 3,
+      "sourcePages": [
+        452
+      ],
+      "rawBlock": "How wide is the Virgo Supercluster?  \n175,000 light-years  \n160,000 light-years  \n110 million light-years  \n75,000 light-years \nما هو عرض العنقود الفائق من برج العذراء؟  \nEarthquakes  الزلازل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 452,
+      "sourceLine": 10,
+      "sourcePages": [
+        452
+      ],
+      "rawBlock": "What is the writer's main purpose? \nto entertain \nto argue \nto explain \nto convince \nما هو الهدف الرئيسي للكاتب؟  \nأن ترفه  \nليجادل  \nلشرح \nلإقناع  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 452,
+      "sourceLine": 22,
+      "sourcePages": [
+        452
+      ],
+      "rawBlock": "What is one important idea that the writer mentions? \nthat earthquakes happen in all oceans. \nthat energy in the earth causes earthquakes. \nthat land earthquakes are called Rings of Fire \nthat earthquakes are the worst natural disasters. \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب؟  \nأن الزلازل تحدث في جميع المحيطات  \nأن الطاقة في الأرض تسبب الزلازل  \nأن الزلازل الأرضية تسمى حلقات النار  \nأن الزلازل هي أسوأ الكوارث الطبيعية  \nBrand  علامة تجارية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "Which of the following statements about \"performance\" does Paragraph (1) support?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 452,
+      "sourceLine": 36,
+      "sourcePages": [
+        452,
+        453
+      ],
+      "rawBlock": "Which of the following statements about \"performance\" does Paragraph (1) support? \nIt's one of the product benefits. \nIt's what the business is about. \nIt's about the user's personality.\n452 \nIt's one of the product attributes. \nأي من العبارات التالية حول \"الأداء\" تدعمه الفقرة1)؟  \nإنها إحدى فوائد المنتج  \nهذا ما يدور حوله العمل  \nيتعلق الأمر بشخصية المستخدم  \nإنها إحدى سمات المنتج  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "Which of the following statements about \"brand\" does Paragraph (2) support?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 453,
+      "sourceLine": 10,
+      "sourcePages": [
+        453
+      ],
+      "rawBlock": "Which of the following statements about \"brand\" does Paragraph (2) support? \nAll customers have brand loyalty. \nBrand preference means brand equity. \nBrand loyalty helps increase the market share. \nCustomers all understand brand in the same way. \nأي من العبارات التالية حول \"العلامة التجارية\" تدعمه الفقرة2)؟ \nجميع العملاء لديهم ولاء للعلامة التجارية.  \nتفضيل العلامة التجارية يعني ملكية العلامة التجارية.  \nيساعد الولاء للعلامة التجارية على زيادة حصة السوق.  \nيفهم جميع العملاء العلامة التجارية بنفس الطريقة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "Which of the following statements about a strong brand does Paragraph (1) support?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 453,
+      "sourceLine": 23,
+      "sourcePages": [
+        453
+      ],
+      "rawBlock": "Which of the following statements about a strong brand does Paragraph (1) support? \nIt must be safe. \nIt must attract everyone. \nIt must be successful in the market. \nIt must create an emotional connection. \nأي من العبارات التالية حول علامة تجارية قوية تدعمها الفقرة1)؟ \nيجب أن تكون آمنة.  \nيجب أن يجذب الجميع.  \nيجب أن تكون ناجحة في السوق.  \nيجب أن تخلق اتصالاً عاطفيًا.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 453,
+      "sourceLine": 36,
+      "sourcePages": [
+        453,
+        454
+      ],
+      "rawBlock": "Which sentence gives the main idea of Paragraph (2)? \nCustomers have varying levels of perceptions of brand. \nBrand awareness is when customers know what the brand is. \nThis all culminates in increasing market share. \nBrand loyalty translates into brand equity or a value assigned to a brand.\n453 \nما الجملة التي تعطي الفكرة الرئيسية للفقرة2)؟ \nالعملاء لديهم مستويات متفاوتة من التصورات عن العلامة التجارية.  \nالوعي بالعلامة التجارية هو عندما يعرف العملاء ماهية العلامة التجارية.  \nكل هذا يتوج في زيادة حصتها في السوق.  \nيُترجم الولاء للعلامة التجارية إلى حقوق ملكية للعلامة التجارية أو قيمة مخصصة للعلامة التجارية.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "What is the main idea in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 454,
+      "sourceLine": 11,
+      "sourcePages": [
+        454
+      ],
+      "rawBlock": "What is the main idea in the passage? \nA brand is all about communication. \nA brand must only focus on image benefits. \nA brand can only be successful if the customer only chooses it over other brands. \nA brand is important because it makes the customer know the importance of a certain business. \nما هي الفكرة الرئيسية في المقطع؟ \nالعلامة التجارية هي كل شيء عن التواصل.  \nيجب أن تركز العلامة التجارية فقط على مزايا الصورة.  \nلا يمكن أن تنجح العلامة التجارية إلا إذا اختارها العميل فقط على العلامات التجارية الأخرى.  \nالعلامة التجارية مهمة لأنها تجعل العميل يعرف أهمية عمل معين.  \nPlants  النباتات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "What is one important idea related to plants that the writer mentions in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 454,
+      "sourceLine": 26,
+      "sourcePages": [
+        454
+      ],
+      "rawBlock": "What is one important idea related to plants that the writer mentions in Paragraph (2)? \nPlants have different sizes. \nPlants are useful for life. \nWater lilies grow in water. \nPlants grow in different places. \nما هي إحدى الأفكار المهمة المتعلقة بالنباتات التي ذكرها الكاتب في الفقرة2)؟ \nالنباتات لها أحجام مختلفة.  \nالنباتات مفيدة للحياة.  \nتنمو زنابق الماء في الماء.  \nتنمو النباتات في أماكن مختلفة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What is one important idea related to plants that the writer mentions in Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 454,
+      "sourceLine": 39,
+      "sourcePages": [
+        454,
+        455
+      ],
+      "rawBlock": "What is one important idea related to plants that the writer mentions in Paragraph (4)?\n454 \nPlants are used for decoration. \nPlants provide food and oxygen. \nPlants are useful in several ways. \nPlants are used to make fibres. \nما هي إحدى الأفكار المهمة المتعلقة بالنباتات التي ذكرها الكاتب في الفقرة4)؟ \nتستخدم النباتات للزينة.  \nتوفر النباتات الغذاء والأكسجين.  \nالنباتات مفيدة بعدة طرق.  \nتستخدم النباتات لصنع الألياف.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What are lotus plants an example of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 455,
+      "sourceLine": 12,
+      "sourcePages": [
+        455
+      ],
+      "rawBlock": "What are lotus plants an example of? \nPlants that grow in soil \nPlants that grow in water \nPlants that grow on hard surfaces \nPlants that produce paper and fibres \nما هي نباتات اللوتس مثالا على؟ \nالنباتات التي تنمو في التربة  \nالنباتات التي تنمو في الماء  \nنباتات تنمو على الأسطح الصلبة  \nنباتات تنتج الورق والألياف  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 455,
+      "sourceLine": 23,
+      "sourcePages": [
+        455
+      ],
+      "rawBlock": "What is the main topic of the passage? \nthe importance of plants \nhow to grow plants at home \nthe use of plants in decoration \nhow to grow plants around cities \nما هو الموضوع الرئيسي للمقطع؟ \nأهمية النباتات  \nكيفية زراعة النباتات في المنزل \nاستخدام النباتات في الزخرفة \nكيفية زراعة النباتات حول المدن \nOverfishing the Seas  الصيد الجائر في البحار  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What does the passage conclude about the world's fish stock?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 455,
+      "sourceLine": 36,
+      "sourcePages": [
+        455,
+        456
+      ],
+      "rawBlock": "What does the passage conclude about the world's fish stock? \nTwenty percent less fish are being caught. \nFish stock is stabilizing around the world. \nIt is overused or completely exhausted. \nFish stock is about to recover.\n455 \nماذا يخلص المقطع حول مخزون العالم من الأسماك؟ \nيتم اصطياد أسماك أقل بنسبة عشرين في المائة.  \nالمخزون السمكي آخذ في الاستقرار في جميع أنحاء العالم.  \nيتم استخدامه بشكل مفرط أو منهك تمامًا.  \nمخزون السمك على وشك التعافي.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "How can countries stabilize their fish stocks?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 456,
+      "sourceLine": 8,
+      "sourcePages": [
+        456
+      ],
+      "rawBlock": "How can countries stabilize their fish stocks? \ndecrease the number of fishing vessels with motors. \nfish in different locations \ndecrease the number of fishing vessels in Asia. \ncreate stringent regulations. \nكيف يمكن للبلدان أن تعمل على استقرار مخزونها السمكي؟ \nتقليل عدد سفن الصيد ذات المحركات.  \nالأسماك في مواقع مختلفة  \nتقليل عدد سفن الصيد في آسيا.  \nوضع لوائح صارمة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the term \"however\" in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 456,
+      "sourceLine": 20,
+      "sourcePages": [
+        456
+      ],
+      "rawBlock": "Why does the writer use the term \"however\" in Paragraph (3)? \nto show growth in number of fishing boats was different in different parts of the world. \nto show that the number of vessels and number of fish are similar. \nto show the number of boats is because of the number of fish. \nto show why the number of boats has increased. \nلماذا يستخدم الكاتب مصطلح \"ولكن\" في الفقرة3)؟ \nلإظهار النمو في عدد قوارب الصيد كان مختلفًا في أجزاء مختلفة من العالم.  \nلتوضيح أن عدد السفن وعدد الأسماك متشابه.  \nإظهار عدد القوارب بسبب عدد الأسماك.  \nلتوضيح سبب زيادة عدد القوارب.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "Which word can we use to replace the word \"stabilized\" in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 456,
+      "sourceLine": 32,
+      "sourcePages": [
+        456,
+        457
+      ],
+      "rawBlock": "Which word can we use to replace the word \"stabilized\" in Paragraph (3)? \nchanged \npreserved \nreplenished \ndepleted \nما هي الكلمة التي يمكننا استخدامها لتحل محل كلمة \"استقرت\" في الفقرة3)؟ \nتغير  \nمحفوظة  \nمتجدد\n456 \nمستنفد ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "What does the writer think about the stringent regulations some countries employ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 457,
+      "sourceLine": 4,
+      "sourcePages": [
+        457
+      ],
+      "rawBlock": "What does the writer think about the stringent regulations some countries employ? \nThey are increasing over time. \nTheir effect is minimal on vessel. \nThey are having a positive effect on fish stocks. \nThey work for some countries. \nما رأي الكاتب في اللوائح الصارمة التي تطبقها بعض الدول؟ \nإنها تتزايد بمرور الوقت.  \nتأثيرها ضئيل على السفينة.  \nلديهم تأثير إيجابي على مخزون الأسماك.  \nانهم يعملون لبعض البلدان.  \nVitamin D   فيتامين د  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What causes Western Europeans to have little vitamin D?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 457,
+      "sourceLine": 16,
+      "sourcePages": [
+        457
+      ],
+      "rawBlock": "What causes Western Europeans to have little vitamin D?  \nlighter skin  \nunhealthy diet  \nindoor lifestyles  \nNOT enough sunlight \nما الذي يجعل الأوروبيين الغربيين لديهم القليل من فيتامين د؟ \nبشرة فاتحة  \nنظام غذائي غير صحي  \nأنماط الحياة الداخلية  \nضوء الشمس غير كافي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What can happen when your body DOESN’T get enough vitamin D?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 457,
+      "sourceLine": 29,
+      "sourcePages": [
+        457,
+        458
+      ],
+      "rawBlock": "What can happen when your body DOESN’T get enough vitamin D?  \nskin problems  \nweaker bones  \nweight problems  \nold people falling \nماذا يمكن أن يحدث عندما لا يحصل جسمك على ما يكفي من فيتامين د؟ \nمشاكل بشرة  \nضعف العظام  \nمشاكل الوزن  \nكبار السن يسقطون\n457 \nThe word exposed in paragraph (1) is closed in meaning to ............  \nshown  \nclosed  \nconnected  \nresponds \nكلمة معروضة في الفقرة1) مغلقة بمعنى \nمبين  \nمغلق \nمتصل  \nيستجيب  \nGraph رسم بياني ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "According to the graph, which airline served the fewest number of passengers?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 458,
+      "sourceLine": 16,
+      "sourcePages": [
+        458,
+        459,
+        460
+      ],
+      "rawBlock": "According to the graph, which airline served the fewest number of passengers? \nAir Canada \nAir China \neasyJet \nLufthansa \nحسب الرسم البياني ما هي شركة الطيران التي خدمت أقل عدد منالركاب؟  \nالطيران الكندي  \nالطيران الصيني  \nايزي جيت  \nلوفتهانزا  \nVelocity  سرعة  \nThe word represented in the Paragraph (2) is closest in meaning to  \nillustrated \nstated \nanalyzed \nincreased \nكلمة يمثل في الفقرة2) هي الأقرب من حيث المعنى \nيتضح  \nمعلن  \nتحليلها\n458 \nزيادة \nThe word specified in Paragraph (2) is closest in meaning to \nchanged \naffected \nexplained \ndecreased \nكلمة محددة في الفقرة2) هي الأقرب من حيث المعنى \nتغير  \nمتأثر  \nمشروحة  \nانخفض  \nSolids, Liquids and Gases المواد الصلبة والسوائل والغازات  \nThe word exhibit in Paragraph (2) is closest in meaning to \ndisplay \nview \nshare \ninclude \nكلمة معروضة في الفقرة2) هي الأقرب من حيث المعنى \nعرض  \nمنظر  \nيشارك  \nيشمل  \nThe word accommodates in Paragraph (2) is closest in meaning to \nattaches \nallows \nfits \ndivides \nكلمة مناسبة في الفقرة2) هي الأقرب من حيث المعنى \nيعلق  \nيسمح  \nتناسبها  \nيقسم\n459 \nThe word principle in Paragraph (1) is closest in meaning to \nprimary \nlarge \nweak \nwhole \nكلمة رئيسي في الفقرة1) هو الأقرب من حيث المعنى \nأساسي  \nكبير  \nضعيف  \nجميع  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "What are the economics of meat? ما هي اقتصاديات اللحوم؟",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 460,
+      "sourceLine": 17,
+      "sourcePages": [
+        460
+      ],
+      "rawBlock": "What are the economics of meat? ما هي اقتصاديات اللحوم؟      ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What two words does the writer use to talk about 14th century industry?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 460,
+      "sourceLine": 18,
+      "sourcePages": [
+        460
+      ],
+      "rawBlock": "What two words does the writer use to talk about 14th century industry?  \nfarming and chefs  \nagriculture and retailers  \nretailers and chefs  \nfarming and agriculture \nما كلمتان يستخدمهما الكاتب للحديث عن صناعة القرن الرابع عشر؟ \nالزراعة والطهاة  \nالزراعة وتجار التجزئة  \nتجار التجزئة والطهاة  \nالزراعة والزراعة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "Which of the following is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 460,
+      "sourceLine": 31,
+      "sourcePages": [
+        460,
+        461
+      ],
+      "rawBlock": "Which of the following is an opinion?  \nMeat production will continue to grow.  \nFew people work farming in the UK.  \nThe meat industry is worth closer to $174 million.  \nIn the UK, 3,8 million are employed and 27 billion is made by the food industry. \nأي مما يلي رأي؟ \nسيستمر إنتاج اللحوم في النمو.  \nقلة من الناس يعملون في الزراعة في المملكة المتحدة.  \nتبلغ قيمة صناعة اللحوم ما يقرب من  174 مليون دولار\n460 \nفي المملكة المتحدة ، يعمل3،8 مليون و27 مليار في صناعة المواد الغذائية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "How is the writer’s view on eating meat different from some nutritionists’ view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 461,
+      "sourceLine": 6,
+      "sourcePages": [
+        461
+      ],
+      "rawBlock": "How is the writer’s view on eating meat different from some nutritionists’ view?  \nHe believed meat is not essential.  \nHe believes humans cannot function at all without meat.  \nHe believes meat negatively affects human health.  \nHe believes meat is important for human development. \nكيف تختلف وجهة نظر الكاتب في تناول اللحوم عن وجهة نظر بعض خبراء التغذية؟ \nكان يعتقد أن اللحوم ليست ضرورية.  \nيعتقد أن البشر لا يستطيعون العمل على الإطلاق بدون لحم.  \nيعتقد أن اللحوم تؤثر سلبًا على صحة الإنسان.  \nيعتقد أن اللحوم مهمة للتنمية البشرية.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "What can we understand about modern farming from Paragraphs (6) and (7)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 461,
+      "sourceLine": 18,
+      "sourcePages": [
+        461
+      ],
+      "rawBlock": "What can we understand about modern farming from Paragraphs (6) and (7)?  \nMore can be produced for less effort.  \nIt is part of the industrial revolution.  \nProfits for farmers have been falling.  \nAll animals are now kept inside. \nماذا يمكن أن نفهم عن الزراعة الحديثة من الفقرتين6) و7)؟ \nيمكن إنتاج المزيد بجهد أقل.  \nإنه جزء من الثورة الصناعية.  \nانخفضت أرباح المزارعين.  \nيتم الآن الاحتفاظ بجميع الحيوانات بالداخل.  \nمناخ بعض مناطق السعودية \nStrong winds will raise dust and sand, reducing visibility over the northern and central Kingdom between Makkah and \nMadinah, with the possibility of increasing temperatures over these regions. Suspended haze will spread over Qassim, \nHail and northern parts of the Riyadh region, limiting visibility and making driving hazardous. Parts of the central and \neastern Kingdom will be partly cloudy, with chances of rain. Storm clouds may form over the southwestern and \nWestern highlands, including Abha, Baha and Taif. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "Which parts of the Kingdom may receive rain?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 461,
+      "sourceLine": 37,
+      "sourcePages": [
+        461,
+        462
+      ],
+      "rawBlock": "Which parts of the Kingdom may receive rain? \nthe central and eastern parts. \nthe central and northern parts. \nthe northern and eastern parts. \nthe northern and western parts.\n461 \nفي أي أجزاء من المملكة يمكن أن تهطل الأمطار؟ \nالأجزاء الوسطى والشرقية.  \nالأجزاء الوسطى والشمالية.  \nالأجزاء الشمالية والشرقية.  \nالأجزاء الشمالية والغربية.  \nThe forecast for Makkah and Medina is ...... \nclear and sunny. \nstormy and cool. \nrainy and cool. \ndusty and hot. \nتوقعات مكة المكرمة والمدينة المنورة هي \nصافٍ ومشمس.  \nعاصف وبارد.  \nممطر وبارد.  \nمتربة وساخنة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "Which city may expect to see storm clouds?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 462,
+      "sourceLine": 19,
+      "sourcePages": [
+        462
+      ],
+      "rawBlock": "Which city may expect to see storm clouds? \nMakkah. \nRiyadh. \nHail. \nBaha. \nأي مدينة قد تتوقع رؤية غيوم العاصفة؟ \nمكة.  \nالرياض.  \nحائل.  \nالباحة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-36-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "Where will it probably be difficult to see clearly while driving?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 462,
+      "sourceLine": 30,
+      "sourcePages": [
+        462
+      ],
+      "rawBlock": "Where will it probably be difficult to see clearly while driving? \nTaif. \nQassim. \nthe western highlands. \nthe eastern part of the Kingdom. \nأين سيكون من الصعب على الأرجح الرؤية بوضوح أثناء القيادة؟ \nالطائف.  \nالقصيم .  \nالمرتفعات الغربية.  \nالجزء الشرقي من المملكة.",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

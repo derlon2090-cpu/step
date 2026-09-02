@@ -1,0 +1,557 @@
+{
+  "readingId": "reading-17",
+  "questions": [
+    {
+      "id": "reading-17-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "26) What is important for business to do when marketing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        187
+      ],
+      "sourceBlockIds": [
+        "page-187-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 348.56,
+        "x0": 14.16,
+        "x1": 353.75
+      }
+    },
+    {
+      "id": "reading-17-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "27) What does desires mean in paragraph 2?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        187
+      ],
+      "sourceBlockIds": [
+        "page-187-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 466.42,
+        "x0": 14.16,
+        "x1": 272.95
+      }
+    },
+    {
+      "id": "reading-17-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "28) What does the paragraph say about Covid 19 and online shopping?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        187
+      ],
+      "sourceBlockIds": [
+        "page-187-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 584.38,
+        "x0": 14.16,
+        "x1": 424.79
+      }
+    },
+    {
+      "id": "reading-17-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "29) What % did online sales in the UK increase to in February of 2020?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        187
+      ],
+      "sourceBlockIds": [
+        "page-187-line-35"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 702.37,
+        "x0": 14.16,
+        "x1": 420.22
+      }
+    },
+    {
+      "id": "reading-17-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "30) What does the paragraph 6 say about social media marketing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        188
+      ],
+      "sourceBlockIds": [
+        "page-188-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 398.97
+      }
+    },
+    {
+      "id": "reading-17-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "31) What is a fact according to the writer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        188
+      ],
+      "sourceBlockIds": [
+        "page-188-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 414.56,
+        "x0": 14.16,
+        "x1": 258.13
+      }
+    },
+    {
+      "id": "reading-17-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "32) What are alternate words used for illegal acts?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        188
+      ],
+      "sourceBlockIds": [
+        "page-188-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 532.54,
+        "x0": 14.16,
+        "x1": 307.06
+      }
+    },
+    {
+      "id": "reading-17-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "33) What does the writer think about the definition of crime?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        188
+      ],
+      "sourceBlockIds": [
+        "page-188-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 650.53,
+        "x0": 14.16,
+        "x1": 370.78
+      }
+    },
+    {
+      "id": "reading-17-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "34) What health problem does sugar cause?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        189
+      ],
+      "sourceBlockIds": [
+        "page-189-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 153.41,
+        "x0": 14.16,
+        "x1": 269.06
+      }
+    },
+    {
+      "id": "reading-17-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "35) What does vitamin D deficiency lead to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        189
+      ],
+      "sourceBlockIds": [
+        "page-189-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 442.78,
+        "x0": 14.16,
+        "x1": 270.05
+      }
+    },
+    {
+      "id": "reading-17-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "36) Why do countries in the Antarctica have a vitamin D deficiency?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        189
+      ],
+      "sourceBlockIds": [
+        "page-189-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 560.74,
+        "x0": 14.16,
+        "x1": 407.15
+      }
+    },
+    {
+      "id": "reading-17-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "37) What does paragraph 2 say about livestock farming regarding the environment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        190
+      ],
+      "sourceBlockIds": [
+        "page-190-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 441.22,
+        "x0": 14.16,
+        "x1": 500.76
+      }
+    },
+    {
+      "id": "reading-17-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "38) What do paragraphs 2 and 3 say about eating too much red meat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        190
+      ],
+      "sourceBlockIds": [
+        "page-190-line-31"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 559.06,
+        "x0": 14.16,
+        "x1": 420.65
+      }
+    },
+    {
+      "id": "reading-17-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "39) What does paragraph 5 say about livestock Farming?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        190
+      ],
+      "sourceBlockIds": [
+        "page-190-line-36"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 677.05,
+        "x0": 14.16,
+        "x1": 342.93
+      }
+    },
+    {
+      "id": "reading-17-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "40) What does paragraph 6 say about livestock farming affecting poor?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        191
+      ],
+      "sourceBlockIds": [
+        "page-191-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 425.88
+      }
+    },
+    {
+      "id": "reading-17-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "what is really in it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        191
+      ],
+      "sourceBlockIds": [
+        "page-191-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 297.29,
+        "x0": 14.16,
+        "x1": 560.34
+      }
+    },
+    {
+      "id": "reading-17-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "44) According to paragraph (3), where did most of the plants mentioned in the passage originate?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        192
+      ],
+      "sourceBlockIds": [
+        "page-192-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 580.73
+      }
+    },
+    {
+      "id": "reading-17-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "45) How does the author use a discussion of plants?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        192
+      ],
+      "sourceBlockIds": [
+        "page-192-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 208.13,
+        "x0": 14.16,
+        "x1": 315.22
+      }
+    },
+    {
+      "id": "reading-17-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "49) What is the best title for this passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        193
+      ],
+      "sourceBlockIds": [
+        "page-193-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 261.56,
+        "x0": 14.16,
+        "x1": 257.91
+      }
+    },
+    {
+      "id": "reading-17-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "53) What does the expression 'fight or flight response' used in paragraph (2) mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        194
+      ],
+      "sourceBlockIds": [
+        "page-194-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 311.96,
+        "x0": 14.16,
+        "x1": 498.13
+      }
+    },
+    {
+      "id": "reading-17-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "54) According to Paragraph (3), what is the best advice in the event of an earthquake?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        194
+      ],
+      "sourceBlockIds": [
+        "page-194-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 429.94,
+        "x0": 14.16,
+        "x1": 513.48
+      }
+    },
+    {
+      "id": "reading-17-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "56) According to paragraph (5), what is TRUE about a 'fight or flight' situation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        194
+      ],
+      "sourceBlockIds": [
+        "page-194-line-31"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 665.77,
+        "x0": 14.16,
+        "x1": 468.27
+      }
+    },
+    {
+      "id": "reading-17-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "57) Why does the author use the pronoun \"we\" throughout the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        195
+      ],
+      "sourceBlockIds": [
+        "page-195-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 438.66
+      }
+    }
+  ]
+}

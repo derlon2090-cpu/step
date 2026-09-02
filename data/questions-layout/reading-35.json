@@ -1,0 +1,701 @@
+{
+  "readingId": "reading-35",
+  "questions": [
+    {
+      "id": "reading-35-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "Who introduced the paper-making process to Europe?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        434
+      ],
+      "sourceBlockIds": [
+        "page-434-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 607.49,
+        "x0": 14.16,
+        "x1": 350.51
+      }
+    },
+    {
+      "id": "reading-35-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "Which component is necessary for making both paper and papyrus?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        435
+      ],
+      "sourceBlockIds": [
+        "page-435-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 88.17,
+        "x0": 14.16,
+        "x1": 436.67
+      }
+    },
+    {
+      "id": "reading-35-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "When did they discover gold in California?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        435
+      ],
+      "sourceBlockIds": [
+        "page-435-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 368.04,
+        "x0": 14.16,
+        "x1": 275.6
+      }
+    },
+    {
+      "id": "reading-35-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "How long did a stagecoach take to travel from New York to California?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        435
+      ],
+      "sourceBlockIds": [
+        "page-435-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 497.66,
+        "x0": 14.16,
+        "x1": 448.99
+      }
+    },
+    {
+      "id": "reading-35-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of these was the surname of a famous Pony Express rider?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        435
+      ],
+      "sourceBlockIds": [
+        "page-435-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 701.33,
+        "x0": 14.16,
+        "x1": 424.18
+      }
+    },
+    {
+      "id": "reading-35-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the writer’s main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        436
+      ],
+      "sourceBlockIds": [
+        "page-436-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 278.76,
+        "x0": 14.16,
+        "x1": 228.97
+      }
+    },
+    {
+      "id": "reading-35-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea that the writer mention?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        436
+      ],
+      "sourceBlockIds": [
+        "page-436-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 500.9,
+        "x0": 14.16,
+        "x1": 330.93
+      }
+    },
+    {
+      "id": "reading-35-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important point that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        436
+      ],
+      "sourceBlockIds": [
+        "page-436-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 704.57,
+        "x0": 14.16,
+        "x1": 341.85
+      }
+    },
+    {
+      "id": "reading-35-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea related to “freeware” that the writer mentions in paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        437
+      ],
+      "sourceBlockIds": [
+        "page-437-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 350.4,
+        "x0": 14.16,
+        "x1": 571.27
+      }
+    },
+    {
+      "id": "reading-35-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "paragraphs (1) to (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        437
+      ],
+      "sourceBlockIds": [
+        "page-437-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 572.66,
+        "x0": 14.16,
+        "x1": 150.31
+      }
+    },
+    {
+      "id": "reading-35-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        438
+      ],
+      "sourceBlockIds": [
+        "page-438-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.16,
+        "x1": 255.49
+      }
+    },
+    {
+      "id": "reading-35-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the passage say about the New Deal?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        438
+      ],
+      "sourceBlockIds": [
+        "page-438-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 350.64,
+        "x0": 14.16,
+        "x1": 321.57
+      }
+    },
+    {
+      "id": "reading-35-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "Who provides money to disables people who are unable to work?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        438
+      ],
+      "sourceBlockIds": [
+        "page-438-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 591.38,
+        "x0": 14.16,
+        "x1": 418.86
+      }
+    },
+    {
+      "id": "reading-35-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "Which word can replace the word “so” in paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        439
+      ],
+      "sourceBlockIds": [
+        "page-439-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 88.17,
+        "x0": 14.16,
+        "x1": 360.27
+      }
+    },
+    {
+      "id": "reading-35-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the phrase “for example” in paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        439
+      ],
+      "sourceBlockIds": [
+        "page-439-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 291.84,
+        "x0": 14.16,
+        "x1": 431.89
+      }
+    },
+    {
+      "id": "reading-35-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer think about the FDIC?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        439
+      ],
+      "sourceBlockIds": [
+        "page-439-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 495.5,
+        "x0": 14.16,
+        "x1": 282.62
+      }
+    },
+    {
+      "id": "reading-35-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What process releases energy in the cell?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        440
+      ],
+      "sourceBlockIds": [
+        "page-440-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 102.09,
+        "x0": 14.16,
+        "x1": 273.93
+      }
+    },
+    {
+      "id": "reading-35-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "What is an important effect of heat increase in “cold-blooded” animals?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        440
+      ],
+      "sourceBlockIds": [
+        "page-440-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 305.76,
+        "x0": 14.16,
+        "x1": 452.55
+      }
+    },
+    {
+      "id": "reading-35-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "Which country had the highest percentage of electric car sales/registration in 2018?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        441
+      ],
+      "sourceBlockIds": [
+        "page-441-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 317.64,
+        "x0": 14.16,
+        "x1": 530.73
+      }
+    },
+    {
+      "id": "reading-35-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "Which country sold the highest number of electric cars in 2018?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        441
+      ],
+      "sourceBlockIds": [
+        "page-441-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 521.3,
+        "x0": 14.16,
+        "x1": 407.8
+      }
+    },
+    {
+      "id": "reading-35-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "What idea do the words \"susceptible to automation\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        444
+      ],
+      "sourceBlockIds": [
+        "page-444-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 102.09,
+        "x0": 14.16,
+        "x1": 385.01
+      }
+    },
+    {
+      "id": "reading-35-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "What idea do the words \"administrative support\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        444
+      ],
+      "sourceBlockIds": [
+        "page-444-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 305.76,
+        "x0": 14.16,
+        "x1": 363.41
+      }
+    },
+    {
+      "id": "reading-35-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        444
+      ],
+      "sourceBlockIds": [
+        "page-444-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 509.42,
+        "x0": 14.16,
+        "x1": 240.6
+      }
+    },
+    {
+      "id": "reading-35-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following is an opinion in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        444
+      ],
+      "sourceBlockIds": [
+        "page-444-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 713.09,
+        "x0": 14.16,
+        "x1": 335.47
+      }
+    },
+    {
+      "id": "reading-35-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from Paragraphs (4) and (5) about automation around the world?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        445
+      ],
+      "sourceBlockIds": [
+        "page-445-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 199.17,
+        "x0": 14.16,
+        "x1": 574.44
+      }
+    },
+    {
+      "id": "reading-35-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "research?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        445
+      ],
+      "sourceBlockIds": [
+        "page-445-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 421.44,
+        "x0": 14.16,
+        "x1": 76.54
+      }
+    },
+    {
+      "id": "reading-35-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "Which parts of the Kingdom may receive rain?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        446
+      ],
+      "sourceBlockIds": [
+        "page-446-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 196.53,
+        "x0": 14.16,
+        "x1": 300.62
+      }
+    },
+    {
+      "id": "reading-35-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "Which city may expect to see storm clouds?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        446
+      ],
+      "sourceBlockIds": [
+        "page-446-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 603.86,
+        "x0": 14.16,
+        "x1": 286.47
+      }
+    },
+    {
+      "id": "reading-35-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "Where will it probably be difficult to see clearly while driving?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        447
+      ],
+      "sourceBlockIds": [
+        "page-447-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 88.17,
+        "x0": 14.16,
+        "x1": 389.08
+      }
+    }
+  ]
+}

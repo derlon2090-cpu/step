@@ -1,0 +1,791 @@
+{
+  "readingId": "reading-16",
+  "sourceQuestionBlocks": 11,
+  "questions": [
+    {
+      "id": "reading-16-q01",
+      "order": 1,
+      "questionNumber": 25,
+      "questionText": "25. Which year was called \"the year without a summer\"?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1815"
+        },
+        {
+          "label": "B",
+          "text": "1816"
+        },
+        {
+          "label": "C",
+          "text": "1825"
+        },
+        {
+          "label": "D",
+          "text": "1883"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 174,
+      "sourceLine": 42,
+      "sourcePages": [
+        174,
+        175
+      ],
+      "rawBlock": "25. Which year was called \"the year without a summer\"? \n(A) 1815  \n(B) 1816  \n(C) 1825  \n(D) 1883\n174 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q02",
+      "order": 2,
+      "questionNumber": 26,
+      "questionText": "26. Which Island was formed by volcanoes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hawaii"
+        },
+        {
+          "label": "B",
+          "text": "Ireland"
+        },
+        {
+          "label": "C",
+          "text": "Iceland"
+        },
+        {
+          "label": "D",
+          "text": "Indonesia"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 175,
+      "sourceLine": 3,
+      "sourcePages": [
+        175
+      ],
+      "rawBlock": "26. Which Island was formed by volcanoes? \n(A) Hawaii  \n(B) Ireland  \n(C) Iceland  \n(D) Indonesia ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q03",
+      "order": 3,
+      "questionNumber": 27,
+      "questionText": "27. What is lava?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 175,
+      "sourceLine": 9,
+      "sourcePages": [
+        175,
+        176
+      ],
+      "rawBlock": "27. What is lava? \n(A) ash  \n(B) gas  \n(C) magma  \n(D) dust \nAdvertising دعاية \n1) Whenever people give information to the public about an event, a product, or a service, they are using advertising. A piece \nof advertising is called an advertisement, or ad. Ads appear almost everywhere. They are found in newspapers and magazines. \nThey appear on television, radio, and the Internet. Ads are also posted as signs in all kinds of public places.  \n(2) The goal of most advertising is to make the public want to buy whatever is being advertised. People also use advertising to \nmake the public form opinions about things. For example, an ad could try to make the public believe that a company treats its \nworkers well.  \n(3) When advertisers want many people to see or hear their ads, they pay the media to have the ads published or broadcast. \nNewspapers and magazines publish, or print ads between their articles. Television and radio network broadcast, or play ads \nduring their programs. Television and radio ads are also called commercials. Web sites, buses, movie theaters, and many other \nplaces also display ads in exchange for money.  \n(4) Signs were the fast form of advertising. Even thousands of years ago people created hand-lettered signs to advertise their \ngoods and services. The invention of the printing press in the 1400s expanded this type of advertising. Merchants could print \ndozens of the same posters and fliers to advertise what they were selling. In the 1600s and 1700s newspapers appeared in \nEurope. The Americas and Japan. Advertising then became even more widespread. \n28. What is one important idea related to advertisements that the writer mentions in Paragraph \n2? \n(A) that they are everywhere  \n(B) that they affect our views  \n(C) that they give information \n(D) that they help businesses\n175 \n29. What is one important idea related to advertisements that the writer mentions in paragraph \n(1)? \n(A) that they existed thousands of years ago  \n(B) that they make us want to buy things  \n(C) that they may change our views  \n(D) that they are found in all places \n30. What does the writer want to show when he mentions that an ad could make us believe that \ncompany treats its workers well? \n(A) that ads can benefit businesses  \n(B) that ads can convince us to buy  \n(C) that ads can shape our opinions  \n(D) that ads can give us information ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-16-q04",
+      "order": 4,
+      "questionNumber": 31,
+      "questionText": "31. What is the main topic of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the goal of advertising"
+        },
+        {
+          "label": "B",
+          "text": "the harms of advertising"
+        },
+        {
+          "label": "C",
+          "text": "the history of advertising"
+        },
+        {
+          "label": "D",
+          "text": "the importance of advertising"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 176,
+      "sourceLine": 16,
+      "sourcePages": [
+        176,
+        177
+      ],
+      "rawBlock": "31. What is the main topic of the passage?  \n(A) the goal of advertising  \n(B) the harms of advertising  \n(C) the history of advertising \n(D) the importance of advertising \nRecycling إعادة التدوير \n1) As minerals and other resources become scarcer, they also become more expensive. It then pays to use them more than \nonce. The recycling of materials may also reduce the amount of energy used in manufacturing. In turn, this helps to conserve \nfuels and reduce pollution.  \n(2) For example, producing aluminum alloys from scrap uses only 5% of the energy that would be needed to make them from \naluminum ores. In 2000, Europe recycled 64.396 of the aluminum in waste. Germany and Finland do really well, partly because \nthey have a deposit scheme on cans: they recycle between 95 and 96% of their aluminum waste.  \n(3) About 60% of the lead used in Britain is recycled. This seems quite good until you realise that it also means that 40 of this \npoisonous substance enters the environment.  \n(4) Manufacturing glass bottles uses about three times more energy than if they were collected, sorted, cleaned and reused. \nRecycling the glass from bottles does not save energy but does reduce the demand for sand used in glass manicure. In 2007, \n57% of glass containers were recycled in Britain.  \n(5) Polythene waste is now also recycled. The plastic is used to make items such as car seat covers, sports shoes, hi-tech \nheadphones and even bridges.  \n(6) Waste paper can be pulped and used again, mainly for making paper and cardboard. Newspapers are de-inked and used \nagain for newsprint. One ton of waste paper is equal to perhaps 17 trees (Paper is made from wood-pp.) So collecting waste \npaper may help to cut a country’s import bill for timber and spare a few more hectares of this from the spread of commercial \nforestry.\n176 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q05",
+      "order": 5,
+      "questionNumber": 32,
+      "questionText": "32. Why is Finland and Germany's recycling program successful?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They reduced commercial forestry."
+        },
+        {
+          "label": "B",
+          "text": "They sort, clean, and reuse glass."
+        },
+        {
+          "label": "C",
+          "text": "They have a deposit system."
+        },
+        {
+          "label": "D",
+          "text": "They collect waste paper."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 177,
+      "sourceLine": 2,
+      "sourcePages": [
+        177
+      ],
+      "rawBlock": "32. Why is Finland and Germany's recycling program successful? \n(A) They reduced commercial forestry.  \n(B) They sort, clean, and reuse glass.  \n(C) They have a deposit system.  \n(D) They collect waste paper.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q06",
+      "order": 6,
+      "questionNumber": 33,
+      "questionText": "33. What does the writer think about Britain's lead recycling program?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He believes lead is NOT dangerous"
+        },
+        {
+          "label": "B",
+          "text": "He believes Finland is doing better."
+        },
+        {
+          "label": "C",
+          "text": "He believes it is very successful"
+        },
+        {
+          "label": "D",
+          "text": "He believes it is NOT doing enough"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 177,
+      "sourceLine": 8,
+      "sourcePages": [
+        177
+      ],
+      "rawBlock": "33. What does the writer think about Britain's lead recycling program? \n(A) He believes lead is NOT dangerous  \n(B) He believes Finland is doing better.  \n(C) He believes it is very successful  \n(D) He believes it is NOT doing enough  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q07",
+      "order": 7,
+      "questionNumber": 34,
+      "questionText": "34. What does the passage say about recycling glass bottles?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It saves money."
+        },
+        {
+          "label": "B",
+          "text": "It saves energy."
+        },
+        {
+          "label": "C",
+          "text": "It saves sand."
+        },
+        {
+          "label": "D",
+          "text": "It saves fuel."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 177,
+      "sourceLine": 14,
+      "sourcePages": [
+        177
+      ],
+      "rawBlock": "34. What does the passage say about recycling glass bottles? \n(A) It saves money.  \n(B) It saves energy.  \n(C) It saves sand.  \n(D) It saves fuel.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q08",
+      "order": 8,
+      "questionNumber": 35,
+      "questionText": "35. Which words can we use to replace \"such as\" in Paragraph (5)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "for instance"
+        },
+        {
+          "label": "B",
+          "text": "in addition"
+        },
+        {
+          "label": "C",
+          "text": "of course"
+        },
+        {
+          "label": "D",
+          "text": "after all"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 177,
+      "sourceLine": 20,
+      "sourcePages": [
+        177
+      ],
+      "rawBlock": "35. Which words can we use to replace \"such as\" in Paragraph (5)? \n(A) for instance  \n(B) in addition \n(C) of course  \n(D) after all  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q09",
+      "order": 9,
+      "questionNumber": 36,
+      "questionText": "36. Which word can we use to replace the word \"So\" in Paragraph (6)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Also"
+        },
+        {
+          "label": "B",
+          "text": "However"
+        },
+        {
+          "label": "C",
+          "text": "Meanwhile"
+        },
+        {
+          "label": "D",
+          "text": "Therefore"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 177,
+      "sourceLine": 26,
+      "sourcePages": [
+        177,
+        178
+      ],
+      "rawBlock": "36. Which word can we use to replace the word \"So\" in Paragraph (6)? \n(A) Also  \n(B) However  \n(C) Meanwhile  \n(D) Therefore \nMalware and Viruses  البرامج الضارة والفيروسات \n1) Malware and viruses are programs that can attack digital devices such as computers, tablets, phones and others. Virus is a \nsmall program created to harm, or make trouble; by gaining access to your device and infecting, you can copy your personal \ndata or slow your device down. A virus works by attaching itself to other files.  \n(2) By combining the words \"malicious\" (meaning \"damaging\") and \"software\" we get the word \"malware\". Viruses are one \ntype of malware. Malware is made to stop your device from running property and sometimes to steal information. Your device \ncan be infected very quickly by malware. It could crash, slow down or turn back on again. Your internet connection may also \ndown as the virus or worm searches for other devices to infect, or sends your information back to person or people who \ncreated it.\n177 \n(3) Virus is a type of malware that travels through normal programs. Once your device has a virus it my pass easily and quickly \nto other files. A virus might just slow down your device or it might be so bad that you lose your applications and documents!  \n(4) Virus can travel from device to device, but is different from virus as they don't need to attach themselves to other \nprograms. Worms can copy themselves hundreds of times, so they can very quickly harm your device and other devices. A \nworm with copy itself onto your account and then send a copy to all of your email contacts. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q10",
+      "order": 10,
+      "questionNumber": 37,
+      "questionText": "37. What is the reason for a slow internet connection?",
+      "options": [
+        {
+          "label": "A",
+          "text": "worms attaching to computer programs"
+        },
+        {
+          "label": "B",
+          "text": "too many people on the internet"
+        },
+        {
+          "label": "C",
+          "text": "virus looking for other devices"
+        },
+        {
+          "label": "D",
+          "text": "worms copying themselves"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 178,
+      "sourceLine": 8,
+      "sourcePages": [
+        178
+      ],
+      "rawBlock": "37. What is the reason for a slow internet connection? \n(A) worms attaching to computer programs  \n(B) too many people on the internet  \n(C) virus looking for other devices  \n(D) worms copying themselves ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q11",
+      "order": 11,
+      "questionNumber": 38,
+      "questionText": "38. What is one negative effect of worms?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 178,
+      "sourceLine": 14,
+      "sourcePages": [
+        178,
+        179
+      ],
+      "rawBlock": "38. What is one negative effect of worms? \n(A) They delete files.  \n(B) They become malware.  \n(C) They affect email contacts.  \n(D) They attach to other programs.  \n39. The word device in Paragraph (1) is closest in meaning to ………………… \n(A) software  \n(B) program  \n(C) system  \n(D) equipment \n40. The word infect in Paragraph (2) is closest in meaning to …………………………. \n(A) damage  \n(B) improve  \n(C) cancel  \n(D) connect\n178 \nرسم بياني ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-16-q12",
+      "order": 12,
+      "questionNumber": 41,
+      "questionText": "41. What was the salary of graduates of upper secondary education in France?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4,000-$12,000"
+        },
+        {
+          "label": "B",
+          "text": "$18,000-$20,000"
+        },
+        {
+          "label": "C",
+          "text": "$20,000-$28,000"
+        },
+        {
+          "label": "D",
+          "text": "$29,000-$41,000 42."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 179,
+      "sourceLine": 21,
+      "sourcePages": [
+        179
+      ],
+      "rawBlock": "41. What was the salary of graduates of upper secondary education in France? \n(A) $4,000-$12,000  \n(B) $18,000-$20,000  \n(C) $20,000-$28,000  \n(D) $29,000-$41,000 42.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q13",
+      "order": 13,
+      "questionNumber": 42,
+      "questionText": "42. What was the typical salary of graduates of upper secondary in Ireland?",
+      "options": [
+        {
+          "label": "A",
+          "text": "more than $60,000"
+        },
+        {
+          "label": "B",
+          "text": "more than $45.000"
+        },
+        {
+          "label": "C",
+          "text": "more than $33,000"
+        },
+        {
+          "label": "D",
+          "text": "more than $29,000"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 179,
+      "sourceLine": 27,
+      "sourcePages": [
+        179,
+        180,
+        181
+      ],
+      "rawBlock": "42. What was the typical salary of graduates of upper secondary in Ireland? \n(A) more than $60,000 \n(B) more than $45.000  \n(C) more than $33,000  \n(D) more than $29,000 \nAnatomy التشريح  \n1) Anatomy is a field in the biological sciences concerned with the identification and description of the body. structures of \nliving things. Gross anatomy involves the study of major body structures by dissection and observation and in its narrowest \nsense is concerned only with the human body. \"Gross anatomy customarily refers to the study of those body structures large \nenough to be examined without the help of magnifying devices, while microscopic anatomy is concerned with the study of \nstructural units small enough to be seen only with a light microscope. Dissection is basic to all anatomical research. The fest \nrecord of its use was made by the Greeks, and Theophrastus called dissection anatomy,\" from ana termnein, meaning, \"to cut \nup\". Comparative anatomy, the other major subdivision of the field, compares S e body structures in different species of \nanimals in order to understand the adaptive changes they have undergone in the course of evolution. Grass Anatomy\n179 \n(2) This ancient discipline reached its culmination between 1500 and 1850, by which time its subject matter was firmly \nestablished. None of the world's oldest civilizations dissected a human body, which most people regarded with superstitions \nawe and associated with the spirit of the departed soul. Beliefs in life after death and a disquieting certainty concerning the \npossibility of bodily resurrection further inhibited systematic study. Nevertheless, knowledge of the body was acquired by \ntreating wounds, hiding in childbirth. and setting broken limbs. The field remained speculative rather than descriptive, though, \nuntil the achievements of the Alexandra medical school and its foremost figure, Herophilus (flourished 300 BCE), who \ndissected human cadavers and thus gave anatomy a considerable actual basis for the first time. Herophilus made many \nimportant discoveries and was followed by his younger contemporary Erasistratus, who is sometimes regarded as the founder \nof physiology. In the 2nd century CE, Greek physician Galen assembled and arranged all the discoveries of the Greek \nanatomists (scientists who study anatomy), including with them his own concepts of physiology and his discoveries in \nexperimental medicine. The many books Galen wrote became the unquestioned authority for anatomy and medicine in \nEurope because they were the only ancient Greek anatomical texts that survived the Dark Ages in The form of Arabic (and \nthen Latin) translations.  \n(3) Owing to church prohibitions against dissection, European medicine in the Middle Ages relied upon Galen's mixture of fact \nand fancy rather than on direct observation for its anatomical knowledge, though some dissections were authorized for \nteaching purposes. In the early 16th century, the artist Leonardo da Vinci undertook his own dissections and his beautiful and \naccurate anatomical drawings cleared the way for Flemish physician Andreas Vesalius to \"restore\" the science of anatomy with \nhis monumental De humani corporis fabrica libri septem (1543; \"The Seven Books on The Structure of the Human Body\"), \nwhich was the first comprehensive and illustrated textbook of atomy. As a professor at the University of Padua Vesalnis \nencouraged younger scientists to accept traditional anatomy only after verifying it themselves. and this more critical and \nquestioning attitude broke Galea's authority and placed anatomy on a farm foundation of observed fact and demonstration.  \n(4) From Vesalius's exact descriptions of the skeleton, muscles, blood vessels, nervous system, and digestive tract. This \nsuccessors in Padua progressed to studies of the digestive glands and the urinary and reproductive systems. Hieronymus \nFabricius, Gabriello Fallophus and Bartolomeo Estachio were among the most important itatin anatomists, and their detailed \nstudies led to fundamental progress in the related field of physiology. William Harvey discovery of the circulation of the blood, \nfor instance, was based partly on Fabricius's detailed descriptions of the venous Valves.  \n(5) The new application of magnifying glasses and compound microscopes to biological studies in the second half of the 17th \ncentury was the most important factor in the subsequent development of anatomical research. Primitive early microscopies \nenabled Marcello Malpighi to discover the system of tiny capillaries connecting the arterial and venous networks, Robert \nHooke to first observe the small compartments in plants that he called \"cells\" and Anrvonie van Leeuwenhoek to observe \nmuscle fibres and spermatozoa. Thenceforth attention gradually shifted from the identification and understanding of bodily \nstructures visible to the naked eye to those of microscopic size.  \n(6) The use of the microscope in discovering minute, previously unknown Features was pursued on a more systematic basis in \nthe 19th century, but progress tended to be slow until technical improvements in the compound microscope itself, beginning \nin the 1830s with the gradual development of achromatic lenses, greatly increased that instrument's resolving power. These \ntechnical advances enabled Matthias Jakob Schleiden and Theodor Schwan to recognize in 1838-39 that the cell is the \nfundamental until of organization all living things. The need for thinner, more transparent tissue species for study under the \nlight microscope stated the development of improved methods of dissection, notably machines called microtomes that can \nslice specimens into extremely thin sections. In order to better distinguish the detail in these sections. Synthetic dyes were \nused to stain tissues with different colors. This sections and staining had become standard tools for microscopic anatomists by \nthe late 19th century. the field of cytology, which is the study of tissue organization from the cellular level up. Both arose in \nthe 191h century with the data and techniques of microscopic anatomy as their bodies.  \n(7) In the 20th century anatomists tended to scrutinize tinier and tinier units of structure as new technologies enabled them to \ndiscern details far beyond the limits of resolution of light microscopes. These advances were made possible by the electron \nmicroscope, which stimulated an enormous amount of research on subcellular structures beginning in the 1950s and became \nthe prime tool of Anatomical research. About the same time, the use of X-ray diffraction for studying the structures of many \ntypes of molecules present in living things gave rise to the new subspecialty of molecular anatomy.\n180 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q14",
+      "order": 14,
+      "questionNumber": 43,
+      "questionText": "43. Who were among the first notable people to illustrate their studies of anatomy?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Leonardo da Vinci and Andreas Vesalius"
+        },
+        {
+          "label": "B",
+          "text": "Herophilus and Leonardo da Vinci"
+        },
+        {
+          "label": "C",
+          "text": "Alexandrian and Herophilus"
+        },
+        {
+          "label": "D",
+          "text": "Galen and Erasistratus"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 181,
+      "sourceLine": 3,
+      "sourcePages": [
+        181
+      ],
+      "rawBlock": "43. Who were among the first notable people to illustrate their studies of anatomy?  \n(A) Leonardo da Vinci and Andreas Vesalius  \n(B) Herophilus and Leonardo da Vinci  \n(C) Alexandrian and Herophilus  \n(D) Galen and Erasistratus  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q15",
+      "order": 15,
+      "questionNumber": 44,
+      "questionText": "44. What things did primitive microscopes allow Antonie van Leeuwenhoek to study?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 181,
+      "sourceLine": 9,
+      "sourcePages": [
+        181
+      ],
+      "rawBlock": "44. What things did primitive microscopes allow Antonie van Leeuwenhoek to study?  \n(A) small compartments and muscle fibers  \n(B) muscle fibers and spermatozoa.  \n(C) arterial and venous networks  \n(D) spermatozoa and eyes  \n45. Which new technologies enabled anatomists to see details beyond the limits of light \nmicroscopes?  \n(A) increased resolving power and X-ray diffraction  \n(B) electron microscope and x-ray diffraction  \n(C) synthetic dyes and achromatic lenses \n(D) dissection tools and transparency \nSustainability and Sustainable Development الاستدامة والتنمية المستدامة \n1) The definition of sustainability is not nearly as simple as it might seem; the same is true for the definition of Sustainable \ndevelopment. This is best illustrated by the fact that there are over 200 different documented definitions of sustainable \ndevelopment. However, the most common definition, which was established by the Brundtland Commission in 1987, is the \nfollowing:  \n(2) Sustainable development is development that meets the needs of the present without compromising the ability of future \ngenerations to meet their own needs.\"  \n(3) This implies that we need to look after our planet, our Sources, and our people to ensure that we can live in a stable \nmanner and that we can give our planet to our children and our grandchildren to live in true suitability.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-16-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "(4) But what it sustainability? The definition of Suitability may be taken further. It is widely accepted that to achieve true",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 181,
+      "sourceLine": 34,
+      "sourcePages": [
+        181,
+        182
+      ],
+      "rawBlock": "(4) But what it sustainability? The definition of Suitability may be taken further. It is widely accepted that to achieve true \nstability we must balance economic. Environment and social factors in equal harmony.  \n46. The word illustrated in Paragraph (1) is closest in meaning to ………….  \n(A) demonstrated  \n(B) designed  \n(C) painted  \n(D) colored\n181 \n47. The word documented in Paragraph (1) is closest in meaning to ……………….  \n(A) questioned  \n(B) convinced  \n(C) suggested  \n(D) recorded  \n48. The word implies in Paragraph (3) is closest in meaning to …………………  \n(A) demands \n(B) assumes  \n(C) suggests  \n(D) persuades \nNon-Western Economic Thought  الفكر الاقتصادي غير الغربي  \n1) Western historians of economic thought, like ourselves have a tendency to focus on Western writers. Whether This is \njustified or not is a matter or opinion JA Schumpeter, who wrote a comprehensive, widely respected history of economic \nthought in 1954, held that he could find non -Western early economic writing with any analytic content and further that no \npiece of reasoning on strictly economic topics has come down to us that can be called \"Scientific\" within our meaning of the \nterm \"Schumpeter also pointed to what he regarded as a curious gap in economic literature between the writings of the \nGreeks and Aquinas, a period of nearly one thousand years during which no economic writings of merit seemed to have been \nproduced.  \n(2) Scholars since Schumpeter have questioned his conclusions and have been to find so interesting early economic wines of \nmerit. We will briefly newly translated works of a seventh century BCE Chinese writer, Oman Zhong (725-645 BC). For \nexample, in order to give you a favor of his contributions and, more broadly to suggest that analysis of economic activity is \nlikely to occur at various times and places. The majority of early Chinese wings on economics fit Schumpeter's characterization \nthey were essentially limited to considerations of public administration within ethical networks, rather than strictly scientific\" \nstudies. Oman Zhong's book Guan zi, however, stands out as going far beyond the administrative mold. It includes a number of \nideas that central to economic thinking. Probably the most important of these is his \"light/heavy\" theory. An anticipation of \nsupply/demand theory. Others include his anticipation of the quantity theory, his discussion of countercyclical fiscal policy. \nand his appreciation for the workings of the market.  \n(3) Guan Zhong argued that when a good was abundant it became light and its price would fail. When it was locked away it \nbecame heavy, and its price would rise. There would be movements of goods into and out of markets based on their lightness \nand heaviness, with a definite tendency toward one price- equilibrium. Thus, the light heavy theory is a statement of the law \nof supply and demand. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-16-q17",
+      "order": 17,
+      "questionNumber": 49,
+      "questionText": "49. What word other than analytic content\" does the writer use to talk about economic writing?",
+      "options": [
+        {
+          "label": "A",
+          "text": "curious"
+        },
+        {
+          "label": "B",
+          "text": "justified"
+        },
+        {
+          "label": "C",
+          "text": "scientific"
+        },
+        {
+          "label": "D",
+          "text": "comprehensive"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 182,
+      "sourceLine": 39,
+      "sourcePages": [
+        182,
+        183
+      ],
+      "rawBlock": "49. What word other than analytic content\" does the writer use to talk about economic writing? \n(A) curious  \n(B) justified  \n(C) scientific \n(D) comprehensive\n182 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q18",
+      "order": 18,
+      "questionNumber": 50,
+      "questionText": "50. Which of the following does the writer say is a fact?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Schumpeter failed to find non-western scientific economic ideas."
+        },
+        {
+          "label": "B",
+          "text": "Guan Zhong produced a theory called supply and demand."
+        },
+        {
+          "label": "C",
+          "text": "The Greeks and Aquinas produced economic literature."
+        },
+        {
+          "label": "D",
+          "text": "Schumpeter wrote a history of economic literature"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 183,
+      "sourceLine": 3,
+      "sourcePages": [
+        183
+      ],
+      "rawBlock": "50. Which of the following does the writer say is a fact? \n(A) Schumpeter failed to find non-western scientific economic ideas.  \n(B) Guan Zhong produced a theory called supply and demand.  \n(C) The Greeks and Aquinas produced economic literature.  \n(D) Schumpeter wrote a history of economic literature  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q19",
+      "order": 19,
+      "questionNumber": 51,
+      "questionText": "51. What can we understand about economic thought from Paragraph (1)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Schumpeter is the founder of modern economic thought and literature"
+        },
+        {
+          "label": "B",
+          "text": "All economic thought comes from Western sources."
+        },
+        {
+          "label": "C",
+          "text": "The development of economic theories is to his early stages"
+        },
+        {
+          "label": "D",
+          "text": "The were long spells when no economic literature produced"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 183,
+      "sourceLine": 9,
+      "sourcePages": [
+        183
+      ],
+      "rawBlock": "51. What can we understand about economic thought from Paragraph (1)? \n(A) Schumpeter is the founder of modern economic thought and literature  \n(B) All economic thought comes from Western sources.  \n(C) The development of economic theories is to his early stages \n(D) The were long spells when no economic literature produced  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q20",
+      "order": 20,
+      "questionNumber": 52,
+      "questionText": "52. What can we understand about Zhong's ideas from Paragraph (3)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Goods will always get more expensive through."
+        },
+        {
+          "label": "B",
+          "text": "Prices rise and fall depending on the movement of goods."
+        },
+        {
+          "label": "C",
+          "text": "He named his economic theory: the Law of Supply and Demand."
+        },
+        {
+          "label": "D",
+          "text": "Goods that are 'locked away are in high-demand and are expensive."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 183,
+      "sourceLine": 15,
+      "sourcePages": [
+        183,
+        184
+      ],
+      "rawBlock": "52. What can we understand about Zhong's ideas from Paragraph (3)? \n(A) Goods will always get more expensive through.  \n(B) Prices rise and fall depending on the movement of goods.  \n(C) He named his economic theory: the Law of Supply and Demand.  \n(D) Goods that are 'locked away are in high-demand and are expensive. \nقطعة بدون عنوان عن الرياح  \nPassage A \n(1) Wind power is an alternative energy source. This means that the power of the wind can be used in place of other energy \nsources such as coal, oil, and nuclear reactions. Wind can be used to produce electricity that heats homes and lights streets \nand buildings.  \n(2) Wind power is harnessed by a machine called a wind turbine. Wind turbines are all towers topped with blades. The blades \nare connected to a vertical shaft, or rod. When wind causes the blades to spin, they tum the shaft. The tuning shaft provides \npower to a machine called a generator, which produces electricity. A group of wind turbines, called a wind farm, can be used \nto provide electricity to a community. Small turbines provide power for individual homes. \n(3) Wind turbines used to be called winds. The earliest known windmills were built more than 1,000 years ago. People used \nthem to grind grin. The Dutch used Windmills to pump water out of low-lying areas near the sea.  \nPassage B \n(1) Wind power is cost-effective. Land-based utility-scale wind is one of the lowest priced energy sources available today, \ncosting 1-2 cents per kilowatt-hour to the production tax credit. Because the electricity from wind farms is sold at a fixed price \nover a long period of time (e.g. 20+ years) and its fuel is free, wind energy mitigates the price uncertainty that fuel costs add to \ntraditional sources of energy.  \n(2) Wind creates jobs. The US wind sector employs more than 100.000 work , and wind turbine tech n is one of the fastest \ngrowing American jobs. According to the Wind Vision Report wind has the potential to Scout more than 600.000 job in \nmanufacturing. installation, maintenance, and supporting services by 2050.\n183 \n(3) It's a clean fuel source. Wind energy doesn't pollute the air like power plants that rely on combustion of fossil fuels, such as \ncon or a s, which emit particulate matter, nitrogen oxides, and sulfur dioxide -causing In health problems and economic \ndamages. Wind Turbines don't produce atmospheric emissions that cause acid rain. smog, or greenhouse gases. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q21",
+      "order": 21,
+      "questionNumber": 53,
+      "questionText": "53. What do Passages A and B say about wind?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Wind energy is free in some places."
+        },
+        {
+          "label": "B",
+          "text": "In the past, wind was used to crush grain."
+        },
+        {
+          "label": "C",
+          "text": "Wind energy is environmentally friendly."
+        },
+        {
+          "label": "D",
+          "text": "Wind can be used to produce electricity."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 184,
+      "sourceLine": 8,
+      "sourcePages": [
+        184
+      ],
+      "rawBlock": "53. What do Passages A and B say about wind? \n(A) Wind energy is free in some places.  \n(B) In the past, wind was used to crush grain.  \n(C) Wind energy is environmentally friendly.  \n(D) Wind can be used to produce electricity. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q22",
+      "order": 22,
+      "questionNumber": 54,
+      "questionText": "54. What can we understand from Passages A and B about energy sources?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Burning fossil fuels is expensive and causes pollution"
+        },
+        {
+          "label": "B",
+          "text": "Energy sources include, for example, wind and coal"
+        },
+        {
+          "label": "C",
+          "text": "Wind is a traditional source of energy."
+        },
+        {
+          "label": "D",
+          "text": "Wind is an alternative energy source."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 184,
+      "sourceLine": 14,
+      "sourcePages": [
+        184
+      ],
+      "rawBlock": "54. What can we understand from Passages A and B about energy sources? \n(A) Burning fossil fuels is expensive and causes pollution  \n(B) Energy sources include, for example, wind and coal  \n(C) Wind is a traditional source of energy.  \n(D) Wind is an alternative energy source.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-16-q23",
+      "order": 23,
+      "questionNumber": 55,
+      "questionText": "55. What can we understand from Passages A and B about wind farms?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 184,
+      "sourceLine": 20,
+      "sourcePages": [
+        184,
+        185
+      ],
+      "rawBlock": "55. What can we understand from Passages A and B about wind farms? \n(A) A wind farm is easy to build and can provide power to a large number of people.  \n(B) Wind farms produce power more cheaply than individual wind turbines.  \n(C) Wind farms can provide both power and employment for a community. \n(D) A wind farm consists of several wind turbines typically on a sea shore.  \n56. Which of the following best summarizes the usefulness of wind power for people from \nPassages A and B? \n(A) The industry that wind power has created likely to grow in the near future.  \n(B)  \n(C)  \n(D) \nام الكورية  \n1) Language is a way to communicate. We begin to learn language as infants and become accustomed to our native language. \nlanguage therefore becomes a problem for immigrants, especially between the first and second generations. This language \nbarrier also results in the second generation losing their identity.  \n2) First generation immigrants in America suffer in lots of areas because of language difficulties. Naturally, they want their \nchildren to speak English both at home and at school in order to be more successful. This results in their children losing their \nethnic identity and even more. Ignoring their parents because there is now a language between them.  \n3) For example, my three children and they were all born in the States. The eighteen-yearsold daughter speaks both English \nand Korean very well. She has no problems talking with her parents, but she does have trouble understanding Korean jokes,\n184 \nand there are sometimes misunderstandings. The second daughter is fourteen years old and she resists speaking Korean. My \naunt often gets upset with her because she is much Americanized and they cannot understand each other Even when my ant \npunishes her, this daughter does not understand what my aunt is talking about. I felt sympathy for my aunt whenever my ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-16-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "fourteen-year-old cousin said, \"Mom, what is your problem?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 185,
+      "sourceLine": 5,
+      "sourcePages": [
+        185
+      ],
+      "rawBlock": "fourteen-year-old cousin said, \"Mom, what is your problem?  \n4) The third child is a twelve-year-old son. He speaks English to his parents and my aunt speaks Korean to him he does to the \nsecond canter. He also has a problem communicating with his parents. My aunt is trying to encourage him to learn both \nlanguages, but it is very hard for him because he speaks English all day and fail to understand why he should learn Korean.  \n5) Immigrants try to preserve their native language in their new country while string to learn a new language. My aunt was her \nchildren to succeed in the US, but she also wants to help them understand the Korean language in order to understand the \nKorean heritage. The second generation often gets confused about their Identity. My aunt's children, for example, see \nthemselves as being different from others in both places in the US they look Korean and in Korea they act like Americans. My \ncousins told me that when they visited Korea a few years ago, they felt different because they wore different clothes and \nwalked differently.  \n6) Language is important and valuable for any reasons. Immigrants must imagine a strong mutual understanding with the \nfamily and enable their children to appreciate the heritage. Being at ease in using both the first and second languages is \nimportant not only for attaining familial harmony, but also in helping the second generation establish the identity. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-16-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 185,
+      "sourceLine": 19,
+      "sourcePages": [
+        185
+      ],
+      "rawBlock": "What is the main idea of the passage? \n(A) the importance of second language  \n(B) immigrants and their education  \n(C) language and identity  \n(D) immigrants in the US \nThe word suffer in Paragraph (2) is closest in meaning to having ……………….  \na) accidents  \nb) problems  \nc) injuries  \nd) Skills  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-16-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (3), which of the following is NOT TRUE about the 18-year-old daughter?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 185,
+      "sourceLine": 32,
+      "sourcePages": [
+        185
+      ],
+      "rawBlock": "According to Paragraph (3), which of the following is NOT TRUE about the 18-year-old daughter?  \na) She was born in the U.S.  \nb) She speaks only English very well  \nc) She sometimes misunderstands things in Korean  \nd) She communicates better with her parents than her brother and sister do.  \nThe pronoun they in Paragraph (3) refers to the mother and her …………..  \na) second daughter  \nb) eldest daughter  \nc) children  \nd) son",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

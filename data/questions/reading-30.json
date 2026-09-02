@@ -1,0 +1,594 @@
+{
+  "readingId": "reading-30",
+  "sourceQuestionBlocks": 13,
+  "questions": [
+    {
+      "id": "reading-30-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What is the name of the first personal computer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 369,
+      "sourceLine": 19,
+      "sourcePages": [
+        369
+      ],
+      "rawBlock": "What is the name of the first personal computer? \nما هو اسم أول جهاز كمبيوتر شخصي؟  \nAltair 880 \nBASIC \nApple 1 \nDell ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "Which company purchased the Q-DOS program?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 369,
+      "sourceLine": 28,
+      "sourcePages": [
+        369
+      ],
+      "rawBlock": "Which company purchased the Q-DOS program? \nما الشركة التي اشترت برنامج  Q-DOS؟ \nApple \nIBM \nMicrosoft \nHewlett Packard ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "In which year was the Macintosh II introduced?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 369,
+      "sourceLine": 37,
+      "sourcePages": [
+        369,
+        370
+      ],
+      "rawBlock": "In which year was the Macintosh II introduced? \nفي أي عام تم تقديم ماكنتوش؟  \n1977 \n1978 \n1980 \n1987 \nUsing taxes to change social behavior\n369 \nاستخدام الضرائب لتغيير السلوك الاجتماعي ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "What is one important idea related to demerit goods mentioned in paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 370,
+      "sourceLine": 5,
+      "sourcePages": [
+        370
+      ],
+      "rawBlock": "What is one important idea related to demerit goods mentioned in paragraph 1? \nThe environment \nTaxes \nBehavior \nengine size \nما هي إحدى الأفكار المهمة المتعلقة بالسلع السلبية المذكورة في الفقرة1؟  \nالبيئة \nالضرائب  \nسلوك  \nحجم المحرك  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "Which two countries put higher taxes on cars with larger engines?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 370,
+      "sourceLine": 19,
+      "sourcePages": [
+        370
+      ],
+      "rawBlock": "Which two countries put higher taxes on cars with larger engines? \nHong Kong and Ireland \nthe UK and Hong Kong \nthe UK and China \nChina and Ireland \nأي دولتين تفرضان ضرائب أعلى على السيارات ذات المحركات الأكبر؟  \nهونغ كونغ وايرلندا \nالمملكة المتحدة وهونغ كونغ  \nالمملكة المتحدة والصين  \nالصين وايرلندا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What important idea related to plastic bags is mentioned in paragraph 2 and 3?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 370,
+      "sourceLine": 32,
+      "sourcePages": [
+        370
+      ],
+      "rawBlock": "What important idea related to plastic bags is mentioned in paragraph 2 and 3? \nHong Kong followed the examples of other countries \nThe tax was introduced in Hong Kong in July 2009 \nthe tax worked almost immediately in Hong Kong \nHong Kong has a population of 7 million people \nما هي الفكرة المهمة المتعلقة بالأكياس البلاستيكية المذكورة في الفقرتين2 و3؟  \nاتبعت هونغ كونغ أمثلة البلدان الأخرى  \nتم إدخال الضريبة في هونغ كونغ في يوليو 2009  \nعملت الضريبة على الفور تقريبًا في هونغ كونغ  \nيبلغ عدد سكان هونغ كونغ 7 ملايين نسمة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 370,
+      "sourceLine": 49,
+      "sourcePages": [
+        370,
+        371
+      ],
+      "rawBlock": "What is the main topic of the passage?\n370 \nMore countries should follow the examples of Hong Kong China and Ireland \ntaxes help change people's behavior and protect their environment \ndemerit goods are generally bad for a country's economy \nGood ideas are usually copied by other countries \nما هو الموضوع الرئيسي للمقطع؟  \nيجب على المزيد من الدول أن تحذو حذو هونج كونج والصين وأيرلندا  \nتساعد الضرائب على تغيير سلوك الناس وحماية بيئتهم  \nالسلع المعيبة سيئة بشكل عام لاقتصاد البلد  \nعادة ما يتم نسخ الأفكار الجيدة من قبل البلدان الأخرى  \nfinancial crash \nالانهيار المالي ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (2) say about old- fashioned investments?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 371,
+      "sourceLine": 19,
+      "sourcePages": [
+        371
+      ],
+      "rawBlock": "What does Paragraph (2) say about old- fashioned investments? \n They are an older leverage technique.  \nThey include a minimum investment of $20,000.  \nThey used to increase by 200% before the 1990s.  \nThey receive lower returns than leveraged investments. \nماذا تقول الفقرة2) عن الاستثمارات القديمة؟  \n  إنها تقنية رافعة قديمة \nوهي تشمل حد أدنى للاستثمار يبلغ 20000 دولار  \nكانت تزداد بنسبة 200% قبل التسعينيات  \nيتلقون عوائد أقل من الاستثمارات ذات الرافعة المالية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "How did leverage solve the issue of low investment returns?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 371,
+      "sourceLine": 32,
+      "sourcePages": [
+        371
+      ],
+      "rawBlock": "How did leverage solve the issue of low investment returns? \nIt increased the value of investments by $40,000.   \nIt allowed people to borrow more money to invest.  \nIt helped people to find the best locations to invest in.  \nIt promised loans up to 19 times the amount a person had to invest. \nكيف حلت الرافعة المالية مشكلة انخفاض عوائد الاستثمار؟ \nزادت قيمة الاستثمارات بمقدار 40 ألف دولار \nسمح للناس باقتراض المزيد من الأموال للاستثمار.  \nلقد ساعد الناس في العثور على أفضل المواقع للاستثمار فيها. \nوعدت بقروض تصل إلى  19  ضعف المبلغ الذي كان على الشخص استثماره ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word Instead in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 371,
+      "sourceLine": 46,
+      "sourcePages": [
+        371,
+        372
+      ],
+      "rawBlock": "Why does the writer use the word Instead in Paragraph (3)?\n371 \nto give more information about old-fashioned investments.  \nto show that investments made using leverage can gain greater profits.  \nto give an example of how using leverage was a bad investment technique.  \nto show that you had to make old- fashioned investments before you can use leverage promised loans up \nto 19 times the amount a person had to invest.  \nلماذا يستخدم الكاتب كلمة بدلا من ذلك في الفقرة3)؟ \nلإعطاء مزيد من المعلومات حول الاستثمارات القديمة. \nلإظهار أن الاستثمارات باستخدام الرافعة المالية يمكن أن تحقق أرباحًا أكبر.  \nلإعطاء مثال عن كيفية استخدام الرافعة المالية كان أسلوب استثمار سيئًا.  \nلإثبات أنه كان عليك القيام باستثمارات قديمة الطراز قبل أن تتمكن من استخدام قروض ذات رافعة مالية تصل إلى 19 ضعف المبلغ الذي يتعين على\nالشخص استثماره. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "Which word can we use to replace the word So in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 372,
+      "sourceLine": 17,
+      "sourcePages": [
+        372
+      ],
+      "rawBlock": "Which word can we use to replace the word So in Paragraph (3)? \nParticularly  \nThough  \nAlthough  \nAfterwards \nما هي الكلمة التي يمكننا استخدامها لتحل محل كلمة \"لذا\" في الفقرة3)؟ \nخصوصا  \nعلى أية حال  \nرغم  \nعقب ذلك مباشرة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "What does the writer think about old- fashioned investment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 372,
+      "sourceLine": 31,
+      "sourcePages": [
+        372,
+        373
+      ],
+      "rawBlock": "What does the writer think about old- fashioned investment?  \nHe thinks it was only popular in the A 1990s.  \nHe thinks it can only be used to invest in property.  \nHe thinks it is good, but financial institutions dislike it.  \nHe thinks it is good, but leverage you a better return. \nما رأي الكاتب في الاستثمار القديم؟ \nيعتقد أنها كانت شائعة فقط في التسعينيات.  \nيعتقد أنه لا يمكن استخدامها إلا للاستثمار في العقارات. \nيعتقد أنه أمر جيد ، لكن المؤسسات المالية تكرهها. \nيعتقد أنه أمر جيد ، لكن الاستفادة من عائد أفضل.\n372 \nIncrease in life expectancy \nزيادة متوسط العمر المتوقع ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "What did ADDS lead to in central Africa?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 373,
+      "sourceLine": 4,
+      "sourcePages": [
+        373
+      ],
+      "rawBlock": "What did ADDS lead to in central Africa?  \nA drop in the population growth rate.  \nA drop in the average expected lifetime.  \nA drop in the number of babies born alive.  \nA drop in the health of children under the age of 5. \nما الذي أدى إليهADDS  في وسط إفريقيا؟ \nانخفاض معدل النمو السكاني. \nانخفاض في متوسط العمر المتوقع. \nانخفاض في عدد المواليد الأحياء. \nانخفاض في صحة الأطفال دون سن الخامسة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "What can cause growth in population rate?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 373,
+      "sourceLine": 18,
+      "sourcePages": [
+        373,
+        374
+      ],
+      "rawBlock": "What can cause growth in population rate? \nan increase in numbers of 74-year-old people  \nan increase in numbers of women over 45 who have children  \nan increase in numbers of people living until the age of 60  \nan increase in numbers of young people living and having children \nما الذي يمكن أن يسبب النمو في معدل السكان؟ \nزيادة في عدد الأشخاص الذين يبلغون من العمر 74 عامًا \nزيادة في عدد النساء اللواتي لديهن أطفال فوق سن 45 \nزيادة عدد الأشخاص الذين يعيشون حتى سن الستين \nزيادة أعداد الشباب الذين يعيشون وينجبون أطفالاً  \nThe word rapid in Paragraph (3) is closest in meaning to ..................... \nlow  \nquick  \nnormal  \naverage \nكلمة سريع في الفقرة3) هي الأقرب من حيث المعنى \nقليل \nسريع \nعادي  \nمعدل\n373 \nThe word chief in Paragraph (3) is closest in meaning to .......  \nsimple \nonly  \nmain  \nstrange \nكلمة رئيس في الفقرة3) هي الأقرب في المعنى إلى \nبسيط  \nفقط \nرئيسي  \nغريب \nرسم بياني عن الدفع في السفر  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What was the lowest number of paid holidays for any city?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 374,
+      "sourceLine": 40,
+      "sourcePages": [
+        374,
+        375
+      ],
+      "rawBlock": "What was the lowest number of paid holidays for any city?  \n4.2 days  \n6.1 days  \n8.0 days  \n9.7 days \nما هو أقل عدد من الإجازات مدفوعة الأجر في أي مدينة؟ \n4.2 يوم \n6.1 يوم \n8.0 يوم \n9.7 يوم \nMuscle and nerve tissue\n374 \nأنسجة العضلات والأعصاب ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What are two other muscle names for skeletal muscle?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 375,
+      "sourceLine": 4,
+      "sourcePages": [
+        375
+      ],
+      "rawBlock": "What are two other muscle names for skeletal muscle?  \nstriated and voluntary.  \nstriated and striped.  \nvoluntary and striped.  \ncontracting and striated. \nما هما اسمان عضليان اخران للعضلات الهيكلية؟ \nمخططة وطوعية. \nمخطط ومخطط.  \nطوعي ومخطط. \nمتعاقد ومخطط.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What are two other names for smooth muscle?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 375,
+      "sourceLine": 20,
+      "sourcePages": [
+        375
+      ],
+      "rawBlock": "What are two other names for smooth muscle?  \ntapered and internal.  \ninternal and visceral.  \ninvoluntary and internal.  \ninvoluntary and visceral. \nما هما الاسمان الآخران للعضلة الملساء؟ \nمدبب وداخلي. \nداخلي وحشوي.  \nلا إرادية وداخلية.  \nاللاإرادي والحشوي.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What are two divisions of the nervous system?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 375,
+      "sourceLine": 36,
+      "sourcePages": [
+        375,
+        376
+      ],
+      "rawBlock": "What are two divisions of the nervous system?  \ncentral and insulate  \ncentral and peripheral  \ninsulate and peripheral  \nspecialized and insulate \nما هما تقسيمان للجهاز العصبي؟ \nمركزي وعازل  \nالمركزية والطرفية  \nالعزل والطرفية  \nمتخصص وعازل  \nAutomation\n375 \nالأتمتة تحويلالشي ء إلى أوتوماتيكي  \nThe word comprehensive in the passage is closest in meaning to........  \ncomplete  \naverage  \nglobal  \nuniversal \nكلمة شامل في المقطع هي الأقرب من حيث المعنى إلى \nمكتمل \nمعدل \nعالمي  \nعالمي  \nThe word ideally in the passage is closest in meaning to ..................  \nelegantly  \ncorrectly  \nmentally  \nperfectly \nالكلمة المثالية في المقطع هي الأقرب من حيث المعنى .................  \nبأناقة \nبشكل صحيح \nعقليا \nتماما  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What idea do the words \"susceptible to automation\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 376,
+      "sourceLine": 34,
+      "sourcePages": [
+        376
+      ],
+      "rawBlock": "What idea do the words \"susceptible to automation\" repeat? \nworkforce automation \nrobots and machines \nautomation potential \ncompetitive edge \nما الفكرة التي تكررها عبارة \"عرضة للأتمتة\"؟ \nأتمتة القوى العاملة  \nالروبوتات والآلات  \nإمكانية الأتمتة \nميزة تنافسية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "What can we understand from Paragraph (2) about the McKinsey Global Institute research?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 376,
+      "sourceLine": 51,
+      "sourcePages": [
+        376,
+        377
+      ],
+      "rawBlock": "What can we understand from Paragraph (2) about the McKinsey Global Institute research? \nIt was a large study.\n376 \nIt was an automated study. \nIt used current technology. \nIt had an effect on full-time employees. \nما الذي يمكننا فهمه من الفقرة2) حول أبحاث معهد ماكينزي العالمي؟ \nكانت دراسة كبيرة.  \nكانت دراسة آلية.  \nتستخدم التكنولوجيا الحالية. \nكان له تأثير على الموظفين بدوام كامل. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "Which of the following is an opinion in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 377,
+      "sourceLine": 12,
+      "sourcePages": [
+        377
+      ],
+      "rawBlock": "Which of the following is an opinion in the passage? \nThe report considered several factors in the automation process. \nAutomation of work will become a reality for all workers. \nThe speed of change to automation is difficult to predict. \nThe McKinsey report studied 46 different countries. \nأي مما يلي رأي في المقطع؟ \nنظر التقرير في عدة عوامل في عملية الأتمتة. \nستصبح أتمتة العمل حقيقة واقعة لجميع العمال. \nمن الصعب التنبؤ بسرعة التغيير إلى الأتمتة.  \nدرس تقرير ماكينزي 46 دولة مختلفة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "Which of the following is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 377,
+      "sourceLine": 25,
+      "sourcePages": [
+        377
+      ],
+      "rawBlock": "Which of the following is a fact? \nPhysical work can be unpredictable. \nThe report considered information from 46 countries. \nTechnology has the greatest effect on full-time employees. \nThe writers of the report interviewed 80% of the global workforce. \nأي مما يلي هو حقيقة؟ \nيمكن أن يكون العمل البدني غير متوقع. \nوتناول التقرير المعلومات الواردة من 46 دولة \nالتكنولوجيا لها التأثير الأكبر على الموظفين بدوام كامل. \nأجرى مؤلفو التقرير مقابلات مع 80% من القوى العاملة العالمية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What idea do the words \"administrative support\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 377,
+      "sourceLine": 38,
+      "sourcePages": [
+        377
+      ],
+      "rawBlock": "What idea do the words \"administrative support\" repeat? \nManagement and engineering \nData processing and data collection \nTechnical, economic and social factors \nApplying expertise and managing others \nما الفكرة التي تكررها عبارة \"دعم إداري\"؟ \nالإدارة والهندسة  \nمعالجة البيانات وجمع البيانات  \nالعوامل الفنية والاقتصادية والاجتماعية \nتطبيق الخبرة وإدارة الآخرين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What can we understand from Paragraphs (4) and (5) about automation around the world?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 377,
+      "sourceLine": 51,
+      "sourcePages": [
+        377,
+        378
+      ],
+      "rawBlock": "What can we understand from Paragraphs (4) and (5) about automation around the world? \nIt will be very difficult to achieve. \nIt will become a reality very quickly.\n377 \nIt will be different in different countries. \nIt will have the biggest effect on manufacturing. \nما الذي يمكننا فهمه من الفقرتين4) و5) حول الأتمتة حول العالم؟ \nسيكون من الصعب جدا تحقيقه. \nسوف تصبح حقيقة واقعة بسرعة كبيرة. \nسيكون مختلفًا في بلدان مختلفة.  \nسيكون لها أكبر تأثير على التصنيع. \nHyperinflation \nتضخم مفرط \nWhat phrase other than \"economic crisis\" does the writer use to describe the problems caused by \nhyperinflation?  \nreplacing currency  \npolitical damage  \nurgent action  \nwar loans \nما هي العبارة الأخرى بخلاف \"الأزمة الاقتصادية\" التي يستخدمها الكاتب لوصف المشاكل الناجمة عن التضخم المفرط؟ \nاستبدال العملة  \nالضرر السياسي  \nإجراءات عاجلة  \nقروض الحرب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "Which of the following is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 378,
+      "sourceLine": 35,
+      "sourcePages": [
+        378
+      ],
+      "rawBlock": "Which of the following is an opinion?  \nFrom 1921-1923 the German middle class DID NOT buy houses.  \nWorkers needed trolleys to carry home their wages  \nA new government took power in 1923.  \nGermany's problems were NOT as severe as its politicians had said.  \nأي مما يلي رأي؟ \nمن 1921-1923  لمتشتر الطبقة الوسطى الألمانية منازل. \nاحتاج العمال إلى عربات لنقل أجورهم إلى منازلهم  \nتولت حكومة جديدة السلطة في عام 1923 . \nلم تكن مشاكل ألمانيا بالحدة التي قالها سياسيوها ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "How is some historians' view of hyperinflation victims different from the common view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 378,
+      "sourceLine": 49,
+      "sourcePages": [
+        378,
+        379
+      ],
+      "rawBlock": "How is some historians' view of hyperinflation victims different from the common view? \nThey believe that people who DIDN'T money suffered.\n378 \nThey believe that people who had savings suffered most.  \nThey believe that people were starving in the streets.  \nThey believe other European states suffered more. \nكيف تختلف وجهة نظر بعض المؤرخين عن ضحايا التضخم المفرط عن وجهة النظر الشائعة؟ \nإنهم يعتقدون أن الأشخاص الذين لا يملكون المال عانوا.  \nإنهم يعتقدون أن الأشخاص الذين لديهم مدخرات عانوا أكثر من غيرهم.  \nيعتقدون أن الناس كانوا يتضورون جوعا في الشوارع.  \nويعتقدون أن الدول الأوروبية الأخرى عانت أكثر. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What can we understand from Paragraph (5) about the opponents of the Weimar government?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 379,
+      "sourceLine": 15,
+      "sourcePages": [
+        379
+      ],
+      "rawBlock": "What can we understand from Paragraph (5) about the opponents of the Weimar government? \nThey blamed the government for losing the war.  \nThey used the economic crisis to gain power.  \nThey refused American support.  \nThey were middle class citizens. \nماذا نفهم من الفقرة5) عن معارضي حكومةوييمار؟ \nألقوا باللوم على الحكومة في خسارة الحرب.  \nلقد استخدموا الأزمة الاقتصادية للوصول إلى السلطة.  \nرفضوا الدعم الأمريكي. \nكانوا مواطنين من الطبقة الوسطى. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "What can we understand from Paragraph (4) about the solution to the crisis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 379,
+      "sourceLine": 28,
+      "sourcePages": [
+        379,
+        380
+      ],
+      "rawBlock": "What can we understand from Paragraph (4) about the solution to the crisis? \nIt hurt Gustav Stresemann's opponents.  \nIt was very difficult to achieve. \nIt depended on American money. \nIt damaged Germany's relations with its neighbors. \nما الذي يمكن أن نفهمه من الفقرة4) حول حل الأزمة؟ \nلقد أضر بخصوم جوستاف ستريسيمان. \nكان من الصعب جدا تحقيقه. \nكان يعتمد على الأموال الأمريكية.  \nلقد أضرت بعلاقات ألمانيا مع جيرانها.  \nAlchemy \nكيمياء \nThe word abandoned in the passage is closest in meaning to ......................  \nbegun  \nstopped  \nincreased  \ncontinued\n379 \nالكلمة التي تم التخلي عنها في المقطع هي الأقرب من حيث المعنى .......................  \nبدأت \nتوقفت  \nزيادة \nواصلت \nPassage A          What is mania \nPassage B         Bipolar disorder \nما هو الهوس \nالاضطراب ثنائي القطب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "What can we understand from passages A and B about hypomania?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 380,
+      "sourceLine": 16,
+      "sourcePages": [
+        380
+      ],
+      "rawBlock": "What can we understand from passages A and B about hypomania? \nIt may lead to depression.  \nSymptoms occur most often in children.  \nPeople experiencing it may still complete their work.  \nFamily and friends may be the only ones to notice symptoms. \nماذا يمكننا أن نفهم من الفقرتين أ و ب عن الهوس الخفيف؟ \nقد يؤدي إلى الاكتئاب.  \nتحدث الأعراض في أغلب الأحيان عند الأطفال.  \nقد يستمر الأشخاص الذين يعانون منه في إكمال عملهم.  \nقد يكون أفراد العائلة والأصدقاء هم الوحيدون الذين يلاحظون الأعراض.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "Which of the following are symptoms of bipolar disorder according to passages A and B?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 380,
+      "sourceLine": 32,
+      "sourcePages": [
+        380
+      ],
+      "rawBlock": "Which of the following are symptoms of bipolar disorder according to passages A and B? \nmania and episodes with mixed features  \nmania and mood episodes  \nmania and delusions  \nmania and depression \nأي من الأعراض التالية هي أعراض الاضطراب ثنائي القطب وفقًا للفقرتين أ و ب؟  \nالهوس والحلقات ذات الملامح المختلطة \nنوبات الهوس والمزاج  \nالهوس والأوهام \nالهوس والاكتئاب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "What do passages A and B say about bipolar disorder?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 380,
+      "sourceLine": 48,
+      "sourcePages": [
+        380,
+        381
+      ],
+      "rawBlock": "What do passages A and B say about bipolar disorder? \nIt can make people feel sad and full of energy at the same time.\n380 \nTreatment includes prescription drugs and counseling.  \nIt is the most frequent cause of mania.  \nSymptoms are usually mild. \nماذا يقول المقطعانA وB  عن الاضطراب ثنائي القطب؟ \nيمكن أن يجعل الناس يشعرون بالحزن والامتلاء بالطاقة في نفس الوقت.  \nيشمل العلاج الأدوية الموصوفة والمشورة. \nإنه السبب الأكثر شيوعًا للهوس.  \nعادة ما تكون الأعراض خفيفة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-30-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "What can we understand from passages A and B about depression?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 381,
+      "sourceLine": 13,
+      "sourcePages": [
+        381
+      ],
+      "rawBlock": "What can we understand from passages A and B about depression? \n It is the most often occurring symptom of bipolar disorder.  \nThe depression of bipolar disorder is a generally mild form.  \nPeople can experience it at the same time they experience mania.  \nIt is a symptom of various illnesses, but it is also a major illness by itself. \nماذا يمكننا أن نفهم من الفقرتين أ و ب عن الاكتئاب؟ \n  وهو أكثر أعراض الاضطراب ثنائي القطب حدوثًا.  \nالاكتئاب من الاضطراب ثنائي القطب هو شكل خفيف بشكل عام.  \nيمكن للناس تجربة ذلك في نفس الوقت الذي يعانون فيه من الهوس. \nإنه عرض لأمراض مختلفة، ولكنه أيضًا مرض خطير في حد ذاته.  \nthe unknown substance (egg) \nمادة غير معروفة (بيضة \nمكرر في نموذج ( لازم نذاكر كل النماذج )",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

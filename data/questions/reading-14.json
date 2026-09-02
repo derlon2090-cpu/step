@@ -1,0 +1,25 @@
+{
+  "readingId": "reading-14",
+  "sourceQuestionBlocks": 3,
+  "questions": [
+    {
+      "id": "reading-14-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "Jewelry What are the uses of gold?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 159,
+      "sourceLine": 12,
+      "sourcePages": [
+        159,
+        160
+      ],
+      "rawBlock": "Jewelry  What are the uses of gold? \nماهي استخدامات الذهب؟  المجوهرات  \nسادساً / صورة تحذيرية مكتوب Slow  وصورة واحد يركض \nبعدها مكتوب Not بالسؤال؟   \nمكرر \nالجواب Drive Fast. \nسابعاً / البراكين  \nمكرر\n159 \nثامناًالبروفيسور ونظرته للآخرين؟    \n مكرر \nتاسعاً / فهرس كتاب لأربع وحدات مع عناوين تحت كل وحد ة \nمكرر \nعاشراً /  الاعصار  \nBalanceEquilibrium =  \nالتوازن = المساواة \ntropical cyclone Their\" refers to? \" \nالحادي عشر / قطعة عن المأكولات الشعبية وكيف أنها اختفت \nوالحين رجعت (سؤال 1 فقط \nPopular again Traditional food?   \nاكل تقليدي؟شعبية مرة أخرى  \nالثاني عشر/ طريقة عمل الشاي  \nذكر كلمة Boiling وسأل نضيفها لأي خطوة.. وذاكر لك أربع خطوات نختار منها واحد",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

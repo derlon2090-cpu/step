@@ -1,0 +1,465 @@
+{
+  "readingId": "reading-17",
+  "sourcePages": [
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195
+  ],
+  "sourcePageRange": {
+    "start": 186,
+    "end": 195
+  },
+  "visualQuestionReviewStatus": "in_progress",
+  "firstReviewStatus": "in_progress",
+  "secondReviewStatus": "not_started",
+  "questions": [
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 1,
+      "questionText": "26) What is important for business to do when marketing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        187
+      ],
+      "sourceBlockIds": [
+        "page-187-line-20"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 2,
+      "questionText": "27) What does desires mean in paragraph 2?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        187
+      ],
+      "sourceBlockIds": [
+        "page-187-line-25"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 3,
+      "questionText": "28) What does the paragraph say about Covid 19 and online shopping?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        187
+      ],
+      "sourceBlockIds": [
+        "page-187-line-30"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 4,
+      "questionText": "29) What % did online sales in the UK increase to in February of 2020?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        187
+      ],
+      "sourceBlockIds": [
+        "page-187-line-35"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 5,
+      "questionText": "30) What does the paragraph 6 say about social media marketing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        188
+      ],
+      "sourceBlockIds": [
+        "page-188-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 6,
+      "questionText": "31) What is a fact according to the writer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        188
+      ],
+      "sourceBlockIds": [
+        "page-188-line-19"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 7,
+      "questionText": "32) What are alternate words used for illegal acts?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        188
+      ],
+      "sourceBlockIds": [
+        "page-188-line-24"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 8,
+      "questionText": "33) What does the writer think about the definition of crime?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        188
+      ],
+      "sourceBlockIds": [
+        "page-188-line-29"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 9,
+      "questionText": "34) What health problem does sugar cause?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        189
+      ],
+      "sourceBlockIds": [
+        "page-189-line-7"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 10,
+      "questionText": "35) What does vitamin D deficiency lead to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        189
+      ],
+      "sourceBlockIds": [
+        "page-189-line-21"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 11,
+      "questionText": "36) Why do countries in the Antarctica have a vitamin D deficiency?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        189
+      ],
+      "sourceBlockIds": [
+        "page-189-line-26"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 12,
+      "questionText": "37) What does paragraph 2 say about livestock farming regarding the environment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        190
+      ],
+      "sourceBlockIds": [
+        "page-190-line-26"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 13,
+      "questionText": "38) What do paragraphs 2 and 3 say about eating too much red meat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        190
+      ],
+      "sourceBlockIds": [
+        "page-190-line-31"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 14,
+      "questionText": "39) What does paragraph 5 say about livestock Farming?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        190
+      ],
+      "sourceBlockIds": [
+        "page-190-line-36"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 15,
+      "questionText": "40) What does paragraph 6 say about livestock farming affecting poor?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        191
+      ],
+      "sourceBlockIds": [
+        "page-191-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 16,
+      "questionText": "what is really in it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        191
+      ],
+      "sourceBlockIds": [
+        "page-191-line-15"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 17,
+      "questionText": "44) According to paragraph (3), where did most of the plants mentioned in the passage originate?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        192
+      ],
+      "sourceBlockIds": [
+        "page-192-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 18,
+      "questionText": "45) How does the author use a discussion of plants?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        192
+      ],
+      "sourceBlockIds": [
+        "page-192-line-8"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 19,
+      "questionText": "49) What is the best title for this passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        193
+      ],
+      "sourceBlockIds": [
+        "page-193-line-12"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 20,
+      "questionText": "53) What does the expression 'fight or flight response' used in paragraph (2) mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        194
+      ],
+      "sourceBlockIds": [
+        "page-194-line-16"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 21,
+      "questionText": "54) According to Paragraph (3), what is the best advice in the event of an earthquake?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        194
+      ],
+      "sourceBlockIds": [
+        "page-194-line-21"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 22,
+      "questionText": "56) According to paragraph (5), what is TRUE about a 'fight or flight' situation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        194
+      ],
+      "sourceBlockIds": [
+        "page-194-line-31"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-17",
+      "sourceQuestionNumber": null,
+      "displayOrder": 23,
+      "questionText": "57) Why does the author use the pronoun \"we\" throughout the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        195
+      ],
+      "sourceBlockIds": [
+        "page-195-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    }
+  ],
+  "duplicateTechnicalRecordsRemoved": 0,
+  "reviewNotes": [
+    "A source-traceable geometry worklist was staged for visual review. No item was automatically approved and no answer key was created."
+  ]
+}

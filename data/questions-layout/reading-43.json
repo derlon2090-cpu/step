@@ -1,0 +1,725 @@
+{
+  "readingId": "reading-43",
+  "questions": [
+    {
+      "id": "reading-43-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (2), why do the Chinese zookeepers want Mei Lan to learn Chinese?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        556
+      ],
+      "sourceBlockIds": [
+        "page-556-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 259.88,
+        "x0": 14.4,
+        "x1": 546.47
+      }
+    },
+    {
+      "id": "reading-43-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        556
+      ],
+      "sourceBlockIds": [
+        "page-556-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 379.52,
+        "x0": 14.4,
+        "x1": 361.51
+      }
+    },
+    {
+      "id": "reading-43-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following colors is NOT mentioned in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        557
+      ],
+      "sourceBlockIds": [
+        "page-557-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 239.57,
+        "x0": 14.4,
+        "x1": 385.08
+      }
+    },
+    {
+      "id": "reading-43-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "How many asteroids have been found in our solar system?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        558
+      ],
+      "sourceBlockIds": [
+        "page-558-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 275.0,
+        "x0": 14.16,
+        "x1": 354.03
+      }
+    },
+    {
+      "id": "reading-43-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "What do asteroids orbit?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        558
+      ],
+      "sourceBlockIds": [
+        "page-558-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 412.52,
+        "x0": 14.16,
+        "x1": 158.91
+      }
+    },
+    {
+      "id": "reading-43-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "How many known asteroids are near the Earth?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        558
+      ],
+      "sourceBlockIds": [
+        "page-558-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 550.18,
+        "x0": 14.16,
+        "x1": 291.18
+      }
+    },
+    {
+      "id": "reading-43-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What important point about learning sociology does the writer make in paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        559
+      ],
+      "sourceBlockIds": [
+        "page-559-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 654.37,
+        "x0": 14.16,
+        "x1": 517.56
+      }
+    },
+    {
+      "id": "reading-43-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer mention government policies?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        560
+      ],
+      "sourceBlockIds": [
+        "page-560-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 313.45
+      }
+    },
+    {
+      "id": "reading-43-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        560
+      ],
+      "sourceBlockIds": [
+        "page-560-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 208.13,
+        "x0": 14.16,
+        "x1": 239.24
+      }
+    },
+    {
+      "id": "reading-43-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "What does paragraph (4) say about biotechnology and genetic engineering?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        560
+      ],
+      "sourceBlockIds": [
+        "page-560-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 689.65,
+        "x0": 14.16,
+        "x1": 454.1
+      }
+    },
+    {
+      "id": "reading-43-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What can be used to fight human disease?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        561
+      ],
+      "sourceBlockIds": [
+        "page-561-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 260.34
+      }
+    },
+    {
+      "id": "reading-43-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the word “also” in paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        561
+      ],
+      "sourceBlockIds": [
+        "page-561-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 208.13,
+        "x0": 14.16,
+        "x1": 354.17
+      }
+    },
+    {
+      "id": "reading-43-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer think about the dangers of genetically modified foods?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        561
+      ],
+      "sourceBlockIds": [
+        "page-561-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 345.68,
+        "x0": 14.16,
+        "x1": 459.76
+      }
+    },
+    {
+      "id": "reading-43-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "What may suppress the immune system?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        562
+      ],
+      "sourceBlockIds": [
+        "page-562-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 244.97,
+        "x0": 14.16,
+        "x1": 253.5
+      }
+    },
+    {
+      "id": "reading-43-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What was the effect of sleep deprivation on Randy Gardner?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        562
+      ],
+      "sourceBlockIds": [
+        "page-562-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 382.52,
+        "x0": 14.16,
+        "x1": 366.37
+      }
+    },
+    {
+      "id": "reading-43-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "In 1996, what was the percentage of female Jordanian nationals ages 25-29?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        563
+      ],
+      "sourceBlockIds": [
+        "page-563-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 476.02,
+        "x0": 14.16,
+        "x1": 458.05
+      }
+    },
+    {
+      "id": "reading-43-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "In 1996, 17% of male Saudis were between which ages?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        563
+      ],
+      "sourceBlockIds": [
+        "page-563-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 593.98,
+        "x0": 14.16,
+        "x1": 337.0
+      }
+    },
+    {
+      "id": "reading-43-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "What starts the movement of a watch?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        565
+      ],
+      "sourceBlockIds": [
+        "page-565-line-31"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 562.9,
+        "x0": 14.16,
+        "x1": 241.61
+      }
+    },
+    {
+      "id": "reading-43-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "What controls the release of energy in a mechanical watch?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        565
+      ],
+      "sourceBlockIds": [
+        "page-565-line-36"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 700.57,
+        "x0": 14.16,
+        "x1": 361.03
+      }
+    },
+    {
+      "id": "reading-43-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "Which two types provide timed electric-drive pulses?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        566
+      ],
+      "sourceBlockIds": [
+        "page-566-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 323.16
+      }
+    },
+    {
+      "id": "reading-43-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "What idea does the expression ‘personal accomplishments’ repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        567
+      ],
+      "sourceBlockIds": [
+        "page-567-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 468.7,
+        "x0": 14.16,
+        "x1": 407.01
+      }
+    },
+    {
+      "id": "reading-43-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following does the writer say is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        567
+      ],
+      "sourceBlockIds": [
+        "page-567-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 586.54,
+        "x0": 14.16,
+        "x1": 315.0
+      }
+    },
+    {
+      "id": "reading-43-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "How is the Western culture’s view of happiness different from the Eastern culture’s view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        567
+      ],
+      "sourceBlockIds": [
+        "page-567-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 704.53,
+        "x0": 14.16,
+        "x1": 535.84
+      }
+    },
+    {
+      "id": "reading-43-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about Western cultures from paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        568
+      ],
+      "sourceBlockIds": [
+        "page-568-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 420.59
+      }
+    },
+    {
+      "id": "reading-43-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about cultures from paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        568
+      ],
+      "sourceBlockIds": [
+        "page-568-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 227.81,
+        "x0": 14.16,
+        "x1": 367.56
+      }
+    },
+    {
+      "id": "reading-43-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "Passage A: What is a computer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        568
+      ],
+      "sourceBlockIds": [
+        "page-568-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 411.41,
+        "x0": 226.25,
+        "x1": 369.09
+      }
+    },
+    {
+      "id": "reading-43-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "What do passages A and B say about the CPU?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        569
+      ],
+      "sourceBlockIds": [
+        "page-569-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 136.85,
+        "x0": 14.16,
+        "x1": 282.91
+      }
+    },
+    {
+      "id": "reading-43-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from passages A and B about memory?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        569
+      ],
+      "sourceBlockIds": [
+        "page-569-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 274.4,
+        "x0": 14.16,
+        "x1": 390.61
+      }
+    },
+    {
+      "id": "reading-43-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from passages A and B about hardware?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        569
+      ],
+      "sourceBlockIds": [
+        "page-569-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 412.04,
+        "x0": 14.16,
+        "x1": 398.04
+      }
+    },
+    {
+      "id": "reading-43-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from the passages about software?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        569
+      ],
+      "sourceBlockIds": [
+        "page-569-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 549.58,
+        "x0": 14.16,
+        "x1": 368.22
+      }
+    }
+  ]
+}

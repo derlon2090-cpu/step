@@ -1,0 +1,101 @@
+{
+  "readingId": "reading-14",
+  "questions": [
+    {
+      "id": "reading-14-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "\" They \" refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        157
+      ],
+      "sourceBlockIds": [
+        "page-157-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 137.45,
+        "x0": 14.4,
+        "x1": 157.76
+      }
+    },
+    {
+      "id": "reading-14-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "What are the uses of gold?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        159
+      ],
+      "sourceBlockIds": [
+        "page-159-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 278.72,
+        "x0": 14.4,
+        "x1": 213.87
+      }
+    },
+    {
+      "id": "reading-14-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "\"Their\" refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        160
+      ],
+      "sourceBlockIds": [
+        "page-160-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 453.24,
+        "x0": 172.82,
+        "x1": 418.38
+      }
+    },
+    {
+      "id": "reading-14-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "Traditional food?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        160
+      ],
+      "sourceBlockIds": [
+        "page-160-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 619.21,
+        "x0": 14.4,
+        "x1": 196.46
+      }
+    }
+  ]
+}

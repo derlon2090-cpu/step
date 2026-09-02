@@ -1,0 +1,490 @@
+{
+  "readingId": "reading-37",
+  "sourceQuestionBlocks": 11,
+  "questions": [
+    {
+      "id": "reading-37-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What is a Network? ما هي الشبكة؟",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 463,
+      "sourceLine": 32,
+      "sourcePages": [
+        463,
+        464
+      ],
+      "rawBlock": "What is a Network? ما هي الشبكة؟ \nProbability and Randomness الاحتمالية والعشوائية \nThe Food waste problem مشكلة هدر الغذاء  \nZero-Waste Supermarkets (Starbucks) \nسوبر ماركت صفر نفايات (ستاربكس  \nرسم بياني  عن استهلاك الشاي  \nWashington DC واشنطن العاصمة \nNiagara Falls شلالات نياجرا  \nDepression and mood disorder الاكتئاب واضطراب المزاج  \nStrange Substance مادة غريبة \nعناوين النموذج 73\n463 \nGiant panda     باندا ضخمة \nAccording to Paragraph (2), why do the Chinese zookeepers want Mei Lan to learn \nChinese? \nso that she can speak with her caretakers \nso that she will feel at home in China \nso that she can forget her English \nso that she will like her new diet \nوفقًا للفقرة2) ، لماذا يريد حراس الحديقة الصينيون أن تتعلم مي لان اللغة الصينية؟ \nحتى تتمكن من التحدث مع القائمين على رعايتها  \n حتى تشعر وكأنها في وطنها في الصين  \nحتى تتمكن من نسيان لغتها الإنجليزية  \nحتى تحب نظامها الغذائي الجديد  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 464,
+      "sourceLine": 17,
+      "sourcePages": [
+        464,
+        465
+      ],
+      "rawBlock": "According to Paragraph (2), Where has Mei Lan been living? \nin the Chengdu Panda Research Center \nin an American research center \nin Atlanta, Georgia \nin Sichuan, China \nوفقًا للفقرة2) ، أين كانت مي لان تعيش؟ \n في مركز أبحاث تشنغدو باندا \nفي مركز أبحاث أمريكي  \nفي أتلانتا ، جورجيا  \n في سيتشوان ، الصين  \nStars    النجوم \nThe pronoun it in Paragraph (1) refers to the ……………………..  \nphotograph  \nexposure  \ncamera  \nstar  \nالضمير في الفقرة1) يشير إلى \nتصوير  \nالتعرض  \nآلة تصوير  \nنجمة\n464 \nThe word brighter in Paragraph (3) is closest in meaning to ……………..  \nmore colorful  \nmore shiny  \nsmaller  \nlarger  \nالكلمة أكثر إشراقًا في الفقرة 3) هي الأقرب في المعنى إلى \nبألوان أكثر  \nأكثر لمعانًا  \nالأصغر  \nأكبر ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "Which of the following colors is NOT mentioned in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 465,
+      "sourceLine": 17,
+      "sourcePages": [
+        465
+      ],
+      "rawBlock": "Which of the following colors is NOT mentioned in the passage? \ngreen \nyellow \nblue \nred \nأي من الألوان التالية لم يرد ذكره في المقطع؟ \nلون أخضر  \nالأصفر  \nأزرق \nأحمر ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "What is a Network? ما هي الشبكة؟",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 465,
+      "sourceLine": 31,
+      "sourcePages": [
+        465
+      ],
+      "rawBlock": "What is a Network? ما هي الشبكة؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What is a three-letter acronym called?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 465,
+      "sourceLine": 37,
+      "sourcePages": [
+        465,
+        466
+      ],
+      "rawBlock": "What is a three-letter acronym called? \nما هو الاسم المختصر المكون من ثلاثة أحرف يسمى؟  \nETLA  \nTLA\n465 \nLAN  \nFTA  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What is a four-letter acronym called?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 466,
+      "sourceLine": 5,
+      "sourcePages": [
+        466
+      ],
+      "rawBlock": "What is a four-letter acronym called? \nما هو الاسم المختصر المكون من أربعة أحرف يسمى؟  \nAWOL  \nLAN  \nFLA  \nETLA  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What is a \"node\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 466,
+      "sourceLine": 12,
+      "sourcePages": [
+        466
+      ],
+      "rawBlock": "What is a \"node\"?  \na computer that is offline  \na computer that is broken  \na computer on the network  \na computer Working correctly \nما هينقطة لقاء \"؟  \nجهاز كمبيوتر غير متصل بالإنترنت  \nجهاز كمبيوتر مكسور  \nجهاز كمبيوتر على الشبكة  \nجهاز كمبيوتر يعمل بشكل صحيح  \nProbability and Randomness الاحتمالية والعشوائية \nWhat is one important idea related to \"randomness\" that the writer mentions in Paragraph \n(3)?  \ninterpretation \nprobability  \ndoubt  \nmath  \nما هي إحدى الأفكار المهمة المتعلقة بـ \"العشوائية\" التي ذكرها الكاتب في الفقرة3)؟ \nتفسير  \nاحتمالا  \nشك \nالرياضيات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What is one important idea related to probability that the writer mentions in Paragraph (4) ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 466,
+      "sourceLine": 39,
+      "sourcePages": [
+        466,
+        467
+      ],
+      "rawBlock": "What is one important idea related to probability that the writer mentions in Paragraph (4) ?\n466 \ninterpretation  \nexperiment  \nknowledge  \nresult \nما هي إحدى الأفكار المهمة المتعلقة بالاحتمال التي ذكرها الكاتب في الفقرة4)؟ \nتفسير  \nتجربة  \nمعرفة \nنتيجة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "What point does the writer try to support with the example of the coin toss?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 467,
+      "sourceLine": 13,
+      "sourcePages": [
+        467
+      ],
+      "rawBlock": "What point does the writer try to support with the example of the coin toss? \nOutcome is random. \nProbability is always 50%. \nPredicting outcome is easy. \nFrequency increases probability. \nما النقطة التي يحاول الكاتب دعمها بمثال رمي العملة؟ \nالنتيجة عشوائية.  \nالاحتمال دائما 50 .% \nمن السهل توقع النتيجة \nالتردد يزيد الاحتمال.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "What idea related to probability does the writer mention?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 467,
+      "sourceLine": 25,
+      "sourcePages": [
+        467,
+        468
+      ],
+      "rawBlock": "What idea related to probability does the writer mention? \nIt exists in all parts of our daily lives. \nIt creates outcomes that are certain. \nIt allows us to analyze randomness. \nIt limits knowledge about outcome. \nما هي الفكرة المتعلقة بالاحتمال التي يذكرها الكاتب؟ \nإنه موجود في جميع أنحاء حياتنا اليومية.  \nإنها تخلق نتائج مؤكدة.  \nيسمح لنا بتحليل العشوائية.  \nيحد من المعرفة حول النتيجة.  \nThe Food waste problem مشكلة هدر الغذاء\n467 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (2) say about restaurants and stores?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 468,
+      "sourceLine": 2,
+      "sourcePages": [
+        468
+      ],
+      "rawBlock": "What does Paragraph (2) say about restaurants and stores? \nThey forget about the food they buy. \nThey are the biggest cause of illness from food. \nThey give food they will NOT use to poor and hungry people. \nThey throw away food that is no longer fresh to protect people. \nماذا تقول الفقرة2) عن المطاعم والمتاجر؟ \nينسون الطعام الذي يشترونه.  \nهم أكبر سبب للمرض من الغذاء. \nيعطون الطعام الذي لن يستخدموه للفقراء والجوعى.  \nيرمون الطعام الذي لم يعد طازجًا لحماية الناس.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "How can restaurants and stores reduce food waste?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 468,
+      "sourceLine": 17,
+      "sourcePages": [
+        468
+      ],
+      "rawBlock": "How can restaurants and stores reduce food waste? \nby NOT preparing more food than they can sell \nby giving away food they will NOT use \nby making sure that all their food is fresh \nby selling the food at a discount before it is too old \nكيف يمكن للمطاعم والمتاجر أن تقلل من هدر الطعام؟ \nمن خلال عدم تحضير طعام أكثر مما يمكنهم بيعه  \nبالتخلي عن الطعام الذي لن يستخدموه  \nمن خلال التأكد من أن كل طعامهم طازج  \nببيع الطعام بسعر مخفض قبل أن يصبح قديمًا جدًا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "Which word can we use to replace the expression \"Most of the time\" in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 468,
+      "sourceLine": 31,
+      "sourcePages": [
+        468,
+        469
+      ],
+      "rawBlock": "Which word can we use to replace the expression \"Most of the time\" in Paragraph (2)? \nUsually \nHowever \nTherefore \nMeanwhile \nما هي الكلمة التي يمكننا استخدامها لتحل محل عبارة \"معظم الوقت\" في الفقرة2)؟ \nعادة  \nلكن  \nلذلك  \nفي أثناء\n468 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word \"also\" in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 469,
+      "sourceLine": 8,
+      "sourcePages": [
+        469
+      ],
+      "rawBlock": "Why does the writer use the word \"also\" in Paragraph (1)? \nto show where other food waste comes from. \nto show that food waste is different at restaurants and stores. \nto show that food waste from restaurants and stores are a result of people NOT eating food. \nto show that food waste from restaurants and stores is different from the waste that people throw away. \nلماذا يستخدم الكاتب كلمة \"أيضا\" في الفقرة1)؟ \nلإظهار مصدر نفايات الطعام الأخرى.  \nلتوضيح أن مخلفات الطعام تختلف في المطاعم والمتاجر.  \nلتوضيح أن نفايات الطعام من المطاعم والمتاجر ناتجة عن عدم تناول الأشخاص للطعام.  \nلإظهار أن نفايات الطعام من المطاعم والمتاجر تختلف عن النفايات التي يرميها الناس.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What does the writer think about restaurants and stores giving away food they DONT use?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 469,
+      "sourceLine": 22,
+      "sourcePages": [
+        469,
+        470
+      ],
+      "rawBlock": "What does the writer think about restaurants and stores giving away food they DONT use? \nIt could solve the problem. \nIt is good advertisement. \nIt will make people sick. \nIt wastes money. \nما رأي الكاتب في المطاعم والمتاجر التخلي عن الطعام الذي لا يستخدمونه؟ \nيمكن أن تحل المشكلة.  \nإنه إعلان جيد.  \nسوف يصيب الناس بالمرض. \nإنه يهدر المال.  \nZero-Waste Supermarkets (Starbucks) \nسوبر ماركت صفر نفايات (ستاربكس\n469 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What caused Starbucks to decrease the use of plastic straws?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 470,
+      "sourceLine": 4,
+      "sourcePages": [
+        470
+      ],
+      "rawBlock": "What caused Starbucks to decrease the use of plastic straws? \nincrease in the price of plastic. \nincrease in the number of dead fish. \nactivities supporting zero-waste supermarkets. \nactivities showing the negative effects of plastic. \nما الذي دفع ستاربكس إلى تقليل استخدام المصاصات البلاستيكية؟ \nزيادة سعر البلاستيك.  \nزيادة عدد الأسماك الميتة.  \nالأنشطة الداعمة لمحلات السوبر ماركت الخالية من النفايات.  \nالأنشطة التي تظهر الآثار السلبية للبلاستيك.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What led to increased difficulty in recycling plastic packages since 2018?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 470,
+      "sourceLine": 16,
+      "sourcePages": [
+        470,
+        471
+      ],
+      "rawBlock": "What led to increased difficulty in recycling plastic packages since 2018? \nUnited States producing over a quarter of the World's waste. \nsupermarkets NOT following the zero-waste system. \nChina refusing waste from other countries. \nfactories sending their waste to the ocean. \nما الذي أدى إلى زيادة صعوبة إعادة تدوير العبوات البلاستيكية منذ عام2018؟ \nالولايات المتحدة تنتج أكثر من ربع نفايات العالم.  \nمحلات السوبر ماركت لا تتبع نظام صفر نفايات.  \nالصين ترفض النفايات من دول أخرى.  \nالمصانع ترسل نفاياتها إلى المحيط.  \nThe word adverse in Paragraph (4) is closest in meaning to \npossible \nnegative \ndirect \nimportant \nكلمة \"ضار\" في الفقرة4) هي الأقرب من حيث المعنى \nممكن  \nسلبي  \nمباشر  \nمهم  \nThe word purchase in Paragraph (1) is closest in meaning to \nmake \nsell\n470 \nbuy \ndesign \nكلمة شراء في الفقرة1) هي الأقرب في المعنى ل  \nيصنع  \nيبيع  \nيشتري  \nتصميم  \nي \nرسم بيان  عن استهلاك الشاي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "Which of the following countries had the highest tea consumption in 2016?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 471,
+      "sourceLine": 21,
+      "sourcePages": [
+        471
+      ],
+      "rawBlock": "Which of the following countries had the highest tea consumption in 2016? \nأي من الدول التالية كان لديها أعلى استهلاك للشاي في عام2016؟ \nIndia \nIreland \nSaudi Arabia \nUnited Kingdom ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "Which country had an annual tea consumption over 5 pounds per person in 2016?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 471,
+      "sourceLine": 32,
+      "sourcePages": [
+        471,
+        472
+      ],
+      "rawBlock": "Which country had an annual tea consumption over 5 pounds per person in 2016?\n471 \nما هي الدولة التي كان استهلاكها السنوي للشاي يزيد عن5  جنيهات للفرد في عام2016؟ \nTurkey \nRussia \nIreland \nChina \nWashington DC واشنطن العاصمة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "What buildings form the Federal Triangle?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 472,
+      "sourceLine": 13,
+      "sourcePages": [
+        472
+      ],
+      "rawBlock": "What buildings form the Federal Triangle? \nthe Capitol, Washington Monument, and White House \nthe White House, House of Representatives, and Library of Congress \nthe Washington Monument, Lincoln Memorial, and Smithsonian Institution \nthe Chamber of Commerce, Lincoln Memorial, and House of Representatives \nما هي المباني التي تشكل المثلث الفيدرالي؟ \nمبنى الكابيتول ونصب واشنطن والبيت الأبيض  \nالبيت الأبيض ومجلس النواب ومكتبة الكونغرس  \nنصب واشنطن ، نصب لنكولن التذكاري ، ومؤسسة سميثسونيان  \nالغرفة التجارية ، نصب لنكولن التذكاري ، ومجلس النواب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "What are two examples of Washington's nearly 500 libraries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 472,
+      "sourceLine": 26,
+      "sourcePages": [
+        472
+      ],
+      "rawBlock": "What are two examples of Washington's nearly 500 libraries? \nthe Capitol Hill Library and the Library of Congress \nthe Library of Congress and the National Medical Library \nthe National Public Library and the National Medical Library \nThe Children's Museums collection and the National Public Library \nما هما مثالان على ما يقرب من500 مكتبة في واشنطن؟ \nمكتبة الكابيتول هيل ومكتبة الكونغرس  \nمكتبة الكونغرس والمكتبة الطبية الوطنية  \nالمكتبة الوطنية العامة والمكتبة الطبية الوطنية  \nمجموعة متاحف الأطفال والمكتبة العامة الوطنية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "In addition to Pierre L'Enfant, who were the planners of Washington D.C.?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 472,
+      "sourceLine": 39,
+      "sourcePages": [
+        472,
+        473,
+        474
+      ],
+      "rawBlock": "In addition to Pierre L'Enfant, who were the planners of Washington D.C.?\n472 \nبالإضافة إلى بيير لينفانت ، من كانوا مخططي واشنطن العاصمة؟ \nMajor Andrew Ellicott and Benjamin Banneker \nBenjamin Banneker and George Washington \nGeorge Washington and Thomas Jefferson \nMajor Andrew Ellicott and Thomas Jefferson \nNiagara Falls شلالات نياجرا  \nThe word feat in Paragraph (3) is closest in meaning to \nstunt \ncrime \nprotest \ncompetition \nكلمة الفذ في الفقرة3) هي الأقرب من حيث المعنى \nحيلة  \nجريمة  \nيعترض  \nمسابقة  \nThe word retrieved in Paragraph (3) is closest in meaning to \ndestroyed \nlocated \ndelivered \nrecovered \nالكلمة أنقذ في الفقرة3) هي الأقرب في المعنى \nدمرت \nتقع  \nتم التوصيل  \nتعافى  \nDepression and mood disorder الاكتئاب واضطراب المزاج\n473 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What can we understand about depression?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 474,
+      "sourceLine": 3,
+      "sourcePages": [
+        474
+      ],
+      "rawBlock": "What can we understand about depression? \nIt is very common in the USA. \nIt is a disease that affects mood. \nIt affects more men than women. \nIt changes expressions of feelings. \nما الذي يمكن أن نفهمه عن الاكتئاب؟ \nإنه شائع جدًا في الولايات المتحدة الأمريكية.  \nإنه مرض يؤثر على المزاج.  \nيصيب الرجال أكثر من النساء.  \nيغير تعبيرات المشاعر.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "when should a \"bad mood\" be considered depression?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 474,
+      "sourceLine": 13,
+      "sourcePages": [
+        474
+      ],
+      "rawBlock": "when should a \"bad mood\" be considered depression? \nIf it results in difficulty concentrating. \nIf it needs medical treatment. \nIf it results in changes in weight. \nIf it occurs with oversleeping and anxiety. \nمتى يجب اعتبار \"المزاج السيئ\" كآبة؟ \nإذا نتج عن ذلك صعوبة في التركيز.  \nإذا كانت بحاجة إلى علاج طبي.  \nإذا نتج عن ذلك تغيرات في الوزن.  \nإذا حدث ذلك مع كثرة النوم والقلق.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "what usually accompanies depression?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 474,
+      "sourceLine": 26,
+      "sourcePages": [
+        474
+      ],
+      "rawBlock": "what usually accompanies depression? \nLack of energy \nInability to concentrate \nFeelings of pain and guilt \nThoughts of suicide and death \nما الذي يصاحب الاكتئاب عادة؟ \nنقص الطاقة  \nعدم القدرة على التركيز  \nالشعور بالألم والذنب  \nخواطر انتحار وموت  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-37-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "What can we understand about the treatment of depression?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 474,
+      "sourceLine": 39,
+      "sourcePages": [
+        474,
+        475,
+        476,
+        477,
+        478,
+        479
+      ],
+      "rawBlock": "What can we understand about the treatment of depression? \nIt involves drugs.\n474 \nIt might NOT be necessary. \nIt includes psychotherapy. \nIt can be done in various ways. \nماذا يمكن أن نفهم عن علاج الاكتئاب؟ \nأنها تنطوي على الدواء.  \nقد لا يكون ذلك ضروريا.  \nيشمل العلاج النفسي.  \nيمكن أن يتم ذلك بطرق مختلفة.  \nStrange Substance مادة غريبة \n1) A mysterious, orange, sticky gel, found on the beaches of Kivalina, a village situated on the Alaskan \ncoast between Kotzebue and Point Hope, was recently the source of much interest. Many people thought \nthat the sticky gel was some strange compound that had spread as a result of a chemical reaction. Others \nhad more farfetched ideas about the substance's origins ranging from aliens to volcanic remains.  \n(2) Scientists at an Alaskan laboratory have been busy analyzing the unknown substance. They have \nconcluded that it is a formation of microscopic eggs. One of the scientists said that there are traces of oil in \nthe eggs, and this is what is causing the strange, orange color.  \n(3) The scientists have discovered that the eggs belong to a small invertebrate – a spineless animal, but \nthey have not been able to identify the exact species. \nAccording to Paragraph (1), the strange, orange substance was found …….. \non the beaches of Kotzebue  \non the beaches of Point Hope  \nclose to a compound in Alaska  \nbetween Kotzebue and Point Hope \nحسب الفقرة1) تم العثور على المادة البرتقالية الغريبة \nعلى شواطئ Kotzebue \nعلى شواطئ بوينت هوب \nبالقرب من مجمع في ألاسكا  \nبين Kotzebue وPoint Hope\n475 \nThe word far-fetched in Paragraph (1) is closest in meaning to …………. \ndifficult to believe  \neasy to believe  \ndefinite  \nclear \nكلمة بعيدة المنال في الفقرة1) هي الأقرب في المعنى إلى \nمن الصعب تصديقه  \nمن السهل تصديقه  \nواضح  \nصافي  \nThe word it in Paragraph (2) refers to ………….  \ntraces of oil  \na microscope  \nthe unknown substance  \none of Alaska's laboratories \nتشير الكلمة الواردة في الفقرة2) إلى \nاثار زيت  \nمجهر \nمادة غير معروفة  \nأحد مختبرات ألاسكا  \nالتجميعات هذه لوجه الله ولا نستفيد أي شيء و لا نتبع لأي منصة   \nالله لا يوفق كل من استخدم تجميعاتنا أو سرق منها خاصة الحرامي النصاب دورته ب 1300\n476 \nبخصوص المواد العلمية المعروضة في قناة التجميعات، انا لا أحلل ولا أبيح أي سطو او تعدي عليها يحصل من  \nقبل شخص ما وسيكون محاسبا أمام الله  في يوم لا ينفع فيه مال ولا جاه ولا  بنون في حال استخدامها من غير  \nاستئذان في مؤلفات خاصة وأغراض مادية ، أو شخصية كدورات تعليمية، أو مقابل مبلغ مالي  ،او  بي عها بطرق  \nمختلفة أو التسويق لدورات بأخذ التجميعات وعرضها كأنها من جهدهم   \nوشكرا للمشرفين والمشرفات الذين يخدمون بدون مقابل ولجميع من يساعد\n477 \nالتجميعات هذه لوجه الله ولا نستفيد أي شيء و لا نتبع لأي منصة \nالله لا يوفق كل من استخدم تجميعاتنا أو سرق منها خاصة الحرامي النصاب دورته ب 1300 \nبخصوص المواد العلمية المعروضة في قناة التجميعات، انا لا أحلل ولا أبيح أي سطو او تعدي عليها يحصل من  \nقبل شخص ما وسيكون محاسبا أمام الله  في يوم لا ينفع فيه مال ولا جاه ولا  بنون في حال استخدامها من غير  \nاستئذان في مؤلفات خاصة وأغراض مادية ، أو شخصية كدورات تعليمية، أو مقابل مبلغ مالي  ،او  بي عها بطرق  \nمختلفة أو التسويق لدورات بأخذ التجميعات وعرضها كأنها من جهدهم   \nوشكرا للمشرفين والمشرفات الذين يخدمون بدون مقابل ولجميع من يساعد\n478 \nالتجميعات هذه لوجه الله ولا نستفيد أي شيء و لا نتبع لأي منصة \nالله لا يوفق كل من استخدم تجميعاتنا أو سرق منها خاصة الحرامي النصاب دورته ب 1300 \nبخصوص المواد العلمية المعروضة في قناة التجميعات، انا لا أحلل ولا أبيح أي سطو او تعدي عليها يحصل من  \nقبل شخص ما وسيكون محاسبا أمام الله  في يوم لا ينفع فيه مال ولا جاه ولا  بنون في حال استخدامها من غير  \nاستئذان في مؤلفات خاصة وأغراض مادية ، أو شخصية كدورات تعليمية، أو مقابل مبلغ مالي  ،او  بي عها بطرق  \nمختلفة أو التسويق لدورات بأخذ التجميعات وعرضها كأنها من جهدهم   \nوشكرا للمشرفين والمشرفات الذين يخدمون بدون مقابل ولجميع من يساعد",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

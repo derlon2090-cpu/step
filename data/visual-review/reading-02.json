@@ -1,0 +1,817 @@
+{
+  "readingId": "reading-02",
+  "sourcePages": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "sourcePageRange": {
+    "start": 15,
+    "end": 23
+  },
+  "visualQuestionReviewStatus": "verified",
+  "firstReviewStatus": "verified",
+  "secondReviewStatus": "verified",
+  "questions": [
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 1,
+      "questionText": "What is the biggest star size?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        15
+      ],
+      "sourceBlockIds": [
+        "page-15-line-16"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 2,
+      "questionText": "What is the color that is not mentioned in the passage?",
+      "options": [
+        {
+          "label": null,
+          "text": "red"
+        },
+        {
+          "label": null,
+          "text": "yellow"
+        },
+        {
+          "label": null,
+          "text": "blue"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        15
+      ],
+      "sourceBlockIds": [
+        "page-15-line-18"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 3,
+      "questionText": "What is the best title of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        16
+      ],
+      "sourceBlockIds": [
+        "page-16-line-4"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 4,
+      "questionText": "What does the pronoun \"it\" refers to?",
+      "options": [
+        {
+          "label": null,
+          "text": "star"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        16
+      ],
+      "sourceBlockIds": [
+        "page-16-line-6"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 5,
+      "questionText": "Why are scientists shooting stars?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        16
+      ],
+      "sourceBlockIds": [
+        "page-16-line-8"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 6,
+      "questionText": "Time we need to take a photo in the night is?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        16
+      ],
+      "sourceBlockIds": [
+        "page-16-line-10"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 7,
+      "questionText": "What did not the author use in comparing among stars?",
+      "options": [
+        {
+          "label": null,
+          "text": "color"
+        },
+        {
+          "label": null,
+          "text": "size"
+        },
+        {
+          "label": null,
+          "text": "brightness"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        16
+      ],
+      "sourceBlockIds": [
+        "page-16-line-13"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 8,
+      "questionText": "What does (sufficient) mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        16
+      ],
+      "sourceBlockIds": [
+        "page-16-line-15"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 9,
+      "questionText": "What does (brighter) mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        16
+      ],
+      "sourceBlockIds": [
+        "page-16-line-17"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 10,
+      "questionText": "What is the nearest meaning for the word \"unlikely\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        17
+      ],
+      "sourceBlockIds": [
+        "page-17-line-3"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 11,
+      "questionText": "The pronoun ( These amazing creatures ) refers to ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        17
+      ],
+      "sourceBlockIds": [
+        "page-17-line-7"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 12,
+      "questionText": "What is the benefit of bees for the rest of creatures?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        17
+      ],
+      "sourceBlockIds": [
+        "page-17-line-9"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 13,
+      "questionText": "In which paragraph talked about how the scientists trained the bees?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        17
+      ],
+      "sourceBlockIds": [
+        "page-17-line-11"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 14,
+      "questionText": "What is the main idea of paragraph ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        17
+      ],
+      "sourceBlockIds": [
+        "page-17-line-13"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 15,
+      "questionText": "What is the meaning of ( optimist ) ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        17
+      ],
+      "sourceBlockIds": [
+        "page-17-line-15"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 16,
+      "questionText": "What did people discover about Mike?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        18
+      ],
+      "sourceBlockIds": [
+        "page-18-line-5"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 17,
+      "questionText": "Why was Mike tired or exhausted?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        18
+      ],
+      "sourceBlockIds": [
+        "page-18-line-7"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 18,
+      "questionText": "He went to help someone although he was tired; what was the problem he faced?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        18
+      ],
+      "sourceBlockIds": [
+        "page-18-line-10"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 19,
+      "questionText": "What did they do to extinguish to stop the fire?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        18
+      ],
+      "sourceBlockIds": [
+        "page-18-line-14"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 20,
+      "questionText": "what does the pronoun \"his courage\" refer to?",
+      "options": [
+        {
+          "label": null,
+          "text": "Mike"
+        },
+        {
+          "label": null,
+          "text": "Firefighters"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        18
+      ],
+      "sourceBlockIds": [
+        "page-18-line-20"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 21,
+      "questionText": "Flaming monster refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        19
+      ],
+      "sourceBlockIds": [
+        "page-19-line-3"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 22,
+      "questionText": "What does the word \"Greedy\" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        19
+      ],
+      "sourceBlockIds": [
+        "page-19-line-5"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 23,
+      "questionText": "It refers to?",
+      "options": [
+        {
+          "label": null,
+          "text": "smoke"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        19
+      ],
+      "sourceBlockIds": [
+        "page-19-line-7"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 24,
+      "questionText": "What is Ben's job?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        19
+      ],
+      "sourceBlockIds": [
+        "page-19-line-10"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 25,
+      "questionText": "Why did the Chinese teach the panda the language?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        19
+      ],
+      "sourceBlockIds": [
+        "page-19-line-13"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 26,
+      "questionText": "Who taught them the language?",
+      "options": [
+        {
+          "label": null,
+          "text": "Scientist"
+        },
+        {
+          "label": null,
+          "text": "professors"
+        },
+        {
+          "label": null,
+          "text": "the environment"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        19
+      ],
+      "sourceBlockIds": [
+        "page-19-line-16"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 27,
+      "questionText": "Where do they live?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        20
+      ],
+      "sourceBlockIds": [
+        "page-20-line-4"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 28,
+      "questionText": "Where does the panda live before being transported to China?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        20
+      ],
+      "sourceBlockIds": [
+        "page-20-line-6"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 29,
+      "questionText": "Which of the following is true?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        20
+      ],
+      "sourceBlockIds": [
+        "page-20-line-9"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 30,
+      "questionText": "Why is the \"liquid\" \"material\" orange?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        20
+      ],
+      "sourceBlockIds": [
+        "page-20-line-13"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 31,
+      "questionText": "What does the pronoun \"it\" refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        20
+      ],
+      "sourceBlockIds": [
+        "page-20-line-15"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 32,
+      "questionText": "What does far-fetched?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        20
+      ],
+      "sourceBlockIds": [
+        "page-20-line-17"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 33,
+      "questionText": "Where did they find the strange substance?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        20
+      ],
+      "sourceBlockIds": [
+        "page-20-line-19"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 34,
+      "questionText": "What is the nearest meaning of the word \"classify\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        21
+      ],
+      "sourceBlockIds": [
+        "page-21-line-5"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 35,
+      "questionText": "What is the nearest meaning of the word \"concluded\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        21
+      ],
+      "sourceBlockIds": [
+        "page-21-line-7"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 36,
+      "questionText": "According to Paragraph (1), which of the following is TRUE?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        22
+      ],
+      "sourceBlockIds": [
+        "page-22-line-21"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 37,
+      "questionText": "According to Paragraph (2), why was the eruption in 79AD so severe?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        23
+      ],
+      "sourceBlockIds": [
+        "page-23-line-3"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 38,
+      "questionText": "What do we understand from the pronoun \"we\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        23
+      ],
+      "sourceBlockIds": [
+        "page-23-line-7"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 39,
+      "questionText": "From Paragraph we understand that Pliny the Younger?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        23
+      ],
+      "sourceBlockIds": [
+        "page-23-line-9"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    },
+    {
+      "readingId": "reading-02",
+      "sourceQuestionNumber": null,
+      "displayOrder": 40,
+      "questionText": "What does \"retrospect\" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        23
+      ],
+      "sourceBlockIds": [
+        "page-23-line-13"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Compared against rendered source page in both visual passes; adjacent Arabic translation and underlined response were excluded."
+    }
+  ],
+  "duplicateTechnicalRecordsRemoved": 0,
+  "excludedCandidates": [],
+  "audit": {
+    "originalCandidates": 40,
+    "questionsDiscoveredDuringVisualReview": 0,
+    "actualQuestions": 40,
+    "verifiedQuestions": 40,
+    "requiresReviewQuestions": 0,
+    "nonQuestionRecordsExcluded": 0,
+    "duplicatesExcluded": 0
+  },
+  "reviewNotes": [
+    "First visual pass completed for source pages 15-23.",
+    "Second independent visual pass reconciled page order, prompt bounds, and option bounds.",
+    "All correctAnswer fields intentionally remain null; answerStatus is missing."
+  ]
+}

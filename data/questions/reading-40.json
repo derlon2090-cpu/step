@@ -1,0 +1,505 @@
+{
+  "readingId": "reading-40",
+  "sourceQuestionBlocks": 12,
+  "questions": [
+    {
+      "id": "reading-40-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 512,
+      "sourceLine": 20,
+      "sourcePages": [
+        512,
+        513
+      ],
+      "rawBlock": "According to Paragraph (2), Where has Mei Lan been living? \nin the Chengdu Panda Research Center \nin an American research center \nin Atlanta, Georgia \nin Sichuan, China \nوفقًا للفقرة2) ، أين كانت مي لان تعيش؟ \n في مركز أبحاث تشنغدو باندا \nفي مركز أبحاث أمريكي  \nفي أتلانتا ، جورجيا  \n في سيتشوان ، الصين  \nStars    النجوم \nThe pronoun it in Paragraph (1) refers to the ……………………..  \nphotograph  \nexposure  \ncamera  \nstar  \nالضمير في الفقرة1) يشير إلى \nتصوير  \nالتعرض  \nآلة تصوير  \nنجمة\n512 \nThe word brighter in Paragraph (3) is closest in meaning to ……………..  \nmore colorful  \nmore shiny  \nsmaller  \nlarger  \nالكلمة أكثر إشراقًا في الفقرة 3) هي الأقرب في المعنى إلى \nبألوان أكثر  \nأكثر لمعانًا  \nالأصغر  \nأكبر ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "Which of the following colors is NOT mentioned in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 513,
+      "sourceLine": 17,
+      "sourcePages": [
+        513,
+        514
+      ],
+      "rawBlock": "Which of the following colors is NOT mentioned in the passage? \ngreen \nyellow \nblue \nred \nأي من الألوان التالية لم يرد ذكره في المقطع؟ \nلون أخضر  \nالأصفر  \nأزرق \nأحمر \nAtmospheric circulation دوران الغلاف الجوي  \nالقطعة بدون عنوان في الاختبار \n1) Atmospheric circulation is the movement of air across the planet, and this occurs in a pattern. The Equator is the hottest \npart of the Earth. When air rises at the Equator, this leads to low pressure and rainfall. When the air reaches the edge of the \natmosphere, it is unable to go any further and so it travels to the north and south. The air becomes cold and then falls, \ncreating high pressure and dry conditions at around 30º north and south of the Equator. Large cells of air are created in this \nway. Air rises again at around 60º north and south and descends again around 90° north and south.  \n(2) Global atmospheric circulation creates winds across the planet and leads to areas of high rainfall, like tropical rainforests, \nand areas of dry air, like deserts. Another example is a tropical cyclone which is a very powerful low-pressure weather system \nwhich results in strong winds (over 120 km/h) and heavy rainfall (up to 250 mum is one day). Tropical cyclones have different\n513 \nnames depending on where they occur in the world. In the US and the Caribbean they are known as hurricanes, in South Asia-\ncyclones, in East Asia- typhoons. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 514,
+      "sourceLine": 6,
+      "sourcePages": [
+        514
+      ],
+      "rawBlock": "What is the writer's main purpose?  \nTo explain  \nTo argue  \nTo convince  \nTo study geography  \nما هو الهدف الرئيسي للكاتب؟ \nلشرح \nليجادل \nللإقناع  \nلدراسة الجغرافيا ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 514,
+      "sourceLine": 18,
+      "sourcePages": [
+        514
+      ],
+      "rawBlock": "What is one important idea that the writer mentions?  \nAir moves in patterns  \nThere is No air in space  \nCold air makes high pressure  \nAll air movement starts at the Equator.  \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب؟ \nيتحرك الهواء في أنماط  \nلا يوجد هواء في الفضاء  \nالهواء البارد يصنع ضغطًا مرتفعًا  \nتبدأ كل حركات الهواء عند خط الاستواء.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 514,
+      "sourceLine": 30,
+      "sourcePages": [
+        514,
+        515
+      ],
+      "rawBlock": "What is one important idea that the writer mentions?  \nTropical rainstorms have different names.  \nForests with heavy rainfall are called rainforests  \nLow air pressure makes strong winds and heavy rainfalls.  \nWinds moving across the planet produce areas of high rainfall and dry air. \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب؟ \nالعواصف المطيرة الاستوائية لها أسماء مختلفة.  \nتسمى الغابات ذات الأمطار الغزيرة بالغابات المطيرة  \nيتسبب الضغط الجوي المنخفض في حدوث رياح قوية وهطول أمطار غزيرة.  \nتنتج الرياح التي تتحرك عبر الكوكب مناطق من الأمطار الغزيرة والهواء الجاف.\n514 \nNon-store Retailing البيع بالتجزئة خارج المتجر ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What reversed expectation about online retail almost overnight?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 515,
+      "sourceLine": 6,
+      "sourcePages": [
+        515
+      ],
+      "rawBlock": "What reversed expectation about online retail almost overnight?  \nThe dot-com meltdown of 2000.  \nThe brash Web sellers.  \nConsumers’ love of malls  \nThe stodgy “old economy”  \nما الذي عكس التوقعات حول البيع بالتجزئة عبر الإنترنت بين عشية وضحاها؟ \nانهيار الدوت كوم عام 2000 . \nبائعو الويب المتهورون \nحب المستهلكين للمراكز التجارية  \n\"الاقتصاد القديم\" الضخم  \nWhat percentage of shoppers research products online before going to a store to buy \nthem?  \nما النسبة المئوية للمتسوقين الذين يبحثون عن المنتجات عبر الإنترنت قبل الذهاب إلى المتجر لشرائها؟ \n30  \n62  \n80  \n95  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What is one example of a brick-and-mortar retailer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 515,
+      "sourceLine": 27,
+      "sourcePages": [
+        515
+      ],
+      "rawBlock": "What is one example of a brick-and-mortar retailer? \nما هو أحد الأمثلة على بائع تجزئة بالطوب والهاون؟   \nTravelocity  \nExpedia  \nBest-Buy  \nShopzilla ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What percentage of the top 500 online retail sites were multichannel retailers?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 515,
+      "sourceLine": 35,
+      "sourcePages": [
+        515,
+        516
+      ],
+      "rawBlock": "What percentage of the top 500 online retail sites were multichannel retailers? \nما النسبة المئوية لأفضل500 موقع للبيع بالتجزئة عبر الإنترنت كانت تجار تجزئة متعدد القنوات؟ \n11  \n55  \n79  \n800\n515 \nYellowstone National Park منتزه يلوستونالوطني  \nWhat is one important ides related to the disappearance of wolves that the writer mentions ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 516,
+      "sourceLine": 6,
+      "sourcePages": [
+        516
+      ],
+      "rawBlock": "in Paragraph (2)?  \nIt had negative effects on the park ecosystem  \nWolves were found in Canada  \nThe authorities started hunting elks  \nThe park managers made a new policy.  \nما هي الجوانب المهمة المتعلقة باختفاء الذئاب التي ذكرها الكاتب في الفقرة2)؟ \nكان لها آثار سلبية على النظام البيئي للمنتزه  \nتم العثور على الذئاب في كندا  \nبدأت السلطات في صيد الأيائل  \nقام مديرو الحديقة بوضع سياسة جديدة.  \nWhat is one important idea related to the reintroduction of wolves that the writer mentions ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 516,
+      "sourceLine": 19,
+      "sourcePages": [
+        516
+      ],
+      "rawBlock": "in Paragraph (3)?  \nThe number of songbird species has grown.  \nHumans hunted too many wolves in 1926.  \nThe park authorities tried hunting elk  \nThere were positive changes in the park.  \nما هي إحدى الأفكار المهمة المتعلقة بإعادة تقديم الذئاب التي ذكرها الكاتب في الفقرة3)؟ \nازداد عدد أنواع الطيور المغردة. \nاصطاد البشر الكثير من الذئاب في عام  1926 . \nحاولت سلطات الحديقة صيد الأيائل \nكانت هناك تغييرات إيجابية في الحديقة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "What are scavengers an example of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 516,
+      "sourceLine": 31,
+      "sourcePages": [
+        516,
+        517
+      ],
+      "rawBlock": "What are scavengers an example of?  \nanimals that feed on willows  \nanimals that live in aspen stands  \nanimals that benefited from the return of wolves  \nanimals that were brought to the park from Canada  \nما هو مثال على الزبالين في القطعة؟ \n الحيوانات التي تتغذى على الصفصاف  \nالحيوانات التي تعيش في ساحات الحور الرجراج  \nالحيوانات التي استفادت من عودة الذئاب  \nالحيوانات التي تم إحضارها إلى الحديقة من كندا\n516 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 517,
+      "sourceLine": 2,
+      "sourcePages": [
+        517
+      ],
+      "rawBlock": "What is the main topic of the passage?  \nThe park visitors were happy with the return of wolves.  \nThe new policy by the US government saved the park.  \nThe return of wolves benefitted the park ecosystem.  \nThe return of wolves had bad effects on several animals in the park. \nما هو الموضوع الرئيسي للمقطع؟ \nكان زوار الحديقة سعداء بعودة الذئاب.  \nالسياسة الجديدة من قبل حكومة الولايات المتحدة أنقذت الحديقة.  \nعودة الذئاب استفاد منه النظام البيئي للمنتزه.  \nكان لعودة الذئاب آثار سيئة على العديد من الحيوانات في الحديقة.  \nplastic waste النفايات البلاستيكية  \nالقطعة بدون عنوان في الاختبار ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (1) say about plastic waste?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 517,
+      "sourceLine": 19,
+      "sourcePages": [
+        517
+      ],
+      "rawBlock": "What does Paragraph (1) say about plastic waste?  \nPlastic is liked for its low cost and many uses.  \nPlastic is good because it DOES NOT break down easily.  \nBy 2050, there will be more plastic than fish in the oceans.  \nPlastic waste creates a lot of problems for the planet and its animals. \nماذا تقول الفقرة1) عن النفايات البلاستيكية؟ \nالبلاستيك محبوب لتكلفته المنخفضة واستخداماته المتعددة.  \nالبلاستيك جيد لأنه لا يتحلل بسهولة.  \nبحلول عام 2050 ، سيكون هناك بلاستيك أكثر من الأسماك في المحيطات \nتخلق النفايات البلاستيكية الكثير من المشاكل لكوكب الأرض وحيواناته.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "How did the government of Ireland reduce the use of single-use plastic shopping bags?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 517,
+      "sourceLine": 33,
+      "sourcePages": [
+        517,
+        518
+      ],
+      "rawBlock": "How did the government of Ireland reduce the use of single-use plastic shopping bags?  \nThey stopped the use of single-use shopping bags.  \nThey introduced a charge for single-use shopping bags.  \nThey allowed the use of paper bags that break down easier that plastic ones.  \nكيف قللت حكومة أيرلندا من استخدام أكياس التسوق البلاستيكية ذات الاستخدام الواحد؟ \nتوقفوا عن استخدام أكياس التسوق ذات الاستخدام الواحد.  \nلقد فرضوا رسومًا على أكياس التسوق ذات الاستخدام الواحد.  \nسمحوا باستخدام الأكياس الورقية التي تتحلل بشكل أسهل من الأكياس البلاستيكية.\n517 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word \"Moreover\" in paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 518,
+      "sourceLine": 3,
+      "sourcePages": [
+        518
+      ],
+      "rawBlock": "Why does the writer use the word \"Moreover\" in paragraph (1)?  \nTo give examples of the types of plastic pollution.  \nTo show that the animals are hurt a result of pollution.  \nTo give more information about the problem of plastic pollution.  \nTo show that visual pollution is different from other kinds of pollution.  \nلماذا يستخدم الكاتب كلمة \"علاوة على ذلك\" في الفقرة1)؟ \nلإعطاء أمثلة على أنواع التلوث البلاستيكي.  \nإظهار إصابة الحيوانات نتيجة التلوث.  \nلإعطاء المزيد من المعلومات حول مشكلة التلوث البلاستيكي.  \nإظهار أن التلوث البصري يختلف عن أنواع التلوث الأخرى.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word \"as a result\" in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 518,
+      "sourceLine": 16,
+      "sourcePages": [
+        518
+      ],
+      "rawBlock": "Why does the writer use the word \"as a result\" in Paragraph (1)?  \nto let readers know the list of everything that happened.  \nto give more information about the problem of plastic pollution.  \nto show that the fish and birds got sick from eating the plastic pieces.  \nto give examples of what happened to the plastic after breaking up into small pieces.  \nلماذا يستخدم الكاتب كلمة \"نتيجة\" في الفقرة1)؟ \nلإعلام القراء بقائمة كل ما حدث. \nلإعطاء المزيد من المعلومات حول مشكلة التلوث البلاستيكي.  \nلتوضيح أن الأسماك والطيور مرضت من أكل القطع البلاستيكية.  \nلإعطاء أمثلة لما حدث للبلاستيك بعد انقسامه إلى قطع صغيرة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What does the writer think about the efforts to reduce plastic pollution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 518,
+      "sourceLine": 29,
+      "sourcePages": [
+        518,
+        519
+      ],
+      "rawBlock": "What does the writer think about the efforts to reduce plastic pollution?  \nThe writer believes the efforts are helpful.  \nThe writer believes the efforts are NOT doing much.  \nThe writer believes that more countries need to take action.  \nThe writer is NOT sure about the efforts as hundreds of millions of bags are still thrown out \nin Ireland. \nما رأي الكاتب في جهود الحد من التلوث البلاستيكي؟ \nيعتقد الكاتب أن الجهود مفيدة.  \nيعتقد الكاتب أن الجهود لا تفعل الكثير.  \nيعتقد الكاتب أن المزيد من الدول بحاجة إلى اتخاذ إجراءات. \nالكاتب غير متأكد من الجهود المبذولة حيث لا تزال مئات الملايين من الأكياس تُرمى في أيرلندا.\n518 \nDetroit مدينة ديترويت ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What did more car factories in Detroit lead to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 519,
+      "sourceLine": 6,
+      "sourcePages": [
+        519
+      ],
+      "rawBlock": "What did more car factories in Detroit lead to?  \nthe best car companies in the world  \nchange in property prices  \na larger population  \ncreating a new city.  \nما الذي أدى إليه المزيد من مصانع السيارات في ديترويت؟ \nأفضل شركات السيارات في العالم  \nتغيير في أسعار العقارات  \nعدد أكبر من السكان  \nإنشاء مدينة جديدة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What was the reason for low rents and tax cuts?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 519,
+      "sourceLine": 17,
+      "sourcePages": [
+        519,
+        520
+      ],
+      "rawBlock": "What was the reason for low rents and tax cuts?  \nto bring companies to Detroit  \nto help artists and musicians  \nto make life easier for the poor  \nto create urban farms  \nما هو سبب انخفاض الإيجارات والتخفيضات الضريبية؟ \nلجلب الشركات إلى ديترويت  \nلمساعدة الفنانين والموسيقيين  \nلتسهيل الحياة على الفقراء \nلإنشاء مزارع حضرية  \nThe word vacant in Paragraph (1) is closest in meaning to………  \nempty  \nfor sale  \ndestroyed  \nbeing built  \nكلمة شاغرة في الفقرة1) هي الأقرب في المعنى إلى \nفارغ  \nللبيع  \nدمرت \nيجري بناؤها  \nThe word suffered in Paragraph (2) is closest in meaning to..........  \nmoved location  \nfaced trouble\n519 \nexpanded  \nchanged \nالكلمة التي وردت في الفقرة2) هي الأقرب في معناها إلى \nموقع متحرك  \nواجهت مشكلة  \nموسع  \nتغير  \nرسم بياني  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "What percentage of people went to work by car?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 520,
+      "sourceLine": 27,
+      "sourcePages": [
+        520
+      ],
+      "rawBlock": "What percentage of people went to work by car?  \nما هي نسبة الأشخاص الذين ذهبوا إلى العمل بالسيارة؟ \n65.6  \n12.3  \n8  \n1  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "What percentage of people travelled by foot?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 520,
+      "sourceLine": 34,
+      "sourcePages": [
+        520,
+        521
+      ],
+      "rawBlock": "What percentage of people travelled by foot?  \nما هي نسبة الأشخاص الذين سافروا سيرًا على الأقدام؟  \n1  \n1.2\n520 \n4.5  \n5.3  \ntoxic wastes النفايات السامة \nالقطعة بدون عنوان في الاختبار ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "According to the passage, what are the heavy metals that affect the growth of algae?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 521,
+      "sourceLine": 8,
+      "sourcePages": [
+        521
+      ],
+      "rawBlock": "According to the passage, what are the heavy metals that affect the growth of algae?  \nCopper and DDT  \nCopper and silver  \nSilver and benzene  \nGasoline and benzene  \nحسب المقطع ما هي المعادن الثقيلة التي تؤثر على نمو الطحالب؟ \nالنحاس و DDT \nالنحاس والفضة \nالفضة والبنزين  \nالغاز والبنزين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What are three things needed for generating radioactive Wastes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 521,
+      "sourceLine": 20,
+      "sourcePages": [
+        521
+      ],
+      "rawBlock": "What are three things needed for generating radioactive Wastes?  \nnuclear power reactors, the manufacture of nuclear weapons, and the application of radioisotopes.  \nthe application of radioisotopes, the manufacture of herbicides and nuclear power reactors.  \nthe manufacture of nuclear weapons, acid rain and industrial boilers  \ngas emissions, carbon tetrachloride and nuclear  \nما هي الأشياء الثلاثة اللازمة لتوليد النفايات المشعة؟ \nمفاعلات الطاقة النووية ، وتصنيع الأسلحة النووية ، واستخدام النظائر المشعة. \nتطبيق النظائر المشعة وتصنيع مبيدات الأعشاب ومفاعلات الطاقة النووية.  \nتصنيع الأسلحة النووية والأمطار الحمضية والمراجل الصناعية  \nانبعاثات الغازات ورابع كلوريد الكربون والنووية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What are three methods currently used for toxic waste treatment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 521,
+      "sourceLine": 33,
+      "sourcePages": [
+        521,
+        522,
+        523
+      ],
+      "rawBlock": "What are three methods currently used for toxic waste treatment?  \ncombustion, ocean dumping and vitrification  \nvitrification, landfills and biological treatment  \nvitrification, combustion and chemical treatment  \ncombustion, biological treatment and vitrification \nما هي الطرق الثلاث المستخدمة حاليا لمعالجة النفايات السامة؟ \nالاحتراق وإغراق المحيطات والتزجيج  \nالتزجيج وطمر النفايات والمعالجة البيولوجية  \nالتزجيج والاحتراق والمعالجة الكيميائية  \nالاحتراق والمعالجة البيولوجية والتزجيج\n521 \nLimited Liability ذات مسؤولية محدودة  \nالقطعة بدون عنوان في الاختبار \nLimited liability means that if a business is unable to pay its debts the owners of the company can only lose the money that \nthey have paid for shares. Sole traders and partnerships have unlimited liability. If the business cannot pay its debts, the \nowners have to pay them out of their own money. They may have to sell their house and other personal possessions to pay \nthe business's creditors. The importance of limited liability is that people can put money into a firm by buying shares, without \nrisking the loss of all their money if the company fails. If limited liability did not exist, people would be less willing to risk \ninvesting in firms. \nThe word “Liability” in the passage is closest in meaning to ……  \nactivity  \ncontrol  \ninfluence  \nresponsibility  \nكلمة \"المسؤولية\" الواردة في الفقرة هي الأقرب من حيث المعنى إلى \nنشاط  \nيتحكم  \nتأثير  \nمسؤولية  \nThe word “traders” in the passage is closest in meaning to ……  \nprofessionals  \nspecialists  \ndealers  \nleaders  \nكلمة \"تجار\" في المقطع هي الأقرب في المعنى إلى \nالمهنيين  \nالمتخصصين  \nتجار  -  وكلاء  \nالقادة \nThe word “possessions” in the passage is closest in meaning to ……  \nincome  \nproperty  \nequipment  \nachievement \nكلمة \"ممتلكات\" في المقطع هي الأقرب في المعنى إلى\n522 \nدخل \nملكية  \nمعدات \nإنجاز  \nControlling Inflation  السيطرة على التضخم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What do Passages A and B say about the consequences of inflation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 523,
+      "sourceLine": 8,
+      "sourcePages": [
+        523
+      ],
+      "rawBlock": "What do Passages A and B say about the consequences of inflation?  \nIt becomes more expensive to buy goods.  \nMoney is worth less and it can be bad for the economy.  \nIt makes people wealthier, but causes problems with the economy.  \nCurrency is worth less, but there are positive effects for the economy with high inflation.  \nماذا يقول القطعة \"أ\" و \"ب\" عن عواقب التضخم؟ \nيصبح شراء البضائع أكثر تكلفة.  \nالمال أقل قيمة ويمكن أن يكون ضارًا بالاقتصاد.  \nإنه يجعل الناس أكثر ثراءً ، لكنه يسبب مشاكل في الاقتصاد.  \nالعملة ذات قيمة أقل ، ولكن هناك تأثيرات إيجابية على الاقتصاد مع ارتفاع التضخم.  \nWhat can we understand from Passages A and B about controlling inflation through money \nsupply?  \nIt can be done by banks lending less money to members of the public  \nIt can be controlled because people want to keep their money and save it.  \nIt can be done by increasing the amount banks lend and decreasing bond prices.  \nIt can be done through increasing interest rates and reducing money in circulation.  \nما الذي يمكن أن نفهمه من القطعةA  وB حول التحكم في التضخم من خلال عرض النقود؟ \nيمكن أن يتم ذلك عن طريق البنوك التي تقرض أموالاً أقل لأفراد الجمهور  \nيمكن السيطرة عليها لأن الناس يريدون الاحتفاظ بأموالهم وحفظها.  \nيمكن القيام بذلك عن طريق زيادة المبلغ الذي تقرضه البنوك وخفض أسعار السندات. \nيمكن القيام بذلك من خلال زيادة أسعار الفائدة وتقليل الأموال المتداولة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "What can we understand from Passages A and B about tax?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 523,
+      "sourceLine": 35,
+      "sourcePages": [
+        523,
+        524
+      ],
+      "rawBlock": "What can we understand from Passages A and B about tax?  \nIt is used to make people spend less.  \nIt has little effect on controlling inflation  \nVAT is one of the main types of tax used to control inflation.  \nTax reduces demand in the economy and therefore controls inflation.  \nما الذي يمكن أن نفهمه من القطعةA  وB  عن الضرائب؟\n523 \nيتم استخدامه لجعل الناس ينفقون أقل \nلها تأثير ضئيل على السيطرة على التضخم  \nضريبة القيمة المضافة هي أحد الأنواع الرئيسية للضرائب المستخدمة للتحكم في التضخم.  \nتقلل الضريبة من الطلب في الاقتصاد وبالتالي تتحكم في التضخم.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-40-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What do Passages A and B say about aggregate demand?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 524,
+      "sourceLine": 7,
+      "sourcePages": [
+        524,
+        525
+      ],
+      "rawBlock": "What do Passages A and B say about aggregate demand?  \nLow aggregate demand can lead to unemployment.  \nAggregate demand can sometimes cause negative growth.  \nKeeping a balance in aggregate demand helps control inflation  \nAggregate demand must exceed aggregate supply \nماذا يقول القطعةA  وB  عن إجمالي الطلب؟ \nيمكن أن يؤدي انخفاض إجمالي الطلب إلى البطالة.  \nيمكن أن يتسبب الطلب الإجمالي في بعض الأحيان في نمو سلبي.  \nيساعد الحفاظ على التوازن في إجمالي الطلب على التحكم في التضخم  \nيجب أن يتجاوز إجمالي الطلب إجمالي العرض  \nStrange Substance مادة غريبة \n1) A mysterious, orange, sticky gel, found on the beaches of Kivalina, a village situated on the Alaskan coast between \nKotzebue and Point Hope, was recently the source of much interest. Many people thought that the sticky gel was some \nstrange compound that had spread as a result of a chemical reaction. Others had more farfetched ideas about the substance's \norigins ranging from aliens to volcanic remains.  \n(2) Scientists at an Alaskan laboratory have been busy analyzing the unknown substance. They have concluded that it is a \nformation of microscopic eggs. One of the scientists said that there are traces of oil in the eggs, and this is what is causing the \nstrange, orange color.  \n(3) The scientists have discovered that the eggs belong to a small invertebrate – a spineless animal, but they have not been \nable to identify the exact species. \nAccording to Paragraph (1), the strange, orange substance was found …….. \non the beaches of Kotzebue  \non the beaches of Point Hope  \nclose to a compound in Alaska  \nbetween Kotzebue and Point Hope \nحسب الفقرة1) تم العثور على المادة البرتقالية الغريبة \nعلى شواطئ Kotzebue\n524 \nعلى شواطئ بوينت هوب \nبالقرب من مجمع في ألاسكا  \nبين Kotzebue وPoint Hope \nThe word far-fetched in Paragraph (1) is closest in meaning to …………. \ndifficult to believe  \neasy to believe  \ndefinite  \nclear \nكلمة بعيدة المنال في الفقرة1) هي الأقرب في المعنى إلى \nمن الصعب تصديقه  \nمن السهل تصديقه  \nواضح  \nصافي  \nThe word it in Paragraph (2) refers to ………….  \ntraces of oil  \na microscope  \nthe unknown substance  \none of Alaska's laboratories \nتشير الكلمة الواردة في الفقرة2) إلى \nاثار زيت  \nمجهر \nمادة غير معروفة  \nأحد مختبرات ألاسكا  \nالتجميعات هذه لوجه الله ولا نستفيد أي شيء و لا نتبع لأي منصة   \nالله لا يوفق كل من استخدم تجميعاتنا أو سرق منها خاصة الحرامي النصاب دورته ب 1300 \nبخصوص المواد العلمية المعروضة في قناة التجميعات، انا لا أحلل ولا أبيح أي سطو او تعدي عليها يحصل من  \nقبل شخص ما وسيكون محاسبا أمام الله  في يوم لا ينفع فيه مال ولا جاه ولا  بنون في حال استخدامها من غير  \nاستئذان في مؤلفات خاصة وأغراض مادية ، أو شخصية كدورات تعليمية، أو مقابل مبلغ مالي  ،او  بي عها بطرق  \nمختلفة أو التسويق لدورات بأخذ التجميعات وعرضها كأنها من جهدهم   \nوشكرا للمشرفين والمشرفات الذين يخدمون بدون مقابل ولجميع من يساعد",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

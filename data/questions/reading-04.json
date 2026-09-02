@@ -1,0 +1,808 @@
+{
+  "readingId": "reading-04",
+  "sourceQuestionBlocks": 11,
+  "questions": [
+    {
+      "id": "reading-04-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "Where did he get the gold medal from? Roma.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 37,
+      "sourceLine": 9,
+      "sourcePages": [
+        37
+      ],
+      "rawBlock": "Where did he get the gold medal from?   Roma. \nروما     الذهبية؟من أين حصل على الميدالية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "When did he change his name?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 37,
+      "sourceLine": 12,
+      "sourcePages": [
+        37
+      ],
+      "rawBlock": "When did he change his name?  \nIn the same year he defeated Sony liston \nمتى غيراسمه؟  \n  سوني ليستون  نفس العام الذي تغلب فيه علىفي   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "When he won gold medal he was? amateur boxer",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 37,
+      "sourceLine": 17,
+      "sourcePages": [
+        37
+      ],
+      "rawBlock": "When he won gold medal he was?   amateur boxer \nهاويملاكم    عندما فاز بالميدالية الذهبية كان؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "How old was he when he converted to Islam?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 37,
+      "sourceLine": 20,
+      "sourcePages": [
+        37
+      ],
+      "rawBlock": "How old was he when he converted to Islam? \nكم كان عمره عندما أسلم؟                                     نطرح سنة اسلامه من سنة ولادته   \nكلاي ولد عام ، 1942 تحول للإسلام وغير اسمه سنة1964  \n  22 = 1942 - 1964نستنتج انه اسلم وعمره22  \nWhat is the meaning of the word    \"   ؟؟؟؟؟؟change \nما معنى كلمة \"  ؟؟؟؟؟؟؟؟  \"؟أتوقع تغيير    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "How many competitions did he take part until he got the medal? 3 tournaments",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 37,
+      "sourceLine": 29,
+      "sourcePages": [
+        37,
+        38
+      ],
+      "rawBlock": "How many competitions did he take part until he got the medal?  3 tournaments \nبطولات  3كم عدد المسابقات التي شارك فيها حتى حصل على الميدالية؟\n37 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What does “assumed\" mean? took posited",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 38,
+      "sourceLine": 4,
+      "sourcePages": [
+        38
+      ],
+      "rawBlock": "What does “assumed\" mean?         took          posited \nماذا يعني   يفترض \"؟      أخذ          يفترض     ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "Who supported his rejection of the Vietnam War? Supreme court",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 38,
+      "sourceLine": 8,
+      "sourcePages": [
+        38
+      ],
+      "rawBlock": "Who supported his rejection of the Vietnam War?    Supreme court \nالمحكمة العليامن دعم رفضه لحرب فيتنام؟    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "How old was he when he won the championships? 22 years old",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 38,
+      "sourceLine": 12,
+      "sourcePages": [
+        38
+      ],
+      "rawBlock": "How old was he when he won the championships?  22 years old \nكم كان عمره حين حصوله على اللقب والبطولات؟22 سنة \n1978 متى فاز بالميدالية الذهبية الثالثة؟ \nHe became famous after the third prize after beating?    Leon  \nليون  ؟على  اشتهر بعد الجائزة الثالثة بعد فوزه \nHow old was he when he won the medal ؟   Thirty-six years old. \nستة وثلاثون عاماكم كان عمره عندما فاز بالميدالية؟     ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "when did he die? He died on June 3 , 2016",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 38,
+      "sourceLine": 23,
+      "sourcePages": [
+        38
+      ],
+      "rawBlock": "when did he die?   He died on    June 3 , 2016 \n2016يونيو 3توفي فيمتى مات؟      \nثانياً / الحجامة (Cupping) ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "body.the energize ?cuppingWhat are the benefits of",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 38,
+      "sourceLine": 28,
+      "sourcePages": [
+        38
+      ],
+      "rawBlock": "body.the  energize     ?cuppingWhat are the benefits of  \nما هي فوائد الحجامة؟   تنشيط الجسم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "a year moreonce cupping?When is it recommended to do",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 38,
+      "sourceLine": 31,
+      "sourcePages": [
+        38,
+        39
+      ],
+      "rawBlock": " a year moreonce    cupping?When is it recommended to do\n38 \nمتى ينصح بالحجامة؟      مرة كل سنة وأكثر     ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "Toxin of headache?What are the reasons",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 39,
+      "sourceLine": 5,
+      "sourcePages": [
+        39
+      ],
+      "rawBlock": "     Toxin of headache?What are the reasons  \nما هو سبب ألم الرأس؟    سموم  \nyinjur Wound's   ?cuppingw to make Ho \nكيف يتمعملها؟     عن طريق جروح سطحية بسيطة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "Does it recommend making cupping? Yes, it is recommended by prophet Muhammad.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 39,
+      "sourceLine": 11,
+      "sourcePages": [
+        39
+      ],
+      "rawBlock": "Does it recommend making cupping?   Yes, it is recommended by prophet Muhammad. \nصلى الله عليه وسلم محمد أوصى به النبي  نعم،         هل توصي بعمل الحجامة؟  \nCupping treats these except? Cut of body. \nقطع الجسمالحجامة تعالج هؤلاء إلا؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "Which of these things is needed by cupping according to what was mentioned in the paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 39,
+      "sourceLine": 17,
+      "sourcePages": [
+        39
+      ],
+      "rawBlock": "Which of these things is needed by cupping according to what was mentioned in the paragraph? \nClean instrument  \nأي من هذه الاشياء لازم تتوفر بالحجامة على ضوء ما ذكر في القطعة؟   أداة نظيفة   \nثالثاً / الحمام ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "Mixed feelings ?aboutWhat does paragraph (1) talk",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 39,
+      "sourceLine": 25,
+      "sourcePages": [
+        39,
+        40
+      ],
+      "rawBlock": "Mixed feelings    ?aboutWhat does paragraph (1) talk  \nعن ماذا يتكلمparagraph (1)  ؟مشاعر مختلطة    مشاعره المختلطة تجاه الحمام يحبها أو يكرهها\n39 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "Active at nightWhat does \"nocturnal \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 40,
+      "sourceLine": 2,
+      "sourcePages": [
+        40
+      ],
+      "rawBlock": "Active at nightWhat does \"nocturnal \" mean?    \n معنى كلمةNocturnal) ؟نشاط ليلي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "Why did the writer say that pigeon similar to mice rats?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 40,
+      "sourceLine": 6,
+      "sourcePages": [
+        40
+      ],
+      "rawBlock": "Why did the writer say that pigeon similar to mice rats? \nThey feed on the fallen food.    \nلماذا شبه الحمامبالجرذان؟  \nلأن كلاهما يتغذيان على بقايا الاكل (تأكل ما تجد ه من بقايا الطعام)   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "Why did the writer not breath?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 40,
+      "sourceLine": 11,
+      "sourcePages": [
+        40
+      ],
+      "rawBlock": "Why did the writer not breath?    \npigeon waste smell \nا كريهة لان ريحته ؟    لا يتنفس  لماذا ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "Where did the pigeon build nests? Build nests in any place.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 40,
+      "sourceLine": 15,
+      "sourcePages": [
+        40
+      ],
+      "rawBlock": "Where did the pigeon build nests?   Build nests in any place. \nفي كل مكان  أعشاشه؟أين يبني الحمام  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "Urban pigeons are dirty? ?????????? air pollution",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 40,
+      "sourceLine": 18,
+      "sourcePages": [
+        40
+      ],
+      "rawBlock": "Urban pigeons are dirty?  ?????????? air pollution \n؟؟؟؟؟؟؟؟؟؟؟ تلوث الهواء الحمام الحضري قذرة؟   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "Not a use of pigeons is? They are pets.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 40,
+      "sourceLine": 21,
+      "sourcePages": [
+        40,
+        41
+      ],
+      "rawBlock": "Not a use of pigeons is? They are pets. \nهم حيوانات أليفة ليس استخدام الحمام؟\n40 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "What is the paragraph about ? Pigeon can live in all circumstances or conditions.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 41,
+      "sourceLine": 3,
+      "sourcePages": [
+        41
+      ],
+      "rawBlock": "What is the paragraph about ?   Pigeon can live in all circumstances or conditions.   \n  والأحوال  الحمام قادر على ان يعيش في كل الظروف    القطعة؟عن ماذا تتكلم  \nرابعاً / النمل  \nللنملة عينين  وداخل كل عي ن مجموعة من العيون  ووصفها بانها مركب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "queen.No, only the Do all the ants lay eggs?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 41,
+      "sourceLine": 11,
+      "sourcePages": [
+        41
+      ],
+      "rawBlock": " queen.No, only the Do all the ants lay eggs?   \nهل كل النمل يبيض؟لا ، فقط الملكة  \nll Insects ANo skeleton in?  \nلا يوجد هيكل عظمي في؟كل الحشرات  \n protect.  workersll A  ?In paragraph ????       \nفي القطعة  ؟؟؟؟؟؟  كل النمل العاملين يحمون  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "By smell other?How do ants know each",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 41,
+      "sourceLine": 21,
+      "sourcePages": [
+        41
+      ],
+      "rawBlock": "By smell   other?How do ants know each  \nكيف يعرف النمل بعضهم البعض؟   بالرائحة  \n ants   ) refers to ? eyThe pronoun ( th \nالضمير (هم) يشير الى؟ النمل \nColonies   ?innts live A \nهل يعيش النملفي؟  المستعمرات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "eat.They cut food and Which is true?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 41,
+      "sourceLine": 33,
+      "sourcePages": [
+        41,
+        42
+      ],
+      "rawBlock": "eat.They cut food and Which is true?  \nأيهما صحيح؟  يقطعون الطعام ويأكلون\n41 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": ".LiquidWhat food can eat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 42,
+      "sourceLine": 4,
+      "sourcePages": [
+        42
+      ],
+      "rawBlock": ".LiquidWhat food can eat?   \nأي طعام يمكن أن يأكل؟سائل ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "The meaning of the word \"Colony \"? habitation settlement",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 42,
+      "sourceLine": 8,
+      "sourcePages": [
+        42
+      ],
+      "rawBlock": "The meaning of the word \"Colony \"?       habitation    settlement \nما معنى كلمة \"مستعمرة\"؟        سكن      مستوطنات \nDescription that she has two eyes, and inside each bag is a group of eyes. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "Complex mean?). What does this word CompoundHe described it as (",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 42,
+      "sourceLine": 13,
+      "sourcePages": [
+        42
+      ],
+      "rawBlock": "Complex    mean?). What does this word  CompoundHe described it as (  \nوصف أن لديها عينين وداخل كل كيس مجموعة  من الاعين وصفها أنها (Compound) ماذا تعني هذهالكلمة؟    مركب  \nLive for a period of 20 to 30 days     long?Do ants live  \nهل يعيش النمل طويلا؟تعيش لمدة  20 إلى30 يومًا ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "The ant has two eyes, and, in every eye, What are the holes in the ant's eyes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 42,
+      "sourceLine": 19,
+      "sourcePages": [
+        42
+      ],
+      "rawBlock": "The ant has two eyes, and, in every eye,   What are the holes in the ant's eyes?\n  eyes.there are some  \nماذا تسمى فتحات عين النملة؟لكل نملة مجموعة من العيون وفي كل عين مجموعة من العيون  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "fascinating creatureshe T passage?What is the best title of the",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 42,
+      "sourceLine": 23,
+      "sourcePages": [
+        42,
+        43
+      ],
+      "rawBlock": "fascinating creatureshe T  passage?What is the best title of the  \nما هو العنوان المناسب؟     النمل المخلوق  الرائع  \nخامساً / مشاهدة التلفاز\n42 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "fun) (haveTo spend more enjoyable time for entertainment TV?Why do people watch",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 43,
+      "sourceLine": 3,
+      "sourcePages": [
+        43
+      ],
+      "rawBlock": "fun) (haveTo spend more enjoyable time for entertainment   TV?Why do people watch  \nلماذا يشاهد الناس التلفزيون؟   لقضاء وقت ممتع أكثر للترفيه  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "Staying long hours without moving life?How is watching TV shorten your",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 43,
+      "sourceLine": 6,
+      "sourcePages": [
+        43
+      ],
+      "rawBlock": "Staying long hours without moving     life?How is watching TV shorten your  \nكيف مشاهدة التلفاز يقصر حياتك؟البقاء لساعات طويلة دون التحرك  \nمشاهدة التلفاز لفترات طويلة تقصر العمر، وساعتين يومياً ممكن  تنقص 20٪ من عمر الانسان. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "How does the exercising make your life longer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 43,
+      "sourceLine": 11,
+      "sourcePages": [
+        43
+      ],
+      "rawBlock": "How does the exercising make your life longer?  \nGiving you 3 years to your life, reduce the rate of death 14%, reduce of the other dangers 4%.   \nكيف تجعل التمارين حياتك أطول؟ \nمنحك 3 سنوات فيحياتك، خفض معدل الوفاة 14٪، تقليل الأخطار الأخرى  4٪   \nإضافة 3 سنوات إلى إجمالي وقتحياتك ( يطيل العمر) يقلل من خطر الوفاة بنسبة 14٪  ويقلل من المخاطر الاخرى بنسبة  4٪ \n According to paragraph (4), exercise can be exercised for 15 minutes a day: \n Add three years to the total time of your life \nExtend your life for 22 minutes  \nReduce the risk of death by 4%. \nreduce heart disease by 4% \nس :. وفًقا للفقرة  )، 4يمكن ممارسة التمارين الرياضية لدة15دقيقة يوميًا ........... \n-1تضف ثلث سنوات إلى إجمالي وقت حياتك  \n-2تطيل حياتك لدة22دقيقة \n-3تقلل من خطر الوفاة بنسبة4 ٪ \n-4تقلل من مرض القلب بنسبة4٪  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q34",
+      "order": 34,
+      "questionNumber": null,
+      "questionText": "late final developing early premature ) mean ? does (What",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 43,
+      "sourceLine": 29,
+      "sourcePages": [
+        43,
+        44
+      ],
+      "rawBlock": "late    final      developing       early premature )   mean ?   does (What  \nماذا يعني (سابق لأوانه)؟مبكرا       متأخرا      نهائي      متطور  \nAccording to paragraph (2), people who watch a lot of television \nThey cut off 11 minutes of their lives \nget the exciting of exercises  \nEat plenty of food  \nBreathe cigarette smoke.  \nوفًقا للفقرة   2 من المحتمل ان الشخاص الذين يشاهدون الكثير من التليفزيون  ..............\n43 \n1يقطعون11دقيقة من حياتهم \n-2يحصلون على الثير من التمارين \n-3يتناولون الكثير من الطعام \n-4يتنفسون دخان السجائر \nAccording to the text, what activity can increase the health risks of diabetes and heart disease by \n20% \nWatch TV for two hours a day.  \n A lifestyle that is generally inactive  \nOver-eating unhealthy food. \nSmoking  \nوفقاللنص 2 ، ما هو النشاط الذي يمكن أن يزيد من الخاطر الصحية لرض السكري وأمراض القلب بنسبة20  % \n1مشاهدة التلفزيون لمدة ساعتي في اليوم  \n-2نمط الحياة غير نشط عموما \n-3الفراط في تناول الطعام غير الصحية \n-4التدخين \nكم يجلسون الناس على التلفاز؟    سؤال ناقص يحتاج لإجابة أكيدة   \nكم المعدل اليومي للجلوس على التلفاز؟   سؤال ناقص يحتاج لإجابة أكيدة \nسادساً / مرق العظام ( Bone Soup ) \nmineralsThe pronoun ( that ) refers to ?   \nالضميرThat) يعود على ؟   المعادن       ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q35",
+      "order": 35,
+      "questionNumber": null,
+      "questionText": "What happened to the people who don’t drink bone soup? Missing الاجابة فيها",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 44,
+      "sourceLine": 25,
+      "sourcePages": [
+        44
+      ],
+      "rawBlock": "What happened to the people who don’t drink bone soup?   Missing  الاجابة فيها \n نقص ( ممكن قصده وش يصيبهم )  ؟  م  عظاماذا يحدث للناس الذين لا يشربون شوربة ال  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q36",
+      "order": 36,
+      "questionNumber": null,
+      "questionText": "missingMeaning of the word ( lacking ) ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 44,
+      "sourceLine": 28,
+      "sourcePages": [
+        44,
+        45
+      ],
+      "rawBlock": " missingMeaning of the word ( lacking ) ?   \nمعنىكلمة يفتقر الى  lacking  ؟  يفقد  \nسابعاً / رسالة ايميل من مدير لموظف لتحضير الاجتماع\n44 \nرسالة ايميل من شخص لمحمد يبلغه عن التحضيرات للاجتماع القادم \nوأنه لازم يجي مبكر ويجيب معه الورق اللي نساه على المكتب في اليوم الماضي.  \nAn email from someone informing him about the preparations for the next meeting \nAnd that it is necessary to come early and answer with him the paper he forgot on the desk the last day \n    meeting?When was the previous  \nThe day before message \nOn the same day \nbefore sending \nonly days before \nوالجواب يكونThe day before message)     اليوم السابق للرسالة \nفي نفس اليوم  \nقبل الإرسال  \nقبل أيام فقط  \nفي الامس  \nThe day before the messageWhen was the last meeting?   \nمتى كان الاجتماع الأخير؟في اليوم السابق للرسالة  \nthan him rBecause he came lateWhy was the manger angry at the clerk?    \nلماذا كان المدير غاضبًا على ال موظف؟   لأنه جاء متأخراً بعد ه ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q37",
+      "order": 37,
+      "questionNumber": null,
+      "questionText": "Why was he upset with him ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 45,
+      "sourceLine": 27,
+      "sourcePages": [
+        45,
+        46
+      ],
+      "rawBlock": "Why was he upset with him ?   \nBecause the secretary last time arrived late \nHe apologized.  \nHe did not bring the papers or files.  \nلماذا كان مستاء منه؟ \nلأن السكرتير آخر مرة وصل في وقت متأخر  \nاعتذر  \nلم يحضر الأوراق أو الملفات  \nثامناً/ عرض وظيفي لشركة سياحية\n45 \nعرض وظيفي لكذا وظيفة ومكتوب فيه مكان المدن فوق ومكان متطلبات كل وظيفة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q38",
+      "order": 38,
+      "questionNumber": null,
+      "questionText": "Bachelor degree and fluent in English ?sWhat are the skills required for the job",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 46,
+      "sourceLine": 4,
+      "sourcePages": [
+        46
+      ],
+      "rawBlock": "Bachelor degree and fluent in English   ?sWhat are the skills required for the job \nما هي المهارات المطلوبة لكل الوظائف؟     حاصل على البكالوريوس ومتقن للإنجليزية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q39",
+      "order": 39,
+      "questionNumber": null,
+      "questionText": "Salary What is not mentioned in the job offer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 46,
+      "sourceLine": 8,
+      "sourcePages": [
+        46
+      ],
+      "rawBlock": "  Salary   What is not mentioned in the job offer? \nما هو الشيء الذي لم يذكر في العرض الوظيفي؟      ال راتب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q40",
+      "order": 40,
+      "questionNumber": null,
+      "questionText": "Who are you asking for these jobs, which company?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 46,
+      "sourceLine": 11,
+      "sourcePages": [
+        46
+      ],
+      "rawBlock": "Who are you asking for these jobs, which company?  \nTravel and tourism company \nاللي طالبين هذيالوظائف  أي شركة؟  شركة طيران و سياحة .  \nقطعة صغيرة وذكر فيها سؤال عن (Forceful) ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q41",
+      "order": 41,
+      "questionNumber": null,
+      "questionText": "What does the word ( forceful ) mean ? powerful smart mindful",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 46,
+      "sourceLine": 20,
+      "sourcePages": [
+        46
+      ],
+      "rawBlock": "What does the word   ( forceful  ) mean ?         powerful           smart         mindful    \nيقظة            ذكية            قوية         )؟او قوي  فعال( ماذا تعني كلمة  \n    Explain ) mean?   expressthe word   (  doesat Wh \nتاسعاً  / قطعة سطرين ما بين  ديف وصاحبه  \nطلب من ديف يساعده بشغله وكان رد  ديف: آسف انا مشغول Sorry. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q42",
+      "order": 42,
+      "questionNumber": null,
+      "questionText": "fast Working ? Dave's response is What",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 46,
+      "sourceLine": 29,
+      "sourcePages": [
+        46,
+        47
+      ],
+      "rawBlock": " fast            Working   ?   Dave's response is What \nما هو رد ديف؟          يعمل          سريع\n46 \nعاشراً / قطعة استبيان  Questionnaires \nاستبيان من مكتب القبول والتسجيل بيتوزع من قبل الأستاذة على الطلاب ويجاوبواعليه: ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q43",
+      "order": 43,
+      "questionNumber": null,
+      "questionText": "Who should respond to the questionnaires?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 47,
+      "sourceLine": 6,
+      "sourcePages": [
+        47
+      ],
+      "rawBlock": "Who should respond to the questionnaires?                                                                             \nThe students and professors                        The students   \nمن يجب أن يجيب على الاستبيانات؟     الطلاب       الطلاب والأساتذة       \nالحادي عشر / رسم بياني عن نسبة الصحة في المدن  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-04-q44",
+      "order": 44,
+      "questionNumber": null,
+      "questionText": "When was the highest percentage of high health in cities?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 47,
+      "sourceLine": 14,
+      "sourcePages": [
+        47
+      ],
+      "rawBlock": "When was the highest percentage of high health in cities?  \nمتى كان اعلى نسبة ارتفاع الصحة في المدن؟ \nالجواب سهل وواضح  وممكن يكون 1987 وتأكدوا منها بالاختبار",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

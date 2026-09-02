@@ -1,0 +1,583 @@
+{
+  "readingId": "reading-16",
+  "sourcePages": [
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185
+  ],
+  "sourcePageRange": {
+    "start": 172,
+    "end": 185
+  },
+  "visualQuestionReviewStatus": "in_progress",
+  "firstReviewStatus": "in_progress",
+  "secondReviewStatus": "not_started",
+  "questions": [
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 1,
+      "questionText": "25. Which year was called \"the year without a summer\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        174
+      ],
+      "sourceBlockIds": [
+        "page-174-line-42"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 2,
+      "questionText": "26. Which Island was formed by volcanoes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        175
+      ],
+      "sourceBlockIds": [
+        "page-175-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 3,
+      "questionText": "27. What is lava?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        175
+      ],
+      "sourceBlockIds": [
+        "page-175-line-8"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 4,
+      "questionText": "company treats its workers well?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        176
+      ],
+      "sourceBlockIds": [
+        "page-176-line-10"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 5,
+      "questionText": "31. What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        176
+      ],
+      "sourceBlockIds": [
+        "page-176-line-15"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 6,
+      "questionText": "32. Why is Finland and Germany's recycling program successful?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        177
+      ],
+      "sourceBlockIds": [
+        "page-177-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 7,
+      "questionText": "33. What does the writer think about Britain's lead recycling program?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        177
+      ],
+      "sourceBlockIds": [
+        "page-177-line-8"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 8,
+      "questionText": "34. What does the passage say about recycling glass bottles?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        177
+      ],
+      "sourceBlockIds": [
+        "page-177-line-13"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 9,
+      "questionText": "35. Which words can we use to replace \"such as\" in Paragraph (5)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        177
+      ],
+      "sourceBlockIds": [
+        "page-177-line-18"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 10,
+      "questionText": "36. Which word can we use to replace the word \"So\" in Paragraph (6)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        177
+      ],
+      "sourceBlockIds": [
+        "page-177-line-23"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 11,
+      "questionText": "37. What is the reason for a slow internet connection?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        178
+      ],
+      "sourceBlockIds": [
+        "page-178-line-8"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 12,
+      "questionText": "38. What is one negative effect of worms?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        178
+      ],
+      "sourceBlockIds": [
+        "page-178-line-13"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 13,
+      "questionText": "41. What was the salary of graduates of upper secondary education in France?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        179
+      ],
+      "sourceBlockIds": [
+        "page-179-line-4"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 14,
+      "questionText": "42. What was the typical salary of graduates of upper secondary in Ireland?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        179
+      ],
+      "sourceBlockIds": [
+        "page-179-line-9"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 15,
+      "questionText": "43. Who were among the first notable people to illustrate their studies of anatomy?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        181
+      ],
+      "sourceBlockIds": [
+        "page-181-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 16,
+      "questionText": "44. What things did primitive microscopes allow Antonie van Leeuwenhoek to study?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        181
+      ],
+      "sourceBlockIds": [
+        "page-181-line-8"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 17,
+      "questionText": "microscopes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        181
+      ],
+      "sourceBlockIds": [
+        "page-181-line-14"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 18,
+      "questionText": "(4) But what it sustainability?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        181
+      ],
+      "sourceBlockIds": [
+        "page-181-line-28"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 19,
+      "questionText": "49. What word other than analytic content\" does the writer use to talk about economic writing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        182
+      ],
+      "sourceBlockIds": [
+        "page-182-line-34"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 20,
+      "questionText": "50. Which of the following does the writer say is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        183
+      ],
+      "sourceBlockIds": [
+        "page-183-line-3"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 21,
+      "questionText": "51. What can we understand about economic thought from Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        183
+      ],
+      "sourceBlockIds": [
+        "page-183-line-8"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 22,
+      "questionText": "52. What can we understand about Zhong's ideas from Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        183
+      ],
+      "sourceBlockIds": [
+        "page-183-line-13"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 23,
+      "questionText": "53. What do Passages A and B say about wind?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        184
+      ],
+      "sourceBlockIds": [
+        "page-184-line-6"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 24,
+      "questionText": "54. What can we understand from Passages A and B about energy sources?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        184
+      ],
+      "sourceBlockIds": [
+        "page-184-line-11"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 25,
+      "questionText": "55. What can we understand from Passages A and B about wind farms?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        184
+      ],
+      "sourceBlockIds": [
+        "page-184-line-16"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 26,
+      "questionText": "Passages A and B?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        184
+      ],
+      "sourceBlockIds": [
+        "page-184-line-22"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 27,
+      "questionText": "fourteen-year-old cousin said, \"Mom, what is your problem?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        185
+      ],
+      "sourceBlockIds": [
+        "page-185-line-6"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 28,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        185
+      ],
+      "sourceBlockIds": [
+        "page-185-line-19"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    },
+    {
+      "readingId": "reading-16",
+      "sourceQuestionNumber": null,
+      "displayOrder": 29,
+      "questionText": "According to Paragraph (3), which of the following is NOT TRUE about the 18-year-old daughter?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        185
+      ],
+      "sourceBlockIds": [
+        "page-185-line-29"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Geometry-derived worklist item. Its prompt boundary, visible options, and separation from adjacent answer/translation still require rendered-PDF review.",
+      "candidateStatus": "pending_visual_review"
+    }
+  ],
+  "duplicateTechnicalRecordsRemoved": 0,
+  "reviewNotes": [
+    "A source-traceable geometry worklist was staged for visual review. No item was automatically approved and no answer key was created."
+  ]
+}

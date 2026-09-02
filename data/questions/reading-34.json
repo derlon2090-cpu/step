@@ -1,0 +1,540 @@
+{
+  "readingId": "reading-34",
+  "sourceQuestionBlocks": 11,
+  "questions": [
+    {
+      "id": "reading-34-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What idea do the words \"susceptible to automation\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 420,
+      "sourceLine": 35,
+      "sourcePages": [
+        420,
+        421
+      ],
+      "rawBlock": "What idea do the words \"susceptible to automation\" repeat? \nworkforce automation \nrobots and machines \nautomation potential \ncompetitive edge \nما الفكرة التي تكررها عبارة \"عرضة للأتمتة\"؟ \nأتمتة القوى العاملة  \nالروبوتات والآلات  \nإمكانية الأتمتة  \nميزة تنافسية\n420 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "What can we understand from Paragraph (2) about the McKinsey Global Institute research?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 421,
+      "sourceLine": 2,
+      "sourcePages": [
+        421
+      ],
+      "rawBlock": "What can we understand from Paragraph (2) about the McKinsey Global Institute research? \nIt was a large study. \nIt was an automated study. \nIt used current technology. \nIt had an effect on full-time employees. \nما الذي يمكننا فهمه من الفقرة2) حول أبحاث معهد ماكينزي العالمي؟ \nكانت دراسة كبيرة.  \nكانت دراسة آلية.  \nتستخدم التكنولوجيا الحالية.  \nكان له تأثير على الموظفين بدوام كامل.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "Which of the following is an opinion in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 421,
+      "sourceLine": 15,
+      "sourcePages": [
+        421
+      ],
+      "rawBlock": "Which of the following is an opinion in the passage? \nThe report considered several factors in the automation process. \nAutomation of work will become a reality for all workers. \nThe speed of change to automation is difficult to predict. \nThe McKinsey report studied 46 different countries. \nأي مما يلي رأي في المقطع؟ \nنظر التقرير في عدة عوامل في عملية الأتمتة.  \nستصبح أتمتة العمل حقيقة واقعة لجميع العمال.  \nمن الصعب التنبؤ بسرعة التغيير إلى الأتمتة.  \nدرس تقرير ماكينزي 46 دولة مختلفة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "Which of the following is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 421,
+      "sourceLine": 28,
+      "sourcePages": [
+        421
+      ],
+      "rawBlock": "Which of the following is a fact? \nPhysical work can be unpredictable. \nThe report considered information from 46 countries. \nTechnology has the greatest effect on full-time employees. \nThe writers of the report interviewed 80% of the global workforce. \nأي مما يلي هو حقيقة؟ \nيمكن أن يكون العمل البدني غير متوقع.  \nوتناول التقرير المعلومات الواردة من  46 دولة \nالتكنولوجيا لها التأثير الأكبر على الموظفين بدوام كامل.  \nأجرى مؤلفو التقرير مقابلات مع  80% من القوى العاملة العالمية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What idea do the words \"administrative support\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 421,
+      "sourceLine": 46,
+      "sourcePages": [
+        421,
+        422
+      ],
+      "rawBlock": "What idea do the words \"administrative support\" repeat?\n421 \nManagement and engineering \nData processing and data collection \nTechnical, economic and social factors \nApplying expertise and managing others \nما الفكرة التي تكررها عبارة \"دعم إداري\"؟ \nالإدارة والهندسة  \nمعالجة البيانات وجمع البيانات  \nالعوامل الفنية والاقتصادية والاجتماعية  \nتطبيق الخبرة وإدارة الآخرين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What can we understand from Paragraphs (4) and (5) about automation around the world?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 422,
+      "sourceLine": 16,
+      "sourcePages": [
+        422
+      ],
+      "rawBlock": "What can we understand from Paragraphs (4) and (5) about automation around the world? \nIt will be very difficult to achieve. \nIt will become a reality very quickly. \nIt will be different in different countries. \nIt will have the biggest effect on manufacturing. \nما الذي يمكننا فهمه من الفقرتين4) و5) حول الأتمتة حول العالم؟ \nسيكون من الصعب جدا تحقيقه.  \nسوف تصبح حقيقة واقعة بسرعة كبيرة.  \nسيكون مختلفًا في بلدان مختلفة.  \nسيكون لها أكبر تأثير على التصنيع.  \nFree Software    البرمجيات الحرة \nfreeware and shareware  \nبرامج مجانية وتجريبية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (1) say about freeware?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 422,
+      "sourceLine": 38,
+      "sourcePages": [
+        422,
+        423
+      ],
+      "rawBlock": "What does Paragraph (1) say about freeware? \nIt has source code that can be changed. \nIt has rules that users must follow. \nIt is necessary to update it often. \nIt is similar to free software. \nماذا تقول الفقرة1) عن البرامج المجانية؟\n422 \nيحتوي على شفرة المصدر التي يمكن تغييرها \nلديها قواعد يجب على المستخدمين اتباعها.  \nمن الضروري تحديثه كثيرًا.  \nإنه مشابه للبرامج المجانية.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 423,
+      "sourceLine": 8,
+      "sourcePages": [
+        423
+      ],
+      "rawBlock": "Which sentence gives the main idea of Paragraph (1)? \nFreeware is software a user can download from the internet free of charge. \nOnce it has been downloaded, there are no fees associated with using the software (Examples include: \nAdobe, Skype or media players). \nUnlike free software, freeware is subject to copyright laws and users are often requested to tick a box to \nsay they understand and agree to the terms and conditions governing the software. \nThis basically means that a user is not allowed to study or modify the source code in any way. \nما الجملة التي تعطي الفكرة الرئيسية للفقرة1)؟ \nالبرنامج المجاني هو برنامج يمكن للمستخدم تنزيله من الإنترنت مجانًا.  \nبمجرد تنزيله، لا توجد رسوم مرتبطة باستخدام البرنامج (تشمل الأمثلة: Adobe أوSkype أو مشغلات الوسائط \nعلى عكس البرامج المجانية، تخضع البرامج المجانية لقوانين حقوق النشر وغالبًا ما يُطلب من المستخدمين تحديد مربع ليقولوا إنهم يفهمون ويوافقون \nعلى الشروط والأحكام التي تحكم البرنامج.  \nهذا يعني في الأساس أنه لا يُسمح للمستخدم بدراسة أو تعديل الكود المصدري بأي شكل من الأشكال.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (2) say about shareware's trial period?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 423,
+      "sourceLine": 31,
+      "sourcePages": [
+        423
+      ],
+      "rawBlock": "What does Paragraph (2) say about shareware's trial period? \nYou can change the source code. \nYou can share it with friends and family. \nYou can use all of the software's features. \nYou can use the software for a limited time. \nماذا تقول الفقرة2) عن الفترة التجريبية للبرنامج التجريبي؟ \nيمكنك تغيير كود المصدر.  \nيمكنك مشاركتها مع الأصدقاء والعائلة.  \nيمكنك استخدام جميع ميزات البرنامج.  \nيمكنك استخدام البرنامج لفترة محدودة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "Which of the following statements about shareware Paragraph (2) support?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 423,
+      "sourceLine": 43,
+      "sourcePages": [
+        423,
+        424
+      ],
+      "rawBlock": "Which of the following statements about shareware Paragraph (2) support? \nUsers can try it before buying it. \nUsers can share it easily with anyone. \nUsers can download it on their phones.\n423 \nUsers can create their own software. \nأي من العبارات التالية حول برنامج كومبيوتري تدعم الفقرة2)؟ \nيمكن للمستخدمين تجربته قبل شرائه.  \nيمكن للمستخدمين مشاركتها بسهولة مع أي شخص.  \nيمكن للمستخدمين تنزيله على هواتفهم.  \nيمكن للمستخدمين إنشاء برامجهم الخاصة.  \nphotosynthesis البناء الضوئي  \nHow is the author's view of \"increase in mass\" in trees different from the Dutch scientist, \nHelmont's view? \nIt is due entirely to the water they receive.  \nIt is due to the water, air, and soil they receive.  \nIt is due to the water, minerals, carbon dionxide, and sun light.  \nIt is due to a healthy soil, enough water, enough minerals and air. \nكيف تختلف وجهة نظر المؤلف عن \"زيادة الكتلة\" في الأشجار عن وجهة نظر العالم الهولندي ، من وجهة نظر هيلمونت؟ \nإنه يرجع بالكامل إلى الماء الذي يتلقونه.  \nإنه بسبب الماء والهواء والتربة التي يتلقونها.  \nيرجع ذلك إلى الماء والمعادن وثاني أكسيد الكربون وضوء الشمس.  \nإنه ناتج عن تربة صحية ومياه كافية ومعادن وهواء كافيين.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "What word other than food does the writer use to talk about the need of all living things?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 424,
+      "sourceLine": 29,
+      "sourcePages": [
+        424,
+        425
+      ],
+      "rawBlock": "What word other than food does the writer use to talk about the need of all living things?  \ncell  \nfuel  \nmaterial  \nprocess \nما هي الكلمة بخلاف الطعام التي يستخدمها الكاتب للحديث عن حاجة كل الكائنات الحية؟ \nزنزانة  \nالوقود  \nمواد  \nمعالجة\n424 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "What can we understand from the passage about the source of food hypothesis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 425,
+      "sourceLine": 2,
+      "sourcePages": [
+        425
+      ],
+      "rawBlock": "What can we understand from the passage about the source of food hypothesis?  \nFood comes from only carbohydrates and carbon.  \nFood comes from three different sources.  \nFood comes from more than four sources.  \nFood comes from nitrogen and sulfur. \nماذا يمكن أن نفهم من المقطع حول فرضية مصدر الغذاء؟ \nيأتي الطعام من الكربوهيدرات والكربون فقط.  \nيأتي الطعام من ثلاثة مصادر مختلفة.  \nيأتي الطعام من أكثر من أربعة مصادر.  \nيأتي الغذاء من النيتروجين والكبريت.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "What can we understand from Paragraph (3) about Helmont's experiment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 425,
+      "sourceLine": 13,
+      "sourcePages": [
+        425,
+        426,
+        427,
+        428
+      ],
+      "rawBlock": "What can we understand from Paragraph (3) about Helmont's experiment?  \nIt failed because it used dry soil.  \nIt succeeded because it used only rainwater for 5 years.  \nIt failed because it did not pay attention to all things plants need.  \nIt failed because it happened a long time ago before photosynthesis was even known. \nما الذي يمكن أن نفهمه من الفقرة3) عن تجربة هيلمونت؟ \nلقد فشلت لأنها استخدمت التربة الجافة.  \nلقد نجحت لأنها استخدمت مياه الأمطار فقط لمدة 5 سنوات \nلقد فشلت لأنها لم تهتم بكل ما تحتاجه النباتات.  \nلقد فشلت لأنها حدثت منذ وقت طويل قبل أن يعرف التمثيل الضوئي.\n425 \nرسم بياني \nGermany 6% \nSaudi Arabia 3% \nقطعه السكر \n/عن ايش يسبب السكر ؟ مشاكل قلبيه  1س   \n/ ايش موقف الباحثين والمصانع عن السكر ؟ 2س\n426 \nالزهايمر \nس1/ ايش اعراضه ؟ ارتعاش اليدين \nس2/ وايش يسبب للعقل مكتوب ايش يسبب في القطعه ؟ \nس3/ اعمار وفيات في فقره ثلاثه ؟ اعمارهم من 60  - 80  س4/ نسبه وفيات ؟6%  مكتوبه في قطعه كتابه مو رقم  \nالرسوم البيانية  •الرسم البياني حق السيارت ايش الجواب 1 -النوريج2 -الصين• \n الاولى اطول جسر تايلند 33 والاجابة الثانية قال الاقل انو جواب يكون الولايات المتحدة• \n مبيعات 2018 1 -اعلى نسبه مبيعات ؟china   \n -اعلى نسبه مبيعات احد في ؟  New York \n•  كم النسبة اللي دفعتها السعودية حق مدري ايش4%  و الثاني اتوّقع England  الاجابة6% • \n كان اقل نسبة للفئة العمرية تشوف الTV ؟ يمكن قولف والسؤال الثاني كم دقيقة إللي اعمارهم من36 يشوفو ال TV  باليوم؟ يمكن جواب الي فيه استخدام عضلات\n427 \nرض باريكسون س1/ ايش يسبب؟ من قوقل باركنسون مرض يصيب الجهاز العصبي، ويؤثر في الحركة. تبدأ الأعراض تدريجيًّا، ويبدأ المرض -  غالبًا -  برجفة  \nتكاد تكون غير محسوسة، وغير مرئية بإحدى اليدين، أو ربما بتيبس في العضلات. في المراحل المبكرة، قد يظهر وجه المصاب بدون تعبيرات، ويضعف نطقه،  \nوتزداد الأعراض سوءًا كلما تفاقم المرض   \nايش يسوي في خلايا دماغ ؟ من قوقل يتعرض المصابون بمرض باركنسون لتحلل بعض الخلايا العصبية في الدماغ أو موتها تدريجيًا. ويرجع السبب  في كثير من  \nالأعراض إلى فقد الخلايا العصبية التي تنتج الناقل العصبي في الدماغ المُسمَّى الدوبامين . \nرسم بياني  \nchart about traveling and flight company \nمرادفات مهمة في القطع   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "tresul\" is closest in meaning? outcomeThe word \"",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 428,
+      "sourceLine": 30,
+      "sourcePages": [
+        428,
+        429
+      ],
+      "rawBlock": "tresul\" is closest in meaning?  outcomeThe word \" \nقطع متفرقة مهمة جدا\n428 \nرسالة دعوة لصديق ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "reply.to his friend is asking He is true? atWh",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 429,
+      "sourceLine": 6,
+      "sourcePages": [
+        429
+      ],
+      "rawBlock": "reply.to  his friend is asking He  is true? atWh \nما هو  حقيقي؟  يطلب من صديقه الرد  \nرجل يقود السيارة بشكل جيد اسمه جيوفاني  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "Good driver paragraph? firstWhat did you understand from the",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 429,
+      "sourceLine": 10,
+      "sourcePages": [
+        429
+      ],
+      "rawBlock": " Good driver  paragraph? firstWhat did you understand from the  \nماذا فهمت من الفقرة الأولى؟ سائق جيد  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "Different British drivers What did you understand from the second paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 429,
+      "sourceLine": 13,
+      "sourcePages": [
+        429
+      ],
+      "rawBlock": "Different British drivers  What did you understand from the second paragraph? \nماذا فهمت  من الفقرة الثانية؟   سائقين بريطانيين مختلفين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What is the name of the state? Italy state",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 429,
+      "sourceLine": 16,
+      "sourcePages": [
+        429
+      ],
+      "rawBlock": "What is the name of the state?    Italy state \nما اسم الدولة؟  دولة إيطاليا               تأكدوا من السؤال والجواب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "lawThe meaning of the word \"rule\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 429,
+      "sourceLine": 19,
+      "sourcePages": [
+        429
+      ],
+      "rawBlock": "lawThe meaning of the word \"rule\"?     \nمعنى كلمة \"حكم\" ؟  القانون . \nالقاموس dictionary  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "What is the best way to learn English language?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 429,
+      "sourceLine": 22,
+      "sourcePages": [
+        429,
+        430
+      ],
+      "rawBlock": "What is the best way to learn English language? \nUse less dictionary \nNot to use dictionary \nUsing small dictionary \nAttention about learning all English letters \nما هي أفضل طريقة لتعلم اللغة الإنجليزية؟  \nاستخدم قاموسًا أقل \nعدم استخدام القاموس  \nباستخدام القاموس الصغير  \nالاهتمام  بتعلم كل الحروف الإنجليزية\n429 \n.use Effective Dictionary ?titleWhat's the suitable  \nما هو العنوان المناسب ؟ القاموس الفعال  \nStudents They \" refers to: \nهم \" يشيرون إلى: الطلاب  \nالخطاب وتجربة  البروفيسور  \nThe speech and the professor’s experiment ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "speech organization? assageWhat is the main idea of the p",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 430,
+      "sourceLine": 11,
+      "sourcePages": [
+        430
+      ],
+      "rawBlock": "speech organization?  assageWhat is the main idea of the p \nما هي الفكرة الرئيسية لهذا القطعة؟  تنظيم الكلام   \n omprehensionCParagraph 1 talks about?  \nالفقرة 1 تتحدث عن؟  استيعاب  \nProfessorsThey refers to?  \nيشيرون إلى؟  أساتذة  \nصيدلي \nChemists / pharmacy  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "Where is the place of pharmacy? أين تقع الصيدلية؟",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 430,
+      "sourceLine": 22,
+      "sourcePages": [
+        430
+      ],
+      "rawBlock": "Where is the place of pharmacy?                                                                                  أين تقع الصيدلية؟ ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What are the work hours? ما هي أوقات الدوام؟",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 430,
+      "sourceLine": 23,
+      "sourcePages": [
+        430
+      ],
+      "rawBlock": "What are the work hours? ما هي أوقات الدوام؟                                                                                               \nرجل في  أستراليا   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "Like the foodHe is?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 430,
+      "sourceLine": 25,
+      "sourcePages": [
+        430,
+        431
+      ],
+      "rawBlock": "Like the foodHe is?\n430 \nهو؟يحب الطعام  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "PlaceWhat does \"location\" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 431,
+      "sourceLine": 3,
+      "sourcePages": [
+        431
+      ],
+      "rawBlock": "PlaceWhat does \"location\" mean?   \nماذا يعني \"الموقع\"؟مكان  \nقطار الملاهي roller-coaster  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "??????????? ??????????? competitor predecessor What does (ancestor) mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 431,
+      "sourceLine": 6,
+      "sourcePages": [
+        431
+      ],
+      "rawBlock": "???????????      ???????????     competitor      predecessor What does (ancestor) mean?       ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "why are roller coasters of interest to physics students?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 431,
+      "sourceLine": 9,
+      "sourcePages": [
+        431
+      ],
+      "rawBlock": "why are roller coasters of interest to physics students? \nThey all work on the same fundamental principles. \nلماذا تعتبر الأفعوانية موضع اهتمام طلاب الفيزياء؟   \nانهم جميعا يعملون على نفس المبادئ الأساسية.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "Because France is warmer than Russiawhy did the French change to rolling carts?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 431,
+      "sourceLine": 14,
+      "sourcePages": [
+        431
+      ],
+      "rawBlock": "Because France is warmer than Russiawhy did the French change to rolling carts?  \nلماذا لا يستخدم الفرنسيون الثلج ويصنعون الخشب؟ لأن  فرنسا أدفئ من روسيا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-34-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "What do you understand from the passage 4?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 431,
+      "sourceLine": 17,
+      "sourcePages": [
+        431,
+        432
+      ],
+      "rawBlock": "What do you understand from the passage 4?  \nVery little development took place in the roller coaster industry after Switchback. \nماذا تفهم من المقطع  4؟ حدث تطور ضئيل جدًا في صناعة الأفعوانية بعد التبديل. \nقطعة قصيرة ومعنى كلمة  \nexplainDefine =  \nقطعة ما اعرف عنوانها \nn abeg=  dIntroduce\n431 \nقطعة ما اعرف عنوانها \nexcitingDramatic?      amazing       \n بخصوص المواد العلمية المعروضة في قناة التجميعات، انا لا أحلل ولا أبيح أي سطو او تعدي عليها يحصل من  \nقبل شخص ما وسيكون محاسبا أمام الله  في يوم لا ينفع فيه مال ولا جاه ولا  بنون في حال استخدامها من غير  \nاستئذان في مؤلفات خاصة وأغراض مادية ، أو شخصية كدورات تعليمية، أو مقابل مبلغ مالي او  بي عها بطرق  \nمختلفة أو التسويق لدورات بأخذ التجميعات وعرضها كأنها من جهدهم   \nوشكرا للمشرفين والمشرفات الذين يخدمون بدون مقابل ولجميع من يساعد  \nالتجميعات هذه عمل لوجه الله ولا  نستفيد أي شيء و لا نتبع لأي منصة   \nالله لا يوفق كل من استخدم تجميعاتنا أو سرق منها خاصة الحرامي النصاب من دورته فوق الألف ريال",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

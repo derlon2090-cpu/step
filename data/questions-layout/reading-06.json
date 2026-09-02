@@ -1,0 +1,1037 @@
+{
+  "readingId": "reading-06",
+  "questions": [
+    {
+      "id": "reading-06-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "When did the Second World War begin?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        65
+      ],
+      "sourceBlockIds": [
+        "page-65-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 728.41,
+        "x0": 14.16,
+        "x1": 295.77
+      }
+    },
+    {
+      "id": "reading-06-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "How many militaries were killed in it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        66
+      ],
+      "sourceBlockIds": [
+        "page-66-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.63,
+        "x0": 14.4,
+        "x1": 360.51
+      }
+    },
+    {
+      "id": "reading-06-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "Why did the war end in the winter?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        66
+      ],
+      "sourceBlockIds": [
+        "page-66-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 144.47,
+        "x0": 14.4,
+        "x1": 240.38
+      }
+    },
+    {
+      "id": "reading-06-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "What was the first reforms?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        66
+      ],
+      "sourceBlockIds": [
+        "page-66-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 311.12,
+        "x0": 14.4,
+        "x1": 328.96
+      }
+    },
+    {
+      "id": "reading-06-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "World War (2) differs from other wars?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        66
+      ],
+      "sourceBlockIds": [
+        "page-66-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 395.48,
+        "x0": 14.4,
+        "x1": 406.06
+      }
+    },
+    {
+      "id": "reading-06-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "Why are modern weapons more destroyed or why equipment shatters a city easily?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        66
+      ],
+      "sourceBlockIds": [
+        "page-66-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 459.94,
+        "x0": 14.4,
+        "x1": 479.61
+      }
+    },
+    {
+      "id": "reading-06-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "The cost of World War 2?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        66
+      ],
+      "sourceBlockIds": [
+        "page-66-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 651.85,
+        "x0": 14.4,
+        "x1": 323.02
+      }
+    },
+    {
+      "id": "reading-06-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What does occur mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        67
+      ],
+      "sourceBlockIds": [
+        "page-67-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 195.53,
+        "x0": 14.4,
+        "x1": 227.08
+      }
+    },
+    {
+      "id": "reading-06-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the best title of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        67
+      ],
+      "sourceBlockIds": [
+        "page-67-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 456.58,
+        "x0": 14.4,
+        "x1": 378.66
+      }
+    },
+    {
+      "id": "reading-06-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "How long did the world war last?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        67
+      ],
+      "sourceBlockIds": [
+        "page-67-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 534.94,
+        "x0": 14.4,
+        "x1": 264.05
+      }
+    },
+    {
+      "id": "reading-06-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the best title for the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        68
+      ],
+      "sourceBlockIds": [
+        "page-68-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 175.61,
+        "x0": 14.16,
+        "x1": 222.85
+      }
+    },
+    {
+      "id": "reading-06-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the true from the following?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        68
+      ],
+      "sourceBlockIds": [
+        "page-68-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 296.36,
+        "x0": 14.16,
+        "x1": 218.7
+      }
+    },
+    {
+      "id": "reading-06-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "When does Urdu broadcast?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        68
+      ],
+      "sourceBlockIds": [
+        "page-68-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 473.74,
+        "x0": 14.4,
+        "x1": 343.73
+      }
+    },
+    {
+      "id": "reading-06-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the pronoun \" them \" refer to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        68
+      ],
+      "sourceBlockIds": [
+        "page-68-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 591.46,
+        "x0": 14.16,
+        "x1": 345.99
+      }
+    },
+    {
+      "id": "reading-06-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "\" lion share\" ) د سلأا بيصن ( means?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        68
+      ],
+      "sourceBlockIds": [
+        "page-68-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 691.57,
+        "x0": 14.16,
+        "x1": 581.14
+      }
+    },
+    {
+      "id": "reading-06-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "Are the English stations few or many?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        68
+      ],
+      "sourceBlockIds": [
+        "page-68-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 747.01,
+        "x0": 14.16,
+        "x1": 266.99
+      }
+    },
+    {
+      "id": "reading-06-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the old name of Istanbul?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        69
+      ],
+      "sourceBlockIds": [
+        "page-69-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 370.88,
+        "x0": 14.4,
+        "x1": 392.36
+      }
+    },
+    {
+      "id": "reading-06-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the word \" happen \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        69
+      ],
+      "sourceBlockIds": [
+        "page-69-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 427.76,
+        "x0": 14.16,
+        "x1": 277.23
+      }
+    },
+    {
+      "id": "reading-06-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the word \" reign \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        69
+      ],
+      "sourceBlockIds": [
+        "page-69-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 500.26,
+        "x0": 14.16,
+        "x1": 257.8
+      }
+    },
+    {
+      "id": "reading-06-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the best title of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        69
+      ],
+      "sourceBlockIds": [
+        "page-69-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 572.74,
+        "x0": 14.16,
+        "x1": 218.18
+      }
+    },
+    {
+      "id": "reading-06-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "interested in such passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        69
+      ],
+      "sourceBlockIds": [
+        "page-69-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 645.13,
+        "x0": 14.16,
+        "x1": 266.07
+      }
+    },
+    {
+      "id": "reading-06-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the goal of the speaker or It seems to be directed to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        69
+      ],
+      "sourceBlockIds": [
+        "page-69-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 717.61,
+        "x0": 14.16,
+        "x1": 561.05
+      }
+    },
+    {
+      "id": "reading-06-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the best title for the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        70
+      ],
+      "sourceBlockIds": [
+        "page-70-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 443.86,
+        "x0": 14.16,
+        "x1": 222.85
+      }
+    },
+    {
+      "id": "reading-06-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "Western food?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        70
+      ],
+      "sourceBlockIds": [
+        "page-70-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 533.5,
+        "x0": 14.16,
+        "x1": 560.15
+      }
+    },
+    {
+      "id": "reading-06-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the word \" nutritious \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        70
+      ],
+      "sourceBlockIds": [
+        "page-70-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 600.82,
+        "x0": 14.16,
+        "x1": 462.83
+      }
+    },
+    {
+      "id": "reading-06-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the pronoun \" these \" refer to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        70
+      ],
+      "sourceBlockIds": [
+        "page-70-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 680.17,
+        "x0": 14.16,
+        "x1": 392.65
+      }
+    },
+    {
+      "id": "reading-06-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "Reducing sleep?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        71
+      ],
+      "sourceBlockIds": [
+        "page-71-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 508.3,
+        "x0": 14.4,
+        "x1": 227.24
+      }
+    },
+    {
+      "id": "reading-06-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the word \" individual\" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        71
+      ],
+      "sourceBlockIds": [
+        "page-71-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 582.34,
+        "x0": 14.16,
+        "x1": 310.99
+      }
+    },
+    {
+      "id": "reading-06-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "Where is most people between A and B?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        71
+      ],
+      "sourceBlockIds": [
+        "page-71-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 654.73,
+        "x0": 14.16,
+        "x1": 323.27
+      }
+    },
+    {
+      "id": "reading-06-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "Type A is different from type B, they?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        71
+      ],
+      "sourceBlockIds": [
+        "page-71-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 761.53,
+        "x0": 14.4,
+        "x1": 317.02
+      }
+    },
+    {
+      "id": "reading-06-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "What is our goal?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        72
+      ],
+      "sourceBlockIds": [
+        "page-72-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 126.89,
+        "x0": 14.4,
+        "x1": 245.68
+      }
+    },
+    {
+      "id": "reading-06-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "How to give up your meeting effectively?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        72
+      ],
+      "sourceBlockIds": [
+        "page-72-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 295.88,
+        "x0": 14.4,
+        "x1": 505.02
+      }
+    },
+    {
+      "id": "reading-06-q33",
+      "displayOrder": 33,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the \" remark\" ةظحلام mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        72
+      ],
+      "sourceBlockIds": [
+        "page-72-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 563.38,
+        "x0": 14.16,
+        "x1": 462.56
+      }
+    },
+    {
+      "id": "reading-06-q34",
+      "displayOrder": 34,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main idea?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        72
+      ],
+      "sourceBlockIds": [
+        "page-72-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 633.85,
+        "x0": 14.16,
+        "x1": 350.15
+      }
+    },
+    {
+      "id": "reading-06-q35",
+      "displayOrder": 35,
+      "sourceQuestionNumber": null,
+      "questionText": "Who should invite for a meeting?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        72
+      ],
+      "sourceBlockIds": [
+        "page-72-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 726.97,
+        "x0": 14.16,
+        "x1": 491.88
+      }
+    },
+    {
+      "id": "reading-06-q36",
+      "displayOrder": 36,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the passage talk about?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        73
+      ],
+      "sourceBlockIds": [
+        "page-73-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 268.04,
+        "x0": 14.4,
+        "x1": 326.33
+      }
+    },
+    {
+      "id": "reading-06-q37",
+      "displayOrder": 37,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the word (current) mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        73
+      ],
+      "sourceBlockIds": [
+        "page-73-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 342.08,
+        "x0": 14.4,
+        "x1": 285.84
+      }
+    },
+    {
+      "id": "reading-06-q38",
+      "displayOrder": 38,
+      "sourceQuestionNumber": null,
+      "questionText": "Device driver is?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        73
+      ],
+      "sourceBlockIds": [
+        "page-73-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 416.36,
+        "x0": 14.4,
+        "x1": 356.68
+      }
+    },
+    {
+      "id": "reading-06-q39",
+      "displayOrder": 39,
+      "sourceQuestionNumber": null,
+      "questionText": "The main function of device driver?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        73
+      ],
+      "sourceBlockIds": [
+        "page-73-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 502.99,
+        "x0": 14.4,
+        "x1": 537.94
+      }
+    },
+    {
+      "id": "reading-06-q40",
+      "displayOrder": 40,
+      "sourceQuestionNumber": null,
+      "questionText": "How is the person?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        74
+      ],
+      "sourceBlockIds": [
+        "page-74-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 206.93,
+        "x0": 14.4,
+        "x1": 362.78
+      }
+    },
+    {
+      "id": "reading-06-q41",
+      "displayOrder": 41,
+      "sourceQuestionNumber": null,
+      "questionText": "An example of housework?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        74
+      ],
+      "sourceBlockIds": [
+        "page-74-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 292.52,
+        "x0": 14.4,
+        "x1": 512.87
+      }
+    },
+    {
+      "id": "reading-06-q42",
+      "displayOrder": 42,
+      "sourceQuestionNumber": null,
+      "questionText": "What does \"all inclusive\" resort mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        74
+      ],
+      "sourceBlockIds": [
+        "page-74-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 442.3,
+        "x0": 14.4,
+        "x1": 441.28
+      }
+    },
+    {
+      "id": "reading-06-q43",
+      "displayOrder": 43,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following might cost extra?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        74
+      ],
+      "sourceBlockIds": [
+        "page-74-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 550.18,
+        "x0": 14.4,
+        "x1": 346.84
+      }
+    }
+  ]
+}

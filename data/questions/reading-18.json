@@ -1,0 +1,1212 @@
+{
+  "readingId": "reading-18",
+  "sourceQuestionBlocks": 18,
+  "questions": [
+    {
+      "id": "reading-18-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "To hold and protect the product What was the main function of packaging traditionally?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 197,
+      "sourceLine": 12,
+      "sourcePages": [
+        197
+      ],
+      "rawBlock": "To hold and protect the product  What was the main function of packaging traditionally? \nما هي الوظيفة الرئيسية للتغليف تقليديا؟لعقد المنتج وحمايته  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "300How many items does a shopper pass in a minute?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 197,
+      "sourceLine": 16,
+      "sourcePages": [
+        197,
+        198
+      ],
+      "rawBlock": "300How many items does a shopper pass in a minute?   \nكم عدد العناصر التي يمر بها المتسوق العادي في دقيقة واحدة؟300 \nرسم بياني عن سبب سفر الناس  \nنظام تشغيل الكمبيوتر OS) operating system   \nسيبيريا والحرب \nالمعدل العالمي للجريمة  Global murder rates \nالاحتكاك Friction  \nالتقطير البسيط simple distillation  \nCost Benefit Analysis  \nتحليل التكاليف والفوائد\n197 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "3How many companies is Amazon working with \"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 198,
+      "sourceLine": 2,
+      "sourcePages": [
+        198
+      ],
+      "rawBlock": "3How many companies is Amazon working with \"?   \nكم عدد الشركات التي تعمل معها أمازون \"؟3 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "By changing the ketchup bottle ow did Heinz revolutionize the condiments industry?H",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 198,
+      "sourceLine": 7,
+      "sourcePages": [
+        198
+      ],
+      "rawBlock": "By changing the ketchup bottle ow did Heinz revolutionize the condiments industry?H \nكيف أحدثت شركةHeinz ثورة في صناعة التوابل؟عن طريق تغيير زجاجة الكاتشب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "12What percentage increase in sales did Heinz make?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 198,
+      "sourceLine": 11,
+      "sourcePages": [
+        198
+      ],
+      "rawBlock": "12What percentage increase in sales did Heinz make?   \nما هي النسبة المئوية للزيادة في المبيعات التي حققتها شركةHeinz؟12 \nالكاتشب ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What is the most important step in getting ketchup to flow?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 198,
+      "sourceLine": 16,
+      "sourcePages": [
+        198
+      ],
+      "rawBlock": "What is the most important step in getting ketchup to flow? \nholding the bottle at a 45-degree angle \nmixing the ketchup with water \nkeeping the ketchup warm \nshaking the bottle well \nما هي أهم خطوة في جعل الكاتشب يتدفق؟ \nإمساك الزجاجة بزاوية  45  درجة \nخلط الكاتشب بالماء  \nحفظ الكاتشب دافئا  \nهز الزجاجة جيداً  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "Which word can we use to replace the word While in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 198,
+      "sourceLine": 27,
+      "sourcePages": [
+        198,
+        199
+      ],
+      "rawBlock": "Which word can we use to replace the word While in Paragraph (2)? \nBecause \nAlthough \nHowever \nBesides \nما الكلمة التي يمكننا استخدامها لاستبدال كلمة \"بينما في الفقرة2)\"؟ \nلان\n198 \nرغم \nلكن  \nبجانب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What does the passage say about ketchup sold in glass bottles?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 199,
+      "sourceLine": 6,
+      "sourcePages": [
+        199
+      ],
+      "rawBlock": "What does the passage say about ketchup sold in glass bottles? \nLarge amounts are easier to get out of a glass bottle than small amounts. \nHenry Heinz suggested the best way to get ketchup out of a glass bottle. \nA scientist designed a glass bottle that makes ketchup flow more easily. \nGetting ketchup out of a glass bottle can be made easier by science. \nماذا يقول المقطع عن الكاتشب الذي يباع في عبوات زجاجية؟ \nإن إخراج الكميات الكبيرة من الزجاجة أسهل من إخراج الكميات الصغيرة.  \nاقترح هنري هاينز أفضل طريقة لإخراج الكاتشب من قنينة زجاجية.  \nصمم أحد العلماء زجاجة زجاجية تجعل الكاتشب يتدفق بسهولة أكبر.  \nيمكن أن يكون إخراج الكاتشب من زجاجة زجاجية أسهل من خلال العلم.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word then in Paragraph (5)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 199,
+      "sourceLine": 17,
+      "sourcePages": [
+        199
+      ],
+      "rawBlock": "Why does the writer use the word then in Paragraph (5)? \nto show that shaking the bottle is part of a list of steps. \nto give an example of how you should shake the bottle. \nto give more information about the making of ketchup. \nto show that tapping the bottle is different from shaking it. \nلماذا يستخدم الكاتب الكلمة إذن في الفقرة5)؟ \nلتوضيح أن هز الزجاجة جزء من قائمة الخطوات.  \nلإعطاء مثال على كيفية هز الزجاجة.  \nلإعطاء مزيد من المعلومات حول صنع الكاتشب.  \nلتوضيح أن النقر على الزجاجة يختلف عن رجها.  \nالفراولة في كالفورنيا Strawberries ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "What are two plant pathogens that harm strawberries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 199,
+      "sourceLine": 30,
+      "sourcePages": [
+        199,
+        200
+      ],
+      "rawBlock": "What are two plant pathogens that harm strawberries? \nverticillium dahliae and macrophomina phaseolina \nmethyl bromide and methyl iodide \nmethyl iodide and macrophomina phaseolina \nverticillium dahliac and methyl bromide \nما هما مسببات الأمراض النباتية التي تضر بالفراولة؟\n199 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "Between which years did organic strawberry production rise by fivefold?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 200,
+      "sourceLine": 2,
+      "sourcePages": [
+        200
+      ],
+      "rawBlock": "Between which years did organic strawberry production rise by fivefold? \nما بين السنوات التي ارتفع فيها إنتاج الفراولة العضوية خمسة أضعاف؟ \n1960 and 2014 \n2005 and 2015 \n2010 and 2012 \n2000 and 2012 \nرسم بياني عن الانترنت \n لمجموعة من الدول وأسئلة عن الاحصائيات في الصين وانجلترا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "How many people used the internet in Chinese in 2017?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 200,
+      "sourceLine": 19,
+      "sourcePages": [
+        200
+      ],
+      "rawBlock": "How many people used the internet in Chinese in 2017? \nكم عدد الأشخاص الذين استخدموا الإنترنت باللغة الصينية في عام2017؟ \n1277 million \n985 million \n771 million \n2017 million ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "In June 2017, how many users explored the internet in English?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 200,
+      "sourceLine": 26,
+      "sourcePages": [
+        200,
+        201
+      ],
+      "rawBlock": "In June 2017, how many users explored the internet in English? \nفي يونيو2017 ، كم عدد المستخدمين الذين استكشفوا الإنترنت باللغة الإنجليزية؟ \n897 million \n985 million \n1,000 million \n3,886 million\n200 \nنمو التعليم العام Growth of Public Education \n  التعليم في أوروبا ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "Francen 1879, where did schools to train teachers start? I",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 201,
+      "sourceLine": 6,
+      "sourcePages": [
+        201
+      ],
+      "rawBlock": "Francen 1879, where did schools to train teachers start? I \nفي عام1879، أين بدأت المدارس في تدريب المعلمين؟فرنسا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "United States Where is Mount Holyoke College for Women?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 201,
+      "sourceLine": 12,
+      "sourcePages": [
+        201
+      ],
+      "rawBlock": "United States Where is Mount Holyoke College for Women? \nأين يقع كلية جبل هوليك للنساء؟الولايات المتحدة الأمريكية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "chemistry0s? What university course was added to the curriculum by the late 180",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 201,
+      "sourceLine": 18,
+      "sourcePages": [
+        201
+      ],
+      "rawBlock": "chemistry0s? What university course was added to the curriculum by the late 180 \nما هي الدورة الجامعية التي تمت إضافتها إلى المنهج بحلول أواخر1800s؟كيمياء \n الثورة الصناعية البريطانية Britain's Industrial Revolution \nIndustrialization: migrant workers and entrepreneurs \nالتصنيع: العمال المهاجرين ورجال الأعمال ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "?1 Which sentence gives the main idea of Paragraph",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 201,
+      "sourceLine": 29,
+      "sourcePages": [
+        201
+      ],
+      "rawBlock": " ?1 Which sentence gives the main idea of Paragraph \n cotton mills in the north of England, needed large Factories all over the country, but especially the\n  numbers of workers.  \nالجملة التي تعطي الفكرة الرئيسية للفقرة1؟ \nالمصانع في جميع أنحاء البلاد، ولكن لا سيما مطاحن القطن في شمال إنجلترا، تحتاج إلى أعداد كبيرة من العمال. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "Britain's Industrial Revolution? What does Paragraph (2) say about the workers during",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 201,
+      "sourceLine": 37,
+      "sourcePages": [
+        201,
+        202
+      ],
+      "rawBlock": "Britain's Industrial Revolution? What does Paragraph (2) say about the workers during \nsituations. They fought for improved working and living \nماذا تقول الفقرة2) عن العمال خلال الثورة الصناعية البريطانية؟ \nقاتلوا لتحسين مواقف العمل والمعيشة.\n201 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "Revolution?ain What does Paragraph (1) say about Brit",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 202,
+      "sourceLine": 2,
+      "sourcePages": [
+        202
+      ],
+      "rawBlock": "Revolution?ain What does Paragraph (1) say about Brit \nIt made England into the strongest countries in the world. \nماذا تقول الفقرة1) عن ثورة بريطانيا؟ \nجعلت إنجلترا من أقوى الدول في العالم.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "opportunities in Industrial Britain? What does Paragraph (3) say about new business",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 202,
+      "sourceLine": 10,
+      "sourcePages": [
+        202
+      ],
+      "rawBlock": "opportunities in Industrial Britain? What does Paragraph (3) say about new business \nnew technology in Britain. They increased because there were many people and \nماذا تقول الفقرة3) عن فرص تجارية جديدة في بريطانيا الصناعية؟ \nزادوا لأن هناك الكثير من الناس والتكنولوجيا الجديدة في بريطانيا. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 202,
+      "sourceLine": 18,
+      "sourcePages": [
+        202
+      ],
+      "rawBlock": "What is the main idea of the passage? \nBritain's Industrial Revolution completely changed the country's economy and global position. \nما هي الفكرة الرئيسية للقطعة؟ \nغيرت الثورة الصناعية البريطانية تماما الاقتصاد في البلاد والموقف العالمي.  \nWiki \nالموسوعةWikipedia ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "What are two important features that wiki pages provide users?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 202,
+      "sourceLine": 28,
+      "sourcePages": [
+        202
+      ],
+      "rawBlock": "What are two important features that wiki pages provide users? \nPages and article features ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What are three additional features wiki services providing to their users?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 202,
+      "sourceLine": 31,
+      "sourcePages": [
+        202,
+        203
+      ],
+      "rawBlock": "What are three additional features wiki services providing to their users? \n Blogs, message boards, and spreadsheets \nما هي ثلاث ميزات إضافية تقدم خدمات لمستخدمي الموسوعة؟  \n  مدونات ولوحات الرسائل وأجهزة البيانات\n202 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "Which two companies have used Wikis? Pixar and Dresdner",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 203,
+      "sourceLine": 2,
+      "sourcePages": [
+        203
+      ],
+      "rawBlock": "Which two companies have used Wikis? Pixar and Dresdner \nما هي الشركتان التي استخدمت ا الويكي؟ بكسار و دريسدنر  \nالطاقة  الحركية Kinetic Energy   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "Two theories about hot and cold objects What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 203,
+      "sourceLine": 8,
+      "sourcePages": [
+        203
+      ],
+      "rawBlock": "Two theories about hot and cold objects What is the main topic of the passage? \nما هو الموضوع الرئيسي للمقطع؟نظريتين حول الكائنات الساخنة والباردة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "What is one important idea related to the new theory of heat in Paragraph 2?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 203,
+      "sourceLine": 11,
+      "sourcePages": [
+        203
+      ],
+      "rawBlock": "What is one important idea related to the new theory of heat in Paragraph 2? \nHot things have more kinetic energy  \nما هي فكرة واحدة ذات صلة بالنظرية الجديدة للحرارة في الفقرة2؟ \n  الأشياء الساخنة لديها المزيد من الطاقة الحركية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What is one important idea related to the caloric theory in Paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 203,
+      "sourceLine": 16,
+      "sourcePages": [
+        203
+      ],
+      "rawBlock": "What is one important idea related to the caloric theory in Paragraph 1? \nAn invisible fluid caused heat   \nما هي فكرة مهمة تتعلق بالنظرية الحرارية في الفقرة1؟ \n  تسبب السوائل غير المرئية الحرارة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "To show what happens to heated objectsd? Why does the writer mention that not objects expande",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 203,
+      "sourceLine": 21,
+      "sourcePages": [
+        203,
+        204
+      ],
+      "rawBlock": "To show what happens to heated objectsd? Why does the writer mention that not objects expande \nلماذا يذكر الكاتب أنه ليس كائنات موسعة؟لإظهار ما يحدث للكائنات الساخنة  \nالضرائب  والفوائد  Taxes and benefits\n203 \nهذه معلومات عن الضرائب لنفهم القطعة في الاختبار  جمعتها بنفسي  والحل في الاختبار يكون على  \nأساس القطعة والمعلومات التي في الاختبار  \nضريبة القيمة المضافة Value added Tax (VAT) \nضريبة السلع الانتقائيةExcise Tax \n ضريبة الدخلCorporate Income Tax \nضريبة التصرفات العقاريةReal Estate Tax Service \nأسئلة من المختبرين ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "In which of the following is a type of excise tax?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 204,
+      "sourceLine": 9,
+      "sourcePages": [
+        204
+      ],
+      "rawBlock": "In which of the following is a type of excise tax?  \nServices  \nCigarettes, drinks and tobacco \nCigarettes and services \nفي أي مما يلي نوع من الضرائب الانتقائية؟ \nالخدمات  \nالسجائر والمشروبات والتبغ  \n السجائر والخدمات  \nحفظ الوقت \nKeeping time    \nPassage A: Keeping Time in the Paleolithic Era \nالمقطع أ: حفظ الوقت في العصر الحجري القديم \nPassage B: Keeping Time in Agrarian societies \nالمقطع ب: حفظ الوقت في المجتمعات الزراعية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "What do passages A and B say about time- keeping in both eras?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 204,
+      "sourceLine": 23,
+      "sourcePages": [
+        204
+      ],
+      "rawBlock": "What do passages A and B say about time- keeping in both eras? \nthat it became more precise over the years \nthat it was closely linked to animals' schedules \nthat it was crucial for trading between villages \nthat it had little impact on agricultural activities \nماذا يقول المقطعان \"أ\" و \"ب\" عن حفظ الوقت في كلا العصرين؟ \nأنه أصبح أكثر دقة على مر السنين \nأنه مرتبط ارتباطًا وثيقًا بجداول الحيوانات  \nأنه كان ضروريًا للتجارة بين القرى  \nأنه كان له تأثير ضئيل على الأنشطة الزراعية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "According to Passages A and B, which time-keeping methods were used in both eras?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 204,
+      "sourceLine": 34,
+      "sourcePages": [
+        204,
+        205
+      ],
+      "rawBlock": "According to Passages A and B, which time-keeping methods were used in both eras? \nstick in the ground\n204 \nsand-filled containers \nthe sun and the stars \nspending time outdoors \nوفقًا للفقرتين A وB ، ما هي طرق حفظ الوقت التي تم استخدامها في كلا العصرين؟ \nالعصا في الأرض  \nحاويات مملوءة بالرمل  \nالشمس والنجوم \nقضاء الوقت في الهواء الطلق ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "According to Passages A and B, what did seasons specify for early humans?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 205,
+      "sourceLine": 12,
+      "sourcePages": [
+        205
+      ],
+      "rawBlock": "According to Passages A and B, what did seasons specify for early humans? \ntime to interact with neighboring communities \ntime to open irrigation gates \ntime to hold religious ceremonies \ntime to live in small groups \nوفقًا للفقرتين A وB ، ما الذي حددته الفصول للإنسان الأوائل؟ \nحان الوقت للتفاعل مع المجتمعات المجاورة \nحان الوقت لفتح بوابات الري  \nحان الوقت لإقامة الاحتفالات الدينية  \nحان الوقت للعيش في مجموعات صغيرة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "What can we understand from Passages A and B about people's lives in both eras?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 205,
+      "sourceLine": 24,
+      "sourcePages": [
+        205
+      ],
+      "rawBlock": "What can we understand from Passages A and B about people's lives in both eras? \nThey had well-developed calendars. \nThey always relied on their sense of time. \nSome religious events took place on specific dates. \nThey collected certain plants in specific seasons. \nما الذي يمكن أن نفهمه من الفقرتين \"أ\" و \"ب\" عن حياة الناس في كلتا الحقبتين؟ \nكان لديهم تقويمات مطورة جيدًا.  \nلقد اعتمدوا دائمًا على إحساسهم بالوقت.  \nجرت بعض المناسبات الدينية في تواريخ محددة. \nقاموا بجمع نباتات معينة في مواسم محددة. \n المريخ Mars    \nمكتوب في بداية القطعة \nJust last five years ago ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q34",
+      "order": 34,
+      "questionNumber": null,
+      "questionText": "When did the scientists discover Mars? Exactly five years ago less than five more than five",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 205,
+      "sourceLine": 40,
+      "sourcePages": [
+        205,
+        206
+      ],
+      "rawBlock": "When did the scientists discover Mars? Exactly five years ago        less than five       more than five\n205 \nمتى اكتشف العلماء المريخ؟  قبل خمس سنوات بالضبط          أقل من خمسة           أكثر من خمسة  \nجدول واردات النفط الخام لأمريكا America's crude oil imports    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q35",
+      "order": 35,
+      "questionNumber": null,
+      "questionText": "9000,000 barrelsHow much crude oil did the USA import every day in 2009?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 206,
+      "sourceLine": 15,
+      "sourcePages": [
+        206
+      ],
+      "rawBlock": "9000,000 barrelsHow much crude oil did the USA import every day in 2009?    \nما هي كمية النفط الخام التي استوردتها الولايات المتحدة كل يوم في عام2009؟9000.000 برميل ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q36",
+      "order": 36,
+      "questionNumber": null,
+      "questionText": "2003In which year were crude oil imports to the USA from Saudi Arabia the highest?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 206,
+      "sourceLine": 20,
+      "sourcePages": [
+        206,
+        207
+      ],
+      "rawBlock": "2003In which year were crude oil imports to the USA from Saudi Arabia the highest?  \nفي أي عام كانت واردات النفط الخام للولايات المتحدة الأمريكية من المملكة العربية السعودية الأعلى؟2003 \nالحفاظ على الموطنPreserving Habitat \nوفيها ذكرواecosystems     النظم البيئية\n206 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q37",
+      "order": 37,
+      "questionNumber": null,
+      "questionText": "estructionD is closest in meaning to? the word extinction",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 207,
+      "sourceLine": 2,
+      "sourcePages": [
+        207
+      ],
+      "rawBlock": "estructionD is closest in meaning to? the word extinction \nكلمة الانقراض هي الأقرب في المعنى؟دمار  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q38",
+      "order": 38,
+      "questionNumber": null,
+      "questionText": "mphasizedEthe word concentrated is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 207,
+      "sourceLine": 5,
+      "sourcePages": [
+        207
+      ],
+      "rawBlock": "mphasizedEthe word concentrated is closest in meaning to?  \nكلمة تتركز هي الأقرب في المعنى؟أكد  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q39",
+      "order": 39,
+      "questionNumber": null,
+      "questionText": "IntentionThe word thrust is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 207,
+      "sourceLine": 8,
+      "sourcePages": [
+        207
+      ],
+      "rawBlock": "IntentionThe word thrust is closest in meaning to?  \nفحوى الكلمة هو الأقرب في المعنى؟الهدف  \nمجاعة البطاطس الأيرلندية Irish Potato Famine ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q40",
+      "order": 40,
+      "questionNumber": null,
+      "questionText": "What does Paragraph say about the Great Hunger?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 207,
+      "sourceLine": 14,
+      "sourcePages": [
+        207
+      ],
+      "rawBlock": "What does Paragraph say about the Great Hunger? \nIt brought about a lot of death and made many Irish people leave their country \nماذا تقول الفقرة عن الجوع الكبير؟ \nتسبب في الكثير من الموت ودفع الكثير من الأيرلنديين إلى مغادرة بلادهم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q41",
+      "order": 41,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word \"Yet\" ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 207,
+      "sourceLine": 19,
+      "sourcePages": [
+        207
+      ],
+      "rawBlock": "Why does the writer use the word \"Yet\" ? \nTo show that British landowners sold good crops while people were hungry. \nلماذا يستخدم الكاتب كلمة \"بعد\" ؟ \nلإثبات أن ملاك الأراضي البريطانيين باعوا محاصيل جيدة بينما كان الناس جائعين.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q42",
+      "order": 42,
+      "questionNumber": null,
+      "questionText": "How did the Irish deal with the problems that followed the great Hunger?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 207,
+      "sourceLine": 26,
+      "sourcePages": [
+        207,
+        208
+      ],
+      "rawBlock": "How did the Irish deal with the problems that followed the great Hunger? \nThey created the Fenian Brotherhood to fight back against the British.\n207 \nكيف تعامل الأيرلنديون مع المشاكل التي أعقبت الجوع الكبير؟ \nلقد أنشأوا جماعة الإخوان الفنيين للقتال ضد البريطانيين.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q43",
+      "order": 43,
+      "questionNumber": null,
+      "questionText": "What does the writer think about the \"Irish question\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 208,
+      "sourceLine": 7,
+      "sourcePages": [
+        208
+      ],
+      "rawBlock": "What does the writer think about the \"Irish question\"? \nHe believes it divided English people and created problems until a solution was found. \nما رأي الكاتب في \"السؤال الأيرلندي\"؟ \nيعتقد أنها قسمت الشعب الإنجليزي وخلقت مشاكل حتى تم العثور على حل.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q44",
+      "order": 44,
+      "questionNumber": null,
+      "questionText": "How did Prime Minister Gladstone deal with the Irish question?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 208,
+      "sourceLine": 14,
+      "sourcePages": [
+        208,
+        209
+      ],
+      "rawBlock": "How did Prime Minister Gladstone deal with the Irish question? \nHe tried to help Irish farmers through new rent and tax laws. \nكيف تعامل رئيس الوزراء جلادستون مع المسألة الأيرلندية؟ \nحاول مساعدة المزارعين الأيرلنديين من خلال قوانين الإيجار والضرائب الجديدة.  \nالتحليل النفسي Psychoanalysis\n208 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q45",
+      "order": 45,
+      "questionNumber": null,
+      "questionText": "Repressed impulses and What two things from childhood feed psychological problems?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 209,
+      "sourceLine": 2,
+      "sourcePages": [
+        209
+      ],
+      "rawBlock": "Repressed impulses and What two things from childhood feed psychological problems? \nconflicts \nما شيئين من الطفولة يغذي المشاكل النفسية؟الدوافع والصراعات المكبوتة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q46",
+      "order": 46,
+      "questionNumber": null,
+      "questionText": "A childhood memory or dream What two things can psychoanalysis begin with?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 209,
+      "sourceLine": 7,
+      "sourcePages": [
+        209
+      ],
+      "rawBlock": "A childhood memory or dream  What two things can psychoanalysis begin with? \nبأي شيئين يمكن أن يبدأ التحليل النفسي بهما؟  ذكرى الطفولة أو الحلم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q47",
+      "order": 47,
+      "questionNumber": null,
+      "questionText": "Slow and expensive What are two characteristics of traditional psychoanalysis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 209,
+      "sourceLine": 11,
+      "sourcePages": [
+        209
+      ],
+      "rawBlock": "Slow and expensive What are two characteristics of traditional psychoanalysis? \nما هي سمتان من سمات التحليل النفسي التقليدي؟ بطيئة ومكلفة  \nدورة المياه والانسان  water cycle   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q48",
+      "order": 48,
+      "questionNumber": null,
+      "questionText": "A rise in evaporationWhat is one important effect of building dams?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 209,
+      "sourceLine": 16,
+      "sourcePages": [
+        209
+      ],
+      "rawBlock": "A rise in evaporationWhat is one important effect of building dams?  \nما هو أحد الآثار الهامة لبناء السدود؟ارتفاع معدل التبخر \nenough vegetationNot   tion?raWhat causes a reduction in evapo \nما الذي يسبب انخفاض التبخر؟لا يكفي الغطاء النباتي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q49",
+      "order": 49,
+      "questionNumber": null,
+      "questionText": "EffectThe word \"impact\" is closest in meaning?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 209,
+      "sourceLine": 24,
+      "sourcePages": [
+        209
+      ],
+      "rawBlock": "EffectThe word \"impact\" is closest in meaning?   \nكلمة \"تأثير\" هي الأقرب في المعنى؟تأثير  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q50",
+      "order": 50,
+      "questionNumber": null,
+      "questionText": "Fall ?The word \"reduction\" is closest in meaning to",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 209,
+      "sourceLine": 26,
+      "sourcePages": [
+        209,
+        210
+      ],
+      "rawBlock": "Fall  ?The word \"reduction\" is closest in meaning to \nكلمة \"نقص\" هي الأقرب في المعنى؟سقوط\n209 \nرسم بياني عن سبب سفر الناس Survey on why people travel  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q51",
+      "order": 51,
+      "questionNumber": null,
+      "questionText": "How many people travelled for leisure?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 210,
+      "sourceLine": 12,
+      "sourcePages": [
+        210,
+        211
+      ],
+      "rawBlock": "How many people travelled for leisure?   \n   22 percent  \n    30 percent  \n30 people      \n300 people  \nكم عدد الأشخاص الذين سافروا لقضاء وقت الفراغ؟ \n22 بالمائة \n30 بالمائة \n30 شخصا \n300 شخص \nنظام تشغيل الكمبيوتر OS) operating system\n210 \nTo complainWhat was the writer's main purpose?  \nما هو الهدف الرئيسي للكاتب؟يشتكي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q52",
+      "order": 52,
+      "questionNumber": null,
+      "questionText": "The OS works like other computer What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 211,
+      "sourceLine": 6,
+      "sourcePages": [
+        211
+      ],
+      "rawBlock": "The OS works like other computer What is one important idea that the writer mentions?  \nsoftware. \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب؟يعمل نظام التشغيل مثل برامج الكمبيوتر الأخرى.  \nستالين ولينين  وسيبيريا والحرب \nModernizing Industry in the USSR: The Five-Year Plans \nFive-year plan for the development of Russia \nالخطة الخمسية في تطوير روسيا ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q53",
+      "order": 53,
+      "questionNumber": null,
+      "questionText": "It was amazing? How does the writer feel about the Moscow underground railway",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 211,
+      "sourceLine": 17,
+      "sourcePages": [
+        211
+      ],
+      "rawBlock": "It was amazing? How does the writer feel about the Moscow underground railway \nكيف يشعر الكاتب حيال سكة حديد موسكو تحت الأرض؟كان رائع  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q54",
+      "order": 54,
+      "questionNumber": null,
+      "questionText": "Stalin built new industrial centers How did Stalin solve the problem that Siberia is a far place?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 211,
+      "sourceLine": 20,
+      "sourcePages": [
+        211
+      ],
+      "rawBlock": "Stalin built new industrial centers    How did Stalin solve the problem that Siberia is a far place? \nكيف حل ستالين المشكلة التي تعد سيبيريا مكانا بكثير؟بنى ستالين مراكز صناعية جديدة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q55",
+      "order": 55,
+      "questionNumber": null,
+      "questionText": "Therefore? \"So\"Which word can we use to replace",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 211,
+      "sourceLine": 23,
+      "sourcePages": [
+        211
+      ],
+      "rawBlock": "Therefore? \"So\"Which word can we use to replace  \nأي كلمة يمكن أن نستخدمها لتحل محلولذلك؟ وبالتالي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q56",
+      "order": 56,
+      "questionNumber": null,
+      "questionText": "Stalin aimed to modernize the Soviet economy What does the passage say about Stalin?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 211,
+      "sourceLine": 26,
+      "sourcePages": [
+        211,
+        212
+      ],
+      "rawBlock": "Stalin aimed to modernize the Soviet economy What does the passage say about Stalin? \nماذا يقول المقطع عن ستالين؟ستالين يهدف إلى تحديث الاقتصاد السوفيتي\n211 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q57",
+      "order": 57,
+      "questionNumber": null,
+      "questionText": "LeninStalin Who founded the association?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 212,
+      "sourceLine": 3,
+      "sourcePages": [
+        212
+      ],
+      "rawBlock": "LeninStalin                Who founded the association? \nمن أسس الجمعية؟ ستالين       لينين         تأكدوا منها بالاختبار   \nالمعدل العالمي للجريمة Global murder rates \n2What was the homicide rate per 100,000 people in Europe in 2015?   \nما هو معدل جرائم القتل لكل100.000 شخص في أوروبا عام2015؟2 \n7How many homicides per 100,000 people happened in Africa in 2005?    \nكم عدد جرائم القتل لكل100.000 شخص التي حدثت في إفريقيا عام2005؟7 \nالاحتكاك  Friction ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q58",
+      "order": 58,
+      "questionNumber": null,
+      "questionText": "Make The word produce in Paragraph is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 212,
+      "sourceLine": 25,
+      "sourcePages": [
+        212,
+        213
+      ],
+      "rawBlock": " Make The word produce in Paragraph is closest in meaning to? \nكلمةينتج في فقرة هي الأقرب في المعنى؟ يصنع\n212 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q59",
+      "order": 59,
+      "questionNumber": null,
+      "questionText": "Grows? The word increases in Paragraph is closest in meaning to",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 213,
+      "sourceLine": 4,
+      "sourcePages": [
+        213
+      ],
+      "rawBlock": "Grows? The word increases in Paragraph is closest in meaning to \nكلمة يزيد في فقرة هو الأقرب في المعنى؟ينمو   \nfrictionWhat happens because of rubbing two surfaces against each other?  \nماذا يحدث بسبب احتكاك سطحين ببعضهما البعض؟احتكاك  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q60",
+      "order": 60,
+      "questionNumber": null,
+      "questionText": "motionWhat does the use of extra force with stationary objects lead to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 213,
+      "sourceLine": 12,
+      "sourcePages": [
+        213
+      ],
+      "rawBlock": " motionWhat does the use of extra force with stationary objects lead to?  \nإلى ماذا يؤدي استخدام القوة الزائدة مع الأجسام الثابتة؟حركة   \nالتقطير البسيط simple distillation ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q61",
+      "order": 61,
+      "questionNumber": null,
+      "questionText": "eparateSThe word Isolate in Paragraph is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 213,
+      "sourceLine": 19,
+      "sourcePages": [
+        213
+      ],
+      "rawBlock": "eparateSThe word Isolate in Paragraph is closest in meaning to?  \nكلمةيعزل  في الفقرة هي الأقرب في المعنى؟  يفصل ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q62",
+      "order": 62,
+      "questionNumber": null,
+      "questionText": "performed in Paragraph are closest in meaning to? \"carried out\"The words",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 213,
+      "sourceLine": 22,
+      "sourcePages": [
+        213
+      ],
+      "rawBlock": "performed in Paragraph are closest in meaning to?  \"carried out\"The words  \nالكلمات الواردة في فقرة هي الأقرب من حيث المعنى؟إجراء \nتحليل التكاليف والفوائد   \nCost Benefit Analysis  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q63",
+      "order": 63,
+      "questionNumber": null,
+      "questionText": "What is the main idea in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 213,
+      "sourceLine": 27,
+      "sourcePages": [
+        213,
+        214
+      ],
+      "rawBlock": "What is the main idea in the passage?\n213 \nEmployee production increases when they get more benefits. \nSome taxpayers may benefit less from certain public services. \nIndirect and intangible costs are always important to consider. \nCost-benefit analysis helps to reduce costs and increase benefits. \nما هي الفكرة الرئيسية في المقطع؟ \nيزيد إنتاج الموظفين عندما يحصلون على المزيد من الفوائد.  \nقد يستفيد بعض دافعي الضرائب بشكل أقل من بعض الخدمات العامة.  \nمن المهم دائمًا مراعاة التكاليف غير المباشرة وغير الملموسة.  \nيساعد تحليل التكلفة والعائد على تقليل التكاليف وزيادة الفوائد.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q64",
+      "order": 64,
+      "questionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 214,
+      "sourceLine": 15,
+      "sourcePages": [
+        214
+      ],
+      "rawBlock": "Which sentence gives the main idea of Paragraph (1)? \nCost-benefit analysis weighs the gains and losses to different individuals and suggests carrying out changes that provide greater benefits than harm. \nFor example, a property tax used to build a local park creates a benefit to those who use the park, but harms those who own property. \nSince some of the taxpayers won't use the park, it won't be the case that everyone benefits on balance. \nIn the case of the park, the costs are readily monetized (turned into dollars), because the costs to the tax-payers are just the amount of the tax. \nما الجملة التي تعطي الفكرة الرئيسية للفقرة1)؟ \nيزن تحليل التكلفة والفائدة المكاسب والخسائر لمختلف الأفراد ويقترح إجراء تغييرات توفر فوائد أكبر من الضرر.  \nعلى سبيل المثال ، تخلق ضريبة الأملاك المستخدمة لبناء حديقة محلية فائدة لأولئك الذين يستخدمون المتنزه ، ولكنها تضر أولئك الذين يمتلكون الممتلكات.  \nنظرًا لأن بعض دافعي الضرائب لن يستخدموا المتنزه ، فلن يكون الأمر كذلك أن يستفيد الجميع بشكل متوازن.  \nفي حالة المتنزه ، يتم تحويل التكاليف إلى نقود بسهولة (تحويلها إلى دولارات) ، لأن التكاليف التي يتحملها دافعو الضرائب هي فقط م بلغ الضريبة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q65",
+      "order": 65,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (1) say about local parks?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 214,
+      "sourceLine": 29,
+      "sourcePages": [
+        214
+      ],
+      "rawBlock": "What does Paragraph (1) say about local parks? \nLocal parks lower property values \nPeople pay less taxes when local parks are built. \nPeople prefer those local parks are built in larger neighborhoods \nLocal parks are useful for the people who take advantage of them. \nماذا تقول الفقرة1) عن الحدائق المحلية؟ \nالحدائق المحلية تقلل من قيمة الممتلكات \nيدفع الناس ضرائب أقل عند بناء الحدائق المحلية.  \nيفضل الناس تلك الحدائق المحلية المبنية في أحياء أكبر \nالحدائق المحلية مفيدة للأشخاص الذين يستفيدون منها. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-18-q66",
+      "order": 66,
+      "questionNumber": null,
+      "questionText": "Which of the following statements about property values does Paragraph (1) support?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 214,
+      "sourceLine": 43,
+      "sourcePages": [
+        214,
+        215
+      ],
+      "rawBlock": "Which of the following statements about property values does Paragraph (1) support? \nProperty values go up when a local park is built. \nProperty values are used to find out property taxes. \nProperty values increase and decrease at different times. \nProperty values are equal to the gains and losses people have. \nأي من العبارات التالية حول قيم الخاصية تدعمها الفقرة1)؟ \nترتفع قيم الممتلكات عندما يتم بناء حديقة محلية.\n214 \nيتم استخدام قيم الممتلكات لمعرفة الضرائب العقارية \nتزيد قيم الممتلكات وتنقص في أوقات مختلفة.  \nقيم الممتلكات مساوية لأرباح وخسائر الناس.",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

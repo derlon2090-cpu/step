@@ -1,0 +1,1013 @@
+{
+  "readingId": "reading-48",
+  "questions": [
+    {
+      "id": "reading-48-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "Is your television killing you?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        630
+      ],
+      "sourceBlockIds": [
+        "page-630-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 701.85,
+        "x0": 185.21,
+        "x1": 409.11
+      }
+    },
+    {
+      "id": "reading-48-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "Alex: Hi Dave, do you want to come over for dinner, tonight?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        631
+      ],
+      "sourceBlockIds": [
+        "page-631-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 95.06,
+        "x0": 14.16,
+        "x1": 285.42
+      }
+    },
+    {
+      "id": "reading-48-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "21) What is Dave’s reply?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        631
+      ],
+      "sourceBlockIds": [
+        "page-631-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 142.13,
+        "x0": 14.16,
+        "x1": 161.12
+      }
+    },
+    {
+      "id": "reading-48-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "25) Which one of the following is the largest dwarf planet?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        633
+      ],
+      "sourceBlockIds": [
+        "page-633-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 324.68,
+        "x0": 14.16,
+        "x1": 355.2
+      }
+    },
+    {
+      "id": "reading-48-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "26) Which of the following is called a gas planet?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        633
+      ],
+      "sourceBlockIds": [
+        "page-633-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 442.54,
+        "x0": 14.16,
+        "x1": 297.02
+      }
+    },
+    {
+      "id": "reading-48-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "27) What color are the hottest stars?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        633
+      ],
+      "sourceBlockIds": [
+        "page-633-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 560.5,
+        "x0": 14.16,
+        "x1": 227.97
+      }
+    },
+    {
+      "id": "reading-48-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "(1) Have you ever noticed that some website addresses (URLs) start with http://, while other URLs start with https://?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        633
+      ],
+      "sourceBlockIds": [
+        "page-633-line-31"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 722.62,
+        "x0": 14.16,
+        "x1": 557.67
+      }
+    },
+    {
+      "id": "reading-48-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "where did the extra “s” come from, and what does it mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        633
+      ],
+      "sourceBlockIds": [
+        "page-633-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 738.1,
+        "x0": 14.16,
+        "x1": 282.06
+      }
+    },
+    {
+      "id": "reading-48-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "28) What is one important idea related to websites the writer mentions in paragraphs 1 and 2?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        634
+      ],
+      "sourceBlockIds": [
+        "page-634-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 290.96,
+        "x0": 14.16,
+        "x1": 564.84
+      }
+    },
+    {
+      "id": "reading-48-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "29) What is one important idea related to SSL that the writer mentions in paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        634
+      ],
+      "sourceBlockIds": [
+        "page-634-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 408.92,
+        "x0": 14.16,
+        "x1": 527.5
+      }
+    },
+    {
+      "id": "reading-48-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "30) What example does the writer give information of a person might send to a company?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        634
+      ],
+      "sourceBlockIds": [
+        "page-634-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 526.78,
+        "x0": 14.16,
+        "x1": 537.66
+      }
+    },
+    {
+      "id": "reading-48-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "31) What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        634
+      ],
+      "sourceBlockIds": [
+        "page-634-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 644.77,
+        "x0": 14.16,
+        "x1": 260.77
+      }
+    },
+    {
+      "id": "reading-48-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "there any actual advantage to being able to watch yourself workout?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        635
+      ],
+      "sourceBlockIds": [
+        "page-635-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 290.21,
+        "x0": 14.16,
+        "x1": 321.95
+      }
+    },
+    {
+      "id": "reading-48-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "that can feel rewarding. However, my worry would be how do people who are unhappy with their body feel about this?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        635
+      ],
+      "sourceBlockIds": [
+        "page-635-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 382.85,
+        "x0": 14.16,
+        "x1": 578.84
+      }
+    },
+    {
+      "id": "reading-48-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "the fairest of them all?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        635
+      ],
+      "sourceBlockIds": [
+        "page-635-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 568.15,
+        "x0": 14.16,
+        "x1": 200.23
+      }
+    },
+    {
+      "id": "reading-48-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "32) How much will the cheapest smart mirror cost?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        635
+      ],
+      "sourceBlockIds": [
+        "page-635-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 696.73,
+        "x0": 14.16,
+        "x1": 310.96
+      }
+    },
+    {
+      "id": "reading-48-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "33) What is one advantage of these mirrors?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        636
+      ],
+      "sourceBlockIds": [
+        "page-636-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 272.25
+      }
+    },
+    {
+      "id": "reading-48-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "34) What can a smart wellness suggest?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        636
+      ],
+      "sourceBlockIds": [
+        "page-636-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 245.1
+      }
+    },
+    {
+      "id": "reading-48-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "35) what may cause higher costs for a business?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        636
+      ],
+      "sourceBlockIds": [
+        "page-636-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 573.1,
+        "x0": 14.16,
+        "x1": 292.33
+      }
+    },
+    {
+      "id": "reading-48-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "36) what might people do because of high inflation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        636
+      ],
+      "sourceBlockIds": [
+        "page-636-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 691.09,
+        "x0": 14.16,
+        "x1": 316.8
+      }
+    },
+    {
+      "id": "reading-48-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "39) When did the National Basketball Assn. sell more tickets than the National Football League?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        637
+      ],
+      "sourceBlockIds": [
+        "page-637-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 685.45,
+        "x0": 14.16,
+        "x1": 570.54
+      }
+    },
+    {
+      "id": "reading-48-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "40) What was the highest number of tickets sold by one sport in one year?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        638
+      ],
+      "sourceBlockIds": [
+        "page-638-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 446.11
+      }
+    },
+    {
+      "id": "reading-48-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "Instagram?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        638
+      ],
+      "sourceBlockIds": [
+        "page-638-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 587.14,
+        "x0": 14.16,
+        "x1": 79.32
+      }
+    },
+    {
+      "id": "reading-48-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "42) What percentage (%) of people in “18 – 24 years” age group use Facebook?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        638
+      ],
+      "sourceBlockIds": [
+        "page-638-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 705.13,
+        "x0": 14.16,
+        "x1": 472.05
+      }
+    },
+    {
+      "id": "reading-48-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "threaten to plunge northern Europe into a new ice age?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        639
+      ],
+      "sourceBlockIds": [
+        "page-639-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 280.37,
+        "x0": 14.16,
+        "x1": 263.29
+      }
+    },
+    {
+      "id": "reading-48-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "45) Which was the main reason for stress among adults?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        640
+      ],
+      "sourceBlockIds": [
+        "page-640-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 488.86,
+        "x0": 14.16,
+        "x1": 342.13
+      }
+    },
+    {
+      "id": "reading-48-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "(1) What’s the difference between a medical student and a convict?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        640
+      ],
+      "sourceBlockIds": [
+        "page-640-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 691.78,
+        "x0": 14.16,
+        "x1": 573.39
+      }
+    },
+    {
+      "id": "reading-48-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "had cheated on the medical-licensing exam?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        641
+      ],
+      "sourceBlockIds": [
+        "page-641-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 455.83,
+        "x0": 14.16,
+        "x1": 567.79
+      }
+    },
+    {
+      "id": "reading-48-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "46) What are two causes for anxiety in medical students?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        641
+      ],
+      "sourceBlockIds": [
+        "page-641-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 670.09,
+        "x0": 14.16,
+        "x1": 346.55
+      }
+    },
+    {
+      "id": "reading-48-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "47) What are two security measures mentioned?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        642
+      ],
+      "sourceBlockIds": [
+        "page-642-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 297.66
+      }
+    },
+    {
+      "id": "reading-48-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "48) What are two types of students who also face strict security measures?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        642
+      ],
+      "sourceBlockIds": [
+        "page-642-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 449.43
+      }
+    },
+    {
+      "id": "reading-48-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "49) What idea do the words “children who are overweight” in paragraph (2) repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        642
+      ],
+      "sourceBlockIds": [
+        "page-642-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 705.13,
+        "x0": 14.16,
+        "x1": 502.46
+      }
+    },
+    {
+      "id": "reading-48-q33",
+      "displayOrder": 33,
+      "sourceQuestionNumber": null,
+      "questionText": "writer’s view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        643
+      ],
+      "sourceBlockIds": [
+        "page-643-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 96.35
+      }
+    },
+    {
+      "id": "reading-48-q34",
+      "displayOrder": 34,
+      "sourceQuestionNumber": null,
+      "questionText": "51) What can we understand from paragraph (1) about food advertising?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        643
+      ],
+      "sourceBlockIds": [
+        "page-643-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 208.13,
+        "x0": 14.16,
+        "x1": 437.36
+      }
+    },
+    {
+      "id": "reading-48-q35",
+      "displayOrder": 35,
+      "sourceQuestionNumber": null,
+      "questionText": "52) What can we understand from paragraph (2) about the children in the research study?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        643
+      ],
+      "sourceBlockIds": [
+        "page-643-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 326.0,
+        "x0": 14.16,
+        "x1": 537.42
+      }
+    },
+    {
+      "id": "reading-48-q36",
+      "displayOrder": 36,
+      "sourceQuestionNumber": null,
+      "questionText": "53) According to Passages A and B, why is it important to live abroad?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        644
+      ],
+      "sourceBlockIds": [
+        "page-644-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 682.69,
+        "x0": 14.16,
+        "x1": 419.28
+      }
+    },
+    {
+      "id": "reading-48-q37",
+      "displayOrder": 37,
+      "sourceQuestionNumber": null,
+      "questionText": "54) What do passages A and B say about foreign languages when living abroad?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        645
+      ],
+      "sourceBlockIds": [
+        "page-645-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 475.56
+      }
+    },
+    {
+      "id": "reading-48-q38",
+      "displayOrder": 38,
+      "sourceQuestionNumber": null,
+      "questionText": "55) What do passages A and B say about studying abroad?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        645
+      ],
+      "sourceBlockIds": [
+        "page-645-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 184.25,
+        "x0": 14.16,
+        "x1": 352.43
+      }
+    },
+    {
+      "id": "reading-48-q39",
+      "displayOrder": 39,
+      "sourceQuestionNumber": null,
+      "questionText": "56) What do passages A and B say about exploring when studying abroad?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        645
+      ],
+      "sourceBlockIds": [
+        "page-645-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 302.24,
+        "x0": 14.16,
+        "x1": 445.64
+      }
+    },
+    {
+      "id": "reading-48-q40",
+      "displayOrder": 40,
+      "sourceQuestionNumber": null,
+      "questionText": "(1) Is your television killing you?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        645
+      ],
+      "sourceBlockIds": [
+        "page-645-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 524.71,
+        "x0": 14.16,
+        "x1": 577.33
+      }
+    },
+    {
+      "id": "reading-48-q41",
+      "displayOrder": 41,
+      "sourceQuestionNumber": null,
+      "questionText": "disease by 20%?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        646
+      ],
+      "sourceBlockIds": [
+        "page-646-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 108.64
+      }
+    },
+    {
+      "id": "reading-48-q42",
+      "displayOrder": 42,
+      "sourceQuestionNumber": null,
+      "questionText": "60) According to the passage, why was Mr. Ahmed Not pleased with Mr. Hamad?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        646
+      ],
+      "sourceBlockIds": [
+        "page-646-line-31"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 689.65,
+        "x0": 14.16,
+        "x1": 485.45
+      }
+    }
+  ]
+}

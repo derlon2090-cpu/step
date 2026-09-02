@@ -1,0 +1,671 @@
+{
+  "readingId": "reading-01",
+  "sourceQuestionBlocks": 10,
+  "questions": [
+    {
+      "id": "reading-01-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "spoken by elders mainly It is the language? it too late to record Why is",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 5,
+      "sourceLine": 7,
+      "sourcePages": [
+        5
+      ],
+      "rawBlock": "spoken by elders mainly It is the language?    it too late to record Why is \nلماذا متأخر جدا لتسجيل اللغة؟  يتحدث بها كبار السن   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "The materials that will be published and the recordings will be available for?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 5,
+      "sourceLine": 11,
+      "sourcePages": [
+        5
+      ],
+      "rawBlock": "The materials that will be published and the recordings will be available for?   \nuse itto  isheswAnyone who  \nالمواد التي سيتم نشرها والتسجيلاتستكون متاحة ل؟   أي شخص يريد  أن يتعلم  \ntiveSuppor ?languageKtunaxa to opinion  Author \nرأي الكاتبللغة؟  يدعم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "ProtectedWhat does the word \"preserve\" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 5,
+      "sourceLine": 21,
+      "sourcePages": [
+        5
+      ],
+      "rawBlock": " ProtectedWhat does the word \"preserve\" mean?  \nماذا تعني كلمة \"يحفظ\"؟  محمي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "interest.Create The word \"can\" in the first sentence. What is the point of using it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 5,
+      "sourceLine": 26,
+      "sourcePages": [
+        5
+      ],
+      "rawBlock": "interest.Create The word \"can\" in the first sentence. What is the point of using it?     \nكلمة can)   أول القطعة في  أول جملة ما هو الفائدة من استخدامها ؟ \n حقائق (facts)          مشوش وقلقconfused         )اهتمامinterest  )   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "with familiar are To use technology younger generationWhy Marina chose the internet?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 5,
+      "sourceLine": 31,
+      "sourcePages": [
+        5,
+        6
+      ],
+      "rawBlock": "with familiar are To use technology younger generationWhy Marina chose the internet?  \nلماذا اختارت مارينا الإنترنت؟لاستخدام التكنولوجيا جيل الشباب  مألوف  \nmaterial refers to?   \" it \"The pronoun  \nالضمير \"هو\" يشير إلى؟ م ادة\n5 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "As recordings, games for children, written language.How is it available online?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 6,
+      "sourceLine": 3,
+      "sourcePages": [
+        6
+      ],
+      "rawBlock": "As recordings, games for children, written language.How is it available online?  \nكيف هو متاح على الإنترنت؟كتسجيلات، ألعاب للأطفال ، لغة مكتوبة.  \nثانياً / البيتزا pizza ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "cultures.different Adapt to? popularWhy is pizza *",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 6,
+      "sourceLine": 11,
+      "sourcePages": [
+        6
+      ],
+      "rawBlock": "  cultures.different  Adapt to?     popularWhy is pizza *  \nس/ لماذا البيتزا شعبية؟    تناسب الثقافات المختلفة  \ndemand increased the To meetsold at supermarkets?    was pizzaWhy *  \nس / لماذا تم بيع البيتزا في محلات السوبر ماركت؟تلبية للطلبات    \n ItalyThe pronoun    there     refers to:     \nس/ الضمير  there  يعود على مين؟  إيطاليا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "pizza ityopularP title?What is the best *",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 6,
+      "sourceLine": 27,
+      "sourcePages": [
+        6
+      ],
+      "rawBlock": "pizza ityopularP     title?What is the best *  \nس / العنوانالمناسب؟     البيتزا الشعبية   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "riesaloc high Because it contains a lot of healthy?Why pizza is not *",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 6,
+      "sourceLine": 31,
+      "sourcePages": [
+        6,
+        7
+      ],
+      "rawBlock": "riesaloc high Because it contains a lot of    healthy?Why pizza is not *   \nس/ لماذا البيتزا غير صحية؟     يحتوي على سعرات حرارية عالية  \nلماذا ليست صحية (Unhealthy) ؟   لاحتوائها على سعرات عالية ( calories high ) . \nin California 1954 in?Shaky pizza opened  \nفتحت بيتزاشيكي في؟ في كاليفورنيا 1954\n6 \nvariety of ingredientsbecause?  pizza has vitamins \nلأن البيتزا تحتوي على فيتامينات؟مجموعة متنوعة من المكونات  \nثالثاً / العود  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "ingDistillWhat should we do to make Oud become perfume? *",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 7,
+      "sourceLine": 15,
+      "sourcePages": [
+        7
+      ],
+      "rawBlock": "ingDistillWhat should we do to make Oud become perfume?    * \nماذا نفعل بالعود لكي يـصبح عطرا؟التقطير  \n.Cleaning       :We can't use Oud in * \nفي ماذا لا يستخدم العود؟للتنظيف  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "Infected fungusHow can Oud's tree produce it? *",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 7,
+      "sourceLine": 23,
+      "sourcePages": [
+        7
+      ],
+      "rawBlock": "Infected fungusHow can Oud's tree produce it?      * \nماذا يحدث للشجر الذي ينتج منه العود؟عدوى فطرية  \nRose and sandalsWhat kind of perfume that Europe used with Oud?     * \nأوروبا استخدمت العود مع بعضالعطور، ماهي؟     الروز والصندل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "edcollectWhat do \"harvesting\" and ''reaper\" mean? *",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 7,
+      "sourceLine": 32,
+      "sourcePages": [
+        7
+      ],
+      "rawBlock": "edcollectWhat do \"harvesting\" and ''reaper\" mean?     * \nما معنىharvesting?    collected ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "*Where does oud come from?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 7,
+      "sourceLine": 36,
+      "sourcePages": [
+        7,
+        8
+      ],
+      "rawBlock": "*Where does oud come from? \nمن أين جاء العود؟ \n اثيوبيا      Ethiopia تايلاند    Thailand , اليمنYemen   الهندIndia\n7 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "Oil Bakhoor Oud?the two things uses in are What *",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 8,
+      "sourceLine": 4,
+      "sourcePages": [
+        8
+      ],
+      "rawBlock": "Oil   Bakhoor     Oud?the two things uses in  are What * \nما الشيئين المستخدمة في العود؟    زيت   بخور  \nOil          ChipsBark       The Oud used in incense is in the form of            * \nالعود المستخدم في البخور يكون على شكل       زيت    شيبس   لحاء   \nOud is taken from:   \nall healthy and green trees \nold trees \n15 types of trees \n4 , 5 types of tree \nالعود يؤخذمن:  \nكل الأشجار الصحية والخضراء \nالأشجار الكبيرة في العمر  \n    15نوع من أنواع الشجر \n4  ,5 أنواع من الشجر \nفي القطعة حوالي ما يقارب  15 شجرة يتم البحث فيها عن العود لكن التي تنتج العود هي4 أو5 أنواعفقط.  \nالعود العربي مكانه في السعودية ويستخلص من 3 أشجار ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "woodRose and sandalWhat does Europe use Oud with perfumes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 8,
+      "sourceLine": 28,
+      "sourcePages": [
+        8
+      ],
+      "rawBlock": "woodRose and sandalWhat does Europe use Oud with perfumes?    \nفي ماذا استخدمت أوروبا العود ضمن العطور؟الروز والصندل ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "How do they make the little bottles which called in Arabic Talat ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 8,
+      "sourceLine": 33,
+      "sourcePages": [
+        8,
+        9
+      ],
+      "rawBlock": "How do they make the little bottles which called in Arabic Talat ? \nthey evaporate it  -            They put it in water - \nس كيف يصنعون التولات الصغيرة؟     يضعونها في الماء     يبخرونها\n8 \nرابعاً / النمل ants ) ) ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "similarWhat does ( parallel ) mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 9,
+      "sourceLine": 6,
+      "sourcePages": [
+        9
+      ],
+      "rawBlock": "similarWhat does ( parallel ) mean?  \nجاء معنى كلمة فيالقطعة          معنى (parallel)؟ imilars ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What is the best title?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 9,
+      "sourceLine": 9,
+      "sourcePages": [
+        9
+      ],
+      "rawBlock": "What is the best title?     \n- ant kinds     \n- ant food        \n- ant studies of scientists \nactivityAnt mirror of human  \nما هو العنوان المناسب للقطعة؟  \nأنواع النمل   \nطعام النمل  \nدراسة العلماء للنمل   \nمرآة النمل للحياة البشرية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What is the sentence that is not mentioned in the third paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 9,
+      "sourceLine": 22,
+      "sourcePages": [
+        9,
+        10
+      ],
+      "rawBlock": "What is the sentence that is not mentioned in the third paragraph? \nAnts differ in color - \n-Ants differ in their diet \n-Ants differ in their nemesis \nsnts has different organA- \nماهي الجملة التي لم تذكر في البراقراف الثالث؟ \nالنمل يختلف في لونه  \nالنمل يختلف في طريقة غذائه \nالنمل يختلف في النهام التي يقوم بها  \nان النمل يختلف في أعضائه  \n*This type of meat ant from ants: \nnest.Protect their  -        .for the rest of the ants antYou make a serv \nهذاالنوع meat ant من النمل.............\n9 \nتعملك خادم لبقية النمل                  وظيفته يحمي الجحر ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "Colonies.Where do the ants live?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 10,
+      "sourceLine": 7,
+      "sourcePages": [
+        10
+      ],
+      "rawBlock": "Colonies.Where do the ants live?       \nأين يعيش النمل؟مستعمرات النمل ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "houses.They eat insects and clean Why are the ants useful?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 10,
+      "sourceLine": 11,
+      "sourcePages": [
+        10
+      ],
+      "rawBlock": "houses.They eat insects and clean Why are the ants useful?     \nلماذا النمل مفيد؟تأكل الحشرات وتنظف البيت  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "Display \"?What does the word \"exhibit",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 10,
+      "sourceLine": 16,
+      "sourcePages": [
+        10,
+        11
+      ],
+      "rawBlock": "Display   \"?What does the word \"exhibit \nما معنى كلمة exhibit    ؟يعرض  \nWorking antsWho helps the queen to get food?       \nمن يساعد ملكة النمل لكي تحصل على الغذاء؟شغالات النمل \nNo, just the queen.Do all ants lay eggs?    \nهل كل النمل يبيض؟لا فقط الملكة \nNo, maybe 25 to 30 daysDo ants live long?    \nهل يعيش النمل طويلاً؟ من 25إلى30يوم فقط \n1) الشيء الليما تكلم عنه بالقطعة ؟  \nالجسم ( Body  . ) \n2) الضميرit) يعود على ..؟ \nMeat ant . \n3) البرقراف كان يتحدث عن خصائص النملماعدا : \nA) اماكن السكن  B) تركيب الجسم  C) نوع الاكلD) انواع النمل\n10 \n4) معنى compound ) ؟ \nComplex  \n5) كيف يحصل النمل علىالغذاء ( food  ) ؟ \nبحاسة الشم ( smell   ) \n6) معنىnocturnal) ؟ \nActive at night  نشاط ليلي \n9)كيف يعرف النمل بعضهم ؟ \nالرائحة (The smell   ) \nخامساً / مدائن صالح  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "sPlaceWhat does the word \"site\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 11,
+      "sourceLine": 22,
+      "sourcePages": [
+        11
+      ],
+      "rawBlock": "sPlaceWhat does the word \"site\"?           \nما معنى كلمةsite    موقع  ؟splace     مكان   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "Madain SalehWhat does the pronoun \"its\" refer to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 11,
+      "sourceLine": 25,
+      "sourcePages": [
+        11
+      ],
+      "rawBlock": " Madain SalehWhat does the pronoun \"its\" refer to?       \nفي البرجراف الثاني على ماذا يعودits؟مدائن صالح  \nسؤال في paragraph  (2) على ماذا يعود الضميرits ) ؟Madain Saleh ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "Great historical cultural site Why is Madain Saleh important?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 11,
+      "sourceLine": 30,
+      "sourcePages": [
+        11
+      ],
+      "rawBlock": "Great historical cultural site Why is Madain Saleh important?  \nلماذا مدائن صالح مهمة؟موقع ثقافي تاريخي رائع  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "The capital of the Nabatean state? PetraWhat did the author describe",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 11,
+      "sourceLine": 33,
+      "sourcePages": [
+        11,
+        12
+      ],
+      "rawBlock": "The capital of the Nabatean state?     PetraWhat did the author describe\n11 \nماذا وصف الكاتبالبتراء في البرجراف الثاني؟     عاصمة الدولة النبطية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "Decorations in Madinah Which Nabateans not doing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 12,
+      "sourceLine": 4,
+      "sourcePages": [
+        12
+      ],
+      "rawBlock": "Decorations in Madinah Which Nabateans not doing? \nالأنباط لا يفعلون؟زينة في المدينة المنورة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "Why did Prophet Saleh leave his people?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 12,
+      "sourceLine": 7,
+      "sourcePages": [
+        12
+      ],
+      "rawBlock": "Why did Prophet Saleh leave his people?   \nDid not the believers to destroy.  \nلماذا النبي صالح ترك مدائن صالح؟ لئلا يهلك المؤمنون  \nمهم وهذه الإجابة الصحيحة \nلماذا النبي صالح  تركهم؟   الجواب فيه ( believers  ) \nسادساً / الولد اللي اشترى له أبوه سيارة   Family Responsibility \n القطعة عموما بدايتها انه ولد نجح فاختباراته كلها وابوه اشترى له سيارة مكافئة لنجاحه  \nصحي الصباح بدري وكان مره مبسوط فيها افطر وقرر يطلع مع صاحبه يتمشى فيها وهو خارج قالت له أمه  \nوفي اخر القطعة مكتوب انه أدرك الولد انه الهدية ما يمديه يفرح وينبسط فيها لأنه راح يستخدمها لقضاء حوائج عائلته  \nقطعة عن طالب اشترى له والده سيارة ( رينج روفر ) احمر اللون بعد ذلك أصبحت لديه مسؤوليات عائلية حطمت أحلامه . ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "ecause he passed all his exams.b reward son?Why did the father buy a car for his",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 12,
+      "sourceLine": 26,
+      "sourcePages": [
+        12
+      ],
+      "rawBlock": "ecause he passed all his exams.b reward son?Why did the father buy a car for his  \nلماذا الوالد اشترى لابنه سيارة؟لأنه نجح في اختباراته  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "destroyWhat does ( smashed ) mean ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 12,
+      "sourceLine": 29,
+      "sourcePages": [
+        12
+      ],
+      "rawBlock": "destroyWhat does  ( smashed ) mean ?      \nما معنى كلمةsmashed   )  يحطم ؟يدمر ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "destroy What does ( shatter ) mean ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 12,
+      "sourceLine": 32,
+      "sourcePages": [
+        12,
+        13
+      ],
+      "rawBlock": " destroy What does  ( shatter ) mean ?\n12 \nماذا تعني (محطمة)؟  يدمر  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "responsibilities familyfor it is used ? from the gift understandWhat did Khaled",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 13,
+      "sourceLine": 7,
+      "sourcePages": [
+        13
+      ],
+      "rawBlock": "responsibilities familyfor it is used ?  from the gift understandWhat did Khaled  \nماذا استنتج خالد من الهدية؟ يتم استخدامه للمسؤوليات العائلية     السيارة أصبحت لـ المسؤوليات العائلية.  \nماذا حدث لمخططه؟   تحطم ( destroy ) \nالولد كان سعيد لاجتيازه الامتحان وكمكافأة اشترى له والده سيارة وفرح فيها وخطط يأخذ اصحابه في جولة\nولكن اتصلت عليه أمه  وقالت: تعال خذ أختك وروح جيب أغراض من المحل فتحطم.  \nالعنوان المناسب للقطعة؟    الحلم المحطم  (destroy dream ) \nسابعا / سطر واحد الذكريات (Memories) \n(Memory is the power to gather roses in winter) \n(الذكريات هي القدرة / القوة على جمع الأزهار في الشتاء) ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-01-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "What do you understand from this statement?",
+      "options": [
+        {
+          "label": "A",
+          "text": "We need to gather roses in winter"
+        },
+        {
+          "label": "B",
+          "text": "No roses grow in winter"
+        },
+        {
+          "label": "D",
+          "text": "Happy memories are bad in winter."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 13,
+      "sourceLine": 23,
+      "sourcePages": [
+        13,
+        14
+      ],
+      "rawBlock": "What do you understand from this statement? \na. We need to gather roses in winter \nb. No roses grow in winter \nproblems. olvesmemories  goodc.  \nd. Happy memories are bad in winter.  \n ماذا تفهم من هذا البيان؟ \nأ. نحتاج إلى جمع الورود في الشتاء  \nب. لا تنمو الورود في فصل الشتاء \nج. الذكريات الجيدة تحل المشاكل \nد. الذكريات السعيدة سيئة في الشتاء\n13 \nثامنا / ديف والجائزة \nDave is one of a team of three students who won an award ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-01-q34",
+      "order": 34,
+      "questionNumber": null,
+      "questionText": "Who won the award?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dave alone"
+        },
+        {
+          "label": "C",
+          "text": "Dave and three students"
+        },
+        {
+          "label": "D",
+          "text": "Dave and three teams."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 14,
+      "sourceLine": 7,
+      "sourcePages": [
+        14
+      ],
+      "rawBlock": "Who won the award? \na. Dave alone \nthree studentsteam of . b \nc. Dave and three students \nd. Dave and three teams. \nمن فاز بالجائزة؟ \nأ. ديف وحده \nب. فريق من ثلاثة طلاب  \nج. ديف وثلاثة طلاب  \nد. ديف وثلاث فرق. \nتاسعا /  \nشخص يحب يجرب الملابس ويتسوق ويتحدث مع مدراء المحلات ويجرب المقاسات السمول والميديم   \nقطعة قصيره شخص يتكلم عن نفسه انه يحب التسوق والملابس ويحب يشوفها وأنه اشترى لبس مقاسه Large   و هو دائما يلبسsmall  \n I like shopping especially for clothes. I have a huge number of shirts with different colors such as \ngreen, red and blue. But last time I bought a shirt with large size although I always buy small size, \nbut I wanted to take a risk and try something new. \nأحب التسوق خاصة للملابس. لدي عدد ضخم من القمصان بألوان مختلفة مثل الأخضر والأحمر والأزرق. لكن في المرة الأخيرة\nاشتريت قميصًا بحجم كبير على الرغم من أنني أشتري دائمًا حجمًا صغيرًا، لكنني أردت المخاطرة وتجربة شيء جديد.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-01-q35",
+      "order": 35,
+      "questionNumber": null,
+      "questionText": "shopping about?What does the passage talk",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 14,
+      "sourceLine": 29,
+      "sourcePages": [
+        14
+      ],
+      "rawBlock": "shopping     about?What does the passage talk  \nعن ماذا يتحدث المقطع؟التسوق  \nColors     Price       Sizes        about:Blue, red, green .... these words are  \nازرق واحمر اخضر .... والسؤالعن ماذا تتكلم هذه الكلمات: السعر      المقاسات       الألوان   \nColors      SizesPrice            about:Small and medium, these words are",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

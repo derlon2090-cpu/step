@@ -1,0 +1,797 @@
+{
+  "readingId": "reading-38",
+  "questions": [
+    {
+      "id": "reading-38-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "Which qualifications are required for all three positions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        482
+      ],
+      "sourceBlockIds": [
+        "page-482-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 426.0,
+        "x0": 11.16,
+        "x1": 355.07
+      }
+    },
+    {
+      "id": "reading-38-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "What kind of company is trying to fill these positions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        482
+      ],
+      "sourceBlockIds": [
+        "page-482-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 635.33,
+        "x0": 11.16,
+        "x1": 339.53
+      }
+    },
+    {
+      "id": "reading-38-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "What information is NOT given in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        483
+      ],
+      "sourceBlockIds": [
+        "page-483-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 11.16,
+        "x1": 304.53
+      }
+    },
+    {
+      "id": "reading-38-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "Who should respond to the questionnaires?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        483
+      ],
+      "sourceBlockIds": [
+        "page-483-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 334.56,
+        "x0": 11.16,
+        "x1": 281.16
+      }
+    },
+    {
+      "id": "reading-38-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "How many oral presentations do you have to submit for this course?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        483
+      ],
+      "sourceBlockIds": [
+        "page-483-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 568.58,
+        "x0": 11.16,
+        "x1": 432.85
+      }
+    },
+    {
+      "id": "reading-38-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "How long is the class on Wednesdays?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        483
+      ],
+      "sourceBlockIds": [
+        "page-483-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 697.37,
+        "x0": 14.16,
+        "x1": 257.63
+      }
+    },
+    {
+      "id": "reading-38-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "How many readings are given in this course?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        484
+      ],
+      "sourceBlockIds": [
+        "page-484-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 85.65,
+        "x0": 11.16,
+        "x1": 290.6
+      }
+    },
+    {
+      "id": "reading-38-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one key factor that improves the performance of footballers?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        484
+      ],
+      "sourceBlockIds": [
+        "page-484-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 267.36,
+        "x0": 11.16,
+        "x1": 435.18
+      }
+    },
+    {
+      "id": "reading-38-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What did the salesman do at the 2004 Euros?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        484
+      ],
+      "sourceBlockIds": [
+        "page-484-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 476.66,
+        "x0": 11.16,
+        "x1": 295.18
+      }
+    },
+    {
+      "id": "reading-38-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one way special mattresses can help players?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        484
+      ],
+      "sourceBlockIds": [
+        "page-484-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 669.89,
+        "x0": 11.16,
+        "x1": 347.24
+      }
+    },
+    {
+      "id": "reading-38-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        485
+      ],
+      "sourceBlockIds": [
+        "page-485-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 117.93,
+        "x0": 11.16,
+        "x1": 249.4
+      }
+    },
+    {
+      "id": "reading-38-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "When did the Pilgrims come to America?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        485
+      ],
+      "sourceBlockIds": [
+        "page-485-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 375.96,
+        "x0": 11.16,
+        "x1": 263.91
+      }
+    },
+    {
+      "id": "reading-38-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "Why did many immigrants come to America?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        485
+      ],
+      "sourceBlockIds": [
+        "page-485-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 520.82,
+        "x0": 11.16,
+        "x1": 288.91
+      }
+    },
+    {
+      "id": "reading-38-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "How many Irish migrated to the United States between 1820 and 1930?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        485
+      ],
+      "sourceBlockIds": [
+        "page-485-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 697.97,
+        "x0": 11.16,
+        "x1": 454.7
+      }
+    },
+    {
+      "id": "reading-38-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What lead to thousands of Polish workers moving to the UK in 2004?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        486
+      ],
+      "sourceBlockIds": [
+        "page-486-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 140.01,
+        "x0": 11.16,
+        "x1": 437.68
+      }
+    },
+    {
+      "id": "reading-38-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "What was one important effect of the free movement of goods?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        486
+      ],
+      "sourceBlockIds": [
+        "page-486-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 317.16,
+        "x0": 11.16,
+        "x1": 401.74
+      }
+    },
+    {
+      "id": "reading-38-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "In 2016, what percentage of women became first-time mothers at age 20?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        487
+      ],
+      "sourceBlockIds": [
+        "page-487-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 432.98,
+        "x0": 11.16,
+        "x1": 469.57
+      }
+    },
+    {
+      "id": "reading-38-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "In 1980, what was the most common age to become a first-time mother?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        487
+      ],
+      "sourceBlockIds": [
+        "page-487-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 545.66,
+        "x0": 11.16,
+        "x1": 460.26
+      }
+    },
+    {
+      "id": "reading-38-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "How many Internet users were there in Saudi Arabia in 1999 and 2013?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        487
+      ],
+      "sourceBlockIds": [
+        "page-487-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 751.6,
+        "x0": 11.16,
+        "x1": 455.53
+      }
+    },
+    {
+      "id": "reading-38-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "When did Mobily and Zain start providing mobile Internet services?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        488
+      ],
+      "sourceBlockIds": [
+        "page-488-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 150.09,
+        "x0": 11.16,
+        "x1": 424.3
+      }
+    },
+    {
+      "id": "reading-38-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "1990s?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        488
+      ],
+      "sourceBlockIds": [
+        "page-488-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 278.88,
+        "x0": 11.16,
+        "x1": 57.21
+      }
+    },
+    {
+      "id": "reading-38-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "What word other than \"trained\" does the writer use top talk about teaching new behaviors?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        490
+      ],
+      "sourceBlockIds": [
+        "page-490-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 669.65,
+        "x0": 14.16,
+        "x1": 573.39
+      }
+    },
+    {
+      "id": "reading-38-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "Which one of the following does the writer say is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        491
+      ],
+      "sourceBlockIds": [
+        "page-491-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 199.17,
+        "x0": 14.16,
+        "x1": 389.1
+      }
+    },
+    {
+      "id": "reading-38-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "psychologists?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        491
+      ],
+      "sourceBlockIds": [
+        "page-491-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 458.42,
+        "x0": 14.16,
+        "x1": 106.05
+      }
+    },
+    {
+      "id": "reading-38-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from the passage about B. F. Skinner?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        491
+      ],
+      "sourceBlockIds": [
+        "page-491-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 699.17,
+        "x0": 14.16,
+        "x1": 412.49
+      }
+    },
+    {
+      "id": "reading-38-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from the passage about experiments on animals?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        492
+      ],
+      "sourceBlockIds": [
+        "page-492-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 217.77,
+        "x0": 14.16,
+        "x1": 479.39
+      }
+    },
+    {
+      "id": "reading-38-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "What do Passages say about inflation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        492
+      ],
+      "sourceBlockIds": [
+        "page-492-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 470.66,
+        "x0": 11.16,
+        "x1": 253.21
+      }
+    },
+    {
+      "id": "reading-38-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "What do passages say about a basket or baskets?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        492
+      ],
+      "sourceBlockIds": [
+        "page-492-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 642.94,
+        "x0": 11.16,
+        "x1": 280.02
+      }
+    },
+    {
+      "id": "reading-38-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the passage say about the Consumer Price Index (CPI)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        493
+      ],
+      "sourceBlockIds": [
+        "page-493-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 85.46,
+        "x0": 11.16,
+        "x1": 372.66
+      }
+    },
+    {
+      "id": "reading-38-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the passage say about the Gross Domestic Product (GDP) deflator?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        493
+      ],
+      "sourceBlockIds": [
+        "page-493-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 251.06,
+        "x0": 11.16,
+        "x1": 433.24
+      }
+    },
+    {
+      "id": "reading-38-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph 2), what is the cause of some headaches?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        494
+      ],
+      "sourceBlockIds": [
+        "page-494-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 260.16,
+        "x0": 11.16,
+        "x1": 424.2
+      }
+    },
+    {
+      "id": "reading-38-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph 3), how often should Hijama be performed on a person?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        494
+      ],
+      "sourceBlockIds": [
+        "page-494-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 453.38,
+        "x0": 11.16,
+        "x1": 508.33
+      }
+    },
+    {
+      "id": "reading-38-q33",
+      "displayOrder": 33,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about Hijama?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        494
+      ],
+      "sourceBlockIds": [
+        "page-494-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 630.41,
+        "x0": 11.16,
+        "x1": 260.05
+      }
+    }
+  ]
+}

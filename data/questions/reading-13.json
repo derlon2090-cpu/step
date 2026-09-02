@@ -1,0 +1,625 @@
+{
+  "readingId": "reading-13",
+  "sourceQuestionBlocks": 8,
+  "questions": [
+    {
+      "id": "reading-13-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "Choose a suitable title for the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 149,
+      "sourceLine": 5,
+      "sourcePages": [
+        149
+      ],
+      "rawBlock": "Choose a suitable title for the passage? \n  How can a coconut tree save your lifeDesert Survival Skills              Uses of Coconut            \nاختر عنوانا مناسبا للمقطع؟     مهارات بقاء الصحراء       استخدامات جوز الهند         كيف يمكن لشجرة جوز الهند أن تنقذ حياتك  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "Container What does \" bowl \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 149,
+      "sourceLine": 10,
+      "sourcePages": [
+        149
+      ],
+      "rawBlock": "Container What does \" bowl \" mean?   \nماذا تعني  وعاء  \"؟  حاوية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "fire \" ???????????????? What did not mention in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 149,
+      "sourceLine": 13,
+      "sourcePages": [
+        149
+      ],
+      "rawBlock": "fire \" ????????????????      What did not mention in the passage? \nما الذي لم يذكر في المقطع؟ الجواب يشمل \"النار\"   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "serves our lives Because each part of it Coconut important for life?? said are theyWhy",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 149,
+      "sourceLine": 17,
+      "sourcePages": [
+        149
+      ],
+      "rawBlock": "serves our lives Because each part of it  Coconut important for life??  said are theyWhy  \nلماذا يقال: جوز الهند مهم للحياة؟   لأن كل جزء منها يخدم حياتنا  \nCoconut is important ماذا تعني؟أنه أجزائها تساعدنا على الحياة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "Using fronds to make pillows 3? What are the uses of coconut tree that did not mention in paragraph",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 149,
+      "sourceLine": 22,
+      "sourcePages": [
+        149
+      ],
+      "rawBlock": "Using fronds to make pillows  3? What are the uses of coconut tree that did not mention in paragraph \nما هي استخدامات شجرة جوز الهند التي لم يرد ذكرها في الفقرة3؟ استخدام السعف في صنع الوسائد  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What are the benefits of the coconut tree that mentioned in the last paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 149,
+      "sourceLine": 26,
+      "sourcePages": [
+        149,
+        150
+      ],
+      "rawBlock": "What are the benefits of the coconut tree that mentioned in the last paragraph? \nsing for personal care U             Using in teeth cleaning and the body moisturizing \nما هي فوائد شجرة جوز الهند المذكورة في الفقرة الأخيرة؟\n149 \nيستخدم في تنظيف الأسنان وترطيب الجسم                      استخدام للعناية الشخصية   \nفي البرقراف الأخير تكلم عن أي فائدة من الشجرة ...؟   \nإنه استخدامات جوز الهند لأشياء شخصية (Personal Care .) ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "Uses of the coconut tree What is the point of the last paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 150,
+      "sourceLine": 6,
+      "sourcePages": [
+        150
+      ],
+      "rawBlock": "Uses of the coconut tree   What is the point of the last paragraph? \nما هو الهدف من الفقرة الأخيرة؟ استخدامات شجرة جوز الهند  \nCoirIt  refers to?       \nتشير إلى؟جوز الهند  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "How can coconut save our life if we were in an empty place?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 150,
+      "sourceLine": 12,
+      "sourcePages": [
+        150
+      ],
+      "rawBlock": "How can coconut save our life if we were in an empty place? \nCoconut water is used as an alternative to water to relieve thirst and also helps digestion \nكيف يمكن لجوز الهند أن ينقذ حياتنا إذا كنا في مكان فارغ؟ \nيستخدم ماء جوز الهند كبديل عن الماء لتخفيف العطش ويساعد أيضًا على الهضم  \nثانياً / أهمية اللعب للأطفال ( 3أسئلة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "do not care about people Because they learn and Why is it important to care about kids' education?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 150,
+      "sourceLine": 25,
+      "sourcePages": [
+        150
+      ],
+      "rawBlock": "do not care about people Because they learn and Why is it important to care about kids' education?  \nلماذا من المهم الاهتمام بتعليم الأطفال؟لأنهم يتعلمون ولا يهتمون بالناس  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "Because they do not feel embarrassing Why did he advise him to learn as children?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 150,
+      "sourceLine": 30,
+      "sourcePages": [
+        150
+      ],
+      "rawBlock": "Because they do not feel embarrassing  Why did he advise him to learn as children? \nلماذا نصحه بالتعلم وهو طفل؟لأنهم لا يشعرون بالحرج ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "very active areThe children What do you understand?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 150,
+      "sourceLine": 34,
+      "sourcePages": [
+        150,
+        151
+      ],
+      "rawBlock": "very active  areThe children  What do you understand?\n150 \nماذا تفهم؟   الأطفال نشيطون للغاية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "Kids Games Play and how it's important in childhood What is the title of this passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 151,
+      "sourceLine": 6,
+      "sourcePages": [
+        151
+      ],
+      "rawBlock": "Kids Games               Play and how it's important in childhood      What is the title of this passage? \nما هو عنوان هذا المقطع؟     اللعب ومدى أهميته في الطفولة         ألعاب أطفال \nPlay?     It '' refers to \nتشير إلى؟اللعب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "child.Know) the desires and dispositions of the Discover ( Why playing is important in that period?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 151,
+      "sourceLine": 15,
+      "sourcePages": [
+        151
+      ],
+      "rawBlock": "child.Know) the desires and dispositions of the Discover (  Why playing is important in that period? \nلماذا اللعب مهم في تلك الفترة؟ اكتشف (اعرف) رغبات وميول الطفل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "Increases activity. Do games effect on children's activity?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 151,
+      "sourceLine": 20,
+      "sourcePages": [
+        151,
+        152,
+        153
+      ],
+      "rawBlock": "Increases activity.   Do games effect on children's activity? \nهل تؤثر الألعاب على نشاط الأطفال؟   يزيد النشاط.  \nثالثاً / صورة تيشرت أديداس كان بسعر 167 وأصبح بسعر107 \nWas 167 \nNow 107 \nPrice              All colors               Large \nالسعر        الالوان جميع  الألوان             كبير  \ncheaper.It became shirt?  -What happened to the T\n151 \nماذا حصل في التيشرت؟  أصبح أرخص  \nيسألك ماذا حصل؟   Cheaper       متوفر بكل الألوان       الاحجام كبيرة          أفضل Better   \nرابعاً / جملةQuite please) وش المطلوب أنهاما تسوي ...؟  \nوش المطلوب أنها ما تسوي  \nNot be …….? \nNoise \nخامساً / قطعة عن شي قريب من الهجرة (أنه استراليا استعمرت جزء من أفريقيا وتأثير اللغة  هناك)  \nسادساً / البنت الل ي تحب تأكل بطاطس  \nShe got sick because of eating French fries every day. \nلقد مرضت بسبب تناول البطاطس المقلية كل يوم \nالفتاة التي تفضل أكل البطاطس المقلية وعندما مرضت أصبحت تدور علاج\n152 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "Anna Feel Not well Why did she want to get treatment? Or what happened to her?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 153,
+      "sourceLine": 2,
+      "sourcePages": [
+        153
+      ],
+      "rawBlock": "Anna Feel Not well   Why did she want to get treatment? Or what happened to her? \nلماذا أرادت الحصول على العلاج؟ او ماذا حدث لها؟     آنا لا تشعر انها على ما يرام  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What do you infer from the first passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 153,
+      "sourceLine": 8,
+      "sourcePages": [
+        153
+      ],
+      "rawBlock": "What do you infer from the first passage? \nMost people do not eat everything. \nماذا تستنتج من المقطع الأول؟ \nمعظم الناس لا يأكلون كل شيء. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "How did she get treatment? Or what is meant by the second paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 153,
+      "sourceLine": 14,
+      "sourcePages": [
+        153
+      ],
+      "rawBlock": "How did she get treatment? Or what is meant by the second paragraph? \nthe Internet on she found a solution or treatment \nكيف حصلت على العلاج؟ أو ما هو المقصود بالفقرة الثانية؟  وجدت حلاً أو علاجًا في الإنترنت  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "Food. What is the meaning of \"diet\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 153,
+      "sourceLine": 20,
+      "sourcePages": [
+        153
+      ],
+      "rawBlock": "Food.  What is the meaning of \"diet\"? \nما معنى \"رجيم\"؟   طعام.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "Her life has improved. what happened to the girl?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 153,
+      "sourceLine": 25,
+      "sourcePages": [
+        153
+      ],
+      "rawBlock": "Her life has improved.  what happened to the girl? \nماذا حدث للفتاة؟   لقد تحسنت حياتها.  \nسابعاً / واحد انخرب كمبيوتره فرسل ايميل لشخص يشتكي له وطلب  \nمنه يرسله أحد للبيت من الاحد للخميس قبل الساعة 11 صباحاً وأنه الويكند الجاي  بيطلع مع أهله  \nبس بيكلم أحد من أصحابه يفتح له الغرفة عشان يشوف الكمبيوتر.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "Who did he sent the message for?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 153,
+      "sourceLine": 35,
+      "sourcePages": [
+        153
+      ],
+      "rawBlock": "Who did he sent the message for? \nPrinting Section.     IT(Information Technology)         manger             Secretary ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "What is the day that he set for the worker to come? At any time",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 153,
+      "sourceLine": 40,
+      "sourcePages": [
+        153,
+        154
+      ],
+      "rawBlock": "What is the day that he set for the worker to come?     At any time \nfix   Repair means?\n153 \nكلمةRepair ماذاتعني؟    Fix  يصلح \nangerDmeans?     Risk\"  \nكلمةRisk ماذا تعني.؟Danger خطر ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "At any time ?On which day does the reformer answer him",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 154,
+      "sourceLine": 9,
+      "sourcePages": [
+        154
+      ],
+      "rawBlock": "At any time  ?On which day does the reformer answer him \nفي أي يوم محدد يجيب له المصلح؟في أي وقت      لأنه زميله متوفر الجواب فيه كلمة Colleague. \nثامناً / ذبح الحيوانات  واستخدامها  في الطعام الصيني  \nOne American fired a bullet and the bullet deflected and died. \nAnd one Saudi came to slaughter a sheep and harm himself. \nواحد أمريكي أطلق رصاصة والرصاصة انحرفتومات. \nوواحد سعودي جاء يذبح خروف وضر نفسه. \nThe passage talks about slaughtering animals, it is possible to \nbreak the person and injure himself. \ndisruption in the ecological balance  this way causes? inkilling animals  \nقتل الحيوانات بهذه الطريقة يسبب؟ اختلال في التوازن البيئي  \nقتل الحيوانات بهذه الطريقة الجائرة يسبب؟  اختلال في السلسلة الغذائية. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "Bullet hat did American die?W",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 154,
+      "sourceLine": 32,
+      "sourcePages": [
+        154,
+        155
+      ],
+      "rawBlock": "Bullet hat did American die?W \nبماذا مات الامريكي؟ رصاصة Bullet   \nSlaughter or kill   ?od Saudihat W \nماذا فعل السعوديون؟الذبح أو القتل\n154 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "results.They are normal actions that can turn into dangerous The general idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 155,
+      "sourceLine": 2,
+      "sourcePages": [
+        155
+      ],
+      "rawBlock": "results.They are normal actions that can turn into dangerous   The general idea of the passage? \nالفكرة العامةللقطعة؟  أنها أفعال عادية ممكن تنقلب لنتائج خطيرة.  \nتاسعاً / البنسلين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "Alexander Fleming? Who discovered Penicillin",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 155,
+      "sourceLine": 8,
+      "sourcePages": [
+        155
+      ],
+      "rawBlock": "Alexander Fleming? Who discovered Penicillin ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "Which group helped him discover the penicillin?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 155,
+      "sourceLine": 12,
+      "sourcePages": [
+        155
+      ],
+      "rawBlock": "Which group helped him discover the penicillin? \nA group at Harvard University under the supervision of Alexander Vimelneck \nعاشراً /  طلاب الجامعة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "Every day? When do students work",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 155,
+      "sourceLine": 19,
+      "sourcePages": [
+        155
+      ],
+      "rawBlock": "  Every day? When do students work \nمتى يعمل الطلاب؟ كل يوم  \nالحادي عشر  / تمبكتو ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "Link most west Africa? Why is the Niger River important",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 155,
+      "sourceLine": 26,
+      "sourcePages": [
+        155,
+        156
+      ],
+      "rawBlock": " Link most west Africa?  Why is the Niger River important \nلماذا نهر النيجر مهم؟ ربط معظم غرب إفريقيا  \nTimbukturefers to?   it    The pronoun  \nالضمير الذي يشير إليه؟ تمبكتو  \nAfrica to the Gulf of Guinea across the Atlantic    he river connects?T \nيربط النهر؟ إفريقيا إلى خليج غينيا عبر المحيط الأطلسي\n155 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "Why is Timbuktu an important city? it connects north and west Africa.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 156,
+      "sourceLine": 2,
+      "sourcePages": [
+        156
+      ],
+      "rawBlock": "Why is Timbuktu an important city?  it connects north and west Africa. \nلماذا تمبكتو مدينة مهمة؟  يربط شمال وغرب إفريقيا  \nالثاني عشر / الايميل  والعمل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "What did Michael ask Ahmed to do?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 156,
+      "sourceLine": 8,
+      "sourcePages": [
+        156
+      ],
+      "rawBlock": "What did Michael ask Ahmed to do? \nloan money               to lend him 50 riyals         to take him to work \nماذا طلب مايكل من أحمد أن يفعل؟ \nلأخذه إلى العمل                        ليقرضه 50 ريا                          قرض المال ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "Home What does \" accommodation \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 156,
+      "sourceLine": 14,
+      "sourcePages": [
+        156
+      ],
+      "rawBlock": "Home What does \" accommodation \" mean?   \nماذا تعني \"الإقامة\"؟المنزل أو السكن  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "so that he does not have to spend 50 riyals Why does not he want to use a taxi?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 156,
+      "sourceLine": 19,
+      "sourcePages": [
+        156
+      ],
+      "rawBlock": "so that he does not have to spend 50 riyals     Why does not he want to use a taxi? \nلماذا لا يريد استخدام سيارة أجرة؟حتى لا يضطر إلى إنفاق 50 ريالاً ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "In the airport Where was their interview?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 156,
+      "sourceLine": 24,
+      "sourcePages": [
+        156
+      ],
+      "rawBlock": "In the airport   Where was their interview? \nأين كانت مقابلتهم؟ في المطار ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-13-q34",
+      "order": 34,
+      "questionNumber": null,
+      "questionText": "by plane by taxi by Bus by car How did he travel to Riyadh?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 156,
+      "sourceLine": 29,
+      "sourcePages": [
+        156
+      ],
+      "rawBlock": "by plane                         by taxi                   by Bus                 by car How did he travel to Riyadh? \nكيف سافر إلى الرياض؟    بالسيارة      بالحافلة        بالتاكسي      بالطائرة  \nقطعة قصيرة  \nread can not=  Prehistoric",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

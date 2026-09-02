@@ -1,0 +1,554 @@
+{
+  "readingId": "reading-12",
+  "sourceQuestionBlocks": 9,
+  "questions": [
+    {
+      "id": "reading-12-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "create interest a method of cleaning teeth Muslims talking about? 2What is paragraph",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 139,
+      "sourceLine": 20,
+      "sourcePages": [
+        139,
+        140
+      ],
+      "rawBlock": "create interest a method of cleaning teeth Muslims talking about? 2What is paragraph  \nما الذي تتحدث عنه الفقرة2؟تركيز الانتباه طريقة تنظيف أسنان المسلمين  \npeace be upon him Prophet Mohammed  iswak?MWho suggested using  \nمن اقترح استخدام المسواك؟سيدنا محمد صلى الله عليه وسلم\n139 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "Arak's tree What does Miswak contain?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 140,
+      "sourceLine": 3,
+      "sourcePages": [
+        140
+      ],
+      "rawBlock": "Arak's tree  What does Miswak contain? \nماذا يحتوي السواك؟شجرة أراك ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "Who used Miswak? Prophet Mohammed peace be upon him and his followers.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 140,
+      "sourceLine": 6,
+      "sourcePages": [
+        140
+      ],
+      "rawBlock": "Who used Miswak? Prophet Mohammed peace be upon him and his followers. \nمن استخدم السواك؟سيدنا محمد صلى الله عليه وسلم.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "dationrecommenBecause it is the prophet Mohammad's ? it eWhy do Muslims regularly us",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 140,
+      "sourceLine": 9,
+      "sourcePages": [
+        140
+      ],
+      "rawBlock": "dationrecommenBecause it is the prophet Mohammad's ?  it eWhy do Muslims regularly us \nلماذا يستخدمه المسلمون بانتظام؟   لأنه  وصية النبي محمد صلى الله عليه وسلم  \nرابعاً  / جزر  هاواي  (أنها  فيها  براكين)  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "Volcanoes on the island.Paragraph (1) What is he talking about?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 140,
+      "sourceLine": 16,
+      "sourcePages": [
+        140
+      ],
+      "rawBlock": "Volcanoes on the island.Paragraph (1) What is he talking about?  \nالبرقراف1) عن ماذا يتكلم؟البراكين في الجزيرة.       ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "How did these islands at the surface of the water?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 140,
+      "sourceLine": 20,
+      "sourcePages": [
+        140,
+        141
+      ],
+      "rawBlock": "How did these islands at the surface of the water? \n                            30 billion years less than ne by oneO \none by one more than 30 billion years      \nall of them together during millions of years \nكيف فعلت هذه الجزر على سطح الماء؟ \n واحد تلو الآخر قبل أقل من 30 مليون سنة \nواحد تلو الآخر قبل أكثر من 30 مليون سنة                                        \n    كل منهم معًا خلال ملايين السنين\n140 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "more islands form. What can cause a volcanic eruption?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 141,
+      "sourceLine": 4,
+      "sourcePages": [
+        141
+      ],
+      "rawBlock": "more islands form. What can cause a volcanic eruption?  \nما الذي يمكن أن يسبب ثوران بركاني؟   تشكل جزر جديدة \nocean      the island     volcano      :refers to \" It  \" \nتشيرإلى:      بركان        محيط       الجزيرة \nThe \"undecided\" word tsunamis probably mean?  \nGreat waves    Climate    Earthquakes     canoes olV \n\"المترددة \"ربما تعني كلمة تسونامي؟   البراكين       الزلازل      مناخ       موجات كبيرة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "Stackwhat does it mean? \" piles \"",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 141,
+      "sourceLine": 17,
+      "sourcePages": [
+        141
+      ],
+      "rawBlock": "Stackwhat does it mean?    \"   piles   \" \nماذايعني \"كومة\"  ؟ كومة   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "Meaning of the word (.....)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 141,
+      "sourceLine": 20,
+      "sourcePages": [
+        141,
+        142
+      ],
+      "rawBlock": "Meaning of the word (.....)? \n The rapid appearance, because what follows it has accumulated on top of some lava and solidified \nمعنى كلمة (.....)؟   جوابها الظهور السريع لأنه يليها تراكمت فوق بعض الحمم البركانية وتصلبت.  \nخامساً  / قناة السويس \n(تحدثت عن الفرنسي اللي كان مسؤول عن مشروع السويس وكيف العائلات \nالحاكمة في أوروبا فرحت بالافتتاح) قطعة قصيرة عليها سؤالين أو 3 . \nمكرر في النموذج العاشر\n141 \nسادساً / الجبال والسهول  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "are lower than mountains. They ? Comparing between mountains and hills",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 142,
+      "sourceLine": 8,
+      "sourcePages": [
+        142
+      ],
+      "rawBlock": "are lower than mountains. They ? Comparing between mountains and hills \nما الفرق بين التلالHill / الجبالMountains؟  التلال أخفض من الجبال.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "20%How much of the earth's surface do mountains cover?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 142,
+      "sourceLine": 11,
+      "sourcePages": [
+        142,
+        143
+      ],
+      "rawBlock": "20%How much of the earth's surface do mountains cover?   \nما نسبة مساحة الجبال على الكرة الارضية؟  20٪ \nسابعاً/ الرأسمالية  \nCapitalism is an economic system with a social and political philosophy based on the \ndevelopment and preservation of individual property, expanding on the concept of freedom. \nThe concept of individual ownership in scarce resources is becoming increasingly important \nas the market opens up retail competition among individuals for efficient use. As capitalism \nstrengthens individual ownership, it reduces public property \nKarl Marx is a German philosopher, politician, and sociologist. He has written many books, \nbut his theory of capitalism and its opposition to the principle of workers' wages is what \nearned him international fam. \nIt is considered one of the most influential national figures throughout the ages. Karl Marx \nlived in the 19th century, a period characterized by the spread of industrial capitalism through \nthe formation of the European working class and its first major conflicts. This is the world that \nMarx tried to think about by adopting several theoretical gains. \nالرأسمالية هي نظام اقتصادي بفلسفة اجتماعية وسياسية تقوم على تطوير الملكية الفردية والحفاظعليها،  والتوسع في مفهوم الحرية.  \nأصبح مفهوم الملكية الفردية في الموارد النادرة ذا أهمية متزايدة حيث يفتح السوق منافسة التجزئة بين الأفراد للاستخدام الفعال. بم ا  \nأن الرأسمالية تعزز الملكية الفردية، فإنها تقلل الملكية العامة \nكارل ماركس فيلسوف وسياسي وعالم اجتماع ألماني. كتب العديد من  الكتب،  لكن نظريته عن الرأسمالية ومعارضتها لمبدأ أجور  \nالعمال هي التي أكسبته شهرة دولية.\n142 \nوتعتبر من أكثر الشخصيات الوطنية تأثيراً على مر العصور. عاش كارل ماركس في القرن التاسع عشر، وهي فترة تميزت بانتشار  \nالرأسمالية الصناعية من خلال تشكيل الطبقة العاملة الأوروبية وأول صراعاتها الكبرى. هذا هو العالم الذي حاول ماركس التفكير فيه  \nبتبني العديد من المكاسب النظرية.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "communism.wrote about Marx and ????? true?What is",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 143,
+      "sourceLine": 7,
+      "sourcePages": [
+        143
+      ],
+      "rawBlock": "communism.wrote about  Marx and ?????  true?What is    \nما هو الصحيح؟ماركس وواحد  معه أنهم كتبوا عن الاشتراكية  \nثامناً / مندليف مكتشف الجدول  الدوري.  \nA chemist named Mendeleev, and he was working with another scientist \nعالم كيميائي يدعىمندليف، وكان يعمل مع عالم آخر. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "book.text famous a wroteHe What did the second scientist do?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 143,
+      "sourceLine": 17,
+      "sourcePages": [
+        143
+      ],
+      "rawBlock": "book.text famous a wroteHe   What did the second scientist do? \nماذا فعل العالم الثاني؟ قام بتأليف كتاب  شهير    \nتاسعاً/ انتشار اللغة في أفريقيا  (اللغة في منطقة  cape ) ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "Which English dialect was similar to the one in the Cape?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 143,
+      "sourceLine": 25,
+      "sourcePages": [
+        143
+      ],
+      "rawBlock": "Which English dialect was similar to the one in the Cape? \nLondon \nMidlands \nNorthlands \nAustralian \nما هي اللهجة الإنجليزية التي كانت مشابهة لتلك الموجودة في كيب؟ \nلندن  \nميدلاندز  \nنورثلاندز  \nالاسترالية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What word best describes the history of the English language at South Africa?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 143,
+      "sourceLine": 37,
+      "sourcePages": [
+        143,
+        144
+      ],
+      "rawBlock": "What word best describes the history of the English language at South Africa? \nshort \nsimple \nComplex\n143 \nmarginal \nما هي أفضل كلمة تصف تاريخ اللغة الإنجليزية في جنوب إفريقيا؟ \nقصير  \nبسيط  \nمعقد  \nهامش  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "Through the BritishHow did English reach South Africa?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 144,
+      "sourceLine": 11,
+      "sourcePages": [
+        144
+      ],
+      "rawBlock": "Through the BritishHow did English reach South Africa?    \nكيف وصلت اللغة الإنجليزية إلى جنوب إفريقيا؟  من خلال البريطانيين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "Who are those who colonized Africa in ancient times? Australians Holland British",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 144,
+      "sourceLine": 14,
+      "sourcePages": [
+        144
+      ],
+      "rawBlock": "Who are those who colonized Africa in ancient times?    Australians      Holland          British \nمن هم أولئك الذين استعمروا إفريقيا في العصور القديمة؟  الأستراليون     الهولنديون    البريطانيون   تأكدوا من ها في الاختبار  \nAfrica?  \" refers to whatit  The pronoun \" \nالضمير \"هو\" يشير إلى ماذا؟   أفريقيا  \nعاشراَ / بنك لمساعدة النساء والفقراء في بنجلادش ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "poor people and failed to helpbank raditionalT What did you understand from the first paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 144,
+      "sourceLine": 24,
+      "sourcePages": [
+        144
+      ],
+      "rawBlock": "poor people and  failed to helpbank  raditionalT  What did you understand from the first paragraph?\nwomen \nماذا فهمت من الفقرة الأولى؟  فشل البنك التقليدي في مساعدة الفقراء والنساء  \nthe poor people          women             the bank          Bangladesh          to:\" refers irThe\" \n\"هم\" تشير إلى           بنغلاديش         البنك                نساء               الناس الفقراء ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What did Professor Mohammed Younus do for the poor? help",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 144,
+      "sourceLine": 34,
+      "sourcePages": [
+        144,
+        145
+      ],
+      "rawBlock": "What did Professor Mohammed Younus do for the poor? help \nماذا فعل الأستاذ محمد يونس للفقراء؟  ساعد\n144 \nالحادي عشر  / بحث للعلماء عن الحيوانات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "Relaxing and Happy. What makes milk production more?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 145,
+      "sourceLine": 4,
+      "sourcePages": [
+        145
+      ],
+      "rawBlock": "Relaxing and Happy.  What makes milk production more? \nما هو الذي يجعل إنتاج الحليب أكثر؟  الاسترخاء والسعادة. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": ".programs and TV The content of petWhat is topic of paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 145,
+      "sourceLine": 8,
+      "sourcePages": [
+        145
+      ],
+      "rawBlock": ".programs and TV The content of petWhat is topic of paragraph 1?    \nما هو موضوع الفقرة1؟   محتوى البرامج والتلفزيون.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "Tame animals Pets Cow praises Cats and dogs What's the suitable title?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 145,
+      "sourceLine": 13,
+      "sourcePages": [
+        145
+      ],
+      "rawBlock": "Tame animals      Pets     Cow praises      Cats and dogs           What's the suitable title? \nما هو العنوان المناسب؟   قطط وكلاب        يمتدح البقرة     الحيوانات الأليفة       ترويض الحيوانات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What's the benefit of showing dogs some videos?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 145,
+      "sourceLine": 18,
+      "sourcePages": [
+        145
+      ],
+      "rawBlock": "What's the benefit of showing dogs some videos? \nThey make dogs understand more sounds and colors        \nScientists conduct experiments on animals \nIt makes them calm when they are alone \nما فائدة عرض بعض مقاطع الفيديو للكلاب؟ \nتجعل الكلاب تفهم المزيد من الأصوات والألوان    العلماء يجرون تجارب على الحيوانات      تجعلهم هادئين عندما يبقون لوحدهم  \nالثاني  عشر / الأنيميا في بريطانيا  \nوتكلموا فيها عن الانيميا في بريطانيا وأنه اغلب المهاجرين من الهند هم اللي عندهم الإصابة بالأنيميا  \nوذكر أسباب الإصابة  .... الهنود النباتيين  \nMost of the immigrants from India are the ones who have anemia and \nmentioned the causes of the infection .... Indian vegetarians ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "too many dead fruits Vitamin B12 deficiency What causes anemia?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 145,
+      "sourceLine": 39,
+      "sourcePages": [
+        145,
+        146
+      ],
+      "rawBlock": "too many dead fruits               Vitamin B12 deficiency    What causes anemia?\n145 \nماهو سبب  الانيميا؟  نقص فيتامين  B12           فواكه كثيرةتأكدوا منها في الاختبار من القطعة   \nالثالث عشر / جائزة الملك فيصل  \nمكرر  \nالرابع عشر/ مادة الغرافيم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "Carbon Graphite is made of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 146,
+      "sourceLine": 12,
+      "sourcePages": [
+        146
+      ],
+      "rawBlock": "Carbon   Graphite is made of? \nما هو الجرافيت؟  كربون  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "Changemean? iguretransfWhat does",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 146,
+      "sourceLine": 16,
+      "sourcePages": [
+        146
+      ],
+      "rawBlock": " Changemean?      iguretransfWhat does    \nماذا يعني التحويل؟ يتغير  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "England Where does he work?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 146,
+      "sourceLine": 20,
+      "sourcePages": [
+        146
+      ],
+      "rawBlock": "England Where does he work?  \nأين يعمل؟ إنكلترا  \nIt’s precious than diamond     It’s stronger than diamond    : from the following is trueWhat  \nماهو الصحيح مما  يلي:    إنه أقوى من الألماس        إنه أثمن من الألماس  \nالبطاريق  Penguins ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "They don't know what killed them. ?What did scientists discover about the death of penguins",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 146,
+      "sourceLine": 31,
+      "sourcePages": [
+        146,
+        147
+      ],
+      "rawBlock": "They don't know what killed them. ?What did scientists discover about the death of penguins \nماذا اكتشف العلماء عن موت طيور البطريق؟إنهم لا يعرفون ما الذي قتلهم.  \nالخامس عشر / قطعة عن الدوحة  \nA person who was in Bahrain, then moved to Doha and lived there for 10 \nyears, and now he lives there. \nأحمد كان في البحرين، ثم انتقل إلى الدوحة وعاش فيها لمدة 10سنوات، وللآن هو يعيش فيها\n146 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "10 years forAhmed has been living in Doha ?sentenceWhat is the correct",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 147,
+      "sourceLine": 3,
+      "sourcePages": [
+        147
+      ],
+      "rawBlock": "10 years forAhmed has been living in Doha   ?sentenceWhat is the correct  \nماهي العبارةالصحيحة؟  يعيش أحمد في الدوحة لمدة 10 سنوات \nالسادس عشر / المقاهي cafes    \nأن المقاهي تطورت وذكر دول الخليج ومصروالبحرين  وفروعها  منتشرة في هذه الدول ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-12-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "What can we understand from the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 147,
+      "sourceLine": 10,
+      "sourcePages": [
+        147
+      ],
+      "rawBlock": "What can we understand from the passage? \nCoffees shops and cafés are thriving in the Middle East. \nCoffee shops and cafés are thriving around the world.  \nالسابع عشر / الجمل   camel    \nCamelThe word winner in this passage refers to?  \nكلمة الفائز في هذا المقطع تشير إلى؟الجمل",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

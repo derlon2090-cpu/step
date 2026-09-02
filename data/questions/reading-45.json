@@ -1,0 +1,969 @@
+{
+  "readingId": "reading-45",
+  "sourceQuestionBlocks": 12,
+  "questions": [
+    {
+      "id": "reading-45-q01",
+      "order": 1,
+      "questionNumber": 24,
+      "questionText": "24) What does the passage say about Petra?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 586,
+      "sourceLine": 34,
+      "sourcePages": [
+        586,
+        587
+      ],
+      "rawBlock": "24) What does the passage say about Petra?  \na) It is in northern Syria.  \nb) It is the capital of Jordan.  \nc) It was the Nabatean capital.  \nd) It was a successful commercial city\n586 \nالتونة والسلمون  Tuna and salmon \n1) Some estimates report the world's oceans are home to 20,000 species of fish. Ocean fish come in all shapes, sizes, and \ncolors and live in drastically different depths and temperatures. Two of the most commonly known fish are tuna and salmon.  \n2) Salmon are fish that are known for making long, difficult journeys in order to breed. Salmon belongs to the scientific family \nSalmonidae, which also includes trout. There is one species, or type, of Atlantic salmon. There are six species of Pacific salmon: \ncoho, chum, king, pink, sockeye, and cherry.  \n3) Tuna are large fish that live in most parts of the world’s oceans. They belong to the same family of fish as mackerel. Tuna is \none of the most popular foods that comes from the sea. Most of the tuna that fishers catch is canned. There are seven \ndifferent species, or types, of tuna: bluefin, albacore, yellowfin, bigeye, blackfin, longtail, and southern bluefin. The skipjack \ntuna is related to these species, but it belongs to a separate group of fish.  \n4) The Atlantic salmon lives mainly in the North Atlantic Ocean. It breeds in the rivers of North America and Europe. Pacific \nsalmon are found in the waters of the North Pacific. They breed in rivers near both the North American and Asian coasts.  \n5) Salmon come in a range of sizes. The Atlantic salmon weighs about 12 pounds (5.5 kilograms). The pink salmon usually \nweighs 3 to 6 pounds (1.4 to 2.7 kilograms). The king salmon may weigh 25 pounds (11 kilograms) or more. While in the ocean, \nsalmon have a silver color and spots on their back and fins. During the breeding season, they undergo changes in color that \nvary by species.  \n6) A tuna has a long, rounded body. It is usually dark on top and silvery underneath. Some species have spots or stripes. Unlike \nother types of fish, a tuna can keep its body warmer than the temperature of the surrounding water. Many species of tuna are \nabout 35 inches (90 centimeters) long. The bluefin tuna is the largest species. It can grow as long as 14 feet (4 meters) and \nweigh up to 1,800 pounds (800 kilograms). \n7) After being born in fresh water, salmon travel to the ocean. They live there for one to three years. Then they travel back to \nwhere they hatched in order to breed. For some salmon, this can mean a trip of more than 2,000 miles (3,200 kilometers). \nSalmon may leap over waterfalls and cut through churning rapids to reach their home waters again. Once in fresh water, \nsalmon stop eating and live off their body fat. The males fight for a mate. After a male and a female are paired, the female digs \na pit and lays thousands of eggs. Most Pacific salmon die shortly after mating. Many Atlantic salmon, however, return to the \nsea and may breed again.  \n8) Tuna travel in large groups called schools. Some species travel long distances. Tuna feed on other fish, including herring, \nmenhaden, and mackerel. Some species also eat small, spineless animals such as squid. Some types of tuna return to the \nwaters where they hatched to spawn, or produce eggs. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-45-q02",
+      "order": 2,
+      "questionNumber": 25,
+      "questionText": "25) How many types of Atlantic salmon are there?",
+      "options": [
+        {
+          "label": "A",
+          "text": "one"
+        },
+        {
+          "label": "B",
+          "text": "six"
+        },
+        {
+          "label": "C",
+          "text": "seven"
+        },
+        {
+          "label": "D",
+          "text": "ten"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 587,
+      "sourceLine": 41,
+      "sourcePages": [
+        587,
+        588
+      ],
+      "rawBlock": "25) How many types of Atlantic salmon are there?  \na) one  \nb) six  \nc) seven  \nd) ten\n587 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q03",
+      "order": 3,
+      "questionNumber": 26,
+      "questionText": "26) How much does the Atlantic Salmon usually weigh?",
+      "options": [
+        {
+          "label": "A",
+          "text": "25 pounds"
+        },
+        {
+          "label": "B",
+          "text": "12 pounds"
+        },
+        {
+          "label": "C",
+          "text": "10 pounds"
+        },
+        {
+          "label": "D",
+          "text": "6 pounds"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 588,
+      "sourceLine": 2,
+      "sourcePages": [
+        588
+      ],
+      "rawBlock": "26) How much does the Atlantic Salmon usually weigh?  \na) 25 pounds  \nb) 12 pounds  \nc) 10 pounds  \nd) 6 pounds  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q04",
+      "order": 4,
+      "questionNumber": 27,
+      "questionText": "27) Which of the following is the largest species of tuna?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the yellowfin tuna"
+        },
+        {
+          "label": "B",
+          "text": "the longtail tuna"
+        },
+        {
+          "label": "C",
+          "text": "the black tuna"
+        },
+        {
+          "label": "D",
+          "text": "the bluefin tuna"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 588,
+      "sourceLine": 8,
+      "sourcePages": [
+        588
+      ],
+      "rawBlock": "27) Which of the following is the largest species of tuna?  \na) the yellowfin tuna  \nb) the longtail tuna  \nc) the black tuna  \nd) the bluefin tuna \n  جزيرةسانت لوسيا St. Lucia \n1) The Eastern Caribbean Island of St. Lucia is a part of a chain of volcanic islands known as the Lesser Antilles. St. Lucia is \nfamous for its geothermal activity; heat from the earth’s center creates natural hot pools and springs that attract tourists \nlooking to relax in a natural bath!  \n2) St. Lucia may only be a small island-43 kilometres long and a maximum of 23 kilometres wide (covering 16 square \nkilometres in total) but its landscape is mixed. There are volcanic beaches, coral diving sites, luxury holiday resorts and fishing \nvillages, and 76 square kilometres of rich rainforest.  \n3) The island of St. Lucia is known for its pair of pointy mountains, the Pitons, on its west coast. The west coast, where the \ncapital city Castries is found, is met by the Caribbean Sea and is known for its amazing diving! The east coast of the island \nmeets the Atlantic Ocean.  \n4) The entire population of St Lucia is approximately 178,000 people, which is quite low. Over the centuries, this island has \nattracted settlers from all over the world, so it has a rich culture. A wide range of religions, music, languages and food can be \nfound here.  \n5) Most people were Amerindians, Caribs and European settlers (mainly from France). During the 19th century, waves of \ntravelers from Europe, the Middle East, and even Japan made their lives in the Caribbean ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q05",
+      "order": 5,
+      "questionNumber": 28,
+      "questionText": "28) What is one important idea related to St. Lucia’s landscape that the writer mentions?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It has luxury resorts."
+        },
+        {
+          "label": "B",
+          "text": "It has Japanese settlers."
+        },
+        {
+          "label": "C",
+          "text": "It has a variety of cultures."
+        },
+        {
+          "label": "D",
+          "text": "It has many natural attractions."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 588,
+      "sourceLine": 37,
+      "sourcePages": [
+        588,
+        589
+      ],
+      "rawBlock": "28) What is one important idea related to St. Lucia’s landscape that the writer mentions?  \na) It has luxury resorts.  \nb) It has Japanese settlers.  \nc) It has a variety of cultures.  \nd) It has many natural attractions.\n588 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q06",
+      "order": 6,
+      "questionNumber": 29,
+      "questionText": "29) What is one important idea related to St. Lucia’s population that the writer mentions?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The population is mostly Amerindians."
+        },
+        {
+          "label": "B",
+          "text": "Its settlers are from the Middle East."
+        },
+        {
+          "label": "C",
+          "text": "It has a small number of people."
+        },
+        {
+          "label": "D",
+          "text": "It is a small island."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 589,
+      "sourceLine": 2,
+      "sourcePages": [
+        589
+      ],
+      "rawBlock": "29) What is one important idea related to St. Lucia’s population that the writer mentions?  \na) The population is mostly Amerindians.  \nb) Its settlers are from the Middle East.  \nc) It has a small number of people.  \nd) It is a small island.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q07",
+      "order": 7,
+      "questionNumber": 30,
+      "questionText": "30) What does the writer want to show by the example of hot pools and springs?",
+      "options": [
+        {
+          "label": "A",
+          "text": "geothermal activity"
+        },
+        {
+          "label": "B",
+          "text": "resort attractions"
+        },
+        {
+          "label": "C",
+          "text": "a mixed landscape"
+        },
+        {
+          "label": "D",
+          "text": "reasons settlers came."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 589,
+      "sourceLine": 8,
+      "sourcePages": [
+        589
+      ],
+      "rawBlock": "30) What does the writer want to show by the example of hot pools and springs?  \na) geothermal activity  \nb) resort attractions  \nc) a mixed landscape  \nd) reasons settlers came.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q08",
+      "order": 8,
+      "questionNumber": 31,
+      "questionText": "31) What is the main topic of the passage?",
+      "options": [
+        {
+          "label": "A",
+          "text": "St. Lucia’s tourism"
+        },
+        {
+          "label": "B",
+          "text": "St. Lucia’s history"
+        },
+        {
+          "label": "C",
+          "text": "St. Lucia’s culture"
+        },
+        {
+          "label": "D",
+          "text": "St. Lucia’s geography"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 589,
+      "sourceLine": 14,
+      "sourcePages": [
+        589,
+        590
+      ],
+      "rawBlock": "31) What is the main topic of the passage?  \na) St. Lucia’s tourism  \nb) St. Lucia’s history  \nc) St. Lucia’s culture  \nd) St. Lucia’s geography \n  مخلفات الفضاءSpace junk \n1) Many people know that garbage is a big problem on Earth. What many people don't know is that trash has become a \nproblem in space too. Years of space travel have left tonnes of space junk\" in orbit around the planet.  \n2) There are more than 22,000 pieces of junk in space around the earth. And these are just the items that we can see from \nearth. There are also millions of smaller pieces of junk that we can't see  \n3) To help reduce more space junk, countries around the world have agreed to limit the time their tools stay in space to 25 \nyears. Each tool must be built to fall safely into the earth's atmosphere, or the gases that surround the earth. After that, in the \nupper parts of the atmosphere, it will burn up.  \n4) Scientists are suggesting different ways to clean up space junk. In England a metal object is being tested that can be sent \ninto space and then pull the space junk back into the earth's atmosphere where it would burn up. The Germans have been \nplanning a space mission with robots that would collect pieces of space trash and bring them back to Earth so that they can be \nsafely destroyed.  \n5) “In our opinion the problem is very challenging, and it’s quite urgent as well,” said Marco Castronuovo, an Italian Space \nAgency researcher who is working to solve the problem.\n589 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q09",
+      "order": 9,
+      "questionNumber": 32,
+      "questionText": "32) What does the passage say about the problem of “space junk”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Countries around the world have agreed to limit space travel"
+        },
+        {
+          "label": "B",
+          "text": "Garbage is a big problem on Earth"
+        },
+        {
+          "label": "C",
+          "text": "Garbage is damaging the Earth's atmosphere"
+        },
+        {
+          "label": "D",
+          "text": "Many countries are working to find a solution"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 590,
+      "sourceLine": 2,
+      "sourcePages": [
+        590
+      ],
+      "rawBlock": "32) What does the passage say about the problem of “space junk”?  \na) Countries around the world have agreed to limit space travel  \nb) Garbage is a big problem on Earth  \nc) Garbage is damaging the Earth's atmosphere  \nd) Many countries are working to find a solution  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q10",
+      "order": 10,
+      "questionNumber": 33,
+      "questionText": "33) How will countries prevent the increase of \"space junk\"?",
+      "options": [
+        {
+          "label": "A",
+          "text": "by reducing the time equipment can stay in space"
+        },
+        {
+          "label": "B",
+          "text": "by bringing their trash back to earth to destroy it"
+        },
+        {
+          "label": "C",
+          "text": "by reducing space missions"
+        },
+        {
+          "label": "D",
+          "text": "by using fewer tools"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 590,
+      "sourceLine": 8,
+      "sourcePages": [
+        590
+      ],
+      "rawBlock": "33) How will countries prevent the increase of \"space junk\"?  \na) by reducing the time equipment can stay in space  \nb) by bringing their trash back to earth to destroy it  \nc) by reducing space missions  \nd) by using fewer tools  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q11",
+      "order": 11,
+      "questionNumber": 34,
+      "questionText": "34) Why does the writer use the phrase “After that” in paragraph (3)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to show how long tools stay in space"
+        },
+        {
+          "label": "B",
+          "text": "to show how tools should NOT be built."
+        },
+        {
+          "label": "C",
+          "text": "to show tools won’t stay in Earth’s atmosphere."
+        },
+        {
+          "label": "D",
+          "text": "to show the Earth atmosphere is different from space."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 590,
+      "sourceLine": 14,
+      "sourcePages": [
+        590
+      ],
+      "rawBlock": "34) Why does the writer use the phrase “After that” in paragraph (3)?  \na) to show how long tools stay in space  \nb) to show how tools should NOT be built.  \nc) to show tools won’t stay in Earth’s atmosphere.  \nd) to show the Earth atmosphere is different from space.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q12",
+      "order": 12,
+      "questionNumber": 35,
+      "questionText": "35) Which word can we use to replace the words “as well” in paragraph (5)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "therefore"
+        },
+        {
+          "label": "B",
+          "text": "though"
+        },
+        {
+          "label": "C",
+          "text": "still"
+        },
+        {
+          "label": "D",
+          "text": "too"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 590,
+      "sourceLine": 20,
+      "sourcePages": [
+        590
+      ],
+      "rawBlock": "35) Which word can we use to replace the words “as well” in paragraph (5)?  \na) therefore  \nb) though  \nc) still  \nd) too ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q13",
+      "order": 13,
+      "questionNumber": 36,
+      "questionText": "36) What does the Italian Space Agency think about space junk?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Researchers need 25 years to solve the problem."
+        },
+        {
+          "label": "B",
+          "text": "The smaller pieces are the most dangerous."
+        },
+        {
+          "label": "C",
+          "text": "The problem needs a fast solution."
+        },
+        {
+          "label": "D",
+          "text": "It is destroying the atmosphere."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 590,
+      "sourceLine": 26,
+      "sourcePages": [
+        590
+      ],
+      "rawBlock": "36) What does the Italian Space Agency think about space junk?  \na) Researchers need 25 years to solve the problem.  \nb) The smaller pieces are the most dangerous.  \nc) The problem needs a fast solution.  \nd) It is destroying the atmosphere. \n مراقبة المخزون  Inventory control \n1) Can you imagine what would happen if a Coca-Cola manufacturing plant ran out of the company’s familiar red-and-white ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "aluminum cans? It would be impossible to complete the manufacturing process and ship the cases of Coke to retailers.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 590,
+      "sourceLine": 37,
+      "sourcePages": [
+        590,
+        591
+      ],
+      "rawBlock": "aluminum cans? It would be impossible to complete the manufacturing process and ship the cases of Coke to retailers.  \n2) Management would be forced to shut the assembly line down until the next shipment of cans arrived from a supplier. In \nreality, operations managers for Coca-Cola realize the disasters that a shortage of needed materials can cause and will avoid\n590 \nthis type of problem if at all possible. The simple fact is that shutdowns are expensive because costs such as rent, wages, \ninsurance, and other expenses still must be paid.  \n3) Operations managers are concerned with three types of inventories. A raw-materials inventory consists of materials that \nwill become part of the product during the production process. The work-in-process inventory consists of partially completed \nproducts. The finished-goods inventory consists of completed products. Each type of inventory also has a holding cost, or \nstorage cost, and a stock-out cost – the cost of running out of inventory.  \n4) Inventory control is the process of managing inventories in such a way as to minimize inventory costs, including both \nholding costs and potential stock-out costs.  \n5) Today computer systems are being used to keep track of inventories and warn managers of possible stock-outs. One of the \nmost sophisticated methods of inventory control used today is materials requirements planning. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-45-q15",
+      "order": 15,
+      "questionNumber": 37,
+      "questionText": "37) What is one important cause of shutdown?",
+      "options": [
+        {
+          "label": "A",
+          "text": "poor computer system"
+        },
+        {
+          "label": "B",
+          "text": "high storage costs"
+        },
+        {
+          "label": "C",
+          "text": "unskilled workers"
+        },
+        {
+          "label": "D",
+          "text": "shortage of materials"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 591,
+      "sourceLine": 17,
+      "sourcePages": [
+        591
+      ],
+      "rawBlock": "37) What is one important cause of shutdown?  \na) poor computer system  \nb) high storage costs  \nc) unskilled workers  \nd) shortage of materials  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q16",
+      "order": 16,
+      "questionNumber": 38,
+      "questionText": "38) What is one important effect of inventory control?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 591,
+      "sourceLine": 23,
+      "sourcePages": [
+        591,
+        592
+      ],
+      "rawBlock": "38) What is one important effect of inventory control?  \na) It creates better managers.  \nb) It reduces costs.  \nc) It develops skills.  \nd) It improved product quality.  \n39) The word “familiar” in paragraph (1) is closest in meaning to……………  \na) attractive  \nb) normal  \nc) missing  \nd) well-known  \n40) The word “methods” in paragraph (5) is closest in meaning to……………  \na) surprises  \nb) reasons  \nc) ways  \nd) varieties\n591 \nرسم بياني ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-45-q17",
+      "order": 17,
+      "questionNumber": 41,
+      "questionText": "41. what is the average temperature of Tokyo in March?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 ℃"
+        },
+        {
+          "label": "B",
+          "text": "6 ℃"
+        },
+        {
+          "label": "C",
+          "text": "10 ℃"
+        },
+        {
+          "label": "D",
+          "text": "20 ℃"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 592,
+      "sourceLine": 29,
+      "sourcePages": [
+        592
+      ],
+      "rawBlock": "41. what is the average temperature of Tokyo in March?  \na) 4 ℃  \nb) 6 ℃  \nc) 10 ℃  \nd) 20 ℃  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q18",
+      "order": 18,
+      "questionNumber": 42,
+      "questionText": "42) In which month was London’s temperature the highest?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 592,
+      "sourceLine": 35,
+      "sourcePages": [
+        592,
+        593,
+        594
+      ],
+      "rawBlock": "42) In which month was London’s temperature the highest?  \na) June  \nb) July  \nc) August  \nd) September\n592 \n التبغ Tobacco \nWhen Christopher Columbus arrived in the Americans, he found the native using tobacco much the same way as it is used in \nmany parts of the world today. At least partly because it was thought to have medicinal value, it was soon carried to France, \nSpain, and Portugal and from there to the rest of Europe. By the 16th century Spaniards had established tobacco plantations in \nthe West Indies. Colonists in Virginia began successful tobacco cultivation in 1612. Production gradually spread to the rest of \nthe world.  \n1) Today tobacco is grown in more than 120 countries. The largest growers are China (with 25% of the world’s production), the \nUnited States, India, Brazil, Turkey, and several European countries. Because China is also the largest consumers of tobacco, \nvery little of its crop is sold on world markets.  \n2) Tobacco belongs to the genus Nicotiana, which is named for Jean Nicot, who was the French ambassador to the Portugal \nfrom 1559 to 1561. It was he who first sent tobacco to the rest of Europe. A South American species, N. tabacum, is the source \nfor most of today’s commercial varieties.  \n3) Tobacco contains nicotine and other alkaloids. Alkaloids are nitrogen-containing organic compounds that are generally \nrecognized as habit-forming and narcotic. To a great extent, this accounts for the worldwide appeal and use of tobacco \nproducts.  \n4) Tobacco seeds are black and extremely tiny. One teaspoonful can grow into enough seedings for 6 acres (2.5 hectares). \nMore than 350,000 seeds have been counted in a single ounce (28 grams). One mature plant has a potential yield of a million \nseeds.  \n5) Transplanting machines are used extensively, but most of the world’s tobacco plants are planted by hand. Spacing in a field \nvaries according to the type being planted. Rows of Burley and cigar tobaccos are 3 to 3 1/2 feet (0.9 to 1 meter) apart, and \nthe plants are spaced from 15 to 27 inches (38 to 68 centimeters) from one another. Perique plants are spaced the farthest, \nwith rows 5 feet (1.5 meters) apart and 3 to 3 1/2 feet between plants. \n6) Harvesting, which takes place 70 to 130 days after transplanting, is doing when the leaves are still green. Two methods are \nused. The entire plant mat be cut and the stalk split and hung on a tobacco stick or lath, or the leaves may be removed one at \na time as they mature. To prevent breakage and bruising, it is desirable for the leaf to wilt without sun burning. Sometimes \ntobacco may be left in the field to wilt from a few hours to two days.  \n7) The majority of the approximately 7 million tons of tobacco grown in a typical year in the 1980s went into the \nmanufacturing of the more than 3.5 trillion cigarettes that were sold in each of those years. At first cigarettes were made by \nhand. In 1880 James A. Bonsack patented paper was filled with tobacco, formed, pasted, closed, and cut to proper lengths by a \nrotary knife. The machine was soon being used in other countries. Improvement in cultivation and processing the lowered the \nacid content of cigarette tobacco and that made the smoke easier to inhale led to a major expansion cigarette smoking early in \nthe 20th century. \n8) The cigar is a cylindrical roll of tobacco consisting of cut-leaf filler rolled in a binder leaf, with a wrapper leaf rolled spirally \naround the outside. In 1600 the cigar was introduced into Spain, where it was the symbol of wealth for two centuries before it\n593 \ncame into wide use in other countries. The names corona, Panatela, Lonsdale, Londres, and cheroot are used to describe the \nsize and shape of cigars. Cigars are also classified by color-from light to very dark.  \n9) The suspicion that smoking can be a health hazard dates back at least to 1604, when King James I of England issued a \ncondemnation of tobacco. The modern concern over the health of smokers emerged after World War II. Then medical \nevidence began to accumulate that eventually established that cigar and pipe smoking cause cancer of the mouth and that \ncigarette smoking is directly linked to lung cancer. Today it is also known that smoking increases the risks of other diseases of \nthe heart and lungs and that chewing tobacco and snuff increase the risk of cancer of the mouth.  \n10) Since Jan. 1, 1996, all cigarette packages sold in the United States and a few other nations have carried health warning. \nCigarette advertising on television was banned in the United States beginning on Jan, 1, 1971, and some health agencies have \namounted television campaigns against smoking. In 1985 the American Medical Association called for a ban on all cigarette \nadvertising. The U.S. Food and Drug Administration (FDA) had long argued that the nicotine in cigarettes was an addictive \ndrug, and in 1996, it was given the power to regulate tobacco and to limit cigarettes advisements aimed to minors. In many \nWestern, industrialized countries, growing concern over the risks associated with non-smokers breathing the tobacco smoke \nof smokers led to widespread restrictions on smoking in workplaces and public buildings. In some cases, smoking in certain \npublic areas, including on some airline fights, was banned entirely. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-45-q19",
+      "order": 19,
+      "questionNumber": 43,
+      "questionText": "43) Which of the following does tobacco contain?",
+      "options": [
+        {
+          "label": "A",
+          "text": "nicotine and alkaloids"
+        },
+        {
+          "label": "B",
+          "text": "nicotine and corona"
+        },
+        {
+          "label": "C",
+          "text": "lath and tabacum"
+        },
+        {
+          "label": "D",
+          "text": "alkaloids and panatela"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 594,
+      "sourceLine": 20,
+      "sourcePages": [
+        594
+      ],
+      "rawBlock": "43) Which of the following does tobacco contain?  \na) nicotine and alkaloids  \nb) nicotine and corona  \nc) lath and tabacum  \nd) alkaloids and panatela  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q20",
+      "order": 20,
+      "questionNumber": 44,
+      "questionText": "44) What are two types of leaves used for cigars?",
+      "options": [
+        {
+          "label": "A",
+          "text": "wrapper and cheroot"
+        },
+        {
+          "label": "B",
+          "text": "binder and wrapper"
+        },
+        {
+          "label": "C",
+          "text": "corona and binder"
+        },
+        {
+          "label": "D",
+          "text": "filler and panatela"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 594,
+      "sourceLine": 26,
+      "sourcePages": [
+        594
+      ],
+      "rawBlock": "44) What are two types of leaves used for cigars?  \na) wrapper and cheroot  \nb) binder and wrapper  \nc) corona and binder  \nd) filler and panatela  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q21",
+      "order": 21,
+      "questionNumber": 45,
+      "questionText": "45) Which two countries are among the largest growers of tobacco?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 594,
+      "sourceLine": 32,
+      "sourcePages": [
+        594,
+        595,
+        596
+      ],
+      "rawBlock": "45) Which two countries are among the largest growers of tobacco?  \na) Spain and Portugal  \nb) Farnce and the West Indies  \nc) the United States and France  \nd) China and the United States\n594 \n  الدورات البيوكيميائيةBiochemical cycles \nThe surface of the Earth can be considered as four distinct regions and because the planet is spherical each of them is also a \nsphere. The rocks forming the solid surface comprise the lithosphere, the oceans, lakes, rivers, and icecaps from the \nhydrosphere, the air constitutes the atmosphere, and the biosphere contains the entire community of living organisms.  \n46) The word “distinct” in the passage is closest in meaning to…………..  \na) different  \nb) framing  \nc) small  \nd) rainy  \n47) The word “comprise” in the passage is closest in meaning to…………..  \na) create  \nb) show  \nc) move  \nd) contain  \n48) The word “constitute” in the passage is closest in meaning to…………..  \na) serves  \nb) stirs  \nc) forms  \nd) removes \n الحلول والمشاكل  Solutions and problems \n1) Some people do not like the word “problem”; they say, “we don’t have problems, we have solutions.” The word “problem” \nis used in different ways. It can mean something that is causing us a difficulty. The word “problematical” suggests a situation \nwhere we cannot see an easy solution to something. However, not all problems are like this. In some cases, we may enjoy \nproblems and solve them for fun: for example, when doing a puzzle or playing a video game.  \n2) Most people have some sorts of problem in their lives and many of these may be solved with a little careful thought. The \nproblem solving we are talking about here is based on reasons; it is often math, in the sense shape or number, but does not \nrequire a high level of formal math to solve. It is largely based upon the real world and is not abstract like much of \nmathematics. \n3) Many people, from builders to architects, from soccer players to lawyers, use this type of problem solving in their everyday \nlives. On the face of it, critical thinking and problem solving might appear as quite separate disciplines. Most critical thinking \nquestions are primarily word based, but many problem-solving questions contain number-based information. However, the \nskills used, especially in the application of reason, are quite similar. Scientists, politicians and lawyers will frequently use both \nword based and numerical data.\n595 \n49) What are two expressions that the writer uses for “problem solving”  \na) critical thinking and reasoning  \nb) problematics and difficulties  \nc) word data and numerical data  \nd) puzzles and video games  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-45-q22",
+      "order": 22,
+      "questionNumber": 50,
+      "questionText": "50) Which of the following is the writer’s opinion?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Many careers involve problem solving"
+        },
+        {
+          "label": "B",
+          "text": "Many personal problems have a solution"
+        },
+        {
+          "label": "C",
+          "text": "The word “problem” has different meanings"
+        },
+        {
+          "label": "D",
+          "text": "Some problems require knowledge of mathematics"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 596,
+      "sourceLine": 9,
+      "sourcePages": [
+        596
+      ],
+      "rawBlock": "50) Which of the following is the writer’s opinion?  \na) Many careers involve problem solving  \nb) Many personal problems have a solution  \nc) The word “problem” has different meanings  \nd) Some problems require knowledge of mathematics  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q23",
+      "order": 23,
+      "questionNumber": 51,
+      "questionText": "51) what is one difference between critical thinking and problem solving?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Problem solving is more enjoyable than critical thinking."
+        },
+        {
+          "label": "B",
+          "text": "Critical thinking requires knowledge of formal math."
+        },
+        {
+          "label": "C",
+          "text": "One uses words while the other uses numbers."
+        },
+        {
+          "label": "D",
+          "text": "One is based on real world knowledge"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 596,
+      "sourceLine": 15,
+      "sourcePages": [
+        596
+      ],
+      "rawBlock": "51) what is one difference between critical thinking and problem solving?  \na) Problem solving is more enjoyable than critical thinking.  \nb) Critical thinking requires knowledge of formal math.  \nc) One uses words while the other uses numbers.  \nd) One is based on real world knowledge  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q24",
+      "order": 24,
+      "questionNumber": 52,
+      "questionText": "52) How is the writer’s view of problems different from other people’s views?",
+      "options": [
+        {
+          "label": "A",
+          "text": "She thinks solving problems requires knowledge of math."
+        },
+        {
+          "label": "B",
+          "text": "She thinks most problems are too complex to solve."
+        },
+        {
+          "label": "C",
+          "text": "She thinks the word problem is difficult to define."
+        },
+        {
+          "label": "D",
+          "text": "She thinks problems can be entertaining."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 596,
+      "sourceLine": 21,
+      "sourcePages": [
+        596
+      ],
+      "rawBlock": "52) How is the writer’s view of problems different from other people’s views?  \na) She thinks solving problems requires knowledge of math.  \nb) She thinks most problems are too complex to solve.  \nc) She thinks the word problem is difficult to define.  \nd) She thinks problems can be entertaining. \nPassage A   \n  أهمية الحمض النوويthe importance of DNA ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "How did the discovery of DNA Impact the Scientific Community?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 596,
+      "sourceLine": 31,
+      "sourcePages": [
+        596,
+        597,
+        598
+      ],
+      "rawBlock": "How did the discovery of DNA Impact the Scientific Community?  \n1) From the time DNA was first identified as a distinct molecule within cells, our understanding of DNA has grown as members \nof the scientific community have built upon each other’s finding through farther experiments. The discovery of DNA focused \nscientists’ efforts and led to the research into genetics and heredity aimed at improving life on Earth today.  \nIdentification of DNA  \n2) DNA’s discovery can be traced to 1868, when Swiss medical student Johann Friedrich Miescher began work on isolating \nproteins from white blood cells. Miescher found a substance that contained more phosphorus than cellular proteins and could \nnot be broken down as proteins could. His discovery of what he called \"nuclein\" proved an important key for scientists \ndecades later who were trying to determine which chemical components of cells carried genetic information.\n596 \nInvestigation into DNA's Function and Structure  \n3) In the 1940s. American biologist Oswald Avery and colleagues at Rockefeller University exposed one type of pneumonia \nbacteria to the DNA from another type without any proteins present, transforming the first type into the second and \ndemonstrating that DNA was the agent of change. A decade later, James Watson and Francis Crick of Cambridge University \nsuggested that DNA carried information in a code that aided in protein synthesis and existed as a double-stranded molecule, \nor double helix, structure, that carried the instructions for copying itself and transferring genetic material across generations. \nApplication to a Broad Range of Fields  \n4) Today, our understanding of DNA's role and structure guides procedures and research in fields from agriculture to law. The \nability to identify specific genes has assisted plant breeders in producing crops with hardy, desirable traits that result from the \nproteins DNA helps create. Meanwhile, analysis of the 1 percent of DNA sequences that vary among human beings has been \nuseful in identifying persons of interest from biological evidence found at the scenes of violent crimes \nIntegration into Medical Research  \n5) Experiments with DNA have probably had the greatest impact on medicine, especially in developing drugs and identifying \nand treating cancer. In 2013, researchers at Queen Mary University in London announced chemical \"tags\" on DNA sequences \nthat seemed to coincide with occurrences of head and neck cancers, suggesting these cancers could be predicted. Coupling \nthese tests with gene therapy - the alteration of genes known to play roles in cancer - could create a legacy unimaginable \nwhen DNA was first discovered. \nPassage B  \n اكتشاف الحمض النووي  The discovery of DNA \n1) It is a common misconception that James Watson and Francis Crick discovered DNA in the 1950s. In reality, DNA was \ndiscovered decades before. It was by following the work of the pioneers before them that James and Francis were able to \ncome to their ground-breaking conclusion about the structure of DNA in 1953. The story of the discovery of DNA begins in the \n1800s… \nThe molecule of life  \n2) The molecule now known as DNA was first identified in the 1860s during research into the key components of white blood \ncells, part of our body's immune system. The main source of these cells was pus-coated bandages collected from a nearby \nmedical clinic.  \n3) Researchers carried out experiments using salt solutions to understand more about what makes up white blood cells. They \nnoticed that, when they added acid to a solution of the cells, a substance separated from the solution. This substance then \ndissolved again when an alkali was added. When investigating this substance, they realized that it had unexpected properties \ndifferent to those of the other proteins they were familiar with. They called this mysterious substance \"nuclein\", because they \nbelieved it had come from the cell nucleus. \nThe four building blocks of DNA  \n4) Albrecht Kossel was a German biochemist who made great progress in understanding the basic building blocks of nuclein.  \n5) In 1881 Albrecht identified nuclein as a nucleic acid and provided its present chemical name, deoxyribonucleic acid (DNA). \nThis work was rewarded in 1910 when he received the Nobel Prize in Physiology or Medicine.\n597 \nDisease Diagnosis and Treatment  \n6) As noted, one important area of DNA research is that of genetics and medical research. Due to our discovery of DNA, our \nability to actually diagnose diseases early on has been vastly improved. In addition, we have been able to better assess a \nperson's genetic susceptibility to specific diseases. In doing so, we have also paved the pathway to formulate brand new drugs \nto treat these diseases. In fact, drugs can essentially be custom made to complement a person's personal biochemistry and \ngenetic makeup.  \n7) The impact of DNA on agriculture has been a very important one because it has allowed breeders to facilitate the breeding \nof animals that have a better resistance to diseases. It also allows farmers to produce more nutritious produce. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-45-q26",
+      "order": 26,
+      "questionNumber": 53,
+      "questionText": "53) What can we understand from passage A and B about the discovery of DNA?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The Swiss first found it."
+        },
+        {
+          "label": "B",
+          "text": "Waston first discovered it."
+        },
+        {
+          "label": "C",
+          "text": "It likely happened in the 1800s."
+        },
+        {
+          "label": "D",
+          "text": "It was identified as a molecule and it happened in Germany."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 598,
+      "sourceLine": 13,
+      "sourcePages": [
+        598
+      ],
+      "rawBlock": "53) What can we understand from passage A and B about the discovery of DNA?  \na) The Swiss first found it.  \nb) Waston first discovered it.  \nc) It likely happened in the 1800s.  \nd) It was identified as a molecule and it happened in Germany.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q27",
+      "order": 27,
+      "questionNumber": 54,
+      "questionText": "54) According to passages A and B, what did scientists find out about the make-up of DNA?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Nuclein is a key substance."
+        },
+        {
+          "label": "B",
+          "text": "It has a double helix structure."
+        },
+        {
+          "label": "C",
+          "text": "It is another name for white blood cells."
+        },
+        {
+          "label": "D",
+          "text": "The main substance dissolves with alkali, but is unchanged by other acids."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 598,
+      "sourceLine": 19,
+      "sourcePages": [
+        598
+      ],
+      "rawBlock": "54) According to passages A and B, what did scientists find out about the make-up of DNA?  \na) Nuclein is a key substance.  \nb) It has a double helix structure.  \nc) It is another name for white blood cells.  \nd) The main substance dissolves with alkali, but is unchanged by other acids.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q28",
+      "order": 28,
+      "questionNumber": 55,
+      "questionText": "55) According to passages A and B, what fields have been helped by understanding DNA?",
+      "options": [
+        {
+          "label": "A",
+          "text": "medicine and engineering"
+        },
+        {
+          "label": "B",
+          "text": "medicine and farming"
+        },
+        {
+          "label": "C",
+          "text": "law and forensic"
+        },
+        {
+          "label": "D",
+          "text": "farming and technology"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 598,
+      "sourceLine": 25,
+      "sourcePages": [
+        598
+      ],
+      "rawBlock": "55) According to passages A and B, what fields have been helped by understanding DNA?  \na) medicine and engineering  \nb) medicine and farming  \nc) law and forensic  \nd) farming and technology  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q29",
+      "order": 29,
+      "questionNumber": 56,
+      "questionText": "56) What can we understand about DNA’s effect on healthcare from Passages A and B?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Diseases can be understood fast and treatment costs have reduced."
+        },
+        {
+          "label": "B",
+          "text": "Drugs can be made specifically for individuals."
+        },
+        {
+          "label": "C",
+          "text": "It can lead to lots of effective drugs."
+        },
+        {
+          "label": "D",
+          "text": "It will soon lead to a cure for cancer."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 598,
+      "sourceLine": 31,
+      "sourcePages": [
+        598,
+        599
+      ],
+      "rawBlock": "56) What can we understand about DNA’s effect on healthcare from Passages A and B?  \na) Diseases can be understood fast and treatment costs have reduced.  \nb) Drugs can be made specifically for individuals.  \nc) It can lead to lots of effective drugs.  \nd) It will soon lead to a cure for cancer.\n598 \nالأم الكورية \n1) Language is a way to communicate. We begin to learn language as infants and become accustomed to our native language. \nlanguage therefore becomes a problem for immigrants, especially between the first and second generations. This language \nbarrier also results in the second generation losing their identity.  \n2) First generation immigrants in America suffer in lots of areas because of language difficulties. Naturally, they want their \nchildren to speak English both at home and at school in order to be more successful. This results in their children losing their \nethnic identity and even more. Ignoring their parents because there is now a language between them.  \n3) For example, my three children and they were all born in the States. The eighteen years- old daughter speaks both English \nand Korean very well. She has no problems talking with her parents, but she does have trouble understanding Korean jokes, \nand there are sometimes misunderstandings. The second daughter is fourteen years old and she resists speaking Korean. My \naunt often gets upset with her because she is much Americanized and they cannot understand each other Even when my ant \npunishes her, this daughter does not understand what my aunt is talking about. I felt sympathy for my aunt whenever my ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-45-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "fourteen-year-old cousin said, \"Mom, what is your problem?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 599,
+      "sourceLine": 18,
+      "sourcePages": [
+        599
+      ],
+      "rawBlock": "fourteen-year-old cousin said, \"Mom, what is your problem?  \n4) The third child is a twelve-year-old son. He speaks English to his parents and my aunt speaks Korean to him he does to the \nsecond canter. He also has a problem communicating with his parents. My aunt is trying to encourage him to learn both \nlanguages, but it is very hard for him because he speaks English all day and fail to understand why he should learn Korean. \n5) Immigrants try to preserve their native language in their new country while string to learn a new language. My aunt was her \nchildren to succeed in the US, but she also wants to help them understand the Korean language in order to understand the \nKorean heritage. The second generation often gets confused about their Identity. My aunt's children, for example, see \nthemselves as being different from others in both places in the US they look Korean and in Korea they act like Americans. My \ncousins told me that when they visited Korea a few years ago, they felt different because they wore different clothes and \nwalked differently.  \n6) Language is important and valuable for any reasons. Immigrants must imagine a strong mutual understanding with the \nfamily and enable their children to appreciate the heritage. Being at ease in using both the first and second languages is \nimportant not only for attaining familial harmony, but also in helping the second generation establish the identity. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-45-q31",
+      "order": 31,
+      "questionNumber": 57,
+      "questionText": "57) What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 599,
+      "sourceLine": 35,
+      "sourcePages": [
+        599,
+        600
+      ],
+      "rawBlock": "57) What is the main idea of the passage?  \na) the importance of second language  \nb) immigrants and their education  \nc) language and identity  \nd) immigrants in the US  \n58) The word suffer in Paragraph (2) is closest in meaning to having ……………….  \na) accidents  \nb) problems  \nc) injuries  \nd) skills\n599 \n59) According to Paragraph (3), which of the following is NOT TRUE about the 18-year-old \ndaughter?  \na) she was born in the U.S.  \nb) she speaks only English very well  \nc) she sometimes misunderstands things in Korean  \nd) she communicates better with her parents than her brother and sister do.  \n60) The pronoun they in Paragraph (3) refers to the mother and her …………..  \na) second daughter  \nb) eldest daughter  \nc) children  \nd) son",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

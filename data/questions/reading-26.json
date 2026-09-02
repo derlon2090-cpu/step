@@ -1,0 +1,503 @@
+{
+  "readingId": "reading-26",
+  "sourceQuestionBlocks": 11,
+  "questions": [
+    {
+      "id": "reading-26-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 320,
+      "sourceLine": 21,
+      "sourcePages": [
+        320
+      ],
+      "rawBlock": "According to Paragraph (2), Where has Mei Lan been living? \nin the Chengdu Panda Research Center \nin an American research center \nin Atlanta, Georgia \nin Sichuan, China \nوفقًا للفقرة2) ، أين كانت مي لان تعيش؟ \n في مركز أبحاث تشنغدو باندا \nفي مركز أبحاث أمريكي  \nفي أتلانتا ، جورجيا  \n في سيتشوان ، الصين  \nCopyright History \nمحفوظات حقوق النشر ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "What is a copyright?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 320,
+      "sourceLine": 35,
+      "sourcePages": [
+        320,
+        321
+      ],
+      "rawBlock": "What is a copyright?  \nthe right given to authors and inventors for their writings and discoveries \nthe permission to sell or rent only in the country where originally sold  \nthe transfer of rights to a publisher or an industry  \nthe ability to accurately copy something \nما هو حق المؤلف؟ \nحق المؤلفين والمخترعين في كتاباتهم واكتشافاتهم  \nتصريح البيع أو الإيجار فقط في البلد الذي تم بيعه فيه في الأصل  \nنقل الحقوق إلى ناشر أو صناعة\n320 \nالقدرة على نسخ شيء ما بدقة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "What do most Americans see at the start of DVDs?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 321,
+      "sourceLine": 4,
+      "sourcePages": [
+        321
+      ],
+      "rawBlock": "What do most Americans see at the start of DVDs?  \nan FBI warning  \nan ID number  \na fixed medium  \na mark of quality \nماذا يرى معظم الأمريكيين في بداية أقراصDVD؟ \nتحذير مكتب التحقيقات الفدرالي \nرقم الهوية  \nوسيط ثابت  \nعلامة الجودة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "How many basic rights does a copyright owner have?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 321,
+      "sourceLine": 15,
+      "sourcePages": [
+        321
+      ],
+      "rawBlock": "How many basic rights does a copyright owner have?  \n4  \n6  \n8  \n10 \nكم عدد الحقوق الأساسية التي يمتلكها مالك حقوق الطبع والنشر؟ \n4 \n6 \n8 \n10 \nHot deserts \nالصحاري الساخنة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 321,
+      "sourceLine": 30,
+      "sourcePages": [
+        321
+      ],
+      "rawBlock": "What is the writer's main purpose?  \nto study geography  \nto convince  \nto inform  \nto entertain \nما هو الهدف الرئيسي للكاتب؟ \nلدراسة الجغرافيا \nلإقناع  \nلكي يعلم  \nأن ترفه  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What is one important point that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 321,
+      "sourceLine": 42,
+      "sourcePages": [
+        321,
+        322
+      ],
+      "rawBlock": "What is one important point that the writer mentions?  \nDeserts include hot and cold deserts.  \nHot deserts have two seasons: summer and winter.  \nThe soil in hot deserts is salty because of evaporation.\n321 \nThe climate and environment of hot deserts are difficult for life. \nما هي النقطة المهمة التي ذكرها الكاتب؟ \nتشمل الصحاري الساخنة والباردة.  \nالصحاري الحارة لها موسمان: الصيف والشتاء.  \nالتربة في الصحاري الساخنة مالحة بسبب التبخر.  \nمناخ وبيئة الصحاري  الساخنة صعبان على الحياة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What is one important point that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 322,
+      "sourceLine": 12,
+      "sourcePages": [
+        322,
+        323
+      ],
+      "rawBlock": "What is one important point that the writer mentions?  \nThe Sahara Desert in Africa is the largest hot desert in the world.  \nThe surface of the soil in hot deserts is very dry.  \nThe climate is challenging in different parts of the world.  \nTemperatures change a lot during the day and year in hot deserts. \nما هي النقطة المهمة التي ذكرها الكاتب؟ \nتعد الصحراء الكبرى في إفريقيا أكبر صحراء حارة في العالم.  \nسطح التربة في الصحاري الحارة جاف للغاية.  \nالمناخ يمثل تحديًا في أجزاء مختلفة من العالم.  \nتتغير درجات الحرارة كثيرًا خلال النهار والسنة في الصحاري الحارة.  \nThe human cost of Stalin's 5-year plans \nالتكلفة البشرية لخطط ستالين الخمسية \nWhat is one important idea related to the workers that the writer mentions in paragraph \n(2)?  \nThey had to pay money.  \nThey became famous.  \nThey were foreigners.  \nThey were hard working. \nما هي إحدى الأفكار المهمة المتعلقة بالعاملين والتي ذكرها الكاتب في الفقرة2)؟ \nكان عليهم دفع المال.  \nأصبحوا مشهورين.  \nكانوا أجانب.  \nكانوا يعملون بجد.\n322 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What is one important idea mentioned about Alexei Stakhanov in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 323,
+      "sourceLine": 4,
+      "sourcePages": [
+        323
+      ],
+      "rawBlock": "What is one important idea mentioned about Alexei Stakhanov in Paragraph (2)?  \nHe was an example of a good worker.  \nHe had two helpers.  \nHe worked in 1935.  \nHe was a coal worker \nما هي إحدى الأفكار المهمة المذكورة عن أليكسي ستاخانوف في الفقرة2)؟ \nلقد كان مثالاً للعامل الجيد.  \nكان لديه مساعدان.  \nعمل عام  1935 . \nكان عاملا في الفحم ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "Why does the writer mention the example of the construction of the Belomar Canal?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 323,
+      "sourceLine": 18,
+      "sourcePages": [
+        323
+      ],
+      "rawBlock": "Why does the writer mention the example of the construction of the Belomar Canal? \n to show how workers were punished  \nto show a great engineering project  \nto show the poor work conditions  \nto show the difficulty of living under Stalin \nلماذا يذكر الكاتب مثال بناء قناة بلومار؟ \n لإظهار كيف تمت معاقبة العمال \nلإظهار مشروع هندسي عظيم  \nلإظهار ظروف العمل السيئة \nلإظهار صعوبة العيش تحت حكم ستالين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 323,
+      "sourceLine": 32,
+      "sourcePages": [
+        323,
+        324
+      ],
+      "rawBlock": "What is the main topic of the passage?  \nhard work in Russia's factories  \nStalin's successful 5-year plan  \nRussia's development in 1927  \nlife working under Stalin \nما هو الموضوع الرئيسي للمقطع؟ \nالعمل الجاد في مصانع روسيا  \nخطة ستالين الناجحة ومدتها 5 سنوات \nتطور روسيا عام 1927 \nالحياة تحت قيادة ستالين\n323 \nImproving Memory \nتحسين الذاكرة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "What does the passage say about memory?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 324,
+      "sourceLine": 5,
+      "sourcePages": [
+        324
+      ],
+      "rawBlock": "What does the passage say about memory?  \nIt comes easily.  \nIt is impossible to improve. \nYou need it for conversation. \nYou need to work actively for it. \nماذا يقول المقطع عن الذاكرة؟ \nيأتي بسهولة.  \nمن المستحيل أن تتحسن.  \nأنت في حاجة إليها للمحادثة.  \nتحتاج إلى العمل بنشاط من أجل ذلك. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "What is one way to help remember things?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 324,
+      "sourceLine": 18,
+      "sourcePages": [
+        324
+      ],
+      "rawBlock": "What is one way to help remember things?  \nspeed reading  \nsummarizing  \nnote taking  \nmaking recordings \nما هي إحدى الطرق للمساعدة في تذكر الأشياء؟ \nسرعة القراءة \nتلخيص  \nتدوين الملاحظات  \nعمل تسجيلات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "Which word or words can we use to replace the word so in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 324,
+      "sourceLine": 32,
+      "sourcePages": [
+        324,
+        325
+      ],
+      "rawBlock": "Which word or words can we use to replace the word so in Paragraph (1)?  \nin the same way  \nin other words  \nHowever  \ndue to \nما هي الكلمة أو الكلمات التي يمكننا استخدامها لاستبدال الكلمة الموجودة في الفقرة1)؟ \nبنفس الطريقة  \nبعبارات أخرى  \nلكن  \nبسبب\n324 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word relatively in Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 325,
+      "sourceLine": 3,
+      "sourcePages": [
+        325
+      ],
+      "rawBlock": "Why does the writer use the word relatively in Paragraph (4)?  \nto show it is slightly effective  \nto show the correct method  \nto show it's enjoyable  \nto show he disagrees \nلماذا يستخدم الكاتب الكلمة نسبيًا في الفقرة 4)؟ \nلإثبات أنها فعالة إلى حد ما  \nلإظهار الطريقة الصحيحة  \nلإظهار أنه ممتع  \nليبين أنه لا يوافق  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "How does the writer feel about forgetfulness?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 325,
+      "sourceLine": 16,
+      "sourcePages": [
+        325
+      ],
+      "rawBlock": "How does the writer feel about forgetfulness?  \nIt could be exciting. \nIt could be surprising. \nIt could be interesting.  \nIt could be embarrassing \nكيف يشعر الكاتب تجاه النسيان؟ \nيمكن أن يكون مثيرا.  \nقد يكون من المدهش.  \nيمكن أن يكون ممتعًا.  \nقد يكون محرجا  \nVitamins and minerals الفيتامينات و المعادن  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What is one negative effect of taking too much sodium?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 325,
+      "sourceLine": 33,
+      "sourcePages": [
+        325,
+        326
+      ],
+      "rawBlock": "What is one negative effect of taking too much sodium? \nHigh blood pressure \nweak bones \nbleeding \nheadache \nما هو أحد الآثار السلبية لتناول الكثير من الصوديوم؟  \nضغط دم مرتفع  \nعظام ضعيفة  \nنزيف  \nصداع الراس\n325 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "Why is vitamin K needed in the body?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 326,
+      "sourceLine": 2,
+      "sourcePages": [
+        326,
+        327
+      ],
+      "rawBlock": "Why is vitamin K needed in the body? \nTo help muscles work normally \nto help cuts stop bleeding \nto make red blood cells \nto improve the health of the skin \nلماذا يحتاج الجسم إلى فيتامين ك؟ \nلمساعدة العضلات على العمل بشكل طبيعي  \nللمساعدة في وقف النزيف في الجروح  \nلصنع خلايا الدم الحمراء \nلتحسين صحة الجلد  \nthe word maintained in paragraph 1 is closest in meaning to ....................... \nShare \nfind  \nkeep \nimprove \nالكلمة المحفوظة في الفقرة1  هي الأقرب في المعنى إلى  .............   \nيشارك  \nتجد  \nاحتفظ  \nتحسن  \nthe word Sufficient in paragraph 3 is closest in meaning to ....................... \nImportant \nExtra \nEnough \nDifferent \nكلمة \"كافية\" الواردة في الفقرة3 هي الأقرب في المعنى إلى ...............   \nمهم  \nإضافي  \nكافية  \nمختلف\n326 \nInflation \nالتضخم ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What are two things that happen when there is hyperinflation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 327,
+      "sourceLine": 5,
+      "sourcePages": [
+        327
+      ],
+      "rawBlock": "What are two things that happen when there is hyperinflation?  \nPeople get rid of their cash and inflation rises to 1.6%.  \nPrices rise several times a day and inflation rises to 1.6%.  \nPeople use foreign currency and there is a shortage of goods in the market.  \nThe government adjusts prices several times each day and people get rid of cash. \nما هما شيئان يحدثان عندما يكون هناك تضخم مفرط؟ \nيتخلص الناس من أموالهم ويصل التضخم إلى 1.6 .% \nترتفع الأسعار عدة مرات في اليوم ويرتفع التضخم إلى1.6 .% \nيستخدم الناس العملات الأجنبية وهناك نقص في السلع في السوق \nتقوم الحكومة بتعديل الأسعار عدة مرات كل يوم ويتخلص الناس من النقود. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What two things did the Zimbabwean government do that increased hyperinflation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 327,
+      "sourceLine": 20,
+      "sourcePages": [
+        327
+      ],
+      "rawBlock": "What two things did the Zimbabwean government do that increased hyperinflation?  \ndid not raise taxes and abandoned the Zimbabwean dollar \nprinted too much money and allowed the people to use foreign currency  \nprinted too much money and enacted price controls resulting in black markets  \nenacted price controls resulting in black markets and allowed the people to use foreign currency \nما الشيئين اللذين فعلتهما حكومة زيمبابوي لزيادة التضخم المفرط؟ \nلم ترفع الضرائب وتخلت عن الدولار الزيمبابوي  \nطبع الكثير من المال وسمح للناس باستخدام العملات الأجنبية \nطبع الكثير من المال وفرض ضوابط على الأسعار مما أدى إلى ظهور أسواق سوداء \nسن ضوابط الأسعار مما أدى إلى الأسواق السوداء والسماح للناس باستخدام العملات الأجنبية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "What two things happen when the price of a good goes up?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 327,
+      "sourceLine": 35,
+      "sourcePages": [
+        327,
+        328,
+        329
+      ],
+      "rawBlock": "What two things happen when the price of a good goes up?  \nConsumers purchase less of it and to seek out substitutes instead.  \nThe quality of the good will improve, but consumers will seek out substitutes.  \nConsumers purchase less of the good, but the quality of the good will improve.  \nConsumers will spend more money on the good because they will not change their buying habits and \ngoods with falling prices will be important. \nماشيئين يحدث عندما يرتفع سعر السلعة؟  \nيشتري المستهلكون أقل منه ويبحثون عن بدائل.  \nستتحسن جودة السلعة ، لكن المستهلكين سيبحثون عن بدائل.  \nيشتري المستهلكون القليل من السلعة ، لكن جودة السلعة ستتحسن.  \nسينفق المستهلكون المزيد من المال على السلعة لأنهم لن يغيروا عاداتهم الشرائية ، وستكون السلع ذات الأسعار المنخفضة مهمة.\n327 \nWorms  \nدودة الكمبيوتر الفيروسية  \nA worm is a program that can replicate itself and send copies from computer to \ncomputer across network connections. Upon arrival, the worm may be activated \nto replicate and propagate again. In addition to propagation, the worm usually \nperforms some unwanted function. An e-mail virus has some of the \ncharacteristics of a worm because it propagates itself from system to system. \nHowever, we can still classify it as a virus because it uses a document modified \nto contain viral macro content and requires human action. A worm actively seeks \nout more machines to infect, and each machine that is infected serves as an \nautomated launching pad for attacks on other machines. \nالدودة هي برنامج يمكنه نسخ نفسه وإرسال نسخ من جهاز كمبيوتر إلى كمبيوتر عبر اتصالات الشبكة. عند الوصول ، قد يتم تنشيط الدودة لتتكاثر  \nوتتكاثر مرة أخرى. بالإضافة إلى التكاثر ، عادة ما تؤدي الدودة بعض الوظائف غير المرغوب فيها. يمتلك فيروس البريد الإلكتروني بعض خصائص \nالدودة لأنها تنتشر من نظام إلى آخر ، ومع ذلك لا يزال بإمكاننا تصنيفها على أنها فيروسات لأنها تستخدم مستندًا تم تعديله لاحتواء محتوى ماكرو \nفيروسي ويتطلب إجراءً بشريًا. تبحث الدودة بنشاط عن المزيد من الأجهزة لإصابتها ، وتعمل كل آلة مصابة بمثابة منصة إ طلاق آلية للهجمات على  \nالأجهزة الأخرى. \nThe word replicate in the passage is closest in meaning to ………………………  \nmake \n opyc \nrecord \nreduce \nكلمة تكرار في المقطع هي الأقرب في المعنى إلى \nصنع  \nينسخ  \nسجل \nخفض  \nThe word modified in the passage is closest in meaning to ……………  \nFound  \nreduced  \nchanged \ndoubled \nالكلمة المعدلة في المقطع هي الأقرب في المعنى إلى \nوجد  \nانخفاض  \nتغير  \nتضاعف  \nThe word infect in the passage is closest in meaning to ………………… \nAvoid\n328 \nGive  \nTouch  \namageD \nكلمة \"تصيب\" في المقطع هي الأقرب من حيث المعنى إلى \nتجنب  \nيعطي  \nيلمس  \nتلف \nKnowledge and Technology \nالمعرفة والتكنولوجيا ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "What word does the expression \"the way information is represented and transmitted\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 329,
+      "sourceLine": 13,
+      "sourcePages": [
+        329
+      ],
+      "rawBlock": "What word does the expression \"the way information is represented and transmitted\" repeat?  \nmessage  \nmedium  \nfocus  \nunderstanding \nما هي الكلمة التي تكررها عبارة \"طريقة تمثيل المعلومات ونقلها\"؟ \nرسالة  \nمتوسط  \nالتركيز \nفهم ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "Which of the following does the writer say is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 329,
+      "sourceLine": 26,
+      "sourcePages": [
+        329
+      ],
+      "rawBlock": "Which of the following does the writer say is a fact?  \nChris Anderson is TED Talks CEO.  \nAcademics nowadays rely mainly on the written medium.  \nPrinting press is important in the transmission of knowledge.  \nMcLuhan and Downes claim the Internet changed knowledge. \nأي مما يلي يقول الكاتب إنه حقيقة؟ \nكريس أندرسون هو الرئيس التنفيذي لشركة TED Talks . \nيعتمد الأكاديميون في الوقت الحاضر بشكل أساسي على الوسيلة المكتوبة \nالمطبعة مهمة في نقل المعرفة.  \nيدعي مكلوهان وداونز أن الإنترنت غيرت المعرفة. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "How is the writer's view of writing as a medium of knowledge different from Socrates' view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 329,
+      "sourceLine": 40,
+      "sourcePages": [
+        329,
+        330
+      ],
+      "rawBlock": "How is the writer's view of writing as a medium of knowledge different from Socrates' view?  \nHe believes it is a complex process.  \nHe believes it cannot lead to knowledge.  \nHe believes it is an effective record of knowledge.  \nHe believes it is inferior to verbal communication. \nكيف تختلف وجهة نظر الكاتب عن الكتابة كوسيلة للمعرفة عن وجهة نظر سقراط؟ \nيعتقد أنها عملية معقدة.  \nيعتقد أنه لا يمكن أن يؤدي إلى المعرفة. \nيعتقد أنه سجل فعال للمعرفة.\n329 \nيعتقد أنه أدنى من التواصل اللفظي ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What can we understand about new technologies from Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 330,
+      "sourceLine": 5,
+      "sourcePages": [
+        330
+      ],
+      "rawBlock": "What can we understand about new technologies from Paragraph (2)?  \nThey have a major effect on economies.  \nThey present various risks to the society. \nThey are unable to create new knowledge.  \nThey have a significant impact on knowledge. \nما الذي يمكننا فهمه عن التقنيات الجديدة من الفقرة2)؟ \nلديهم تأثير كبير على الاقتصادات. \nأنها تشكل مخاطر مختلفة على المجتمع.  \nإنهم غير قادرين على خلق معرفة جديدة.  \nلديهم تأثير كبير على المعرفة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What can we understand about the printing press from Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 330,
+      "sourceLine": 18,
+      "sourcePages": [
+        330,
+        331
+      ],
+      "rawBlock": "What can we understand about the printing press from Paragraph (4)? \nThat it had several negative effects.  \nThat it led to advances in knowledge. \nThat it spread quickly in various countries.  \nThat it changed the structure of the society. \nما الذي يمكن أن نفهمه عن المطبعة من الفقرة4)؟ \nأن لها العديد من الآثار السلبية.  \nأنه أدى إلى تقدم في المعرفة.  \nأنه انتشر بسرعة في دول مختلفة.  \nأنها غيرت بنية المجتمع. \nBees   النحل ( مكرر من نماذج سابقة  ) \nThe words these amazing creatures in Paragraph (1) refer to …………….  \nBees  \nnsects I \nScientists  \nCommunities \nتشير كلمات هذه المخلوقات المذهلة في الفقرة1) إلى \nالنحل \nالحشرات  \nالعلماء \nمجتمعات\n330 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "Why are bees important to humans?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 331,
+      "sourceLine": 3,
+      "sourcePages": [
+        331
+      ],
+      "rawBlock": "Why are bees important to humans? \n They have communities and can communicate.  \nThey are necessary to produce our food crops. \nThey are becoming more numerous than us.  \nThey have feelings like us. \nلماذا النحل مهم للبشر؟ \nلديهم مجتمعات ويمكنهم التواصل.  \nإنها ضرورية لإنتاج محاصيلنا الغذائية.  \nلقد أصبحوا أكثر منا.  \nلديهم مشاعر مثلنا.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-26-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "Which paragraph describes how the scientists trained the bees?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 331,
+      "sourceLine": 17,
+      "sourcePages": [
+        331
+      ],
+      "rawBlock": "Which paragraph describes how the scientists trained the bees?  \nParagraph (1)  \nParagraph (2)  \nParagraph (3)  \nParagraph (4) \nأي فقرة تصف كيف درب العلماء النحل؟ \nالفقرة  1 \nالفقرة2 \nالفقرة3 \nالفقرة4",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

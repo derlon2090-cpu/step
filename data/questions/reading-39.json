@@ -1,0 +1,614 @@
+{
+  "readingId": "reading-39",
+  "sourceQuestionBlocks": 14,
+  "questions": [
+    {
+      "id": "reading-39-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "According to paragraph 1, why does the Western world use a different name for Ibn-Sina?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 496,
+      "sourceLine": 29,
+      "sourcePages": [
+        496,
+        497
+      ],
+      "rawBlock": "According to paragraph 1, why does the Western world use a different name for Ibn-Sina?  \nThey did NOT like Arabic names.  \nThey did NOT want the world to know his nationality.  \nNames change when used by speakers of a different language.  \nHe did NOT speak their language.  \nوفقًا للفقرة1 ، لماذا يستخدم العالم الغربي اسمًا مختلفًا لابن سينا؟  \nلم يعجبهم الأسماء العربية.  \nلم يريدوا أن يعرف العالم جنسيته.  \nتتغير الأسماء عند استخدامها من قبل المتحدثين بلغة مختلفة.  \nلم يتكلم لغتهم.  \nAccording to Paragraph 1, Soon after Ibn Sina finished his study of medicine, he became \nthe …………  \nmanager of the Royal Library.  \nassistant of the Prime Minister.  \nteacher of the Ruler of Bukhara.  \ndoctor for the Ruler of Bukhara.  \nوفقًا للفقرة1 ، بعد فترة وجيزة من انتهاء ابن سينا من دراسة الطب ، أصبح \nمدير المكتبة الملكية.  \nمساعد رئيس الوزراء.  \nمدرس حاكم بخارى.\n496 \nطبيب لحاكم بخارى \nAccording to Paragraph 3, Al Qanon fi Al Tibb, consists of……  \n5 volumes.  \n16 encyclopedias.  \n21 chapters.  \n100 treatises \nوفقا للفقرة3 ، القانون في الطب ، ويتألف من \n5 مجلدات \n16 موسوعات \n21 فص \n100 أطروحة \nThe Motor Car السيارة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "Who developed the gas engine that later blew to pieces?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 497,
+      "sourceLine": 17,
+      "sourcePages": [
+        497
+      ],
+      "rawBlock": "Who developed the gas engine that later blew to pieces? \nمن طور محرك الغاز الذي انفجر لاحقًا؟  \nKarl Benz  \nNikolaus Otto  \nSamuel Brown  \nAlexander Graham Bell  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "In which year was the motor wagon offered for sale?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 497,
+      "sourceLine": 26,
+      "sourcePages": [
+        497,
+        498
+      ],
+      "rawBlock": "In which year was the motor wagon offered for sale?  \nفي أي سنة عرضت العربة الآلية للبيع؟ \n1885  \n1886  \n1887  \n1888 \nTwo dimensional scanners ماسحات ضوئية ثنائية الأبعاد \n1) Two-dimensional scanners are the most common form of scanner and are generally used to record hard-copy (paper) \ndocuments. The scanner is to copy paper documents and put them into an electronic form which can be stored in a computer. \nComputers which have optical character recognition (OCR) software can read text from the scanned document and change it \ninto a text-file format. This means the scanned image can now be edited by a word processor such as MS Word. If the original \ndocument was a photograph or image, then the scanned image forms an image file such as JPEG.  \n2) 2D scanners have many uses. One important use is at airports to read passports. They make use of OCR technology to \nproduce digital images of the passport pages. Because of the OCR technology, these digital images can be used in a number of \nways. For example, the OCR software is able to review these images, select the text part and then automatically put the text \ninto the correct fields of an existing database. It is possible for the text to be stored in ASCII format. It all depends on how the \ndata is to be used. At many airports the two-dimensional photograph in the passport is also scanned and stored as a JPEG\n497 \nimage. The passenger's face is also photographed using a digital camera. The two digital images are compared using face \nrecognition\\detection software. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (1) say about optical character recognition technology?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 498,
+      "sourceLine": 6,
+      "sourcePages": [
+        498
+      ],
+      "rawBlock": "What does Paragraph (1) say about optical character recognition technology?  \nIt can be used to make Word documents.  \nIt can be used to take photographs.  \nIt has many formats like ASCII  \nIt is difficult to use.  \nماذا تقول الفقرة1) عن تقنية التعرف الضوئي على الحروف؟ \nيمكن استخدامه لعمل مستندات Word . \nيمكن استخدامه لالتقاط الصور \nلديها العديد من التنسيقات مثل ASCII \nمن الصعب استخدامها ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (2) say about the way digital images can be used?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 498,
+      "sourceLine": 21,
+      "sourcePages": [
+        498
+      ],
+      "rawBlock": "What does Paragraph (2) say about the way digital images can be used?  \nThey can be used to record hard copy documents.  \nThey can be used as identification documents.  \nThey can be used instead of passports.  \nThey can be used to recognize faces.  \nماذا تقول الفقرة2) عن طريقة استخدام الصور الرقمية؟ \nيمكن استخدامها لتسجيل المستندات المطبوعة.  \nيمكن استخدامها كوثائق هوية.  \nيمكن استخدامها بدلاً من جوازات السفر.  \nيمكن استخدامها للتعرف على الوجوه.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 498,
+      "sourceLine": 36,
+      "sourcePages": [
+        498,
+        499
+      ],
+      "rawBlock": "Which sentence gives the main idea of Paragraph (1)?  \nThe scanner is used to copy paper documents and put them into an electronic form which can be \nstored in a computer.  \nThis means the scanned image can now be edited by a word processor such as MS Word. If the \noriginal document was a photograph or image, then the scanned image forms an image file such as \nJPEG.\n498 \nTwo-dimensional scanners are the most common form of scanner and are generally used to record \nhard-copy (paper) documents.  \nComputers which have optical character recognition (OCR) software can read text from the scanned \ndocument and change it into a text file format.  \nما الجملة التي تعطي الفكرة الرئيسية للفقرة1)؟ \nتُستخدم الماسحة الضوئية لنسخ المستندات الورقية ووضعها في شكل إلكتروني يمكن تخزينه في الكمبيوتر.  \nهذا يعني أنه يمكن الآن تحرير الصورة الممسوحة ضوئيًا بواسطة معالج نصوص مثل MS Word. إذا كان المستند الأصلي\nعبارة عن صورة فوتوغرافية أو  صورة،  فإن الصورة الممسوحة ضوئيًا تشكل ملف صورة مثل JPEG . \nالماسحات الضوئية ثنائية الأبعاد هي أكثر أشكال الماسح الضوئي شيوعًا وتستخدم بشكل عام لتسجيل المستندات المطبوعة \n(الورقية).  \nيمكن لأجهزة الكمبيوتر التي تحتوي على برنامج التعرف الضوئي على الأحرف ( OCR) قراءة النص من المستند الممسوح ضوئيًا \nوتغييره إلى تنسيق ملف نصي.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 499,
+      "sourceLine": 23,
+      "sourcePages": [
+        499,
+        500
+      ],
+      "rawBlock": "What is the main idea of the passage?  \nUseful technologies  \nfeatures and benefits of scanners  \nfacial recognition on modern scanners  \nthe use of scanners to improve security \nما هي الفكرة الرئيسية لهذا المقطع؟ \nتقنيات مفيدة  \nميزات وفوائد الماسحات الضوئية  \nالتعرف على الوجه على الماسحات الضوئية الحديثة  \nاستخدام الماسحات الضوئية لتحسين الأمان  \nThe Periodic Table الجدول الدوري (مندليف)  \n1) Great progress in science come not only when a scientist sees something new, but also when a scientist sees what everyone \nelse has seen in a new way. In other words, great scientists see patterns where others have seen only disjointed facts. Such was \nthe case in 1869 when Dmitri Mendeleev (1834- 1907), a chemistry professor, saw a pattern in the properties of elements. \nMendeleev's insights led to the periodic law and the periodic table, arguably the single most important tool for a chemist. \nMendeleev's periodic law and periodic table summarize a large number of observations, and science moves forward by \ndevising theories that explain the underlying reasons for these laws and observations. Quantum mechanics is the theory that \nexplains the underlying reasons for the periodic table.  \n2) The modern periodic table is credited mainly to the Russian chemist Dmitri Mendeleev even though a similar organization \nhad been suggested by the German chemist Julian Lothar Meyer (1830-1895). Mendeleev's table is based on the periodic law, \nwhich says that when elements are arranged in order of increasing mass, their properties recur periodically. Mendeleev \narranged the elements in a table in which mass increased from left to right and elements with similar properties fell in the \nsame columns.\n499 \n3) Mendeleev's arrangement was a huge success, allowing him to predict the existence and properties of yet undiscovered \nelements such as eka-aluminium (later discovered and named gallium) and ekasilicon (later discovered and named \ngermanium). ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What is one important idea about great scientists that the writer mentions in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 500,
+      "sourceLine": 8,
+      "sourcePages": [
+        500
+      ],
+      "rawBlock": "What is one important idea about great scientists that the writer mentions in Paragraph (1)?  \nThey were able to discover new elements. \nThey move science forward by developing scientific ideas.  \nThey see regular forms in things when others can't see them  \nThey arranged elements in the periodic table in a specific way.  \nما هي إحدى الأفكار المهمة عن العلماء العظماء التي ذكرها الكاتب في الفقرة1)؟ \nكانوا قادرين على اكتشاف عناصر جديدة.  \nإنهم يدفعون العلم إلى الأمام من خلال تطوير الأفكار العلمية.  \nيرون أشكالاً منتظمة في الأشياء عندما لا يتمكن الآخرون من رؤيتها  \nرتبوا العناصر في الجدول الدوري بطريقة معينة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "What is the element \"eka-aluminum\" an example of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 500,
+      "sourceLine": 20,
+      "sourcePages": [
+        500
+      ],
+      "rawBlock": "What is the element \"eka-aluminum\" an example of?  \nan element that the periodic table was able to predict.  \nan element that was discovered by Julian Meyer.  \nan element that has NOT been discovered yet.  \nan element that is NOT real.  \nما هو عنصرeka-aluminum\" مثال على؟ \nعنصر كان الجدول الدوري قادرًا على التنبؤ به.  \nعنصر اكتشفه جوليان ماير.  \nعنصر لم يتم اكتشافه بعد.  \nعنصر غير حقيقي.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 500,
+      "sourceLine": 32,
+      "sourcePages": [
+        500,
+        501
+      ],
+      "rawBlock": "What is the main topic of the passage?  \ncurrent advances in chemistry.  \ndiscovering unknown chemical elements.  \nJulian Lothar Meyer's periodic table of elements.  \nfinding patterns and the development of the periodic table. \nما هو الموضوع الرئيسي للمقطع؟ \nالتطورات الحالية في الكيمياء. \nاكتشاف عناصر كيميائية غير معروفة.  \nالجدول الدوري للعناصر لجوليان لوثار ماير.  \nإيجاد الأنماط وتطوير الجدول الدوري.\n500 \nReal Estate vs. Stocks العقارات مقابل الأسهم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "What does the passage say about investing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 501,
+      "sourceLine": 4,
+      "sourcePages": [
+        501
+      ],
+      "rawBlock": "What does the passage say about investing?  \nReal estate investments can be more work than stocks.  \nInvesting in stocks is riskier than real estate investing.  \nStock investments require a lot of research.  \nReal estate investors make money quickly.  \nماذا يقول المقطع عن الاستثمار؟ \nيمكن أن تكون الاستثمارات العقارية عملاً أكثر من الأسهم.  \nالاستثمار في الأسهم أكثر خطورة من الاستثمار العقاري.  \nتتطلب استثمارات الأسهم الكثير من البحث.  \nالمستثمرون العقاريون يكسبون المال بسرعة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word Although in Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 501,
+      "sourceLine": 16,
+      "sourcePages": [
+        501
+      ],
+      "rawBlock": "Why does the writer use the word Although in Paragraph (4)?  \nto explain an example of long-term cash flow and income.  \nto give more information about the difficulties of real estate investing.  \nto show that the effort and outcome of real estate investing are different  \nto show that an increase in income and value are the result of investing.  \nلماذا يستخدم الكاتب كلمة رغم في الفقرة4)؟ \nلشرح مثال على التدفق النقدي طويل الأجل والدخل.  \nلإعطاء مزيد من المعلومات حول صعوبات الاستثمار العقاري.  \nلإظهار أن جهد ونتائج الاستثمار العقاري مختلفة  \nلتوضيح أن الزيادة في الدخل والقيمة هي نتيجة الاستثمار.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "Which word can we use to replace the word because in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 501,
+      "sourceLine": 28,
+      "sourcePages": [
+        501
+      ],
+      "rawBlock": "Which word can we use to replace the word because in Paragraph (1)? \nما هي الكلمة التي يمكننا استخدامها لاستبدال الكلمة لأنه في الفقرة1)؟ \nBesides  \nAlthough  \nTherefore  \nSince  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "What does the writer think about investing in stocks?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 501,
+      "sourceLine": 37,
+      "sourcePages": [
+        501,
+        502
+      ],
+      "rawBlock": "What does the writer think about investing in stocks?  \nIt's a good way to become rich  \nIt's a quick way to invest.  \nIt takes too much time.  \nIt's too risky. \nما رأي الكاتب في الاستثمار في الأسهم؟ \nإنها طريقة جيدة لتصبح ثريًا \nإنها طريقة سريعة للاستثمار.  \nفإنه يأخذ الكثير من الوقت.  \nإنها مخاطرة كبيرة.\n501 \nWest Nile Virus فيروس غرب النيل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What is the reason for encephalitis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 502,
+      "sourceLine": 8,
+      "sourcePages": [
+        502
+      ],
+      "rawBlock": "What is the reason for encephalitis?  \nIt is spread by birds.  \nA person becomes paralyzed.  \nWest Nile virus reaches the brain.  \nHaving a fever and headache for 3 to 14 days.  \nما هو سبب التهاب الدماغ؟ \nينتشر عن طريق الطيور.  \nيصاب الشخص بالشلل.  \nيصل فيروس غرب النيل إلى المخ.  \nالإصابة بحمى وصداع لمدة 3 إلى14  يومًا ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What is one negative effect of West Nile Virus?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 502,
+      "sourceLine": 22,
+      "sourcePages": [
+        502,
+        503
+      ],
+      "rawBlock": "What is one negative effect of West Nile Virus?  \nIt does NOT pass from person to person.  \nIt spread to the US in 1990.  \nIt kills dogs and horses.  \nPeople can die from it.  \nما هو أحد الآثار السلبية لفيروس غرب النيل؟ \nلا ينتقل من شخص لآخر.  \nانتشر إلى الولايات المتحدة في عام 1990 . \nيقتل الكلاب والخيول \nيمكن للناس أن يموتوا من ذلك. \nThe word infections in Paragraph (1) is closest in meaning to……  \nsymptoms  \ntreatments  \naccidents  \nillnesses  \nكلمة العدوى في الفقرة1) هي الأقرب في المعنى إلى \nأعراض  \nالعلاجات  \nالحوادث  \nالأمراض\n502 \nThe word cure in Paragraph (4) is closest in meaning to……  \nhope \ncare  \nsolution  \nchange \nكلمة علاج في الفقرة4) هي الأقرب في المعنى إلى \nيأمل  \nرعاية  \nحل \nيتغير  \nرسم بياني عن اللحوم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What was the value of meat alternative in the US?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 503,
+      "sourceLine": 15,
+      "sourcePages": [
+        503
+      ],
+      "rawBlock": "What was the value of meat alternative in the US?  \nما هي قيمة بديل اللحوم في الولايات المتحدة؟ \n1,600 million dollars  \n697 million dollars  \n670 million dollars  \n671 million dollars  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "Which type of plant-based food scored the lowest value in 2018?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 503,
+      "sourceLine": 22,
+      "sourcePages": [
+        503,
+        504
+      ],
+      "rawBlock": "Which type of plant-based food scored the lowest value in 2018?  \nأي نوع من الأطعمة النباتية سجل أدنى قيمة في2018؟ \negg substitutes  \ndairy alternative  \ntofu and tempeh  \nmeat alternative \nرسم بياني عن السكان\n503 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "In 1980, what percentage of the US population was age 65 years or older?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 504,
+      "sourceLine": 3,
+      "sourcePages": [
+        504
+      ],
+      "rawBlock": "In 1980, what percentage of the US population was age 65 years or older? \nفي عام1980 ، ما هي نسبة سكان الولايات المتحدة الذين بلغوا65  عامًا أو أكثر؟  \n3%  \n14%  \n15%  \n35% \nVaccination efforts advancing throughout the Americas تقدم جهود التطعيم في جميع أنحاءالأمريكيتين  \ncovid 19 \nقطعة كورونا ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "What are the two most used vaccines throughout the Americas?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 504,
+      "sourceLine": 14,
+      "sourcePages": [
+        504
+      ],
+      "rawBlock": "What are the two most used vaccines throughout the Americas?  \nما هما اللقاحان الأكثر استخدامًا في جميع أنحاء الأمريكتين؟  \nAstraZeneca and Johnson & Johnson  \nCoronavac and Sputnik V  \nModerna and Pfizer  \nAstraZeneca and Pfizer  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "Which vaccines send genetic instructions to cells to create a specific protein that fights the coronavirus?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 504,
+      "sourceLine": 22,
+      "sourcePages": [
+        504
+      ],
+      "rawBlock": "Which vaccines send genetic instructions to cells to create a specific protein that fights the coronavirus? \nما هي اللقاحات التي ترسل تعليمات وراثية للخلايا لتكوين بروتين معين يحارب فيروس كورونا؟  \nPfizer and Sinovac  \nModerna and AstraZeneca  \nPfizer and Moderna  \nAstraZeneca and Johnson & Johnson ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "Which Latin American countries are using the Russ Sputnik V vaccine?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 504,
+      "sourceLine": 30,
+      "sourcePages": [
+        504,
+        505
+      ],
+      "rawBlock": "Which Latin American countries are using the Russ Sputnik V vaccine? \nما هي دول أمريكا اللاتينية التي تستخدم لقاح Russ Sputnik V؟  \nArgentina, Mexico, and Bolivia.  \nBrazil, Argentina, and Bolivia.  \nChile, Brazil, and Argentina  \nColumbia, Ecuador, and Brazil. \nPre-classical Economics اقتصاديات ما قبل الكلاسيكية  \nAlthough economic activity has been a characteristic of human culture since the dawn of civilization, there was little formal \nanalysis of that activity until merchant capitalism developed in Western Europe during the fifteenth century. At that time the \nchiefly agrarian European societies began increasingly to trade among themselves, setting the stage for the birth of economics \nas a social study. The economic studies of this time were not systematic: economic theory evolved piecemeal from individual \nintellectual responses to contemporary problems. No grand analytical systems appeared. It was not until the mid-eighteenth\n504 \ncentury, with the emergence of classical economics\" under Adam Smith, that economics made significant movement toward \nthe status of a full-blown social science. \nThe word status in the passage is closest in meaning to ..............  \nlevel  \ngroup  \narea  \nmeaning \nكلمة حالة في المقطع هي الأقرب في المعنى \nمستوى  \nمجموعة  \nمنطقة  \nمعنى  \nThe US response to the End of the Cold War رد الولايات المتحدة على نهاية الحرب الباردة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What idea do the words declared independence repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 505,
+      "sourceLine": 19,
+      "sourcePages": [
+        505
+      ],
+      "rawBlock": "What idea do the words declared independence repeat?  \ndid nothing at all  \nannounced their freedom  \nput the president in prison  \ndid well in the general election  \nما هي الفكرة التي تكررها كلمات إعلان الاستقلال؟ \nلم تفعل شيئًا على الإطلاق  \nأعلنوا حريتهم  \nوضع الرئيس في السجن  \nأحسنت في الانتخابات العامة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "Which one of the following is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 505,
+      "sourceLine": 32,
+      "sourcePages": [
+        505,
+        506
+      ],
+      "rawBlock": "Which one of the following is an opinion?  \nThe world remains a dangerous place.  \nUSA spent a lot of money on weapons.  \nMany Americans died in Vietnam.  \nNobody won the Cold War.  \nأي مما يلي رأي؟ \nلا يزال العالم مكانًا خطيرًا.  \nالولايات المتحدة أنفقت الكثير من المال على الأسلحة.  \nمات العديد من الأمريكيين في فيتنام.  \nلم ينتصر أحد في الحرب الباردة.\n505 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "How are Parker's ideas about the end of the Cold War different from the Republicans\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 506,
+      "sourceLine": 2,
+      "sourcePages": [
+        506
+      ],
+      "rawBlock": "How are Parker's ideas about the end of the Cold War different from the Republicans\"?  \nHe thinks that only the Republicans' policies were important  \nHe thinks that only the Democrats' policies were important  \nHe thinks Gorbachev's and the Republicans' policies were important.  \nHe thinks that the Democrats' and the Republicans' policies were important.  \nكيف تختلف أفكار باركر حول نهاية الحرب الباردة عن أفكار الجمهوريين \"؟ \nيعتقد أن سياسات الجمهوريين فقط كانت مهمة  \nإنه يعتقد أن سياسات الديمقراطيين فقط هي التي كانت مهمة \nيعتقد أن سياسات جورباتشوف والجمهوريين كانت مهمة.  \nيعتقد أن سياسات الديمقراطيين والجمهوريين كانت مهمة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "What can we understand from the passage about Mikhail Gorbachev?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 506,
+      "sourceLine": 12,
+      "sourcePages": [
+        506
+      ],
+      "rawBlock": "What can we understand from the passage about Mikhail Gorbachev?  \nHe could speak several languages.  \nHe was the Soviet Union's last president.  \nHe wanted Poland to become independent.  \nHe had several meetings with Harry Truman  \nماذا يمكن أن نفهم من المقطع عن ميخائيل جورباتشوف؟ \nيمكنه التحدث بعدة لغات.  \nكان آخر رئيس للاتحاد السوفيتي.  \nأراد أن تصبح بولندا مستقلة.  \nأجرى عدة اجتماعات مع هاري ترومان  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What can we understand from the passage about the Soviet Union?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 506,
+      "sourceLine": 24,
+      "sourcePages": [
+        506
+      ],
+      "rawBlock": "What can we understand from the passage about the Soviet Union?  \nIts people were rich and lived well.  \nIt fought a war with America in Vietnam.  \nIt spent a lot of money on nuclear weapons.  \nIt was the most powerful country in the world. \nماذا يمكن أن نفهم من المقطع عن الاتحاد السوفيتي؟ \nكان شعبها أغنياء ويعيشون حياة جيدة.  \nخاضت حربًا مع أمريكا في فيتنام.  \nلقد أنفقت الكثير من المال على الأسلحة النووية.  \nكانت أقوى دولة في العالم.  \nPassage A: Customer Value-Based Pricing \nPassage B: Good-Value Pricing \nالقطعة أ: التسعير على أساس قيمة العميل  \nالقطعة ب: التسعير ذو القيمة الجيدة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "What do passages A and B say about consumer price perceptions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 506,
+      "sourceLine": 42,
+      "sourcePages": [
+        506,
+        507
+      ],
+      "rawBlock": "What do passages A and B say about consumer price perceptions?  \nIt is as important as changing economic conditions in determining pricing decisions.  \nIt made companies introduce less-expensive versions of brand name products.  \nIt is the key factor in determining pricing decisions.  \nIt makes products less expensive.\n506 \nماذا يقول الفقرتان \"أ\" و \"ب\" عن تصورات سعر المستهلك؟ \nلا تقل أهمية عن الظروف الاقتصادية المتغيرة في تحديد قرارات التسعير.  \nجعلت الشركات تقدم إصدارات أقل تكلفة من المنتجات التي تحمل علامات تجارية. \nإنه العامل الرئيسي في تحديد قرارات التسعير. \nيجعل المنتجات أقل تكلفة. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "According to passages A and B, what role do marketers play in pricing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 507,
+      "sourceLine": 8,
+      "sourcePages": [
+        507
+      ],
+      "rawBlock": "According to passages A and B, what role do marketers play in pricing?  \nsetting fair prices  \ndesigning products then setting the price  \njustifying the price and offering good quality products for a fair price  \nredesigning some products to offer more quality products for lower prices \nوفقًا للفقرتين A وB ، ما هو الدور الذي يلعبه المسوقون في التسعير؟ \nتحديد الأسعار العادلة  \nتصميم المنتجات ثم تحديد السعر \nتبرير السعر وتقديم منتجات ذات جودة عالية بسعر عادل  \nإعادة تصميم بعض المنتجات لتقديم منتجات أكثر جودة وبأسعار أقل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "Which of the following statements best summarizes pricing strategies from passages A and B?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 507,
+      "sourceLine": 22,
+      "sourcePages": [
+        507,
+        508
+      ],
+      "rawBlock": "Which of the following statements best summarizes pricing strategies from passages A and B?  \nCustomers' and seller's perception of quality determines price.  \nCustomers' perception of value means good products for less money.  \nCustomers' perception of value and economic conditions are both important in determining price.  \nCustomers' perception of value helps companies produce good products or redesign brand name products \nat a fair price. \nأي من العبارات التالية يلخص بشكل أفضل استراتيجيات التسعير من الفقرتين أ و ب؟ \nيحدد تصور العملاء والبائع للجودة السعر.  \nإن إدراك العملاء للقيمة يعني منتجات جيدة مقابل أموال أقل.  \nيعتبر إدراك العملاء للقيمة والظروف الاقتصادية مهمين في تحديد السعر. \nيساعد إدراك العملاء للقيمة الشركات على إنتاج منتجات جيدة أو إعادة تصميم منتجات تحمل علامات تجارية بسعر عادل. \nالحياكة   \n1) Most fabrics are created by weaving long threads together, a technique which has changed very little throughout history. \nHand weaving is done on a frame or handloom, whereas mechanized weaving is done on a power loom. The main distinction \nbetween hand weaving and mechanized weaving is that the latter method allows huge quantities of good quality fabric to be \nproduced very quickly, further allowing the speedy production of consumer items. While the exact shape or mechanism of any \nloom might differ, the basic function is always the same. On all looms, weaving is done by intersecting longitudinal threads, \ncalled the warp, with transverse threads, called the weft.  \n(2) Often, handcrafted products like hand-woven rugs and hand-knitted sweaters are of better quality and much more \nexpensive than machine-made ones. As it may be impractical for many of us to have every textile-based product we purchase \nbe handmade, or to make them ourselves, knowing how much effort go into creating textiles may at least help us better \nappreciate all the fabrics we use every day.\n507 \nThe word function in Paragraph (1) is closest in meaning to……….  \npart  \nprocess  \nroutine  \nrelation  \nوظيفة الكلمة في الفقرة1) هي الأقرب في المعنى إلى \nجزء \nعملية  \nنمط  \nعلاقة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (2), how can people better appreciate fabrics?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 508,
+      "sourceLine": 13,
+      "sourcePages": [
+        508
+      ],
+      "rawBlock": "According to Paragraph (2), how can people better appreciate fabrics?  \nby knowing how much it costs to manufacture them  \nby knowing whether they are made by hand or by machine  \nby knowing how much effort is put into making them  \nby knowing how they are produced in large quantities. \nوفقًا للفقرة2) ، كيف يمكن للناس تقدير الأقمشة بشكل أفضل؟ \nمن خلال معرفة تكلفة تصنيعها \nمن خلال معرفة ما إذا كانت مصنوعة يدويًا أم بآلة  \nمن خلال معرفة مقدار الجهد المبذول في صنعها  \nمن خلال معرفة كيفية إنتاجها بكميات كبيرة.  \n فهرس الوحدات   \nLiterature and Art: Intermediate Spanish \nINDEX \nUnit 1Origins of Hispanic Culture: Europe………...1 \n Unit 2 Origins of Hispanic Culture: America………20 \nUnit 3 Religion in the Hispanic World.................35 \nUnit 4 Revolutionary of the Century ………………..60 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "Which unit would most likely discuss prayer rituals in Hispanic culture?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 508,
+      "sourceLine": 37,
+      "sourcePages": [
+        508,
+        509
+      ],
+      "rawBlock": "Which unit would most likely discuss prayer rituals in Hispanic culture? \nما الوحدة التي من المرجح أن تناقش طقوس الصلاة في الثقافة الإسبانية؟ \nUnit 1  \nUnit 2  \nUnit 3  \nUnit 4\n508 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-39-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "Which unit would most likely discuss violent changes in society in Hispanic countries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 509,
+      "sourceLine": 3,
+      "sourcePages": [
+        509,
+        510
+      ],
+      "rawBlock": "Which unit would most likely discuss violent changes in society in Hispanic countries? \nما هي الوحدة التي من المرجح أن تناقش التغييرات العنيفة في المجتمع في البلدان ذات الأصول الإسبانية؟ \nUnit 1  \nUnit 2  \nUnit 3  \nUnit 4\n509 \nالتجميعات هذه لوجه الله ولا نستفيد أي شيء و لا نتبع لأي منصة \nالله لا يوفق كل من استخدم تجميعاتنا أو سرق منها خاصة الحرامي النصاب دورته ب 1300 \nبخصوص المواد العلمية المعروضة في قناة التجميعات، انا لا أحلل ولا أبيح أي سطو او تعدي عليها يحصل من  \nقبل شخص ما وسيكون محاسبا أمام الله  في يوم لا ينفع فيه مال ولا جاه ولا  بنون في حال استخدامها من غير  \nاستئذان في مؤلفات خاصة وأغراض مادية ، أو شخصية كدورات تعليمية، أو مقابل مبلغ مالي  ،او  بي عها بطرق  \nمختلفة أو التسويق لدورات بأخذ التجميعات وعرضها كأنها من جهدهم   \nوشكرا للمشرفين والمشرفات الذين يخدمون بدون مقابل ولجميع من يساعد",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

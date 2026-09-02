@@ -1,0 +1,677 @@
+{
+  "readingId": "reading-26",
+  "questions": [
+    {
+      "id": "reading-26-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "Chinese?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        320
+      ],
+      "sourceBlockIds": [
+        "page-320-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 183.57,
+        "x0": 14.4,
+        "x1": 73.65
+      }
+    },
+    {
+      "id": "reading-26-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        320
+      ],
+      "sourceBlockIds": [
+        "page-320-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 376.8,
+        "x0": 14.4,
+        "x1": 390.1
+      }
+    },
+    {
+      "id": "reading-26-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "What is a copyright?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        320
+      ],
+      "sourceBlockIds": [
+        "page-320-line-28"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 656.33,
+        "x0": 14.4,
+        "x1": 141.18
+      }
+    },
+    {
+      "id": "reading-26-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "What do most Americans see at the start of DVDs?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        321
+      ],
+      "sourceBlockIds": [
+        "page-321-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 101.85,
+        "x0": 14.4,
+        "x1": 331.06
+      }
+    },
+    {
+      "id": "reading-26-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "How many basic rights does a copyright owner have?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        321
+      ],
+      "sourceBlockIds": [
+        "page-321-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 278.88,
+        "x0": 14.4,
+        "x1": 345.88
+      }
+    },
+    {
+      "id": "reading-26-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        321
+      ],
+      "sourceBlockIds": [
+        "page-321-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 531.5,
+        "x0": 14.4,
+        "x1": 228.75
+      }
+    },
+    {
+      "id": "reading-26-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important point that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        321
+      ],
+      "sourceBlockIds": [
+        "page-321-line-36"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 724.73,
+        "x0": 14.4,
+        "x1": 342.09
+      }
+    },
+    {
+      "id": "reading-26-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important point that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        322
+      ],
+      "sourceBlockIds": [
+        "page-322-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 230.61,
+        "x0": 14.4,
+        "x1": 342.09
+      }
+    },
+    {
+      "id": "reading-26-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea mentioned about Alexei Stakhanov in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        323
+      ],
+      "sourceBlockIds": [
+        "page-323-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 101.85,
+        "x0": 14.4,
+        "x1": 514.18
+      }
+    },
+    {
+      "id": "reading-26-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer mention the example of the construction of the Belomar Canal?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        323
+      ],
+      "sourceBlockIds": [
+        "page-323-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 327.24,
+        "x0": 14.4,
+        "x1": 533.74
+      }
+    },
+    {
+      "id": "reading-26-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        323
+      ],
+      "sourceBlockIds": [
+        "page-323-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 552.62,
+        "x0": 14.4,
+        "x1": 255.73
+      }
+    },
+    {
+      "id": "reading-26-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the passage say about memory?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        324
+      ],
+      "sourceBlockIds": [
+        "page-324-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 152.37,
+        "x0": 14.4,
+        "x1": 288.33
+      }
+    },
+    {
+      "id": "reading-26-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one way to help remember things?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        324
+      ],
+      "sourceBlockIds": [
+        "page-324-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 361.68,
+        "x0": 14.4,
+        "x1": 279.7
+      }
+    },
+    {
+      "id": "reading-26-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "Which word or words can we use to replace the word so in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        324
+      ],
+      "sourceBlockIds": [
+        "page-324-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 587.06,
+        "x0": 14.4,
+        "x1": 474.21
+      }
+    },
+    {
+      "id": "reading-26-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the word relatively in Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        325
+      ],
+      "sourceBlockIds": [
+        "page-325-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 85.65,
+        "x0": 14.4,
+        "x1": 393.96
+      }
+    },
+    {
+      "id": "reading-26-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "How does the writer feel about forgetfulness?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        325
+      ],
+      "sourceBlockIds": [
+        "page-325-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 294.96,
+        "x0": 14.4,
+        "x1": 295.26
+      }
+    },
+    {
+      "id": "reading-26-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one negative effect of taking too much sodium?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        325
+      ],
+      "sourceBlockIds": [
+        "page-325-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 592.58,
+        "x0": 14.16,
+        "x1": 358.04
+      }
+    },
+    {
+      "id": "reading-26-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "Why is vitamin K needed in the body?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        326
+      ],
+      "sourceBlockIds": [
+        "page-326-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.16,
+        "x1": 248.49
+      }
+    },
+    {
+      "id": "reading-26-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "What are two things that happen when there is hyperinflation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        327
+      ],
+      "sourceBlockIds": [
+        "page-327-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 138.38,
+        "x0": 14.4,
+        "x1": 343.12
+      }
+    },
+    {
+      "id": "reading-26-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "What two things did the Zimbabwean government do that increased hyperinflation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        327
+      ],
+      "sourceBlockIds": [
+        "page-327-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 345.41,
+        "x0": 14.4,
+        "x1": 454.39
+      }
+    },
+    {
+      "id": "reading-26-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "What two things happen when the price of a good goes up?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        327
+      ],
+      "sourceBlockIds": [
+        "page-327-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 552.43,
+        "x0": 14.4,
+        "x1": 330.38
+      }
+    },
+    {
+      "id": "reading-26-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "What word does the expression \"the way information is represented and transmitted\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        329
+      ],
+      "sourceBlockIds": [
+        "page-329-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 294.77,
+        "x0": 14.4,
+        "x1": 507.86
+      }
+    },
+    {
+      "id": "reading-26-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following does the writer say is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        329
+      ],
+      "sourceBlockIds": [
+        "page-329-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 474.19,
+        "x0": 14.4,
+        "x1": 286.51
+      }
+    },
+    {
+      "id": "reading-26-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "How is the writer's view of writing as a medium of knowledge different from Socrates' view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        329
+      ],
+      "sourceBlockIds": [
+        "page-329-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 667.42,
+        "x0": 14.4,
+        "x1": 497.34
+      }
+    },
+    {
+      "id": "reading-26-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about new technologies from Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        330
+      ],
+      "sourceBlockIds": [
+        "page-330-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 110.78,
+        "x0": 14.4,
+        "x1": 387.65
+      }
+    },
+    {
+      "id": "reading-26-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about the printing press from Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        330
+      ],
+      "sourceBlockIds": [
+        "page-330-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 290.21,
+        "x0": 14.4,
+        "x1": 387.04
+      }
+    },
+    {
+      "id": "reading-26-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "Why are bees important to humans?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        331
+      ],
+      "sourceBlockIds": [
+        "page-331-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 85.65,
+        "x0": 14.4,
+        "x1": 240.12
+      }
+    },
+    {
+      "id": "reading-26-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "Which paragraph describes how the scientists trained the bees?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        331
+      ],
+      "sourceBlockIds": [
+        "page-331-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 311.16,
+        "x0": 14.4,
+        "x1": 411.18
+      }
+    }
+  ]
+}

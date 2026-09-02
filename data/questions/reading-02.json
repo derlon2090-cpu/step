@@ -1,0 +1,608 @@
+{
+  "readingId": "reading-02",
+  "sourceQuestionBlocks": 9,
+  "questions": [
+    {
+      "id": "reading-02-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What is the biggest star size? It is bigger than the sun more than 17,000 times.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 15,
+      "sourceLine": 24,
+      "sourcePages": [
+        15
+      ],
+      "rawBlock": "What is the biggest star size?    It is bigger than the sun more than 17,000 times. \nألف مرة  17أكبر من الشمس                    نجم؟ما هو أكبر   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "What is the color that is not mentioned in the passage? red yellow blue green",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 15,
+      "sourceLine": 28,
+      "sourcePages": [
+        15,
+        16
+      ],
+      "rawBlock": "What is the color that is not mentioned in the passage?    red    yellow    blue      green \nالنجوم  \nالحشرات في القرآن (النحل) \n    رجل المطافئ مايك fireman \nالباندا مي لان \n    الكائن الغريب  jelly (Egg oil )     \nتسريب المياه    Leakage water \nكارثة حصلت في أوروباعام  79  (بركان فيزوف \nالبشرية والسلام Mankind and peace \n عناوين النموذج الثاني\n15 \nالأخضر      الأحمر    الأصفر     الأزرق   القطعة؟ما هو اللون الذي لم يذكر في  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "What is the best title of the passage? Classifying stars according to their colors and size",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 16,
+      "sourceLine": 4,
+      "sourcePages": [
+        16
+      ],
+      "rawBlock": "What is the best title of the passage?    Classifying stars according to their colors and size \nتقسيم النجوم حسب الحجم واللون      للقطعة؟ عنوان  أفضلما هو   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "What does the pronoun \"it\" refers to? camera star",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 16,
+      "sourceLine": 7,
+      "sourcePages": [
+        16
+      ],
+      "rawBlock": "What does the pronoun \"it\" refers to?         camera        star \nالنجم          الكاميرا      على؟الضمير يعود    it\"     ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "Why are scientists shooting stars? to study it",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 16,
+      "sourceLine": 10,
+      "sourcePages": [
+        16
+      ],
+      "rawBlock": "Why are scientists shooting stars?    to study it \nحتى يقوموا بدراستها    النجوم؟لماذا العلماء يقوموا بالتصوير  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "Time we need to take a photo in the night is? 30 seconds",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 16,
+      "sourceLine": 13,
+      "sourcePages": [
+        16
+      ],
+      "rawBlock": "Time we need to take a photo in the night is? 30 seconds \n    ثانية 30الوقت الذي نحتاجه لالتقاط صورة في الليل هو؟  \nة بفي القطعة في الاختبار مكتو     Thirty   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What did not the author use in comparing among stars? color shape size brightness",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 16,
+      "sourceLine": 18,
+      "sourcePages": [
+        16
+      ],
+      "rawBlock": "What did not the author use in comparing among stars? color    shape   size   brightness \nاللمعان المقاس             الشكلاللون               النجوم؟المؤلف في المقارنة بين  الذي لم يستخدمه  ما ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What does (sufficient) mean? Enough",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 16,
+      "sourceLine": 21,
+      "sourcePages": [
+        16
+      ],
+      "rawBlock": "What does (sufficient) mean?  Enough  \nكافيةماذا يعني (كافي)؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "What does (brighter) mean? More shiny",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 16,
+      "sourceLine": 24,
+      "sourcePages": [
+        16,
+        17
+      ],
+      "rawBlock": "What does (brighter) mean?  More shiny \nأكثر لمعانًاماذا يعني (أكثر إشراقا)؟\n16 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "What is the nearest meaning for the word \"unlikely\" (غير محتمل ? Improbable غير محتمل",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 17,
+      "sourceLine": 2,
+      "sourcePages": [
+        17
+      ],
+      "rawBlock": "What is the nearest meaning for the word \"unlikely\" (غير محتمل      ? Improbable غير محتمل   \nثانياً / الحشرات في القرآن (النحل) \nتحدث في هذه القطعة عن الحشرات بشكل عام، ثم تخصص وذكر النحل بشكل خاص وذكر آيات من  \nالقرآن تدل على عمل النحل وسعيه لكسب الرزق، كما وضح التشابه الذي بين الانسان والنحل.  \nInsectsrefers to   ?       ) amazing creatures These (pronoun The  \nالضمير  seThe ) يعود على ؟الحشرات   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "food produce to They are necessary What is the benefit of bees for the rest of creatures?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 17,
+      "sourceLine": 12,
+      "sourcePages": [
+        17
+      ],
+      "rawBlock": "food produce to They are necessary    What is the benefit of bees for the rest of creatures?   \nما هي فائدة النحل لبقية المخلوقات؟هم ضروريون إنتاج الغذاء ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "3Paragraph ? how the scientists trained the beesIn which paragraph talked about",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 17,
+      "sourceLine": 16,
+      "sourcePages": [
+        17
+      ],
+      "rawBlock": " 3Paragraph ?   how the scientists trained the beesIn which paragraph talked about  \nفي أي فقرة تكلم حول تدريب النحل؟   البرجراف 3            ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "Understanding similar feelings in humans and bees may help both. ?main idea of paragraph What is the",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 17,
+      "sourceLine": 20,
+      "sourcePages": [
+        17
+      ],
+      "rawBlock": "Understanding similar feelings in humans and bees may help both.    ?main idea of paragraph  What is the  \nما هي الفكرة الرئيسية للفقرة؟فهم شعور مشابه  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "they are not afraid optimist ) ? of (What is the meaning",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 17,
+      "sourceLine": 24,
+      "sourcePages": [
+        17,
+        18
+      ],
+      "rawBlock": "they are not afraid     optimist ) ?   of (What is the meaning  \nما معنىكلمة ( optimist   )    ؟ إنهم ليسوا خائفين        \nثالثاً / رجل المطافئ  مايك fireman \nThe fire fighter \nمايك سمع شخص يستنجد من حريق ، وذهب لساعدته بالرغم أنه متعب في يده هو وزملائه قاموا بإخماد النار، فتعب جدا وأصبح وجهه أسود وقميصه  \nتمزق  \nمايك اكثر شخص من الفريق يستطيع ان يعتني بزملائه  \nand went to help him though he was tired in his ,Michael heard someone begging from a fire - hand so tired he\n17 \nbecame black and his shirt torn ,He and his colleagues put out the fire . Michael more than one team can take care \nof his teammates ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "others. for ingcar Mike?What did people discover about",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 18,
+      "sourceLine": 5,
+      "sourcePages": [
+        18
+      ],
+      "rawBlock": "others. for ingcar    Mike?What did people discover about  \nماذا اكتشف الناس عن مايك؟يهتم بالآخرين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "much to fight the fire. so Because he did or exhausted? dtireWhy was Mike",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 18,
+      "sourceLine": 8,
+      "sourcePages": [
+        18
+      ],
+      "rawBlock": "much to fight the fire. so Because he did   or exhausted? dtireWhy was Mike  \nلماذا كان مايك متعبًا أو منهكًا؟ لأنه فعل الكثير لمحاربة النار. \nsomeone hard need help He went to help him although he was tired of his hand, what was the \nproblem he faced? He cannot save him ……………………. \nhis arms were strained and painful \nسمع شخص ما يستنجد (يحتاج مساعدته) وذهب لمساعدته ع الرغم من انه متعب منيده؟ ماهي المشكلة التي  واجهها؟   \nلا يستطيع أن ينقذه لأن يداه  مصاب تان  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "Fire break fire?the to stop What did they do to extinguish",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 18,
+      "sourceLine": 19,
+      "sourcePages": [
+        18
+      ],
+      "rawBlock": "Fire break     fire?the  to stop What did they do to extinguish \nماذا فعلوا لإطفاء الحريق؟اخماد  النار  \n………………Mike's only thought as he tried to put out the fire was  \nto stop the blazing fire \nكان يعتقد مايك فقط وهو يحاول إطفاء الحريق \nلوقف النيران المشتعلة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "irefightersF Mike A man to?what does the pronoun \"his courage\" refer",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 18,
+      "sourceLine": 27,
+      "sourcePages": [
+        18,
+        19
+      ],
+      "rawBlock": "irefightersF      Mike                    A man     to?what does the pronoun \"his courage\" refer  \nعلى ماذا يعودالضمير؟    رجل\n18 \nFireFlaming monster refers to?   \nيشير الوحش المشتعلة؟ النار  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "More thanWhat does the word \"Greedy\" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 19,
+      "sourceLine": 6,
+      "sourcePages": [
+        19
+      ],
+      "rawBlock": "More thanWhat does the word  \"Greedy\" mean?         \nماذا تعني كلمة \"الجشع\"؟أكثر من \nsmoke                 Firerefers to?   It  \nضميرit) يعود لـ ؟النار Fire.     الدخان \nفي آخر مقطع سأل عن شخص يمكن (Ben or Tom  ) ماهو عمله ؟ ((ناقص)) وربما غير موجود ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "What is Ben's job? He is a fire fighter. He is the best one who can take care of his mates.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 19,
+      "sourceLine": 14,
+      "sourcePages": [
+        19
+      ],
+      "rawBlock": "What is Ben's job?  He is a fire fighter. He is the best one who can take care of his mates. \nهو رجل إطفاء. إنه أفضل من يستطيع رعاية زملائهما هي وظيفة بن؟                \nرابعاً / الباندا مي لان  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "Why did the Chinese teach the panda the language?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 19,
+      "sourceLine": 23,
+      "sourcePages": [
+        19,
+        20
+      ],
+      "rawBlock": "Why did the Chinese teach the panda the language?  \n.hometheir  atSo that they feel that they are  \nلماذا قام الصينيون بتعليم الباندااللغة؟    حتى يشعروا انهم في بيئتهم  \nteachers -the environment -professors -Scientist   language?Who taught them the  \nمن علمهماللغة؟ العلماء - أساتذة - البيئة - مدرسون ( المعلمين )\n19 \nفي القطعة مكتوبTutor) وتعني مدرس خصوصي وإجابة هذا السؤال :  Teacher  . ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "In GeorgiaWhere do they live?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 20,
+      "sourceLine": 6,
+      "sourcePages": [
+        20
+      ],
+      "rawBlock": "In GeorgiaWhere do they live?      \nاين يعيشون ؟جورجيا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "Atlanta Georgia China?Where does the panda live before being transported to",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 20,
+      "sourceLine": 9,
+      "sourcePages": [
+        20
+      ],
+      "rawBlock": "Atlanta Georgia  China?Where does the panda live before being transported to  \nأين تعيش الباندا قبل نقلها إلى الصين؟أتلانتا جورجيا  \nخامساً / الكائن الغريب  jelly  (Egg oil  ) ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "Which of the following is true?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 20,
+      "sourceLine": 15,
+      "sourcePages": [
+        20
+      ],
+      "rawBlock": "Which of the following is true?  \nScientists do not know the species of animal that produced the strange gel. \nأي مما يلي صحيح؟  \nلا يعرف العلماء أنواع الحيوانات التي أنتجت الهلام الغريب . ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "It contains oil. Why is the \"liquid\" \"material\" orange?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 20,
+      "sourceLine": 21,
+      "sourcePages": [
+        20
+      ],
+      "rawBlock": "  It contains oil.     Why is the \"liquid\" \"material\" orange? \nلماذا المادة برتقالية اللون؟    لأنها تحتوي على الزيت  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "substance. unknown What does the pronoun \"it\" refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 20,
+      "sourceLine": 25,
+      "sourcePages": [
+        20
+      ],
+      "rawBlock": " substance. unknown     What does the pronoun \"it\" refers to? \nإلى ماذا يشير الضمير؟  مادة غريبة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What does far-fetched? Difficult to believe.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 20,
+      "sourceLine": 29,
+      "sourcePages": [
+        20
+      ],
+      "rawBlock": "What does   far-fetched?    Difficult to believe. \nصعب التصديق      معنى  صعب المنال؟ما   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "Where did they find the strange substance? Between Kotzebue and Point hope",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 20,
+      "sourceLine": 32,
+      "sourcePages": [
+        20,
+        21
+      ],
+      "rawBlock": "Where did they find the strange substance?    Between Kotzebue and Point hope \nهوب  بوينت و  كوتزيبوبين        أين وجدوا المادة الغريبة؟ \nأين وُجدت هذه المادة لأول مرة؟\n20 \nفي انتاركتيكا \nالجواب: بين مدينة كذا وكذا .. (السؤال كان مباشر)  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "What does the nearest meaning of the word \"classify\" )تصنيف( ?Classify into groups.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 21,
+      "sourceLine": 4,
+      "sourcePages": [
+        21
+      ],
+      "rawBlock": "What does the nearest meaning of the word \"classify\" )تصنيف(    ?Classify into groups. \nصنّف في مجموعات     ؟تصنيفماذا يعني أقرب معنى كلمة    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "What is the nearest meaning of the word \"concluded\" )(يستنتج? consummated",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 21,
+      "sourceLine": 7,
+      "sourcePages": [
+        21,
+        22
+      ],
+      "rawBlock": "What is the nearest meaning of the word \"concluded\" )(يستنتج?   consummated \nمكتملة    ؟  ما هو أقرب معنى كلمة \"يستنتج\"  \nسادساً / تسريب المياه water  Leakage  . \nThe above passage is: \na reply to an enquiry       a work order        a complaint      a reply to a complaint  \nالمقطع أعلاه:  \nالرد على الشكوى                    الرد على استفسار                  أمر عمل                        شكوى \nAccording to paragraph (2) , the problems with writing were caused by: \nthe new wires           the electrical contractor         leaking water                 The old wires \nوفقا للفقرة2  كانت مشاكل الكتابة كانت بسبب \nالأسلاك القديمة                 تسرب الماء                  الأسلاك الجديدة                   المقاول الكهربائي  \nAccording to paragraph (3) the floor problems were caused by: \n poor workmanship            normal wear and tear           the use of faulty material \narea.the employees working in that  \nوفقا للفقرة3 كانت هناك مشاكل في الأرضيةبواسطة:  \nصنعة الفقراء              البلى العادي             استخدام المواد المعيبة             الموظفين العاملين في هذا المجال \nAccording to paragraph (3) , which of the following is true: \nthe damaged floor surface will be replaced free of charge \nThe floor surface needs to be inspected every year in July \nstaff needs to be instructed about how to treat the floor \nDurafloor needs to be replaced every six months\n21 \nوفقاًللفقرة  3 أي مما يليصحيح؟  \n يتم استبدال سطح الأرض التالفة مجانا  \n يجب فحص سطح الأرض كل عام في شهر يوليو  \n يحتاج الموظفون إلى تعليمات حول كيفية التعامل مع الأرضية  \n يجب استبدال دورافلور كل ستة أشهر \nAccording to paragraph (4) , the replacement of the damaged floor surface : \nis going to begin when the customer notifies the contractor  \n is going to begin when the workmen are available \nوفقاًللفقرة  4 استبدال التالف سطح الأرض :...... \nسيبدأ عندما يقوم العميل بإخطار المقاول .               سيبدأ عندما يكون العمال متاحين  \nThe word “inconvenience” in the passage is closest in meaning to: \ntrouble              time pressure                  coincidence               bad luck  \nكلمة \" عدم الراحة \" في الفقرة هي الأقرب في المعنى إلى:   \nضغط الوقت                       المصادفة                         الحظ السيئ                         ازعاج \nشخص كان عنده مشكلة في السقف أدت لتسرب المياه وعدمت له الاسلاك وهو زعلان ، والمفروض يكون في ضمان .  \nسابعاً / كارثة حصلت في أوروبا عام 79 البراكين (بركان فيزوف \nEruption (ثوران بركاني )  explosion of volcano (انفجار بركاني )  \nبدايتها انه في سنه 79 حدثشيء وبعدين قال الكاتب We  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (1), which of the following is TRUE?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 22,
+      "sourceLine": 32,
+      "sourcePages": [
+        22,
+        23
+      ],
+      "rawBlock": "According to Paragraph (1), which of the following is TRUE?  \nBy measuring seismic activity, it is possible to predict a volcanic eruption. \nوفقًا للفقرة1) ، أي مما يلي صحيح؟ \nمن خلال قياس النشاط الزلزالي، من الممكن التنبؤ بحدوث ثوران بركاني.\n22 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (2), why was the eruption in 79AD so severe?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 23,
+      "sourceLine": 4,
+      "sourcePages": [
+        23
+      ],
+      "rawBlock": "According to Paragraph (2), why was the eruption in 79AD so severe? \nThere was a long period without seismic activity and then it started again. \nوفقًا للفقرة2) ، لماذا كان ثوران البركان في عام79  م بهذه الخطورة؟ \nكانت هناك فترة طويلة بدون نشاط زلزالي ثم بدأت مرة أخرى.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-02-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": ".believes that his feelings will be shared by many \"?What do we understand from the pronoun \"we",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 23,
+      "sourceLine": 12,
+      "sourcePages": [
+        23
+      ],
+      "rawBlock": ".believes that his feelings will be shared by many   \"?What do we understand from the pronoun \"we \nماذا تفهم من الضميرWe؟   سوف يشاركه الكثيرون في مشاعره.  \nFrom Paragraph we understand that Pliny the Younger?  \n gave detail about the eruption and the effect it had on the population. \nمنالفقرة نفهم أن بليني الأصغر؟   \nأعطى تفاصيل عن الانفجار وتأثيره على السكان.  \nLooking back? mean \"retrospectdoes \"What  \nماذا يعني التأمل في الماضي؟النظر إلى الخلف \nالبشرية والسلام  and peace Mankind",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

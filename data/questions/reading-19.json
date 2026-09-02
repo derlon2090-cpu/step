@@ -1,0 +1,828 @@
+{
+  "readingId": "reading-19",
+  "sourceQuestionBlocks": 13,
+  "questions": [
+    {
+      "id": "reading-19-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What helps information travel up and down the spine? neural paths brain",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 217,
+      "sourceLine": 8,
+      "sourcePages": [
+        217
+      ],
+      "rawBlock": "What helps information travel up and down the spine?   neural paths               brain \nالدماغ         المسارات العصبيةما الذي يساعد المعلومات على الانتقال صعودا وهبوطا في العمود الفقري؟   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "What finally makes you take your hand away from something hot?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 217,
+      "sourceLine": 13,
+      "sourcePages": [
+        217
+      ],
+      "rawBlock": "What finally makes you take your hand away from something hot?  \nMotor neurons in arm muscles  \nما الذي يجعلك أخيرًا ترفع يدك عن شيء ساخن؟  \nالخلايا العصبية الحركية في عضلات الذراع ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "When would your brain stop receiving information from the spinal cord?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 217,
+      "sourceLine": 19,
+      "sourcePages": [
+        217,
+        218
+      ],
+      "rawBlock": "When would your brain stop receiving information from the spinal cord?  \nIf there were serious damage to the spinal cord.  \nمتى يتوقف دماغك عن تلقي المعلومات من النخاع الشوكي؟  \nإذا كان هناك أضرار جسيمة في النخاع الشوكي . \nis closest in meaning to \"connecting\"The word  \njoining  \nهي الأقرب من حيث المعنى  \" الرابط \"الكلمة  \nانضمام  \nفقدان السمع Hearing Loss\n217 \nقانون التعاقدcontract law ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "The word \"agreements\" is closest in meaning to? Arrangements",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 218,
+      "sourceLine": 3,
+      "sourcePages": [
+        218
+      ],
+      "rawBlock": "The word \"agreements\" is closest in meaning to?   Arrangements \nترتيباتكلمة \"اتفاقيات\" هي الأقرب في المعنى؟    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "The word \"governed\" is closest in meaning to? controlled",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 218,
+      "sourceLine": 8,
+      "sourcePages": [
+        218
+      ],
+      "rawBlock": "The word \"governed\" is closest in meaning to?   controlled  \nخاضع للسيطرةكلمة \"تحكم\" هي الأقرب في المعنى؟  \nالملاحظة والبحث العلمي observation and scientific method \nهنا انتبهوا من الكلمات المتشابهة  \nكنت بوضح لكم لكن ما عندي وقت  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (1) say about the scientific method?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 218,
+      "sourceLine": 19,
+      "sourcePages": [
+        218
+      ],
+      "rawBlock": "What does Paragraph (1) say about the scientific method?   \nIt is made up of six different procedures. \n) عن المنهج العلمي؟ تتكون من ستة إجراءات مختلفة1ماذا تقول الفقرة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (2) say about qualitative observation? They explain what happens by",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 218,
+      "sourceLine": 30,
+      "sourcePages": [
+        218,
+        219
+      ],
+      "rawBlock": "What does Paragraph (2) say about qualitative observation? They explain what happens by \ncarefully watching things.  \n) عن الملاحظة النوعية؟ يشرحون ما يحدث من خلال مراقبة الأشياء بعناية2ماذا تقول الفقرة\n218 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 219,
+      "sourceLine": 3,
+      "sourcePages": [
+        219
+      ],
+      "rawBlock": "Which sentence gives the main idea of Paragraph (2)?  \nQualitative observations describe properties or occurrences in ways that do not rely on \nnumbers. \n)؟2ما الجملة التي تعطي الفكرة الرئيسية للفقرة  \nتصف الملاحظات النوعية الخصائص أو الأحداث بطرق لا تعتمد على الأرقام  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 219,
+      "sourceLine": 17,
+      "sourcePages": [
+        219
+      ],
+      "rawBlock": "Which sentence gives the main idea of Paragraph (3)? \nQuantitative observations are measurements, which by definition consist of both a number \nand a unit.  \n)؟3ما الجملة التي تعطي الفكرة الرئيسية للفقرة  \nالملاحظات الكمية هي قياسات تتكون بحكم التعريف من رقم ووحدة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (4) say about hypothesis? It is where scientists start their search.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 219,
+      "sourceLine": 29,
+      "sourcePages": [
+        219
+      ],
+      "rawBlock": "What does Paragraph (4) say about hypothesis? It is where scientists start their search.  \nإنه المكان الذي يبدأ فيه العلماء بحثهم  ) عن الفرضية؟ 4ماذا تقول الفقرة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "What is the main idea of the passage? Observations are an important step in the scientific",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 219,
+      "sourceLine": 39,
+      "sourcePages": [
+        219,
+        220
+      ],
+      "rawBlock": "What is the main idea of the passage?  Observations are an important step in the scientific \nmethod. \n؟ الملاحظات هي خطوة مهمة في المنهج العلميما هي الفكرة الرئيسية لهذا المقطع\n219 \nالحجاج(رسم بياني) \nتأكدوا من السؤال في الاختبار قبل الإجابة   \nطلعت الرسم البياني من النت بعد بحث طويل  \nالجواب يكون على حسب السؤال وعلموني بالصح الأكيد  إذا اختبرتم    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "0201In which year was the largest number of pilgrims from outside?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 220,
+      "sourceLine": 19,
+      "sourcePages": [
+        220
+      ],
+      "rawBlock": "0201In which year was the largest number of pilgrims from outside?  \nفي أي سنة كان أكبر عدد من الحجاج من الخارج؟0201    وممكن يكون 2201 على حسب السؤالإذا من الداخل او الخارج  \nالأخضر الغامق معناه  من الداخل inside   أما الأخضر الفاتح معناه  من الخارج  outside ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "What was the percentage of pilgrims from inside?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 220,
+      "sourceLine": 25,
+      "sourcePages": [
+        220,
+        221
+      ],
+      "rawBlock": "What was the percentage of pilgrims from inside?  \nكم كانت نسبة حجاج الداخل؟\n220 \nبرمجياتOpen source software ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "What helped open-source software? Internet access",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 221,
+      "sourceLine": 4,
+      "sourcePages": [
+        221
+      ],
+      "rawBlock": "What helped open-source software? Internet access \nخدمة الإنترنتما الذي ساعد البرمجيات مفتوحة المصدر؟   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What is one benefit of open-source software? quick bug fixing",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 221,
+      "sourceLine": 8,
+      "sourcePages": [
+        221
+      ],
+      "rawBlock": "What is one benefit of open-source software?   quick bug fixing \nإصلاح الخلل السريعما هي إحدى فوائد البرامج مفتوحة المصدر؟   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What is one benefit of closed-source software? Technical support from the company",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 221,
+      "sourceLine": 15,
+      "sourcePages": [
+        221
+      ],
+      "rawBlock": "What is one benefit of closed-source software?  Technical support from the company \nدعم فني من الشركةما هي إحدى فوائد البرامج المغلقة المصدر؟   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What are two examples of open-source software? Firefox and Apache",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 221,
+      "sourceLine": 19,
+      "sourcePages": [
+        221
+      ],
+      "rawBlock": "What are two examples of open-source software?  Firefox and Apache  \nفايرفوكس والاباتشيما هما مثالان على البرامج مفتوحة المصدر؟         \nالموز في أفريقيا   Banana in Africa ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What is the writer's main purpose? to inform",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 221,
+      "sourceLine": 33,
+      "sourcePages": [
+        221,
+        222
+      ],
+      "rawBlock": "What is the writer's main purpose?    to inform \nلإخبارلما هو الهدف الرئيسي للكاتب؟\n221 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 222,
+      "sourceLine": 2,
+      "sourcePages": [
+        222
+      ],
+      "rawBlock": "What is one important idea that the writer mentions?  \nThat children in Africa need better food. \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب؟  \nأن الأطفال في إفريقيا بحاجة إلى غذاء أفضل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 222,
+      "sourceLine": 14,
+      "sourcePages": [
+        222
+      ],
+      "rawBlock": "What is one important idea that the writer mentions? \nThat genetically modified bananas may save lives. \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب؟  \nهذا الموز المعدل وراثيا قد ينقذ الأرواح.  \nعلم النفس Psychology ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "What do psychologists do to help people who are unhappy in their lives?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 222,
+      "sourceLine": 26,
+      "sourcePages": [
+        222
+      ],
+      "rawBlock": "What do psychologists do to help people who are unhappy in their lives?  \nThey provide them with treatment services. \nماذا يفعل علماء النفس لمساعدة الأشخاص غير السعداء في حياتهم؟ \nيقدمون لهم خدمات العلاج.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word \"Because\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 222,
+      "sourceLine": 33,
+      "sourcePages": [
+        222,
+        223
+      ],
+      "rawBlock": "Why does the writer use the word \"Because\"?  \nTo explain the result of people talking and dealing with psychologists.  \n\"؟لماذا يستخدم الكاتب كلمة \"لأن  \nلشرح نتيجة حديث الناس وتعاملهم مع علماء النفس .\n222 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What does the passage say about the work of most psychologists?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 223,
+      "sourceLine": 2,
+      "sourcePages": [
+        223
+      ],
+      "rawBlock": "What does the passage say about the work of most psychologists?  \nIt is field research  \nماذا يقول المقطع عن عمل معظم علماء النفس؟  \nإنه بحث ميداني  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "Which word can we use to replace the word \"But\"? However",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 223,
+      "sourceLine": 10,
+      "sourcePages": [
+        223
+      ],
+      "rawBlock": "Which word can we use to replace the word \"But\"?   However  \nلكن \"؟ ما هي الكلمة التي يمكننا استخدامها لاستبدال كلمة \"لكن  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What does the writer think about our knowledge of psychology?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 223,
+      "sourceLine": 15,
+      "sourcePages": [
+        223
+      ],
+      "rawBlock": "What does the writer think about our knowledge of psychology? \nIt is from experience.  \nما رأي الكاتب في معرفتنا بعلم النفس؟  \nنه من التجربةإ . \nدراسة النوم وأيام الغياب بين الرجال و النساء   \nرسم بياني     ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "Which group has the lowest number of days absent?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 223,
+      "sourceLine": 23,
+      "sourcePages": [
+        223,
+        224
+      ],
+      "rawBlock": "Which group has the lowest number of days absent? \nMen who sleep between 7 and 8 hours. \nWomen who sleep between 7 and 8 hours. \nMen and women who do not stay up late at night. \nMen and women who sleep at least 8 hours a night \nأي مجموعة لديها أقل عدد أيام غائبة؟ \nالرجال الذين ينامون ما بين 7 و8 ساعات \nالنساء اللواتي ينمن ما بين  7  و8 ساعات \nالرجال والنساء الذين لا يسهرون في وقت متأخر من الليل.  \nالرجال والنساء الذين ينامون  8  ساعات على الأقل في الليلة\n223 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "Which groups have the most absences?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 224,
+      "sourceLine": 2,
+      "sourcePages": [
+        224
+      ],
+      "rawBlock": "Which groups have the most absences? \nMen and women who sleep 5 hours \nMen and women who sleep 10 hours \nMen and women who sleep under 5 hours \nMen and women who sleep over 10 hours \nما هي المجموعات التي لديها أكبر عدد من الغياب؟ \nالرجال والنساء الذين ينامون  5  ساعات \nالرجال والنساء الذين ينامون  10 ساعات \nالرجال والنساء الذين ينامون أقل من 5 ساعات \nالرجال والنساء الذين ينامون أكثر من  10 ساعات  \nاضطراب الوسواس القهريCompulsive Disorder  -Obsessive    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "What is the main topic of this passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 224,
+      "sourceLine": 19,
+      "sourcePages": [
+        224
+      ],
+      "rawBlock": "What is the main topic of this passage?  \nA comparison of normal and obsessive behavior.  \nما هو الموضوع الرئيسي لهذا المقطع؟  \nمقارنة بين السلوك الطبيعي والوسواس.  \nWhat is one important idea related to general anxiety and phobias mentioned In Paragraph \n1?  \nFeatures of compulsive behavior are present in everyone.  \n؟1ما هي إحدى الأفكار المهمة المتعلقة بالقلق العام والرهاب المذكورة في الفقرة  \nميزات السلوك القهري موجودة في الجميع . \nWhat important information about obsessive thoughts and compulsive behavior is ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "expressed in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 224,
+      "sourceLine": 33,
+      "sourcePages": [
+        224,
+        225
+      ],
+      "rawBlock": "expressed in Paragraph (2)?  \nThey negatively affect daily life.\n224 \n)؟2ما هي المعلومات المهمة حول الأفكار الوسواسية والسلوك القهري المعبر عنها في الفقرة  \nأنها تؤثر سلبا على الحياة اليومية.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "What is an example of Hughes obsessive behavior in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 225,
+      "sourceLine": 5,
+      "sourcePages": [
+        225
+      ],
+      "rawBlock": "What is an example of Hughes obsessive behavior in the passage? \nDictating phrases repeatedly  \nما هو مثال على سلوك الوسواس هيوز في المقطع؟  \nإملاء العبارات بشكل متكرر  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "What key information is given about Howard Hughes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 225,
+      "sourceLine": 13,
+      "sourcePages": [
+        225
+      ],
+      "rawBlock": "What key information is given about Howard Hughes?  \nHe was scared of dying at an early age. \nما هي المعلومات الأساسية الواردة حول هوارد هيوز؟ \nكان خائفا من الموت في سن مبكرة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "Why does the writer mention Howard Hughes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 225,
+      "sourceLine": 22,
+      "sourcePages": [
+        225,
+        226
+      ],
+      "rawBlock": "Why does the writer mention Howard Hughes? \nHe suffered from anxiety and phobias.  \nلماذا يذكر الكاتب هوارد هيوز؟  \nكان يعاني من القلق والرهاب . \n       المشروع Project \nTwo important features for a project?   administration and procurement \nوالمشتريات  لادارة؟ ا سمتان مهمتان للمشروع  \nactivities?  salary and benefit \nالراتب والمزاياأنشطة؟\n225 \nالكتابة الاكاديميةAcademic writing ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 226,
+      "sourceLine": 5,
+      "sourcePages": [
+        226
+      ],
+      "rawBlock": "What is the main idea of the passage?   \nAcademic writing uses different types of writing styles. \nما هي الفكرة الرئيسية لهذا المقطع؟ \nتستخدم الكتابة الأكاديمية أنواعًا مختلفة من أساليب الكتابة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q34",
+      "order": 34,
+      "questionNumber": null,
+      "questionText": "about expository writing?say What does the paragraph",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 226,
+      "sourceLine": 12,
+      "sourcePages": [
+        226
+      ],
+      "rawBlock": "about expository writing?say What does the paragraph  \nIt shows the writer to describe an issue to the reader.   \nماذا تقول الفقرة حول  الكتابة التفسيرية؟  \nيظهر للكاتب أن يصف قضية ما للقارئ.  \nرسم بياني   \nعام 2005 كم وصل مبيعات الشركة؟ \nمن الرسم البياني تروح ل  2005 وتختار الجواب الصحيح \nالمنتجعات   Resorts \nمع النموذج السادس ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q35",
+      "order": 35,
+      "questionNumber": null,
+      "questionText": "It covers food lodging and activities.resort mean? \"inclusive all\"What does",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 226,
+      "sourceLine": 25,
+      "sourcePages": [
+        226,
+        227
+      ],
+      "rawBlock": "It covers food lodging and activities.resort mean?  \"inclusive all\"What does  \nماذا يعني المنتجع \"الشامل\"؟يغطي السكن الطعام والأنشطة. \nrental quipmentEWhich of the following might cost extra?   \nأي مما يلي قد يكلف أكثر؟ تأجير المعدات\n226 \n الأبحاث التي تمولهاالشركة Company-funded Research \nHow are the ideas that \"not all evidence is considered\" and \"not all findings are released\" \nrelated? \nBoth are examples of public opinion about the type of research. \nكيف ترتبط الأفكار التي \"لا يتم النظر في كل الأدلة\" و \"لا يتم إصدار جميع النتائج\"؟ \nكلاهما أمثلة للرأي العام حول نوع البحث.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q36",
+      "order": 36,
+      "questionNumber": null,
+      "questionText": "Which of the following is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 227,
+      "sourceLine": 12,
+      "sourcePages": [
+        227
+      ],
+      "rawBlock": "Which of the following is an opinion? \nThey were Skeptical whether an industry partner could ever be trusted to release \ninformation that might hurt its profits. \nأي مما يلي رأي؟ \nلقد كانوا متشككين فيما إذا كان من الممكن الوثوق بشريك في الصناعة لنشر معلومات قد تضر بأرباحه.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q37",
+      "order": 37,
+      "questionNumber": null,
+      "questionText": "How is the public's view about funding science different from the industry's view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 227,
+      "sourceLine": 20,
+      "sourcePages": [
+        227
+      ],
+      "rawBlock": "How is the public's view about funding science different from the industry's view? \nThe public think that the industry mainly cares about money. \nكيف تختلف وجهة نظر الجمهور حول تمويل العلوم عن وجهة نظر الصناعة؟ \nيعتقد الجمهور أن الصناعة تهتم بشكل أساسي بالمال.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q38",
+      "order": 38,
+      "questionNumber": null,
+      "questionText": "What can we understand from the text about company-funded research?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 227,
+      "sourceLine": 27,
+      "sourcePages": [
+        227,
+        228
+      ],
+      "rawBlock": "What can we understand from the text about company-funded research?\n227 \nfunded research.-It is less reliable than government \nما الذي يمكن أن نفهمه من النص حول الأبحاث التي تمولها الشركة؟ \nإنه أقل موثوقية من الأبحاث التي تمولها الحكومة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q39",
+      "order": 39,
+      "questionNumber": null,
+      "questionText": "What can we understand from the passage about government funding for research?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 228,
+      "sourceLine": 8,
+      "sourcePages": [
+        228
+      ],
+      "rawBlock": "What can we understand from the passage about government funding for research? \nThe public think it's a waste of money. \nما الذي يمكن أن نفهمه من المقطع المتعلق بالتمويل الحكومي للبحوث؟ \nيعتقد الجمهور أنه مضيعة للمال.  \n  فقدان السمع Hearing loss ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q40",
+      "order": 40,
+      "questionNumber": null,
+      "questionText": "To explain To informWhat is the author's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 228,
+      "sourceLine": 17,
+      "sourcePages": [
+        228
+      ],
+      "rawBlock": "To explain      To informWhat is the author's main purpose?  \nما هو الهدف الرئيسي للمؤلف؟ \nللإخبار            لشرح  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q41",
+      "order": 41,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the author mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 228,
+      "sourceLine": 21,
+      "sourcePages": [
+        228,
+        229
+      ],
+      "rawBlock": "What is one important idea that the author mentions?  \nDamaged hair cells cause hearing loss. \nما هي إحدى الأفكار المهمة التي يذكرها المؤلف؟ \nتسبب خلايا الشعر التالفة فقدان السمع.\n228 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q42",
+      "order": 42,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the author mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 229,
+      "sourceLine": 2,
+      "sourcePages": [
+        229
+      ],
+      "rawBlock": "What is one important idea that the author mentions? \nDamaged hair cells cannot regrow. \nما هي إحدى الأفكار المهمة التي يذكرها المؤلف؟ \nلا يمكن أن تنمو خلايا الشعر التالفة.  \nالتمارين الهوائية واللاهوائيةaerobic and anaerobic exercise  \nWalkingn example of aerobic exercise? A \nالقيادةleadership    \n   القيادةالارستقراطية  Aristocratic leadership \nX \n القيادة الديمقراطيةDemocratic leadership ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q43",
+      "order": 43,
+      "questionNumber": null,
+      "questionText": "What is the most important skill in leadership and administration?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 229,
+      "sourceLine": 17,
+      "sourcePages": [
+        229
+      ],
+      "rawBlock": "What is the most important skill in leadership and administration? \nDelegation    ??????????????   ?????????????     ?????????? \nما هي أهم مهارة في القيادة والإدارة؟ تفويض الموظفين   ؟؟؟؟؟؟     ؟؟؟؟؟    ؟؟؟؟؟؟  ما اعرف الجواب الصحيح      ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q44",
+      "order": 44,
+      "questionNumber": null,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 229,
+      "sourceLine": 23,
+      "sourcePages": [
+        229
+      ],
+      "rawBlock": "What is the main idea of the passage? \nرسم بياني عن التغطية الصحية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-19-q45",
+      "order": 45,
+      "questionNumber": null,
+      "questionText": "In what year was the largest health coverage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 229,
+      "sourceLine": 26,
+      "sourcePages": [
+        229
+      ],
+      "rawBlock": "In what year was the largest health coverage?  \nفي أي سنة كانت أكبر تغطية صحية؟",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

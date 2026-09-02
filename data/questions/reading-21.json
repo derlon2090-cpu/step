@@ -1,0 +1,899 @@
+{
+  "readingId": "reading-21",
+  "sourceQuestionBlocks": 11,
+  "questions": [
+    {
+      "id": "reading-21-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "1,062 per km2What is the population density of Bangladesh?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 251,
+      "sourceLine": 9,
+      "sourcePages": [
+        251
+      ],
+      "rawBlock": "1,062 per km2What is the population density of Bangladesh?  \nما هي الكثافة السكانية لبنجلاديش؟062،1 لكل كيلومتر مربع ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "fifths –four How much of the population lives in rural areas?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 251,
+      "sourceLine": 15,
+      "sourcePages": [
+        251
+      ],
+      "rawBlock": "fifths –four How much of the population lives in rural areas?  \nكم عدد السكان الذين يعيشون في المناطق الريفية؟أربعة أخماس  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "Which organization noted the number of people in poverty in Bangladesh?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 251,
+      "sourceLine": 21,
+      "sourcePages": [
+        251
+      ],
+      "rawBlock": "Which organization noted the number of people in poverty in Bangladesh? \nThe World Bank \nما هي المنظمة التي لاحظت عدد الأشخاص الذين يعانون من الفقر في بنغلاديش؟ \nالبنك العالمي  \nالتقسيم  الصحي  The Health Divide \nالصحة في الدول ذات الدخل المرتفع Health in High Income Nations \nالصحة في الدول ذات الدخل المنخفض Income Nations LowHealth in  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "What do the passages say about high income and low income nations?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 251,
+      "sourceLine": 31,
+      "sourcePages": [
+        251
+      ],
+      "rawBlock": "What do the passages say about high income and low income nations? \nThey have different health concerns  \nماذا تقول المقاطع عن الدول ذات الدخل المرتفع والدول ذات الدخل المنخفض؟ \nلديهم مخاوف صحية مختلفة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "According to the passages, which organizations monitor health issues in all countries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 251,
+      "sourceLine": 37,
+      "sourcePages": [
+        251,
+        252
+      ],
+      "rawBlock": "According to the passages, which organizations monitor health issues in all countries?  \nInternational organizations \nCompensating Differentials فروقات التعويض\n251 \nحسبالمقاطع، ما هي المنظمات التي تراقب القضايا الصحية في جميع البلدان؟  \nمنظمات دولية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "life expectancy Which subject do both passages discuss?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 252,
+      "sourceLine": 6,
+      "sourcePages": [
+        252
+      ],
+      "rawBlock": "life expectancy  Which subject do both passages discuss? \nأي موضوع يناقش كلا المقطعين؟متوسط العمر المتوقع \nAccording to the passages, what are the biggest problems in healthcare in low income and \nhigh income countries respectively? \nlimited availability and high cost  \nحسبالمقاطع، ما هي أكبر مشاكل الرعاية الصحية في البلدان ذات الدخل المنخفض والبلدان المرتفعة الدخل على التوالي؟  \nالتوافر المحدود والتكلفة العالية  \nقياس الأداء الاقتصادي Measuring Economic Performance ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "homes and automobiles What goods and services do people pay interest on?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 252,
+      "sourceLine": 22,
+      "sourcePages": [
+        252
+      ],
+      "rawBlock": " homes and automobiles What goods and services do people pay interest on? \nما هي السلع والخدمات التي يدفع الناس فائدة عليها؟المنازل والسيارات  \nالمهن البريطانية British professions \nرسم بياني ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "How many of Britain's CEOs were educated private schools in 2015?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 252,
+      "sourceLine": 30,
+      "sourcePages": [
+        252,
+        253
+      ],
+      "rawBlock": "How many of Britain's CEOs were educated private schools in 2015? \naround 38% \naround 55% \naround 70% \naround 87% \nكم عدد المديرين التنفيذيين في بريطانيا الذين تلقوا تعليمهم في المدارس الخاصة في عام2015؟ \nحوالي  38 % \nحوالي55 % \nحوالي70 % \nحوالي87 %\n252 \nالوقود احفوري Fossil fuels ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 253,
+      "sourceLine": 5,
+      "sourcePages": [
+        253
+      ],
+      "rawBlock": "What is the main topic of the passage?  \nThe fossil fuels we rely on are destroying the planet \nما هو الموضوع الرئيسي للمقطع؟ \nالوقود الأحفوري الذي نعتمد عليه يدمر الكوكب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "What is one important idea the writer mentions about fossil fuels in Paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 253,
+      "sourceLine": 13,
+      "sourcePages": [
+        253
+      ],
+      "rawBlock": "What is one important idea the writer mentions about fossil fuels in Paragraph 1?  \nSome of them will decrease faster than others \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب حول الوقود الأحفوري في الفقرة1؟ \nبعضها سينخفض بشكل أسرع من البعض الآخر  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "Why does the writer mention the example of the increasing world population in the future?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 253,
+      "sourceLine": 22,
+      "sourcePages": [
+        253
+      ],
+      "rawBlock": "Why does the writer mention the example of the increasing world population in the future? \nto show how it will effect the amount of fossil fuels we use \nلماذا يذكر الكاتب مثال زيادة عدد سكان العالم في المستقبل؟ \nلإظهار كيف سيؤثر على كمية الوقود الأحفوري التي نستخدمها  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "What important ideas does the writer mention about sulfur dioxide in Paragraph 3?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 253,
+      "sourceLine": 30,
+      "sourcePages": [
+        253,
+        254
+      ],
+      "rawBlock": "What important ideas does the writer mention about sulfur dioxide in Paragraph 3?  \nIt is dangerous and expensive to remove from fuel \nما هي الأفكار المهمة التي ذكرها الكاتب عن ثاني أكسيد الكبريت في الفقرة3؟ \nإن إزالتها من الوقود أمر خطير ومكلف\n253 \nالتمويل الشخصي Personal Finance ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "They use credit or savingsHow do most Americans deal with unexpected costs?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 254,
+      "sourceLine": 4,
+      "sourcePages": [
+        254
+      ],
+      "rawBlock": "They use credit or savingsHow do most Americans deal with unexpected costs?  \nكيف يتعامل معظم الأمريكيين مع التكاليف غير المتوقعة؟يستخدمون الائتمان أو المدخرات ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word also in Paragraph 2?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 254,
+      "sourceLine": 10,
+      "sourcePages": [
+        254
+      ],
+      "rawBlock": "Why does the writer use the word also in Paragraph 2? \no give more information about the survey resultsT \nلماذا يستخدم الكاتب الكلمة أيضًا في الفقرة 2؟ \nلإعطاء مزيد من المعلومات حول نتائج الاستطلاع  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "Because ofWhich expression can we use to replace the expression due to in Paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 254,
+      "sourceLine": 18,
+      "sourcePages": [
+        254
+      ],
+      "rawBlock": "Because ofWhich expression can we use to replace the expression due to in Paragraph?  \nما هو التعبير الذي يمكننا استخدامه لاستبدال التعبير بسبب الفقرة؟بسبب     ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "He believes it has a negative effectHow does the writer feel about unnecessary shopping?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 254,
+      "sourceLine": 23,
+      "sourcePages": [
+        254
+      ],
+      "rawBlock": "He believes it has a negative effectHow does the writer feel about unnecessary shopping?  \nكيف يشعر الكاتب حيال التسوق غير الضروري؟يعتقد أن لها تأثير سلبي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What does the writer say about personal debts in paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 254,
+      "sourceLine": 29,
+      "sourcePages": [
+        254,
+        255
+      ],
+      "rawBlock": "What does the writer say about personal debts in paragraph? \n They should be dealt with carefully  \nماذا يقول الكاتب عن الديون الشخصية في فقرة؟ \n   يجب التعامل معها بعناية\n254 \nالقوائم المالية Financial Statements ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What is one important idea the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 255,
+      "sourceLine": 5,
+      "sourcePages": [
+        255
+      ],
+      "rawBlock": "What is one important idea the writer mentions? \nCash flow statements are different from accounting \nما هي إحدى الأفكار المهمة التي يذكرها الكاتب؟ \nتختلف بيانات التدفق النقدي عن المحاسبة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "To inform hat is writer’s main purpose? W",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 255,
+      "sourceLine": 12,
+      "sourcePages": [
+        255
+      ],
+      "rawBlock": "To inform hat is writer’s main purpose? W \nما هو الهدف الرئيسي للكاتب؟ لكي يعلم  \nFree Software    البرمجيات الحرة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (1) say about freeware? It has rules that users must follow.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 255,
+      "sourceLine": 17,
+      "sourcePages": [
+        255
+      ],
+      "rawBlock": "What does Paragraph (1) say about freeware? It has rules that users must follow. \nلديها قواعد يجب على المستخدمين اتباعها) عن البرامج المجانية؟  1ماذا تقول الفقرة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 255,
+      "sourceLine": 21,
+      "sourcePages": [
+        255
+      ],
+      "rawBlock": "Which sentence gives the main idea of Paragraph (1)?  \nFreeware is software a user can download from the internet free of charge.  \nما الجملة التي تعطي الفكرة الرئيسية للفقرة1)؟  \nالبرنامج المجاني هو برنامج يمكن للمستخدم تنزيله من الإنترنت مجانًا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (2) say about shareware's trial period?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 255,
+      "sourceLine": 27,
+      "sourcePages": [
+        255,
+        256
+      ],
+      "rawBlock": "What does Paragraph (2) say about shareware's trial period?  \nYou can use the software for a limited time. \nماذا تقول الفقرة2) عن الفترة التجريبية للبرنامج التجريبي؟  \nيمكنك استخدام البرنامج لفترة محدودة\n255 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "Which of the following statements about shareware Paragraph (2) support?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 256,
+      "sourceLine": 2,
+      "sourcePages": [
+        256
+      ],
+      "rawBlock": "Which of the following statements about shareware Paragraph (2) support? \nUsers can try it before buying it \nأي من العبارات التالية حول برنامج كومبيوتري يدعم الفقرة2)؟  \nيمكن للمستخدمين تجربته قبل شرائه  \nFrench Revolutionary Wars  الحروب الثورية الفرنسية  \nStoring food تخزين الطعام \nCanning التعليب   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "How did the French army deal with its deadly food problem?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 256,
+      "sourceLine": 12,
+      "sourcePages": [
+        256
+      ],
+      "rawBlock": "How did the French army deal with its deadly food problem? \nThey announced a reward to the person who could fix the problem \nكيف تعامل الجيش الفرنسي مع مشكلة الغذاء المميتة؟  \nأعلنوا مكافأة للشخص الذي يمكنه حل المشكلة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What does the writer think about canning?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 256,
+      "sourceLine": 18,
+      "sourcePages": [
+        256
+      ],
+      "rawBlock": "What does the writer think about canning?  \nThat it solved a problem everyone shared. \nما رأي الكاتب في التعليب؟  \nأنه يحل مشكلة مشتركة مع الجميع  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word although in Paragraph 3?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 256,
+      "sourceLine": 24,
+      "sourcePages": [
+        256,
+        257
+      ],
+      "rawBlock": "Why does the writer use the word although in Paragraph 3?  \nTo show that these methods of keeping food safe had some issues \nلماذا يستخدم الكاتب الكلمة على الرغم من أنها في الفقرة3؟\n256 \nلإثبات أن هذه الأساليب في الحفاظ على سلامة الغذاء لديها بعض المشاكل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What does the writer think about other methods of storing food before canning?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 257,
+      "sourceLine": 5,
+      "sourcePages": [
+        257
+      ],
+      "rawBlock": "What does the writer think about other methods of storing food before canning?  \nHe believes that they were a little dangerous. \nما رأي الكاتب في الطرق الأخرى لتخزين الطعام قبل التعليب؟  \nيعتقد أنهم كانوا خطرين بعض الشيء  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "What does the writer say about Nicolas Appert's method of canning?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 257,
+      "sourceLine": 11,
+      "sourcePages": [
+        257
+      ],
+      "rawBlock": "What does the writer say about Nicolas Appert's method of canning? \nIt worked because he kept out the air and boiled the water. \nماذا يقول الكاتب عن طريقة تعليب نيكولاس أبيرت؟  \nلقد نجح لأنه أبعد الهواء وغلي الماء  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "Which word can we use to replace the word though in Paragraph? However",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 257,
+      "sourceLine": 17,
+      "sourcePages": [
+        257
+      ],
+      "rawBlock": "Which word can we use to replace the word though in Paragraph? However  \nما هي الكلمة التي يمكننا استخدامها لاستبدال الكلمة في فقرة؟ ومع ذلك  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "How did canning stop food from going bad?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 257,
+      "sourceLine": 21,
+      "sourcePages": [
+        257,
+        258
+      ],
+      "rawBlock": "How did canning stop food from going bad? \nIt used heat on the jars to destroy the bacteria stop anything from coming in \nكيف منع التعليب الطعام من أن يفسد؟  \nتستخدم الحرارة على الجرار لتدمير البكتيريا ومنع أي شيء من الدخول\n257 \nImportance of architecture أهمية العمارة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "The word \"multiple\" in the passage is closest in meaning to? Many",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 258,
+      "sourceLine": 4,
+      "sourcePages": [
+        258
+      ],
+      "rawBlock": "The word \"multiple\" in the passage is closest in meaning to? Many \nكثيركلمة \"متعددة\" في المقطع هي الأقرب في المعنى؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "The word \"constraint\" in the passage is closest in meaning to? Limit",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 258,
+      "sourceLine": 7,
+      "sourcePages": [
+        258
+      ],
+      "rawBlock": "The word \"constraint\" in the passage is closest in meaning to? Limit \nحدكلمة \"قيد\" في المقطع هي الأقرب في المعنى؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "The word \"guidelines\" in the passage is closest in meaning to? Instructions",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 258,
+      "sourceLine": 11,
+      "sourcePages": [
+        258
+      ],
+      "rawBlock": "The word \"guidelines\" in the passage is closest in meaning to? Instructions \nتعليماتكلمة \"مبادئ توجيهية\" في المقطع هي الأقرب في المعنى؟      \nImporting and Exporting   \nالاستيراد والتصدير ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q34",
+      "order": 34,
+      "questionNumber": null,
+      "questionText": "Why did the writer write this passage? To explain",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 258,
+      "sourceLine": 17,
+      "sourcePages": [
+        258
+      ],
+      "rawBlock": "Why did the writer write this passage? To explain \nلشرحلماذا كتب الكاتب هذا المقطع؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q35",
+      "order": 35,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 258,
+      "sourceLine": 20,
+      "sourcePages": [
+        258,
+        259
+      ],
+      "rawBlock": "What is one important idea that the writer mentions?  \nSpices were in great demand in Europe. \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب؟  \nكانت البهارات مطلوبة بشدة في أوروبا  \nInternational Pricing   التسعير الدولي\n258 \nBoeing jetliners طائرات بوينج ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q36",
+      "order": 36,
+      "questionNumber": null,
+      "questionText": "What word other than \"inexpensive\" does the writer use to talk about prices at home?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 259,
+      "sourceLine": 4,
+      "sourcePages": [
+        259
+      ],
+      "rawBlock": "What word other than \"inexpensive\" does the writer use to talk about prices at home? \nModest \nبسيطما هي الكلمة بخلاف \"غير مكلفة\" التي يستخدمها الكاتب للحديث عن الأسعار في المنزل؟   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q37",
+      "order": 37,
+      "questionNumber": null,
+      "questionText": "Which of the following is a fact? It costs more to sell internationally",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 259,
+      "sourceLine": 8,
+      "sourcePages": [
+        259
+      ],
+      "rawBlock": "Which of the following is a fact? It costs more to sell internationally \nيكلف أكثر للبيع دولياأي مما يلي هو حقيقة؟    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q38",
+      "order": 38,
+      "questionNumber": null,
+      "questionText": "What can we understand from Paragraph (1) about Boeing jetliners?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 259,
+      "sourceLine": 12,
+      "sourcePages": [
+        259
+      ],
+      "rawBlock": "What can we understand from Paragraph (1) about Boeing jetliners? \nTheir prices are independent of local market conditions. \nماذا يمكن أن نفهم من الفقرة1) عن طائرات بوينج النفاثة؟  \nأسعارها مستقلة عن ظروف السوق المحلية  \nExternal and Internal Recruiting التوظيف الخارجي والداخلي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q39",
+      "order": 39,
+      "questionNumber": null,
+      "questionText": "According to Passages A and B, what is the benefit of promoting within a company?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 259,
+      "sourceLine": 21,
+      "sourcePages": [
+        259,
+        260
+      ],
+      "rawBlock": "According to Passages A and B, what is the benefit of promoting within a company? \nIt helps companies retain the best employees \nوفقًا للفقرتين (أ) و (ب) ، ما فائدة الترويج داخل الشركة؟  \nيساعد الشركات على الاحتفاظ بأفضل الموظفين\n259 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q40",
+      "order": 40,
+      "questionNumber": null,
+      "questionText": "What can we understand from Passages A and B about recruiting?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 260,
+      "sourceLine": 2,
+      "sourcePages": [
+        260
+      ],
+      "rawBlock": "What can we understand from Passages A and B about recruiting? \nRecruiting good employees is a long process \nما الذي يمكن أن نفهمه من الفقرتين حول التوظيف؟  A و B  \nيعد تعيين موظفين جيدين عملية طويلة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q41",
+      "order": 41,
+      "questionNumber": null,
+      "questionText": "What can we understand from Passages A and B about promoting employees?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 260,
+      "sourceLine": 8,
+      "sourcePages": [
+        260
+      ],
+      "rawBlock": "What can we understand from Passages A and B about promoting employees? \nCompanies set policies for hiring their own employees \nما الذي يمكن أن نفهمه من الفقرتين بشأن ترقية الموظفين؟  A و B  \nتضع الشركات سياسات لتوظيف موظفيها  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q42",
+      "order": 42,
+      "questionNumber": null,
+      "questionText": "What can we understand from both passages about internal and external recruiting?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 260,
+      "sourceLine": 13,
+      "sourcePages": [
+        260
+      ],
+      "rawBlock": "What can we understand from both passages about internal and external recruiting? \nThey both involve training employees \nما الذي يمكن أن نفهمه من كلا المقطعين حول التوظيف الداخلي والخارجي؟  \nكلاهما يتضمن تدريب الموظفين  \nCompensating Differentials فروق التعويض  \noil field workers in Alaska's عمال حقول النفط في ألاسكا  \nTexas تكساس  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q43",
+      "order": 43,
+      "questionNumber": null,
+      "questionText": "what does paragraph (1) say about Houston, Texas?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 260,
+      "sourceLine": 24,
+      "sourcePages": [
+        260,
+        261
+      ],
+      "rawBlock": "what does paragraph (1) say about Houston, Texas?  \nIt is easier to work there than in Alaska \nماذا تقول الفقرة1) عنهيوستن،  تكساس؟\n260 \nالعمل هناك أسهل من العمل في ألاسكا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q44",
+      "order": 44,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (1) say about oil field workers in Alaska?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 261,
+      "sourceLine": 4,
+      "sourcePages": [
+        261
+      ],
+      "rawBlock": "What does Paragraph (1) say about oil field workers in Alaska?  \nThey have better salaries than Houston workers \nماذا تقول الفقرة1) عن عمال حقول النفط في ألاسكا؟ \nلديهم رواتب أفضل من عمال هيوستن  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q45",
+      "order": 45,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (2) say about why basketball players have high salaries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 261,
+      "sourceLine": 13,
+      "sourcePages": [
+        261
+      ],
+      "rawBlock": "What does Paragraph (2) say about why basketball players have high salaries?  \nThere are few excellent players \nماذا تقول الفقرة2) عن سبب حصول لاعبي كرة السلة على رواتب عالية؟ \nهناك عدد قليل من اللاعبين الممتازين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q46",
+      "order": 46,
+      "questionNumber": null,
+      "questionText": "It has good air quality? What does Paragraph (3) say about California",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 261,
+      "sourceLine": 21,
+      "sourcePages": [
+        261
+      ],
+      "rawBlock": "It has good air quality? What does Paragraph (3) say about California \nماذا تقول الفقرة3) عن كاليفورنيا؟لديها نوعية هواء جيدة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q47",
+      "order": 47,
+      "questionNumber": null,
+      "questionText": "There is less air pollution there than in California? What does Paragraph (3) say about Rochester",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 261,
+      "sourceLine": 27,
+      "sourcePages": [
+        261
+      ],
+      "rawBlock": "There is less air pollution there than in California? What does Paragraph (3) say about Rochester \nماذا تقول الفقرة3) عن روتشستر؟هناك تلوث أقل للهواء هناك مما هو عليه في ولاية كاليفورنيا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q48",
+      "order": 48,
+      "questionNumber": null,
+      "questionText": "Which sentience gives the main idea of paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 261,
+      "sourceLine": 33,
+      "sourcePages": [
+        261
+      ],
+      "rawBlock": "Which sentience gives the main idea of paragraph? \nchoicesA compensating differential is a feature of other choices as well as career   \nالجملة التي تعطي الفكرة الرئيسية للفقرة؟الفارق التعويضي هو سمة من سمات الاختيارات الأخرى بالإضافة إلى الخيارات  \nالمهنية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-21-q49",
+      "order": 49,
+      "questionNumber": null,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 261,
+      "sourceLine": 41,
+      "sourcePages": [
+        261,
+        262
+      ],
+      "rawBlock": "What is the main idea of the passage?  \nchoicesCompensating differentials have an effect on people's life\n261 \nما هي الفكرة الرئيسية لهذا المقطع؟ \nفروق التعويض لها تأثير على خيارات حياة الناس    \nبخصوص المواد العلمية المعروضة في  \nقناة التجميعات، انا لا أحلل ولا أبيح أي  \nسطو او تعدي عليها يحصل من قبل  \nشخص ما وسيكون محاسبا أمام الله \nفي يوم لا ينفع فيه مال ولا جاه ولابنون في حال استخدامها  من غير استئذان في مؤلفات خاصة  وأغراض مادية ،  \nأو شخصية  كدورات تعليمية، أو مقابل مبلغ مالي، أو  بي عها بطرق مختلفة  \nأو التسويق لدورات بأخذ التجميعات وعرضها كأنها من جهدهم   \nوشكرا للمشرفين والمشرفات الذين يخدمون بدون مقابل ولجميع من يساعد \nحسبي الله على أي واحد سرقني خاصة من أصحاب الدورات النصابين  اللي دورته فوق الالف ريال",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

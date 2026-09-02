@@ -1,0 +1,662 @@
+{
+  "readingId": "reading-11",
+  "sourceQuestionBlocks": 9,
+  "questions": [
+    {
+      "id": "reading-11-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (1), which of the following is TRUE?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 129,
+      "sourceLine": 13,
+      "sourcePages": [
+        129
+      ],
+      "rawBlock": "According to Paragraph (1), which of the following is TRUE?  \nBy measuring seismic activity, it is possible to predict a volcanic eruption. \nوفقًا للفقرة1) ، أي مما يلي صحيح؟ \nمن خلال قياس النشاط الزلزالي، من الممكن التنبؤ بحدوث ثوران بركاني. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (2), why was the eruption in 79AD so severe?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 129,
+      "sourceLine": 19,
+      "sourcePages": [
+        129
+      ],
+      "rawBlock": "According to Paragraph (2), why was the eruption in 79AD so severe? \nThere was a long period without seismic activity and then it started again. \nوفقًا للفقرة2) ، لماذا كان ثوران البركان في عام79  م بهذه الخطورة؟ \nكانت هناك فترة طويلة بدون نشاط زلزالي ثم بدأت مرة أخرى.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": ".believes that his feelings will be shared by many What do we understand from the pronoun \"we\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 129,
+      "sourceLine": 26,
+      "sourcePages": [
+        129
+      ],
+      "rawBlock": ".believes that his feelings will be shared by many   What do we understand from the pronoun \"we\"? \nماذا تفهم من الضميرWe؟سوف يشاركه الكثيرون في مشاعره.  \nFrom Paragraph we understand that Pliny the Younger?  \ngave detail about the eruption and the effect it had on the population.  \nمنالفقرة نفهم أن بليني الأصغر؟   \nأعطى تفاصيل عن الانفجار وتأثيره على السكان.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "Looking backmean? \"What does \"retrospect",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 129,
+      "sourceLine": 35,
+      "sourcePages": [
+        129,
+        130
+      ],
+      "rawBlock": "Looking backmean?  \"What does \"retrospect \nماذا يعني التأمل في الماضي؟النظر إلى الخلف\n129 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": ".the name of the mountain Because Why is it called Vesuvius volcano?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 130,
+      "sourceLine": 2,
+      "sourcePages": [
+        130
+      ],
+      "rawBlock": ".the name of the mountain Because Why is it called Vesuvius volcano? \nلماذا سمي بركان فيزوف بهذاالاسم؟  لأن اسم الجبل فيزوف  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What is the cause of the volcano eruption?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 130,
+      "sourceLine": 5,
+      "sourcePages": [
+        130
+      ],
+      "rawBlock": "What is the cause of the volcano eruption? \nThe collision of tectonic plates led to the rush of molten rock and hot water to flow \nما سبب ثوران البركان؟  أدى اصطدام الصفائح التكتونية إلى اندفاع الصخور المنصهرة وتدفق الماء الساخن  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "Why was the strongest volcano? Vesuvius volcano is the most famous because?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 130,
+      "sourceLine": 10,
+      "sourcePages": [
+        130
+      ],
+      "rawBlock": "Why was the strongest volcano?   Vesuvius volcano is the most famous because?  \nThe city of Pompeii remained hidden under a layer of volcanic ash for 1700 years \nلماذا كان أقوى بركان؟ بركان فيزوف  هو الأشهر بسبب ؟    ظلت مدينة بومبي مخفية تحت طبقة من الرماد البركاني لمدة  1700  عام \nثالثاً / كيف تبدأ مشروعك (البزنس) ويكون ناجح  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What is the most important thing in a new business?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 130,
+      "sourceLine": 18,
+      "sourcePages": [
+        130
+      ],
+      "rawBlock": "What is the most important thing in a new business?  \nspare money for emergenciesand  There is always extra \nما هو أهم شيء في عمل جديد؟  هناك دائمًا أموال إضافية احتياطية لحالات الطوارئ  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "Facts Answers Questions to? referWhat does \"They \"",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 130,
+      "sourceLine": 24,
+      "sourcePages": [
+        130
+      ],
+      "rawBlock": "Facts               Answers              Questions    to?  referWhat does \"They \" \nإلى ماذا تشير كلمة \"هم\"؟      أسئلة        الإجابات         حقائق  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "information. givesThe author The main idea of the article is?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 130,
+      "sourceLine": 29,
+      "sourcePages": [
+        130
+      ],
+      "rawBlock": "information. givesThe author    The main idea of the article is? \nالفكرة الرئيسية للمقال هي؟ المؤلف يعطي معلومات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "Strongly Basically Important? \"crucialWhat is meant by the word \"",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 130,
+      "sourceLine": 34,
+      "sourcePages": [
+        130
+      ],
+      "rawBlock": "Strongly          Basically       Important?    \"crucialWhat is meant by the word \" \nما هو المقصود بكلمةمهم\"    مهم     في الأساس       بقوة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "Danger? mean \"risk\"What does",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 130,
+      "sourceLine": 38,
+      "sourcePages": [
+        130,
+        131
+      ],
+      "rawBlock": "Danger?    mean \"risk\"What does  \nماذا تعني المخاطرة؟  خطيرة\n130 \nrisks considerThe plan of business?  \nخطة العمل؟  احترس من المخاطرة  \nرابعاً / السفن العربية وربطها بأوروبا وكيف استفادوا من تجارب العرب وطوروها.  \n  Links?  The pronoun \"They\" refers to \nالضمير \"هم\" يشير إلى؟ الروابط   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "sails Arab Latin? refers to is improvement\"Th\"",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 131,
+      "sourceLine": 12,
+      "sourcePages": [
+        131
+      ],
+      "rawBlock": "sails Arab Latin?  refers to is improvement\"Th\"   \n (This improvement) تعود لـ ...؟  .sails Arab Latin   \"هذا التحسين\" يشير إلى؟ ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "Description persuade This passage is? Critic",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 131,
+      "sourceLine": 15,
+      "sourcePages": [
+        131
+      ],
+      "rawBlock": "Description        persuade    This passage is?   Critic         \nتأكدوا منها في الاختبار  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "Description persuade ? Critic 2 write this passage Why did the writer",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 131,
+      "sourceLine": 18,
+      "sourcePages": [
+        131
+      ],
+      "rawBlock": "  Description        persuade    ?   Critic        2 write this passage Why did the writer \nلماذا كتب الكاتب المقطع 2؟   نقد                   اقناع           وصف     تأكدوا منها في الاختبار  \nخامساً/ الوجبات السريعة وأضرارها (الهمبرجر)  \nA teacher explains to students about fast food and its damages, and she conducts an experiment on \nthe burger to clarify its disadvantages, and every week she photographed it for 6 months, and it \nturned out that his shape hadn't changed, but he had become rough. \nمعلمة تشرح للطلاب عن الوجبات السريعة وأضرارها، وقامت بإجراء تجربة على البرجر لتوضيحمضاره، وكل أسبوع تصوره  \nلمدة 6 أشهر، واتضحأن شكله لم يتغير،  ولكنه أصبح قاسي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "6 monthsHow long does this scientific study take?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 131,
+      "sourceLine": 33,
+      "sourcePages": [
+        131
+      ],
+      "rawBlock": "6 monthsHow long does this scientific study take?   \nكم من الوقت تستغرق هذه الدراسة العلمية؟6 أشهر ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "Why did not the burger rot after studying?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 131,
+      "sourceLine": 37,
+      "sourcePages": [
+        131,
+        132
+      ],
+      "rawBlock": "Why did not the burger rot after studying?  \n)(preservatives and industrial colors chemicalsBecause it consists of  \nلماذا لم يتعفن البرجر بعد الدراسة؟  لأنه يتكون من مواد كيميائية (مواد حافظة وألوان صناعية)\n131 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "eacherT ?Who did this experiment",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 132,
+      "sourceLine": 5,
+      "sourcePages": [
+        132
+      ],
+      "rawBlock": "eacherT    ?Who did this experiment \nمن قام بهذه التجربة؟  المعلم ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "Strongly Closely Basically? yntiallesesThe meaning of the word",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 132,
+      "sourceLine": 9,
+      "sourcePages": [
+        132
+      ],
+      "rawBlock": "      Strongly         Closely          Basically?  yntiallesesThe meaning of the word  \nمعنى الكلمة جوهريا؟   بعناية      بقوة      جوهريا أو أساسيا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "because it is cheap? Why do people eat hamburgers",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 132,
+      "sourceLine": 13,
+      "sourcePages": [
+        132
+      ],
+      "rawBlock": "because it is cheap?   Why do people eat hamburgers \nلماذا يأكل الناس الهامبرغر؟ لأنها رخيصة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "Paragraph 3In which paragraph talk about bad eating?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 132,
+      "sourceLine": 16,
+      "sourcePages": [
+        132
+      ],
+      "rawBlock": "Paragraph 3In which paragraph talk about bad eating?   \nفي أي فقرة تتحدث عن سوء الأكل؟الفقرة 3 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "What is true?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 132,
+      "sourceLine": 19,
+      "sourcePages": [
+        132
+      ],
+      "rawBlock": "What is true? \nBurgers or fast food are cheap and famous.       We must change our unhealthy food to healthy food \nما هوالصحيح ؟  \nيجب أن نغير طعامنا غير الصحي إلى طعام صحي         البرغر أو الوجبات السريعة رخيصة ومشهورة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What is the best title for the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 132,
+      "sourceLine": 25,
+      "sourcePages": [
+        132,
+        133
+      ],
+      "rawBlock": "What is the best title for the passage? \nmore careful we eat                           is popular unhealthy food                  fast food \nما هو أفضل عنوان لهذه القطعة؟   طعام غير صحي       الوجبات السريعة مشهورة          أكثر حرصا فيما نأكل  \nسادساً / عبارة تحذيرية يذكر فيها أنو واحد يلعب كرة بمكان مخصص للأطفال  \n(Children) وموجود بالسؤال Not  ...؟ \nالجواب Drive Fast      لأن في السؤال مكتوبnot\n132 \nUse telephone \nMake noise \nسابعاً / هيئة الغذاء والدواء \nSaudi Food and Drug Authority ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What is the mission of the Food and Drug Authority?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 133,
+      "sourceLine": 11,
+      "sourcePages": [
+        133
+      ],
+      "rawBlock": "What is the mission of the Food and Drug Authority? \nand imported products The Authority is responsible for regulating local \nما هي مهمة هيئة الغذاء والدواء؟  الهيئة مسؤولة عن تنظيم المنتجات المحلية والمستوردة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "s and foreigners Saudi Saudi only Who benefits from it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 133,
+      "sourceLine": 16,
+      "sourcePages": [
+        133
+      ],
+      "rawBlock": " s and foreigners Saudi      Saudi only    Who benefits from it? \nمن الذي يستفيد منه؟    سعودي فقط    السعوديون والأجانب    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "internal and external Arabs and Europe Arabs receive? authoritythe esWhere do",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 133,
+      "sourceLine": 20,
+      "sourcePages": [
+        133
+      ],
+      "rawBlock": "internal and external       Arabs and Europe           Arabs      receive? authoritythe  esWhere do \nمن أين تستلم الهيئة؟    عرب         العرب وأوروبا         داخلي وخارجي  \nثامناً / فهرس كتاب لأربع وحدات مع عناوين تحت كل وحدة  \nقطعة الهيركنز (التاريخ  والتجارة) (Hercans) history and trade  \n  Unit 1                                 Family     \n   Unit 2            Dealing with People   \n         Unit 3         Customs and Traditions          \nUnit 4          Economic (Business) \nالمطلوب الجواب برقم الوحدة الذي ذكر فيه هذا العنوان \n1) وحدة ذكر فيها احترام الوالدين والعائلة ...؟  \n2) التعامل مع الناس \n3) وحدة عن العادات والتقاليدCulture  /Sociality؟ \n4) الاقتصاد والمال ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "amilyF Which unit speaks of respect for parents?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 133,
+      "sourceLine": 39,
+      "sourcePages": [
+        133,
+        134
+      ],
+      "rawBlock": "amilyF Which unit speaks of respect for parents?\n133 \nأي وحدة تتحدث عن احترام الوالدين؟  العائلة  \nyEconomWhich unit talks about money?  \nأي وحدة تتحدث عن المال؟   الاقتصاد  \nEconomyWhich unit talks about stocks?  \nأي وحدة تتحدث عنالأسهم ؟  الاقتصاد  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "Which unit talks about story?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 134,
+      "sourceLine": 12,
+      "sourcePages": [
+        134
+      ],
+      "rawBlock": "Which unit talks about story? \nأي وحدة تتحدث عنالقصة ؟     ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "Where do we find a family closeness?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 134,
+      "sourceLine": 16,
+      "sourcePages": [
+        134
+      ],
+      "rawBlock": "Where do we find a family closeness? \nأين نجد القرب العائلي؟ ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "Where do we find trade and economy?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 134,
+      "sourceLine": 20,
+      "sourcePages": [
+        134
+      ],
+      "rawBlock": "Where do we find trade and economy? \nأين نجد التجارة والاقتصاد؟ ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "What is the unit that talks about respect for parents, in Hercans' culture?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 134,
+      "sourceLine": 24,
+      "sourcePages": [
+        134,
+        135
+      ],
+      "rawBlock": "What is the unit that talks about respect for parents, in Hercans' culture? \neconomy of Hercans                Family unit                  customs and traditions unit \nما هي الوحدة التي تتحدث عن احترام الوالدين في ثقافة هركان؟ \nوحدة العادات والتقاليد                 وحدة العائلة                               اقتصاد هركان  \neconomy unit    ?tradeQuestion about  \nسؤال حول التجارة؟  وحدة الاقتصاد  \nA unit about customs and traditions \nوحدة عن العادات والتقاليد \nتاسعاً / عبارة سبب نزلات البرد  \nLess is known about the cause of common cold than the many serious diseases.\n134 \nأقل ما يُعرف عن سبب نزلات البرد أكثر من العديد من الأمراض الخطيرة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "What did you understand from this phrase?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 135,
+      "sourceLine": 4,
+      "sourcePages": [
+        135,
+        136
+      ],
+      "rawBlock": "What did you understand from this phrase? \nWe know less about the causes of colds than we know about other diseases - \n- We know a lot about the causes of colds, but we do not know anything about the causes of \ndangerous diseases \n- We do not know much about the causes of colds compared to what we know about the causes of \ndangerous diseases \nما الذي تفهمه من هذه العبارة؟ \n- ما نعرفه عن اسباب الزكام اقل بكثير مما نعرفه عن الأمراض الأخرى  \n- نعلم كثيرا عن أسباب الزكام ولكن لنعرف شي عن أسباب الأمراض الخطيرة \n- لا نعلم الكثير عن أسباب الزكام مقارنه بما نعلم عن أسباب الأمراض الخطيرة  \nعاشراً /  صورة مادة انجليزي 134 \nEnglish 134 \nPre- requirements: English 133 and signature \nالمتطلبات المسبقة: اللغة الإنجليزية133 والتوقيع \nContent: vocabulary, writing, grammar \nالمحتوىالمفردات، الكتابة، القواعد  \nComplete English 133Take this class?  \nخذ هذا الفصل؟إكمال اللغة الإنجليزية  133 \nVocabulary, writing, grammarThis course consists of?\n135 \nتتكون هذه الدورة من؟المفردات والكتابة والقواعد  \nالحادي عشر / البروفيسور ونظرته للآخرين \nHe foolishly expects that everyone works long hours as he does \nإنه يتوقع بحماقة أن يعمل الجميع لساعات طويلة كما يفعل ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "translators everyone teachers professors Students Who works long hours?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 136,
+      "sourceLine": 8,
+      "sourcePages": [
+        136,
+        137
+      ],
+      "rawBlock": "translators    everyone        teachers          professors         Students       Who works long hours?     \nمن يعمل لساعات طويلة؟      الطلاب     البروفيسور         المعلمين         الجميع    المترجم  \nمعنى كلمة ؟؟؟؟؟؟؟؟؟؟     ؟ \nقطعة قصيرة عن العرب و البرتغاليين  \nArabsThe former =  \nموريشيوسMauritius \nthe islands, they called it the first to discover The Arabian sailors were \nby the Portuguese in the 16th century. The Dunia of Oruba, followed bring Africans \nfrom Madagascar to work Dutch forced Africans to forcibly cover the island. However, \nthe on logging from the Ebene forests that France extended its, Dutch abandoned this \nisland in 1710 and in 1715 Subsequently, control over Mauritius and called it the island \nof France the French colonists moved from Bourbon Island to the island of Mauritius in \n1722 \nوأطلقوا عليها اسم أول من اكتشف البحارة العرب \nالبرتغاليون في القرن السادس عشر. تبع ذلك جلبت دنيا العروبة الأفارقة من مدغشقر للعمل الهولنديين الذين أجبروا الأفارقة  \nعلى تغطية الجزيرة بالقوة. ومع ذلك ، عند قطع الأشجار من غابات إيبيني التي وسعتها فرنسا ، تخلى الهولنديون عن هذه \nالجزيرة في عام 1710 وفي عام1715 بعد ذلك ، سيطروا على موريشيوس وأطلقوا عليها اسم جزيرة فرنسا ، انتقل\nالمستعمرون الفرنسيون من جزيرة بوربون إلى جزيرة موريشيوس في عام 1722 \n Arabsrefers to?  e \"former\"Th \nيشير كلمة \" السابق \" إلى؟   العرب\n136 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q34",
+      "order": 34,
+      "questionNumber": null,
+      "questionText": "to raise questionsWhat is the point of the writer's articles?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 137,
+      "sourceLine": 2,
+      "sourcePages": [
+        137
+      ],
+      "rawBlock": "to raise questionsWhat is the point of the writer's articles?  \nما هو الهدف من مقالات الكاتب؟ لطرح الأسئلة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q35",
+      "order": 35,
+      "questionNumber": null,
+      "questionText": "Dunia Al OrubaWhat did Arabs call it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 137,
+      "sourceLine": 5,
+      "sourcePages": [
+        137
+      ],
+      "rawBlock": "Dunia Al OrubaWhat did Arabs call it?   \nماذا أطلق عليه العرب؟ دنيا العروبة  \nالثاني عشر / قطعة صغيرة عن الورق  \nfree.:  the meaning of the word \"leisure\" is \nمعنى كلمة \"وقت الفراغ\" هو فراغ   \nالثالث عشر /  الخل vinegar \nThe author assumes vinegar? \nin cleaning                           seasoning as food \nالمؤلف يفترض الخل؟ \nكغذاء                           في التنظيف  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-11-q36",
+      "order": 36,
+      "questionNumber": null,
+      "questionText": "Grow helpful bacteria.? How do we benefit from vinegar with bacteria",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 137,
+      "sourceLine": 21,
+      "sourcePages": [
+        137
+      ],
+      "rawBlock": "Grow helpful bacteria.?  How do we benefit from vinegar with bacteria \nكيف نستفيد  من الخل مع البكتيريا؟  يزيد  البكتيريا المفيدة",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

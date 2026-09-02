@@ -1,0 +1,861 @@
+{
+  "source": "القطع النماذج ال 49.pdf",
+  "source_page_count": 671,
+  "indexed_record_count": 49,
+  "verified_record_count": 0,
+  "records": [
+    {
+      "id": "reading-01",
+      "order": 1,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 4,
+        "end": 14
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 11,
+        "question_mark_lines": 45,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-02",
+      "order": 2,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 15,
+        "end": 23
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 9,
+        "question_mark_lines": 40,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-03",
+      "order": 3,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 24,
+        "end": 35
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 12,
+        "question_mark_lines": 73,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-04",
+      "order": 4,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 36,
+        "end": 47
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 12,
+        "question_mark_lines": 57,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-05",
+      "order": 5,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 48,
+        "end": 63
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 16,
+        "question_mark_lines": 69,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-06",
+      "order": 6,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 64,
+        "end": 74
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 11,
+        "question_mark_lines": 43,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-07",
+      "order": 7,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 75,
+        "end": 87
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 13,
+        "question_mark_lines": 61,
+        "multiple_choice_markers": 2
+      }
+    },
+    {
+      "id": "reading-08",
+      "order": 8,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 88,
+        "end": 103
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 16,
+        "question_mark_lines": 60,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-09",
+      "order": 9,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 104,
+        "end": 113
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 10,
+        "question_mark_lines": 49,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-10",
+      "order": 10,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 114,
+        "end": 127
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 14,
+        "question_mark_lines": 54,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-11",
+      "order": 11,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 128,
+        "end": 137
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 10,
+        "question_mark_lines": 46,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-12",
+      "order": 12,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 138,
+        "end": 147
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 10,
+        "question_mark_lines": 34,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-13",
+      "order": 13,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 148,
+        "end": 156
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 9,
+        "question_mark_lines": 44,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-14",
+      "order": 14,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 157,
+        "end": 160
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 4,
+        "question_mark_lines": 4,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-15",
+      "order": 15,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 161,
+        "end": 171
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 11,
+        "question_mark_lines": 37,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-16",
+      "order": 16,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 172,
+        "end": 185
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 14,
+        "question_mark_lines": 31,
+        "multiple_choice_markers": 132
+      }
+    },
+    {
+      "id": "reading-17",
+      "order": 17,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 186,
+        "end": 195
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 10,
+        "question_mark_lines": 23,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-18",
+      "order": 18,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 196,
+        "end": 215
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 20,
+        "question_mark_lines": 71,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-19",
+      "order": 19,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 216,
+        "end": 229
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 14,
+        "question_mark_lines": 52,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-20",
+      "order": 20,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 230,
+        "end": 249
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 20,
+        "question_mark_lines": 80,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-21",
+      "order": 21,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 250,
+        "end": 262
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 13,
+        "question_mark_lines": 50,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-22",
+      "order": 22,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 263,
+        "end": 277
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 15,
+        "question_mark_lines": 35,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-23",
+      "order": 23,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 278,
+        "end": 290
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 13,
+        "question_mark_lines": 34,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-24",
+      "order": 24,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 291,
+        "end": 303
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 13,
+        "question_mark_lines": 32,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-25",
+      "order": 25,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 304,
+        "end": 317
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 14,
+        "question_mark_lines": 26,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-26",
+      "order": 26,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 318,
+        "end": 331
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 14,
+        "question_mark_lines": 29,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-27",
+      "order": 27,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 332,
+        "end": 340
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 9,
+        "question_mark_lines": 21,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-28",
+      "order": 28,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 341,
+        "end": 352
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 12,
+        "question_mark_lines": 22,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-29",
+      "order": 29,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 353,
+        "end": 367
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 15,
+        "question_mark_lines": 29,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-30",
+      "order": 30,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 368,
+        "end": 381
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 14,
+        "question_mark_lines": 33,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-31",
+      "order": 31,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 382,
+        "end": 390
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 9,
+        "question_mark_lines": 21,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-32",
+      "order": 32,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 391,
+        "end": 403
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 13,
+        "question_mark_lines": 32,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-33",
+      "order": 33,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 404,
+        "end": 418
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 15,
+        "question_mark_lines": 34,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-34",
+      "order": 34,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 419,
+        "end": 432
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 14,
+        "question_mark_lines": 34,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-35",
+      "order": 35,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 433,
+        "end": 448
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 16,
+        "question_mark_lines": 29,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-36",
+      "order": 36,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 449,
+        "end": 462
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 14,
+        "question_mark_lines": 33,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-37",
+      "order": 37,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 463,
+        "end": 479
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 17,
+        "question_mark_lines": 28,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-38",
+      "order": 38,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 480,
+        "end": 494
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 15,
+        "question_mark_lines": 33,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-39",
+      "order": 39,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 495,
+        "end": 510
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 16,
+        "question_mark_lines": 33,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-40",
+      "order": 40,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 511,
+        "end": 525
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 15,
+        "question_mark_lines": 30,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-41",
+      "order": 41,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 526,
+        "end": 539
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 14,
+        "question_mark_lines": 32,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-42",
+      "order": 42,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 540,
+        "end": 554
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 15,
+        "question_mark_lines": 33,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-43",
+      "order": 43,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 555,
+        "end": 569
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 15,
+        "question_mark_lines": 31,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-44",
+      "order": 44,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 570,
+        "end": 584
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 15,
+        "question_mark_lines": 31,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-45",
+      "order": 45,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 585,
+        "end": 600
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 16,
+        "question_mark_lines": 32,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-46",
+      "order": 46,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 601,
+        "end": 615
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 15,
+        "question_mark_lines": 35,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-47",
+      "order": 47,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 616,
+        "end": 629
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 14,
+        "question_mark_lines": 27,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-48",
+      "order": 48,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 630,
+        "end": 646
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 17,
+        "question_mark_lines": 41,
+        "multiple_choice_markers": 0
+      }
+    },
+    {
+      "id": "reading-49",
+      "order": 49,
+      "source_label": "model",
+      "source_page_range": {
+        "start": 647,
+        "end": 671
+      },
+      "contentStatus": "verified",
+      "questionStatus": "verified",
+      "answerKeyStatus": "missing",
+      "extraction_metrics": {
+        "source_page_count": 25,
+        "question_mark_lines": 49,
+        "multiple_choice_markers": 0
+      }
+    }
+  ],
+  "validation": {
+    "expected_count": 49,
+    "actual_count": 49,
+    "first_order": 1,
+    "last_order": 49,
+    "duplicates": false,
+    "missing_orders": [],
+    "orphaned_pages_within_indexed_range": [],
+    "records_with_title_index_entries": 49,
+    "content_verified": 49,
+    "questions_verified_in_source_order": 49,
+    "answer_key_missing": 49,
+    "arabic_title_verified": 47,
+    "arabic_title_missing": [
+      16,
+      17
+    ],
+    "phase_two_ready": true,
+    "reason": "The required unit is one complete model per reading record. The records preserve educational content in source order, without inferred answer keys."
+  }
+}

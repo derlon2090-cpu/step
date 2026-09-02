@@ -1,0 +1,593 @@
+{
+  "readingId": "reading-32",
+  "sourceQuestionBlocks": 12,
+  "questions": [
+    {
+      "id": "reading-32-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 392,
+      "sourceLine": 36,
+      "sourcePages": [
+        392
+      ],
+      "rawBlock": "What is the writer's main purpose? \nto explain \nto describe \nto convince \nto entertain \nما هو الهدف الرئيسي للكاتب؟ \nلشرح \nلوصف  \nلإقناع  \nأن ترفه  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 392,
+      "sourceLine": 47,
+      "sourcePages": [
+        392,
+        393
+      ],
+      "rawBlock": "What is one important idea that the writer mentions? \nThe stock control department often holds buffer stocks. \nManagers of the stock control departments need to be well-trained \nThe stock control department works closely with the marketing department.\n392 \nThe stock control department aims to achieve the correct balance of stocks. \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب؟ \nغالبًا ما يحتفظ قسم مراقبة المخزون بمخزون احتياطي.  \nيحتاج مديرو أقسام مراقبة المخزون إلى تدريب جيد  \nيعمل قسم مراقبة المخزون بشكل وثيق مع قسم التسويق.  \nيهدف قسم مراقبة المخزون إلى تحقيق التوازن الصحيح للمخزون.  \nSeparating mixture ( filtering, decanting, centrifuging ) \nخليط الفصل (الترشيح ، الصب ، الطرد المركزي ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "What does the writer think about the process of separating mixtures?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 393,
+      "sourceLine": 15,
+      "sourcePages": [
+        393
+      ],
+      "rawBlock": "What does the writer think about the process of separating mixtures? \nHe thinks it's a new technique that needs to be developed. \nHe thinks it's an ancient process that is useful in cooking. \nHe thinks it's important because it helps to take out the substances that have benefits. \nHe thinks it's important because it keeps impurities from creating new diseases. \nما رأي الكاتب في عملية فصل الخلائط؟ \nيعتقد أنها تقنية جديدة تحتاج إلى تطوير.  \nيعتقد أنها عملية قديمة مفيدة في الطهي. \nيعتقد أنه مهم لأنه يساعد على التخلص من المواد التي لها فوائد.  \nيعتقد أنها مهمة لأنها تمنع الشوائب من خلق أمراض جديدة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (2) say about filtering?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 393,
+      "sourceLine": 28,
+      "sourcePages": [
+        393
+      ],
+      "rawBlock": "What does Paragraph (2) say about filtering? \nIt is usually used in making coffee. \nIt only works if the filter paper has a special number of holes. \nIt is a process that only works when separating sand from a mixture. \nIt works best when the filter paper is able to stop the solid from passing. \nماذا تقول الفقرة2) عن التصفية؟ \nيستخدم عادة في صنع القهوة. \nإنه يعمل فقط إذا كان ورق الترشيح به عدد خاص من الثقوب. \nإنها عملية لا تعمل إلا عند فصل الرمل عن الخليط.  \nيعمل بشكل أفضل عندما يكون ورق الترشيح قادرًا على منع مرور المواد الصلبة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "Which words can we use to replace the words \"for example\" in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 393,
+      "sourceLine": 42,
+      "sourcePages": [
+        393,
+        394
+      ],
+      "rawBlock": "Which words can we use to replace the words \"for example\" in Paragraph (2)? \nof course \nabove all \nfor instance \nat the same time \nما الكلمات التي يمكننا استخدامها لاستبدال الكلمات \"على سبيل المثال\" في الفقرة2)؟ \nبالطبع  \nفوق الكل  \nعلى سبيل المثال  \nفي نفس الوقت\n393 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word \"so\" at the end of Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 394,
+      "sourceLine": 4,
+      "sourcePages": [
+        394
+      ],
+      "rawBlock": "Why does the writer use the word \"so\" at the end of Paragraph (4)? \nto give more information about centrifuging. \nto show that centrifuging is different from decanting. \nto show that centrifuging is the longest process for separating the tiny solid particles from a liquid. \nto show that the process of spinning the liquid around quickly in centrifuging causes the tiny solid particles \nto become separated. \nلماذا يستخدم الكاتب كلمة \"هكذا\" في نهاية الفقرة4)؟ \nلإعطاء مزيد من المعلومات حول الطرد المركزي.  \nلتوضيح أن الطرد المركزي يختلف عن الصب.  \nلتوضيح أن الطرد المركزي هو أطول عملية لفصل الجزيئات الصلبة الدقيقة عن السائل.  \nلتوضيح أن عملية تدوير السائل بسرعة في الطرد المركزي تتسبب في فصل الجزيئات الصلبة الدقيقة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "How does centrifuging solve the problem of separating very small solids from a liquid?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 394,
+      "sourceLine": 19,
+      "sourcePages": [
+        394
+      ],
+      "rawBlock": "How does centrifuging solve the problem of separating very small solids from a liquid? \nIt moves the liquid around very quickly to get the solids to stay at the bottom. \nIt uses a special heating technique that is only available in some laboratories. \nIt uses boiling to separate an insoluble solid from a liquid. \nIt uses a filter to separate solids, like sand, from a liquid. \nكيف يحل الطرد المركزي مشكلة فصل المواد الصلبة الصغيرة جدًا عن السائل؟ \nإنه يحرك السائل بسرعة كبيرة لجعل المواد الصلبة تبقى في القاع. \nتستخدم تقنية تسخين خاصة لا تتوفر إلا في بعض المعامل.  \nيستخدم الغليان لفصل المادة الصلبة غير القابلة للذوبان عن السائل.  \nيستخدم مرشحًا لفصل المواد الصلبة ، مثل الرمل ، عن السائل.  \nAgriculture in the Middle East \nالزراعة في الشرق الأوسط \nمكرر في نموذج ( لازم نذاكر كل النماذج )  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What is one important idea in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 394,
+      "sourceLine": 35,
+      "sourcePages": [
+        394
+      ],
+      "rawBlock": "What is one important idea in the passage?  \nCumin is a spice  \nThe economy changed \nFarming provided food to Europe \nMuslim traders introduced new crops to Europe \nما هي إحدى الأفكار المهمة في المقطع؟ \nالكمون هو بهار \nتغير الاقتصاد  \nقدمت الزراعة الغذاء لأوروبا \nأدخل التجار المسلمون محاصيل جديدة إلى أوروبا ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 394,
+      "sourceLine": 48,
+      "sourcePages": [
+        394,
+        395
+      ],
+      "rawBlock": "What is the writer's main purpose? \nto convince  \nto inform \nto explain\n394 \nto study agriculture \nما هو الهدف الرئيسي للكاتب؟ \nلإقناع  \nلكي يعلم \nلشرح \nلدراسة الزراعة  \nUS Coffee Consumption \nاستهلاك القهوة في الولايات المتحدة \nمكرر في نموذج ( لازم نذاكر كل النماذج )  \nUS Retail industry digital \nصناعة التجزئة الأمريكية الرقمية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "In which year is the percentage change the lowest?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 395,
+      "sourceLine": 38,
+      "sourcePages": [
+        395,
+        396
+      ],
+      "rawBlock": "In which year is the percentage change the lowest? \nفي أي سنة تكون النسبة المئوية للتغير هي الأدنى؟ \n2013  \n2014  \n2019 \n2020\n395 \nStages or Economic Activity \nالمراحل أو النشاط الاقتصادي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 396,
+      "sourceLine": 4,
+      "sourcePages": [
+        396
+      ],
+      "rawBlock": "What is the main topic of the passage? \nProduction is the first stage. \nThe level of output is highest in stage three. \nEmployment is highest in stage two. \nEconomic activity occurs in three stages. \nما هو الموضوع الرئيسي للمقطع؟ \nالإنتاج هو المرحلة الأولى.  \nمستوى الإنتاج هو الأعلى في المرحلة الثالثة.  \nالتوظيف هو الأعلى في المرحلة الثانية. \nيحدث النشاط الاقتصادي على ثلاث مراحل. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "Which stage of production are hotels an example of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 396,
+      "sourceLine": 18,
+      "sourcePages": [
+        396
+      ],
+      "rawBlock": "Which stage of production are hotels an example of? \nPrimary \nSecondary \nTertiary \nElementary \nما هي مراحل الإنتاج التي تعتبر الفنادق مثالاً عليها؟  \nالأولية \nثانوي  \nبعد الثانوي  \nابتدائي ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "What is one important idea in Paragraph (3) related to the secondary stage of production?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 396,
+      "sourceLine": 32,
+      "sourcePages": [
+        396
+      ],
+      "rawBlock": "What is one important idea in Paragraph (3) related to the secondary stage of production? \nEmployment is high. \nServices are performed. \nNew goods are made. \nIt is the most important stage. \nما هي إحدى الأفكار المهمة في الفقرة3) المتعلقة بالمرحلة الثانوية للإنتاج؟ \nالعمالة مرتفعة. \nيتم تنفيذ الخدمات. \nيتم تصنيع سلع جديدة.  \nإنها أهم مرحلة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "What is one important idea related to jobs in developing countries in Paragraph (5)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 396,
+      "sourceLine": 47,
+      "sourcePages": [
+        396,
+        397
+      ],
+      "rawBlock": "What is one important idea related to jobs in developing countries in Paragraph (5)? \nThey are equal in all stages.  \nMost are in stage 1.  \nMost are in stage 2.  \nMost are in stage 3.\n396 \nما هي إحدى الأفكار المهمة المتعلقة بالوظائف في البلدان النامية في الفقرة5)؟ \nإنهم متساوون في جميع المراحل. \nمعظمهم في المرحلة الأولى.  \nمعظمهم في المرحلة الثانية.  \nمعظمهم في المرحلة الثالثة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What is one important idea related to the secondary stage of production in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 397,
+      "sourceLine": 11,
+      "sourcePages": [
+        397,
+        398
+      ],
+      "rawBlock": "What is one important idea related to the secondary stage of production in Paragraph (3)?  \nelementary  \nprimary  \nsecondary  \ntertiary \nما هي إحدى الأفكار المهمة المتعلقة بالمرحلة الثانوية للإنتاج في الفقرة3)؟ \nابتدائي \nالأولية \nثانوي  \nبعد الثانوي  \nThe demographic transition \nالتحول الديموغرافي \nThe word shift in Paragraph (1) is closest in meaning to ........ \nPlan \nresult \nchange \naccident \nكلمة التحول في الفقرة1) هي الأقرب في المعنى إلى \nيخطط  \nنتيجة  \nيتغيرون \nحادثة \nThe word rates in paragraph (1) is closest in meaning to ....... \ncalendars \namounts \nwholes \ntables \nمعدلات الكلمات في الفقرة1) هي الأقرب في المعنى إلى \nالتقويمات  \nكميات  \nأجمعين  \nالجداول\n397 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What will lead countries to have a stable population growth?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 398,
+      "sourceLine": 3,
+      "sourcePages": [
+        398
+      ],
+      "rawBlock": "What will lead countries to have a stable population growth? \ndecreasing birth rates only \npassing birth control laws \nfinding the right hypothesis \ncompleting the demographic transition  \nما الذي سيقود البلدان إلى تحقيق نمو سكاني مستقر؟ \nخفض معدلات المواليد فقط  \nتمرير قوانين تحديد النسل \nإيجاد الفرضية الصحيحة  \nاستكمال التحول الديموغرافي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "Why will the population continue to grow in 2050?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 398,
+      "sourceLine": 16,
+      "sourcePages": [
+        398
+      ],
+      "rawBlock": "Why will the population continue to grow in 2050? \nbecause there will be fewer diseases \nbecause there will be more growth in China \nbecause the death rate will be less than zero \nbecause the growth rate will be more than zero \nلماذا سيستمر النمو السكاني في عام2050؟ \nلأنه سيكون هناك عدد أقل من الأمراض \nلأنه سيكون هناك المزيد من النمو في الصين  \nلأن معدل الوفيات سيكون أقل من الصفر \nلأن معدل النمو سيكون أكثر من الصفر  \nالتحليل النفسي Psychoanalysis \nمكرر في نموذج ( لازم نذاكر كل النماذج )  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What two things can psychoanalysis begin with?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 398,
+      "sourceLine": 35,
+      "sourcePages": [
+        398,
+        399
+      ],
+      "rawBlock": "What two things can psychoanalysis begin with?  \nAn embarrassing thought or joke.  \nan embarrassing thought or dream.  \na childhood memory or joke.  \na childhood memory or dream. \nبأي شيئين يمكن أن يبدأ التحليل النفسي بهما؟ \nفكرة أو مزحة محرجة.  \nفكرة أو حلم محرج.  \nذكرى الطفولة أو نكتة. \nذكرى الطفولة أو الحلم.\n398 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What are two characteristics of traditional psychoanalysis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 399,
+      "sourceLine": 3,
+      "sourcePages": [
+        399
+      ],
+      "rawBlock": "What are two characteristics of traditional psychoanalysis?  \nslow and expensive  \nslow and shameful  \nshameful and trivial  \ntrivial and expensive  \nما هي سمتان من سمات التحليل النفسي التقليدي؟ \nبطيئة ومكلفة \nبطيء ومخزي  \nمخجل وتافه \nتافهة ومكلفة \nخشب النانو Nanowood \nمكرر في نموذج ( لازم نذاكر كل النماذج )  \nMillionaires مليونيرات   \nرسم بياني  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "How many millionaires did Australia lose between 2015 and 2016?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 399,
+      "sourceLine": 22,
+      "sourcePages": [
+        399
+      ],
+      "rawBlock": "How many millionaires did Australia lose between 2015 and 2016? \nكم عدد أصحاب الملايين الذين خسرت أستراليا بين عامي2015 و2016؟ \n10,000  \n11.000  \n12,000  \n13,000 \nإحصائياتStatistics   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "How can statistics be more accurate?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 399,
+      "sourceLine": 31,
+      "sourcePages": [
+        399,
+        400
+      ],
+      "rawBlock": "How can statistics be more accurate? \nby using a lot of time and money. \nby finding the overall average \nby asking people's opinions. \nby using the right sample. \nكيف يمكن أن تكون الإحصائيات أكثر دقة؟ \nباستخدام الكثير من الوقت والمال.  \nمن خلال إيجاد المتوسط العام \nمن خلال طرح آراء الناس.  \nباستخدام العينة الصحيحة.\n399 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word If in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 400,
+      "sourceLine": 2,
+      "sourcePages": [
+        400
+      ],
+      "rawBlock": "Why does the writer use the word If in Paragraph (2)? \nTo show that you would select a sample after finding the average. \nTo show that you would select a sample instead of finding the average. \nTo show that you would select a sample unless you want to find the average. \nTo show that you would select a sample because you want to find the average. \nلماذا يستخدم الكاتب كلمة إذا في الفقرة2)؟ \nلتوضيح أنك ستختار عينة بعد إيجاد المتوسط. \nلتوضيح أنك ستختار عينة بدلاً من إيجاد المتوسط.  \nلتوضيح أنك ستختار عينة إلا إذا كنت تريد إيجاد المتوسط.  \nلتوضيح أنك ستختار عينة لأنك تريد إيجاد المتوسط. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What does the writer think the selected sample should do?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 400,
+      "sourceLine": 17,
+      "sourcePages": [
+        400
+      ],
+      "rawBlock": "What does the writer think the selected sample should do? \nclosely represent the population \nbe the main concern of statistics \nbe a small section of the population \nhave more accuracy than an entire population \nماذا يعتقد الكاتب أن العينة المختارة يجب أن تفعل؟ \nتمثل السكان بشكل وثيق  \nأن تكون الشغل الشاغل للإحصاءات \nأن تكون شريحة صغيرة من السكان \nدقة أكبر من مجموعة كاملة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What does the passage say about statistics?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 400,
+      "sourceLine": 32,
+      "sourcePages": [
+        400,
+        401
+      ],
+      "rawBlock": "What does the passage say about statistics? \nThey help us know what the total population is. \nThey only use a sample of the population. \nThey accurately estimate a parameter. \nThey help politicians win elections. \nماذا يقول المقطع عن الإحصاء؟ \nيساعدوننا في معرفة إجمالي عدد السكان.  \nيستخدمون فقط عينة من السكان.  \nإنهم يخمنون الباراميتر بدقة.  \nإنهم يساعدون السياسيين على الفوز في الانتخابات.  \nStructuralist psychologists علماء النفس البنيويين\n400 \nالفلاسفة أفلاطون وأرسطو  The philosophers Plato and Aristotle \nمكرر في نموذج ( لازم نذاكر كل النماذج )  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What does Descartes' principle of duality deal with?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 401,
+      "sourceLine": 4,
+      "sourcePages": [
+        401
+      ],
+      "rawBlock": "What does Descartes' principle of duality deal with? \nbody and mind \nnerves and muscles \nhumans and animals \nscience and philosophy \nما الذي يتعامل معه مبدأ ديكارت للازدواجية؟ \nجسدا وعقلا  \nالأعصاب والعضلات  \nالبشر والحيوانات \nالعلم والفلسفة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "What three examples did the structuralists use to explain introspection?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 401,
+      "sourceLine": 16,
+      "sourcePages": [
+        401
+      ],
+      "rawBlock": "What three examples did the structuralists use to explain introspection? \ntasting some food, hearing a sound and performing a math problem. \nviewing colors, reading a book and performing a math problem. \ntasting some food, reading a book and drawing a picture. \nviewing colors, drawing a picture and hearing a sound. \nما هي الأمثلة الثلاثة التي استخدمها البنيويون لشرح الاستبطان؟ \nتذوق بعض الطعام وسماع صوت وإجراء مسألة حسابية.  \nعرض الألوان وقراءة كتاب وحل مسألة حسابية.  \nتذوق بعض الطعام وقراءة كتاب ورسم صورة.  \nمشاهدة الألوان ورسم صورة وسماع صوت.  \n      الفيروسات Viruses  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What idea do the words \"with a little help from our cells\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 401,
+      "sourceLine": 30,
+      "sourcePages": [
+        401,
+        402
+      ],
+      "rawBlock": "What idea do the words \"with a little help from our cells\" repeat? \nViruses need a host to live.  \nViruses can only infect humans.  \nViruses cooperate with living organisms.  \n.Viruses are the descendants of living organisms \nما الفكرة التي تكررها عبارة \"مع القليل من المساعدة من خلايانا\"؟ \nتحتاج الفيروسات إلى مضيف لتعيش.  \nيمكن للفيروسات أن تصيب البشر فقط. \nتتعاون الفيروسات مع الكائنات الحية. \nالفيروسات هي من نسل الكائنات الحية.\n401 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "What can we understand from Paragraph (1) about viruses?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 402,
+      "sourceLine": 2,
+      "sourcePages": [
+        402
+      ],
+      "rawBlock": "What can we understand from Paragraph (1) about viruses? \nThey are the same as bacteria.  \nThey can be seen with a microscope.  \nThey can be alive when they are outside of a host.  \nThey are only alive when they are inside of a host. \nماذا يمكن أن نفهم من الفقرة1) عن الفيروسات؟ \nهم نفس البكتيريا. \nيمكن رؤيتها بالمجهر. \nيمكن أن يكونوا على قيد الحياة عندما يكونون خارج مضيف. \nهم على قيد الحياة فقط عندما يكونون داخل مضيف.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "Which of the following is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 402,
+      "sourceLine": 20,
+      "sourcePages": [
+        402
+      ],
+      "rawBlock": "Which of the following is a fact?  \nAll viruses can live outside of their hosts.  \nAll viruses have molecules and are alive.  \nViruses need hosts to live and reproduce.  \nViruses can make proteins by themselves. \nأي مما يلي هو حقيقة؟ \nيمكن لجميع الفيروسات أن تعيش خارج مضيفيها.  \nكل الفيروسات لها جزيئات وهي حية.  \nتحتاج الفيروسات إلى مضيفين للعيش والتكاثر. \nيمكن للفيروسات أن تصنع البروتينات من تلقاء نفسها. \n  شركات محدودة خاصة  private limited companies \nPassage A: Advantages of a private limited company \nPassage B: Disadvantages of a private limited company \nالمقطع أ: مزايا شركة خاصة محدودة \nالمقطع ب: عيوب شركة خاصة محدودة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "What do passages A and B say about a private limited company?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 402,
+      "sourceLine": 46,
+      "sourcePages": [
+        402,
+        403
+      ],
+      "rawBlock": "What do passages A and B say about a private limited company? \nIts shareholders have low personal financial risk, but they must get permission to sell their shares. \nIts shareholders can be a large number of people, but they must be friends and relatives.\n402 \nIt must write articles of association and publish names and addresses of all its workers. \nIt must use the word 'Limited' or 'Ltd' after its name and create a company logo. \nماذا يقول الفقرتان \"أ\" و \"ب\" عن شركة خاصة محدودة؟ \nيتحمل مساهموها مخاطر مالية شخصية منخفضة ، لكن يجب عليهم الحصول على إذن لبيع أسهمهم. \nيمكن أن يكون مساهموها عددًا كبيرًا من الناس ، لكن يجب أن يكونوا أصدقاء وأقارب.  \nيجب أن يكتب النظام الأساسي وينشر أسماء وعناوين جميع العاملين لديه.  \nيجب أن تستخدم كلمة \" Limited\" أوLtd\" بعد اسمها وإنشاء شعار الشركة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "What do passages A and B say about the shareholders of a private limited company?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 403,
+      "sourceLine": 13,
+      "sourcePages": [
+        403
+      ],
+      "rawBlock": "What do passages A and B say about the shareholders of a private limited company? \nThey must also be directors of the company and go to official meetings. \nThey have limited liability and so must sell their possessions if the company fails. \nThere can be many shareholders, but they need permission from other shareholders to sell their shares. \nThey find it difficult to sell shares quickly because they need permission from the Registrar of Companies. \nماذا يقول الفقرتان \"أ\" و \"ب\" عن المساهمين في شركة خاصة محدودة؟ \nيجب أن يكونوا أيضًا مديري الشركة والذهاب إلى الاجتماعات الرسمية.  \nلديهم مسؤولية محدودة وبالتالي يجب بيع ممتلكاتهم إذا فشلت الشركة. \nيمكن أن يكون هناك العديد من المساهمين ، لكنهم يحتاجون إلى إذن من مساهمين آخرين لبيع أسهمهم. \nيجدون صعوبة في بيع الأسهم بسرعة لأنهم يحتاجون إلى إذن من مسجل الشركات.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-32-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "What do passages A and B say about a private limited company obtaining capital investment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 403,
+      "sourceLine": 27,
+      "sourcePages": [
+        403
+      ],
+      "rawBlock": "What do passages A and B say about a private limited company obtaining capital investment? \nIt can sell shares to the general public and expand more rapidly than a sole trader. \nIt must become a (Pty) Ltd company if it needs really large sums for rapid expansion. \nIt can raise more than a sole trader, but it is difficult to raise extremely large sums. \nIt must offer new shares to family and friends before offering them to the general public. \nماذا يقول الفقرتان \"أ\" و \"ب\" عن شركة خاصة محدودة تحصل على استثمار رأسمالي؟ \nيمكنه بيع الأسهم لعامة الناس والتوسع بسرعة أكبر من التاجر الوحيد. \nيجب أن تصبح شركة Pty) Ltd إذا كانت بحاجة إلى مبالغ كبيرة حقًا للتوسع السريع  \nيمكنها جمع أكثر من تاجر وحيد ، ولكن من الصعب جمع مبالغ كبيرة للغاية. \nيجب أن تعرض أسهمًا جديدة على العائلة والأصدقاء قبل عرضها على عامة الناس.",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

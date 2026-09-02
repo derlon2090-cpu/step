@@ -1,0 +1,28 @@
+{
+  "readingId": "reading-32",
+  "sourcePages": [
+    391,
+    392,
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400,
+    401,
+    402,
+    403
+  ],
+  "sourcePageRange": {
+    "start": 391,
+    "end": 403
+  },
+  "visualQuestionReviewStatus": "not_started",
+  "firstReviewStatus": "not_started",
+  "secondReviewStatus": "not_started",
+  "questions": [],
+  "duplicateTechnicalRecordsRemoved": 0,
+  "reviewNotes": []
+}

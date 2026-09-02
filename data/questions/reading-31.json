@@ -1,0 +1,391 @@
+{
+  "readingId": "reading-31",
+  "sourceQuestionBlocks": 7,
+  "questions": [
+    {
+      "id": "reading-31-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What was the healthy life expectancy for men in Germany in 1990?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 383,
+      "sourceLine": 14,
+      "sourcePages": [
+        383
+      ],
+      "rawBlock": "What was the healthy life expectancy for men in Germany in 1990? \nabout 47 years \nabout 55 years \nabout 63 years \nabout 70 years \nما هو متوسط العمر المتوقع الصحي للرجال في ألمانيا عام1990؟ \nحوالي 47 سنة \nحوالي 55 سنة \nحوالي 63 سنة \nحوالي 70 سنة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "How much did women's healthy life expectancy increase in India from 1990-2013?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 383,
+      "sourceLine": 24,
+      "sourcePages": [
+        383,
+        384
+      ],
+      "rawBlock": "How much did women's healthy life expectancy increase in India from 1990-2013? \nby about 4 years \nby about 6 years \nby about 7 years \nby about 9 years \nكم زاد متوسط العمر المتوقع للمرأة الصحية في الهند من1990-2013؟  \nبحوالي 4 سنوات  \nبحوالي 6 سنوات  \nبحوالي 7 سنوات  \nبحوالي 9 سنوات \n  توسع النخلة الأخير  Recent Palm Expansion\n383 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "How many hectares of palm area did the Private Estate reach by 2008?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 384,
+      "sourceLine": 13,
+      "sourcePages": [
+        384
+      ],
+      "rawBlock": "How many hectares of palm area did the Private Estate reach by 2008? \nكم هكتارا من مساحة النخيل وصل إليها العقار الخاص بحلول عام2008؟ \n1 Million \n2.3 Million \n1.3 Million \n3.5 Million ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "What year did the government estate reach 500,000 hectares?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 384,
+      "sourceLine": 20,
+      "sourcePages": [
+        384
+      ],
+      "rawBlock": "What year did the government estate reach 500,000 hectares? \nفي أي عام وصلت العقارات الحكومية إلى500000 هكتار؟ \n1989 \n1997 \n2004 \n2009 \nPassage A: Environmental Causes of Obesity \nPassage B: The Food Factor in Obesity \nالمقطع أ: الأسباب البيئية للسمنة \nالمقطع ب: عامل الغذاء في السمنة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What can we understand from passages A and B about children's eating habits?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 384,
+      "sourceLine": 33,
+      "sourcePages": [
+        384
+      ],
+      "rawBlock": "What can we understand from passages A and B about children's eating habits? \nThey are less healthy than they were in the past. \nThey affect their eating habits as adults. \nThey are linked to levels of activity. \nThey usually improve as they get older. \nما الذي يمكن أن نفهمه من الفقرتين \"أ\" و \"ب\" عن عادات الأكل لدى الأطفال؟ \nهم أقل صحة مما كانوا عليه في الماضي.  \nأنها تؤثر على عاداتهم الغذائية كبالغين. \nترتبط بمستويات النشاط.  \nعادة ما يتحسنون مع تقدمهم في السن.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What do passages A and B say about the cause of obesity?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 384,
+      "sourceLine": 47,
+      "sourcePages": [
+        384,
+        385
+      ],
+      "rawBlock": "What do passages A and B say about the cause of obesity?\n384 \nBad eating habits cause obesity. \nLack of exercise causes obesity. \nStress factors cause obesity. \nGenetics cause obesity. \nماذا يقول الفقرتانA وB عن سبب السمنة؟ \nعادات الأكل السيئة تسبب السمنة.  \nعدم ممارسة الرياضة يسبب السمنة. \nعوامل الإجهاد تسبب السمنة. \nالجينات تسبب السمنة. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What can we understand from passages A and B about soft drinks?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 385,
+      "sourceLine": 13,
+      "sourcePages": [
+        385
+      ],
+      "rawBlock": "What can we understand from passages A and B about soft drinks? \nThey are more available than healthy drinks. \nChildren drink them less than in the past. \nChildren should avoid drinking them. \nThey have increased in popularity over time. \nماذا يمكننا أن نفهم من الفقرتين أ و ب عن المشروبات الغازية؟ \nإنها متوفرة أكثر من المشروبات الصحية.  \nيشربها الأطفال أقل مما كان عليه في الماضي.  \nيجب على الأطفال تجنب شربها.  \nلقد ازدادت شعبيتها بمرور الوقت. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What do passages A and B say about today's environment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 385,
+      "sourceLine": 26,
+      "sourcePages": [
+        385
+      ],
+      "rawBlock": "What do passages A and B say about today's environment? \nPeople exercise less. \nPeople are healthier. \nPeople eat a lot more. \nPeople have more stress. \nماذا يقول الفقرتان \"أ\" و \"ب\" عن بيئة اليوم؟ \nيمارس الناس تمارين أقل. \nالناس أكثر صحة.  \nالناس يأكلون أكثر بكثير. \nالناس لديهم المزيد من التوتر. \nHeat Transfer \nانتقال الحرارة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "What is one important idea about heat transfer that the writer mentions in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 385,
+      "sourceLine": 44,
+      "sourcePages": [
+        385,
+        386
+      ],
+      "rawBlock": "What is one important idea about heat transfer that the writer mentions in Paragraph (2)? \nheat transfer in a coffee cup \nmeasuring heat transfer \nend of heat transfer \ndirection of heat transfer \nما هي إحدى الأفكار المهمة حول انتقال الحرارة التي ذكرها الكاتب في الفقرة2)؟ \nنقل الحرارة في فنجان القهوة \nقياس انتقال الحرارة\n385 \nنهاية انتقال الحرارة \nاتجاه انتقال الحرارة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "What is one important point about heat that the writer mentions in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 386,
+      "sourceLine": 7,
+      "sourcePages": [
+        386
+      ],
+      "rawBlock": "What is one important point about heat that the writer mentions in Paragraph (1)? \nHeat is not the same as temperature. \nHeat always behaves in the same way as it moves. \nHeat does NOT operate according to our imagination. \nHeat moves between liquids and the area around them. \nما هي إحدى النقاط المهمة حول الحرارة التي ذكرها الكاتب في الفقرة1)؟ \nالحرارة ليست نفس درجة الحرارة. \nتتصرف الحرارة دائمًا بنفس الطريقة التي تتحرك بها.  \nلا تعمل الحرارة وفقًا لخيالنا.  \nتنتقل الحرارة بين السوائل والمنطقة المحيطة بها. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "What does the writer want to show by the example of a hot coffee cup?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 386,
+      "sourceLine": 22,
+      "sourcePages": [
+        386
+      ],
+      "rawBlock": "What does the writer want to show by the example of a hot coffee cup? \nthe effect of heat on various materials. \nthe main rule of heat transfer. \nthe spread of heat energy in liquids. \nthe relationship between heat and liquid type. \nماذا يريد الكاتب أن يظهر بمثال فنجان قهوة ساخن؟ \nتأثير الحرارة على المواد المختلفة.  \nالقاعدة الرئيسية لانتقال الحرارة. \nانتشار الطاقة الحرارية في السوائل. \nالعلاقة بين الحرارة ونوع السائل. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 386,
+      "sourceLine": 38,
+      "sourcePages": [
+        386,
+        387
+      ],
+      "rawBlock": "What is the main topic of the passage? \nthe uses of heat in engineering. \nthe technology of heat control. \nthe movement of heat. \nthe definition of heat. \nما هو الموضوع الرئيسي للمقطع؟ \nاستخدامات الحرارة في الهندسة.  \nتكنولوجيا التحكم في الحرارة.  \nحركة الحرارة.  \nتعريف الحرارة. \nMining and Refining \nالتعدين والتكرير \nThe word worthwhile in paragraph (1) is closest in meaning to ..................... \ncorrect\n386 \ndifficult \ntypical \nuseful \nكلمة جديرة بالاهتمام في الفقرة1) هي الأقرب في المعنى إلى \nصحيح \nصعبة \nعادي  \nمفيد  \nThe word extracted in Paragraph (2) is closest in meaning to ..................... \nremoved \nreplaced \nreturned \nreflected \nالكلمة المستخرجة في الفقرة2) هي الأقرب في المعنى إلى \nإزالة  \nاستبدال \nعاد  \nينعكس  \nThe word desirable in Paragraph (2) is closest in meaning to ............... \ncomplete \nspecial \ncolorful \nrequired \nالكلمة المرغوبة في الفقرة2) هي الأقرب في المعنى إلى \nمكتمل \nخاص \nزاهى الألوان  \nمطلوب  \nGreenhouse effect \nالاحتباس الحراري  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "How much energy is reflected into space by the earth's atmosphere and the earth's surface?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 387,
+      "sourceLine": 38,
+      "sourcePages": [
+        387
+      ],
+      "rawBlock": "How much energy is reflected into space by the earth's atmosphere and the earth's surface? \n26% (by atmosphere) and 4% (by surface) \n19% (by atmosphere) and 4% (by surface) \n26% (by atmosphere) and 19% (by surface) \n51% (by atmosphere) and 19% (by surface) \nما مقدار الطاقة التي ينعكسها الغلاف الجوي للأرض وسطح الأرض في الفضاء؟ \n26% (الغلاف الجوي) و4% (بالسطح \n19% (الغلاف الجوي) و4% (بالسطح \n26% (الغلاف الجوي) و19% (بالسطح \n51% (عن طريق الغلاف الجوي) و19% (عن طريق السطح ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "Which three man-made gases have had the greatest greenhouse effect?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 387,
+      "sourceLine": 51,
+      "sourcePages": [
+        387,
+        388
+      ],
+      "rawBlock": "Which three man-made gases have had the greatest greenhouse effect? \nCarbon dioxide, chlorofluorocarbons and methane\n387 \nCarbon dioxide, methane and nitrous oxide \nCarbon dioxide, water vapor and methane \nCarbon dioxide, ozone and methane \nما هي الغازات الثلاثة التي من صنع الإنسان التي كان لها أكبر تأثير في الاحتباس الحراري؟ \nثاني أكسيد الكربون ومركبات الكربون الكلورية فلورية والميثان  \nثاني أكسيد الكربون والميثان وأكسيد النيتروز  \nثاني أكسيد الكربون وبخار الماء والميثان \nثاني أكسيد الكربون والأوزون والميثان \nOceans \nالمحيطات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 388,
+      "sourceLine": 18,
+      "sourcePages": [
+        388
+      ],
+      "rawBlock": "What is the writer's main purpose? \nto recommend \nto complain \nto advise \nto inform \nما هو الهدف الرئيسي للكاتب؟ \nأن يوصي  \nيشتكي  \nلتقديم المشورة \nلكي يعلم ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 388,
+      "sourceLine": 32,
+      "sourcePages": [
+        388
+      ],
+      "rawBlock": "What is one important idea that the writer mentions? \nBoth poles are covered in ice. \nEarth is cooler than Mercury. \nOceans are extremely important. \nWater is essential to living things. \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب؟ \nكلا القطبين مغطى بالجليد.  \nالأرض أكثر برودة من عطارد.  \nالمحيطات مهمة للغاية.  \nالماء ضروري للكائنات الحية. \nSleep Disorders \nاضطرابات النوم ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What percentage of adults have problems falling asleep?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 388,
+      "sourceLine": 53,
+      "sourcePages": [
+        388,
+        389
+      ],
+      "rawBlock": "What percentage of adults have problems falling asleep?\n388 \nما هي نسبة البالغين الذين يعانون من مشاكل في النوم؟ \n2-3 percent \n6-8 percent \n10-15 percent \n20-25 percent ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "How many people suffer from narcolepsy?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 389,
+      "sourceLine": 10,
+      "sourcePages": [
+        389
+      ],
+      "rawBlock": "How many people suffer from narcolepsy? \nكم عدد الأشخاص الذين يعانون من الخدار؟ \n1 in 5 people \n1 in 25 people \n1 in 400 people \n1 in 2000 people ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "Who did a study on sleep apnea?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 389,
+      "sourceLine": 19,
+      "sourcePages": [
+        389
+      ],
+      "rawBlock": "Who did a study on sleep apnea? \nThe University of Arizona \nThe New York Center for Sleep Apnea \nThe National Heart, Lung, and Blood Institute \nThe Stanford University Center for Narcolepsy \nمن قام بدراسة عن انقطاع التنفس أثناء النوم ؟ \nجامعة أريزونا  \nمركز نيويورك لتوقف التنفس أثناء النوم \nالمعهد القومي للقلب والرئة والدم  \nمركز جامعة ستانفورد للخدار  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "Who did Wilse Webb and Scott Campbell study?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 389,
+      "sourceLine": 33,
+      "sourcePages": [
+        389
+      ],
+      "rawBlock": "Who did Wilse Webb and Scott Campbell study? \ndifferent types of men \ndifferent types of twins \ndifferent types of adults \ndifferent types of parents \nمن الذي درس ويلس ويب وسكوت كامبل؟ \nأنواع مختلفة من الرجال  \nأنواع مختلفة من التوائم \nأنواع مختلفة من البالغين \nأنواع مختلفة من الآباء  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-31-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "Who usually experiences sleep apnea?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 389,
+      "sourceLine": 50,
+      "sourcePages": [
+        389,
+        390
+      ],
+      "rawBlock": "Who usually experiences sleep apnea? \nfat men \nthin women \nnormal adults\n389 \nidentical twins \nمن الذي يعاني عادة من توقف التنفس أثناء النوم؟ \nالرجال السمان  \nالمرأة النحيفة  \nالبالغين العاديين \nتوائم متطابقان",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

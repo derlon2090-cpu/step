@@ -1,0 +1,653 @@
+{
+  "readingId": "reading-37",
+  "questions": [
+    {
+      "id": "reading-37-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "What is a Network?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        463
+      ],
+      "sourceBlockIds": [
+        "page-463-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 343.68,
+        "x0": 197.33,
+        "x1": 396.36
+      }
+    },
+    {
+      "id": "reading-37-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "Chinese?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        464
+      ],
+      "sourceBlockIds": [
+        "page-464-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 123.81,
+        "x0": 14.4,
+        "x1": 73.65
+      }
+    },
+    {
+      "id": "reading-37-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        464
+      ],
+      "sourceBlockIds": [
+        "page-464-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 317.04,
+        "x0": 14.4,
+        "x1": 390.1
+      }
+    },
+    {
+      "id": "reading-37-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following colors is NOT mentioned in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        465
+      ],
+      "sourceBlockIds": [
+        "page-465-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 340.08,
+        "x0": 14.4,
+        "x1": 411.14
+      }
+    },
+    {
+      "id": "reading-37-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "What is a Network?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        465
+      ],
+      "sourceBlockIds": [
+        "page-465-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 586.81,
+        "x0": 177.74,
+        "x1": 417.6
+      }
+    },
+    {
+      "id": "reading-37-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "What is a three-letter acronym called?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        465
+      ],
+      "sourceBlockIds": [
+        "page-465-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 712.97,
+        "x0": 14.16,
+        "x1": 250.06
+      }
+    },
+    {
+      "id": "reading-37-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What is a four-letter acronym called?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        466
+      ],
+      "sourceBlockIds": [
+        "page-466-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 125.13,
+        "x0": 14.16,
+        "x1": 242.27
+      }
+    },
+    {
+      "id": "reading-37-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What is a \"node\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        466
+      ],
+      "sourceBlockIds": [
+        "page-466-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 254.76,
+        "x0": 14.16,
+        "x1": 125.34
+      }
+    },
+    {
+      "id": "reading-37-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea related to probability that the writer mentions in Paragraph (4) ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        466
+      ],
+      "sourceBlockIds": [
+        "page-466-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 771.4,
+        "x0": 14.16,
+        "x1": 576.81
+      }
+    },
+    {
+      "id": "reading-37-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "What point does the writer try to support with the example of the coin toss?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        467
+      ],
+      "sourceBlockIds": [
+        "page-467-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 273.24,
+        "x0": 14.16,
+        "x1": 477.07
+      }
+    },
+    {
+      "id": "reading-37-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What idea related to probability does the writer mention?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        467
+      ],
+      "sourceBlockIds": [
+        "page-467-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 495.5,
+        "x0": 14.16,
+        "x1": 364.35
+      }
+    },
+    {
+      "id": "reading-37-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph (2) say about restaurants and stores?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        468
+      ],
+      "sourceBlockIds": [
+        "page-468-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.16,
+        "x1": 386.82
+      }
+    },
+    {
+      "id": "reading-37-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "How can restaurants and stores reduce food waste?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        468
+      ],
+      "sourceBlockIds": [
+        "page-468-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 347.28,
+        "x0": 14.16,
+        "x1": 337.82
+      }
+    },
+    {
+      "id": "reading-37-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "Which word can we use to replace the expression \"Most of the time\" in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        468
+      ],
+      "sourceBlockIds": [
+        "page-468-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 606.5,
+        "x0": 14.16,
+        "x1": 548.58
+      }
+    },
+    {
+      "id": "reading-37-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the word \"also\" in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        469
+      ],
+      "sourceBlockIds": [
+        "page-469-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 180.69,
+        "x0": 14.16,
+        "x1": 374.06
+      }
+    },
+    {
+      "id": "reading-37-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer think about restaurants and stores giving away food they DONT use?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        469
+      ],
+      "sourceBlockIds": [
+        "page-469-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 429.38,
+        "x0": 14.16,
+        "x1": 574.43
+      }
+    },
+    {
+      "id": "reading-37-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What caused Starbucks to decrease the use of plastic straws?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        470
+      ],
+      "sourceBlockIds": [
+        "page-470-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 106.65,
+        "x0": 14.16,
+        "x1": 399.95
+      }
+    },
+    {
+      "id": "reading-37-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "What led to increased difficulty in recycling plastic packages since 2018?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        470
+      ],
+      "sourceBlockIds": [
+        "page-470-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 328.8,
+        "x0": 14.16,
+        "x1": 464.62
+      }
+    },
+    {
+      "id": "reading-37-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following countries had the highest tea consumption in 2016?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        471
+      ],
+      "sourceBlockIds": [
+        "page-471-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 570.5,
+        "x0": 14.16,
+        "x1": 474.74
+      }
+    },
+    {
+      "id": "reading-37-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "Which country had an annual tea consumption over 5 pounds per person in 2016?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        471
+      ],
+      "sourceBlockIds": [
+        "page-471-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 774.16,
+        "x0": 14.16,
+        "x1": 523.11
+      }
+    },
+    {
+      "id": "reading-37-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "What buildings form the Federal Triangle?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        472
+      ],
+      "sourceBlockIds": [
+        "page-472-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 295.32,
+        "x0": 14.16,
+        "x1": 274.84
+      }
+    },
+    {
+      "id": "reading-37-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "What are two examples of Washington's nearly 500 libraries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        472
+      ],
+      "sourceBlockIds": [
+        "page-472-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 536.06,
+        "x0": 14.16,
+        "x1": 393.42
+      }
+    },
+    {
+      "id": "reading-37-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "In addition to Pierre L'Enfant, who were the planners of Washington D.C.?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        472
+      ],
+      "sourceBlockIds": [
+        "page-472-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 776.68,
+        "x0": 14.16,
+        "x1": 472.09
+      }
+    },
+    {
+      "id": "reading-37-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about depression?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        474
+      ],
+      "sourceBlockIds": [
+        "page-474-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 88.17,
+        "x0": 14.16,
+        "x1": 288.14
+      }
+    },
+    {
+      "id": "reading-37-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "when should a \"bad mood\" be considered depression?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        474
+      ],
+      "sourceBlockIds": [
+        "page-474-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 273.24,
+        "x0": 14.16,
+        "x1": 352.51
+      }
+    },
+    {
+      "id": "reading-37-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "what usually accompanies depression?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        474
+      ],
+      "sourceBlockIds": [
+        "page-474-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 513.98,
+        "x0": 14.16,
+        "x1": 257.77
+      }
+    },
+    {
+      "id": "reading-37-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about the treatment of depression?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        474
+      ],
+      "sourceBlockIds": [
+        "page-474-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 754.72,
+        "x0": 14.16,
+        "x1": 389.94
+      }
+    }
+  ]
+}

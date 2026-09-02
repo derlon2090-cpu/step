@@ -1,0 +1,523 @@
+{
+  "readingId": "reading-29",
+  "sourceQuestionBlocks": 14,
+  "questions": [
+    {
+      "id": "reading-29-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "In 2016, how many disasters did Rubicon respond to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 354,
+      "sourceLine": 11,
+      "sourcePages": [
+        354
+      ],
+      "rawBlock": "In 2016, how many disasters did Rubicon respond to?  \nفي عام2016، كم عدد الكوارث التي استجاب لها روبيكون؟  \n10 \n24 \n46 \n60 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "Where is Rubicon's head office?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 354,
+      "sourceLine": 19,
+      "sourcePages": [
+        354
+      ],
+      "rawBlock": "Where is Rubicon's head office? \nDominican Republic \nNew York \nHaiti \nLos Angeles \nأين مكتب روبيكون الرئيسي؟  \nجمهورية الدومينيكان  \nنيويورك  \nهايتي  \nلوس أنجلوس  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "From what country did team Rubicon cross into Haiti?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 354,
+      "sourceLine": 30,
+      "sourcePages": [
+        354,
+        355
+      ],
+      "rawBlock": "From what country did team Rubicon cross into Haiti?\n354 \nDominican Republic \nUnited States \nCuba \nItaly \nمن أي بلد عبر فريق روبيكون إلى هايتي؟  \nجمهورية الدومينيكان  \nالولايات المتحدة  \nكوبا  \nإيطاليا  \nMongols and climate \nالمغول والمناخ ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "What is one idea related to the Mongols that the writer mentions in paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 355,
+      "sourceLine": 17,
+      "sourcePages": [
+        355,
+        356
+      ],
+      "rawBlock": "What is one idea related to the Mongols that the writer mentions in paragraph 1? \nThey disliked the rain \nthey controlled only Asia \nthey used a battle on horseback \ntree ring scientists study Mongol history \nما هي إحدى الأفكار المتعلقة بالمغول التي ذكرها الكاتب في الفقرة1؟  \nلم يعجبهم المطر  \nكانوا يسيطرون فقط على آسيا  \nاستخدموا معركة على ظهور الخيل  \nيدرس علماء حلقة الشجرة تاريخ المغول\n355 \nWhat is one important idea related to the period between 1211- 1225 that the writer mentions in paragraph \n3? \nThe weather was unusual \nGenghis Khan was born \nthe Mongol empire ended \nit was a time of great difficulty \nما هي إحدى الأفكار المهمة المتعلقة بالفترة ما بين1211-1225 التي ذكرها الكاتب في الفقرة3؟  \nكان الطقس غير عادي  \nولد جنكيز خان  \nانتهت إمبراطورية المغول  \nلقد كان وقتًا شديد الصعوبة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "Why does the writer mention Siberian Pines?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 356,
+      "sourceLine": 15,
+      "sourcePages": [
+        356
+      ],
+      "rawBlock": "Why does the writer mention Siberian Pines? \nTheir tree rings were used in the study \nthe Mongols used them for firewood \nThey are the oldest trees in Mongolia \nthey grow in harsh conditions \nلماذا يذكر الكاتب سيبيريا باينز؟  \nتم استخدام حلقات شجرتهم في الدراسة  \nاستخدمهم المغول كحطب  \nإنها أقدم الأشجار في منغوليا  \nينمون في ظروف قاسية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 356,
+      "sourceLine": 28,
+      "sourcePages": [
+        356,
+        357
+      ],
+      "rawBlock": "What is the main topic of the passage? \nThe lamont -Doherty Team of scientists \nSiberian pine trees in the Hangay mountains \nthe rise of the Mongolian empire under Genghis Khan \nthe success of the Mongol empire due to weather conditions\n356 \nما هو الموضوع الرئيسي للمقطع؟  \nفريق لامونت دوهرتي من العلماء  \nأشجار الصنوبر السيبيري في جبال هانغاي   \nصعود الإمبراطورية المنغولية تحت قيادة جنكيز خان  \nنجاح إمبراطورية المغول بسبب الظروف الجوية  \nInventory management \nادارة المخزون ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What does paragraph 1 say about inventories?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 357,
+      "sourceLine": 11,
+      "sourcePages": [
+        357
+      ],
+      "rawBlock": "What does paragraph 1 say about inventories? \nThey help firms reduce costs and increase profits \nthey help customers find the right items faster \nthey make customers and managers happy \nthey always result in more profits \nماذا تقول الفقرة1 عن قوائم الجرد؟  \nأنها تساعد الشركات على خفض التكاليف وزيادة الأرباح  \nأنها تساعد العملاء في العثور على العناصر المناسبة بشكل أسرع  \nيجعلون العملاء والمديرين سعداء  \nدائمًا ما تؤدي إلى المزيد من الأرباح  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What do firms do to avoid keeping higher than necessary inventories?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 357,
+      "sourceLine": 22,
+      "sourcePages": [
+        357,
+        358
+      ],
+      "rawBlock": "What do firms do to avoid keeping higher than necessary inventories? \nthey balance the cost against the sales and profits \nthey reduce their costs through logistics systems \nthey call customers to determine their needs \nthey make their inventories automated \nماذا تفعل الشركات لتجنب الاحتفاظ بالمخزونات أعلى من اللازم؟  \nيوازنون التكلفة مع المبيعات والأرباح  \nيقللون من تكاليفهم من خلال الأنظمة اللوجستية  \nيتصلون بالعملاء لتحديد احتياجاتهم  \nجعلوا قوائم الجرد الخاصة بهم آلية\n357 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word however in paragraph 2?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 358,
+      "sourceLine": 2,
+      "sourcePages": [
+        358
+      ],
+      "rawBlock": "Why does the writer use the word however in paragraph 2? \nto show that just in time systems are actually useful \nto explain the process of just in time systems \nto give an example of just in time systems \nto list the benefits of just in time systems \nولكن لماذا يستخدم الكاتب الكلمة في الفقرة2؟  \nلإظهار أن الأنظمة في الوقت المناسب مفيدة حقًا  \nلشرح عملية الأنظمة الزمنية فقط  \nلإعطاء مثال على الأنظمة الزمنية فقط  \nلسرد فوائد أنظمة الوقت فقط  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "Which word can we use to replace thus in paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 358,
+      "sourceLine": 14,
+      "sourcePages": [
+        358
+      ],
+      "rawBlock": "Which word can we use to replace thus in paragraph 1? \nParticularly \nHowever \nTherefore \nThough \nما هي الكلمة التي يمكننا استخدامها لتحل محل هكذا في الفقرة1؟  \nخصوصا  \nلكن  \nوبالتالي  \nعلى أية حال  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "How does the writer feel about the future of inventories?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 358,
+      "sourceLine": 27,
+      "sourcePages": [
+        358,
+        359
+      ],
+      "rawBlock": "How does the writer feel about the future of inventories? \nHe believes future inventories will cost more \nhe believes future inventories will require more forecasting \nhe believes future inventories will make customers happier \nhe believes future inventories will soon be smarter and fully automated \nكيف يشعر الكاتب تجاه مستقبل قوائم الجرد؟\n358 \nإنه يعتقد أن المخزونات المستقبلية ستكلف أكثر  \nيعتقد أن المخزونات المستقبلية ستتطلب المزيد من التنبؤ  \nيعتقد أن المخزونات المستقبلية ستجعل العملاء أكثر سعادة  \nبالكامل   آليةويعتقد أن عمليات الجرد المستقبلية ستصبح قريبًا أكثر ذكاءً  \nThe spinal cord \nالحبل الشوكي  \nمكرر في النموذج 19 لكن الاختيارات هنا في بعض الأسئلة مختلفة عن السابق  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "What helps information travel up and down the spine?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 359,
+      "sourceLine": 9,
+      "sourcePages": [
+        359,
+        360
+      ],
+      "rawBlock": "What helps information travel up and down the spine? \nThe brain \nneural paths \nthe air we breathe \nautomatic responses \nما الذي يساعد المعلومات على الانتقال صعودا وهبوطا في العمود الفقري؟  \nالدماغ \nالمسارات العصبية  \nالهواء الذي نتنفسه  \nالردود التلقائية \nThe word connecting in paragraph 1 is closest to meaning to ............................. \nAdding \nFeeling \nJoining \nMoving \nالكلمةالربط في الفقرة 1 هي الأقرب إلى المعنى ............................   \nمضيفا  \nإحساس  \nانضمام \nمتحرك\n359 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "According to paragraph two what finally makes you take your hand away from something hot?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 360,
+      "sourceLine": 3,
+      "sourcePages": [
+        360
+      ],
+      "rawBlock": "According to paragraph two what finally makes you take your hand away from something hot? \nNatural fear of pain \na single sensory neuron \nmotor neurons in arm muscles \nyour fingers touching a hot stove \nوفقًا للفقرة الثانية، ما الذي يجعلك أخيرًا تأخذ يدك بعيدًا عن شيء ساخن؟  \nخوف طبيعي من الألم  \nخلية عصبية حسية واحدة  \nالخلايا العصبية الحركية في عضلات الذراع  \nأصابعك تلمس موقد ساخن  \nنفس هذا السؤال في نم وذج 19 لكن الإجابةمختلفة فركزوا   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "What would your brain stop receiving information from the spinal cord?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 360,
+      "sourceLine": 14,
+      "sourcePages": [
+        360,
+        361
+      ],
+      "rawBlock": "What would your brain stop receiving information from the spinal cord? \nWhen the pain reflex pathway run through the spinal cord and out \nif an accident cut your spinal cord in two pieces \nif you stopped experiencing pleasure or pain \nwhen you were sleeping very heavily \nما الذي سيتوقف دماغك عن تلقي المعلومات من الحبل الشوكي؟  \nعندما يمر مسار منعكس الألم عبر الحبل الشوكي ويخرج  \nإذا تسبب حادث قطع الحبل الشوكي في قطعتين  \nإذا توقفت عن الشعور بالمتعة أو الألم  \nعندما كنت تنام بشدة  \nThe word flame in paragraph 3 is closest meaning to ........................ \nFire \nPain \nStove \nFeeling \nكلمة لهب في الفقرة3 هي الأقرب إلى .................\n360 \nنار \nالم  \nموقد \nشعور  \nThe word descending in Paragraph (1) is closest in meaning to ................ \nfalling \nrising \nmoving \nconnecting \nكلمة تنازلي في الفقرة1) هي الأقرب في المعنى إلى \nهبوط  \nارتفاع  \nمتحرك  \nتوصيل \nSnapchat ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What is the lowest country in using Snapchat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 361,
+      "sourceLine": 30,
+      "sourcePages": [
+        361,
+        362
+      ],
+      "rawBlock": "What is the lowest country in using Snapchat?\n361 \nUSA \nCanada \nFrance \nIndia \nما هي أدنى دولة في استخدام سناب شات؟   \nالولايات المتحدة الأمريكية  \nكندا \nفرنسا \nالهند ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What percentage of social media minutes did Indians spend using Snapchat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 362,
+      "sourceLine": 12,
+      "sourcePages": [
+        362
+      ],
+      "rawBlock": "What percentage of social media minutes did Indians spend using Snapchat? \n100% \n20% \n2% \n0% \nما النسبة المئوية للدقائق على مواقع التواصل الاجتماعي التي أمضاها الهنود في استخدامSnapchat؟ \n100 % \n20 % \n2 % \n0 % \nheat waves \nموجات حرارية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "what two things are needed to have jet stream winds?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 362,
+      "sourceLine": 24,
+      "sourcePages": [
+        362,
+        363
+      ],
+      "rawBlock": "what two things are needed to have jet stream winds? \nMonsoon rains and icy arctic air \nhot air from the tropics and the summer \nicy arctic air and hot air from the tropics \nmonsoon rains and hot air from the tropics \nما الشيئين المطلوبين لرياح التيار النفاث؟  \nأمطار موسمية وهواء القطب الشمالي الجليدي  \nالهواء الساخن من المناطق المدارية والصيف\n362 \nهواء القطب الشمالي الجليدي والهواء الساخن من المناطق المدارية  \nالأمطار الموسمية والهواء الساخن من المناطق المدارية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What two things could increase heat waves in European cities?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 363,
+      "sourceLine": 6,
+      "sourcePages": [
+        363
+      ],
+      "rawBlock": "What two things could increase heat waves in European cities? \nWildfires and pollution \ndraught and low usage of air conditioning \nWidespread flooding and carbon emissions \nThe urban heat island effect and more usage of air conditioning \nما هما الشيئان اللذان يمكن أن يزيدا من موجات الحر في المدن الأوروبية؟  \nحرائق الغابات والتلوث  \nمشروع وانخفاض استخدام تكييف الهواء  \nانتشار الفيضانات وانبعاثات الكربون  \nتأثير جزيرة الحرارة الحضرية والمزيد من استخدام تكييف الهواء  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "what are two ways Paris is fighting the heat wave?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 363,
+      "sourceLine": 18,
+      "sourcePages": [
+        363,
+        364
+      ],
+      "rawBlock": "what are two ways Paris is fighting the heat wave? \nBanning older cars in the city and using more air conditioning \nreducing carbon emissions and using plants to make more green space \nkeeping public swimming pools open later and reducing carbon emissions \nusing plants to make more greenspace and keeping public parks open all night \nما الطريقتان اللتان تقاوم بهما باريس موجة الحر؟  \nحظر السيارات الأقدم في المدينة واستخدام المزيد من أجهزة التكييف  \nتقليل انبعاثات الكربون واستخدام النباتات لخلق المزيد من المساحات الخضراء  \nفتح حمامات السباحة العامة لاحقًا وتقليل انبعاثات الكربون  \nاستخدام النباتات لإنشاء المزيد من المساحات الخضراء وإبقاء الحدائق العامة مفتوحة طوال الليل  \naggression in children\n363 \nعدوانية الأطفال ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "what word other than misbehave does the writer use for aggressive behavior?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 364,
+      "sourceLine": 3,
+      "sourcePages": [
+        364
+      ],
+      "rawBlock": "what word other than misbehave does the writer use for aggressive behavior? \nAct out \nAvoid \nDistract \ndeal with \nما هي الكلمة التي يستخدمها الكاتب في السلوك العدواني غير سوء التصرف؟  \nتصرف  \nتجنب  \nيصرف  \nالتعامل مع  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "Which of the following is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 364,
+      "sourceLine": 13,
+      "sourcePages": [
+        364
+      ],
+      "rawBlock": "Which of the following is a fact? \nPoor parenting is the cause of children's misbehavior \naggressive behavior is normal in young children \nParents often deal with the children's bad behavior well \nHurting animals is the most common aggressive behavior among children \nأي مما يلي حقيقة؟  \nالأبوة والأمومة السيئة هي سبب سوء سلوك الأطفال  \nالسلوك العدواني أمر طبيعي عند الأطفال الصغار  \nغالبًا ما يتعامل الآباء مع سلوك الأطفال السيئ جيدًا  \nإيذاء الحيوانات هو أكثر السلوكيات العدوانية شيوعًا بين الأطفال  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "How is the writer's view about children's bad behavior different from the parent's view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 364,
+      "sourceLine": 24,
+      "sourcePages": [
+        364,
+        365
+      ],
+      "rawBlock": "How is the writer's view about children's bad behavior different from the parent's view? \nThe writer believes that parents should plan to avoid bad behavior \nThe writer believes that parents should use their instincts to deal with bad behavior \nThe writer believes that parents should respond to bad behavior with threats and punishment \nThe writer believes that parents should ignore bad behavior \nكيف تختلف وجهة نظر الكاتب عن سلوك الأطفال السيئ عن وجهة نظر الوالدين؟  \nيعتقد الكاتب أن الآباء يجب أن يخططوا لتجنب السلوك السيئ  \nيعتقد الكاتب أنه يجب على الآباء استخدام غرائزهم للتعامل مع السلوك السيئ\n364 \nيعتقد الكاتب أنه يجب على الآباء الرد على السلوك السيئ بالتهديد والعقاب  \nيعتقد الكاتب أن الآباء يجب أن يتجاهلوا السلوك السيئ  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What can we understand about parents from Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 365,
+      "sourceLine": 5,
+      "sourcePages": [
+        365
+      ],
+      "rawBlock": "What can we understand about parents from Paragraph (3)? \nParents understand that children's bad behavior is normal. \nParents avoid being angry with or yelling at children. \nParents reward bad behavior. \nParents fail to deal with children's bad behavior appropriately. \nماذا يمكن أن نفهم عن الوالدين من الفقرة3)؟ \nيفهم الآباء أن سلوك الأطفال السيئ أمر طبيعي.  \nيتجنب الآباء الغضب من الأطفال أو الصراخ عليهم. \nيكافئ الآباء السلوك السيئ. \nفشل الآباء في التعامل مع سلوك الأطفال السيئ بشكل مناسب.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What can we understand about parents in Paragraph (5)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 365,
+      "sourceLine": 17,
+      "sourcePages": [
+        365,
+        366
+      ],
+      "rawBlock": "What can we understand about parents in Paragraph (5)? \nParents fail to prevent children's bad behavior. \nParents blame their children's friends for bad behavior. \nParents consider the causes of children's bad behavior. \nParents think schools should deal with children's bad behavior. \nما الذي يمكن أن نفهمه عن الوالدين في الفقرة5)؟ \nفشل الآباء في منع سلوك الأطفال السيئ.  \nيلوم الآباء أصدقاء أطفالهم على السلوك السيئ.  \nينظر الآباء في أسباب سلوك الأطفال السيئ.  \nيعتقد الآباء أن المدارس يجب أن تتعامل مع السلوك السيئ للأطفال.\n365 \nhuman anatomy and human Physiology \nعلم التشريح البشري وعلم وظائف الأعضاء ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "Which of the following best summarize anatomy and Physiology from passage A and B?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 366,
+      "sourceLine": 5,
+      "sourcePages": [
+        366
+      ],
+      "rawBlock": "Which of the following best summarize anatomy and Physiology from passage A and B? \nAnatomy involves cutting open bodies while Physiology uses lab experiments \nAnatomy is helpful for soldiers while Physiology is helpful for everyone \nThey both involve the study of neurophysiology \nThey both rely on cutting open bodies \nأي مما يلي يلخص بشكل أفضل علم التشريح ووظائف الأعضاء من المقطع أ و ب؟   \nيتضمن علم التشريح قطع الأجسام المفتوحة بينما يستخدم علم وظائف الأعضاء التجارب المعملية  \nعلم التشريح مفيد للجنود بينما علم وظائف الأعضاء مفيد للجميع  \nكلاهما يتضمن دراسة الفسيولوجيا العصبية  \nكلاهما يعتمد على قطع الأجسام المفتوحة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "What can be understood from the passage about the early period of anatomy and Physiology?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 366,
+      "sourceLine": 19,
+      "sourcePages": [
+        366
+      ],
+      "rawBlock": "What can be understood from the passage about the early period of anatomy and Physiology? \nAnatomy and Physiology both began 200 years ago \nPhysiology began in France while anatomy began in Greece \nPhysiology began over 200 years ago while anatomy began with observing wounded soldiers \nAnatomy was developed by Andreas Vesalius while Physiology was developed by Claude Bernard \nما الذي يمكن فهمه من المقطع عن الفترة المبكرة من علم التشريح وعلم وظائف الأعضاء؟  \nبدأ علم التشريح وعلم وظائف الأعضاء منذ 200 عام  \nبدأ علم وظائف الأعضاء في فرنسا بينما بدأ علم التشريح في اليونان  \nعام عندما بدأ علم التشريح بمراقبة الجنود الجرحى  200بدأ علم وظائف الأعضاء منذ أكثر من  \nتم تطوير علم التشريح بواسطة Andreas Vesalius بينما تم تطوير علم وظائف الأعضاء بواسطة كلود برنارد  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "According to passage A and B. it's important to know about anatomy and Physiology .................?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 366,
+      "sourceLine": 32,
+      "sourcePages": [
+        366,
+        367
+      ],
+      "rawBlock": "According to passage A and B. it's important to know about anatomy and Physiology .................?\n366 \nTo be able to treat disease \nTo be able to see cancer and find a cure \nTo know how organs work and to treat disease \nTo become a physiologist and a successful doctor \nوفقًا للفقرتين  أ و ب ، من المهم معرفة علم التشريح وعلم وظائف الأعضاء .................؟  \nلتكون قادرة على علاج المرض  \nأن تكون قادرًا على رؤية السرطان وإيجاد علاج له  \nالتعرف على كيفية عمل الأعضاء وعلاج الأمراض  \nأن يصبح فيزيائيًا وطبيبًا ناجحًا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-29-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "What do passages A and B say about the study of anatomy and Physiology?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 367,
+      "sourceLine": 12,
+      "sourcePages": [
+        367
+      ],
+      "rawBlock": "What do passages A and B say about the study of anatomy and Physiology? \nBoth mean to cut apart \nBoth involve the use of microscopes \nboth are about the body's structures \nBoth are taught at medical schools and high schools \nماذاتقول القطعتان عن دراسة علم التشريح وعلم وظائف الأعضاء؟  \nكلاهما يعني القطع  \nكلاهما يتضمن استخدام المجاهر  \nكلاهما يدور حول هياكل الجسم  \nيتم تدريس كلاهما في كليات الطب والمدارس الثانوية  \nBees   النحل \nمكرر",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "readingId": "reading-47",
+  "sourcePages": [
+    616,
+    617,
+    618,
+    619,
+    620,
+    621,
+    622,
+    623,
+    624,
+    625,
+    626,
+    627,
+    628,
+    629
+  ],
+  "sourcePageRange": {
+    "start": 616,
+    "end": 629
+  },
+  "visualQuestionReviewStatus": "not_started",
+  "firstReviewStatus": "not_started",
+  "secondReviewStatus": "not_started",
+  "questions": [],
+  "duplicateTechnicalRecordsRemoved": 0,
+  "reviewNotes": []
+}

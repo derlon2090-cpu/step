@@ -1,0 +1,677 @@
+{
+  "readingId": "reading-29",
+  "questions": [
+    {
+      "id": "reading-29-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "In 2016, how many disasters did Rubicon respond to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        354
+      ],
+      "sourceBlockIds": [
+        "page-354-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 322.73,
+        "x0": 14.16,
+        "x1": 300.2
+      }
+    },
+    {
+      "id": "reading-29-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "Where is Rubicon's head office?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        354
+      ],
+      "sourceBlockIds": [
+        "page-354-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 513.07,
+        "x0": 14.16,
+        "x1": 185.82
+      }
+    },
+    {
+      "id": "reading-29-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "From what country did team Rubicon cross into Haiti?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        354
+      ],
+      "sourceBlockIds": [
+        "page-354-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 774.94,
+        "x0": 14.16,
+        "x1": 298.81
+      }
+    },
+    {
+      "id": "reading-29-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one idea related to the Mongols that the writer mentions in paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        355
+      ],
+      "sourceBlockIds": [
+        "page-355-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 460.91,
+        "x0": 14.16,
+        "x1": 405.51
+      }
+    },
+    {
+      "id": "reading-29-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer mention Siberian Pines?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        356
+      ],
+      "sourceBlockIds": [
+        "page-356-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 368.81,
+        "x0": 14.16,
+        "x1": 253.55
+      }
+    },
+    {
+      "id": "reading-29-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        356
+      ],
+      "sourceBlockIds": [
+        "page-356-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 678.22,
+        "x0": 14.16,
+        "x1": 220.94
+      }
+    },
+    {
+      "id": "reading-29-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What does paragraph 1 say about inventories?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        357
+      ],
+      "sourceBlockIds": [
+        "page-357-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 299.69,
+        "x0": 14.16,
+        "x1": 262.76
+      }
+    },
+    {
+      "id": "reading-29-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What do firms do to avoid keeping higher than necessary inventories?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        357
+      ],
+      "sourceBlockIds": [
+        "page-357-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 561.55,
+        "x0": 14.16,
+        "x1": 384.71
+      }
+    },
+    {
+      "id": "reading-29-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the word however in paragraph 2?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        358
+      ],
+      "sourceBlockIds": [
+        "page-358-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.36,
+        "x0": 14.16,
+        "x1": 328.12
+      }
+    },
+    {
+      "id": "reading-29-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "Which word can we use to replace thus in paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        358
+      ],
+      "sourceBlockIds": [
+        "page-358-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 355.01,
+        "x0": 14.16,
+        "x1": 310.04
+      }
+    },
+    {
+      "id": "reading-29-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "How does the writer feel about the future of inventories?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        358
+      ],
+      "sourceBlockIds": [
+        "page-358-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 664.42,
+        "x0": 14.16,
+        "x1": 311.48
+      }
+    },
+    {
+      "id": "reading-29-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "What helps information travel up and down the spine?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        359
+      ],
+      "sourceBlockIds": [
+        "page-359-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 254.45,
+        "x0": 14.16,
+        "x1": 300.22
+      }
+    },
+    {
+      "id": "reading-29-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "According to paragraph two what finally makes you take your hand away from something hot?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        360
+      ],
+      "sourceBlockIds": [
+        "page-360-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 93.26,
+        "x0": 14.16,
+        "x1": 511.46
+      }
+    },
+    {
+      "id": "reading-29-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "What would your brain stop receiving information from the spinal cord?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        360
+      ],
+      "sourceBlockIds": [
+        "page-360-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 359.69,
+        "x0": 14.16,
+        "x1": 388.81
+      }
+    },
+    {
+      "id": "reading-29-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the lowest country in using Snapchat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        361
+      ],
+      "sourceBlockIds": [
+        "page-361-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 764.62,
+        "x0": 14.16,
+        "x1": 259.56
+      }
+    },
+    {
+      "id": "reading-29-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "What percentage of social media minutes did Indians spend using Snapchat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        362
+      ],
+      "sourceBlockIds": [
+        "page-362-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 307.49,
+        "x0": 14.16,
+        "x1": 424.15
+      }
+    },
+    {
+      "id": "reading-29-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "what two things are needed to have jet stream winds?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        362
+      ],
+      "sourceBlockIds": [
+        "page-362-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 606.79,
+        "x0": 14.16,
+        "x1": 300.2
+      }
+    },
+    {
+      "id": "reading-29-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "What two things could increase heat waves in European cities?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        363
+      ],
+      "sourceBlockIds": [
+        "page-363-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 164.66,
+        "x0": 14.16,
+        "x1": 349.5
+      }
+    },
+    {
+      "id": "reading-29-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "what are two ways Paris is fighting the heat wave?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        363
+      ],
+      "sourceBlockIds": [
+        "page-363-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 450.19,
+        "x0": 14.16,
+        "x1": 282.23
+      }
+    },
+    {
+      "id": "reading-29-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "what word other than misbehave does the writer use for aggressive behavior?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        364
+      ],
+      "sourceBlockIds": [
+        "page-364-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 100.1,
+        "x0": 14.16,
+        "x1": 426.89
+      }
+    },
+    {
+      "id": "reading-29-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following is a fact?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        364
+      ],
+      "sourceBlockIds": [
+        "page-364-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 338.09,
+        "x0": 14.16,
+        "x1": 182.17
+      }
+    },
+    {
+      "id": "reading-29-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "How is the writer's view about children's bad behavior different from the parent's view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        364
+      ],
+      "sourceBlockIds": [
+        "page-364-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 599.95,
+        "x0": 14.16,
+        "x1": 471.83
+      }
+    },
+    {
+      "id": "reading-29-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about parents from Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        365
+      ],
+      "sourceBlockIds": [
+        "page-365-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 140.78,
+        "x0": 14.16,
+        "x1": 334.87
+      }
+    },
+    {
+      "id": "reading-29-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand about parents in Paragraph (5)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        365
+      ],
+      "sourceBlockIds": [
+        "page-365-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 451.27,
+        "x0": 14.16,
+        "x1": 320.16
+      }
+    },
+    {
+      "id": "reading-29-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following best summarize anatomy and Physiology from passage A and B?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        366
+      ],
+      "sourceBlockIds": [
+        "page-366-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 141.5,
+        "x0": 14.16,
+        "x1": 481.49
+      }
+    },
+    {
+      "id": "reading-29-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "What can be understood from the passage about the early period of anatomy and Physiology?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        366
+      ],
+      "sourceBlockIds": [
+        "page-366-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 474.79,
+        "x0": 14.16,
+        "x1": 514.07
+      }
+    },
+    {
+      "id": "reading-29-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "According to passage A and B. it's important to know about anatomy and Physiology .................?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        366
+      ],
+      "sourceBlockIds": [
+        "page-366-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 784.18,
+        "x0": 14.16,
+        "x1": 528.47
+      }
+    },
+    {
+      "id": "reading-29-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "What do passages A and B say about the study of anatomy and Physiology?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        367
+      ],
+      "sourceBlockIds": [
+        "page-367-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 307.49,
+        "x0": 14.16,
+        "x1": 420.82
+      }
+    }
+  ]
+}

@@ -1,0 +1,821 @@
+{
+  "readingId": "reading-23",
+  "questions": [
+    {
+      "id": "reading-23-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one negative effect of taking too much sodium?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        279
+      ],
+      "sourceBlockIds": [
+        "page-279-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 176.97,
+        "x0": 14.16,
+        "x1": 358.04
+      }
+    },
+    {
+      "id": "reading-23-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "Why is vitamin K needed in the body?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        279
+      ],
+      "sourceBlockIds": [
+        "page-279-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 379.56,
+        "x0": 14.16,
+        "x1": 248.49
+      }
+    },
+    {
+      "id": "reading-23-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "Who can introduce a bill?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        281
+      ],
+      "sourceBlockIds": [
+        "page-281-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 393.24,
+        "x0": 14.16,
+        "x1": 171.39
+      }
+    },
+    {
+      "id": "reading-23-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "Who has the power to veto a bill?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        281
+      ],
+      "sourceBlockIds": [
+        "page-281-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 615.41,
+        "x0": 14.16,
+        "x1": 221.15
+      }
+    },
+    {
+      "id": "reading-23-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "Who must approve a bill before the president approves it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        282
+      ],
+      "sourceBlockIds": [
+        "page-282-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 88.17,
+        "x0": 14.16,
+        "x1": 372.92
+      }
+    },
+    {
+      "id": "reading-23-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "what is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        282
+      ],
+      "sourceBlockIds": [
+        "page-282-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 357.0,
+        "x0": 14.16,
+        "x1": 252.36
+      }
+    },
+    {
+      "id": "reading-23-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "what is one important idea related to data mining that the writer mentions in paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        282
+      ],
+      "sourceBlockIds": [
+        "page-282-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 579.14,
+        "x0": 14.16,
+        "x1": 567.43
+      }
+    },
+    {
+      "id": "reading-23-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea related to data mining that the writer mentions in paragraph 2?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        283
+      ],
+      "sourceBlockIds": [
+        "page-283-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.16,
+        "x1": 570.72
+      }
+    },
+    {
+      "id": "reading-23-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "what point does the writer want to support with the example of buying using a credit card?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        283
+      ],
+      "sourceBlockIds": [
+        "page-283-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 310.32,
+        "x0": 14.16,
+        "x1": 568.89
+      }
+    },
+    {
+      "id": "reading-23-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "how can migration positively impact migrants?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        283
+      ],
+      "sourceBlockIds": [
+        "page-283-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 585.14,
+        "x0": 14.16,
+        "x1": 299.65
+      }
+    },
+    {
+      "id": "reading-23-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What's one negative effect of migration?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        284
+      ],
+      "sourceBlockIds": [
+        "page-284-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.16,
+        "x1": 263.51
+      }
+    },
+    {
+      "id": "reading-23-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "The word employment in paragraph 4 is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        284
+      ],
+      "sourceBlockIds": [
+        "page-284-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 310.32,
+        "x0": 14.16,
+        "x1": 463.05
+      }
+    },
+    {
+      "id": "reading-23-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "The word assistance in paragraph 3 is closest to meaning to ..................?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        284
+      ],
+      "sourceBlockIds": [
+        "page-284-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 551.06,
+        "x0": 14.16,
+        "x1": 468.47
+      }
+    },
+    {
+      "id": "reading-23-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "what percentage of people used their smart watch in the last day?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        285
+      ],
+      "sourceBlockIds": [
+        "page-285-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 492.14,
+        "x0": 14.16,
+        "x1": 421.74
+      }
+    },
+    {
+      "id": "reading-23-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "Which device has everyone used at least one?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        285
+      ],
+      "sourceBlockIds": [
+        "page-285-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 695.81,
+        "x0": 14.16,
+        "x1": 303.65
+      }
+    },
+    {
+      "id": "reading-23-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "What two other names did Democratic Republic of Congo use after independence in 1960?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        286
+      ],
+      "sourceBlockIds": [
+        "page-286-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 256.68,
+        "x0": 14.16,
+        "x1": 578.4
+      }
+    },
+    {
+      "id": "reading-23-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What are the names of two important state systems from the 15th to the 17th centuries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        286
+      ],
+      "sourceBlockIds": [
+        "page-286-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 478.82,
+        "x0": 14.16,
+        "x1": 557.92
+      }
+    },
+    {
+      "id": "reading-23-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "What crimes did the King Leopold's Force Republic commit?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        286
+      ],
+      "sourceBlockIds": [
+        "page-286-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 701.09,
+        "x0": 14.16,
+        "x1": 387.88
+      }
+    },
+    {
+      "id": "reading-23-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "The word Conventional in paragraph 1 is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        287
+      ],
+      "sourceBlockIds": [
+        "page-287-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 285.12,
+        "x0": 14.16,
+        "x1": 468.47
+      }
+    },
+    {
+      "id": "reading-23-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "The word Alternatives in paragraph 1 is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        287
+      ],
+      "sourceBlockIds": [
+        "page-287-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 488.78,
+        "x0": 14.16,
+        "x1": 459.93
+      }
+    },
+    {
+      "id": "reading-23-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "The word Introduces in paragraph 2 is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        287
+      ],
+      "sourceBlockIds": [
+        "page-287-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 692.57,
+        "x0": 14.16,
+        "x1": 452.0
+      }
+    },
+    {
+      "id": "reading-23-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "The word therefore in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        288
+      ],
+      "sourceBlockIds": [
+        "page-288-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 184.17,
+        "x0": 14.4,
+        "x1": 431.55
+      }
+    },
+    {
+      "id": "reading-23-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the country with the highest marriage rate in 2014?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        288
+      ],
+      "sourceBlockIds": [
+        "page-288-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 556.7,
+        "x0": 14.16,
+        "x1": 379.83
+      }
+    },
+    {
+      "id": "reading-23-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the country with the lowest divorce rate?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        288
+      ],
+      "sourceBlockIds": [
+        "page-288-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 669.41,
+        "x0": 14.4,
+        "x1": 314.65
+      }
+    },
+    {
+      "id": "reading-23-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "what was the birth rate in Saudi Arabia in 2015?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        289
+      ],
+      "sourceBlockIds": [
+        "page-289-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 164.01,
+        "x0": 14.16,
+        "x1": 311.56
+      }
+    },
+    {
+      "id": "reading-23-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "what year was the highest birth rate in Saudi Arabia?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        289
+      ],
+      "sourceBlockIds": [
+        "page-289-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 341.16,
+        "x0": 14.16,
+        "x1": 341.71
+      }
+    },
+    {
+      "id": "reading-23-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "The word identify in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        289
+      ],
+      "sourceBlockIds": [
+        "page-289-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 600.74,
+        "x0": 14.4,
+        "x1": 419.75
+      }
+    },
+    {
+      "id": "reading-23-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "The word vacant in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        289
+      ],
+      "sourceBlockIds": [
+        "page-289-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 697.37,
+        "x0": 14.4,
+        "x1": 416.67
+      }
+    },
+    {
+      "id": "reading-23-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "The word major in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        289
+      ],
+      "sourceBlockIds": [
+        "page-289-line-33"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 777.76,
+        "x0": 14.4,
+        "x1": 410.45
+      }
+    },
+    {
+      "id": "reading-23-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "The word dissolution in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        290
+      ],
+      "sourceBlockIds": [
+        "page-290-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 134.01,
+        "x0": 14.4,
+        "x1": 441.47
+      }
+    },
+    {
+      "id": "reading-23-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "The word legitimate in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        290
+      ],
+      "sourceBlockIds": [
+        "page-290-line-10"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 214.53,
+        "x0": 14.4,
+        "x1": 435.22
+      }
+    },
+    {
+      "id": "reading-23-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "The word impure in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        290
+      ],
+      "sourceBlockIds": [
+        "page-290-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 294.96,
+        "x0": 14.4,
+        "x1": 418.22
+      }
+    },
+    {
+      "id": "reading-23-q33",
+      "displayOrder": 33,
+      "sourceQuestionNumber": null,
+      "questionText": "The word rate in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        290
+      ],
+      "sourceBlockIds": [
+        "page-290-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 375.48,
+        "x0": 14.4,
+        "x1": 399.49
+      }
+    },
+    {
+      "id": "reading-23-q34",
+      "displayOrder": 34,
+      "sourceQuestionNumber": null,
+      "questionText": "The word shift in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        290
+      ],
+      "sourceBlockIds": [
+        "page-290-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 456.02,
+        "x0": 14.4,
+        "x1": 401.05
+      }
+    }
+  ]
+}

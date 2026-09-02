@@ -1,0 +1,1404 @@
+{
+  "readingId": "reading-20",
+  "sourceQuestionBlocks": 18,
+  "questions": [
+    {
+      "id": "reading-20-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What is the main idea of the passage? A short history of Berlin Wall",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 232,
+      "sourceLine": 15,
+      "sourcePages": [
+        232
+      ],
+      "rawBlock": "What is the main idea of the passage? A short history of Berlin Wall  \nتاريخ جدار برلينما هو العنوان المناسب للقطعة؟   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 232,
+      "sourceLine": 19,
+      "sourcePages": [
+        232
+      ],
+      "rawBlock": "Which sentence gives the main idea of Paragraph?  \nThis was the beginning of the Berlin wall \nما الجملة التي تعطي الفكرة الرئيسية للفقرة؟ \nكانت هذه بداية جدار برلين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "What does paragraph 1 say about the actions of the East German Porter guards?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 232,
+      "sourceLine": 26,
+      "sourcePages": [
+        232,
+        233
+      ],
+      "rawBlock": "What does paragraph 1 say about the actions of the East German Porter guards? \nThey closed most of the streets on the border\n232 \nماذا تقول الفقرة1 عن تصرفات حراس بورتر من ألمانيا الشرقية؟ \nأغلقوا معظم الشوارع على الحدود  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "Which of the following statements does paragraph support?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 233,
+      "sourceLine": 6,
+      "sourcePages": [
+        233
+      ],
+      "rawBlock": "Which of the following statements does paragraph support?  \nWest Germany was richer than East Germany. \nأي من العبارات التالية تدعم الفقرة؟  \nكانت ألمانيا الغربية أغنى من ألمانيا الشرقية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What is the main idea of the second paragraph? 5000 crossed over the wall.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 233,
+      "sourceLine": 12,
+      "sourcePages": [
+        233
+      ],
+      "rawBlock": "What is the main idea of the second paragraph? 5000 crossed over the wall. \nما هي الفكرة الرئيسية للفقرة الثانية؟5000 خمسة آلاف هربوا عبر الجدار        ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What does paragraph 4 say about the wall between East and West?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 233,
+      "sourceLine": 16,
+      "sourcePages": [
+        233,
+        234
+      ],
+      "rawBlock": "What does paragraph 4 say about the wall between East and West?      \nIt was 112km long  \nlong km 551 It was \nIt was made of concrete \nIt was made of wire fencing \nماذا تقول الفقرة الرابعة عن الجدار الفاصل بين الشرق والغرب؟ \nكان طوله  112 كم \nكان طوله  155 كم \nكانت مصنوعة من الخرسانة \nكانت مصنوعة من سياج سلكي\n233 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "What is the last paragraph about? The fall, when it came, was quick",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 234,
+      "sourceLine": 4,
+      "sourcePages": [
+        234
+      ],
+      "rawBlock": "What is the last paragraph about? The fall, when it came, was quick  \nالسقوط كان سريعاالقطعة الأخيرة كانت عن؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "Why did the build the wall? To separate East German from West German",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 234,
+      "sourceLine": 7,
+      "sourcePages": [
+        234
+      ],
+      "rawBlock": "Why did the build the wall? To separate East German from West German  \nلفصل ألمانيا الشرقية عن ألمانيا الغربيةلماذا بنوا الجدار؟   \nالسرد والقصة Narration \nالقطعة تتكلم عن السرد بالقصة وممكن تكون حقيقة أو خيال وأنواع القصص وشكلها وتنظيمها والصراعات والفكرة الرئيسية \n about the narration of the story and may be fact or fiction, types of stories, their style, \ncohesion, conflicts and the main idea. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "To inform What is the writer purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 234,
+      "sourceLine": 19,
+      "sourcePages": [
+        234
+      ],
+      "rawBlock": "To inform What is the writer purpose? \nما هو هدف الكاتب؟ لكي يعلم ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "written short story-The characteristics of a wellWhat is the main idea in paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 234,
+      "sourceLine": 24,
+      "sourcePages": [
+        234,
+        235
+      ],
+      "rawBlock": "written short story-The characteristics of a wellWhat is the main idea in paragraph?  \nما هي الفكرة الرئيسية في الفقرة؟ خصائص القصة القصيرة المكتوبة جيدًا\n234 \nالتسوق عبر الانترنت Online Shopping ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "63% 62% How many Mexican Internet users purchased a product online last month?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 235,
+      "sourceLine": 26,
+      "sourcePages": [
+        235
+      ],
+      "rawBlock": "63%        62% How many Mexican Internet users purchased a product online last month? \nكم عدد مستخدمي الإنترنت المكسيكيين الذين اشتروا منتجًا عبر الإنترنت الشهر الماضي؟ 62%              36%            ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "Which country made the highest percentage of purchases online last month? China",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 235,
+      "sourceLine": 31,
+      "sourcePages": [
+        235,
+        236
+      ],
+      "rawBlock": "Which country made the highest percentage of purchases online last month? China \nالصينما الدولة التي قامت بأعلى نسبة عمليات شراء عبر الإنترنت الشهر الماضي؟\n235 \nاعاصير Hurricanes ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "What was the cost of hurricane damage in 1928? $97.70 billion",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 236,
+      "sourceLine": 21,
+      "sourcePages": [
+        236
+      ],
+      "rawBlock": "What was the cost of hurricane damage in 1928? $97.70 billion \nمليار دولار 97.70؟1928ما هي تكلفة أضرار الإعصار في عام  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "In which year was the cost of hurricane damage the highest? 2017",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 236,
+      "sourceLine": 28,
+      "sourcePages": [
+        236
+      ],
+      "rawBlock": "In which year was the cost of hurricane damage the highest? 2017 \n2017في أي عام كانت تكلفة أضرار الإعصار الأعلى؟   \nالكثافة السكانية Population \nAmericanWhat nationality was Louis Sullivan?  \nما جنسية لويس سوليفان؟أمريكي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "1700sWhen did population levels begin to increase very quickly?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 236,
+      "sourceLine": 43,
+      "sourcePages": [
+        236,
+        237
+      ],
+      "rawBlock": "1700sWhen did population levels begin to increase very quickly?  \nمتى بدأت مستويات السكان في الزيادة بسرعة كبيرة؟1700s\n236 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "DiseaseWhat do microbes cause?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 237,
+      "sourceLine": 3,
+      "sourcePages": [
+        237
+      ],
+      "rawBlock": "DiseaseWhat do microbes cause?  \nماذا تسبب الميكروبات؟مرض  \nGeorges HaussmannWho rebuilt parts of Paris in the 1800s?  \nمن أعاد بناء أجزاء من باريس في القرن التاسع عشر؟جورج هوسمان  \nالبكتيريا Bacteria  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "Diseases What do bacteria cause?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 237,
+      "sourceLine": 12,
+      "sourcePages": [
+        237
+      ],
+      "rawBlock": "Diseases What do bacteria cause? \nماذا تسبب البكتيريا؟ الأمراض   \nالتذوق والشم Taste and Smell   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What can we understand from Passages A and B about both taste and smell?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 237,
+      "sourceLine": 16,
+      "sourcePages": [
+        237
+      ],
+      "rawBlock": "What can we understand from Passages A and B about both taste and smell? \nThey both involve the use of receptor cells \nما الذي يمكن أن نفهمه من المقاطعA  وB عن كل من الطعم والرائحة؟ \nكلاهما ينطوي على استخدام الخلايا المستقبلة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What do the passages say about the receptor cells involved in taste and smell?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 237,
+      "sourceLine": 24,
+      "sourcePages": [
+        237
+      ],
+      "rawBlock": "What do the passages say about the receptor cells involved in taste and smell? \nThe receptor cells involved in smell are a lot more than those involved in taste. \nماذا تقول المقاطع عن خلايا المستقبل التي تشارك في الذوق والشم؟ \nإن الخلايا المستقبلة التي تدخل في حاسة الشم هي أكثر بكثير من تلك التي تشارك في الذوق.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "According to the passages, why are taste and smell important for us to enjoy food?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 237,
+      "sourceLine": 30,
+      "sourcePages": [
+        237,
+        238
+      ],
+      "rawBlock": "According to the passages, why are taste and smell important for us to enjoy food?\n237 \n.Both senses interact to create flavors \nحسبالمقاطع، لماذا يعتبر التذوق والشم مهمين بالنسبة لنا للاستمتاع بالطعام؟  \nكلا الحواس تتفاعل لخلق النكهات.  \nThe World Economic  \n الاقتصاد العالمي   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "Who is America's leading export partner? Canada",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 238,
+      "sourceLine": 10,
+      "sourcePages": [
+        238
+      ],
+      "rawBlock": "Who is America's leading export partner? Canada  \nكندامن هو الشريك الرئيسي لأمريكا في التصدير؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "What was the percentage of the Euro area economy decline in 2009? 3.9 percent",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 238,
+      "sourceLine": 13,
+      "sourcePages": [
+        238
+      ],
+      "rawBlock": "What was the percentage of the Euro area economy decline in 2009? 3.9 percent  \nفي المئة 3.9؟2009ما هي النسبة المئوية لتراجع اقتصاد منطقة اليورو في عام  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "When did the worldwide recession begin? in 2007",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 238,
+      "sourceLine": 16,
+      "sourcePages": [
+        238
+      ],
+      "rawBlock": "When did the worldwide recession begin? in 2007  \n2007متى بدأ الركود العالمي؟ في  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What was China's total world trade share in 2003? 6 percent",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 238,
+      "sourceLine": 19,
+      "sourcePages": [
+        238,
+        239
+      ],
+      "rawBlock": "What was China's total world trade share in 2003? 6 percent  \nبالمائة 6؟2003ما هو إجمالي حصة التجارة العالمية للصين في عام\n238 \nThe Development of Law القانون  تطور \nHistorical Origins of Law الأصول التاريخية للقانون  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What is the writer's main purpose in the passage? To explain",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 239,
+      "sourceLine": 4,
+      "sourcePages": [
+        239
+      ],
+      "rawBlock": "What is the writer's main purpose in the passage? To explain \nلشرحما هو الهدف الرئيسي للكاتب في المقطع؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 239,
+      "sourceLine": 7,
+      "sourcePages": [
+        239
+      ],
+      "rawBlock": "What is one important idea that the writer mentions? \nCommon law is based on tradition and custom \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب؟  \nيقوم القانون العام على التقاليد والعرف  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 239,
+      "sourceLine": 13,
+      "sourcePages": [
+        239
+      ],
+      "rawBlock": "What is one important idea that the writer mentions? \nthat civil law is more common than common law  \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب؟  \nأن القانون المدني أكثر شيوعًا من القانون العام  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 239,
+      "sourceLine": 18,
+      "sourcePages": [
+        239
+      ],
+      "rawBlock": "What is one important idea that the writer mentions? \nthat civil law is based on written constitutions and codes \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب؟  \nأن القانون المدني يستند إلى دساتير وقوانين مكتوبة  \nPlanes Crashes طائراتال  تحطم   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "evaluate / consider ?\"judge\"What are two words the writer uses to mean",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 239,
+      "sourceLine": 25,
+      "sourcePages": [
+        239,
+        240
+      ],
+      "rawBlock": "evaluate / consider ?\"judge\"What are two words the writer uses to mean  \nماالكلمتان اللتان يستخدمهما الكاتب ليعني القاضي؟  تقييم / النظر\n239 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "determine / calculateout? findWhat are two words that the writer uses to mean,",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 240,
+      "sourceLine": 3,
+      "sourcePages": [
+        240
+      ],
+      "rawBlock": "determine / calculateout?  findWhat are two words that the writer uses to mean,  \nما الكلمتان اللتان يستخدمهما الكاتب ليعني\"اكتشف \"؟  تحديد / حساب  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "How is the writer's view about plane crash risk different from the general belief?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 240,
+      "sourceLine": 9,
+      "sourcePages": [
+        240
+      ],
+      "rawBlock": "How is the writer's view about plane crash risk different from the general belief? \nIt depends on individual flying habits. \nكيف تختلف وجهة نظر الكاتب حول خطر تحطم الطائرة عن الاعتقاد العام؟ \nالأمر يعتمد على عادات الطيران الفردية.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "According to the passage, which of the following is a fact about most plane crashes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 240,
+      "sourceLine": 16,
+      "sourcePages": [
+        240
+      ],
+      "rawBlock": "According to the passage, which of the following is a fact about most plane crashes? \ng. They happen during takeoff and landin \nوفقًاللفقرة، أي مما يلي يمثل حقيقة عن معظم حوادث تحطم الطائرات؟  \nتحدث أثناء الإقلاع والهبوط  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "What can we understand from the passage about airplane crashes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 240,
+      "sourceLine": 22,
+      "sourcePages": [
+        240
+      ],
+      "rawBlock": "What can we understand from the passage about airplane crashes? \ndistance fliers.-the risk of crashing is biggest for frequent, long \nماذا يمكن أن نفهم من المقطع عن حوادث الطائرات؟ \nيكون خطر الاصطدام أكبر بالنسبة للمسافات الطويلة والمتكررة.  \nCorporations الشركات    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q34",
+      "order": 34,
+      "questionNumber": null,
+      "questionText": "profit and business corporations-nonWhat are the two main types of corporations?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 240,
+      "sourceLine": 31,
+      "sourcePages": [
+        240,
+        241
+      ],
+      "rawBlock": "profit and business corporations-nonWhat are the two main types of corporations?  \nما هما النوعان الرئيسيان للشركات؟الشركات غير الربحية والتجارية\n240 \nshareholders and directorsWhich people must meet at least once a year?  \nمن هم الأشخاص الذين يجب أن يجتمعوا مرة واحدة على الأقل في السنة؟المساهمين والمديرين  \nاستكشاف جسم الإنسان Exploring the Human Body   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q35",
+      "order": 35,
+      "questionNumber": null,
+      "questionText": "What was the main reason Galen made mistakes in his writing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 241,
+      "sourceLine": 11,
+      "sourcePages": [
+        241
+      ],
+      "rawBlock": "What was the main reason Galen made mistakes in his writing? \nHe had little information about human anatomy \nما هو السبب الرئيسي وراء أخطاء جالينوس في كتابته؟ \nكان لديه القليل من المعلومات حول علم التشريح البشري  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q36",
+      "order": 36,
+      "questionNumber": null,
+      "questionText": "How was Vesalius able get dead bodies for his research?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 241,
+      "sourceLine": 17,
+      "sourcePages": [
+        241
+      ],
+      "rawBlock": "How was Vesalius able get dead bodies for his research? \nHis friends in local government allowed him \nكيف استطاع فيزاليوس الحصول على جثث لأبحاثه؟ \nسمح له أصدقاؤه في الحكومة المحلية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q37",
+      "order": 37,
+      "questionNumber": null,
+      "questionText": "What is one reason new discoveries were possible after the 1600s?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 241,
+      "sourceLine": 24,
+      "sourcePages": [
+        241
+      ],
+      "rawBlock": "What is one reason new discoveries were possible after the 1600s? \nLeeuwenhoek developed a better microscope \nما هو أحد أسباب ظهور الاكتشافات الجديدة بعد القرن السابع عشر؟ \nطور Leeuwenhoek مجهرًا أفضل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q38",
+      "order": 38,
+      "questionNumber": null,
+      "questionText": "orrectC ?aragraph is closest in meaning topThe word accurate in",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 241,
+      "sourceLine": 31,
+      "sourcePages": [
+        241
+      ],
+      "rawBlock": "orrectC ?aragraph is closest in meaning topThe word accurate in  \nكلمة دقيقة في الفقرة هي الأقرب في المعنى؟  صحيح  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q39",
+      "order": 39,
+      "questionNumber": null,
+      "questionText": "eganB ?aragraph is closest in meaning topThe word introduced in",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 241,
+      "sourceLine": 35,
+      "sourcePages": [
+        241
+      ],
+      "rawBlock": "eganB ?aragraph is closest in meaning topThe word introduced in  \nالكلمةقدم في الفقرة هي الأقرب في المعنى؟ بدأ  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q40",
+      "order": 40,
+      "questionNumber": null,
+      "questionText": "adeM ?aragraph is closest in meaning topThe word invented in",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 241,
+      "sourceLine": 40,
+      "sourcePages": [
+        241,
+        242
+      ],
+      "rawBlock": "adeM ?aragraph is closest in meaning topThe word invented in  \nكلمة اخترع في الفقرة هي الأقرب في المعنى؟صنع\n241 \nLoss of Energy فقدان الطاقة  \nTo informWhat's the writer's main purpose?  \nما هو الهدف الرئيسي للكاتب؟ لكي يخبر  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q41",
+      "order": 41,
+      "questionNumber": null,
+      "questionText": "What is one important point that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 242,
+      "sourceLine": 11,
+      "sourcePages": [
+        242
+      ],
+      "rawBlock": "What is one important point that the writer mentions?  \nThat moving one surface against another causes energy waste.  \nما هي النقطة المهمة التي ذكرها الكاتب؟  \nأن تحريك سطح ضد آخر يؤدي إلى إهدار الطاقة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q42",
+      "order": 42,
+      "questionNumber": null,
+      "questionText": "What is one important point that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 242,
+      "sourceLine": 16,
+      "sourcePages": [
+        242
+      ],
+      "rawBlock": "What is one important point that the writer mentions? \nThat LED lights save energy more than other lamps. \nما هي النقطة المهمة التي ذكرها الكاتب؟  \nتوفر مصابيح الليد الطاقة أكثر من المصابيح الأخرى   \nChanges in Agriculture التغييرات في الزراعة  \nالتخصيب fertilization ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q43",
+      "order": 43,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the word while in paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 242,
+      "sourceLine": 26,
+      "sourcePages": [
+        242,
+        243
+      ],
+      "rawBlock": "Why does the writer use the word while in paragraph?  \nto show that artificial fertilizers are more popular \nلماذا يستخدم الكاتب الكلمة في الفقرة؟ \nلإثبات أن الأسمدة الصناعية أكثر شيوعًا\n242 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q44",
+      "order": 44,
+      "questionNumber": null,
+      "questionText": "What does paragraph say about the green revolution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 243,
+      "sourceLine": 2,
+      "sourcePages": [
+        243
+      ],
+      "rawBlock": "What does paragraph say about the green revolution? \nIt started with new seeds and fertilizers \nماذا تقول الفقرة عن الثورة الخضراء؟ \nبدأت ببذور وأسمدة جديدة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q45",
+      "order": 45,
+      "questionNumber": null,
+      "questionText": "How did some countries become exporters of food?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 243,
+      "sourceLine": 8,
+      "sourcePages": [
+        243
+      ],
+      "rawBlock": "How did some countries become exporters of food? \nThey used enhanced farming techniques and crop yields. \nكيف أصبحت بعض الدول مصدرة للغذاء؟ \nاستخدموا تقنيات الزراعة المحسنة وغلات المحاصيل.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q46",
+      "order": 46,
+      "questionNumber": null,
+      "questionText": "Why was the green revolution important?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 243,
+      "sourceLine": 14,
+      "sourcePages": [
+        243
+      ],
+      "rawBlock": "Why was the green revolution important? \nIt helped end hunger in many countries \nلماذا كانت الثورة الخضراء مهمة؟ \nلقد ساعد في القضاء على الجوع في العديد من البلدان  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q47",
+      "order": 47,
+      "questionNumber": null,
+      "questionText": "How does over fertilization affect plants?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 243,
+      "sourceLine": 20,
+      "sourcePages": [
+        243
+      ],
+      "rawBlock": "How does over fertilization affect plants?  \nIt can destroy plants \nكيف يؤثر الإخصاب الزائد على النباتات؟ \nيمكن أن تدمر النباتات  \nStructuralist psychologists \nالفلاسفة أفلاطون وأرسطو  The philosophers Plato and Aristotle ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q48",
+      "order": 48,
+      "questionNumber": null,
+      "questionText": "What two theories about human knowledge did Plato and Descartes develop?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 243,
+      "sourceLine": 32,
+      "sourcePages": [
+        243,
+        244
+      ],
+      "rawBlock": "What two theories about human knowledge did Plato and Descartes develop? \nfree will and duality                             free will and nature \nما هي نظريتان حول المعرفة البشرية طورهما أفلاطون وديكارت؟  \nالإرادة الحرة والطبيعة                              الإرادة الحرة والازدواجية\n243 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q49",
+      "order": 49,
+      "questionNumber": null,
+      "questionText": "body and mind What does Descartes' principle of duality deal with?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 244,
+      "sourceLine": 4,
+      "sourcePages": [
+        244
+      ],
+      "rawBlock": "body and mind What does Descartes' principle of duality deal with? \nما الذي يتعامل معه مبدأ ديكارت للازدواجية؟الجسد وال عقل ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q50",
+      "order": 50,
+      "questionNumber": null,
+      "questionText": "What three examples did the structuralists use to explain introspection?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 244,
+      "sourceLine": 10,
+      "sourcePages": [
+        244
+      ],
+      "rawBlock": "What three examples did the structuralists use to explain introspection? \nViewing colors, reading a book and performing a math problem.  \nViewing colors, drawing a picture and hearing a sound \nما هي الأمثلة الثلاثة التي استخدمها البنيويون لشرح الاستبطان؟ \nمشاهدة الألوان وقراءة كتاب وحل مسألة حسابية.  \nمشاهدة الألوان ورسم صورة وسماع صوت  \nموطن الحيوانات Animal Habitats ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q51",
+      "order": 51,
+      "questionNumber": null,
+      "questionText": "What does paragraph say about the natural world?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 244,
+      "sourceLine": 25,
+      "sourcePages": [
+        244
+      ],
+      "rawBlock": "What does paragraph say about the natural world? \nAnimals can match humans in creating structures \nماذا تقول الفقرة عن العالم الطبيعي؟ \nيمكن للحيوانات أن تتطابق مع البشر في إنشاء الهياكل  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q52",
+      "order": 52,
+      "questionNumber": null,
+      "questionText": "Which of the following statements about building behavior does paragraph support?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 244,
+      "sourceLine": 31,
+      "sourcePages": [
+        244
+      ],
+      "rawBlock": "Which of the following statements about building behavior does paragraph support? \nThere are different ways animals learn to build. \nأي من العبارات التالية حول سلوك البناء تدعمه الفقرة؟ \nهناك طرق مختلفة لتعلم الحيوانات البناء.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q53",
+      "order": 53,
+      "questionNumber": null,
+      "questionText": "What does paragraph reveal about animal constructions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 244,
+      "sourceLine": 37,
+      "sourcePages": [
+        244,
+        245
+      ],
+      "rawBlock": "What does paragraph reveal about animal constructions? \nThe constructions have many purposes. \nماذا تكشف الفقرة عن الإنشاءات الحيوانية؟ \nالإنشاءات لها أغراض كثيرة.\n244 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q54",
+      "order": 54,
+      "questionNumber": null,
+      "questionText": "Which sentence gives the main idea of paragraph 5?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 245,
+      "sourceLine": 2,
+      "sourcePages": [
+        245
+      ],
+      "rawBlock": "Which sentence gives the main idea of paragraph 5? \nComplex builds are often undertaken as a group, which helps speed up construction time. \nما الجملة التي تعطي الفكرة الرئيسية للفقرة5؟ \nغالبًا ما يتم تنفيذ الإنشاءات المعقدة كمجموعة،  مما يساعد على تسريع وقت البناء.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q55",
+      "order": 55,
+      "questionNumber": null,
+      "questionText": "aragraph 5 is correct?pWhich statement about animal architecture in",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 245,
+      "sourceLine": 9,
+      "sourcePages": [
+        245
+      ],
+      "rawBlock": "aragraph 5 is correct?pWhich statement about animal architecture in  \nAnts build their cities in groups. \nما العبارة الصحيحة حول العمارة الحيوانية في الفقرة5؟ \nيبني النمل مدنهم في مجموعات.  \nخشب النانو Nanowood ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q56",
+      "order": 56,
+      "questionNumber": null,
+      "questionText": "What is one negative effect of Styrofoam? It has chemicals that may lead to cancer.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 245,
+      "sourceLine": 20,
+      "sourcePages": [
+        245
+      ],
+      "rawBlock": "What is one negative effect of Styrofoam? It has chemicals that may lead to cancer.  \nتحتوي على مواد كيميائية قد تؤدي إلى الإصابة بالسرطانما هو أحد الآثار السلبية للستايروفوم؟   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q57",
+      "order": 57,
+      "questionNumber": null,
+      "questionText": "The word alternative in paragraph is closest in meaning to? Option",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 245,
+      "sourceLine": 23,
+      "sourcePages": [
+        245
+      ],
+      "rawBlock": "The word alternative in paragraph is closest in meaning to? Option \nاختياركلمة بديلة في الفقرة هي الأقرب في المعنى؟   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q58",
+      "order": 58,
+      "questionNumber": null,
+      "questionText": "The word impressive in paragraph is closest in meaning to? extraordinary",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 245,
+      "sourceLine": 26,
+      "sourcePages": [
+        245
+      ],
+      "rawBlock": "The word impressive in paragraph is closest in meaning to?  extraordinary  \nاستثنائيكلمة مؤثرة في الفقرة هي الأقرب في المعنى؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q59",
+      "order": 59,
+      "questionNumber": null,
+      "questionText": "What happens when lignin is removed from nanowood?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 245,
+      "sourceLine": 29,
+      "sourcePages": [
+        245,
+        246
+      ],
+      "rawBlock": "What happens when lignin is removed from nanowood?  \nNanowood can hold greater pressure.  \nماذا يحدث عند إزالة اللجنين من خشب النانو؟  \nضغطًا أكبر  نانوود يمكن أن يتحمل ال\n245 \nبرنامج العمل الإيجابي affirmative action program ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q60",
+      "order": 60,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions about quotas in paragraph 2?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 246,
+      "sourceLine": 8,
+      "sourcePages": [
+        246
+      ],
+      "rawBlock": "What is one important idea that the writer mentions about quotas in paragraph 2? \nThey are one of two problems companies deal with. \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب حول الحصص في الفقرة2؟ \nهم واحدة من اثنين من المشاكل التي تتعامل معها الشركات.  \nWhat is one important idea the writer mentions about affirmative action programs ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q61",
+      "order": 61,
+      "questionNumber": null,
+      "questionText": "in paragraph 3?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 246,
+      "sourceLine": 16,
+      "sourcePages": [
+        246
+      ],
+      "rawBlock": "in paragraph 3? \nSome companies still act in a negative way towards minority employees \nما هي إحدى الأفكار الهامة التي يذكرها الكاتب حول برامج العملالإيجابي في  الفقرة 3؟ \nلا تزال بعض الشركات تتصرف بطريقة سلبية تجاه موظفي الأقليات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q62",
+      "order": 62,
+      "questionNumber": null,
+      "questionText": "What is one important idea that the writer mentions about women in paragraph 4?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 246,
+      "sourceLine": 23,
+      "sourcePages": [
+        246
+      ],
+      "rawBlock": "What is one important idea that the writer mentions about women in paragraph 4? \nThey had to take legal action \nما هي إحدى الأفكار المهمة التي ذكرها الكاتب عن المرأة في الفقرة4؟ \nكان عليهم اتخاذ إجراءات قانونية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q63",
+      "order": 63,
+      "questionNumber": null,
+      "questionText": "Why does the writer mention that affirmative action programs had two problems?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 246,
+      "sourceLine": 30,
+      "sourcePages": [
+        246
+      ],
+      "rawBlock": "Why does the writer mention that affirmative action programs had two problems? \nTo show that these programs have had both good and bad results \nلماذا يذكر الكاتب أن برامج التمييز الإيجابي بها مشكلتين؟ \nلإثبات أن هذه البرامج قد أسفرت عن نتائج جيدة وسيئة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q64",
+      "order": 64,
+      "questionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 246,
+      "sourceLine": 37,
+      "sourcePages": [
+        246,
+        247
+      ],
+      "rawBlock": "What is the main topic of the passage? \nThe effect of affirmative action programs. \nما هو الموضوع الرئيسي للمقطع؟\n246 \nأثر برامج العمل الإيجابي \nاستهلاك القهوة (رسم بياني)  coffee consumption ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q65",
+      "order": 65,
+      "questionNumber": null,
+      "questionText": "According to the graph, how many gallons of coffee did people drink in 1950?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 247,
+      "sourceLine": 12,
+      "sourcePages": [
+        247
+      ],
+      "rawBlock": "According to the graph, how many gallons of coffee did people drink in 1950?  \naround 50  \naround 40  \naround 30  \naround 20 \nوفقًا للرسمالبياني،  كم جالونًا من القهوة شربه الناس في عام 1950؟ \nحوالي  50 \nحوالي40 \nحوالي30 \nحوالي20   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q66",
+      "order": 66,
+      "questionNumber": null,
+      "questionText": "According to the graph, in what year was coffee drinking the lowest in the U.S?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1945"
+        },
+        {
+          "label": "B",
+          "text": "1960"
+        },
+        {
+          "label": "D",
+          "text": "2000"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 247,
+      "sourceLine": 23,
+      "sourcePages": [
+        247,
+        248
+      ],
+      "rawBlock": "According to the graph, in what year was coffee drinking the lowest in the U.S?  \nA 1945  \nB 1960  \n1995C  \n D 2000 \nوفقًا للرسم البياني ، في أي عام كان شرب القهوة هو الأدنى في الولايات المتحدة؟  \n1945 \n 1960 \n1995 \n 2000 \nالتعليم في أوروباEducation in Europe\n247 \nنمو التعليم العام Growth of Public Education ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-20-q67",
+      "order": 67,
+      "questionNumber": null,
+      "questionText": "Francen 1879, where did schools to train teachers start? I",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 248,
+      "sourceLine": 4,
+      "sourcePages": [
+        248
+      ],
+      "rawBlock": "Francen 1879, where did schools to train teachers start? I \nفي عام1879، أين بدأت المدارس في تدريب المعلمين؟فرنسا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q68",
+      "order": 68,
+      "questionNumber": null,
+      "questionText": "United States Where is Mount Holyoke College for Women?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 248,
+      "sourceLine": 10,
+      "sourcePages": [
+        248
+      ],
+      "rawBlock": "United States Where is Mount Holyoke College for Women? \nأين يقع كلية جبل هوليك للنساء؟الولايات المتحدة الأمريكية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q69",
+      "order": 69,
+      "questionNumber": null,
+      "questionText": "What university course was added to the curriculum by the late 1800s?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 248,
+      "sourceLine": 16,
+      "sourcePages": [
+        248
+      ],
+      "rawBlock": "What university course was added to the curriculum by the late 1800s? \nphysical education          hemistryC  \nما هي الدورة الجامعية التي تمت إضافتها إلى المنهج بحلول أواخر1800s؟كيمياء         التعليم الجسدي  \nقطعة ما اعرف عنوانها  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q70",
+      "order": 70,
+      "questionNumber": null,
+      "questionText": "IdeaThe word theory in the passage is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 248,
+      "sourceLine": 24,
+      "sourcePages": [
+        248
+      ],
+      "rawBlock": "IdeaThe word theory in the passage is closest in meaning to?  \nالكلمةنظرية في المقطع هي الأقرب في المعنى؟ فكرة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q71",
+      "order": 71,
+      "questionNumber": null,
+      "questionText": "xplainEThe word express in the passage is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 248,
+      "sourceLine": 27,
+      "sourcePages": [
+        248
+      ],
+      "rawBlock": "xplainEThe word express in the passage is closest in meaning to?  \nكلمةيعبر في المقطع هي الأقرب في المعنى؟ يشرح  \nقطعة ما اعرف عنوانها  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q72",
+      "order": 72,
+      "questionNumber": null,
+      "questionText": "Contactin the passage is closest in meaning to? frictionThe word",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 248,
+      "sourceLine": 31,
+      "sourcePages": [
+        248
+      ],
+      "rawBlock": "Contactin the passage is closest in meaning to?  frictionThe word  \nكلمة الاحتكاك في المقطع هي الأقرب في المعنى؟ يحتك ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q73",
+      "order": 73,
+      "questionNumber": null,
+      "questionText": "Expansion in the passage is closest in meaning to? amplificationThe word",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 248,
+      "sourceLine": 34,
+      "sourcePages": [
+        248,
+        249
+      ],
+      "rawBlock": "Expansion in the passage is closest in meaning to?  amplificationThe word  \nتضخيم الكلمة في المقطع هو الأقرب في المعنى؟توسع\n248 \nتحديد مشاكل التصميم Defining Design Problems ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q74",
+      "order": 74,
+      "questionNumber": null,
+      "questionText": "The word potential in the passage is closest in meaning to? Possible",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 249,
+      "sourceLine": 5,
+      "sourcePages": [
+        249
+      ],
+      "rawBlock": "The word potential in the passage is closest in meaning to? Possible \nممكنكلمة \"احتمال\" في المقطع هي الأقرب من حيث المعنى؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q75",
+      "order": 75,
+      "questionNumber": null,
+      "questionText": "The word scope is closest in meaning to? extent",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 249,
+      "sourceLine": 8,
+      "sourcePages": [
+        249
+      ],
+      "rawBlock": "The word scope is closest in meaning to? extent  \nمدىنطاق هو الأقرب في المعنى؟ كلمة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-20-q76",
+      "order": 76,
+      "questionNumber": null,
+      "questionText": "The word criteria in the passage is closest in meaning to? standards",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 249,
+      "sourceLine": 11,
+      "sourcePages": [
+        249
+      ],
+      "rawBlock": "The word criteria in the passage is closest in meaning to? standards  \nمقاييسال في المقطع هي الأقرب في المعنى؟  كلمة معايير",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

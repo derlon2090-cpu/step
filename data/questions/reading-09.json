@@ -1,0 +1,879 @@
+{
+  "readingId": "reading-09",
+  "sourceQuestionBlocks": 10,
+  "questions": [
+    {
+      "id": "reading-09-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "How much is it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 104,
+      "sourceLine": 51,
+      "sourcePages": [
+        104,
+        105
+      ],
+      "rawBlock": "How much is it? \nعناوين النموذج التاسع\n104 \nأولاً/ جولييت  \nإن يوم صار عمرها 17 سنه بدأ يقلسمعها، وإنها تزوجت وانتقلت إلى انجلترا  \nوإنها كانت طموحة وعملت منظمة لمساعدة البنات انهم يطوروا  أنفسهم.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "What is the title of the story? Profile of Joliet",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 105,
+      "sourceLine": 7,
+      "sourcePages": [
+        105
+      ],
+      "rawBlock": "What is the title of the story?  Profile of Joliet  \nما العنوانالمناسب؟ الملف الشخصي  \n  way\"it\" refers to?  \n\"تشير إلى؟طريق  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "What do you think of her husband? busy الاجابة فيها",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 105,
+      "sourceLine": 13,
+      "sourcePages": [
+        105
+      ],
+      "rawBlock": "What do you think of her husband?   busy الاجابة فيها \nمن خلال القطعة ماذا نستنتج ...؟  الاجابة اللي ذكر فيها مشغول  (busy) . ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "What isn’t mentioned in the story? She is death",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 105,
+      "sourceLine": 16,
+      "sourcePages": [
+        105
+      ],
+      "rawBlock": "What isn’t mentioned in the story? She is death \nما هو الشيء الذي لم يذكر في قصتها ؟  أنها ماتت  .  \nChoose the correct order:  Married, travelled, met girls, establish.  \nمن خلال القطعة اختر الترتيب المناسب ؟تزوجت / سافرت/شاهدت فتيات/ أسست منظمتها.  \nثانياً / الربع الخالي وحقل شيبة  \nShaybah Oil FieldEmpty Quarter and  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "….Shaybah Oil FieldBertrom Thomas wrote about his visit to What did he do?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 105,
+      "sourceLine": 25,
+      "sourcePages": [
+        105,
+        106
+      ],
+      "rawBlock": "….Shaybah Oil FieldBertrom Thomas wrote about his visit to   What did he do? \nاسم شخص وطالبين ماذا فعل أو (ايشسوى)؟  Thomas   Bertram اسمه زار و كتب عن زيارته لحقل شيبة النفطي\n105 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "Because they found birds and how birds get foodWhy were the scientist amazed when they visit it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 106,
+      "sourceLine": 4,
+      "sourcePages": [
+        106
+      ],
+      "rawBlock": "Because they found birds and how birds get foodWhy were the scientist amazed when they visit it?  \nلماذا اندهش العالم عندما زاروها؟لوجود الطيور فيها وكيف تقدر توفر الغذاء لنفسها الجواب فيه كلمة live ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "Middle = center of the desertWhere is the location of it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 106,
+      "sourceLine": 7,
+      "sourcePages": [
+        106
+      ],
+      "rawBlock": "Middle = center of the desertWhere is the location of it?   \nأين يقع حقلشيبة؟  في منتصف الصحراء (بالخيارات   Center وفيالقطعة The middle ) ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": ".Ghawar is larger than Shaybah or ghawar Field? ShaybahWhich is bigger",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 106,
+      "sourceLine": 10,
+      "sourcePages": [
+        106
+      ],
+      "rawBlock": ".Ghawar is larger than Shaybah or ghawar Field? ShaybahWhich is bigger  \nأيهما أكبر حقل غوار أمشيبة؟  الخيار الذي فيه حقل غوار أكبر من حقل شيبة.    غوارLarger than  شيبة   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "Below zero at night. What is the temperature at night?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 106,
+      "sourceLine": 13,
+      "sourcePages": [
+        106
+      ],
+      "rawBlock": "Below zero at night. What is the temperature at night?  \nدرجة الحرارة في صحراء الربعالخالي؟  إنها تكون تحت الصفر في الليل.  \nثالثاً/ المرأة وزوجها اللي سافروا باريس  \nالفكرة العامة امرأة وزوجها سافروا باريس ، تأخر الباص اللي ينقلهم من المطار .  \nوصلوا الفندق تعبانين ناموا وصحوا متأخر وراح وقت الفطور عليهم ،  \nنزلوا يفطرون في مطعم وبعدين راحت لـ  City center واشترت بعض الاشياء ، \nثم راحت للمطعم الهندي وبعدين راحت النهر وشافت الفرنسيين وكانوا لطيفين جداً  \nأظن في اليوم الثاني أفطروا في الفندق بعدين راحوا برج ايفل .  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "Where did they go on the second day? Sight-seeing = view Eiffel tower.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 106,
+      "sourceLine": 26,
+      "sourcePages": [
+        106
+      ],
+      "rawBlock": "Where did they go on the second day?  Sight-seeing = view Eiffel tower.  \n= منظر برج إيفل المناظر رؤيةإلى أين ذهبوا في اليوم الثاني؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "Shopping and sightseeing family foodFor Why did they travel?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 106,
+      "sourceLine": 29,
+      "sourcePages": [
+        106,
+        107
+      ],
+      "rawBlock": "Shopping and sightseeing           family             foodFor     Why did they travel?\n106 \nلماذا سافروا الهدف من الزيارة؟   للطعام         العائلة         التسوق ومشاهدة المعالم السياحية      ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "hotel on the first day nearThey stayed What is not true in the first paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 107,
+      "sourceLine": 5,
+      "sourcePages": [
+        107
+      ],
+      "rawBlock": "hotel on the first day nearThey stayed   What is not true in the first paragraph? \nما هو الخطأ في الفقرة الأولى؟ مكثوا في الفندق في اليوم الأول  \nالصح: أنهم ناموا وصحوا وخرجوا للسوق .  \nWhat is not true according to the paragraph:  \nShe sat the first night waiting under the hotel all day - \n  She went and wandered and bought a sandwich- \nما هو غير صحيح حسب الفقرة \n- جلست في الليلة الأولى تنتظر تحت الفندق طوال اليوم  \n- ذهبت وتجولت واشترت شطيرة  \nChoose the correct sentence according to the second Paragraph: \nShe visited the Eiffel Tower \nShe ate breakfast at the hotel \nاختر الجملة الصحيحة وفقًا للفقرة الثانية \nزارت برج إيفل  \nأكلت الفطور في الفندق \nسؤال بالمقطع الثاني هل فطروا في اليوم الثاني بالفندق ؟  أو ماهي الاجابة الصحيحة ؟ \nالمقطع الثاني تكلم عنهم هل أفطروا بالفندق أو لا    الصحيح أنهم فطروا بالفندق ثاني يوم .  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "What does “head up to” mean? ( moved towards) Go to the city center movement walk",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 107,
+      "sourceLine": 34,
+      "sourcePages": [
+        107
+      ],
+      "rawBlock": "What does “head up to” mean?  ( moved towards)   Go to the city center    movement       walk  \nيمشي            حركة            اذهب إلى وسط المدينة     انتقل نحو     ؟أو يصل الى  الىيتوجه     ماذا يعني  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "Did they have breakfast at hotel on the second day? Yes, they did.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 107,
+      "sourceLine": 37,
+      "sourcePages": [
+        107,
+        108
+      ],
+      "rawBlock": "Did they have breakfast at hotel on the second day? Yes, they did.\n107 \nنعم لقد فعلوا  هل تناولوا الإفطار في الفندق في اليوم الثاني؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What does the pronoun “there” refer to? Sein River.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 108,
+      "sourceLine": 5,
+      "sourcePages": [
+        108
+      ],
+      "rawBlock": "What does the pronoun “there” refer to? Sein River.  \nنهر السين \"؟ ناكإلى ماذا يشير الضمير \"ه . \nرابعاً/ قطعة Tailgating \nis when a driver drives behind another vehicle while not  Tailgating\nif the  collision leaving sufficient distance to stop without causing a\n.vehicle in front stops suddenly \nعندما يقود السائق خلف مركبة أخرى دون ترك مسافة كافية للتوقفوالتسبب في تصادم إذا  \nتوقفت السيارة التي أمامها فجأة. \nمعناها ( هو اللي يمشي وراك طول الطريق وقريب منك ، المهم إنه فيه ناس يخافون  \nمن هذا الشيء لكن الأفضل إنك تحاول تبعد عنه أو توسع له وتدور لك مخرج ) ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "Unsafe What does \" tailgating \" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 108,
+      "sourceLine": 19,
+      "sourcePages": [
+        108
+      ],
+      "rawBlock": "Unsafe  What does \" tailgating \" mean?  \nمعنىTailgating؟ غير آمن (Unsafe)      ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What does the “escalate” (تصاعدmean? Increase",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 108,
+      "sourceLine": 22,
+      "sourcePages": [
+        108
+      ],
+      "rawBlock": "What does the “escalate” (تصاعدmean?   Increase \nزيادة  ماذا يعني تصاعد؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "Because it causes accidents or worries and gets scared Why are people afraid of him?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 108,
+      "sourceLine": 26,
+      "sourcePages": [
+        108,
+        109
+      ],
+      "rawBlock": "Because it causes accidents or worries and gets scared  Why are people afraid of him? \nلماذا الناس تخاف منه؟  لكونه يسبب حوادث Accidents أو  يقلق ويخوف (Worrying)\n108 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What is the second reason or the main idea of the second paragraph?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 109,
+      "sourceLine": 2,
+      "sourcePages": [
+        109
+      ],
+      "rawBlock": "What is the second reason or the main idea of the second paragraph?  \nroad rage               fear engerPass  \nما هو السبب الثاني أو الفكرة الرئيسية للفقرة الثانية؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "What did the defense driver do? It is the least reason for accidents Fewer accidents",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 109,
+      "sourceLine": 6,
+      "sourcePages": [
+        109
+      ],
+      "rawBlock": "What did the defense driver do?  It is the least reason for accidents  Fewer accidents \nسؤال عنDefense driver) السواقة الدفاعية ؟  أقل سبب في الحوادث accidentsFewer  . \nخامساً / الام وبنتها تحت المطر  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "Avoid the rain What were the people doing in the mall?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 109,
+      "sourceLine": 13,
+      "sourcePages": [
+        109
+      ],
+      "rawBlock": "Avoid the rain  What were the people doing in the mall? \nماذا كان يفعل الناس في المركز التجاري؟   تجنب المطر ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "wetNot to Why didn’t the mother go out with her daughter?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 109,
+      "sourceLine": 16,
+      "sourcePages": [
+        109
+      ],
+      "rawBlock": "wetNot to Why didn’t the mother go out with her daughter?   \nلماذا لم تخرج الأم مع ابنتها؟  حتى لا  يكونوا مبتلين  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "cancer ) sick He has a dangerous diseaseWhat did the girl say about father?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 109,
+      "sourceLine": 19,
+      "sourcePages": [
+        109
+      ],
+      "rawBlock": "cancer )    sick He has a dangerous diseaseWhat did the girl say about father?  \nماذا قالت الفتاة عن والدها؟   لديه مرض خطير (سرطان) \nمن خلال كلام البنت عن ابوها ماذا نستنتج ؟ أنه ابوها مريض بمرض خطير (سرطان)dangerous disease . ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "Why did people wonder about her words? They trust of her words.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 109,
+      "sourceLine": 23,
+      "sourcePages": [
+        109
+      ],
+      "rawBlock": "Why did people wonder about her words? They trust of her words.   \nلماذا الناس واقفين يشاهدون الطفلة ؟Wonder متعجبون من كلامها وأنها واثقهTrust) من نفسها ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "What did the people do at last? They went out laughing and remembering the happy things",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 109,
+      "sourceLine": 27,
+      "sourcePages": [
+        109,
+        110
+      ],
+      "rawBlock": "What did the people do at last? They went out laughing and remembering the happy things \nخرجوا يضحكون ويتذكرون الأشياء السعيدة    ماذا فعل الناس في النهاية؟\n109 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "Why were people laughing when the mother ran with the daughter?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 110,
+      "sourceLine": 3,
+      "sourcePages": [
+        110
+      ],
+      "rawBlock": "Why were people laughing when the mother ran with the daughter?  \nBecause they remember their childhood \nلماذا الناس كانت تضحك لما ركضت الام مع البنت؟  لأنهم تذكروا طفولتهم Childhood    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What will wash the city? The rain falling",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 110,
+      "sourceLine": 8,
+      "sourcePages": [
+        110
+      ],
+      "rawBlock": "What will wash the city? The rain falling \nسقوط المطرما الذي سيغسل المدينة؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "Happy memories What effect did he leave on the same speaker?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 110,
+      "sourceLine": 11,
+      "sourcePages": [
+        110
+      ],
+      "rawBlock": "Happy memories  What effect did he leave on the same speaker? \nما هو الأثر الذي تركه في نفس المتكلم؟ ذكريات سعيدة. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "There is someone? He chased after their car quickly",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 110,
+      "sourceLine": 14,
+      "sourcePages": [
+        110
+      ],
+      "rawBlock": "There is someone? He chased after their car quickly \nيقول ان فيهشخص؟ لحقهم  ورا سيارتهم بسرعة.   تأكدوا منها في الاختبار  \nسادساً/ جدول المطاعم (الوجبات السريعة)  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "K.F.C.What is the restaurant which most adults go to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 110,
+      "sourceLine": 20,
+      "sourcePages": [
+        110
+      ],
+      "rawBlock": "  K.F.C.What is the restaurant which most adults go to?   \nأكثر مطعم يستهلكه المراهقينAdults)؟  كنتاكي   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "What is the most popular restaurant in the world for all ages? MacDonald’s.",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 110,
+      "sourceLine": 25,
+      "sourcePages": [
+        110,
+        111
+      ],
+      "rawBlock": "What is the most popular restaurant in the world for all ages? MacDonald’s.  \nما هو أكثر مطعم يحبه جميع الناس من جميعالاعمار؟  ماكدونالدز.\n110 \nسابعاً/ بطاقة حفلة زفاف  \nWedding Ceremony Invitation \nFamilies Mr. Al-Ali and Mr. Al-Nasser \nrequest the pleasure of your presence \nat the marriage of our children \nAli \nto \nMaha  \nSaturday, the 17th of May \nAt six o’clock in the evening \nPlaza Hotel \nNew York ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "Who invited for the wedding?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 111,
+      "sourceLine": 16,
+      "sourcePages": [
+        111
+      ],
+      "rawBlock": "Who invited for the wedding? \nfamilies Both/ The groom's family / The bride's family / Michael and Marie  \nمن دعا لحضور حفل الزفاف؟  عائلة العريس / عائلة العروس / مايكل وماري / كلا العائلتان  \nثامناً/ اعلان مفقودات (القلم الضائع)  \nقلم ماركة مونت بلانك وضائع من صاحبه ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "Missing items advertisementMissing What is the kind of advertisement?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 111,
+      "sourceLine": 26,
+      "sourcePages": [
+        111
+      ],
+      "rawBlock": "Missing items        advertisementMissing What is the kind of advertisement?    \nما هو نوع الاعلان؟ إعلان مفقود  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q34",
+      "order": 34,
+      "questionNumber": null,
+      "questionText": "Because it was a gift (present) from his fatherWhy is the pen important for his owner?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 111,
+      "sourceLine": 31,
+      "sourcePages": [
+        111,
+        112
+      ],
+      "rawBlock": "Because it was a gift (present) from his fatherWhy is the pen important for his owner?  \nلماذا يعتبر القلم مهمًا لمالكه؟ لأنها كانت هدية (هدية) من والده \nتاسعاً / عبارة تحذيرية  \n(Road closed )\n111 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q35",
+      "order": 35,
+      "questionNumber": null,
+      "questionText": "What do you understand of this sentence?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 112,
+      "sourceLine": 2,
+      "sourcePages": [
+        112
+      ],
+      "rawBlock": "What do you understand of this sentence? \n Can not use the road     Not allowed to pass from it  \nماذا تفهممنها؟  غير مسموح العبور من هنا.     لا يمكن استخدام الطريق  \nعاشراً/ رسالة شكر لمدير محل اصلاح الأجهزة  \nرسالة أحد العملاء يشكر فيها  محمد مدير  الشركة ويمدح فيها الموظفين على تعاملهم  لأنه كانت عنده مشكلة بجهازه. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q36",
+      "order": 36,
+      "questionNumber": null,
+      "questionText": "What was the problem with his device? Why did he go to the company?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 112,
+      "sourceLine": 12,
+      "sourcePages": [
+        112
+      ],
+      "rawBlock": "What was the problem with his device?  Why did he go to the company? \nhis phone.Unwanted program in  They found an application he didn’t download. \nما المشكلة بجهازه أو لماذا ذهب للشركة؟  أنهم وجدوا برامج تمت إضافتها بالجهاز بدون علمه ( مو هو حملها ) .   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q37",
+      "order": 37,
+      "questionNumber": null,
+      "questionText": "Mobile phoneWhat does the “device” mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 112,
+      "sourceLine": 16,
+      "sourcePages": [
+        112
+      ],
+      "rawBlock": "Mobile phoneWhat does the “device” mean?  \nماذا يعني \"الجهاز\"؟ جوال  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q38",
+      "order": 38,
+      "questionNumber": null,
+      "questionText": ".hanksT What was the message that the man sent to the shop?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 112,
+      "sourceLine": 19,
+      "sourcePages": [
+        112
+      ],
+      "rawBlock": ".hanksT  What was the message that the man sent to the shop? \nماهي الرسالة التي أرسلها العميل لمدير الشركة محمد؟  الشكر ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q39",
+      "order": 39,
+      "questionNumber": null,
+      "questionText": "an antivirus application. edThey download? or what is true What did they do for the man",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 112,
+      "sourceLine": 22,
+      "sourcePages": [
+        112
+      ],
+      "rawBlock": "an antivirus application. edThey download? or what is true What did they do for the man \nماذا فعلوا للرجل أو ما هو الصحيح من الاختيارات؟ قاموا بتنزيل تطبيق مضاد فيروسات . ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q40",
+      "order": 40,
+      "questionNumber": null,
+      "questionText": "manager -Director What does the word “head” mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 112,
+      "sourceLine": 26,
+      "sourcePages": [
+        112
+      ],
+      "rawBlock": " manager -Director What does the word “head” mean?    \nماذا تعني كلمة \"رأس\"؟المدير المسؤول  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q41",
+      "order": 41,
+      "questionNumber": null,
+      "questionText": "other people about the company. ellT He will recommend the shop.What will the man do?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 112,
+      "sourceLine": 29,
+      "sourcePages": [
+        112
+      ],
+      "rawBlock": "other people about the company. ellT         He will recommend the shop.What will the man do?  \nأخبر الآخرين عن الشركة         المحلب  الناس  ؟ سوف يوصيعميل ماذا سيفعل ال  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q42",
+      "order": 42,
+      "questionNumber": null,
+      "questionText": "He is their manager What is the relationship between Mohammed and them?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 112,
+      "sourceLine": 32,
+      "sourcePages": [
+        112,
+        113
+      ],
+      "rawBlock": "He is their manager What is the relationship between Mohammed and them? \nما علاقة محمد بهم؟هو مديرهم\n112 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q43",
+      "order": 43,
+      "questionNumber": null,
+      "questionText": "Manager What is Mohammed's work and his job?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 113,
+      "sourceLine": 3,
+      "sourcePages": [
+        113
+      ],
+      "rawBlock": " Manager What is Mohammed's work and his job? \nما هو عمل محمد وعمله؟ مدير ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q44",
+      "order": 44,
+      "questionNumber": null,
+      "questionText": "Taken the phone What is true according to the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 113,
+      "sourceLine": 6,
+      "sourcePages": [
+        113
+      ],
+      "rawBlock": "Taken the phone What is true according to the passage?   \nما هو الصحيح حسب المقطع؟أخذت الهاتف \nالحادي عشر / واحد اسمه توم وكاتبين له رد \nمكرر  \nTom: ……………………………………………………………… \nRoger: I'm going to be busy on Friday but Saturday's fine. I'll see you then. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q45",
+      "order": 45,
+      "questionNumber": null,
+      "questionText": "What did Tom ask Roger?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 113,
+      "sourceLine": 16,
+      "sourcePages": [
+        113
+      ],
+      "rawBlock": "What did Tom ask Roger? ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q46",
+      "order": 46,
+      "questionNumber": null,
+      "questionText": "Can I visit you at weekend?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 113,
+      "sourceLine": 18,
+      "sourcePages": [
+        113
+      ],
+      "rawBlock": "Can I visit you at weekend? \nاختار السؤال المناسب لإجابته ( أنا مشغول يوم الجمعة لكن السبت  تمام) ؟  هل يمكنني زيارتك في عطلة نهاية الأسبوع؟  \nالثاني عشر / قطعه قصيره مكتوب فيها  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q47",
+      "order": 47,
+      "questionNumber": 7,
+      "questionText": "7.99 Riyals s'It it?is How much",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 113,
+      "sourceLine": 25,
+      "sourcePages": [
+        113
+      ],
+      "rawBlock": "7.99 Riyals  s'It   it?is How much  \nكم سعره ؟7.99   ريال \nقطعة تتكلم عن الوقت ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-09-q48",
+      "order": 48,
+      "questionNumber": null,
+      "questionText": "What time of the class?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 113,
+      "sourceLine": 28,
+      "sourcePages": [
+        113
+      ],
+      "rawBlock": "What time of the class? \nAt 9 a.m.     في التاسعة صباحا \nIt's 9 a.m.",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

@@ -1,0 +1,725 @@
+{
+  "readingId": "reading-40",
+  "questions": [
+    {
+      "id": "reading-40-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "Chinese?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        512
+      ],
+      "sourceBlockIds": [
+        "page-512-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 164.01,
+        "x0": 14.4,
+        "x1": 73.65
+      }
+    },
+    {
+      "id": "reading-40-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        512
+      ],
+      "sourceBlockIds": [
+        "page-512-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 357.24,
+        "x0": 14.4,
+        "x1": 390.1
+      }
+    },
+    {
+      "id": "reading-40-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following colors is NOT mentioned in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        513
+      ],
+      "sourceBlockIds": [
+        "page-513-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 340.08,
+        "x0": 14.4,
+        "x1": 411.14
+      }
+    },
+    {
+      "id": "reading-40-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the writer's main purpose?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        514
+      ],
+      "sourceBlockIds": [
+        "page-514-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 131.37,
+        "x0": 14.16,
+        "x1": 228.51
+      }
+    },
+    {
+      "id": "reading-40-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        514
+      ],
+      "sourceBlockIds": [
+        "page-514-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 353.52,
+        "x0": 14.16,
+        "x1": 337.87
+      }
+    },
+    {
+      "id": "reading-40-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea that the writer mentions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        514
+      ],
+      "sourceBlockIds": [
+        "page-514-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 575.78,
+        "x0": 14.16,
+        "x1": 337.87
+      }
+    },
+    {
+      "id": "reading-40-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What reversed expectation about online retail almost overnight?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        515
+      ],
+      "sourceBlockIds": [
+        "page-515-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 143.97,
+        "x0": 14.16,
+        "x1": 409.4
+      }
+    },
+    {
+      "id": "reading-40-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "them?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        515
+      ],
+      "sourceBlockIds": [
+        "page-515-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 384.72,
+        "x0": 14.16,
+        "x1": 53.15
+      }
+    },
+    {
+      "id": "reading-40-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one example of a brick-and-mortar retailer?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        515
+      ],
+      "sourceBlockIds": [
+        "page-515-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 532.82,
+        "x0": 14.16,
+        "x1": 333.36
+      }
+    },
+    {
+      "id": "reading-40-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "What percentage of the top 500 online retail sites were multichannel retailers?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        515
+      ],
+      "sourceBlockIds": [
+        "page-515-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 680.93,
+        "x0": 14.16,
+        "x1": 496.53
+      }
+    },
+    {
+      "id": "reading-40-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        516
+      ],
+      "sourceBlockIds": [
+        "page-516-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 144.33,
+        "x0": 14.16,
+        "x1": 123.24
+      }
+    },
+    {
+      "id": "reading-40-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        516
+      ],
+      "sourceBlockIds": [
+        "page-516-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 384.96,
+        "x0": 14.16,
+        "x1": 123.24
+      }
+    },
+    {
+      "id": "reading-40-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "What are scavengers an example of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        516
+      ],
+      "sourceBlockIds": [
+        "page-516-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 607.13,
+        "x0": 14.16,
+        "x1": 246.0
+      }
+    },
+    {
+      "id": "reading-40-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        517
+      ],
+      "sourceBlockIds": [
+        "page-517-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 14.16,
+        "x1": 255.49
+      }
+    },
+    {
+      "id": "reading-40-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph (1) say about plastic waste?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        517
+      ],
+      "sourceBlockIds": [
+        "page-517-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 387.24,
+        "x0": 14.16,
+        "x1": 327.7
+      }
+    },
+    {
+      "id": "reading-40-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "How did the government of Ireland reduce the use of single-use plastic shopping bags?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        517
+      ],
+      "sourceBlockIds": [
+        "page-517-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 646.49,
+        "x0": 14.16,
+        "x1": 554.25
+      }
+    },
+    {
+      "id": "reading-40-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the word \"Moreover\" in paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        518
+      ],
+      "sourceBlockIds": [
+        "page-518-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 88.17,
+        "x0": 14.16,
+        "x1": 406.06
+      }
+    },
+    {
+      "id": "reading-40-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the word \"as a result\" in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        518
+      ],
+      "sourceBlockIds": [
+        "page-518-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 328.8,
+        "x0": 14.16,
+        "x1": 413.13
+      }
+    },
+    {
+      "id": "reading-40-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer think about the efforts to reduce plastic pollution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        518
+      ],
+      "sourceBlockIds": [
+        "page-518-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 569.54,
+        "x0": 14.16,
+        "x1": 450.61
+      }
+    },
+    {
+      "id": "reading-40-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "What did more car factories in Detroit lead to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        519
+      ],
+      "sourceBlockIds": [
+        "page-519-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 143.97,
+        "x0": 14.16,
+        "x1": 298.95
+      }
+    },
+    {
+      "id": "reading-40-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "What was the reason for low rents and tax cuts?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        519
+      ],
+      "sourceBlockIds": [
+        "page-519-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 347.64,
+        "x0": 14.16,
+        "x1": 312.88
+      }
+    },
+    {
+      "id": "reading-40-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "What percentage of people went to work by car?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        520
+      ],
+      "sourceBlockIds": [
+        "page-520-line-11"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 588.26,
+        "x0": 14.16,
+        "x1": 314.46
+      }
+    },
+    {
+      "id": "reading-40-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "What percentage of people travelled by foot?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        520
+      ],
+      "sourceBlockIds": [
+        "page-520-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 717.77,
+        "x0": 14.16,
+        "x1": 292.77
+      }
+    },
+    {
+      "id": "reading-40-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "According to the passage, what are the heavy metals that affect the growth of algae?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        521
+      ],
+      "sourceBlockIds": [
+        "page-521-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 184.17,
+        "x0": 14.16,
+        "x1": 539.27
+      }
+    },
+    {
+      "id": "reading-40-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "What are three things needed for generating radioactive Wastes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        521
+      ],
+      "sourceBlockIds": [
+        "page-521-line-17"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 406.25,
+        "x0": 14.16,
+        "x1": 360.77
+      }
+    },
+    {
+      "id": "reading-40-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "What are three methods currently used for toxic waste treatment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        521
+      ],
+      "sourceBlockIds": [
+        "page-521-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 618.05,
+        "x0": 14.16,
+        "x1": 420.35
+      }
+    },
+    {
+      "id": "reading-40-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "What do Passages A and B say about the consequences of inflation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        523
+      ],
+      "sourceBlockIds": [
+        "page-523-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 181.53,
+        "x0": 14.16,
+        "x1": 442.94
+      }
+    },
+    {
+      "id": "reading-40-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "supply?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        523
+      ],
+      "sourceBlockIds": [
+        "page-523-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 440.78,
+        "x0": 14.16,
+        "x1": 62.49
+      }
+    },
+    {
+      "id": "reading-40-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from Passages A and B about tax?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        523
+      ],
+      "sourceBlockIds": [
+        "page-523-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 681.53,
+        "x0": 14.16,
+        "x1": 389.24
+      }
+    },
+    {
+      "id": "reading-40-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "What do Passages A and B say about aggregate demand?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        524
+      ],
+      "sourceBlockIds": [
+        "page-524-line-7"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 162.21,
+        "x0": 14.16,
+        "x1": 379.2
+      }
+    }
+  ]
+}

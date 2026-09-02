@@ -1,0 +1,604 @@
+{
+  "source": "القطع النماذج ال 49.pdf",
+  "scope": "Visual review only. Correct answers, scoring, timer, and results are excluded.",
+  "summary": {
+    "readings": 49,
+    "notStarted": 39,
+    "inProgress": 8,
+    "verified": 2,
+    "requiresReview": 0,
+    "realQuestions": 361,
+    "visuallyVerifiedQuestions": 90,
+    "questionRequiresReview": 271
+  },
+  "readings": [
+    {
+      "readingId": "reading-01",
+      "sourcePages": {
+        "start": 4,
+        "end": 14
+      },
+      "visualQuestionReviewStatus": "verified",
+      "questionsDetected": 50,
+      "questionsVisuallyVerified": 50,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 1
+    },
+    {
+      "readingId": "reading-02",
+      "sourcePages": {
+        "start": 15,
+        "end": 23
+      },
+      "visualQuestionReviewStatus": "verified",
+      "questionsDetected": 40,
+      "questionsVisuallyVerified": 40,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-03",
+      "sourcePages": {
+        "start": 24,
+        "end": 35
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-04",
+      "sourcePages": {
+        "start": 36,
+        "end": 47
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-05",
+      "sourcePages": {
+        "start": 48,
+        "end": 63
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-06",
+      "sourcePages": {
+        "start": 64,
+        "end": 74
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-07",
+      "sourcePages": {
+        "start": 75,
+        "end": 87
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-08",
+      "sourcePages": {
+        "start": 88,
+        "end": 103
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-09",
+      "sourcePages": {
+        "start": 104,
+        "end": 113
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-10",
+      "sourcePages": {
+        "start": 114,
+        "end": 127
+      },
+      "visualQuestionReviewStatus": "in_progress",
+      "questionsDetected": 54,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 54,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-11",
+      "sourcePages": {
+        "start": 128,
+        "end": 137
+      },
+      "visualQuestionReviewStatus": "in_progress",
+      "questionsDetected": 46,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 46,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-12",
+      "sourcePages": {
+        "start": 138,
+        "end": 147
+      },
+      "visualQuestionReviewStatus": "in_progress",
+      "questionsDetected": 34,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 34,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-13",
+      "sourcePages": {
+        "start": 148,
+        "end": 156
+      },
+      "visualQuestionReviewStatus": "in_progress",
+      "questionsDetected": 44,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 44,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-14",
+      "sourcePages": {
+        "start": 157,
+        "end": 160
+      },
+      "visualQuestionReviewStatus": "in_progress",
+      "questionsDetected": 4,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 4,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-15",
+      "sourcePages": {
+        "start": 161,
+        "end": 171
+      },
+      "visualQuestionReviewStatus": "in_progress",
+      "questionsDetected": 37,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 37,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-16",
+      "sourcePages": {
+        "start": 172,
+        "end": 185
+      },
+      "visualQuestionReviewStatus": "in_progress",
+      "questionsDetected": 29,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 29,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-17",
+      "sourcePages": {
+        "start": 186,
+        "end": 195
+      },
+      "visualQuestionReviewStatus": "in_progress",
+      "questionsDetected": 23,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 23,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-18",
+      "sourcePages": {
+        "start": 196,
+        "end": 215
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-19",
+      "sourcePages": {
+        "start": 216,
+        "end": 229
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-20",
+      "sourcePages": {
+        "start": 230,
+        "end": 249
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-21",
+      "sourcePages": {
+        "start": 250,
+        "end": 262
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-22",
+      "sourcePages": {
+        "start": 263,
+        "end": 277
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-23",
+      "sourcePages": {
+        "start": 278,
+        "end": 290
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-24",
+      "sourcePages": {
+        "start": 291,
+        "end": 303
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-25",
+      "sourcePages": {
+        "start": 304,
+        "end": 317
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-26",
+      "sourcePages": {
+        "start": 318,
+        "end": 331
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-27",
+      "sourcePages": {
+        "start": 332,
+        "end": 340
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-28",
+      "sourcePages": {
+        "start": 341,
+        "end": 352
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-29",
+      "sourcePages": {
+        "start": 353,
+        "end": 367
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-30",
+      "sourcePages": {
+        "start": 368,
+        "end": 381
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-31",
+      "sourcePages": {
+        "start": 382,
+        "end": 390
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-32",
+      "sourcePages": {
+        "start": 391,
+        "end": 403
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-33",
+      "sourcePages": {
+        "start": 404,
+        "end": 418
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-34",
+      "sourcePages": {
+        "start": 419,
+        "end": 432
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-35",
+      "sourcePages": {
+        "start": 433,
+        "end": 448
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-36",
+      "sourcePages": {
+        "start": 449,
+        "end": 462
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-37",
+      "sourcePages": {
+        "start": 463,
+        "end": 479
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-38",
+      "sourcePages": {
+        "start": 480,
+        "end": 494
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-39",
+      "sourcePages": {
+        "start": 495,
+        "end": 510
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-40",
+      "sourcePages": {
+        "start": 511,
+        "end": 525
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-41",
+      "sourcePages": {
+        "start": 526,
+        "end": 539
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-42",
+      "sourcePages": {
+        "start": 540,
+        "end": 554
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-43",
+      "sourcePages": {
+        "start": 555,
+        "end": 569
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-44",
+      "sourcePages": {
+        "start": 570,
+        "end": 584
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-45",
+      "sourcePages": {
+        "start": 585,
+        "end": 600
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-46",
+      "sourcePages": {
+        "start": 601,
+        "end": 615
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-47",
+      "sourcePages": {
+        "start": 616,
+        "end": 629
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-48",
+      "sourcePages": {
+        "start": 630,
+        "end": 646
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    },
+    {
+      "readingId": "reading-49",
+      "sourcePages": {
+        "start": 647,
+        "end": 671
+      },
+      "visualQuestionReviewStatus": "not_started",
+      "questionsDetected": 0,
+      "questionsVisuallyVerified": 0,
+      "requiresReview": 0,
+      "duplicateTechnicalRecordsRemoved": 0
+    }
+  ]
+}

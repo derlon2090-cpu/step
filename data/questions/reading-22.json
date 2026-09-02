@@ -1,0 +1,613 @@
+{
+  "readingId": "reading-22",
+  "sourceQuestionBlocks": 13,
+  "questions": [
+    {
+      "id": "reading-22-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 264,
+      "sourceLine": 23,
+      "sourcePages": [
+        264
+      ],
+      "rawBlock": "According to Paragraph (2), Where has Mei Lan been living? \n in the Chengdu Panda Research Center \nin an American research center \nin Atlanta, Georgia \n in Sichuan, China \nوفقًا للفقرة2) ، أين كانت مي لان تعيش؟ \n في مركز أبحاث تشنغدو باندا \nفي مركز أبحاث أمريكي  \nفي أتلانتا ، جورجيا  \n في سيتشوان ، الصين  \n  tarsS  النجوم ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "Which of the following colors is NOT mentioned in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 264,
+      "sourceLine": 36,
+      "sourcePages": [
+        264,
+        265
+      ],
+      "rawBlock": "Which of the following colors is NOT mentioned in the passage? \ngreen \nyellow \nblue \nred \nأي من الألوان التالية لم يرد ذكره في المقطع؟ \nلون أخضر  \nالأصفر  \nأزرق \nأحمر \nfloor damage  تلف الأرضية\n264 \nAccording to Paragraph (2), Beetlejuice is a superstar ………… \nas big as the sun \nsmaller than the sun \nas big as 17,000 suns \nas big as 40,000 suns \nوفقًا للفقرة2) ، يعتبر عصير الخنفساء من النجوم \nبحجم الشمس  \nأصغر من الشمس  \nبحجم  17000 شمس \nبحجم  40.000 شمس \nAccording to Paragraph (2), astronomers classify stars according to the following EXCEPT \nsize \ncolor \nshape \nbrightness \nوفقًا للفقرة2) ، يصنف علماء الفلك النجوم وفقًا للتالي   ما عدا  \nبحجم  \nاللون  \nشكل \nسطوع  \ninnovation engineering    الابتكار  الهندسي ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "Who developed rain harvesting in the third Millennium B.C.?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 265,
+      "sourceLine": 31,
+      "sourcePages": [
+        265,
+        266
+      ],
+      "rawBlock": "Who developed rain harvesting in the third Millennium B.C.?  \nMinoans \nRomans \nGreeks \nEgyptians \nمن طور نظام حصاد المطر في الألفية الثالثة قبل الميلاد؟ \nMinoans \nرومية \nاليونانيون  \nالمصريين\n265 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "how long were Rome's aqueducts in total?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 266,
+      "sourceLine": 2,
+      "sourcePages": [
+        266
+      ],
+      "rawBlock": "how long were Rome's aqueducts in total?  \n269 miles \n46 miles \n315 miles \n112 miles \nما هو طول  قنوات  ماء روما في المجمل؟  \n269 مي \n46 مي \n315 مي \n112 مي ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "when did Trajan build the Aqua Tariana?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 266,
+      "sourceLine": 16,
+      "sourcePages": [
+        266
+      ],
+      "rawBlock": "when did Trajan build the Aqua Tariana? \n109 A.D \n226 A.D \n312 B.C \n37 B.C \nمتى قام تراجان ببناء أكواتاريانا؟  \n109 م \n226 م \n312 قبل الميلاد \n37 قبل الميلاد  \nFriction   احتكاك ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "what important point does the writer make about starting friction in Paragraph 3 and 4?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 266,
+      "sourceLine": 31,
+      "sourcePages": [
+        266
+      ],
+      "rawBlock": "what important point does the writer make about starting friction in Paragraph 3 and 4?  \nit creates heat in bodies \nin math it is the letter F \nit presses surfaces together \nit is greater than sliding friction \nما هي النقطة المهمة التي يشير إليها الكاتب حول بدء الاحتكاك في الفقرتين3  و4؟ \nيخلق حرارة في الأجسام  \nفي الرياضيات هو الحرف  F \nيضغط على الأسطح معًا \nإنه أكبر من الاحتكاك المنزلق ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "what important idea related to frictional force does the writer mention in paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 266,
+      "sourceLine": 46,
+      "sourcePages": [
+        266,
+        267
+      ],
+      "rawBlock": "what important idea related to frictional force does the writer mention in paragraph 1?\n266 \nit needs lubricating oils and ball bearings \nit brings advantages for engineers \nit is both useful and a problem \nit is zero when walking on ice \nما هي الفكرة المهمة المتعلقة بقوة الاحتكاك التي ذكرها الكاتب في الفقرة1؟ \nتحتاج زيوت تشحيم ومحامل كروية  \nيجلب مزايا للمهندسين  \nإنها مفيدة ومشكلة في نفس الوقت  \nإنه صفر عند المشي على الجليد  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "what point does the writer support with the example of rubbing your hands together?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 267,
+      "sourceLine": 16,
+      "sourcePages": [
+        267
+      ],
+      "rawBlock": "what point does the writer support with the example of rubbing your hands together? \nobjects hotter makefriction and movement  \nthere is little friction when we walk on ice \nsliding friction is less than starting friction \nthe block moves at the same speed all the time \nما النقطة التي يؤيدها الكاتب بمثال حك يديك معًا؟  \nالاحتكاك والحركة تجعل الأشياء أكثر سخونة  \nهناك القليل من الاحتكاك عندما نسير على الجليد  \nالاحتكاك الانزلاقي أقل من احتكاك البداية  \nتتحرك الكتلة بنفس السرعة طوال الوقت  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "what is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 267,
+      "sourceLine": 31,
+      "sourcePages": [
+        267,
+        268
+      ],
+      "rawBlock": "what is the main topic of the passage?  \nfrictional energy \nstarting friction  \nsliding friction \nfrictional force \nما هو الموضوع الرئيسي للمقطع؟ \nطاقة الاحتكاك  \nبدء الاحتكاك  \nانزلاق الاحتكاك  \nقوة الاحتكاك\n267 \n   monitoring food مراقبة الغذاء  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "What does the passage say about the new food control technique?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 268,
+      "sourceLine": 5,
+      "sourcePages": [
+        268
+      ],
+      "rawBlock": "What does the passage say about the new food control technique? \nit is not yet ready to replace older methods \nit will help patients to use less medicine \nit will help people who do not exercise enough \nit can deal with all food ingredients \nماذا يقول المقطع عن التقنية الجديدة لمراقبة الأغذية؟ \nإنه ليس جاهزًا بعد لاستبدال الأساليب القديمة  \nسيساعد المرضى على استخدام كمية أقل من الأدوية  \nسيساعد الأشخاص الذين لا يمارسون الرياضة بشكل كافٍ  \nيمكنه التعامل مع جميع مكونات الطعام  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "Why have scientists developed the new food control technique?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 268,
+      "sourceLine": 19,
+      "sourcePages": [
+        268
+      ],
+      "rawBlock": "Why have scientists developed the new food control technique? \nto help restaurants make healthier food cheaply \nto avoid the need to keep a daily food diary \nto improve the diet of babies and children \nto deal with complex eating processes in the mouth \nلماذا طور العلماء تقنية جديدة لمراقبة الأغذية؟ \nلمساعدة المطاعم على صنع طعام صحي بتكلفة رخيصة \nلتجنب الحاجة إلى الاحتفاظ بمفكرة طعام يومية  \nلتحسين النظام الغذائي للرضع والأطفال  \nللتعامل مع عمليات الأكل المعقدة في الفم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "Which word can we use to replace the phrase in addition in paragraph 5?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 268,
+      "sourceLine": 32,
+      "sourcePages": [
+        268,
+        269
+      ],
+      "rawBlock": "Which word can we use to replace the phrase in addition in paragraph 5? \nAlso \nBesides \nHowever \nTherefore \nما هي الكلمة التي يمكننا استخدامها لاستبدال العبارة بالإضافة إلى الفقرة5؟ \nايضا  \nعلاوة  علي  \nلكن  \nلذلك\n268 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the phrase for instance in paragraph 5?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 269,
+      "sourceLine": 2,
+      "sourcePages": [
+        269
+      ],
+      "rawBlock": "Why does the writer use the phrase for instance in paragraph 5? \nto show how the new technique can be used in different ways \nto give examples of patients who can use the new technique \nto show that the new and all techniques are different \nto explain one difficulty in using the new technique \nلماذا يستخدم الكاتب العبارة على سبيل المثال في الفقرة5؟ \nلإظهار كيف يمكن استخدام التقنية الجديدة بطرق مختلفة  \nلإعطاء أمثلة للمرضى الذين يمكنهم استخدام التقنية الجديدة \nلإظهار أن التقنيات الجديدة وجميع التقنيات مختلفة  \nلشرح صعوبة واحدة في استخدام التقنية الجديدة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "What does the writer think of the old mouth guards?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 269,
+      "sourceLine": 16,
+      "sourcePages": [
+        269
+      ],
+      "rawBlock": "What does the writer think of the old mouth guards? \nhe believes they were not expensive to make \nhe believes they were rather big \nhe believes they were not practical \nhe believes they were difficult to make \nما رأي الكاتب في حراس الفم القدامى؟ \nيعتقد أنها لم تكن مكلفة  \nيعتقد أنها كانت كبيرة إلى حد ما \nيعتقد أنها لم تكن عملية  \nيعتقد أنه كان من الصعب القيام بذلك \n cultural norms  القواعد الثقافية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "What has the greatest effect on people's ideas about marriage today?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 269,
+      "sourceLine": 34,
+      "sourcePages": [
+        269
+      ],
+      "rawBlock": "What has the greatest effect on people's ideas about marriage today? \ntheir ideas about romantic love \nwhat they have seen in popular films \nthe marriage customs of people in New York \nwhat they have learned from their own community \nما هو أعظم تأثير على أفكار الناس عن الزواج اليوم؟ \nأفكارهم عن الحب الرومانسي \nما شاهدوه في الأفلام الشعبية \nعادات زواج الناس في نيويورك \nما تعلموه من مجتمعهم  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What is the main reason people have always lived in social groups?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 269,
+      "sourceLine": 46,
+      "sourcePages": [
+        269,
+        270
+      ],
+      "rawBlock": "What is the main reason people have always lived in social groups?\n269 \nfriendship \nmarriage  \ncustoms \nsurvival \nما هو السبب الرئيسي الذي يجعل الناس يعيشون دائمًا في مجموعات اجتماعية؟  \nصداقة \nزواج  \nجمارك \nنجاة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "The word \" obtaining\" in the passage is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 270,
+      "sourceLine": 17,
+      "sourcePages": [
+        270
+      ],
+      "rawBlock": "The word \" obtaining\" in the passage is closest in meaning to? \nGetting \nOrdering \nPreparing \nProducing \nكلمة \"الحصول\" في المقطع هي الأقرب في المعنى؟ \nالحصول  \nترتيب  \nخطة  \nانتاج  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "The word \" negotiations\" in the passage is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 270,
+      "sourceLine": 32,
+      "sourcePages": [
+        270,
+        271
+      ],
+      "rawBlock": "The word \" negotiations\" in the passage is closest in meaning to? \nDifferences \nDiscussions \nEmergencies \nRelationships \nكلمة \"مفاوضات\" في المقطع هي الأقرب من حيث المعنى؟ \nاختلافات  \nمناقشات  \nحالات الطوارئ  \nالعلاقات\n270 \nSteel use     استخدام الصلب ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What percentage of steel does the automotive industry use?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 271,
+      "sourceLine": 20,
+      "sourcePages": [
+        271
+      ],
+      "rawBlock": "What percentage of steel does the automotive industry use? \n5% \n9%  \n13% \n16% \nما هي نسبة الصلب التي تستخدمها صناعة السيارات؟ \n5 % \n9 % \n13 % \n16 % ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "what percentage of steel is used by the domestic appliances industry?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 271,
+      "sourceLine": 33,
+      "sourcePages": [
+        271,
+        272
+      ],
+      "rawBlock": "what percentage of steel is used by the domestic appliances industry?  \n11 % \n8% \n5% \n2% \nما هي نسبة الفولاذ المستخدم في صناعة الأجهزة المنزلية؟ \n11٪ \n8٪ \n5٪ \n ٪2\n271 \n  Food and cells الغذاء والخلايا  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "What two things happen to the cells in our body?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 272,
+      "sourceLine": 5,
+      "sourcePages": [
+        272
+      ],
+      "rawBlock": "What two things happen to the cells in our body? \nthey divide and are digested \nthey are replaced and recycled \nthey are replaced and digested \nthey build new cells and give energy \nماالشيئين يحدث للخلايا في أجسامنا؟  \nيقسمون ويتم هضمهم  \nيتم استبدالها وإعادة تدويرها  \nيتم استبدالها وهضمها  \nيبنون خلايا جديدة ويمنحون الطاقة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "What two things do cells use for mitosis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 272,
+      "sourceLine": 19,
+      "sourcePages": [
+        272
+      ],
+      "rawBlock": "What two things do cells use for mitosis? \nWater and dairy \nlipids and cereals \namino acids and lipids \namino acids and vegetables \nما الشيئين اللذين تستخدمهما الخلايا للانقسام؟ \nالماء والألبان  \nالدهون والحبوب  \nالأحماض الأمينية والدهون  \nالأحماض الأمينية والخضروات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What two hormones make people feel hunger?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 272,
+      "sourceLine": 33,
+      "sourcePages": [
+        272,
+        273
+      ],
+      "rawBlock": "What two hormones make people feel hunger? \nGhrelin and growth hormones \nLeptin and Ghrelin \nGhrelin and peptide \nHypothalamus and growth hormones \nما الهرمونان اللذان يجعلان الناس يشعرون بالجوع؟ \nهرمون الجريلين وهرمونات النمو  \nليبتين وجريلين  \nجريلين والببتيد  \nالهايبوتلاموس وهرمونات النمو    \nBritish professions\n272 \nالمهن البريطانية British professions \nرسم بياني ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "How many of Britain's CEOs were educated private schools in 2015?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 273,
+      "sourceLine": 16,
+      "sourcePages": [
+        273
+      ],
+      "rawBlock": "How many of Britain's CEOs were educated private schools in 2015? \naround 38% \naround 55% \naround 70% \naround 87% \nكم عدد المديرين التنفيذيين في بريطانيا الذين تلقوا تعليمهم في المدارس الخاصة في عام2015؟ \nحوالي  38 % \nحوالي55 % \nحوالي70 % \nحوالي87 % \nArrests   اعتقالات ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "The word \"probable\" in the passage is closest in meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 273,
+      "sourceLine": 28,
+      "sourcePages": [
+        273
+      ],
+      "rawBlock": "The word \"probable\" in the passage is closest in meaning to? \nEnormous \nSuspicious \nReasonable \nComplicated \nكلمة \"محتمل\" في المقطع هي الأقرب من حيث المعنى؟ \nضخم  \nمشبوه  \nمسؤول  \nمعقد  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "The word \" booked\" in the passage is closest in Probable cause meaning to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 273,
+      "sourceLine": 40,
+      "sourcePages": [
+        273,
+        274
+      ],
+      "rawBlock": "The word \" booked\" in the passage is closest in Probable cause meaning to?\n273 \nHarmed \nRegistered \nReleased \nTransferred \nكلمة \"حجز\" في المقطع هي الأقرب في سبب محتمل بمعنى؟ \nتضررت  \nمسجل \nصدر \nنقل  \n  Advertising الدعاية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "What are two words that the writer uses for supporter are in paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 274,
+      "sourceLine": 18,
+      "sourcePages": [
+        274
+      ],
+      "rawBlock": "What are two words that the writer uses for supporter are in paragraph 1? \nconsumer and defender \nconsumer and survival \nadvocate and survival \nadvocate and defender \nما هي كلمتان يستخدمهما الكاتب للداعم في الفقرة1؟ \nالمستهلك والمدافع  \nاستمرار الحياة على قيد الحياة \nالدعوة والبقاء \nمحامي ومدافع  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "Which of the following is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 274,
+      "sourceLine": 31,
+      "sourcePages": [
+        274
+      ],
+      "rawBlock": "Which of the following is an opinion? \nlarge scale production makes products cheaper \nsome TV stations need revenue for advertising \nadvertising makes people want more possessions \nadvertising gives people information about products \nأي مما يلي رأي؟ \nالإنتاج على نطاق واسع يجعل المنتجات أرخص  \nتحتاج بعض محطات التلفزيون إلى عائدات للإعلان  \nالإعلانات تجعل الناس يريدون المزيد من الممتلكات  \nيمنح الإعلان الأشخاص معلومات حول المنتجات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "How are college students views about advertising different from their advertiser's view?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 274,
+      "sourceLine": 46,
+      "sourcePages": [
+        274,
+        275
+      ],
+      "rawBlock": "How are college students views about advertising different from their advertiser's view?\n274 \ncollege students think advertising to young people is ineffective \ncollege students think that good advertising can increase sales \ncollege students think advertising prevents students from studying \ncollege students think advertising on social media should be banned \nكيف تختلف آراء طلاب الجامعات حول الإعلان عن وجهة نظر المعلن؟ \nيعتقد طلاب الجامعات أن الإعلان للشباب غير فعال  \nيعتقد طلاب الجامعات أن الإعلان الجيد يمكن أن يزيد المبيعات  \nيعتقد طلاب الجامعات أن الإعلانات تمنع الطلاب من الدراسة \nيعتقد طلاب الجامعات أنه يجب حظر الإعلان على وسائل التواصل الاجتماعي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "What can we understand about advertising from the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 275,
+      "sourceLine": 16,
+      "sourcePages": [
+        275
+      ],
+      "rawBlock": "What can we understand about advertising from the passage?  \nit causes higher prices in the shops \nit always helps a company increase profits \nit is a very important and powerful industry \nits advantages are greater than its benefits \nماذا يمكن أن نفهم عن الإعلان من المقطع؟ \nيتسبب في ارتفاع الأسعار في المحلات التجارية  \nيساعد دائمًا الشركة على زيادة أرباحها  \nإنها صناعة مهمة وقوية للغاية  \nمزاياه أعظم من فوائده  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "What can we understand about YouTube from the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 275,
+      "sourceLine": 31,
+      "sourcePages": [
+        275,
+        276
+      ],
+      "rawBlock": "What can we understand about YouTube from the passage?  \npeople use it to make money \nit is popular with young people \nit stops students from studying \nit has more adverts than television \nما الذي يمكن أن نفهمه عنYouTube من المقطع؟ \nيستخدمه الناس لكسب المال  \nأنها تحظى بشعبية لدى الشباب  \nيمنع الطلاب من الدراسة  \nلديها إعلانات أكثر من التلفزيون\n275 \nrenewable energy sources   مصادر الطاقة المتجددة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "According to both passages, why is it difficult to use energy from renewable sources?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 276,
+      "sourceLine": 6,
+      "sourcePages": [
+        276
+      ],
+      "rawBlock": "According to both passages, why is it difficult to use energy from renewable sources? \nRenewable sources require large amounts of energy to generate power. \nthe availability of renewable energy differs and can only be used for water heating. \n.large collecting devices are required and it's difficult to get permission from governments \nit's difficult to convert motion to drive a generator and crude oil prices are so cheap that it's not worth it. \nحسب كالمقطعين، لماذا يصعب استخدام الطاقة من مصادر متجددة؟  \nتتطلب المصادر المتجددة كميات كبيرة من الطاقة لتوليد الطاقة.  \nيختلف توافر الطاقة المتجددة ولا يمكن استخدامها إلا لتسخين المياه. \nيلزم وجود أجهزة تجميع كبيرة ويصعب الحصول على إذن من الحكومات.  \nمن الصعب تحويل الحركة لتشغيل مولد وأسعار النفط الخام رخيصة جدًا بحيث لا تستحق ذلك. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-22-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "What do the passages say about the UK?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 276,
+      "sourceLine": 21,
+      "sourcePages": [
+        276,
+        277
+      ],
+      "rawBlock": "What do the passages say about the UK? \nWind turbines are unpopular in the UK, but they provide 400 MW of energy \nthe UK has up to 100 wind turbines that can provide energy to other countries \nwind turbines supply electricity to some homes and hydroelectricity powers 2 percent of homes in the UK \nhydroelectricity powers 2 percent of homes and wind power could provide power for another 10percent of \nhomes \nماذا تقول المقاطع عن المملكة المتحدة؟ \nلا تحظى توربينات الرياح بشعبية في المملكة المتحدة، لكنها توفر 400 ميغاواط من الطاقة \nتمتلك المملكة المتحدة ما يصل إلى 100 توربينة رياح يمكنها توفير الطاقة لدول أخرى \nتزود توربينات الرياح بالكهرباء لبعض المنازل وتولد الطاقة الكهرومائية 2% من المنازل في المملكة المتحدة \nالطاقة الكهرومائية 2% من المنازل وطاقة الرياح يمكن أن توفر الطاقة لـ10% أخرى من المنازل \nWhich of the following statements best summarizes renewable energy from both \npassages? \nThe UK is the leading country in the world using alternative energy sources \nrenewable energy resources make up a small portion of the energy supply \nwind turbines cause too much environmental damage to be used widely \nCanada is the leading country in hydroelectric energy \nأي من العبارات التالية يلخص بشكل أفضل الطاقة المتجددة من كلا المقطعين؟ \nالمملكة المتحدة هي الدولة الرائدة في العالم باستخدام مصادر الطاقة البديلة  \nتشكل موارد الطاقة المتجددة جزءًا صغيرًا من إمدادات الطاقة  \nتسبب توربينات الرياح الكثير من الأضرار البيئية لاستخدامها على نطاق واسع  \nكندا هي الدولة الرائدة في مجال الطاقة الكهرومائية\n276 \n  floor damage تلف الأرضية \nAccording to Paragraph (2), the problems with wiring were caused by …………….   \nthe electrical contractor \nthe new wires \nthe old wires \nleaking water \nوفقًا للفقرة2) ، كانت مشاكل الأسلاك ناتجة عن \nالمقاول الكهربائي  \nالأسلاك الجديدة  \nالأسلاك القديمة  \nتسريب مياه  \nAccording to Paragraph (4), the replacement of the damaged floor surface ……………. \nis going to begin when the customer notifies the contractor. \nis going to begin when the workmen are available. \nhas already finished. \nhas already begun. \nطبقا للفقرة4) استبدال سطح الارض التالف \nسيبدأ عندما يخطر العميل المقاول.  \nسيبدأ عندما يكون العمال متاحين.  \nانتهى بالفعل.  \nقد بدأت بالفعل.  \nThe word inconvenience in Paragraph (4) is closest in meaning to ……………. \ntime pressure \ncoincidence \nbad luck \ntrouble \nكلمة الإزعاج في الفقرة4) هي الأقرب في المعنى إلى \nضغط الوقت  \nصدفة \nحظ سيء  \nمشكلة",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "readingId": "reading-28",
+  "sourceQuestionBlocks": 10,
+  "questions": [
+    {
+      "id": "reading-28-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What can we understand about the Australian and the Nearctic deserts?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 341,
+      "sourceLine": 2,
+      "sourcePages": [
+        341,
+        342
+      ],
+      "rawBlock": "What can we understand about the Australian and the Nearctic deserts? \nThe Nearctic deserts are larger.  \nThe Nearctic deserts have more people.  \nThe Australian deserts are hotter and drier.  \nThe Australian deserts have fewer species. \nما الذي يمكن أن نفهمه عن الصحاري الأسترالية والقطبية الشمالية؟ \nالصحاري القريبة من القطب الشمالي أكبر.  \nالصحاري القريبة من القطب الشمالي بها المزيد من الناس.  \nالصحاري الأسترالية أكثر سخونة وجفافًا.  \nتحتوي الصحاري الأسترالية على عدد أقل من الأنواع.  \nBees   النحل  \nThe fire النار ومايك  \nOzone   الأوزون \n  Air Pollution تلوث الهواء \n Currencies العملات \nرسم بياني عن الزراعة  \nرسم بياني عن استثمارات طاقة الرياح والطاقة الشمسية  \nAvalanches \nالانهيارات الثلجية \nEmotions   العواطف \nعناوين النموذج 28\n341 \nBees   النحل ( مكرر من نماذج سابقة  ) \nThe words these amazing creatures in Paragraph (1) refer to …………….  \nBees  \nInsects  \nScientists  \nCommunities \nتشير كلمات هذه المخلوقات المذهلة في الفقرة1) إلى \nالنحل \nالحشرات  \nالعلماء \nمجتمعات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "Why are bees important to humans?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 342,
+      "sourceLine": 15,
+      "sourcePages": [
+        342
+      ],
+      "rawBlock": "Why are bees important to humans? \n They have communities and can communicate.  \nThey are necessary to produce our food crops. \nThey are becoming more numerous than us.  \nThey have feelings like us. \nلماذا النحل مهم للبشر؟ \n  لديهم مجتمعات ويمكنهم التواصل.  \nإنها ضرورية لإنتاج محاصيلنا الغذائية.  \nلقد أصبحوا أكثر منا.  \nلديهم مشاعر مثلنا.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "Which paragraph describes how the scientists trained the bees?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 342,
+      "sourceLine": 26,
+      "sourcePages": [
+        342,
+        343,
+        344
+      ],
+      "rawBlock": "Which paragraph describes how the scientists trained the bees?  \nParagraph (1)  \nParagraph (2)  \nParagraph (3)  \nParagraph (4) \nأي فقرة تصف كيف درب العلماء النحل؟ \nالفقرة  1 \nالفقرة2 \nالفقرة3 \nالفقرة4\n342 \nThe fire النار ومايك  \nAccording to Paragraph 2 Mike was too exhausted to move because ..................... \nhe had sweat all over him \nhe was covered with black ash \nBen did NOT give him much help \nhe had given so much to fight the fire \nوفقًا للفقرة2، كان مايك مرهقًا جدًا للتحرك بسبب   ...............   \nكان يتصبب عرقا فوقه  \nكان مغطى بالرماد الأسود  \nلم يعطه بن الكثير من المساعدة  \nلقد أعطى الكثير لمكافحة الحريق  \nAccording to Paragraph 3 Ben taught Mike that being brave involves ..................... \nworking with proper tools \navoiding fire hazards \nlosing one's courage \ncaring for others \nوفقًا للفقرة3، علم بن لمايك أن الشجاعة تتطلب   \nالعمل بالأدوات المناسبة  \nتجنب مخاطر الحريق  \nفقدان الشجاعة  \nرعاية الآخرين  \nThe pronoun his in Paragraph 3 refers to ..................... \na man \na fireman \nMike \nBen \nالضمير الخاص به في الفقرة3 يشير إلى  .............   \nرجل  \nرجل إطفاء  \nمايك  \nبن\n343 \n Ozone  الأوزون ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "What chemical is used in fire extinguishers?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 344,
+      "sourceLine": 3,
+      "sourcePages": [
+        344
+      ],
+      "rawBlock": "What chemical is used in fire extinguishers?  \nCFCs  \nChlorine  \nHalons  \nPolymers \nما هي المادة الكيميائية المستخدمة في طفايات الحريق؟ \nمركبات الكلوروفلوروكربون  \nالكلور \nالهالونات  \nالبوليمرات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "What is another name for \"Chlorofluorocarbons\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 344,
+      "sourceLine": 16,
+      "sourcePages": [
+        344,
+        345
+      ],
+      "rawBlock": "What is another name for \"Chlorofluorocarbons\"?  \nfreons  \nacids  \nsulfur  \nhalons \nما هو الاسم الآخر لـ \"مركبات الكربون الكلورية فلورية\"؟ \nفريون  \nالأحماض  \nكبريت  \nالهالونات  \nAround what percentage of Ultraviolet Radiation do ozone molecules absorb in the \nstratosphere?  \n90%  \n80%  \n20% \n10% \nما هي نسبة الإشعاع فوق البنفسجي التي تمتصها جزيئات الأوزون في الستراتوسفير؟ \n90 % \n80 % \n20 % \n10 % \n   Air Pollution تلوث الهواء\n344 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "What does Paragraph (1) say about air pollution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 345,
+      "sourceLine": 3,
+      "sourcePages": [
+        345
+      ],
+      "rawBlock": "What does Paragraph (1) say about air pollution?  \nIt requires complex solutions.  \nIt is caused by several sources.  \nWe need to understand its causes.  \nWe need to educate people about its effects. \nماذا تقول الفقرة1) عن تلوث الهواء؟ \nيتطلب حلولا معقدة.  \nوهو ناتج عن عدة مصادر.  \nنحن بحاجة إلى فهم أسبابها.  \nنحن بحاجة لتثقيف الناس حول آثاره.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "Why does the writer use the words \"In addition\" in Paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 345,
+      "sourceLine": 17,
+      "sourcePages": [
+        345
+      ],
+      "rawBlock": "Why does the writer use the words \"In addition\" in Paragraph (2)? \nto give more information about air pollution.  \nto give an example of air pollution.  \nto explain the result of air pollution.  \nto explain the cause of air pollution. \nلماذا يستخدم الكاتب عبارة \"بالإضافة\" في الفقرة2)؟ \nلإعطاء مزيد من المعلومات حول تلوث الهواء.  \nلإعطاء مثال على تلوث الهواء.  \nلشرح نتيجة تلوث الهواء.  \nلشرح سبب تلوث الهواء.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "How can we reduce outdoor air pollution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 345,
+      "sourceLine": 31,
+      "sourcePages": [
+        345
+      ],
+      "rawBlock": "How can we reduce outdoor air pollution?  \nkeeping windows open.  \nriding bicycles.  \ngrowing trees.  \nstop using cleaning products. \nكيف يمكننا تقليل تلوث الهواء الخارجي؟ \nإبقاء النوافذ مفتوحة.  \nركوب الدراجات الهوائية.  \nزراعة الأشجار.  \nتوقف عن استخدام منتجات التنظيف.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "Which word can we use to replace the words \"for example\" in Paragraph (3)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 345,
+      "sourceLine": 45,
+      "sourcePages": [
+        345,
+        346
+      ],
+      "rawBlock": "Which word can we use to replace the words \"for example\" in Paragraph (3)?  \nTherefore\n345 \nAlthough  \nIn particular  \nFor instance \nما هي الكلمة التي يمكننا استخدامها لاستبدال الكلمات \"على سبيل المثال\" في الفقرة3)؟ \nوبالتالي  \nرغم  \nخاصه  \nعلى سبيل المثال  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "What does the writer think about ordinary people reducing air pollution?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 346,
+      "sourceLine": 13,
+      "sourcePages": [
+        346
+      ],
+      "rawBlock": "What does the writer think about ordinary people reducing air pollution?  \nHe believes that they cannot reduce air pollution.  \nHe believes that they can do little to reduce air pollution.  \nHe believes that they can reduce air pollution.  \nHe believes that they are interested in reducing air pollution. \nما رأي الكاتب في تقليل الأشخاص العاديين لتلوث الهواء؟ \nيعتقد أنهم لا يستطيعون الحد من تلوث الهواء.  \nويعتقد أنه لا يمكنهم فعل الكثير للحد من تلوث الهواء.  \nيعتقد أنها يمكن أن تقلل من تلوث الهواء.  \nيعتقد أنهم مهتمون بالحد من تلوث الهواء.  \n Currencies العملات ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "What happens because of reports of increased inflation?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 346,
+      "sourceLine": 29,
+      "sourcePages": [
+        346
+      ],
+      "rawBlock": "What happens because of reports of increased inflation?  \nForeign relations get worse.  \nThe political stability gets worse.  \nThe currency becomes less valuable.  \nCompanies become bad investments. \nماذا يحدث بسبب تقارير زيادة التضخم؟ \nالعلاقات الخارجية تزداد سوءا.  \nالاستقرار السياسي يزداد سوءا.  \nتصبح العملة أقل قيمة.  \nتصبح الشركات استثمارات سيئة.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "What effect does political situation have on the exchange rate?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 346,
+      "sourceLine": 42,
+      "sourcePages": [
+        346,
+        347,
+        348
+      ],
+      "rawBlock": "What effect does political situation have on the exchange rate?  \nIt has NO effect.  \nIt causes fluctuations.\n346 \nIt assesses the economy.  \n It affects foreign relationships. \nما هو تأثير الوضع السياسي على سعر الصرف؟ \nليس له أي تأثير.  \nيسبب تقلبات.  \nيقيم الاقتصاد.  \n يؤثر على العلاقات الخارجية.  \nThe word Reports in Paragraph (2) is closest in meaning to ……….  \nStories.  \nDiaries.  \nMagazines.  \nAdvertisements. \nكلمة تقارير في الفقرة2) هي الأقرب في المعنى إلى \nالقصص.  \nيوميات .  \nالمجلات. \nالإعلانات.  \nThe word currency in Paragraph (2) is closest in meaning to ………..  \ncash  \nmarket  \ncheque  \nbusiness \nكلمة العملة في الفقرة2) هي الأقرب في المعنى إلى \nالسيولة النقدية  \nسوق  \nالتحقق من  \nاعمال\n347 \nرسم بياني عن الزراعة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "Which two fields extract and use the most water?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 348,
+      "sourceLine": 20,
+      "sourcePages": [
+        348
+      ],
+      "rawBlock": "Which two fields extract and use the most water?  \nAgriculture and Energy.  \nAgriculture and Industry.  \nDomestic use and Industry.  \nAgriculture and Domestic use. \nأي حقلين يستخرجان ويستخدمان أكبر قدر من المياه؟ \nالزراعة والطاقة.  \nالزراعة والصناعة.  \nالاستخدام المنزلي والصناعة.  \nالزراعة والاستخدام المنزلي.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "Which year will have the highest consumption of water for industry use?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 348,
+      "sourceLine": 31,
+      "sourcePages": [
+        348,
+        349
+      ],
+      "rawBlock": "Which year will have the highest consumption of water for industry use?  \n2025  \n2015  \n2000  \n1975 \nما هي السنة التي سيكون فيها أعلى استهلاك للمياه للاستخدام الصناعي؟ \n2025 \n2015 \n2000 \n1975 \nرسم بياني عناستثمارات طاقة الرياح  والطاقة الشمسية\n348 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "Which year represents the highest wind investment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 349,
+      "sourceLine": 13,
+      "sourcePages": [
+        349
+      ],
+      "rawBlock": "Which year represents the highest wind investment?  \n2002  \n2004  \n010 2 \n2012 \nأي عام يمثل أعلى استثمار للرياح؟ \n2002 \n2004 \n2010 \n2012 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "Which year represents the lowest solar investment?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 349,
+      "sourceLine": 28,
+      "sourcePages": [
+        349,
+        350
+      ],
+      "rawBlock": "Which year represents the lowest solar investment?  \n2004  \n2006 \n2011  \n2015 \nأي سنة تمثل أقل استثمار للطاقة الشمسية؟ \n2004 \n2006 \n2011 \n2015 \nAvalanches \nالانهيارات الثلجية\n349 \nThe word slab in the passage is closest in meaning to ……………..  \n chunk \naltitude  \nspeed  \nreduction \nكلمة اللوح في المقطع هي الأقرب في المعنى إلى \nقطعة \nارتفاع  \nسرعة  \nاختزال \nThe word unites in the passage is closest in meaning to …………..  \nrelates  \nappears  \ncollapse  \ncombines \nالكلمة تتحد في المقطع هي الأقرب في المعنى إلى \nيتعلق  \nيبدو  \nانهدام \nيجمع  \nThe word unstable in the passage is closest in meaning to …………..  \nfirm  \nsafe  \nloose  \nlarger \nكلمة غير مستقرة في المقطع هي الأقرب في المعنى إلى \nشركة \nآمنة  \nمرتخي  \nأكبر \n Emotions  العواطف ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What can we understand from Paragraph (2) about a good hug?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 350,
+      "sourceLine": 43,
+      "sourcePages": [
+        350,
+        351
+      ],
+      "rawBlock": "What can we understand from Paragraph (2) about a good hug?  \nIt is likely the result of the two people involved feeling happy.\n350 \nScientists argue it works as a reward for achieving a goal.  \nIt may cause different feelings in different people.  \nTheories disagree over its emotional value. \nماذا يمكن أن نفهم من الفقرة2) عن العناق الجيد؟ \nمن المحتمل أن يكون ذلك نتيجة شعور الشخصين المتورطين بالسعادة. \nيجادل العلماء بأنه يعمل كمكافأة لتحقيق الهدف. \nقد يسبب مشاعر مختلفة في مختلف الناس.  \nتختلف النظريات حول قيمتها العاطفية. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "How are functionalist theories of emotions different from appraisal theories?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 351,
+      "sourceLine": 14,
+      "sourcePages": [
+        351
+      ],
+      "rawBlock": "How are functionalist theories of emotions different from appraisal theories?  \nAccording to functionalist theories, emotions come from how we judge what happens in the world.  \nAccording to functionalist theories, emotions help us build relationships or respond to threats.  \nAccording to functionalist theories, events in the world cause emotions.  \nAccording to functionalist theories, emotional intelligence is more important than logical intelligence. \nكيف تختلف النظريات الوظيفية للعواطف عن نظريات التقييم؟ \nوفقًا للنظريات الوظيفية ، تأتي العواطف من الطريقة التي نحكم بها على ما يحدث في العالم.  \nوفقًا للنظريات الوظيفية ، تساعدنا العواطف في بناء العلاقات أو الاستجابة للتهديدات.  \nوفقًا للنظريات الوظيفية ، فإن الأحداث في العالم تسبب المشاعر.  \nوفقًا للنظريات الوظيفية ، يعد الذكاء العاطفي أكثر أهمية من الذكاء المنطقي.  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "What idea does the word \"relationships\" in Paragraph (4) repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 351,
+      "sourceLine": 29,
+      "sourcePages": [
+        351
+      ],
+      "rawBlock": "What idea does the word \"relationships\" in Paragraph (4) repeat?  \nhuman emotional experience  \nevaluations and judgments  \nattachments to other people  \nmore intellectual challenges \nما هي الفكرة التي تكررها كلمة \"علاقات\" في الفقرة4)؟ \nتجربة عاطفية بشرية \nالتقييمات والأحكام  \nالمرفقات بأشخاص آخرين  \nالمزيد من التحديات الفكرية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "Which of the following is the writer's opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 351,
+      "sourceLine": 44,
+      "sourcePages": [
+        351,
+        352
+      ],
+      "rawBlock": "Which of the following is the writer's opinion?  \nPeople experience many emotions.  \nPeople know very little at birth.  \nHappiness and sadness are emotions.  \nEmotions help us learn, explore, and reflect. \nأي مما يلي رأي الكاتب؟ \nيشعر الناس بالعديد من المشاعر. \nيعرف الناس القليل جدًا عند الولادة. \nالسعادة والحزن مشاعر.\n351 \nتساعدنا العواطف على التعلم والاستكشاف والتفكير ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-28-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "What can we understand from the passage about emotions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 352,
+      "sourceLine": 7,
+      "sourcePages": [
+        352
+      ],
+      "rawBlock": "What can we understand from the passage about emotions?  \nEmotions may sometimes prevent us from achieving our goals.  \nEmotions make us want to know more about the world around us.  \nScientists have decided there are seven basic types of emotions. \nThe latest research has changed the way we now think about emotions. \nماذا يمكن أن نفهم من المقطع عن العواطف؟ \nقد تمنعنا المشاعر أحيانًا من تحقيق أهدافنا.  \nتجعلنا العواطف نريد معرفة المزيد عن العالم من حولنا.  \nقرر العلماء أن هناك سبعة أنواع أساسية من المشاعر.  \nلقد غيرت الأبحاث الأخيرة الطريقة التي نفكر بها الآن في العواطف.",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

@@ -1,0 +1,797 @@
+{
+  "readingId": "reading-39",
+  "questions": [
+    {
+      "id": "reading-39-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "According to paragraph 1, why does the Western world use a different name for Ibn-Sina?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        496
+      ],
+      "sourceBlockIds": [
+        "page-496-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 468.86,
+        "x0": 11.16,
+        "x1": 567.84
+      }
+    },
+    {
+      "id": "reading-39-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "Who developed the gas engine that later blew to pieces?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        497
+      ],
+      "sourceBlockIds": [
+        "page-497-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 330.0,
+        "x0": 11.16,
+        "x1": 362.81
+      }
+    },
+    {
+      "id": "reading-39-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "In which year was the motor wagon offered for sale?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        497
+      ],
+      "sourceBlockIds": [
+        "page-497-line-21"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 474.86,
+        "x0": 11.16,
+        "x1": 335.58
+      }
+    },
+    {
+      "id": "reading-39-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph (1) say about optical character recognition technology?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        498
+      ],
+      "sourceBlockIds": [
+        "page-498-line-5"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 137.85,
+        "x0": 11.16,
+        "x1": 491.16
+      }
+    },
+    {
+      "id": "reading-39-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "What does Paragraph (2) say about the way digital images can be used?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        498
+      ],
+      "sourceBlockIds": [
+        "page-498-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 379.32,
+        "x0": 11.16,
+        "x1": 462.38
+      }
+    },
+    {
+      "id": "reading-39-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "Which sentence gives the main idea of Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        498
+      ],
+      "sourceBlockIds": [
+        "page-498-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 622.69,
+        "x0": 11.16,
+        "x1": 316.84
+      }
+    },
+    {
+      "id": "reading-39-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        499
+      ],
+      "sourceBlockIds": [
+        "page-499-line-15"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 417.44,
+        "x0": 11.16,
+        "x1": 227.42
+      }
+    },
+    {
+      "id": "reading-39-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one important idea about great scientists that the writer mentions in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        500
+      ],
+      "sourceBlockIds": [
+        "page-500-line-6"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 164.73,
+        "x0": 11.16,
+        "x1": 576.24
+      }
+    },
+    {
+      "id": "reading-39-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the element \"eka-aluminum\" an example of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        500
+      ],
+      "sourceBlockIds": [
+        "page-500-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 357.96,
+        "x0": 11.16,
+        "x1": 336.42
+      }
+    },
+    {
+      "id": "reading-39-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        500
+      ],
+      "sourceBlockIds": [
+        "page-500-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 551.18,
+        "x0": 11.16,
+        "x1": 252.49
+      }
+    },
+    {
+      "id": "reading-39-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the passage say about investing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        501
+      ],
+      "sourceBlockIds": [
+        "page-501-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 108.69,
+        "x0": 11.16,
+        "x1": 289.78
+      }
+    },
+    {
+      "id": "reading-39-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "Why does the writer use the word Although in Paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        501
+      ],
+      "sourceBlockIds": [
+        "page-501-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 301.92,
+        "x0": 11.16,
+        "x1": 390.76
+      }
+    },
+    {
+      "id": "reading-39-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "Which word can we use to replace the word because in Paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        501
+      ],
+      "sourceBlockIds": [
+        "page-501-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 495.14,
+        "x0": 11.16,
+        "x1": 451.54
+      }
+    },
+    {
+      "id": "reading-39-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "What does the writer think about investing in stocks?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        501
+      ],
+      "sourceBlockIds": [
+        "page-501-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 640.01,
+        "x0": 11.16,
+        "x1": 337.21
+      }
+    },
+    {
+      "id": "reading-39-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "What is the reason for encephalitis?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        502
+      ],
+      "sourceBlockIds": [
+        "page-502-line-4"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 191.49,
+        "x0": 11.16,
+        "x1": 233.76
+      }
+    },
+    {
+      "id": "reading-39-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "What is one negative effect of West Nile Virus?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        502
+      ],
+      "sourceBlockIds": [
+        "page-502-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 416.88,
+        "x0": 11.16,
+        "x1": 302.94
+      }
+    },
+    {
+      "id": "reading-39-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "What was the value of meat alternative in the US?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        503
+      ],
+      "sourceBlockIds": [
+        "page-503-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 288.12,
+        "x0": 11.16,
+        "x1": 321.54
+      }
+    },
+    {
+      "id": "reading-39-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "Which type of plant-based food scored the lowest value in 2018?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        503
+      ],
+      "sourceBlockIds": [
+        "page-503-line-20"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 400.8,
+        "x0": 11.16,
+        "x1": 411.98
+      }
+    },
+    {
+      "id": "reading-39-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "In 1980, what percentage of the US population was age 65 years or older?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        504
+      ],
+      "sourceBlockIds": [
+        "page-504-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.33,
+        "x0": 11.16,
+        "x1": 472.61
+      }
+    },
+    {
+      "id": "reading-39-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "What are the two most used vaccines throughout the Americas?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        504
+      ],
+      "sourceBlockIds": [
+        "page-504-line-12"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 286.8,
+        "x0": 11.16,
+        "x1": 407.92
+      }
+    },
+    {
+      "id": "reading-39-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "Which vaccines send genetic instructions to cells to create a specific protein that fights the coronavirus?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        504
+      ],
+      "sourceBlockIds": [
+        "page-504-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 415.37,
+        "x0": 11.16,
+        "x1": 561.26
+      }
+    },
+    {
+      "id": "reading-39-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "Which Latin American countries are using the Russ Sputnik V vaccine?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        504
+      ],
+      "sourceBlockIds": [
+        "page-504-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 539.78,
+        "x0": 11.16,
+        "x1": 451.4
+      }
+    },
+    {
+      "id": "reading-39-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "What idea do the words declared independence repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        505
+      ],
+      "sourceBlockIds": [
+        "page-505-line-16"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 359.76,
+        "x0": 11.16,
+        "x1": 359.18
+      }
+    },
+    {
+      "id": "reading-39-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "Which one of the following is an opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        505
+      ],
+      "sourceBlockIds": [
+        "page-505-line-26"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 569.06,
+        "x0": 11.16,
+        "x1": 264.72
+      }
+    },
+    {
+      "id": "reading-39-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "How are Parker's ideas about the end of the Cold War different from the Republicans\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        506
+      ],
+      "sourceBlockIds": [
+        "page-506-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 69.55,
+        "x0": 11.16,
+        "x1": 549.5
+      }
+    },
+    {
+      "id": "reading-39-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from the passage about Mikhail Gorbachev?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        506
+      ],
+      "sourceBlockIds": [
+        "page-506-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 230.61,
+        "x0": 11.16,
+        "x1": 444.53
+      }
+    },
+    {
+      "id": "reading-39-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "What can we understand from the passage about the Soviet Union?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        506
+      ],
+      "sourceBlockIds": [
+        "page-506-line-23"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 423.84,
+        "x0": 11.16,
+        "x1": 431.22
+      }
+    },
+    {
+      "id": "reading-39-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "What do passages A and B say about consumer price perceptions?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        506
+      ],
+      "sourceBlockIds": [
+        "page-506-line-37"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 727.18,
+        "x0": 11.16,
+        "x1": 369.13
+      }
+    },
+    {
+      "id": "reading-39-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "According to passages A and B, what role do marketers play in pricing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        507
+      ],
+      "sourceBlockIds": [
+        "page-507-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 152.18,
+        "x0": 11.16,
+        "x1": 390.61
+      }
+    },
+    {
+      "id": "reading-39-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following statements best summarizes pricing strategies from passages A and B?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        507
+      ],
+      "sourceBlockIds": [
+        "page-507-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 345.41,
+        "x0": 11.16,
+        "x1": 512.54
+      }
+    },
+    {
+      "id": "reading-39-q31",
+      "displayOrder": 31,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (2), how can people better appreciate fabrics?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        508
+      ],
+      "sourceBlockIds": [
+        "page-508-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 246.69,
+        "x0": 11.16,
+        "x1": 446.82
+      }
+    },
+    {
+      "id": "reading-39-q32",
+      "displayOrder": 32,
+      "sourceQuestionNumber": null,
+      "questionText": "Which unit would most likely discuss prayer rituals in Hispanic culture?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        508
+      ],
+      "sourceBlockIds": [
+        "page-508-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 643.97,
+        "x0": 11.16,
+        "x1": 447.66
+      }
+    },
+    {
+      "id": "reading-39-q33",
+      "displayOrder": 33,
+      "sourceQuestionNumber": null,
+      "questionText": "Which unit would most likely discuss violent changes in society in Hispanic countries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        509
+      ],
+      "sourceBlockIds": [
+        "page-509-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 85.65,
+        "x0": 14.16,
+        "x1": 543.95
+      }
+    }
+  ]
+}

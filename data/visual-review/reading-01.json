@@ -1,0 +1,1129 @@
+{
+  "readingId": "reading-01",
+  "sourcePages": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "sourcePageRange": {
+    "start": 4,
+    "end": 14
+  },
+  "visualQuestionReviewStatus": "verified",
+  "firstReviewStatus": "verified",
+  "secondReviewStatus": "verified",
+  "questions": [
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 1,
+      "questionText": "Why is it too late to record the language?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        5
+      ],
+      "sourceBlockIds": [
+        "page-5-line-6"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 2,
+      "questionText": "The materials that will be published and the recordings will be available for?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        5
+      ],
+      "sourceBlockIds": [
+        "page-5-line-8"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 3,
+      "questionText": "Author opinion to Ktunaxa language?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        5
+      ],
+      "sourceBlockIds": [
+        "page-5-line-11"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 4,
+      "questionText": "What does the word \"preserve\" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        5
+      ],
+      "sourceBlockIds": [
+        "page-5-line-13"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 5,
+      "questionText": "The word \"can\" in the first sentence. What is the point of using it?",
+      "options": [
+        {
+          "label": null,
+          "text": "facts"
+        },
+        {
+          "label": null,
+          "text": "confused"
+        },
+        {
+          "label": null,
+          "text": "interest"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        5
+      ],
+      "sourceBlockIds": [
+        "page-5-line-15"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 6,
+      "questionText": "Why Marina chose the internet?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        5
+      ],
+      "sourceBlockIds": [
+        "page-5-line-18"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 7,
+      "questionText": "The pronoun \" it \" refers to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        5
+      ],
+      "sourceBlockIds": [
+        "page-5-line-20"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 8,
+      "questionText": "How is it available online?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        6
+      ],
+      "sourceBlockIds": [
+        "page-6-line-3"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 9,
+      "questionText": "* Why is pizza popular ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        6
+      ],
+      "sourceBlockIds": [
+        "page-6-line-6"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 10,
+      "questionText": "* Why was pizza sold at supermarkets?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        6
+      ],
+      "sourceBlockIds": [
+        "page-6-line-8"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 11,
+      "questionText": "* What is the best title?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        6
+      ],
+      "sourceBlockIds": [
+        "page-6-line-12"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 12,
+      "questionText": "* Why pizza is not healthy?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        6
+      ],
+      "sourceBlockIds": [
+        "page-6-line-14"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 13,
+      "questionText": "Shaky pizza opened in?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        6
+      ],
+      "sourceBlockIds": [
+        "page-6-line-17"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 14,
+      "questionText": "pizza has vitamins because?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        7
+      ],
+      "sourceBlockIds": [
+        "page-7-line-3"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 15,
+      "questionText": "*What should we do to make Oud become perfume?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        7
+      ],
+      "sourceBlockIds": [
+        "page-7-line-6"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 16,
+      "questionText": "*How can Oud's tree produce it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        7
+      ],
+      "sourceBlockIds": [
+        "page-7-line-10"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 17,
+      "questionText": "*What kind of perfume that Europe used with Oud?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        7
+      ],
+      "sourceBlockIds": [
+        "page-7-line-12"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 18,
+      "questionText": "*What do \"harvesting\" and ''reaper\" mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        7
+      ],
+      "sourceBlockIds": [
+        "page-7-line-14"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 19,
+      "questionText": "*Where does oud come from?",
+      "options": [
+        {
+          "label": null,
+          "text": "Ethiopia"
+        },
+        {
+          "label": null,
+          "text": "Thailand"
+        },
+        {
+          "label": null,
+          "text": "Yemen"
+        },
+        {
+          "label": null,
+          "text": "India"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        7
+      ],
+      "sourceBlockIds": [
+        "page-7-line-16"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 20,
+      "questionText": "* What are the two things uses in Oud?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        8
+      ],
+      "sourceBlockIds": [
+        "page-8-line-3"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 21,
+      "questionText": "What does Europe use Oud with perfumes?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        8
+      ],
+      "sourceBlockIds": [
+        "page-8-line-19"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 22,
+      "questionText": "How do they make the little bottles which called in Arabic Talat ?",
+      "options": [
+        {
+          "label": null,
+          "text": "They put it in water"
+        },
+        {
+          "label": null,
+          "text": "they evaporate it"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        8
+      ],
+      "sourceBlockIds": [
+        "page-8-line-21"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 23,
+      "questionText": "What does ( parallel ) mean?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        9
+      ],
+      "sourceBlockIds": [
+        "page-9-line-4"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 24,
+      "questionText": "What is the best title?",
+      "options": [
+        {
+          "label": null,
+          "text": "ant kinds"
+        },
+        {
+          "label": null,
+          "text": "ant food"
+        },
+        {
+          "label": null,
+          "text": "ant studies of scientists"
+        },
+        {
+          "label": null,
+          "text": "Ant mirror of human activity"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        9
+      ],
+      "sourceBlockIds": [
+        "page-9-line-6"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 25,
+      "questionText": "What is the sentence that is not mentioned in the third paragraph?",
+      "options": [
+        {
+          "label": null,
+          "text": "Ants differ in color"
+        },
+        {
+          "label": null,
+          "text": "Ants differ in their diet"
+        },
+        {
+          "label": null,
+          "text": "Ants differ in their nemesis"
+        },
+        {
+          "label": null,
+          "text": "Ants has different organs"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        9
+      ],
+      "sourceBlockIds": [
+        "page-9-line-16"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 26,
+      "questionText": "Where do the ants live?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        10
+      ],
+      "sourceBlockIds": [
+        "page-10-line-4"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 27,
+      "questionText": "Why are the ants useful?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        10
+      ],
+      "sourceBlockIds": [
+        "page-10-line-6"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 28,
+      "questionText": "What does the word \"exhibit\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        10
+      ],
+      "sourceBlockIds": [
+        "page-10-line-8"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 29,
+      "questionText": "Who helps the queen to get food?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        10
+      ],
+      "sourceBlockIds": [
+        "page-10-line-10"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 30,
+      "questionText": "Do all ants lay eggs?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        10
+      ],
+      "sourceBlockIds": [
+        "page-10-line-12"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 31,
+      "questionText": "Do ants live long?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        10
+      ],
+      "sourceBlockIds": [
+        "page-10-line-14"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 32,
+      "questionText": "What does the word \"site\"?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        11
+      ],
+      "sourceBlockIds": [
+        "page-11-line-12"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 33,
+      "questionText": "What does the pronoun \"its\" refer to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        11
+      ],
+      "sourceBlockIds": [
+        "page-11-line-14"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 34,
+      "questionText": "Why is Madain Saleh important?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        11
+      ],
+      "sourceBlockIds": [
+        "page-11-line-17"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 35,
+      "questionText": "What did the author describe Petra ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        11
+      ],
+      "sourceBlockIds": [
+        "page-11-line-19"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 36,
+      "questionText": "Which Nabateans not doing?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        12
+      ],
+      "sourceBlockIds": [
+        "page-12-line-4"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 37,
+      "questionText": "Why did Prophet Saleh leave his people?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        12
+      ],
+      "sourceBlockIds": [
+        "page-12-line-6"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 38,
+      "questionText": "Why did the father buy a car for his son?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        12
+      ],
+      "sourceBlockIds": [
+        "page-12-line-16"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 39,
+      "questionText": "What does ( smashed ) mean ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        12
+      ],
+      "sourceBlockIds": [
+        "page-12-line-18"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 40,
+      "questionText": "What does ( shatter ) mean ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        12
+      ],
+      "sourceBlockIds": [
+        "page-12-line-20"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 41,
+      "questionText": "What did Khaled understand from the gift?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        13
+      ],
+      "sourceBlockIds": [
+        "page-13-line-4"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 42,
+      "questionText": "What do you understand from this statement?",
+      "options": [
+        {
+          "label": null,
+          "text": "We need to gather roses in winter"
+        },
+        {
+          "label": null,
+          "text": "No roses grow in winter"
+        },
+        {
+          "label": null,
+          "text": "good memories solve problems."
+        },
+        {
+          "label": null,
+          "text": "Happy memories are bad in winter."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        13
+      ],
+      "sourceBlockIds": [
+        "page-13-line-13"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 43,
+      "questionText": "Who won the award?",
+      "options": [
+        {
+          "label": null,
+          "text": "Dave alone"
+        },
+        {
+          "label": null,
+          "text": "team of three students"
+        },
+        {
+          "label": null,
+          "text": "Dave and three students"
+        },
+        {
+          "label": null,
+          "text": "Dave and three teams."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        14
+      ],
+      "sourceBlockIds": [
+        "page-14-line-5"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 44,
+      "questionText": "What does the passage talk about?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        14
+      ],
+      "sourceBlockIds": [
+        "page-14-line-23"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Prompt, choices (where present), translation, and adjacent underlined response were visually separated from the rendered source page."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 45,
+      "questionText": "We can't use Oud in :",
+      "options": [
+        {
+          "label": null,
+          "text": "Cleaning."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        7
+      ],
+      "sourceBlockIds": [
+        "page-7-visual-region-2"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Question lacks a conventional trailing question mark in the PDF; it was added only after visual source-page review."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 46,
+      "questionText": "The Oud used in incense is in the form of",
+      "options": [
+        {
+          "label": null,
+          "text": "Bark"
+        },
+        {
+          "label": null,
+          "text": "Chips"
+        },
+        {
+          "label": null,
+          "text": "Oil"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        8
+      ],
+      "sourceBlockIds": [
+        "page-8-visual-region-2"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Question lacks a conventional trailing question mark in the PDF; it was added only after visual source-page review."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 47,
+      "questionText": "Oud is taken from:",
+      "options": [
+        {
+          "label": null,
+          "text": "all healthy and green trees"
+        },
+        {
+          "label": null,
+          "text": "old trees"
+        },
+        {
+          "label": null,
+          "text": "15 types of trees"
+        },
+        {
+          "label": null,
+          "text": "4 , 5 types of tree"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        8
+      ],
+      "sourceBlockIds": [
+        "page-8-visual-region-3"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Question lacks a conventional trailing question mark in the PDF; it was added only after visual source-page review."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 48,
+      "questionText": "This type of meat ant from ants:",
+      "options": [
+        {
+          "label": null,
+          "text": "You make a servant for the rest of the ants."
+        },
+        {
+          "label": null,
+          "text": "Protect their nest."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        9
+      ],
+      "sourceBlockIds": [
+        "page-9-visual-region-4"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Question lacks a conventional trailing question mark in the PDF; it was added only after visual source-page review."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 49,
+      "questionText": "Blue, red, green .... these words are about:",
+      "options": [
+        {
+          "label": null,
+          "text": "Price"
+        },
+        {
+          "label": null,
+          "text": "Sizes"
+        },
+        {
+          "label": null,
+          "text": "Colors"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        14
+      ],
+      "sourceBlockIds": [
+        "page-14-visual-region-3"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Question lacks a conventional trailing question mark in the PDF; it was added only after visual source-page review."
+    },
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 50,
+      "questionText": "Small and medium, these words are about:",
+      "options": [
+        {
+          "label": null,
+          "text": "Price"
+        },
+        {
+          "label": null,
+          "text": "Sizes"
+        },
+        {
+          "label": null,
+          "text": "Colors"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        14
+      ],
+      "sourceBlockIds": [
+        "page-14-visual-region-4"
+      ],
+      "visualReviewStatus": "verified",
+      "visualReviewedAt": "2026-09-02",
+      "reviewNote": "Question lacks a conventional trailing question mark in the PDF; it was added only after visual source-page review."
+    }
+  ],
+  "duplicateTechnicalRecordsRemoved": 1,
+  "reviewNotes": [
+    "A conservative candidate checkpoint was staged from page geometry after visual page inspection. It contains no auto-approved question, option, or answer.",
+    "First visual pass completed for pages 4-14. One translation-derived technical duplicate was removed; four visible no-question-mark prompts were added after visual review.",
+    "Second visual pass completed for pages 4-14: source order, question boundaries, adjacent responses/translations, visible option boundaries, discovered prompts, and excluded technical duplicate were reconciled."
+  ],
+  "excludedCandidates": [
+    {
+      "readingId": "reading-01",
+      "sourceQuestionNumber": null,
+      "displayOrder": 19,
+      "questionText": "collected ?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        7
+      ],
+      "sourceBlockIds": [
+        "page-7-line-15"
+      ],
+      "visualReviewStatus": "requires_review",
+      "visualReviewedAt": null,
+      "reviewReason": "Technical duplicate of the preceding harvesting/reaper prompt: it is produced from the adjacent Arabic translation line, not a separate rendered English question.",
+      "candidateStatus": "duplicate"
+    }
+  ]
+}

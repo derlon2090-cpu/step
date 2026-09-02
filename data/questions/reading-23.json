@@ -1,0 +1,629 @@
+{
+  "readingId": "reading-23",
+  "sourceQuestionBlocks": 11,
+  "questions": [
+    {
+      "id": "reading-23-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "What is one negative effect of taking too much sodium?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 279,
+      "sourceLine": 6,
+      "sourcePages": [
+        279
+      ],
+      "rawBlock": "What is one negative effect of taking too much sodium? \nHigh blood pressure \nweak bones \nbleeding \nheadache \nما هو أحد الآثار السلبية لتناول الكثير من الصوديوم؟  \nضغط دم مرتفع  \nعظام ضعيفة  \nنزيف  \nصداع الراس  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "Why is vitamin K needed in the body?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 279,
+      "sourceLine": 18,
+      "sourcePages": [
+        279,
+        280,
+        281
+      ],
+      "rawBlock": "Why is vitamin K needed in the body? \nTo help muscles work normally \nto help cuts stop bleeding \nto make red blood cells \nto improve the health of the skin \nلماذا يحتاج الجسم إلى فيتامين ك؟ \nلمساعدة العضلات على العمل بشكل طبيعي  \nللمساعدة في وقف النزيف في الجروح  \nلصنع خلايا الدم الحمراء \nلتحسين صحة الجلد  \nthe word maintained in paragraph 1 is closest in meaning to ....................... \nShare \nfind  \nkeep \nimprove \nالكلمة المحفوظة في الفقرة1  هي الأقرب في المعنى إلى  .............   \nيشارك  \nتجد  \nاحتفظ\n279 \nتحسن \nthe word Sufficient in paragraph 3 is closest in meaning to ....................... \nImportant \nExtra \nEnough \nDifferent \nكلمة \"كافية\" الواردة في الفقرة3 هي الأقرب في المعنى إلى ...............   \nمهم  \nإضافي  \nكافية  \nمختلف  \nThe fire \nالنار ومايك \nAccording to Paragraph 2 Mike was too exhausted to move because ..................... \nhe had sweat all over him \nhe was covered with black ash \nBen did NOT give him much help \nhe had given so much to fight the fire \nوفقًا للفقرة2 ، كان مايك مرهقًا جدًا للتحرك بسبب   ...............   \nكان يتصبب عرقا فوقه  \nكان مغطى بالرماد الأسود  \nلم يعطه بن الكثير من المساعدة  \nلقد أعطى الكثير لمكافحة الحريق  \nAccording to Paragraph 3 Ben taught Mike that being brave involves ..................... \nworking with proper tools \navoiding fire hazards \nlosing one's courage \ncaring for others \nوفقًا للفقرة3 ، علم بن لمايك أن الشجاعة تتطلب   \nالعمل بالأدوات المناسبة  \nتجنب مخاطر الحريق\n280 \nفقدان الشجاعة \nرعاية الآخرين  \nThe pronoun his in Paragraph 3 refers to ..................... \na man \na fireman \nMike \nBen \nالضمير الخاص به في الفقرة3 يشير إلى  .............   \nرجل  \nرجل إطفاء  \nمايك  \nبن  \nThe legislative process in the USA \nالعملية التشريعية في الولايات المتحدة الأمريكية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "Who can introduce a bill?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 281,
+      "sourceLine": 17,
+      "sourcePages": [
+        281
+      ],
+      "rawBlock": "Who can introduce a bill? \nany interested individual or group \nany person living in the USA \nany member of Congress \nthe Judiciary Committee \nمن يمكنه تقديم مشروع قانون؟  \nأي فرد أو مجموعة معنية  \nأي شخص يعيش في الولايات المتحدة  \nأي عضو في الكونجرس  \nاللجنة القضائية  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "Who has the power to veto a bill?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 281,
+      "sourceLine": 29,
+      "sourcePages": [
+        281,
+        282
+      ],
+      "rawBlock": "Who has the power to veto a bill? \nThe Veto committee \nthe president \neach house \nCongress \nمن لديه سلطة الاعتراض على مشروع قانون؟  \nلجنة النقض  \nالرئيس  \nكل بيت  \nالكونجرس\n281 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "Who must approve a bill before the president approves it?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 282,
+      "sourceLine": 3,
+      "sourcePages": [
+        282
+      ],
+      "rawBlock": "Who must approve a bill before the president approves it? \nthe joint committee \nthe White House \nthe executive \nboth houses \nمن الذي يجب أن يوافق على مشروع القانون قبل أن يوافق عليه الرئيس؟ \nاللجنة المشتركة  \nالبيت الأبيض  \nالتنفيذي  \nكلا المنزلين  \ndata and data mining  \nتنقيب  البيانات والبيانات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "what is the main topic of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 282,
+      "sourceLine": 17,
+      "sourcePages": [
+        282
+      ],
+      "rawBlock": "what is the main topic of the passage? \nThe development and uses of data mining \nprivacy concerns related to data mining \ndata mining and the analysis of data \ndata mining and computers \nما هو موضوع المقطع الرئيسي؟  \nتطوير واستخدامات التنقيب عن البيانات  \nمخاوف الخصوصية المتعلقة بالتنقيب عن البيانات  \nالتنقيب عن البيانات وتحليل البيانات  \nالتنقيب عن البيانات وأجهزة الكمبيوتر  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "what is one important idea related to data mining that the writer mentions in paragraph 1?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 282,
+      "sourceLine": 29,
+      "sourcePages": [
+        282,
+        283
+      ],
+      "rawBlock": "what is one important idea related to data mining that the writer mentions in paragraph 1? \nData mining uses people's personal information \ndata mining happens without customer's knowledge \ndata mining means the behavior of customers who use credit cards \ndata mining helps companies serve customers, but goes into their privacy \nما هي إحدى الأفكار المهمة المتعلقة بالتنقيب في البيانات التي ذكرها الكاتب في الفقرة1؟  \nيستخدم التنقيب عن البيانات المعلومات الشخصية للأشخاص  \nيحدث التنقيب عن البيانات دون علم العميل  \nالتنقيب عن البيانات يعني سلوك العملاء الذين يستخدمون بطاقات الائتمان  \nولكنه يدخل في خصوصيتهم   العملاء،يساعد التنقيب عن البيانات الشركات في خدمة\n282 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "What is one important idea related to data mining that the writer mentions in paragraph 2?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 283,
+      "sourceLine": 2,
+      "sourcePages": [
+        283
+      ],
+      "rawBlock": "What is one important idea related to data mining that the writer mentions in paragraph 2? \ndata mining became useful due to help from some insurance providers \ndata mining started with CRISP-DM \ndata mining became more effective after introducing CRISP-DM \ndata mining is still in its early stages \nما هي إحدى الأفكار المهمة المتعلقة بالتنقيب في البيانات التي ذكرها الكاتب في الفقرة2؟  \nأصبح التنقيب عن البيانات مفيدًا بسبب المساعدة من بعض مزودي التأمين  \nCRISP-DMبدأ التنقيب عن البيانات باستخدام    \nCRISP-DM أصبح التنقيب عن البيانات أكثر فعالية بعد إدخال   \nالتنقيب عن البيانات لا يزال في مراحله الأولى  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "what point does the writer want to support with the example of buying using a credit card?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 283,
+      "sourceLine": 15,
+      "sourcePages": [
+        283
+      ],
+      "rawBlock": "what point does the writer want to support with the example of buying using a credit card? \nthe importance of credit cards \nthe creation of data \nbuying habits \nprivacy issues \nما النقطة التي يريد الكاتب أن يدعمها بمثال الشراء باستخدام بطاقة الائتمان؟  \nأهمية بطاقات الائتمان  \nإنشاء البيانات  \nعادات الشراء  \nمشاكل خصوصية  \nMigration \nالهجرة    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "how can migration positively impact migrants?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 283,
+      "sourceLine": 29,
+      "sourcePages": [
+        283,
+        284
+      ],
+      "rawBlock": "how can migration positively impact migrants? \nincreased safety \nculture shock \nbetter housing \nhigher salaries \nكيف يمكن أن تؤثر الهجرة إيجابيا على المهاجرين؟  \nوزيادة السلامة  \nصدمة ثقافية  \nسكن أفضل  \nرواتب أعلى\n283 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "What's one negative effect of migration?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 284,
+      "sourceLine": 2,
+      "sourcePages": [
+        284
+      ],
+      "rawBlock": "What's one negative effect of migration? \nLower demand for services \ncultural diversity \nreduced inflation \nhousing shortages \nما هو أحد الآثار السلبية للهجرة؟ \nانخفاض الطلب على الخدمات  \nالتنوع الثقافي  \nانخفاض التضخم  \nنقص المساكن  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q12",
+      "order": 12,
+      "questionNumber": null,
+      "questionText": "The word employment in paragraph 4 is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 284,
+      "sourceLine": 15,
+      "sourcePages": [
+        284
+      ],
+      "rawBlock": "The word employment in paragraph 4 is closest to meaning to ..............? \nInformation \nWork \nHelp \nCompetition \nكلمة توظيف في الفقرة4 هي الأقرب لمعنى ..............؟  \nمعلومة  \nعمل  \nمساعدة  \nمنافسة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "The word assistance in paragraph 3 is closest to meaning to ..................?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 284,
+      "sourceLine": 28,
+      "sourcePages": [
+        284,
+        285
+      ],
+      "rawBlock": "The word assistance in paragraph 3 is closest to meaning to ..................? \nStatement \nSupport \nAdvice \nCost \nكلمة المساعدة في الفقرة3  هي الأقرب إلى المعنى ..................؟  \nبيان  -  تصريح  \nالدعم  \nنصيحة  \nكلفة\n284 \ndevices usage \nاستخدامالأجهزة   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "what percentage of people used their smart watch in the last day?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 285,
+      "sourceLine": 11,
+      "sourcePages": [
+        285
+      ],
+      "rawBlock": "what percentage of people used their smart watch in the last day? \n5% \n9% \n14% \n58% \nما هي نسبة الأشخاص الذين استخدموا ساعتهم الذكية في اليوم الأخير؟  \n5٪ \n9٪ \n14٪ \n58٪ ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "Which device has everyone used at least one?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 285,
+      "sourceLine": 22,
+      "sourcePages": [
+        285,
+        286
+      ],
+      "rawBlock": "Which device has everyone used at least one? \nlarge tablet \ndesktop computer \nportable games player  \nstandard mobile phone\n285 \nما الجهاز الذي استخدمه الجميع على الأقل؟  \nقرص كبير  \nي المكتب حاسوب ال \nمشغل ألعاب محمول  \nالهاتف المحمول القياسي  \nDemocratic Republic of Congo \nجمهورية الكونغو الديمقراطية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "What two other names did Democratic Republic of Congo use after independence in 1960?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 286,
+      "sourceLine": 10,
+      "sourcePages": [
+        286
+      ],
+      "rawBlock": "What two other names did Democratic Republic of Congo use after independence in 1960? \nRepublic of Congo and Congo Free State \nZaire and the Republic of Congo \nZaire and Congo Free State \nBelgian Congo and Zaire \nما الاسمان الآخران اللذان استخدمتهما جمهورية الكونغو الديمقراطية بعد الاستقلال في عام1960؟  \nجمهورية الكونغو ودولة الكونغو الحرة  \nزائير وجمهورية الكونغو  \nزائير ودولة الكونغو الحرة  \nالكونغو البلجيكية وزائير  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "What are the names of two important state systems from the 15th to the 17th centuries?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 286,
+      "sourceLine": 22,
+      "sourcePages": [
+        286
+      ],
+      "rawBlock": "What are the names of two important state systems from the 15th to the 17th centuries? \nLuba Lunda and Imbagala \nCongo and Luba Lunda \nKongo and Imbagala \nBauth and Pygmy \nما هي أسماء نظامي دولة مهمين من القرن الخامس عشر إلى القرن السابع عشر؟  \nلوبا لوندا وإمباغالا  \nالكونغو ولوبا لوندا  \nكونغو وإمباغالا  \nباوث  Pygmy ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "What crimes did the King Leopold's Force Republic commit?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 286,
+      "sourceLine": 34,
+      "sourcePages": [
+        286,
+        287
+      ],
+      "rawBlock": "What crimes did the King Leopold's Force Republic commit? \nThey burned villages and killed farm animals \nthey kidnapped families and stole their money \nthey burned villages and cut off children's hands \nthey killed farm animals and cut off children's hands\n286 \nما الجرائم التي ارتكبتها قوة جمهورية الملك ليوبولد؟ \nأحرقوا القرى وقتلوا حيوانات المزرعة  \nاختطفوا عائلات وسرقوا أموالهم  \nأحرقوا القرى وقطعوا أيدي الأطفال  \nقتلوا حيوانات المزرعة وقطعوا أيدي الأطفال  \nPros and cons of nuclear energy \nإيجابيات وسلبيات الطاقة النووية ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "The word Conventional in paragraph 1 is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 287,
+      "sourceLine": 11,
+      "sourcePages": [
+        287
+      ],
+      "rawBlock": "The word Conventional in paragraph 1 is closest to meaning to ..............? \nTraditional \nElectrical \nEnormous \nObvious \nكلمة تقليدي في الفقرة1 هي الأقرب لمعنى ..............؟  \nتقليدي  \nالكهرباء \nضخم  \nبديهي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "The word Alternatives in paragraph 1 is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 287,
+      "sourceLine": 22,
+      "sourcePages": [
+        287
+      ],
+      "rawBlock": "The word Alternatives in paragraph 1 is closest to meaning to ..............? \nExamples \nBenefits \nOptions \nActions \nكلمة البدائل في الفقرة1  هي الأقرب إلى المعنى ..............؟  \nأمثلة \nفوائد  \nخيارات  \nإجراءات  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "The word Introduces in paragraph 2 is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 287,
+      "sourceLine": 33,
+      "sourcePages": [
+        287,
+        288
+      ],
+      "rawBlock": "The word Introduces in paragraph 2 is closest to meaning to ..............? \nPersuades \nPrevents \nCreates \nGuides \nالكلمة المقدمة في الفقرة2  هي الأقرب إلى المعنى ..............؟\n287 \nيقنع \nيمنع  \nيخلق  \nخطوط إرشاد  \n السرطانr  cance  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "The word therefore in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 288,
+      "sourceLine": 8,
+      "sourcePages": [
+        288
+      ],
+      "rawBlock": "The word therefore in paragraph is closest to meaning to ..............? \nInstead \nas a result \nbut \nbecause \nلذلك فإن الكلمة الواردة في الفقرة هي الأقرب إلى المعنى ..............؟ \nفي حين أن  \nنتيجة ل \nلكن  \nلان  \nmarriage and divorce \nالزواج والطق رسم بياني  \nتأكدوا منها بالاختبار- ما عندي الرسم البياني فلا يوجد إجابة    ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "What is the country with the highest marriage rate in 2014?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 288,
+      "sourceLine": 29,
+      "sourcePages": [
+        288
+      ],
+      "rawBlock": "What is the country with the highest marriage rate in 2014? \nما هي الدولة التي لديها أعلى معدل زواج في2014؟  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "What is the country with the lowest divorce rate?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 288,
+      "sourceLine": 36,
+      "sourcePages": [
+        288,
+        289
+      ],
+      "rawBlock": "What is the country with the lowest divorce rate? \nما هي الدولة التي لديها أقل معدل طلاق؟ \nbirth rate in Saudi Arabia\n288 \nمعدل المواليد في السعوديةرسم بياني   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "what was the birth rate in Saudi Arabia in 2015?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 289,
+      "sourceLine": 6,
+      "sourcePages": [
+        289
+      ],
+      "rawBlock": "what was the birth rate in Saudi Arabia in 2015? \n19.56 \n19.92 \n19. 99 \n20.28 \nكم كان معدل المواليد في السعودية عام2015؟  \n19.56 \n19.92 \n19. 99 \n20.28 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "what year was the highest birth rate in Saudi Arabia?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 289,
+      "sourceLine": 17,
+      "sourcePages": [
+        289
+      ],
+      "rawBlock": "what year was the highest birth rate in Saudi Arabia? \n2006 \n2007  \n2015  \n2016 \nفي أي عام كان أعلى معدل مواليد في المملكة العربية السعودية؟  \n2006 \n2007 \n2015 \n2016 \nمفردات مهمة جدا في قطع متفرقة ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "The word identify in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 289,
+      "sourceLine": 33,
+      "sourcePages": [
+        289
+      ],
+      "rawBlock": "The word identify in paragraph is closest to meaning to ..............? \nName \nكلمةيحدد  في الفقرة هي الأقرب إلى المعنى ..............؟  \nيسمي او يعين   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "The word vacant in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 289,
+      "sourceLine": 39,
+      "sourcePages": [
+        289
+      ],
+      "rawBlock": "The word vacant in paragraph is closest to meaning to ..............? \nEmpty \nكلمة شاغرة في الفقرة هي الأقرب إلى المعنى ..............؟ \nفارغة  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "The word major in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 289,
+      "sourceLine": 44,
+      "sourcePages": [
+        289,
+        290
+      ],
+      "rawBlock": "The word major in paragraph is closest to meaning to ..............?\n289 \nBasic \nالكلمة الرئيسية في الفقرة هي الأقرب إلى المعنى ..............؟ \nأساسي  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "The word dissolution in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 290,
+      "sourceLine": 6,
+      "sourcePages": [
+        290
+      ],
+      "rawBlock": "The word dissolution in paragraph is closest to meaning to ..............? \nEnding \nكلمة حل في الفقرة هي الأقرب إلى المعنى ..............؟ \nنهاية   ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "The word legitimate in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 290,
+      "sourceLine": 11,
+      "sourcePages": [
+        290
+      ],
+      "rawBlock": "The word legitimate in paragraph is closest to meaning to ..............? \nLaw \nكلمة شرعي في الفقرة هي الأقرب إلى المعنى ..............؟ \nقانون  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "The word impure in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 290,
+      "sourceLine": 16,
+      "sourcePages": [
+        290
+      ],
+      "rawBlock": "The word impure in paragraph is closest to meaning to ..............? \nirtyD \nكلمة نجس في الفقرة هي الأقرب إلى المعنى ..............؟ \nمتسخ  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "The word rate in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 290,
+      "sourceLine": 21,
+      "sourcePages": [
+        290
+      ],
+      "rawBlock": "The word rate in paragraph is closest to meaning to ..............? \nAmount \nالكلمة معدل في الفقرة هو الأقرب إلى المعنى ..............؟  \nمقدار ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-23-q34",
+      "order": 34,
+      "questionNumber": null,
+      "questionText": "The word shift in paragraph is closest to meaning to ..............?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 290,
+      "sourceLine": 26,
+      "sourcePages": [
+        290
+      ],
+      "rawBlock": "The word shift in paragraph is closest to meaning to ..............? \nChange \nكلمة التحول في الفقرة هي الأقرب إلى المعنى ..............؟ \nيتغير",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}

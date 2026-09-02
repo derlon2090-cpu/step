@@ -1,0 +1,725 @@
+{
+  "readingId": "reading-44",
+  "questions": [
+    {
+      "id": "reading-44-q01",
+      "displayOrder": 1,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (2), why do the Chinese zookeepers want Mei Lan to learn Chinese?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        571
+      ],
+      "sourceBlockIds": [
+        "page-571-line-13"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 279.56,
+        "x0": 14.4,
+        "x1": 546.47
+      }
+    },
+    {
+      "id": "reading-44-q02",
+      "displayOrder": 2,
+      "sourceQuestionNumber": null,
+      "questionText": "According to Paragraph (2), Where has Mei Lan been living?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        571
+      ],
+      "sourceBlockIds": [
+        "page-571-line-18"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 399.2,
+        "x0": 14.4,
+        "x1": 361.51
+      }
+    },
+    {
+      "id": "reading-44-q03",
+      "displayOrder": 3,
+      "sourceQuestionNumber": null,
+      "questionText": "Which of the following colors is NOT mentioned in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        572
+      ],
+      "sourceBlockIds": [
+        "page-572-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 239.57,
+        "x0": 14.4,
+        "x1": 385.08
+      }
+    },
+    {
+      "id": "reading-44-q04",
+      "displayOrder": 4,
+      "sourceQuestionNumber": null,
+      "questionText": "Who developed rain harvesting in the third Millennium B.C.?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        573
+      ],
+      "sourceBlockIds": [
+        "page-573-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 455.5,
+        "x0": 14.4,
+        "x1": 367.58
+      }
+    },
+    {
+      "id": "reading-44-q05",
+      "displayOrder": 5,
+      "sourceQuestionNumber": null,
+      "questionText": "how long were Rome's aqueducts in total?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        573
+      ],
+      "sourceBlockIds": [
+        "page-573-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 558.1,
+        "x0": 14.4,
+        "x1": 261.55
+      }
+    },
+    {
+      "id": "reading-44-q06",
+      "displayOrder": 6,
+      "sourceQuestionNumber": null,
+      "questionText": "when did Trajan build the Aqua Tariana?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        573
+      ],
+      "sourceBlockIds": [
+        "page-573-line-35"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 660.61,
+        "x0": 14.4,
+        "x1": 250.5
+      }
+    },
+    {
+      "id": "reading-44-q07",
+      "displayOrder": 7,
+      "sourceQuestionNumber": null,
+      "questionText": "29) What Important Idea about US economy does the writer mention in paragraph (1)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        574
+      ],
+      "sourceBlockIds": [
+        "page-574-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 332.48,
+        "x0": 14.16,
+        "x1": 518.81
+      }
+    },
+    {
+      "id": "reading-44-q08",
+      "displayOrder": 8,
+      "sourceQuestionNumber": null,
+      "questionText": "31) What are health care and postal services an example of?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        574
+      ],
+      "sourceBlockIds": [
+        "page-574-line-30"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 587.98,
+        "x0": 14.16,
+        "x1": 363.92
+      }
+    },
+    {
+      "id": "reading-44-q09",
+      "displayOrder": 9,
+      "sourceQuestionNumber": null,
+      "questionText": "32) What is the main idea of the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        574
+      ],
+      "sourceBlockIds": [
+        "page-574-line-35"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 705.97,
+        "x0": 14.16,
+        "x1": 256.64
+      }
+    },
+    {
+      "id": "reading-44-q10",
+      "displayOrder": 10,
+      "sourceQuestionNumber": null,
+      "questionText": "33) What does the passage say about laws?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        575
+      ],
+      "sourceBlockIds": [
+        "page-575-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 342.92,
+        "x0": 14.16,
+        "x1": 266.37
+      }
+    },
+    {
+      "id": "reading-44-q11",
+      "displayOrder": 11,
+      "sourceQuestionNumber": null,
+      "questionText": "34) How are automobiles designed to keep people safe?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        575
+      ],
+      "sourceBlockIds": [
+        "page-575-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 460.78,
+        "x0": 14.16,
+        "x1": 340.11
+      }
+    },
+    {
+      "id": "reading-44-q12",
+      "displayOrder": 12,
+      "sourceQuestionNumber": null,
+      "questionText": "35) Which word can we use to replace the word \"However\" in paragraph (2)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        575
+      ],
+      "sourceBlockIds": [
+        "page-575-line-29"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 578.74,
+        "x0": 14.16,
+        "x1": 461.98
+      }
+    },
+    {
+      "id": "reading-44-q13",
+      "displayOrder": 13,
+      "sourceQuestionNumber": null,
+      "questionText": "36) Which word can we use to replace the word \"also\" in paragraph (4)?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        575
+      ],
+      "sourceBlockIds": [
+        "page-575-line-34"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 696.73,
+        "x0": 14.16,
+        "x1": 432.95
+      }
+    },
+    {
+      "id": "reading-44-q14",
+      "displayOrder": 14,
+      "sourceQuestionNumber": null,
+      "questionText": "37) What does the writer think about traffic rules?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        576
+      ],
+      "sourceBlockIds": [
+        "page-576-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 90.17,
+        "x0": 14.16,
+        "x1": 307.2
+      }
+    },
+    {
+      "id": "reading-44-q15",
+      "displayOrder": 15,
+      "sourceQuestionNumber": null,
+      "questionText": "38) living organism has taken in food?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        576
+      ],
+      "sourceBlockIds": [
+        "page-576-line-22"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 462.22,
+        "x0": 14.16,
+        "x1": 234.29
+      }
+    },
+    {
+      "id": "reading-44-q16",
+      "displayOrder": 16,
+      "sourceQuestionNumber": null,
+      "questionText": "39) What did placing a metal grill over the soil in the 17th century experiment lead to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        576
+      ],
+      "sourceBlockIds": [
+        "page-576-line-27"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 580.18,
+        "x0": 14.16,
+        "x1": 515.36
+      }
+    },
+    {
+      "id": "reading-44-q17",
+      "displayOrder": 17,
+      "sourceQuestionNumber": null,
+      "questionText": "42) In what region has literacy decreased in the last five years?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        577
+      ],
+      "sourceBlockIds": [
+        "page-577-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 584.98,
+        "x0": 14.16,
+        "x1": 378.43
+      }
+    },
+    {
+      "id": "reading-44-q18",
+      "displayOrder": 18,
+      "sourceQuestionNumber": null,
+      "questionText": "43) What region had the highest adult literacy rates in 2015?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        577
+      ],
+      "sourceBlockIds": [
+        "page-577-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 702.97,
+        "x0": 14.16,
+        "x1": 365.92
+      }
+    },
+    {
+      "id": "reading-44-q19",
+      "displayOrder": 19,
+      "sourceQuestionNumber": null,
+      "questionText": "44) What are two features of the Yellowstone National Park?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        579
+      ],
+      "sourceBlockIds": [
+        "page-579-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 271.28,
+        "x0": 14.16,
+        "x1": 368.74
+      }
+    },
+    {
+      "id": "reading-44-q20",
+      "displayOrder": 20,
+      "sourceQuestionNumber": null,
+      "questionText": "45) What damage occurred in Yellowstone National Park?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        579
+      ],
+      "sourceBlockIds": [
+        "page-579-line-19"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 389.24,
+        "x0": 14.16,
+        "x1": 349.45
+      }
+    },
+    {
+      "id": "reading-44-q21",
+      "displayOrder": 21,
+      "sourceQuestionNumber": null,
+      "questionText": "46) What types of trees are found in Yellowstone National Park?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        579
+      ],
+      "sourceBlockIds": [
+        "page-579-line-24"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 507.22,
+        "x0": 14.16,
+        "x1": 387.81
+      }
+    },
+    {
+      "id": "reading-44-q22",
+      "displayOrder": 22,
+      "sourceQuestionNumber": null,
+      "questionText": "49) What idea does the phrase \"legs on a table\" repeat?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        580
+      ],
+      "sourceBlockIds": [
+        "page-580-line-32"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 686.89,
+        "x0": 14.16,
+        "x1": 339.35
+      }
+    },
+    {
+      "id": "reading-44-q23",
+      "displayOrder": 23,
+      "sourceQuestionNumber": null,
+      "questionText": "50) Which one of the following is the writer's opinion?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        581
+      ],
+      "sourceBlockIds": [
+        "page-581-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 329.99
+      }
+    },
+    {
+      "id": "reading-44-q24",
+      "displayOrder": 24,
+      "sourceQuestionNumber": null,
+      "questionText": "51) What can we understand about complex problems from the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        581
+      ],
+      "sourceBlockIds": [
+        "page-581-line-9"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 208.13,
+        "x0": 14.16,
+        "x1": 439.87
+      }
+    },
+    {
+      "id": "reading-44-q25",
+      "displayOrder": 25,
+      "sourceQuestionNumber": null,
+      "questionText": "52) What can we understand about computational thinking from the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        581
+      ],
+      "sourceBlockIds": [
+        "page-581-line-14"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 345.68,
+        "x0": 14.16,
+        "x1": 468.66
+      }
+    },
+    {
+      "id": "reading-44-q26",
+      "displayOrder": 26,
+      "sourceQuestionNumber": null,
+      "questionText": "53)How many Chinese tourists visited Japan in 2017?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        582
+      ],
+      "sourceBlockIds": [
+        "page-582-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 321.76
+      }
+    },
+    {
+      "id": "reading-44-q27",
+      "displayOrder": 27,
+      "sourceQuestionNumber": null,
+      "questionText": "B?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        582
+      ],
+      "sourceBlockIds": [
+        "page-582-line-25"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "requires_semantic_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 529.66,
+        "x0": 14.16,
+        "x1": 28.57
+      }
+    },
+    {
+      "id": "reading-44-q28",
+      "displayOrder": 28,
+      "sourceQuestionNumber": null,
+      "questionText": "55) What can we understand about physical symptoms of social phobia from passages A and B?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        582
+      ],
+      "sourceBlockIds": [
+        "page-582-line-31"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 686.89,
+        "x0": 14.16,
+        "x1": 568.35
+      }
+    },
+    {
+      "id": "reading-44-q29",
+      "displayOrder": 29,
+      "sourceQuestionNumber": null,
+      "questionText": "56) What do passages A and B say about the development of phobia?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        583
+      ],
+      "sourceBlockIds": [
+        "page-583-line-3"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 70.47,
+        "x0": 14.16,
+        "x1": 417.01
+      }
+    },
+    {
+      "id": "reading-44-q30",
+      "displayOrder": 30,
+      "sourceQuestionNumber": null,
+      "questionText": "57) According to passages A and B, what is one defining feature of social phobia?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePages": [
+        583
+      ],
+      "sourceBlockIds": [
+        "page-583-line-8"
+      ],
+      "parseStatus": "geometry_bounded_candidate",
+      "questionSignal": "strong",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Recovered from the rendered page geometry. It is not approved for student display until the page is visually reviewed; no option set or answer is inferred.",
+      "layout": {
+        "top": 188.45,
+        "x0": 14.16,
+        "x1": 483.84
+      }
+    }
+  ]
+}

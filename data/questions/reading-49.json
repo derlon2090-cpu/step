@@ -1,0 +1,1367 @@
+{
+  "readingId": "reading-49",
+  "sourceQuestionBlocks": 19,
+  "questions": [
+    {
+      "id": "reading-49-q01",
+      "order": 1,
+      "questionNumber": null,
+      "questionText": "1- Who is America’s leading export partner?",
+      "options": [
+        {
+          "label": "A",
+          "text": "USA"
+        },
+        {
+          "label": "B",
+          "text": "Canada"
+        },
+        {
+          "label": "C",
+          "text": "Mexico"
+        },
+        {
+          "label": "D",
+          "text": "The United Kingdom"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 649,
+      "sourceLine": 8,
+      "sourcePages": [
+        649
+      ],
+      "rawBlock": "1- Who is America’s leading export partner?  \nA) USA  \nB) Canada  \nC) Mexico  \nD) The United Kingdom ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q02",
+      "order": 2,
+      "questionNumber": null,
+      "questionText": "2- What was China’s total world trade share in 2003?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 percent"
+        },
+        {
+          "label": "B",
+          "text": "4.5 percent"
+        },
+        {
+          "label": "C",
+          "text": "6 percent"
+        },
+        {
+          "label": "D",
+          "text": "9.5 percent"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 649,
+      "sourceLine": 14,
+      "sourcePages": [
+        649
+      ],
+      "rawBlock": "2- What was China’s total world trade share in 2003?  \nA) 1 percent  \nB) 4.5 percent  \nC) 6 percent  \nD) 9.5 percent  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q03",
+      "order": 3,
+      "questionNumber": null,
+      "questionText": "3- Which country is a member of the Central European Free Trade Association?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Armenia"
+        },
+        {
+          "label": "B",
+          "text": "Poland"
+        },
+        {
+          "label": "C",
+          "text": "Moldova"
+        },
+        {
+          "label": "D",
+          "text": "Turkey"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 649,
+      "sourceLine": 20,
+      "sourcePages": [
+        649
+      ],
+      "rawBlock": "3- Which country is a member of the Central European Free Trade Association?  \nA) Armenia  \nB) Poland  \nC) Moldova  \nD) Turkey \nPassage 2  \nEnergy Producers and consumers \n1) At the core of every organism’s interaction with the environment is its need for energy to power’s life processes. Ants use \nenergy to carry objects many times their size. Birds use energy to migrate thousands of miles. You need energy to get out of ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q04",
+      "order": 4,
+      "questionNumber": null,
+      "questionText": "bed in the morning! Where does energy in living systems come from? How is it transferred from one organism to another?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 649,
+      "sourceLine": 32,
+      "sourcePages": [
+        649
+      ],
+      "rawBlock": "bed in the morning! Where does energy in living systems come from? How is it transferred from one organism to another?  \n2) Living systems operate by expending energy. Organisms need energy for growth, reproduction, and their own metabolic \nprocesses. In short, if there is no energy, there are no life functions. Yet, no organism can create energy – organisms can only \nuse energy from other sources. You probably know that you get your energy from the plants and animals you eat. But where ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q05",
+      "order": 5,
+      "questionNumber": null,
+      "questionText": "does the energy in this food come from? For most life on earth, sunlight is the ultimate energy source. Over the last few",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 649,
+      "sourceLine": 37,
+      "sourcePages": [
+        649,
+        650
+      ],
+      "rawBlock": "does the energy in this food come from? For most life on earth, sunlight is the ultimate energy source. Over the last few \ndecades, however, through research, experts have discovered that there are other energy sources for life. For some \norganisms, chemical energy stored in inorganic chemical compounds serves as the ultimate energy source for life processes. \n3) Only algae, certain bacteria and plants can capture energy from sunlight or chemicals and convert it into forms that living \ncells can use. These organisms are called autotrophs. Autotrophs use solar or chemical energy to produce food by assembling\n649 \ninorganic compounds into complex organic molecules. But autotrophs do more than feed themselves. Autotrophs store \nenergy in forms that make it available o other organisms that eat them. That’s why autotrophs are also called primary \nproducers. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q06",
+      "order": 6,
+      "questionNumber": null,
+      "questionText": "4- Why are autotrophs known as primary producers?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 650,
+      "sourceLine": 6,
+      "sourcePages": [
+        650,
+        651
+      ],
+      "rawBlock": "4- Why are autotrophs known as primary producers?  \nA) Because autotroph means primary producers in Latin.  \nB) They are able to survive off their own sources of energy.  \nC) They both use the sun and chemical compounds for energy.  \nD) Because their productions of energy benefits other organisms.  \n5- The word “transferred” in paragraph (1) is closest in meaning to……………  \nA) driven  \nB) moved  \nC) made  \nD) saved  \n6- The word “discovered” in paragraph (2) is closest in meaning to……………  \nA) believed  \nB) found  \nC) hoped  \nD) tried \nPassage 3  \nIntroducing psychology \n1) Psychology is the scientific study of mind and behavior. The word “psychology” comes from the Greek words “psyche, \nmeaning life, and “logos,” meaning explanation. Psychology is a popular major for students, a popular topic in the public \nmedia, and a part of our everyday lives. Television shows often feature psychologists who provide personal advice to those \nwith personal or family difficulties. Crime dramas such as CSI, Lie to Me, and others feature the work of forensic psychologists \nwho use psychological principles to help solve crimes. And many people have direct knowledge about psychology because \nthey have visited psychologists, for instance, school counselors, family therapists, and religious, marriage, or bereavement \ncounselors. \n2) Because we are frequently exposed to the work of psychologists in our everyday lives, we all have an idea about what \npsychology is and what psychologists do. In many ways, your conceptions are probably correct. Psychologists do work in \nforensic fields, and they do provide counseling and therapy for people in distress. But there are hundreds of thousands of \npsychologists in the world, and most of them work in other places, doing work that you are probably now aware of.  \n3) Most psychologists work in research laboratories, hospitals, and other field settings where they study the behavior of \nhumans and animals. For instance, experts in the Psychology Department at the University of Maryland study such diverse\n650 \ntopics as anxiety in children, the interpretation of dreams, the effects of caffeine on thinking, how birds recognize each other, \nhow people from different cultures react differently in negotiation. Psychologists also work in schools and businesses, and \nthey use a variety of methods, including observation, questionnaires, interviews, and laboratory studies, to help them \nunderstand behavior. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q07",
+      "order": 7,
+      "questionNumber": null,
+      "questionText": "7- What do psychologists do to help people who are unhappy in their lives?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 651,
+      "sourceLine": 8,
+      "sourcePages": [
+        651
+      ],
+      "rawBlock": "7- What do psychologists do to help people who are unhappy in their lives?  \nA) They advise them to stop drinking coffee.  \nB) They provide them with treatment services.  \nC) They take them to special hospitals for help.  \nD) They provide them with advice about their food.  \n8- What does the passage say about the work of most psychologists  \nA) It is field research.  \nB) It is forensic science.  \nC) It is TV entertainment.  \nD) It is personal counseling. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q08",
+      "order": 8,
+      "questionNumber": null,
+      "questionText": "9- Which word can we use to replace the word “But” in paragraph (2)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "In addition"
+        },
+        {
+          "label": "B",
+          "text": "Therefore"
+        },
+        {
+          "label": "C",
+          "text": "Finally"
+        },
+        {
+          "label": "D",
+          "text": "However"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 651,
+      "sourceLine": 20,
+      "sourcePages": [
+        651
+      ],
+      "rawBlock": "9- Which word can we use to replace the word “But” in paragraph (2)? \nA) In addition  \nB) Therefore  \nC) Finally  \nD) However ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q09",
+      "order": 9,
+      "questionNumber": null,
+      "questionText": "10- What does the writer think about our knowledge of psychology?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is complete."
+        },
+        {
+          "label": "B",
+          "text": "It is INCORRECT."
+        },
+        {
+          "label": "C",
+          "text": "It is from university."
+        },
+        {
+          "label": "D",
+          "text": "It is from experience."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 651,
+      "sourceLine": 26,
+      "sourcePages": [
+        651,
+        652
+      ],
+      "rawBlock": "10- What does the writer think about our knowledge of psychology?  \nA) It is complete.  \nB) It is INCORRECT.  \nC) It is from university.  \nD) It is from experience.\n651 \nPassage 4 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q10",
+      "order": 10,
+      "questionNumber": null,
+      "questionText": "11- How many people traveled for leisure?",
+      "options": [
+        {
+          "label": "A",
+          "text": "22.5 percent"
+        },
+        {
+          "label": "B",
+          "text": "30 percent"
+        },
+        {
+          "label": "C",
+          "text": "30 people"
+        },
+        {
+          "label": "D",
+          "text": "300 people"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 652,
+      "sourceLine": 23,
+      "sourcePages": [
+        652,
+        653
+      ],
+      "rawBlock": "11- How many people traveled for leisure?  \nA) 22.5 percent \nB) 30 percent  \nC) 30 people  \nD) 300 people\n652 \nPassage 5 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q11",
+      "order": 11,
+      "questionNumber": null,
+      "questionText": "12- Which year had the most pilgrims from outside Saudi Arabia?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2002"
+        },
+        {
+          "label": "B",
+          "text": "2008"
+        },
+        {
+          "label": "C",
+          "text": "2010"
+        },
+        {
+          "label": "D",
+          "text": "2012"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 653,
+      "sourceLine": 23,
+      "sourcePages": [
+        653,
+        654,
+        655
+      ],
+      "rawBlock": "12- Which year had the most pilgrims from outside Saudi Arabia?  \nA) 2002  \nB) 2008  \nC) 2010  \nD) 2012\n653 \nPassage 6  \nCalifornia Strawberries \n1) Agricultural abundance is a pillar of the California dream. In 2016 the state turned out more than $45 billion worth of meat, \nmilk and crops. Long before nutritionists agreed that fresh fruits and vegetables should be the center of American diets, \nCalifornia farmers had planted much of their land in these products, and today they produce half of the nation’s fruits, \nvegetables and nuts.  \n2) But although fruits and vegetables are vaunted as healthy foods, their impact as crops is quite different. On many California \nproduce farms wages are low, working conditions are poor and farmers use enormous quantities of pesticides and precious \nwater. This is the central contradiction of California agriculture.  \n3) California’s strawberry industry is the state’s sixth most important commodity in terms of the value of crops sold. \nStrawberries are attractive reasonably nutritious and occasionally tasty fruits and can be grown and eaten within California \nnearly year-round. But the industry’s growth has relied on heavy use of toxic chemicals and now growers face heightened \nrestrictions on some of their most favored chemicals; soil fumigants. \n4) Unfortunately, less toxic or non-chemical strategies that would allow strawberries to be grown for a mass market, \nmaintaining affordable prices, are elusive and likely to remain so.  \n5) Although strawberry production once was scattered throughout the state, by the 1960s, it had concentrated in coastal \nzones to take advantage of sandy soils and mild temperatures. Thereafter, the industry saw tremendous growth in \nproductivity. In Monterey and Santa Cruz counties alone, acreage more than tripled and production increased tenfold from \n1960 to 2014. Much of this growth was enabled by advances in plant breeding and use of plastic tarps to absorb heat, allowing \ngrowers to increase the length of strawberry seasons.  \n6) But the main driver of growth has been the use of pre plant chemical fumigants. Growers hire pest control companies to \nfumigate soils before planting strawberries in order to kill soil-borne pests most importantly, plant pathogens such as \nVerticillium dahliae and Macrophomina phaseolina Without such treatment, these pathogens cause strawberry plants to wilt \nand die.  \n7) Now, however, the industry’s fumigant of choice methyl bromide can no longer be used in strawberry fruit production. In \n1991 methyl bromide was banned under the Montreal Protocol on Substances that used in nursery production to ensure that \nstarter plants are virus- and pathogen-free. \n8) One potential replacement, methyl iodide, was approved for use in late 2010. But it was withdrawn from the market in \n2012, following an activist campaign and lawsuit that accused California regulators of performing an inadequate review of \npotential health risks to workers and the general public. Among other things, the chemical is a known neurotoxin and \ncarcinogen.  \n9) Other fumigants are still allowed, but their use is increasingly restricted by buffer zones and township quotas. \nConsequently, growers are contending with heightened levels of plant disease, some from pathogens that had never before \nbeen evident in California strawberry fields.\n654 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q12",
+      "order": 12,
+      "questionNumber": 10,
+      "questionText": "10)Can California find a less toxic way to raise 90 percent of the nation’s fresh strawberries? Although the strawberry industry",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 655,
+      "sourceLine": 2,
+      "sourcePages": [
+        655
+      ],
+      "rawBlock": "10)Can California find a less toxic way to raise 90 percent of the nation’s fresh strawberries? Although the strawberry industry \nis investing significant resources into non-chemical alternatives to manage soil-borne disease, the obstacles are formidable. \nThe entire production system, including reliance on fumigants, is embedded into the cost of land.  \n11)Fumigation has allowed growers to plant on the same blocks of land. year after year, and not worry about soil disease. \nWith fumigation available to control pathogens. Strawberry breeders have emphasized productivity, beauty and durability. \nMeanwhile, nursery production has shifted away from prime fruit growing regions along the coast to take advantage of \ndifferent environments for plant propagation, enabling coastal land to be used solely for growing fruit.  \n12)Together these innovations have allowed growers to keep prime strawberry land in production every year for much of the \nyear, yielding exceptional amounts of fruit. High land prices reflect these expectations and make it unprofitable to grow \nstrawberries using less intensive methods. The Pacific Ocean’s natural summer air-conditioning is attractive to suburbanites as \nwell as strawberries, so coastal development is putting additional pressure on the cost of strawberry land while at the same \ntime increasing public pressure to control use of fumigants. \n13) Informed and concerned consumers ingrained with California’s deep culture of environmentalism have turned to organic \nstrawberries, which they see as a more sustainable option. As conventional growers took note of this vibrant market, organic \nstrawberry production rose fivefold between 2000 and 2012, to reach about 3,300 acres planted in 2017, which represents 12 \npercent of all strawberry acreage.  \n14) But although organic growers use non-chemical soil fumigation methods or rotate strawberries with crops that have a mild \ndisease-suppressing effect, such as broccoli, few of them fundamentally alter the production system in other ways.  \n15)A small but dedicated set of growers have learned how to raise strawberries for the long haul without fumigants. However, \neven they use starter plants produced on fumigated soil, since no nurseries produce organic plants. Crucially, for these \ngrowers strawberries are a minor crop in what are otherwise highly diversified systems. And most of these producers are \nlocated outside of prime strawberry growing regions, where land is cheaper. Their approach therefore is not nearly replicable \nfor growers producing for the mass market.  \n16) These exceptions tell us as much about the limits of California strawberry production as does mainstream production. \nConsumers who want organic strawberries must be willing to live with compromises, pay premium prices. For others, the \ndream of affordable year-round strawberries grown without toxic chemicals is already an impossible one. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q13",
+      "order": 13,
+      "questionNumber": null,
+      "questionText": "13- What are two plant pathogens that harm strawberries?",
+      "options": [
+        {
+          "label": "A",
+          "text": "verticillium dahliae and macrophomina phaseolina."
+        },
+        {
+          "label": "B",
+          "text": "methyl bromide and methyl iodide."
+        },
+        {
+          "label": "C",
+          "text": "methyl iodide and macrophomina phaseolina."
+        },
+        {
+          "label": "D",
+          "text": "verticillium dahliae and methyl bromide."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 655,
+      "sourceLine": 35,
+      "sourcePages": [
+        655
+      ],
+      "rawBlock": "13- What are two plant pathogens that harm strawberries?  \nA) verticillium dahliae and macrophomina phaseolina.  \nB) methyl bromide and methyl iodide.  \nC) methyl iodide and macrophomina phaseolina.  \nD) verticillium dahliae and methyl bromide.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q14",
+      "order": 14,
+      "questionNumber": null,
+      "questionText": "14- Between which years did organic strawberry production rise by fivefold?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 655,
+      "sourceLine": 41,
+      "sourcePages": [
+        655,
+        656,
+        657
+      ],
+      "rawBlock": "14- Between which years did organic strawberry production rise by fivefold?  \nA) 1960 and 2014  \nB) 2005 and 2015  \nC) 2010 and 2012  \nD) 2000 and 2012\n655 \nPassage 7 \nNew Plants \n1) The discovery and introduction of new crop plants has frequently changed human history. Before they were discovered in \nthe Americas, many important crops-including corn, peanuts, and potatoes – were unknown in Europe. The introduction of \nthese plants changed European agriculture rapidly. We think of boiled potatoes for example, as a traditional staple of German \nand Irish cooking, but 400 years ago, potatoes were new items in the diets of Europeans.  \n2) The efficiency of agriculture has been improved through the selective breeding of crop plants and improvements in farming \ntechniques. The corn grown by Native Americans, for example, was developed more than 8000 years ago from teosinte, a wild \ngrass found in Mexico. Further selective breeding has produced modern day com. The change caused by selective breeding \ncan be very dramatic.  \n3) In more recent times, other familiar crops have been the product of selective breeding. Sugar beets, the source of most \nrefined sugar from the United States, were produced from the ordinary garden beet using selective breeding. Plants as \ndifferent as cabbage, broccoli and brussels sprouts have been developed from a single species of wild mustard. \n15- The word “species” in paragraph (3) is closest in meaning to………..…….  \nA) variety  \nB) ingredient  \nC) experiment  \nD) design  \n16- The word “agriculture” in the passage is closest in meaning to………….  \nA) industry  \nB) culture  \nC) farming  \nD) diet \nPassage 8 \n1) There’s a lot more to trying to evaluate whether a particular risk is big or small than you might think. Flying in airplanes is a \ncase in point.  \n2) You’d think that you could determine the numbers and the odds and that would be it. The annual risk of being killed in a \nplane crash for the average American is about 1 in 11 million. On that basis, the risk looks pretty small. Compare that, for \nexample, to the annual risk of being killed in a motor vehicle crash for the average American, which is about 1 in 5,000.  \n3) But if you think about those numbers, problems occur right away. Some people fly more and some fly less and some don’t \nfly at all. So if you take the total number of people killed in commercial plane crashes and divide that into the total population, \nthe result, the risk for the average American, may be a good general guide to whether the risk is big or small, but it’s not \nspecific to your personal risk.\n656 \n4) Then there is another numbers problem: You can calculate the risk of flying by dividing the number: \n     (1) Of people who die into the total number of people, which gives you the risk for the average person;  \n     (2) Of victims into the number of total flights all passengers took, which gives the risk per flight; and some don’t fly at all.  \n     (3) Of victims into the total number of miles all of them flew, which gives you the risk per mile. So, if you take the total \nnumber of people killed in commercial plane crashes and divide that into the total population, the result, the risk for the \naverage American, may be a good general guide to whether the risk is big or small, but it’s not specific to your personal risk.  \n5) They all produce accurate numbers, but which one is most relevant to you depends on your personal flying patterns. Some \nfliers take lots of short flights and some take longer ones. Since the overwhelming majority of the few plane crashes that do \noccur take place in connection with takeoffs and landings, the risk is less a matter of how far you fly and more a matter of how \noften. If you are a frequent flier, then the risk per flight means more. For occasional long-distance fliers, the risk per mile \nmeans more. A frequent, long-distance flier would want to consider both. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q15",
+      "order": 15,
+      "questionNumber": null,
+      "questionText": "17- What are two words that the writer uses to mean “Find out”?",
+      "options": [
+        {
+          "label": "A",
+          "text": "think / divide."
+        },
+        {
+          "label": "B",
+          "text": "take / compare."
+        },
+        {
+          "label": "C",
+          "text": "produce / consider."
+        },
+        {
+          "label": "D",
+          "text": "determine / calculate"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 657,
+      "sourceLine": 16,
+      "sourcePages": [
+        657
+      ],
+      "rawBlock": "17- What are two words that the writer uses to mean “Find out”?  \nA) think / divide.  \nB) take / compare.  \nC) produce / consider.  \nD) determine / calculate  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q16",
+      "order": 16,
+      "questionNumber": null,
+      "questionText": "18- How is the writer’s view about plane crash risk different from the general belief?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is about 1 in 11 million."
+        },
+        {
+          "label": "B",
+          "text": "It depends on national averages."
+        },
+        {
+          "label": "C",
+          "text": "It depends on individual flying habits."
+        },
+        {
+          "label": "D",
+          "text": "It depends on the condition of the plane."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 657,
+      "sourceLine": 22,
+      "sourcePages": [
+        657
+      ],
+      "rawBlock": "18- How is the writer’s view about plane crash risk different from the general belief?  \nA) It is about 1 in 11 million.  \nB) It depends on national averages.  \nC) It depends on individual flying habits.  \nD) It depends on the condition of the plane. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q17",
+      "order": 17,
+      "questionNumber": null,
+      "questionText": "19- According to the passage, which of the following is a fact about most plane crashes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They happen during take off and landing."
+        },
+        {
+          "label": "B",
+          "text": "They happen during take off and mid-flight."
+        },
+        {
+          "label": "C",
+          "text": "They happen mid-flight and during landing"
+        },
+        {
+          "label": "D",
+          "text": "They happen during medium- and long -distance flights."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 657,
+      "sourceLine": 29,
+      "sourcePages": [
+        657
+      ],
+      "rawBlock": "19- According to the passage, which of the following is a fact about most plane crashes?  \nA) They happen during take off and landing.  \nB) They happen during take off and mid-flight.  \nC) They happen mid-flight and during landing  \nD) They happen during medium- and long -distance flights.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q18",
+      "order": 18,
+      "questionNumber": null,
+      "questionText": "20- What can we understand from the passage about airplane crashes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The risk of being killed is biggest in private plane crashes."
+        },
+        {
+          "label": "B",
+          "text": "The risk of crashing is smallest for the average American."
+        },
+        {
+          "label": "C",
+          "text": "The risk of being killed is biggest in commercial plane crashes."
+        },
+        {
+          "label": "D",
+          "text": "The risk of crashing is biggest for frequent, long-distance fliers."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 657,
+      "sourceLine": 35,
+      "sourcePages": [
+        657,
+        658,
+        659
+      ],
+      "rawBlock": "20- What can we understand from the passage about airplane crashes?  \nA) The risk of being killed is biggest in private plane crashes.  \nB) The risk of crashing is smallest for the average American.  \nC) The risk of being killed is biggest in commercial plane crashes.  \nD) The risk of crashing is biggest for frequent, long-distance fliers.\n657 \nPassage 9 \n1) Consumption taxes: As the name implies, consumption taxes tax consumption. There are different variants of consumption \ntaxes. Three important consumption taxes are the sales tax, the excise tax, and the value added tax (VAT).  \n2) Sales Tax: A sales tax is a tax on sales and are usually a flat percentage of the amount of the purchase. Sellers usually collect \nsales taxes at the point of sale from the ultimate consumer. Many states and localities rely on sales tax for a substantial \nportion of their revenue needs. Sales taxes are relatively easy to collect. By their very nature, sales taxes are not collected on \namounts that citizens or residents save. Hence, their effect is more burdensome to those persons who must spend more (even \nall) of their income to purchase items subject to a sales tax. While such taxes are nominally in equal percentage of all \npurchases, their effect is regressive for those who accumulate wealth and who spend all of their income on items subject to \nthem.  \n3) In states that have sales taxes applicable to all purchases, every citizen or resident who buys anything pays more sales tax. \nIn this sense, citizen beneficiaries may more equitably share the burden of paying for state or local government than is the \ncase of the financing schemes already noted. The recent financial crisis has made clear that a state’s revenue are vulnerable to \neconomic downturns during which citizens or residents must reduce their purchases. Such downturns are the very occasions \nwhen states need more funds to finance services for which their citizen stand in greater need. \n4) Sales taxes are particularly attractive to states that perceive an ability to pass them to a non-citizens or non-residents. There \nis nothing quite so politically attractive as making someone who cannot vote in state elections increase the state’s funds. \nTourist-destination states that persons from out-of-state visit find sales taxes attractive.  \n5) Excise taxes: An excise tax is a sales tax that applies only to certain classes of good, e.g., luxury items. Excise taxes on luxury \nitems may be politically popular, but those excise taxes do not raise much revenue because they are avoidable. The demand \nfor luxury items is usually limited. Excise taxes on high-demand (arguably) non-necessities, e.g., cellular telephones, raise \nmuch more revenue. Tourist-destination states find excise taxes on services that old-of-state visitors are more likely to \npurchase than residents to be attractive e.g., renting cars, staying in hotels, visiting tourist sites.  \n6) Some states impose excise taxes on “sin” purchases e.g., cigarettes. The public health costs associated with activities such \nas smoking or drinking may be high, so states tax heavily the purchase of products that cause it to have to provide costly \nhealth services. Arguably, such taxes may discourage persons from making the purchases in the first place. \n7) Value Added Tax: This tax is imposed upon every sale, not only the sale to the ultimate consumer, i.e., it is imposed at every \nstage of production of a product. The seller pays the VAT to the government minus whatever tax the seller was assessed upon \nacquiring the good. Thus, the tax base is only a purchaser’s actual additions to the value of a product. Since the final consumer \ndoes not resell the product, he/she/it pays the final tax bill. Many European countries favor a VAT, often in combination with \nan income tax.  \n8) There are of course other forms of taxation used by nations to raise income. These include wealth taxes and wage taxes.  \n9) Wealth Taxes: We could tax wealth. There are at least two common forms of wealth taxes, estate taxes and property taxes. \nThe estate tax is imposed on the estates of the deceased and the amount of the tax depends on the size of the estate. \nProperty taxes are imposed on taxpayers because they own property. Municipalities often rely on property taxes to raise the \nrevenues they need. Notices that in the case of property taxes, the taxing authority can tax the same “wealth” again and \nagain, e.g., every year.\n658 \n10)Wage taxes: we could tax wages by a flat percentage irrespective of how much those wages are. This is sometimes called a \n“payroll” tax. Some states rely on payroll tax. It is cheaper to administer than an income tax because there are few deductions \nor exclusions from the tax base. Social Security taxes and Medicare taxes are wage taxes. The tax rate of the Social Security Tax \n(6.2% on both employer and employee) is limited to the first $120.000 of wage income. The maximum on the tax rate of the \nSocial Security Tax of course creates an effect where those with incomes higher than the maximum pay a rate that is lower \nthan the rate of those whose income is below the maximum rate of the Medicare tax (1.45% on both employer and employee) \nis not subject to a limit. Therefore, for high-income earners, there is an additional 0.9% tax on wages or self-employment \nincome. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q19",
+      "order": 19,
+      "questionNumber": null,
+      "questionText": "21- According to the passage, what are kinds of wage taxes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "income tax and social security tax"
+        },
+        {
+          "label": "B",
+          "text": "social security tax and medicare taxes"
+        },
+        {
+          "label": "C",
+          "text": "purchase and medicare taxes"
+        },
+        {
+          "label": "D",
+          "text": "payroll and wealth taxes."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 659,
+      "sourceLine": 11,
+      "sourcePages": [
+        659
+      ],
+      "rawBlock": "21- According to the passage, what are kinds of wage taxes?  \nA) income tax and social security tax  \nB) social security tax and medicare taxes  \nC) purchase and medicare taxes  \nD) payroll and wealth taxes.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q20",
+      "order": 20,
+      "questionNumber": null,
+      "questionText": "22- According to the passage, which of the following are kinds of excise tax?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 659,
+      "sourceLine": 17,
+      "sourcePages": [
+        659,
+        660
+      ],
+      "rawBlock": "22- According to the passage, which of the following are kinds of excise tax?  \nA) cigarettes and property  \nB) property and wages  \nC) cigarettes and wages  \nD) cellphones and cigarettes \nPassage 10 \nPreserving Habits and Ecosystems \n1) The main thrust of global conservation efforts today is to protect not just individual species but entire ecosystems. The goal \nis to preserve the natural interactions of many species. To the end, governments and conservation groups work to set aside \nland as parks and reserves. The United States has national parks, forests, and other protected areas. Marine sanctuaries are \nbeing created to protect coral reefs and marine mammals.  \n2) The challenge is protecting areas that are large enough and that contain the right resources to protect biodiversity. To make \nsure that conservation efforts are concentrated in the most important places, conservation biologists have identified \necological “hotspots”. An ecological hotspot is a place where significant numbers of species and habitats are in immediate \ndanger of extinction. By identifying these areas, ecologists hope that scientists and governments can better target their efforts \nto save as many species as possible. \n23- The word “thrust” in paragraph (1) is closest in meaning to………….  \nA) intention  \nB) judgment  \nC) guarantee  \nD) circumstance\n659 \n24- The word “concentrated” in paragraph (2) is closest in meaning to………….  \nA) balanced  \nB) identified  \nC) appreciated  \nD) emphasized \nPassage 11 \nCompany Funded Research \n1) A soda company sponsoring nutrition research. An oil company helping fund a climate-related research meeting. Does the ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q21",
+      "order": 21,
+      "questionNumber": null,
+      "questionText": "public care who’s paying for science?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both are part of the tobacco industry’s research."
+        },
+        {
+          "label": "B",
+          "text": "Not all evidence is considered” is an example of “not all findings are released”"
+        },
+        {
+          "label": "C",
+          "text": "Both are examples of public opinion about this type of research."
+        },
+        {
+          "label": "D",
+          "text": "One represents NGO research and the other company-funded research."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 660,
+      "sourceLine": 14,
+      "sourcePages": [
+        660,
+        661
+      ],
+      "rawBlock": "public care who’s paying for science?  \n2) In a word, yes. When industry funds science, credibility suffers. And this does not bode well for the types of public-private \nresearch partnerships that appear to be becoming more common as government funding for research and development \nreduces.  \n3) The recurring topic of conflict of interest has made headlines in recent weeks. The National Academies of Science, \nEngineering, and Medicine have revised its conflict of-interest guidelines following questions about whether members of a \nrecent expert group on GMO’s had industry connections or other financial conflicts were not disclosed in the panel’s final \nreport.  \n4) This indicates how hard it may be for the public to see research as useful when produced with an industry partner, even \nwhen that company is just one of several collaborators. What people think of funding sources. \n5) When a research team included an industry partner, the public were generally less likely to think the scientists would \nconsider a full range of evidence and listen to different voices. An industry partner also reduced how much participants \nbelieved any resulting data would provide meaningful guidance for making decisions.  \n6) You may think that including a diverse array of partners in a research collaboration might remove the negative perceptions \nthat come with industry involvement. But, while including scientists from a nonindustry organization Particularly (a \nnongovernmental organization) made some difference, the effect was small. Adding a government partner provided no real \nadditional benefit.  \n7) Participants who were asked to describe what they thought about the research partnership in their own words said they \nwere skeptical whether an industry partner could ever be trusted to release information that might hurt its profits.  \n8) Stories of Pharmaceutical companies conducting less than rigorous clinical trials for the benefit of their marketing \ndepartments, or the tobacco industry steadfastly denying the connection between smoking and cancer in the face of mounting \nevidence, help explain public concern about industry funded science.\n660 \n25- How are the ideas that “not all evidence is considered” and “not all findings are released” \nrelated?  \nA) Both are part of the tobacco industry’s research.  \nB) Not all evidence is considered” is an example of “not all findings are released”  \nC) Both are examples of public opinion about this type of research.  \nD) One represents NGO research and the other company-funded research. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q22",
+      "order": 22,
+      "questionNumber": null,
+      "questionText": "26- Which of the following is an opinion?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They were Skeptical whether an industry partner could ever be trusted to release information"
+        },
+        {
+          "label": "B",
+          "text": "The National Academies of Science, Engineering and Medicine have revised its conflict-of"
+        },
+        {
+          "label": "C",
+          "text": "An industry partner also reduced how much participants believed any resulting data would"
+        },
+        {
+          "label": "D",
+          "text": "Including scientists from a non-industry organization made some difference, but the effect"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 661,
+      "sourceLine": 9,
+      "sourcePages": [
+        661
+      ],
+      "rawBlock": "26- Which of the following is an opinion?  \nA) They were Skeptical whether an industry partner could ever be trusted to release information \nthat might hurt its profits.  \nB) The National Academies of Science, Engineering and Medicine have revised its conflict-of \ninterest guidelines.  \nC) An industry partner also reduced how much participants believed any resulting data would \nprovide meaningful guidance for making decisions.  \nD) Including scientists from a non-industry organization made some difference, but the effect \nwas small.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q23",
+      "order": 23,
+      "questionNumber": null,
+      "questionText": "27- How is the public’s view about funding science different from the industry’s view?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The public think that the industry should use their money to do more research."
+        },
+        {
+          "label": "B",
+          "text": "The public think that public-private research partnerships work well."
+        },
+        {
+          "label": "C",
+          "text": "The public think that government research is less efficient."
+        },
+        {
+          "label": "D",
+          "text": "The public think that the industry mainly cares about money."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 661,
+      "sourceLine": 19,
+      "sourcePages": [
+        661,
+        662
+      ],
+      "rawBlock": "27- How is the public’s view about funding science different from the industry’s view?  \nA) The public think that the industry should use their money to do more research.  \nB) The public think that public-private research partnerships work well.  \nC) The public think that government research is less efficient.  \nD) The public think that the industry mainly cares about money. \nPassage 12  \nPassage A  \nMercantilism \n1) Developed in the sixteenth century, mercantilism was one of the earliest efforts to develop an economic theory. This theory \nstated that a country’s wealth was determined by the amount of its gold and silver holdings. In its simplest sense, mercantilists \nbelieved that a country should increase its holdings of gold and silver by promoting exports and discouraging imports. In other \nwords, if people in other countries buy more from you (exports) than they sell from you (imports), then they have to pay you \nthe difference in gold and silver. The objective of each country was to have a trade surplus, or a situation where the value of \nexports is greater than the value of imports, and to avoid a trade deficit, or a situation where the value of imports is greater \nthan the value of exports.\n661 \n2) A closer look at world history from the 1500s to the late 1800s helps explain why mercantilism flourished. The 1500s \nmarked the rise of new nations-states, whose rulers wanted to strengthen their nations by building larger armies and national \ninstitutions. By increasing exports and trade, these rulers were able to amass more gold and wealth for their countries. One \nway that many of these new nations promoted exports was to impose restrictions on imports. This strategy is called \nprotectionism and is still used today. \nPassage B  \nAbsolute Advantage \n1) In 1776, Adam Smith questioned the leading mercantile theory of the time in The Wealth of Nations. Smith offered a new \ntrade theory called absolute advantage, which focused on the ability of a country to produce a good more efficiently than \nanother nation. Smith reasoned that trade between countries shouldn’t be regulated or restricted by government policy or \nintervention. He stated that trade should flow naturally according to market forces. In a hypothetical two-country world, if \nCountry A produce a good cheaper or faster (or both) than Country B, then Country A had the advantage and could focus on \nspecializing on producing that good. Similarly, if Country B was better at producing another good, it could focus on specializing \nat well. By specialization, countries would generate efficiencies, because their labor force would become more skilled by doing \nthe same tasks. Production would also become more efficient, because there would be an incentive to create the \nspecialization. Smith’s theory reasoned that with increased efficiencies, people in both countries would benefit and trade \nshould be encouraged. His theory stated that a nation’s wealth shouldn’t be judged by how much gold and silver it had but \nrather by the living standards of its people. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q24",
+      "order": 24,
+      "questionNumber": null,
+      "questionText": "28- Which theories believe that a nation’s wealth is the same as its gold and silver?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mercantilism only"
+        },
+        {
+          "label": "B",
+          "text": "Promoting exports only"
+        },
+        {
+          "label": "C",
+          "text": "Absolute advantage only"
+        },
+        {
+          "label": "D",
+          "text": "Mercantilism and absolute advantage"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 662,
+      "sourceLine": 25,
+      "sourcePages": [
+        662
+      ],
+      "rawBlock": "28- Which theories believe that a nation’s wealth is the same as its gold and silver?  \nA) Mercantilism only  \nB) Promoting exports only  \nC) Absolute advantage only  \nD) Mercantilism and absolute advantage  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q25",
+      "order": 25,
+      "questionNumber": null,
+      "questionText": "29- Which of the theories believe that exports should be higher than imports?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mercantilism only"
+        },
+        {
+          "label": "B",
+          "text": "Absolute advantage only"
+        },
+        {
+          "label": "C",
+          "text": "Mercantilism and absolute advantage"
+        },
+        {
+          "label": "D",
+          "text": "Promoting exports and increased efficiencies"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 662,
+      "sourceLine": 31,
+      "sourcePages": [
+        662
+      ],
+      "rawBlock": "29- Which of the theories believe that exports should be higher than imports?  \nA) Mercantilism only  \nB) Absolute advantage only  \nC) Mercantilism and absolute advantage  \nD) Promoting exports and increased efficiencies ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q26",
+      "order": 26,
+      "questionNumber": null,
+      "questionText": "30- Which theories believe that countries should have no limits on imports and exports?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mercantilism and absolute advantage"
+        },
+        {
+          "label": "B",
+          "text": "Protectionism and specialization"
+        },
+        {
+          "label": "C",
+          "text": "Absolute advantage only"
+        },
+        {
+          "label": "D",
+          "text": "Mercantilism only"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 662,
+      "sourceLine": 37,
+      "sourcePages": [
+        662,
+        663,
+        664
+      ],
+      "rawBlock": "30- Which theories believe that countries should have no limits on imports and exports?  \nA) Mercantilism and absolute advantage  \nB) Protectionism and specialization  \nC) Absolute advantage only  \nD) Mercantilism only\n662 \nPassage 14 \nToxic waste \n1) The unwanted poisonous by-products of human activity, toxic wastes can arise from many sources. Atmospheric pollution, \nfor example, is caused by automobiles, power plants, and incinerators. Acid rain is produced when oxides of sulfur, carbon, \nand nitrogen from burning fossil fuels combine with moisture in the air, producing hazardous acids. Discarded industrial \nsolvents include low-molecular weight material such as benzene and carbon tetrachloride and high-molecular weight organic \nmaterials such as PCBs (polychlorinated biphenyls). which were used in the past for hydraulic fluids and in electrical \ntransformers and capacitors. Dioxins are the unwanted by-products of the manufacture of herbicides. Heavy-metal residues \nfrom copper or silver mining can contaminate groundwater or streams and Iakes and become concentrated in fish. Radioactive \nwastes are generated by nuclear power reactors, the manufacture of nuclear weapons, and, at low levels, by the industrial and \nmedical application of radioisotopes. \n2) In 1981 approximately 264 million tons of waste were produced in the United States—about 5.5 million tons were \nconsidered hazardous. During 1986 the United States generated about 1,770,000 cubic feet (50,000 cubic meters) of low-level \nsolid and liquid radioactive waste.  \n3) Many toxic wastes can harm humans, animals, or plants. Significant exposure to lead in paints and gasoline can lead to \nnervous disorders. Organic toxic wastes can lead to liver and kidney inflammation. Others, such as PCBs, are suspected of \ncausing birth defects. Some organic materials, such as benzene, are known to cause cancer in laboratory animals and are listed \nas possible cancer producing agents in humans. Moderately high levels of copper, silver, and other heavy metals are \ndetrimental to the growth of algae.  \n4) Some toxic wastes cause ecological imbalances. The insecticide DDT (dichloro-diphenyl trichloroethane), for example, \nalmost wiped out the American bald eagle population and reduced many other bird populations. It destroyed the birds’ ability \nto develop a sufficiently strong egg shell to assure hatching. Because of DDT’s threat to bird populations severe restrictions \nwere imposed in 1972 on its use in the United States. Other laws required the reduction of lead in gasoline and the \ntermination of PCB production. DDT is still used in developing countries for its effectiveness against the malaria-carrying \nmosquito. \n5) Depending on the type of waste, toxic wastes can be treated chemically, biologically, or by combustion. (See also garbage \nand refuse disposal.) An acid spill, for example, may be treated with lime or bicarbonate to neutralize the acid. Oil spills at sea \nare often treated with an emulsifier to disperse the oil in the water, thereby reducing the adverse effects on beaches and on \nwildlife. Effective methods of biological treatment of toxic wastes are still undergoing development. Organisms that can \nsurvive the toxicity and degrade the toxic wastes in a reasonable amount of time have not been found, but advances in genetic \nengineering may change this situation.  \n6) Combustion and other high-temperature treatments are the major methods used to reduce the toxicity of wastes. \nProcesses involving plasma technology are used for specific toxic wastes. These processes use high temperatures to ionize a \nmixture of air and fuel gases. When combined with these ionized gases, hot toxic gases from the waste are decomposed into \nrelatively harmless components. Plasma treatment at temperatures above 1,650° F (900° C) can diminish the toxicity of gas \nemissions such as dioxin vapor by about ten times the reduction that results from conventional combustion treatments. \n7) Incineration of liquid wastes is the primary method of toxic waste treatment in the United States. It usually involves \ninjecting the waste as small droplets into a burner. A fixed-hearth process, by which both liquid and solid wastes can be\n663 \nhandled, is also used. The waste is treated in two stages. It is first partially burned with insufficient air and then burned again \nwith excess air at higher temperatures to destroy the gases released during the first stage.  \n8) Another widely used process involves incineration in a rotary kiln. This is used for solids, liquids, their mixtures (slurries), \nand wastes in containers. Some hazardous wastes are disposed of directly as fuel in industrial boilers or cement kilns.  \n9) Liquid toxic wastes must be stored temporarily before disposal. Steel drums are used for short-term storage. Materials less \nsubject to corrosion, such as glass or ceramic, are often required for long-term storage. Ocean dumping and the use of landfills \nare no longer permitted for the disposal of hazardous waste in the United States. \n10)In the United States high-level nuclear wastes containing plutonium or uranium are either sent to reprocessing plants or \nstored near the nuclear facility site until disposal. Vitrification, a disposal procedure developed in recent years, is a process \nthat embeds nuclear wastes in glasslike substances that are stable for thousands of years. These erosion-resistant blocks are \nthen stored in underground salt mines or stable rock formations. Vitrification has been highly developed in France where \nnuclear energy is used extensively for electricity production. In the United States low-level radioactive wastes are currently \nstored at sites in three states—South Carolina, Nevada, and Washington—often after considerable volume reduction by \ncompacting. Some low-level radioactive wastes are also incinerated. In the United States performance standards and permit \nrequirements for thermal toxic waste destruction are determined by the Environmental Protection Agency (EPA). Current \nincinerator standards require the removal of at least 99.99 percent of the principal organic hazardous constituents and 99 \npercent of the hydrogen chloride in exhaust gases. Separate standards apply to solid particles (dust and ash) emitted during \nincineration. Radioactive wastes are regulated by the EPA, the Department of Energy (DOE), and the Nuclear Regulatory \nCommission (NRC). Each state is responsible for its own waste and interstate cooperation regarding disposal facilities is \nencouraged. Toxic waste regulation in Canada is monitored by the Ministry of the Environment, while the Atomic Energy \nControl Board manages radioactive waste. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q27",
+      "order": 27,
+      "questionNumber": null,
+      "questionText": "31- According to the passage, what are the heavy metals that affect the growth of algae?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Copper and DDT"
+        },
+        {
+          "label": "B",
+          "text": "Copper and silver"
+        },
+        {
+          "label": "C",
+          "text": "Silver and benzene"
+        },
+        {
+          "label": "D",
+          "text": "Gasoline and benzene"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 664,
+      "sourceLine": 30,
+      "sourcePages": [
+        664
+      ],
+      "rawBlock": "31- According to the passage, what are the heavy metals that affect the growth of algae?  \nA) Copper and DDT  \nB) Copper and silver  \nC) Silver and benzene  \nD) Gasoline and benzene  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q28",
+      "order": 28,
+      "questionNumber": null,
+      "questionText": "32- What are three things needed for generating radioactive Wastes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "nuclear power reactors, the manufacture of nuclear weapons, and the application of"
+        },
+        {
+          "label": "B",
+          "text": "the application of radioisotopes, the manufacture of herbicides and nuclear power reactors."
+        },
+        {
+          "label": "C",
+          "text": "the manufacture of nuclear weapons, acid rain and industrial boilers"
+        },
+        {
+          "label": "D",
+          "text": "gas emissions, carbon tetrachloride and nuclear"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 664,
+      "sourceLine": 38,
+      "sourcePages": [
+        664,
+        665
+      ],
+      "rawBlock": "32- What are three things needed for generating radioactive Wastes?  \nA) nuclear power reactors, the manufacture of nuclear weapons, and the application of \nradioisotopes.  \nB) the application of radioisotopes, the manufacture of herbicides and nuclear power reactors.  \nC) the manufacture of nuclear weapons, acid rain and industrial boilers  \nD) gas emissions, carbon tetrachloride and nuclear\n664 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q29",
+      "order": 29,
+      "questionNumber": null,
+      "questionText": "33- What are three methods currently used for toxic waste treatment?",
+      "options": [
+        {
+          "label": "A",
+          "text": "combustion, ocean dumping and vitrification"
+        },
+        {
+          "label": "B",
+          "text": "vitrification, landfills and biological treatment"
+        },
+        {
+          "label": "C",
+          "text": "vitrification, combustion and chemical treatment"
+        },
+        {
+          "label": "D",
+          "text": "combustion, biological treatment and vitrification"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 665,
+      "sourceLine": 2,
+      "sourcePages": [
+        665
+      ],
+      "rawBlock": "33- What are three methods currently used for toxic waste treatment?  \nA) combustion, ocean dumping and vitrification  \nB) vitrification, landfills and biological treatment  \nC) vitrification, combustion and chemical treatment  \nD) combustion, biological treatment and vitrification \nPassage 13 \nNon-Western Economic Thought \n1) Western historians of economic thought, like ourselves have a tendency to focus on Western writers. Whether This is \njustified or not is a matter of opinion JA Schumpeter, who wrote a comprehensive, widely respected history of economic \nthought in 1954, held that he could find non -Western early economic writing with any analytic content and further that no \npiece of reasoning on strictly economic topics has come down to us that can be called “Scientific” within our meaning of the \nterm “Schumpeter also pointed to what he regarded as a curious gap in economic literature between the writings of the \nGreeks and Aquinas, a period of nearly one thousand years during which no economic writings of merit seemed to have been \nproduced.  \n2) Scholars since Schumpeter have questioned his conclusions and have been to find so interesting early economic wines of \nmerit. We will briefly newly translated works of a seventh century BCE Chinese writer, Oman Zhong (725-645 BC). For \nexample, in order to give you a favor of his contributions and, more broadly to suggest that analysis of economic activity is \nlikely to occur at various times and places. The majority of early Chinese wings on economics fit Schumpeter’s characterization \nthey were essentially limited to considerations of public administration within ethical networks, rather than strictly scientific” \nstudies. Oman Zhong’s book Guan zi, however, stands out as going far beyond the administrative mold. It includes a number of \nideas that central to economic thinking. Probably the most important of these is his “light/heavy” theory. An anticipation of \nsupply/ demand theory. Others include his anticipation of the quantity theory, his discussion of countercyclical fiscal policy. \nand his appreciation for the workings of the market. \n3) Guan Zhong argued that when a good was abundant it became light and its price would fail. When it was locked away it \nbecame heavy, and its price would rise. There would be movements of goods into and out of markets based on their lightness \nand heaviness, with a definite tendency toward one price - equilibrium. Thus, the light heavy theory is a statement of the law \nof supply and demand. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q30",
+      "order": 30,
+      "questionNumber": null,
+      "questionText": "34- What word other than “analytic content” does the writer use to talk about economic writing?",
+      "options": [
+        {
+          "label": "A",
+          "text": "curious"
+        },
+        {
+          "label": "B",
+          "text": "justified"
+        },
+        {
+          "label": "C",
+          "text": "scientific"
+        },
+        {
+          "label": "D",
+          "text": "comprehensive"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 665,
+      "sourceLine": 39,
+      "sourcePages": [
+        665,
+        666
+      ],
+      "rawBlock": "34- What word other than “analytic content” does the writer use to talk about economic writing?  \nA) curious  \nB) justified  \nC) scientific  \nD) comprehensive\n665 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q31",
+      "order": 31,
+      "questionNumber": null,
+      "questionText": "35- Which of the following does the writer say is a fact?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Schumpeter failed to find non-western scientific economic ideas."
+        },
+        {
+          "label": "B",
+          "text": "Guan Zhong produced a theory called supply and demand."
+        },
+        {
+          "label": "C",
+          "text": "The Greeks and Aquinas produced economic literature."
+        },
+        {
+          "label": "D",
+          "text": "Schumpeter wrote a history of economic literature"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 666,
+      "sourceLine": 3,
+      "sourcePages": [
+        666
+      ],
+      "rawBlock": "35-  Which of the following does the writer say is a fact?  \nA) Schumpeter failed to find non-western scientific economic ideas.  \nB) Guan Zhong produced a theory called supply and demand.  \nC) The Greeks and Aquinas produced economic literature.  \nD) Schumpeter wrote a history of economic literature ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q32",
+      "order": 32,
+      "questionNumber": null,
+      "questionText": "36- What can we understand about economic thought from Paragraph (1)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Schumpeter is the founder of modern economic thought and literature"
+        },
+        {
+          "label": "B",
+          "text": "All economic thought comes from Western sources."
+        },
+        {
+          "label": "C",
+          "text": "The development of economic theories is to his early stages"
+        },
+        {
+          "label": "D",
+          "text": "there were long spells when no economic literature produced"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 666,
+      "sourceLine": 10,
+      "sourcePages": [
+        666
+      ],
+      "rawBlock": "36-  What can we understand about economic thought from Paragraph (1)?  \nA) Schumpeter is the founder of modern economic thought and literature  \nB) All economic thought comes from Western sources.  \nC) The development of economic theories is to his early stages  \nD) there were long spells when no economic literature produced  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q33",
+      "order": 33,
+      "questionNumber": null,
+      "questionText": "37- What can we understand about Zhong’s ideas from Paragraph (3)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Goods will always get more expensive through."
+        },
+        {
+          "label": "B",
+          "text": "Prices rise and fall depending on the movement of goods."
+        },
+        {
+          "label": "C",
+          "text": "He named his economic theory: the Law of Supply and Demand."
+        },
+        {
+          "label": "D",
+          "text": "Goods that are ‘locked away are in high-demand and are expensive."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 666,
+      "sourceLine": 16,
+      "sourcePages": [
+        666,
+        667
+      ],
+      "rawBlock": "37- What can we understand about Zhong’s ideas from Paragraph (3)?  \nA) Goods will always get more expensive through.  \nB) Prices rise and fall depending on the movement of goods.  \nC) He named his economic theory: the Law of Supply and Demand.  \nD) Goods that are ‘locked away are in high-demand and are expensive. \nPassage 14 \nPricing Strategies \nPassage A: Customer Value-Based Pricing \n1) The price a company charges will fall somewhere between one that is too high to produce any demand and one that is too \nlow to produce any profit.  \n2) In the end, the customer will decide whether a product’s price is right. Pricing decisions, like other marketing mix decisions, \nmust start with customer value. When customers buy a product, they exchange something of value (the benefits of having or \nusing the product). Effective, customer- oriented pricing involves understanding how much value consumers place on the \nbenefits they receive from the product and setting a price that captures this value.\n666 \n3) Customer value-based pricing uses buyers’ perceptions of value, not the seller’s cost, as the key to pricing. Value-based \npricing means that the marketer cannot design a product and marketing program and then set the price. Price is considered \nalong with the other marketing mix variables before the marketing program is set. \n4) Although costs are an important consideration in setting prices, cost-based pricing often product driven. The company \ndesigns what it considers to be good product, adds up the cost of making the product, and sets a price that covers costs plus a \ntarget profit. Marketing must then convince buyers that the products value at that price justifies its purchase. If the price turns \nout to be too high, the company must settle for lower markups or lower sales, both resulting in disappointing profits. \nPassage B: Good-Value Pricing \n1) Recent economic events have caused a fundamental shift in consumer attitudes towards price and quality. In response, \nmany companies have changed their pricing approaches to bring them into line with changing economic conditions and \nconsumer price perceptions. More and more, marketers have adopted good-value pricing strategies - offering just the right \ncombination of quality and good service at a fair price.  \n2) In many cases, this has involved introducing less- expensive versions of established, brand-name products. To meet the \ntougher economic times and more frugal consumer spending habits, fast-food restaurants such as Taco Bell and McDonald’s \noffer value meals and dollar menu items. Armani offers less-expensive, more casual Armani Exchange fashion line. Alberto-\nCulver’s TRESemme hair care line promises ‘A salon look and feel at a fraction of the price.’ And every car company now offers \nsmall, inexpensive models better suited to the strapped consumer’s budget. \n3) In other cases, good-value pricing has involved redesigning existing brands to offer more quality for a given price or the \nsame quality for less. Some companies even succeed by offering less value but at rock bottom prices. For example, passengers \nflying low-cost European airline Ryanair won’t get much in the way of free amenities, but they’ll like the airline’s unbelievably \nlow prices. ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q34",
+      "order": 34,
+      "questionNumber": null,
+      "questionText": "38- What do passages A and B say about consumer price perceptions?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is as important as changing economic conditions in determining pricing decisions."
+        },
+        {
+          "label": "B",
+          "text": "It made companies introduce less-expensive versions of brand name products."
+        },
+        {
+          "label": "C",
+          "text": "It is the key factor in determining pricing decisions."
+        },
+        {
+          "label": "D",
+          "text": "It makes products less expensive."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 667,
+      "sourceLine": 32,
+      "sourcePages": [
+        667
+      ],
+      "rawBlock": "38-  What do passages A and B say about consumer price perceptions?  \nA) It is as important as changing economic conditions in determining pricing decisions.  \nB) It made companies introduce less-expensive versions of brand name products.  \nC) It is the key factor in determining pricing decisions.  \nD) It makes products less expensive.  ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q35",
+      "order": 35,
+      "questionNumber": null,
+      "questionText": "39- According to passages A and B, what role do marketers play in pricing?",
+      "options": [
+        {
+          "label": "A",
+          "text": "setting fair prices."
+        },
+        {
+          "label": "B",
+          "text": "designing products then setting the price."
+        },
+        {
+          "label": "C",
+          "text": "justifying the price and offering good quality products for a fair price."
+        },
+        {
+          "label": "D",
+          "text": "redesigning some products to offer more quality products for lower prices."
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 667,
+      "sourceLine": 38,
+      "sourcePages": [
+        667,
+        668
+      ],
+      "rawBlock": "39- According to passages A and B, what role do marketers play in pricing?  \nA) setting fair prices.  \nB) designing products then setting the price.  \nC) justifying the price and offering good quality products for a fair price.  \nD) redesigning some products to offer more quality products for lower prices.\n667 ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q36",
+      "order": 36,
+      "questionNumber": null,
+      "questionText": "40- Which of the following statements best summarizes pricing strategies from passages A and B?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Customers’ and seller’s perception of quality determines price."
+        },
+        {
+          "label": "B",
+          "text": "Customers’ perception of value means good products for less money."
+        },
+        {
+          "label": "C",
+          "text": "Customers’ perception of value and economic conditions are both important in determining"
+        },
+        {
+          "label": "D",
+          "text": "Customers’ perception of value helps companies produce good products or redesign brand"
+        }
+      ],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 668,
+      "sourceLine": 3,
+      "sourcePages": [
+        668
+      ],
+      "rawBlock": "40- Which of the following statements best summarizes pricing strategies from passages A and B?  \nA) Customers’ and seller’s perception of quality determines price.  \nB) Customers’ perception of value means good products for less money.  \nC) Customers’ perception of value and economic conditions are both important in determining \nprice.  \nD) Customers’ perception of value helps companies produce good products or redesign brand \nname products at a fair price. \nي الاختبار \nEarth Structure (بنية الأرض ) \n1. What does the scientific term under \n\"ocean\" describe? \nIt describes a geological feature or phenomenon. \nالترجمة: ماذا يصف المصطلح العلمي الموجود تحت  \nocean كلمة \nالإجابة: يصف ظاهرة أو تكوينًا جيولوجيّا . ",
+      "parseStatus": "textually_verified",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "Visual PDF review has not yet been completed for this candidate."
+    },
+    {
+      "id": "reading-49-q37",
+      "order": 37,
+      "questionNumber": 2,
+      "questionText": "2. Which sentence expresses an opinion in the passage?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 668,
+      "sourceLine": 27,
+      "sourcePages": [
+        668,
+        669
+      ],
+      "rawBlock": "2. Which sentence expresses an opinion in the passage? \nThe sentence containing suggest. \nي القطعة؟ الإجابة: الجملة التري تحتوي ع \nالترجمة: أي جملة تعت ّ عن رأي ف   \nsuggest.\n668 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q38",
+      "order": 38,
+      "questionNumber": 3,
+      "questionText": "3. What is the difference between the two described features?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 669,
+      "sourceLine": 2,
+      "sourcePages": [
+        669
+      ],
+      "rawBlock": "3. What is the difference between the two described features? \nEach feature is formed in a different way. \nي القطعة؟ \nالترجمة: ما الفرق بي   الظاهرتي   المذكورتي   ف  \nالإجابة: كل ظاهرة تتكوّن بطريقة مختلفة . ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q39",
+      "order": 39,
+      "questionNumber": 4,
+      "questionText": "4. What happens when tectonic plates move apart?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 669,
+      "sourceLine": 8,
+      "sourcePages": [
+        669
+      ],
+      "rawBlock": "4. What happens when tectonic plates move apart? \nA gap is formed. \nالترجمة: ماذا يحدث عندما تبتعد الصفائح التكتونية  \nعن بعضها؟  \nالإجابة: تتكوّن فجوة. ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q40",
+      "order": 40,
+      "questionNumber": 5,
+      "questionText": "5. What is formed in the gap between tectonic plates?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 669,
+      "sourceLine": 14,
+      "sourcePages": [
+        669
+      ],
+      "rawBlock": "5. What is formed in the gap between tectonic plates? \nNew oceanic crust (new seafloor). \nي الفجوة بي   الصفائح التكتونية؟ الإجابة: قشرة محيطية جديدة (قاع محيط جديد \nالترجمة: ماذا يتكوّن ف . \nTeamwork (العمل الجماعي) ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q41",
+      "order": 41,
+      "questionNumber": 1,
+      "questionText": "1. How can a team be successful?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 669,
+      "sourceLine": 22,
+      "sourcePages": [
+        669
+      ],
+      "rawBlock": "1. How can a team be successful? \nBy having strong leadership and motivation. \nالترجمة: كيف يكون الفريق ناجحًا؟  \nالإجابة: بوجود قيادة قوية وتحفت   . ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q42",
+      "order": 42,
+      "questionNumber": 2,
+      "questionText": "2. What makes a team effective?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 669,
+      "sourceLine": 27,
+      "sourcePages": [
+        669
+      ],
+      "rawBlock": "2. What makes a team effective? \nSimilarity and trust among team member \nالترجمة: ما الذي يجعل الفريق فعالا؟ الإجابة: التشابه والثقة بي   أعضاء الفريق . \nReading Passage: Obesity & Anorexia | السمنة وفقدان الشهية العصت ي ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q43",
+      "order": 43,
+      "questionNumber": 1,
+      "questionText": "1. According to the passage, what health problem may obesity and anorexia lead to?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 669,
+      "sourceLine": 35,
+      "sourcePages": [
+        669,
+        670
+      ],
+      "rawBlock": "1. According to the passage, what health problem may obesity and anorexia lead to? \nوفقًا للقطعة، إلى أي مشكلة صحية قد تؤدي السمنة وفقدان الشهية العصت ي؟  \nHeart disease. \nالإجابة: أمراض القلب .\n669 ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q44",
+      "order": 44,
+      "questionNumber": 2,
+      "questionText": "2. According to the passage, what is one possible cause of anorexia?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 670,
+      "sourceLine": 2,
+      "sourcePages": [
+        670
+      ],
+      "rawBlock": "2. According to the passage, what is one possible cause of anorexia? \nوفقًا للقطعة، ما أحد الأسباب المحتملة لمرض فقدان الشهية العصت ي؟  \nGenetic factors (genes). \nالإجابة: العوامل الوراثية (الجينات) . \nThe passage mentions that studies on twins showed genes play a role in anorexia. \nذكرت القطعة أن الدراسات التري أُجريت على التوائم أظهرت أن للجينات دورًا ف ي الإصابة بفقدان الشهية العصت ي . ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q45",
+      "order": 45,
+      "questionNumber": 3,
+      "questionText": "3. According to the passage, what does the passage say about obesity in some societies?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 670,
+      "sourceLine": 10,
+      "sourcePages": [
+        670
+      ],
+      "rawBlock": "3. According to the passage, what does the passage say about obesity in some societies? \nي بعض المجتمعات؟ \nوفقًا للقطعة، ماذا ذكرت القطعة عن السمنة ف  \nIt has been associated with wealth because overweight people were seen as able to afford \nenough food. \nالإجابة: ارتبطت السمنة بالتراء، لأن الأشخاص السميني   كان يُنظر إليهم على أنهم قادرون على توفت  الطعام  \nقطعة عن   سوبر سنتر  و سوبرماركت  ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q46",
+      "order": 46,
+      "questionNumber": null,
+      "questionText": "Which store has the higher income?",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 670,
+      "sourceLine": 19,
+      "sourcePages": [
+        670,
+        671
+      ],
+      "rawBlock": "Which store has the higher income? \nAnswer: Supercenter. \nمترادفات مهمة احفظوها  \nThe word \"                     \" in paragraph (  ) is closest in meaning to........  \nGross = total  \nExpense = cost \nProminence = important \nExhibit = show \nTrauma = worry \nChronic = continuing \nا1.الباركسون المرض بشكل عام؟Shaking body \nايش معنى كلمة  impact ؟affect\n670 \nيش العضو المسؤول عن الذاكرة في الدماغ  memory) ؟hippocampus \nايش اقرب معنى الى  perform surgery Do operation ",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    },
+    {
+      "id": "reading-49-q47",
+      "order": 47,
+      "questionNumber": 2,
+      "questionText": "2. قطعة عن sugar research Who found sugar research? Sugar industry",
+      "options": [],
+      "correctAnswer": null,
+      "answerStatus": "missing",
+      "sourcePage": 671,
+      "sourceLine": 5,
+      "sourcePages": [
+        671
+      ],
+      "rawBlock": "2. قطعة عن  sugar research           Who found sugar research? Sugar industry \nعشان يزيدون مبيعاتهم والناس ما تقطع السكرليش تم تمويلها ؟   \nايش رأي العلماء بالبحوث القديمة؟  Disappointed and بوكلمة ناسيها بمعنى انها بحوث كلها كذ  \n3 as well as.قطعة عن متذوقين الشاي في امريكا ليش الكاتب استخدم كلمة   \nعشان يعطينا معلومات على ان بدايتهم قوية  \n4.   10طعة تتكلم عن انهقطعة عن التوزيع الغير عادل من وجهة نظر نفسية كلمة قاعدة تتكرر وعنها القطعة كاملة نسيتها بس مفادها ان التوزيع غير عادل لان الق \nالاحساس بعدم العدل %  بالمية مجتمعة سوا ب اي معنى الكلمة تكررت في ذا البرقراف؟ 90% بالمية من الامريكين يملكون اعلى من ثروة  \nسؤال ثاني وجوابه؟ معدل الفرق بين الغني والفقير في امريكا هو الاعلى  \nطعة عن الجاذبية كلمة قinsights؟ معناهاunderstanding \nكلمة ثانية غريبةواتوقع انها  speculation) واحترت بين جوابين  knowledge or goses اخترت ذي  \n6.تتكلم لانه كل السؤالين طالب معاني كلمات الاول اغرب كلمة ما قد مرت علي من قبل الثاني  قطعة سادسة ما قريت حتى عن ايش  additionally؟Extra \n7. قطعة سابعة عن سفتوير اسمه ENB اسئلة وناسي اسئلته وكان متوسط الصعوبة  5او 4عليه8. 3قطعة عن الزهايمر . ايش العضو المسؤول عن الذاكرة في  \nالدماغ memory) ؟hippocampus \nترتيب الوفاة بسبب الزهايمر في امريكا؟ السادس",
+      "parseStatus": "requires_review",
+      "visualVerificationStatus": "requires_review",
+      "reviewReason": "The source does not expose a reliably labeled option set for this question candidate; rawBlock is retained verbatim for manual validation."
+    }
+  ]
+}
