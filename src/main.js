@@ -1,6 +1,6 @@
 import './style.css';
 import { readings } from './data/readings.js';
-import { manualQuizModelsById } from './data/manualQuizzes.js';
+import { manualQuizModelsById, wordGlossary } from './data/manualQuizzes.js';
 
 const storageKey = 'step-reading-progress-v2';
 const readStored = (key, fallback) => {
@@ -12,7 +12,7 @@ const readStored = (key, fallback) => {
 };
 
 let progress = readStored(storageKey, {});
-let state = { view: 'library', selectedModelId: null, selectedPassageId: null, query: '' };
+let state = { view: 'library', selectedModelId: null, selectedPassageId: null, query: '', translationQuestionId: null, translatedWords: {} };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -54,6 +54,23 @@ function visibleModels() {
 function displayedOptions(question) {
   const offset = question.number % question.options.length;
   return [...question.options.slice(offset), ...question.options.slice(0, offset)];
+}
+
+function normalizeWord(word) {
+  return word.toLowerCase().replace(/[“”"'?.!,;:()]/g, '').replace(/’s$/, '').replace(/[^a-z]/g, '');
+}
+
+function wordMeaning(word) {
+  return wordGlossary[normalizeWord(word)] ?? 'المعنى غير مضاف بعد';
+}
+
+function renderQuestionText(question) {
+  if (state.translationQuestionId !== question.id) return escapeHtml(question.question);
+  return question.question.split(/(\s+)/).map((token) => {
+    if (!/[A-Za-z]/.test(token)) return escapeHtml(token);
+    const clean = normalizeWord(token);
+    return `<button class="word-chip" data-word="${escapeHtml(clean)}" data-question-word="${question.id}">${escapeHtml(token)}</button>`;
+  }).join('');
 }
 
 function libraryView() {
@@ -104,6 +121,7 @@ function modelView(model) {
 function quizView(model, passage) {
   const item = quizProgress(model.id, passage.id);
   const answered = Object.keys(item.answers ?? {}).length;
+  const remaining = passage.questions.length - answered;
   return `<main class="quiz-shell">
     <header class="quiz-top">
       <button class="back-button" data-model>← قطع النموذج</button>
@@ -112,7 +130,11 @@ function quizView(model, passage) {
     </header>
     <section class="quiz-list">
       ${passage.questions.map((question) => `<article class="quiz-question">
-        <h2><span>${question.number}</span>${escapeHtml(question.question)}</h2>
+        <div class="question-tools">
+          <button data-toggle-translation="${question.id}">${state.translationQuestionId === question.id ? 'إخفاء ترجمة الكلمات' : 'ترجمة الكلمات'}</button>
+          ${state.translationQuestionId === question.id && state.translatedWords[question.id] ? `<strong>${escapeHtml(state.translatedWords[question.id])}: ${escapeHtml(wordMeaning(state.translatedWords[question.id]))}</strong>` : '<small>اضغط على أي كلمة إنجليزية في السؤال لمعرفة معناها.</small>'}
+        </div>
+        <h2><span>${question.number}</span><b>${renderQuestionText(question)}</b></h2>
         <div class="quiz-options">
           ${displayedOptions(question).map((option) => `<button class="quiz-option ${item.answers?.[question.id] === option.id ? 'selected' : ''}" data-question="${question.id}" data-option="${option.id}">
             ${escapeHtml(option.text)}
@@ -122,7 +144,7 @@ function quizView(model, passage) {
     </section>
     <footer class="quiz-actions">
       <button data-reset-quiz>إعادة الاختبار</button>
-      <button class="primary-action" data-submit-quiz ${answered < passage.questions.length ? 'disabled' : ''}>إنهاء الاختبار</button>
+      <span>${remaining ? `باقي ${remaining} أسئلة` : 'اكتملت الإجابات، تظهر النتيجة تلقائيًا'}</span>
     </footer>
   </main>`;
 }
@@ -148,6 +170,8 @@ function resultView(model, passage) {
     <section class="quiz-list review-mode">
       ${passage.questions.map((question) => {
         const selectedId = item.answers?.[question.id];
+        const selected = question.options.find((option) => option.id === selectedId);
+        const wasCorrect = selected?.isCorrect;
         return `<article class="quiz-question">
           <h2><span>${question.number}</span>${escapeHtml(question.question)}</h2>
           <div class="quiz-options">
@@ -155,6 +179,7 @@ function resultView(model, passage) {
               ${escapeHtml(option.text)}
             </div>`).join('')}
           </div>
+          ${wasCorrect ? '<p class="answer-note correct-note">إجابتك صحيحة.</p>' : `<div class="answer-note wrong-note"><strong>الحل الصحيح: ${escapeHtml(question.correctAnswer)}</strong><p>${escapeHtml(question.explanation)}</p></div>`}
         </article>`;
       }).join('')}
     </section>
@@ -209,17 +234,29 @@ app.addEventListener('click', (event) => {
     return;
   }
 
-  const optionButton = event.target.closest('[data-option]');
-  if (optionButton) {
-    const item = quizProgress(state.selectedModelId, state.selectedPassageId);
-    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers: { ...(item.answers ?? {}), [optionButton.dataset.question]: optionButton.dataset.option }, status: 'in-progress' });
+  const translationButton = event.target.closest('[data-toggle-translation]');
+  if (translationButton) {
+    const questionId = translationButton.dataset.toggleTranslation;
+    state.translationQuestionId = state.translationQuestionId === questionId ? null : questionId;
     render();
     return;
   }
 
-  if (event.target.closest('[data-submit-quiz]')) {
-    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...quizProgress(state.selectedModelId, state.selectedPassageId), status: 'completed' });
-    state.view = 'result';
+  const wordButton = event.target.closest('[data-word]');
+  if (wordButton) {
+    state.translatedWords = { ...state.translatedWords, [wordButton.dataset.questionWord]: wordButton.dataset.word };
+    render();
+    return;
+  }
+
+  const optionButton = event.target.closest('[data-option]');
+  if (optionButton) {
+    const item = quizProgress(state.selectedModelId, state.selectedPassageId);
+    const passage = currentPassage();
+    const answers = { ...(item.answers ?? {}), [optionButton.dataset.question]: optionButton.dataset.option };
+    const completed = Object.keys(answers).length === passage.questions.length;
+    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, status: completed ? 'completed' : 'in-progress' });
+    if (completed) state.view = 'result';
     render();
     return;
   }
