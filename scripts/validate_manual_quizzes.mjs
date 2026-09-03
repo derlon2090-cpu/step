@@ -34,6 +34,7 @@ const reading03 = manualQuizModels.find((model) => model.id === 'reading-03');
 const reading04 = manualQuizModels.find((model) => model.id === 'reading-04');
 const reading05 = manualQuizModels.find((model) => model.id === 'reading-05');
 const reading06 = manualQuizModels.find((model) => model.id === 'reading-06');
+const reading07 = manualQuizModels.find((model) => model.id === 'reading-07');
 
 if (reading01?.passages.length !== 9) issues.push('reading-01 must currently expose exactly 9 internal passages');
 if (reading01QuestionCount !== 60) issues.push(`reading-01 must currently expose 60 quiz questions, found ${reading01QuestionCount}`);
@@ -42,10 +43,11 @@ if (reading03?.passages.length !== 9 || reading03.passages.flatMap((passage) => 
 if (reading04?.passages.length !== 11 || reading04.passages.flatMap((passage) => passage.questions).length !== 65) issues.push('reading-04 must expose 11 passages and 65 questions');
 if (reading05?.passages.length !== 12 || reading05.passages.flatMap((passage) => passage.questions).length !== 81) issues.push('reading-05 must expose 12 passages and 81 questions');
 if (reading06?.passages.length !== 9 || reading06.passages.flatMap((passage) => passage.questions).length !== 46) issues.push('reading-06 must expose 9 passages and 46 questions');
+if (reading07?.passages.length !== 10 || reading07.passages.flatMap((passage) => passage.questions).length !== 65) issues.push('reading-07 must expose 10 passages and 65 questions');
 
 if (issues.length) {
   console.error(issues.join('\n'));
   process.exit(1);
 }
 
-console.log('Manual quiz validation passed: models 01–06 expose 57 passages and 382 questions; unresolved answers remain unscored.');
+console.log('Manual quiz validation passed: models 01–07 expose 67 passages and 447 questions; unresolved answers remain unscored.');

@@ -432,6 +432,44 @@ Others are also curious as they are not tolerant of people who speak slowly and 
       ]),
     ]
   },
+  {
+    id:'reading-07',order:7,title:'النموذج السابع',subtitle:'اختر قطعة داخل النموذج ثم ابدأ الاختبار',passages:[
+      makeMixedPassage('reading-07','air-pollution',1,'القطعة الأولى','Air Pollution','أولاً / مكونات الهواء والتلوث',[
+        ['What does the air consist of?','nitrogen, oxygen and water vapor'],['The word essential is closest in meaning to?','Important',['Important','healthy']],['An example of particles in the air?','Diesel smoke'],['Diesel smoke pollution called?','Black carbon'],['Indoor pollution is more serious than outdoors?','Spend most time in building.'],
+      ]),
+      { ...makeMixedPassage('reading-07','king-faisal-prize',2,'القطعة الثانية','King Faisal International Prize','ثانياً / جائزة الملك فيصل',[
+        ['How often do they give the prize?','Once a year'],['In how many fields is the King Faisal International Prize granted?','5',['5','3','4','6']],['Paragraph 2 is mainly talking about ...............','the winners of the prize.',['the categories of the prize','the winners of the prize.','King Khalid and King Fahad','Ahmed Deedat and French Holocaust denier Roger Garaud']],['What is the best title of the passage?',null,[]],['What are the sons of king Faisal do to the prize?','serves chairman of King Faisal Foundation'],['What does the prize consist of?',null,['Cash money and a gold medal','a certificate, a medal Cash award']],['When was the first prize?','In 1979, or 1399 H.'],['Who suggested this prize?','The Board of Trustees of the Foundation'],['Who is the responsible party for nominating the winners?','The Secretariat of the Award'],['Who can nominate a person for the King Faisal International Prize?','Islamic institutions, universities and previous winners',['Ordinary individuals','Political parties','Islamic institutions, universities and previous winners','The King of Saudi Arabia only']],['What does the word “allocate” mean?','Assign money',['Assign money','specialized','specify','give']],
+      ]), passageText:`King Faisal International Prize is an annual award sponsored by King Faisal Foundation presented to dedicated men and women whose contributions make a positive difference. The foundation awards prizes in the following categories: Service to Islam, Islamic studies, Arabic Language and Literature, Science, Medicine.
+
+The first King Faisal International Prize was awarded to Sayyid Abul A'la Maududi in the year 1979. In 1984, King Fahd was the recipient of the Service to Islam award. In 1981, King Khalid received the same award. In 1986, this prize was co-awarded to Ahmed Deedat and French Holocaust denier Roger Garaud.` },
+      { ...makeMixedPassage('reading-07','king-fahd-causeway',3,'القطعة الثالثة','King Fahd Causeway','ثالثاً / جسر الملك فهد',[
+        ['Who invented the idea of king Fahd bridge?','King Saud'],['The word it refers to?','Joint committee'],['World Bank provides?','geographical and environmental factors.'],['If the paragraph continued, what would it be about?','New causeways to construct to other countries.'],['What is the paragraph 6 about?','describe the construction, facts about the causeway'],['A paragraph 7 talks about building mosques, an island, etc. What is the paragraph about?','Facilities'],['What is not found in the passage?','Shopping malls'],['When did you start thinking officially?','1965'],['Who called the bridge its name?','Essa Ibn Salman Khalifa'],['Bahraini side of the bridge is long?','4,296 m'],['When was the bridge opened?','November 26, 1986 - 24 Rabi` al-Awwal, 1407'],['Number of passengers in 2010?','19 million'],['What is the best title of the passage?','bridges between two nations',['Visiting Bahrain','bridges between two nations']],
+      ]), passageText:`The idea of building a bridge linking the Kingdom of Bahrain to the Eastern region of the Kingdom of Saudi Arabia had been enticing the two kingdoms for generations. The idea was born out of King Saud's wish to nurture and further solidify the bond between the two Kingdoms, during an official visit to the State of Bahrain in 1954.
+
+In 1965, the desire to construct the causeway began to take form officially when Sheikh Khalifa ibn Salman Al Khalifa the Prime Minister of the State of Bahrain paid a courtesy visit to King Faisal and the king expressed his wish to have the causeway constructed.` },
+      makeMixedPassage('reading-07','blood-types',4,'القطعة الرابعة','Blood Types','رابعاً / فصائل الدم',[
+        ['Type (O) blood can be donated to recipients with all four types of blood because .................','a. it doesn\'t have antibodies or antigens for either type',['a. it doesn\'t have antibodies or antigens for either type','b. it has A antigens','c. it has B antigens','d. it has AB antigens']],['Blood group ........................ has no antigens.','(O)',['(A)','(O)','(AB)','(B)']],['The blood type that can receive blood from all four types, but can only donate to other AB recipients is called................','(AB)',['(O)','(A)','(B)','(AB)']],['Which blood takes the donate from others?',null,[]],['Which blood allocates the donate to all others?','Blood type O.'],['What is the wrong sentence?',null,[]],['What does the word “compatible” mean?','Matching'],['What does the word “completed” mean?',null,['Available']],
+      ]),
+      makeMixedPassage('reading-07','animal-sleep',5,'القطعة الخامسة','Animal Sleep','خامساً / نوم الحيوانات',[
+        ['What is the animal that does not sleep much?','Sheep',['Sheep','cat','moles']],['Snakes .....................?','May not really sleep.'],['Elephant .....................?','does NOT always sleep lying down.'],['Cows and horses sleep.........?','usually open their eyes',['Never close their eyes','seldom open their eyes','usually open their eyes','always close their eyes']],['All animals .............?','Spend some time resting.'],['What does the pronoun "their" refer to?','animals',['Scientists','device name','animals']],['What does the word “dozing” mean?','Sleep'],['What does the word “clues” mean?','signs'],['What is the main idea of the passage?','Scientists able to study animals sleeping behavior.'],['Why do some animals better sleepers?','Because they have a safe place to sleep'],['What is the best way to test animal sleep?','Use the electroencephalograph.'],['What is not true according to paragraph 2 and 3?','Fish and snakes sleep eyes open. They don\'t like to close them.'],['The word stimuli is closest in meaning to?','things produce a reaction in living organisms'],
+      ]),
+      makeMixedPassage('reading-07','farmers-1900',6,'القطعة السادسة','Farmers in 1900','سادساً / المزارعون عام 1900',[
+        ['What does the pronoun “themselves” refer to?','Family farmers'],['What is the wrong sentence according to the paragraph?',null,[]],['What is wrong with the options?','Half of the farmers in 1900 were engaged in agriculture.'],
+      ]),
+      makeMixedPassage('reading-07','clothes-1900',7,'القطعة السابعة','Clothes in 1900','سابعاً / الملابس عام 1900',[
+        ['How was the clothes (wear)?',null,[]],
+      ]),
+      makeMixedPassage('reading-07','statue-liberty',8,'القطعة الثامنة','Statue of Liberty','ثامناً / تمثال الحرية',[
+        ['What does the 2nd paragraph talk about?','Description of the statue'],['What does it represent?','Liberty'],['What is the kind of passage?','description',['description','opinion','story','freedom']],['What is mentioned in the passage about the statue?','recognized by people around the world.'],['Who gave the Statue of Liberty as a gift?','France',['France','Spain','Britain']],['Why did France gift America the statue?',null,[]],['What does she hold in her hand?','A book and torch'],
+      ]),
+      makeMixedPassage('reading-07','food-destination',9,'القطعة التاسعة','Where Food Goes','تاسعاً / أين يذهب الطعام',[
+        ['Where do the food go?','stomach',['stomach','mouth','brain','kidneys']],['If you have 10 Riyal, what will you buy?','sandwich',['sandwich','chicken','pizza','fish']],
+      ]),
+      makeMixedPassage('reading-07','book-information',10,'القطعة العاشرة','Book Information','عاشراً / معلومات الكتاب',[
+        ['What is the information required about the book?','The date of publication and publisher.'],['What information do you find when searching for a book?','Date of publication and publisher'],
+      ]),
+    ]
+  },
 ];
 
 export const manualQuizModelsById = new Map(manualQuizModels.map((model) => [model.id, model]));
