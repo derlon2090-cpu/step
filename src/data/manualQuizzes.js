@@ -282,9 +282,17 @@ export const manualQuizModels = [
   {
     id: 'reading-03', order: 3, title: 'النموذج الثالث', subtitle: 'اختر قطعة داخل النموذج ثم ابدأ الاختبار',
     passages: [
-      makeMixedPassage('reading-03','russian-doll',1,'القطعة الأولى','Russian Doll','أولاً / الدمية الروسية',[
+      { ...makeMixedPassage('reading-03','russian-doll',1,'القطعة الأولى','Russian Doll','أولاً / الدمية الروسية',[
         ['Who is the doll maker?','Vasily Zvyozdochkin'],['What is the title of the passage?','Russian Wood Figurine'],['What is the first passage talking about?','The origin of the Russian doll and its appearance.'],['What are the basic factors needed to make dolls?','Expert workmen'],['What are dolls made of?','Wood'],['What does the word “carved” mean?','Shaped'],['What is the origin of the doll?','Japan'],['Why were some presidents excluded from having dolls made for them?','Because they were not in power for long.'],['What does the pronoun “it” refer to?','Odd numbers'],['Which section talks about carving and industry?',null,[]],
-      ]),
+      ]), passageText: `The first Russian nested doll set was carved in 1890 by Vasily Zvyozdochkin and designed by Sergey Malyutin, who was a folk crafts painter in the Abramtsevo estate of Savva Mamontov, a Russian industrialist and patron of arts.
+
+The doll set was painted by Malyutin. Malyutin’s doll set consisted of eight dolls—the outermost was a girl in a traditional dress holding a rooster. The inner dolls were girls and a boy, and the innermost was a baby.
+
+The origin of the inspiration for matryoshka dolls is not clear. It is believed that Zvyozdochkin and Malyutin were inspired by Eastern Asian culture, for example, the doll Honshu, named after the main island of Japan. However, the Honshu figures cannot be placed one inside another.
+
+Sources differ in descriptions of the doll, describing it as either a round, hollow Daruma doll portraying a bald old Buddhist monk, or a Seven Lucky Gods nesting doll.
+
+Savva Mamontov’s wife presented the dolls at the Exposition Universelle in Paris, where the toy earned a bronze medal. Soon after, matryoshka dolls were being made in several places in Russia and shipped around the world.` },
       makeMixedPassage('reading-03','missing-plane',2,'القطعة الثانية','The Missing Plane','ثانياً / الطائرة المفقودة',[
         ['What caused the plane to break down?','Technical problems'],['What was the destination of the plane?','New Delhi'],['What did they do when the plane stopped?',null,[]],['What does “not scheduled” mean?','Not planned'],['What was the reason for the delay?','Technical problems'],
       ]),

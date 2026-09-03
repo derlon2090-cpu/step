@@ -173,6 +173,7 @@ function quizView(model, passage) {
     <section class="question-progress" aria-label="تقدم الاختبار">
       <span style="width:${((index + 1) / passage.questions.length) * 100}%"></span>
     </section>
+    ${passage.passageText ? `<section class="passage-reading" lang="en" dir="ltr"><header><span>Passage</span><small>Read the passage, then answer the question</small></header><div>${escapeHtml(passage.passageText).split('\n\n').map((paragraph) => `<p>${paragraph}</p>`).join('')}</div></section>` : ''}
     <section class="quiz-list">
       <article class="quiz-question active-question ${selectedId ? answeredCorrectly ? 'answered-correct' : 'answered-wrong' : ''}">
         <div class="question-heading"><span>السؤال ${index + 1}</span><small>من ${passage.questions.length}</small></div>
