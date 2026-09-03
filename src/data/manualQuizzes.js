@@ -319,6 +319,46 @@ Savva Mamontov’s wife presented the dolls at the Exposition Universelle in Par
       ]),
     ],
   },
+  {
+    id: 'reading-04', order: 4, title: 'النموذج الرابع', subtitle: 'اختر قطعة داخل النموذج ثم ابدأ الاختبار',
+    passages: [
+      { ...makeMixedPassage('reading-04','muhammad-ali',1,'القطعة الأولى','Muhammad Ali Clay','أولاً / محمد علي كلاي',[
+        ['Where did he get the gold medal from?','Roma'],['When did he change his name?','In the same year he defeated Sonny Liston.'],['When he won the gold medal, he was?','An amateur boxer'],['How old was he when he converted to Islam?','22 years old'],['What is the meaning of the word “??????”?','Change'],['How many competitions did he take part in until he got the medal?','3 tournaments'],['What does “assumed” mean?','Took',['Took','Posited']],['Who supported his rejection of the Vietnam War?','The Supreme Court'],['How old was he when he won the championships?','22 years old'],['When did he win the third golden medal?','1978'],['Who did he beat before becoming famous after the third prize?','Leon'],['How old was he when he won the medal?','Thirty-six years old'],['When did he die?','June 3, 2016'],
+      ]), passageText: `Mohammed Ali Clay, an American boxer born on behalf of Cassius Marcellus Clay Jr, was born on 17 January 1942 to a family After converting to Islam in 1964 and changing his name to Mohammed Ali without his last name - Clay - Clay won the World Heavyweight Championships three times over twenty years.
+
+He converted to Islam in 1964 and changed his name to Mohammed Ali without his last name - Clay - Clay won the World Heavyweight Championship three times over twenty years in 1964, 1974 and 1978. He died on June 3, 2016 at the age of 74 after a long struggle with Parkinson's disease.` },
+      makeMixedPassage('reading-04','cupping',2,'القطعة الثانية','Cupping','ثانياً / الحجامة',[
+        ['What are the benefits of cupping?','Energize the body'],['When is it recommended to do cupping?','Once a year or more'],['What are the reasons for a headache?','Toxin'],['How is cupping done?','Wound’s injury'],['Is cupping recommended?','Yes, it is recommended by Prophet Muhammad'],['Cupping treats these except?','Cut of body'],['Which of these things is needed for cupping according to what was mentioned in the paragraph?','Clean instrument'],
+      ]),
+      makeMixedPassage('reading-04','pigeons',3,'القطعة الثالثة','Pigeons','ثالثاً / الحمام',[
+        ['What does Paragraph 1 talk about?','Mixed feelings'],['What does “nocturnal” mean?','Active at night'],['Why did the writer say that pigeons are similar to mice and rats?','They feed on the fallen food.'],['Why did the writer not breathe?','The smell of pigeon waste'],['Where did the pigeons build nests?','They build nests in any place.'],['Urban pigeons are dirty because of?',null,[]],['What is NOT a use of pigeons?','They are pets'],['What is the paragraph about?','Pigeons can live in all circumstances or conditions.'],
+      ]),
+      makeMixedPassage('reading-04','ants',4,'القطعة الرابعة','Ants','رابعاً / النمل',[
+        ['Do all the ants lay eggs?','No, only the queen'],['Which creatures have no skeleton?','All insects'],['In which paragraph do all workers protect?',null,[]],['How do ants know each other?','By smell'],['What does the pronoun “they” refer to?','Ants'],['Where do ants live?','Colonies'],['Which is true?','They cut food and eat'],['What food can ants eat?','Liquid'],['What is the meaning of the word “colony”?',null,['Habitation','Settlement']],['What does the word “compound” mean?','Complex'],['Do ants live long?','They live for a period of 20 to 30 days.'],['What are the holes in the ant’s eyes?','The ant has two eyes, and in every eye there are some eyes.'],['What is the best title for the passage?','The Fascinating Creatures'],
+      ]),
+      makeMixedPassage('reading-04','watching-tv',5,'القطعة الخامسة','Watching Television','خامساً / مشاهدة التلفاز',[
+        ['Why do people watch TV?','To spend more enjoyable time for entertainment (have fun).'],['How does watching TV shorten your life?','Staying long hours without moving.'],['How does exercising make your life longer?','Giving you 3 years to your life, reducing the rate of death by 14%, and reducing other dangers by 4%.'],['According to Paragraph 4, exercising for 15 minutes a day can:','Add three years to the total time of your life.',['Add three years to the total time of your life.','Extend your life for 22 minutes.','Reduce the risk of death by 4%.','Reduce heart disease by 4%.']],['What does “premature” mean?','Early',['Early','Late','Final','Developing']],['According to Paragraph 2, people who watch a lot of television:','They cut off 11 minutes of their lives.',['Get the exciting of exercises','Eat plenty of food','Breathe cigarette smoke']],['According to the text, what activity can increase the health risks of diabetes and heart disease by 20%?','Watch TV for two hours a day.',['A lifestyle that is generally inactive','Over-eating unhealthy food','Smoking']],['كم يموتون الذين على التلفاز؟',null,[]],['كم المعدل اليومي للجلوس على التلفاز؟',null,[]],
+      ]),
+      makeMixedPassage('reading-04','bone-soup',6,'القطعة السادسة','Bone Soup','سادساً / مرق العظام',[
+        ['What does the pronoun “that” refer to?','Minerals'],['What happened to the people who don’t drink bone soup?',null,[]],['What is the meaning of the word “lacking”?','Missing'],
+      ]),
+      { ...makeMixedPassage('reading-04','meeting-email',7,'القطعة السابعة','Meeting Email','سابعاً / البريد والاجتماع',[
+        ['When was the previous meeting?','The day before the message',['The day before message','On the same day','Before sending','Only days before']],['When was the last meeting?','The day before the message'],['Why was the manager angry at the clerk?','Because he came later than him.'],['Why was he upset with him?','Because the secretary arrived late last time.',['He apologized','He did not bring the papers or files.']],
+      ]), passageText: `An email from someone informing him about the preparations for the next meeting. And that it is necessary to come early and answer with him the paper he forgot on the desk the last day.` },
+      makeMixedPassage('reading-04','job-offer',8,'القطعة الثامنة','Job Offer','ثامناً / العرض الوظيفي',[
+        ['What are the skills required for the jobs?','Bachelor degree and fluent in English'],['What is NOT mentioned in the job offer?','Salary'],['Which company is asking for applicants for these jobs?','Travel and tourism company'],['What does the word “forceful” mean?','Powerful',['Powerful','Smart','Mindful']],['What does the word “express” mean?','Explain'],
+      ]),
+      makeMixedPassage('reading-04','dave-response',9,'القطعة التاسعة','Dave’s Response','تاسعاً / رد ديف',[
+        ['What is Dave’s response?','Working',['Working','Fast']],
+      ]),
+      makeMixedPassage('reading-04','questionnaires',10,'القطعة العاشرة','Questionnaires','عاشراً / الاستبيان',[
+        ['Who should respond to the questionnaires?','The students',['The students','The students and professors']],
+      ]),
+      makeMixedPassage('reading-04','health-chart',11,'القطعة الحادية عشرة','Health Chart','الحادي عشر / الرسم البياني الصحي',[
+        ['When was the highest percentage of high health in cities?',null,[]],
+      ]),
+    ],
+  },
 ];
 
 export const manualQuizModelsById = new Map(manualQuizModels.map((model) => [model.id, model]));
