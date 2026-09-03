@@ -183,7 +183,10 @@ function quizView(model, passage) {
       <button data-reset-quiz>إعادة الاختبار</button>
       ${!state.restoredProgress && item.status === 'in-progress' && savedCount ? `<button data-restore-progress>استعادة التقدم (${savedCount})</button>` : ''}
       <span>${answered} إجابة محفوظة</span>
-      <button class="primary-action" data-next-question ${selectedId ? '' : 'disabled'}>${isLastQuestion ? 'عرض النتيجة' : 'التالي'}</button>
+      <div class="quiz-navigation">
+        <button class="primary-action next-action" data-next-question ${selectedId ? '' : 'disabled'}>${isLastQuestion ? 'عرض النتيجة' : 'التالي'} <span aria-hidden="true">←</span></button>
+        <button class="secondary-action previous-action" data-previous-question ${index === 0 ? 'disabled' : ''}><span aria-hidden="true">→</span> السابق</button>
+      </div>
     </footer>
   </main>`;
 }
@@ -319,6 +322,14 @@ app.addEventListener('click', (event) => {
       state.questionIndex = nextIndex;
       state.translationQuestionId = null;
     }
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-previous-question]')) {
+    if (state.questionIndex <= 0) return;
+    state.questionIndex -= 1;
+    state.translationQuestionId = null;
     render();
     return;
   }
