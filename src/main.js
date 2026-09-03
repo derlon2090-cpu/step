@@ -132,15 +132,22 @@ function modelView(model) {
     <section class="passage-grid">
       ${model.passages.length ? model.passages.map((passage) => {
         const item = quizProgress(model.id, passage.id);
-        return `<button class="passage-card" data-open-passage="${passage.id}">
+        return `<article class="passage-card">
           <span>${String(passage.order).padStart(2, '0')}</span>
           <strong>${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</strong>
           <em>${escapeHtml(passage.externalTitle)}</em>
           <small>${passage.questions.length} أسئلة · ${item.status === 'completed' ? 'مكتملة' : item.status === 'in-progress' ? 'قيد الحل' : 'لم تبدأ'}</small>
-          <b>ابدأ الاختبار</b>
-        </button>`;
+          <div class="passage-actions"><button data-open-passage="${passage.id}">ابدأ الاختبار</button><button data-open-solutions="${passage.id}">عرض الحلول</button></div>
+        </article>`;
       }).join('') : '<div class="empty-state"><h2>لا توجد قطع داخل هذا النموذج بعد</h2><p>أرسل القطعة التالية بنفس التنسيق وسأضيفها كاختبار مستقل.</p></div>'}
     </section>
+  </main>`;
+}
+
+function solutionsView(model, passage) {
+  return `<main class="solutions-shell">
+    <header class="solutions-top"><button class="back-button" data-model>← قطع النموذج</button><div><p>${escapeHtml(model.title)}</p><h1>حلول ${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</h1><small>${escapeHtml(passage.externalTitle)}</small></div><strong>${passage.questions.length} سؤالًا محلولًا</strong></header>
+    <section class="solutions-list">${passage.questions.map((question) => `<article class="solution-card"><div class="solution-number">${question.number}</div><div class="solution-content"><h2>${escapeHtml(question.question)}</h2><div class="solution-answer"><span>الإجابة الصحيحة</span><strong>${question.correctAnswer ? escapeHtml(question.correctAnswer) : 'غير محددة في المصدر'}</strong></div><p class="solution-why"><b>لماذا؟</b> ${escapeHtml(question.explanation)}</p></div></article>`).join('')}</section>
   </main>`;
 }
 
@@ -246,6 +253,7 @@ function render() {
   const passage = currentPassage(model);
   if (state.view === 'model' && model) app.innerHTML = modelView(model);
   else if (state.view === 'quiz' && model && passage) app.innerHTML = quizView(model, passage);
+  else if (state.view === 'solutions' && model && passage) app.innerHTML = solutionsView(model, passage);
   else if (state.view === 'result' && model && passage) app.innerHTML = resultView(model, passage);
   else app.innerHTML = libraryView();
 }
@@ -274,6 +282,13 @@ app.addEventListener('click', (event) => {
     const passage = currentPassage();
     const saved = quizProgress(state.selectedModelId, passage.id);
     setQuizProgress(state.selectedModelId, passage.id, { ...saved, status: saved.status === 'completed' ? 'completed' : 'in-progress' });
+    render();
+    return;
+  }
+
+  const solutionsButton = event.target.closest('[data-open-solutions]');
+  if (solutionsButton) {
+    state = { ...state, view: 'solutions', selectedPassageId: solutionsButton.dataset.openSolutions };
     render();
     return;
   }
