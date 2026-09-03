@@ -399,6 +399,39 @@ He converted to Islam in 1964 and changed his name to Mohammed Ali without his l
       ]), passageText:`With lignin and appropriate architecture, we truly have wood. It is wood that makes trees. In practice, it is mainly the cells of the conducting vessels that become lignified, and they and their surrounding supporting cells are the main ingredient in timber.` },
     ]
   },
+  {
+    id:'reading-06',order:6,title:'النموذج السادس',subtitle:'اختر قطعة داخل النموذج ثم ابدأ الاختبار',passages:[
+      { ...makeMixedPassage('reading-06','world-war-two',1,'القطعة الأولى','The Second World War','أولاً / الحرب العالمية الثانية',[
+        ['When did the Second World War begin?','In 1939'],['How many militaries were killed in it?','More than 25 million'],['Why did the war end in the winter?',null,['Because it was too cold in Russia.','There were no means to warm.']],['What was the first reforms?','Providing food for people'],['World War (2) differs from other wars?','more destruction happened.'],['Why are modern weapons more destroyed or why equipment shatters a city easily?','Because weapons are advanced.'],['After the end of the war, which of the following increased:','Crime and breaking the law'],['The cost of World War 2?','More than three wars before'],['After the war:','People were busy with problems.',['People were busy with problems.','They were sad because of the number of dead.','They lost the desire to live.','Ready for an upcoming war.']],['What does occur mean?','Happen'],['The end of war:','disaster remained',['disaster remained','disaster stopped.']],['Strikes in 1947:','Lack of coal'],['What is the best title of the passage?','The Moscow Peace Treaty'],['How long did the world war last?','Six years'],
+      ]),passageText:`The Second World War is an international war that started on the first of September of 1939 in Europe and ended on the second of September of 1945, in which the vast majority of the countries of the world participated, including the great countries in two conflicting military alliances: the Allied Forces, and the Axis countries, and it is also the broader war in History, in which more than 100 million people participated in the World War, more than 25,000,000 people were killed in the military and more than 30,000,000 citizens. The Second World War was more destructive than previous wars and that weapons can destroy cities because they developed even after the end of the World War.Among the effects that remained were the destruction, the rate of crimes, and the violation of the law.`},
+      makeMixedPassage('reading-06','radio',2,'القطعة الثانية','Radio Listening','ثانياً / الاستماع إلى الراديو',[
+        ['Which statement about radio development is correct?','development made radio cheaper'],['Where do a lot of people listen to the radio?','In cars'],['When does Urdu radio broadcast?','3 pm',['3 pm','9 am','7 am']],['What does the pronoun “them” refer to?','Majority',['Majority','minority','lions power','young']],['Are English radios few or many?','Few'],
+      ]),
+      { ...makeMixedPassage('reading-06','istanbul',3,'القطعة الثالثة','Istanbul','ثالثاً / إسطنبول',[
+        ['What is the old name of Istanbul? or what’s called?','Constantinople'],['What does the word “happen” mean?','Occur'],['What does the word “reign” mean?','Rule'],['What is the best title of the passage?','The civilization of Turkey',['The civilization of Turkey','Ottoman Empire and Turkish Republic']],['interested in such passage?','Culture and tours'],['What is the goal of the speaker or It seems to be directed to?','Tourists',['Historians','Geographers','Tourists']],
+      ]),passageText:`Istanbul, formerly known as Byzantium and Constantinople, is the most populous city in Turkey and the economic, cultural and historical center of the country Istanbul is an intercontinental city in Eurasia, stretching across the Bosporus (separating Europe and Asia) between the Sea of Marmara and the Black Sea. The commercial and historical center is located on the European side and about one third.`},
+      makeMixedPassage('reading-06','global-diet',4,'القطعة الرابعة','The Changing Global Diet','رابعاً / النظام الغذائي العالمي',[
+        ['What is the best title for the passage?','The changing global diet',['The changing global diet','Health problems','Healthy eating habits in Japan']],['Western food?','Making health worse in Japan'],['What does the word “nutritious” mean?','High food value',['High food value','more healthy']],['What does the pronoun “these” refer to?','Meat and dairy products'],['In the Czech Republic:','Most people live healthy lives'],
+      ]),
+      { ...makeMixedPassage('reading-06','personality-types',5,'القطعة الخامسة','Type A and B Personalities','خامساً / الشخصيتان A وB',[
+        ['Reducing sleep?','causes sudden death'],['What does the word “individual” mean?','Separated'],['Where is most people between A and B?','in the middle'],['Type A is different from type B, they?','in a rush doing_'],['What is our goal?','Balance work and play'],
+      ]),passageText:`some very prominent and that is the reason. Type A and B are tow type of personalities why they are so easily identified if you see someone freaking out because they are made time! even if the wait is for hurry and impatience seems to be their middle name, wait they walk fast and are, they speak fast. Urgency is seen clearly in their personality constantly aware of the running time.
+
+Others are also curious as they are not tolerant of people who speak slowly and usually end up completing sentences to them!, The other characteristics of a personality are that they feel annoyed by small things easily as they ease their strength when they get angry, So it is better not to provoke them, they have high ambitions, they can overcome the competition to achieve their goal, as they tend to compete with others.`},
+      makeMixedPassage('reading-06','meeting',6,'القطعة السادسة','Effective Meetings','سادساً / الاجتماعات الفعالة',[
+        ['What does the “remark” mean?','Comment',['Comment','Suspension']],['What is the main idea?','Meeting is planned and organized.'],['Who should invite for a meeting?','People who are necessary',['More people','People who are necessary']],
+      ]),
+      makeMixedPassage('reading-06','device-driver',7,'القطعة السابعة','Device Driver','سابعاً / برنامج تشغيل الجهاز',[
+        ['What does the passage talk about?','Device driver work'],['What does the word (current) mean?','The recent'],['Device driver is?','Piece of software',['Piece of software','printer','modem']],['The main function of device driver?','Connect hardware to computer',['Connect hardware to computer','connecting to internet']],
+      ]),
+      makeMixedPassage('reading-06','housework',8,'القطعة الثامنة','Daily Housework','ثامناً / الأعمال المنزلية',[
+        ['How is the person?','busy.',['busy.','happy','sad','angry']],['An example of housework?','washing floor',['washing floor','studying for the children','going shopping','sit with her family.']],
+      ]),
+      makeMixedPassage('reading-06','resort',9,'القطعة التاسعة','All-Inclusive Resort','تاسعاً / المنتجع الشامل',[
+        ['What does an all-inclusive resort mean?','It covers food lodging and activities.'],['Which of the following may cost more?','equipment rental'],
+      ]),
+    ]
+  },
 ];
 
 export const manualQuizModelsById = new Map(manualQuizModels.map((model) => [model.id, model]));
