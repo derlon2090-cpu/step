@@ -177,7 +177,7 @@ function quizView(model, passage) {
             <span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span>
           </button>`).join('')}
         </div>
-        ${selectedId ? answeredCorrectly ? '<p class="answer-note correct-note">صحيح، إجابتك ممتازة.</p>' : `<div class="answer-note wrong-note"><strong>غير صحيح. الحل الصحيح: ${escapeHtml(question.correctAnswer)}</strong><p>${escapeHtml(question.explanation)}</p></div>` : ''}
+        ${selectedId ? answeredCorrectly ? '<p class="answer-note correct-note">صحيح، إجابتك ممتازة.</p>' : `<div class="answer-note wrong-note"><strong>${question.correctAnswer ? `غير صحيح. الحل الصحيح: ${escapeHtml(question.correctAnswer)}` : 'لم تُحدَّد الإجابة الصحيحة في المصدر.'}</strong><p>${escapeHtml(question.explanation)}</p></div>` : ''}
       </article>
     </section>
     <footer class="quiz-actions">
@@ -222,7 +222,7 @@ function resultView(model, passage) {
               <span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span>
             </div>`).join('')}
           </div>
-          ${wasCorrect ? '<p class="answer-note correct-note">إجابتك صحيحة.</p>' : `<div class="answer-note wrong-note"><strong>الحل الصحيح: ${escapeHtml(question.correctAnswer)}</strong><p>${escapeHtml(question.explanation)}</p></div>`}
+          ${wasCorrect ? '<p class="answer-note correct-note">إجابتك صحيحة.</p>' : `<div class="answer-note wrong-note"><strong>${question.correctAnswer ? `الحل الصحيح: ${escapeHtml(question.correctAnswer)}` : 'لم تُحدَّد الإجابة الصحيحة في المصدر.'}</strong><p>${escapeHtml(question.explanation)}</p></div>`}
         </article>`;
       }).join('')}
     </section>

@@ -12,12 +12,16 @@ for (const model of manualQuizModels) {
 
     for (const [index, question] of (passage.questions ?? []).entries()) {
       if (question.number !== index + 1) issues.push(`${model.id}/${passage.id} question numbering must start at 1 and stay sequential; expected ${index + 1}, found ${question.number}`);
-      if (!question.id || !question.question || !question.correctAnswer) issues.push(`${question.id} is missing question text or answer`);
+      if (!question.id || !question.question) issues.push(`${question.id} is missing question text`);
       if (!question.explanation) issues.push(`${question.id} is missing a simple explanation`);
       if (!Array.isArray(question.options) || question.options.length < 4) issues.push(`${question.id} has fewer than 4 quiz options`);
       const correctOptions = question.options.filter((option) => option.isCorrect);
-      if (correctOptions.length !== 1) issues.push(`${question.id} must have exactly one correct option`);
-      if (correctOptions[0]?.text !== question.correctAnswer) issues.push(`${question.id} correct option does not match correctAnswer`);
+      if (question.correctAnswer === null) {
+        if (correctOptions.length !== 0) issues.push(`${question.id} unresolved question must not mark a correct option`);
+      } else {
+        if (correctOptions.length !== 1) issues.push(`${question.id} must have exactly one correct option`);
+        if (correctOptions[0]?.text !== question.correctAnswer) issues.push(`${question.id} correct option does not match correctAnswer`);
+      }
       if (new Set(question.options.map((option) => option.text)).size !== question.options.length) issues.push(`${question.id} has duplicate option text`);
     }
   }
@@ -26,12 +30,12 @@ for (const model of manualQuizModels) {
 const reading01 = manualQuizModels.find((model) => model.id === 'reading-01');
 const reading01QuestionCount = reading01?.passages.flatMap((passage) => passage.questions).length ?? 0;
 
-if (reading01?.passages.length !== 2) issues.push('reading-01 must currently expose exactly 2 internal passages');
-if (reading01QuestionCount !== 15) issues.push(`reading-01 must currently expose 15 quiz questions, found ${reading01QuestionCount}`);
+if (reading01?.passages.length !== 4) issues.push('reading-01 must currently expose exactly 4 internal passages');
+if (reading01QuestionCount !== 43) issues.push(`reading-01 must currently expose 43 quiz questions, found ${reading01QuestionCount}`);
 
 if (issues.length) {
   console.error(issues.join('\n'));
   process.exit(1);
 }
 
-console.log('Manual quiz validation passed: reading-01 has 2 internal passages and 15 scored questions.');
+console.log('Manual quiz validation passed: reading-01 has 4 internal passages and 43 questions (one unresolved answer retained).');
