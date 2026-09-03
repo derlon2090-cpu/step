@@ -1,4 +1,4 @@
-const makeQuestion = (modelId, passageId, number, question, answer, decoys, explanation) => ({
+const makeQuestion = (modelId, passageId, number, question, answer, decoys, explanation = 'الإجابة موثقة ضمن بيانات القطعة.') => ({
   id: `${modelId}-${passageId}-q${String(number).padStart(2, '0')}`,
   number,
   question,
@@ -201,6 +201,44 @@ export const manualQuizModels = [
           makeQuestion('reading-01', 'ants', 15, 'How do ants find food?', 'By smell.', ['By sound.', 'By color.', 'By touch.'], 'يعثر النمل على الطعام عن طريق الرائحة.'),
           makeQuestion('reading-01', 'ants', 16, 'What does the word “nocturnal” mean?', 'Active at night.', ['Active in the morning.', 'Living alone.', 'Working underground.'], 'nocturnal تعني نشط ليلًا.'),
           makeQuestion('reading-01', 'ants', 17, 'How do ants recognize each other?', 'By smell.', ['By color.', 'By sound.', 'By size.'], 'يتعرف النمل على بعضه عن طريق الرائحة.'),
+        ],
+      },
+      {
+        id: 'madain-saleh', order: 5, title: 'القطعة الخامسة', englishTitle: 'Madain Saleh', externalTitle: 'خامساً / مدائن صالح',
+        questions: [
+          makeQuestion('reading-01', 'madain-saleh', 1, 'What does the word “site” mean?', 'Place.', ['Time.', 'People.', 'Story.'], 'site تعني مكان.'),
+          makeQuestion('reading-01', 'madain-saleh', 2, 'What does the pronoun “its” refer to?', 'Madain Saleh.', ['Petra.', 'Madinah.', 'Prophet Saleh.'], 'الضمير its يعود إلى مدائن صالح.'),
+          makeQuestion('reading-01', 'madain-saleh', 3, 'Why is Madain Saleh important?', 'It is a great historical and cultural site.', ['It is a modern city.', 'It is the capital of Europe.', 'It is a shopping center.'], 'أهميتها تاريخية وثقافية.'),
+          makeQuestion('reading-01', 'madain-saleh', 4, 'How did the author describe Petra?', 'As the capital of the Nabataean state.', ['As a small village.', 'As a modern capital.', 'As a religious school.'], 'وصف البتراء بأنها عاصمة الدولة النبطية.'),
+          makeQuestion('reading-01', 'madain-saleh', 5, 'What did the Nabataeans NOT do?', 'Decorations in Madinah.', ['Build monuments.', 'Trade goods.', 'Carve stone.'], 'هذه هي الإجابة المذكورة للسؤال المنفي.'),
+          makeQuestion('reading-01', 'madain-saleh', 6, 'Why did Prophet Saleh leave his people?', 'To prevent the believers from being destroyed.', ['To build a market.', 'To visit Petra.', 'To find a new language.'], 'غادر لمنع تدمير المؤمنين.'),
+        ],
+      },
+      {
+        id: 'family-responsibility', order: 6, title: 'القطعة السادسة', englishTitle: 'Family Responsibility', externalTitle: 'سادساً / مسؤولية الأسرة',
+        questions: [
+          makeQuestion('reading-01', 'family-responsibility', 1, 'Why did the father buy his son a car?', 'As a reward because he passed all his exams.', ['Because he needed a taxi.', 'As a birthday gift only.', 'Because the car was cheap.'], 'اشترى الأب السيارة مكافأة لنجاح ابنه في جميع الاختبارات.'),
+          makeQuestion('reading-01', 'family-responsibility', 2, 'What does the word “smashed” mean?', 'Destroyed.', ['Repaired.', 'Collected.', 'Hidden.'], 'smashed تعني حُطّم أو دُمّر.'),
+          makeQuestion('reading-01', 'family-responsibility', 3, 'What does the word “shatter” mean?', 'Destroy.', ['Build.', 'Protect.', 'Carry.'], 'shatter تعني يدمّر أو يحطّم.'),
+          makeQuestion('reading-01', 'family-responsibility', 4, 'What did Khaled understand from the gift?', 'That the car was for family responsibilities.', ['That the car was for racing.', 'That the car was for travel abroad.', 'That the car was for display.'], 'فهم خالد أن السيارة لمسؤوليات الأسرة.'),
+          makeQuestion('reading-01', 'family-responsibility', 5, 'What happened to Khaled’s plan?', 'It was destroyed.', ['It succeeded.', 'It changed location.', 'It was postponed.'], 'تحطمت خطة خالد.'),
+          makeQuestion('reading-01', 'family-responsibility', 6, 'What is the best title for the passage?', 'The Shattered Dream.', ['The New School.', 'A Family Holiday.', 'The Fast Car.'], 'العنوان الأنسب هو الحلم المحطم.'),
+        ],
+      },
+      {
+        id: 'memories', order: 7, title: 'القطعة السابعة', englishTitle: 'Memories', externalTitle: 'سابعاً / الذكريات',
+        questions: [makeQuestion('reading-01', 'memories', 1, 'What do you understand from the statement, “Memory is the power to gather roses in winter”?', 'Good memories help solve problems.', ['Winter is always warm.', 'Roses only grow in summer.', 'Memory is a type of flower.'], 'المعنى المقصود أن الذكريات الجيدة تساعد على مواجهة المشكلات.')],
+      },
+      {
+        id: 'the-award', order: 8, title: 'القطعة الثامنة', englishTitle: 'The Award', externalTitle: 'ثامناً / الجائزة',
+        questions: [makeQuestion('reading-01', 'the-award', 1, 'Who won the award?', 'A team of three students.', ['One teacher.', 'A family of four.', 'A single athlete.'], 'الفائز فريق مكوّن من ثلاثة طلاب.')],
+      },
+      {
+        id: 'shopping', order: 9, title: 'القطعة التاسعة', englishTitle: 'Shopping', externalTitle: 'تاسعاً / التسوق',
+        questions: [
+          makeQuestion('reading-01', 'shopping', 1, 'What does the passage talk about?', 'Shopping.', ['Travel.', 'Sports.', 'Education.']),
+          makeQuestion('reading-01', 'shopping', 2, 'What do the words “blue, red, and green” refer to?', 'Colors.', ['Sizes.', 'Prices.', 'Stores.']),
+          makeQuestion('reading-01', 'shopping', 3, 'What do the words “small” and “medium” refer to?', 'Sizes.', ['Colors.', 'Materials.', 'Locations.']),
         ],
       },
     ],

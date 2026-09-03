@@ -30,12 +30,12 @@ for (const model of manualQuizModels) {
 const reading01 = manualQuizModels.find((model) => model.id === 'reading-01');
 const reading01QuestionCount = reading01?.passages.flatMap((passage) => passage.questions).length ?? 0;
 
-if (reading01?.passages.length !== 4) issues.push('reading-01 must currently expose exactly 4 internal passages');
-if (reading01QuestionCount !== 43) issues.push(`reading-01 must currently expose 43 quiz questions, found ${reading01QuestionCount}`);
+if (reading01?.passages.length !== 9) issues.push('reading-01 must currently expose exactly 9 internal passages');
+if (reading01QuestionCount !== 60) issues.push(`reading-01 must currently expose 60 quiz questions, found ${reading01QuestionCount}`);
 
 if (issues.length) {
   console.error(issues.join('\n'));
   process.exit(1);
 }
 
-console.log('Manual quiz validation passed: reading-01 has 4 internal passages and 43 questions (one unresolved answer retained).');
+console.log('Manual quiz validation passed: reading-01 has 9 internal passages and 60 questions (one unresolved answer retained).');
