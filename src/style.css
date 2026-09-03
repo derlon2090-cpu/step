@@ -10,6 +10,13 @@
 .quiz-shell{background:linear-gradient(180deg,#f8fbff 0%,#f2f7fd 100%);min-height:100vh}
 .quiz-top{box-shadow:0 6px 22px rgba(39,78,125,.06)}
 .quiz-question{background:transparent;border:0;border-radius:0;padding:22px 4px}
+.active-question{background:#fff;border:1px solid #e1e9f4;border-radius:14px;padding:24px 26px;box-shadow:0 8px 28px rgba(39,78,125,.07)}
+.question-heading{display:flex;align-items:center;gap:6px;margin-bottom:18px;color:#17345f;font-weight:800;font-size:14px}
+.question-heading small{color:#6e7d96;font-weight:600}
+.question-heading::before{content:'●';color:#1266e9;font-size:9px;margin-inline-end:3px}
+.active-question .question-tools{padding-bottom:12px;border-bottom:1px solid #edf2f8}
+.active-question h2{font-size:20px}
+.active-question h2 span{background:transparent;color:#1266e9;box-shadow:none;min-width:auto;padding:0;font-size:18px}
 .quiz-question h2{font-size:19px;line-height:1.9;margin-bottom:18px}
 .quiz-options{gap:12px}
 .quiz-option{padding:15px 16px;border-radius:10px;box-shadow:0 3px 12px rgba(39,78,125,.04);transition:border-color .15s,background .15s,transform .15s}
@@ -21,3 +28,4 @@
 .quiz-actions span{flex:1;text-align:center}
 .secondary-action{background:#fff!important}
 @media(max-width:900px){.quiz-actions{flex-wrap:wrap}.quiz-navigation{width:100%;justify-content:space-between;order:-1}.quiz-navigation button{flex:1}}
+@media(max-width:600px){.active-question{padding:18px 14px}.active-question h2{font-size:17px}}
