@@ -21,6 +21,7 @@ const modelNumber = (model) => String(model.order).padStart(2, '0');
 const saveProgress = () => localStorage.setItem(storageKey, JSON.stringify(progress));
 const quizKey = (modelId, passageId) => `${modelId}:${passageId}`;
 const quizProgress = (modelId, passageId) => progress[quizKey(modelId, passageId)] ?? { answers: {}, status: 'not-started' };
+let audioContext;
 
 const arabicModelNames = [
   'الأول', 'الثاني', 'الثالث', 'الرابع', 'الخامس', 'السادس', 'السابع', 'الثامن', 'التاسع', 'العاشر',
@@ -43,6 +44,30 @@ function setQuizProgress(modelId, passageId, update) {
   const key = quizKey(modelId, passageId);
   progress[key] = { ...quizProgress(modelId, passageId), ...update };
   saveProgress();
+}
+
+function playTone(type) {
+  const AudioContext = window.AudioContext || window.webkitAudioContext;
+  if (!AudioContext) return;
+  audioContext ??= new AudioContext();
+  if (audioContext.state === 'suspended') audioContext.resume();
+  const tones = {
+    correct: [660, 880],
+    wrong: [240, 180],
+    next: [520],
+  }[type] ?? [440];
+  tones.forEach((frequency, index) => {
+    const oscillator = audioContext.createOscillator();
+    const gain = audioContext.createGain();
+    oscillator.type = type === 'wrong' ? 'triangle' : 'sine';
+    oscillator.frequency.value = frequency;
+    gain.gain.setValueAtTime(0.0001, audioContext.currentTime + index * 0.08);
+    gain.gain.exponentialRampToValueAtTime(0.08, audioContext.currentTime + index * 0.08 + 0.01);
+    gain.gain.exponentialRampToValueAtTime(0.0001, audioContext.currentTime + index * 0.08 + 0.12);
+    oscillator.connect(gain).connect(audioContext.destination);
+    oscillator.start(audioContext.currentTime + index * 0.08);
+    oscillator.stop(audioContext.currentTime + index * 0.08 + 0.13);
+  });
 }
 
 function visibleModels() {
@@ -144,7 +169,7 @@ function quizView(model, passage) {
         </div>
         <h2><span>${question.number}</span><b>${renderQuestionText(question)}</b></h2>
         <div class="quiz-options">
-          ${displayedOptions(question).map((option) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && option.isCorrect ? 'correct' : ''} ${selectedId === option.id && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}">
+          ${displayedOptions(question).map((option) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && option.isCorrect ? 'correct' : ''} ${selectedId === option.id && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}" ${selectedId ? 'disabled' : ''}>
             ${escapeHtml(option.text)}
           </button>`).join('')}
         </div>
@@ -263,8 +288,12 @@ app.addEventListener('click', (event) => {
   if (optionButton) {
     const item = quizProgress(state.selectedModelId, state.selectedPassageId);
     const passage = currentPassage();
+    if (item.answers?.[optionButton.dataset.question]) return;
+    const question = passage.questions.find((candidate) => candidate.id === optionButton.dataset.question);
+    const option = question?.options.find((candidate) => candidate.id === optionButton.dataset.option);
     const answers = { ...(item.answers ?? {}), [optionButton.dataset.question]: optionButton.dataset.option };
     setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, status: 'in-progress', currentQuestionIndex: state.questionIndex });
+    playTone(option?.isCorrect ? 'correct' : 'wrong');
     render();
     return;
   }
@@ -278,6 +307,7 @@ app.addEventListener('click', (event) => {
       setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'completed', currentQuestionIndex: 0 });
       state.view = 'result';
     } else {
+      playTone('next');
       const nextIndex = state.questionIndex + 1;
       setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'in-progress', currentQuestionIndex: nextIndex });
       state.questionIndex = nextIndex;
