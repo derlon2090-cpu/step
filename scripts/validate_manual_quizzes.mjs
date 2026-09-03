@@ -45,11 +45,11 @@ if (reading04?.passages.length !== 11 || reading04.passages.flatMap((passage) =>
 if (reading05?.passages.length !== 12 || reading05.passages.flatMap((passage) => passage.questions).length !== 81) issues.push('reading-05 must expose 12 passages and 81 questions');
 if (reading06?.passages.length !== 9 || reading06.passages.flatMap((passage) => passage.questions).length !== 46) issues.push('reading-06 must expose 9 passages and 46 questions');
 if (reading07?.passages.length !== 10 || reading07.passages.flatMap((passage) => passage.questions).length !== 65) issues.push('reading-07 must expose 10 passages and 65 questions');
-if (reading08?.passages.length !== 12 || reading08.passages.flatMap((passage) => passage.questions).length !== 61) issues.push('reading-08 must expose 12 passages and 61 questions');
+if (reading08?.passages.length !== 12 || reading08.passages.flatMap((passage) => passage.questions).length !== 62) issues.push('reading-08 must expose 12 passages and 62 questions');
 
 if (issues.length) {
   console.error(issues.join('\n'));
   process.exit(1);
 }
 
-console.log('Manual quiz validation passed: models 01–08 expose 79 passages and 508 questions; unresolved answers remain unscored.');
+console.log('Manual quiz validation passed: models 01–08 expose 79 passages and 509 questions; unresolved answers remain unscored.');
