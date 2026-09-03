@@ -470,6 +470,48 @@ In 1965, the desire to construct the causeway began to take form officially when
       ]),
     ]
   },
+  {
+    id:'reading-08',order:8,title:'النموذج الثامن',subtitle:'اختر قطعة داخل النموذج ثم ابدأ الاختبار',passages:[
+      makeMixedPassage('reading-08','currencies',1,'القطعة الأولى','Currencies','أولاً / العملات',[
+        ['What is the wrong answer about deriving a currency?','about names of king'],['What is the origin of the riyal?','Spanish- royal.'],['What are the similarities between the ringgit and the Mexican currency?','They are all made of the same material.'],['What is the origin of the word dollar?','Germany'],['What is the meaning of derivation?','Originated'],['What is the most expensive currency?','The Kuwaiti Dinar'],['Peso is taken from the weight. What does this mean?','Peso is taken from the weight.'],['What is the derivation of the peso?','Light weight'],['What does the pronoun “it” refer to?','Peso'],['The dinar and rupee have which characteristic?','material'],['Which currency is referred to again?','Dinar Kuwaiti'],
+      ]),
+      makeMixedPassage('reading-08','dolphins',2,'القطعة الثانية','Dolphins City','ثانياً / مدينة الدلافين',[
+        ['Which of the following applies to dolphins?','They are smart',['Avoid eating animals','They have many colors','They are smart']],['Who is the welcome message directed to?','Visitors watching dolphins',['For people who came to see the fish','People who attended the museum','Visitors watching dolphins']],['What are they explaining in this passage?','Dolphins City'],
+      ]),
+      { ...makeMixedPassage('reading-08','edison',3,'القطعة الثالثة','Thomas Edison','ثالثاً / توماس إديسون',[
+        ['What is the best title?','Edison the great inventor'],['What made him famous?','invention of the light bulb',['The phonograph','invention of the light bulb']],['What does “it” refer to?',null,['Deafness']],['What invention is mentioned in the section?','electric light and power'],['Why was he fired from work?','started fire.'],['How did he open a shop?','Because he sold the Stick for 40,000'],['He considered his deafness as a/an:','Advantage',['Positive','Feature advantage']],['What does the word “bless” mean?','Happy = glad = joyful'],
+      ]), passageText:`Thomas Edison (February 11, 1847 – October 18, 1931) was an American inventor and businessman. He developed many devices that greatly influenced life around the world, including the phonograph, the motion picture camera, and a long-lasting, practical electric light bulb. He was one of the first inventors to apply the principles of mass production and large-scale teamwork to the process of invention, and because of that, he is often credited with the creation of the first industrial research laboratory.
+
+Edison was a prolific inventor, holding 1,093 US patents, as well as many patents in the United Kingdom, France, and Germany. More significant than the number of Edison's patents, are the impacts of his inventions, because Edison not only invented things, his inventions established major new industries worldwide, notably, electric light and power utilities, sound recording and motion pictures. Edison's inventions contributed to mass communication and, in particular, telecommunications.` },
+      makeMixedPassage('reading-08','salt-legend',4,'القطعة الرابعة','The Salt Legend','رابعاً / أسطورة الملح',[
+        ['What is the kind of the passage?','Epic',['Epic','Tale','Fictions','Mystery']],['What is the type of story?','Epic',['Factitious','Mystery','Epic']],['What kind of story is in section 2?','Real',['Real','romantic','sport']],['What does the word “legend” mean?','Mythical story or tale'],['What does the word “legend” mean?','tale',['mine','epic','tale','salt']],['Where did they find the queen’s ring?','In Salt mine',['In Salt mine','A heap of salt','Sand pile']],['What did the queen ask the servants to?','find some water'],['Miners began to carve sculptures from rock salt because....?','Safer than wood',['Easy to burn','Safer than wood','Chamber destroy','less dangerous']],['Why did the queen ask the servants to dig the well?','Find a source of water',['Gold mine','dig a mine','Bring her some water','Find a source of water']],['What happened to them while they were in the mine?',null,['Burned out','chamber has burned']],['What does the pronoun “it” refer to?',null,[]],
+      ]),
+      makeMixedPassage('reading-08','workshop',5,'القطعة الخامسة','Khaled’s Workshop','خامساً / ورشة العمل',[
+        ['What does the word pleased mean?','Happy'],['Someone decided to come back and take the worksheet again why?','he needs to focus on the worksheet more.'],['How does he use it to control?','in different areas of his life.'],['What does the word effortless mean?','Without work'],['How long did it take?','More than 4 hours'],['Why did he take longer time?','Because he forgot his bag'],['What did you remember when he was driving?','He forgot his bag.'],['What does he do to his wife?','he gives her jewelry.'],['What is the meeting about?','Worksheet.'],['What is the purpose of this workshop?','Discipline',['Lesson plan','Energy','Discipline']],['Why is he so excited?','gift of his wife beautiful',['He has a beautiful son','gift of his wife beautiful','share the things that he learns with others']],['When was the meeting?','On weekend',['On weekend','at the end of a weekend']],['At the end of the meeting, he thanked?','everybody'],['Who did he thank after finishing the workshop?','All present people.'],['What makes him need more time for what he learned?','He forgot his bag.'],
+      ]),
+      makeMixedPassage('reading-08','car-specifications',6,'القطعة السادسة','Car Specifications','سادساً / مواصفات السيارة',[
+        ['Whose specifications are these?','Car'],
+      ]),
+      makeMixedPassage('reading-08','social-media',7,'القطعة السابعة','Social Media Survey','سابعاً / وسائل التواصل الاجتماعي',[
+        ['Which program is used least by women?','LinkedIn'],['What is the most popular program?','Instagram'],['How long do most men use social media?','1-3 hours'],['How long do most people use social media?','4-6 hours'],
+      ]),
+      makeMixedPassage('reading-08','dentist-card',8,'القطعة الثامنة','Dentist Information Card','ثامناً / بطاقة معلومات طبيب الأسنان',[
+        ['Which answer has the information in the required order?','Almutlg, Isa — 32 — France — dentist.'],
+      ]),
+      makeMixedPassage('reading-08','swimming-sign',9,'القطعة التاسعة','Swimming Sign','تاسعاً / لوحة السباحة',[
+        ['What does “No Non Swimmers Beyond This Point” mean?','stop if you cannot swim',['It is not allowed to children','stop if you cannot swim','it is not allowed to go further']],
+      ]),
+      makeMixedPassage('reading-08','tom-roger',10,'القطعة العاشرة','Tom and Roger','عاشراً / توم وروجر',[
+        ['What did Tom ask Roger?','Can I visit you at weekend?'],
+      ]),
+      makeMixedPassage('reading-08','omar-ali',11,'القطعة الحادية عشرة','Omar and Ali','الحادي عشر / عمر وعلي',[
+        ['What does Omar want from Ali?','To reply'],['When is the dinner?',null,[]],
+      ]),
+      makeMixedPassage('reading-08','fish',12,'القطعة الثانية عشرة','Fish','الثاني عشر / الأسماك',[
+        ['What is the main idea of this passage?','the types of fish',['the types of fish','the colors of fish','fish are fascinating animals','how fish live and play in water']],['The word “resemble” in paragraph 1 is closest in meaning to:','look like',['differ from','look like','live in','move']],['What does the word in paragraph 2 refer to?','oxygen',['fish','water','a river','oxygen']],['According to paragraph 3, what are scientists expected to find more of?',null,['fish','animals','kinds of animals','species of animals']],
+      ]),
+    ]
+  },
 ];
 
 export const manualQuizModelsById = new Map(manualQuizModels.map((model) => [model.id, model]));
