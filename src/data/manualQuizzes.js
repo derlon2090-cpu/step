@@ -24,6 +24,9 @@ const makeUnresolvedQuestion = (modelId, passageId, number, question, options, e
   })),
 });
 
+const buildQuestions = (modelId, passageId, entries) => entries.map(([question, answer], index) => makeQuestion(modelId, passageId, index + 1, question, answer, ['Not mentioned in the passage.', 'Another possibility.', 'None of these.']));
+const makePassage = (modelId, id, order, title, englishTitle, externalTitle, entries) => ({ id, order, title, englishTitle, externalTitle, questions: buildQuestions(modelId, id, entries) });
+
 export const wordGlossary = {
   according: 'وفقًا لـ',
   adapt: 'يتكيف',
@@ -241,6 +244,32 @@ export const manualQuizModels = [
           makeQuestion('reading-01', 'shopping', 3, 'What do the words “small” and “medium” refer to?', 'Sizes.', ['Colors.', 'Materials.', 'Locations.']),
         ],
       },
+    ],
+  },
+  {
+    id: 'reading-02', order: 2, title: 'النموذج الثاني', subtitle: 'اختر قطعة داخل النموذج ثم ابدأ الاختبار',
+    passages: [
+      makePassage('reading-02', 'stars', 1, 'القطعة الأولى', 'Stars', 'أولاً / علم النجوم', [
+        ['How large is the biggest star?', 'It is more than 17,000 times bigger than the Sun.'], ['Which color is NOT mentioned in the passage?', 'Green.'], ['What is the best title for the passage?', 'Classifying Stars According to Their Colors and Sizes.'], ['What does the pronoun “it” refer to?', 'The camera.'], ['Why are scientists photographing stars?', 'To study them.'], ['How long does it take to take a photo at night?', '30 seconds.'], ['Which characteristic did the author NOT use when comparing stars?', 'Shape.'], ['What does the word “sufficient” mean?', 'Enough.'], ['What does the word “brighter” mean?', 'More shiny.'], ['What is the nearest meaning of the word “unlikely”?', 'Improbable.'],
+      ]),
+      makePassage('reading-02', 'bees', 2, 'القطعة الثانية', 'Bees', 'ثانياً / النحل', [
+        ['What does the pronoun “These amazing creatures” refer to?', 'Insects.'], ['What is the benefit of bees for other creatures?', 'They are necessary to produce food.'], ['In which paragraph does the passage discuss how scientists trained the bees?', 'Paragraph 3.'], ['What is the main idea of the paragraph?', 'Understanding similar feelings in humans and bees may help both.'], ['What does the word “optimist” mean?', 'They are not afraid.'],
+      ]),
+      makePassage('reading-02', 'fireman', 3, 'القطعة الثالثة', 'Fireman', 'ثالثاً / رجل الإطفاء Mike', [
+        ['What did people discover about Mike?', 'He cared for others.'], ['Why was Mike tired or exhausted?', 'Because he did so much to fight the fire.'], ['What problem did Mike face when he went to help someone in need?', 'His arms were strained and painful.'], ['What did they do to help stop the fire?', 'They created a firebreak.'], ['What was Mike’s only thought as he tried to put out the fire?', 'To stop the blazing fire.'], ['What does the pronoun in “his courage” refer to?', 'A man.'], ['What does “flaming monster” refer to?', 'Fire.'], ['What does the word “greedy” mean?', 'More than.'], ['What does the pronoun “it” refer to?', 'Fire.'], ['What is Ben’s job?', 'He is a firefighter. He is the best one who can take care of his mates.'],
+      ]),
+      makePassage('reading-02', 'panda', 4, 'القطعة الرابعة', 'Panda', 'رابعاً / الباندا', [
+        ['Why did the Chinese teach the pandas the language?', 'So that they would feel at home.'], ['Who taught them the language?', 'Scientists, professors, environmentalists, and teachers.'], ['What does the word “Tutor” mean?', 'Teacher.'], ['Where do they live?', 'In Georgia.'], ['Where did the panda live before being transported to China?', 'Atlanta, Georgia.'],
+      ]),
+      makePassage('reading-02', 'strange-jelly', 5, 'القطعة الخامسة', 'Strange Jelly / Egg Oil', 'خامساً / الكائن الغريب', [
+        ['Which of the following is true?', 'Scientists do not know the species of animal that produced the strange gel.'], ['Why is the liquid material orange?', 'It contains oil.'], ['What does the pronoun “it” refer to?', 'The unknown substance.'], ['What does “far-fetched” mean?', 'Difficult to believe.'], ['Where did they find the strange substance?', 'Between Kotzebue and Point Hope.'], ['Where was this substance first found?', 'In Antarctica.'], ['What is the nearest meaning of the word “classify”?', 'Classify into groups.'], ['What is the nearest meaning of the word “concluded”?', 'Consummated / Completed.'],
+      ]),
+      makePassage('reading-02', 'leakage-water', 6, 'القطعة السادسة', 'Leakage Water', 'سادساً / تسرب المياه', [
+        ['What type of text is the passage?', 'A reply to a complaint.'], ['According to Paragraph 2, what caused the problems with the wiring?', 'Leaking water.'], ['According to Paragraph 3, what caused the floor problems?', 'The employees working in that area.'], ['According to Paragraph 3, which of the following is true?', 'Staff need to be instructed about how to treat the floor.'], ['According to Paragraph 4, when will the damaged floor surface begin to be replaced?', 'When the customer notifies the contractor.'], ['What is the closest meaning of the word “inconvenience”?', 'Trouble.'],
+      ]),
+      makePassage('reading-02', 'volcanic-eruption', 7, 'القطعة السابعة', 'Volcanic Eruption', 'سابعاً / ثوران البركان', [
+        ['According to Paragraph 1, which of the following is TRUE?', 'By measuring seismic activity, it is possible to predict a volcanic eruption.'], ['According to Paragraph 2, why was the eruption in 79 AD so severe?', 'There was a long period without seismic activity, and then it started again.'], ['What can we understand from the pronoun “we”?', 'The writer believes that his feelings will be shared by many.'], ['What do we understand about Pliny the Younger from the paragraph?', 'He gave details about the eruption and the effect it had on the population.'], ['What does the word “retrospect” mean?', 'Looking back.'],
+      ]),
     ],
   },
 ];
