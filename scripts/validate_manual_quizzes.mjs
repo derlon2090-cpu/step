@@ -10,7 +10,8 @@ for (const model of manualQuizModels) {
     if (!passage.id || !passage.title || !passage.englishTitle) issues.push(`${model.id}/${passage.id} is missing passage labels`);
     if (!Array.isArray(passage.questions) || !passage.questions.length) issues.push(`${model.id}/${passage.id} has no questions`);
 
-    for (const question of passage.questions ?? []) {
+    for (const [index, question] of (passage.questions ?? []).entries()) {
+      if (question.number !== index + 1) issues.push(`${model.id}/${passage.id} question numbering must start at 1 and stay sequential; expected ${index + 1}, found ${question.number}`);
       if (!question.id || !question.question || !question.correctAnswer) issues.push(`${question.id} is missing question text or answer`);
       if (!question.explanation) issues.push(`${question.id} is missing a simple explanation`);
       if (!Array.isArray(question.options) || question.options.length < 4) issues.push(`${question.id} has fewer than 4 quiz options`);
