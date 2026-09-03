@@ -11,6 +11,13 @@
 @media(max-width:900px){.app-shell{padding:0 14px 35px}.raseen-header{margin:0 -14px;padding:0 14px;height:68px}.raseen-header nav{display:none}.header-actions{margin-inline-start:auto}.header-actions .outline-action{display:none}.raseen-hero{grid-template-columns:1fr;padding:28px 22px}.hero-copy h1{font-size:31px}.hero-art{height:170px}.benefits-strip{grid-template-columns:repeat(2,1fr);gap:13px}.benefits-strip span{border:0}.skills-grid{grid-template-columns:repeat(2,1fr)}.raseen-footer{flex-direction:column;gap:8px}}
 @media(max-width:560px){.skills-grid{grid-template-columns:1fr}.hero-actions{flex-direction:column}.hero-actions button{width:100%}.reading-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
+/* Shared Raseen chrome for every route, including model, quiz and solutions views. */
+.brand-button{border:0;background:transparent;padding:0;cursor:pointer;font:inherit}
+.reader-shell,.solutions-shell,.quiz-shell{background:var(--surface)}
+.reader-shell .raseen-header,.solutions-shell .raseen-header,.quiz-shell .raseen-header{margin:-34px -32px 26px;padding-inline:32px}
+.solutions-shell .raseen-header,.quiz-shell .raseen-header{margin-inline:-24px;padding-inline:24px}
+@media(max-width:900px){.reader-shell .raseen-header,.solutions-shell .raseen-header,.quiz-shell .raseen-header{margin-inline:-14px;padding-inline:14px}}
+
 /* Focused quiz layout: open question surface with clear navigation order. */
 .quiz-shell{background:linear-gradient(180deg,#f8fbff 0%,#f2f7fd 100%);min-height:100vh}
 .quiz-top{box-shadow:0 6px 22px rgba(39,78,125,.06)}

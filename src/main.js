@@ -127,11 +127,16 @@ function renderQuestionText(question) {
   }).join('');
 }
 
+function raseenHeader(active = 'النماذج') {
+  const nav = ['الرئيسية', 'أقسام STEP', 'النماذج', 'المدونة', 'من نحن', 'تواصل معنا'];
+  return `<header class="raseen-header"><button class="brand-mark brand-button" data-library aria-label="العودة للرئيسية"><span>رصين</span><i aria-hidden="true">⌁</i></button><nav>${nav.map((item) => `<a class="${item === active ? 'active' : ''}">${item}</a>`).join('')}</nav><div class="header-actions"><button class="outline-action" data-library>الرئيسية</button><button class="orange-action" data-library>ابدأ الآن</button></div></header>`;
+}
+
 function libraryView() {
   const filtered = visibleModels();
   const completed = Object.values(progress).filter((item) => item.status === 'completed').length;
   return `<main class="app-shell">
-    <header class="raseen-header"><div class="brand-mark"><span>رصين</span><i aria-hidden="true">⌁</i></div><nav><a class="active">الرئيسية</a><a>أقسام STEP</a><a>النماذج</a><a>المدونة</a><a>من نحن</a><a>تواصل معنا</a></nav><div class="header-actions"><button class="outline-action">تسجيل الدخول</button><button class="orange-action">ابدأ الآن</button></div></header>
+    ${raseenHeader('الرئيسية')}
     <section class="raseen-hero"><div class="hero-copy"><span class="hero-kicker">منصة متخصصة في STEP فقط</span><h1>خطتك الأذكى لاجتياز <em>STEP</em></h1><p>تدرّب على القراءة من مكان واحد، وتابع تقدمك وأخطاءك حتى تصل إلى هدفك بثقة واحترافية.</p><div class="hero-actions"><button class="orange-action" data-open-model="reading-01">ابدأ الآن ←</button><button class="outline-action">استكشف النماذج</button></div></div><div class="hero-art" aria-hidden="true"><div class="hero-orb"></div><div class="hero-card">تقدمك الحالي<strong>${Math.min(100, completed * 12)}%</strong><span>واصل التدريب بخطوة ثابتة</span></div></div></section>
     <section class="benefits-strip"><span>نماذج STEP منظمة</span><span>متابعة الأخطاء</span><span>حفظ التقدم</span><span>تدريب واختبار</span></section>
     <section class="skills-section"><div class="section-heading"><div><span>ابدأ من مهارتك</span><h2>طوّر مستواك في كل قسم</h2></div></div><div class="skills-grid"><article><b>◫</b><h3>القراءة</h3><p>افهم القطع وأجب بدقة وسرعة.</p><button data-open-model="reading-01">ابدأ الآن ←</button></article><article><b>⌘</b><h3>القواعد</h3><p>راجع القواعد الأساسية لاختبار STEP.</p><button>قريبًا</button></article><article><b>◉</b><h3>الاستماع</h3><p>درّب أذنك على التفاصيل والفكرة العامة.</p><button>قريبًا</button></article><article><b>✎</b><h3>الكتابة</h3><p>طوّر بناء الجملة والاختيار الصحيح.</p><button>قريبًا</button></article></div></section>
@@ -153,6 +158,7 @@ function libraryView() {
 
 function modelView(model) {
   return `<main class="reader-shell">
+    ${raseenHeader('النماذج')}
     <header class="reader-top">
       <button class="back-button" data-library>← النماذج</button>
       <div><p>النموذج ${modelNumber(model)}</p><h1>${escapeHtml(model.title)}</h1><small>${escapeHtml(model.subtitle)}</small></div>
@@ -174,6 +180,7 @@ function modelView(model) {
 
 function solutionsView(model, passage) {
   return `<main class="solutions-shell">
+    ${raseenHeader('النماذج')}
     <header class="solutions-top"><button class="back-button" data-model>← قطع النموذج</button><div><p>${escapeHtml(model.title)}</p><h1>حلول ${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</h1><small>${escapeHtml(passage.externalTitle)}</small></div><strong>${passage.questions.length} سؤالًا محلولًا</strong></header>
     <section class="solutions-list">${passage.questions.map((question) => `<article class="solution-card"><div class="solution-number">${question.number}</div><div class="solution-content"><h2>${escapeHtml(question.question)}</h2><div class="solution-answer"><span>الإجابة الصحيحة</span><strong>${question.correctAnswer ? escapeHtml(question.correctAnswer) : 'غير محددة في المصدر'}</strong></div><p class="solution-why"><b>لماذا؟</b> ${escapeHtml(question.explanation)}</p></div></article>`).join('')}</section>
   </main>`;
@@ -192,6 +199,7 @@ function quizView(model, passage) {
   const answeredCorrectly = selectedOption?.isCorrect;
   const isLastQuestion = index === passage.questions.length - 1;
   return `<main class="quiz-shell">
+    ${raseenHeader('النماذج')}
     <header class="quiz-top">
       <button class="back-button" data-model>← قطع النموذج</button>
       <div><p>${escapeHtml(model.title)}</p><h1>${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</h1><small>${escapeHtml(passage.externalTitle)}</small></div>
@@ -239,6 +247,7 @@ function resultView(model, passage) {
   const wrong = scoredQuestions.length - correct - unanswered;
   const percentage = scoredQuestions.length ? Math.round((correct / scoredQuestions.length) * 100) : 0;
   return `<main class="quiz-shell">
+    ${raseenHeader('النماذج')}
     <header class="quiz-top">
       <button class="back-button" data-model>← قطع النموذج</button>
       <div><p>نتيجة الاختبار</p><h1>${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</h1><small>${escapeHtml(model.title)}</small></div>
