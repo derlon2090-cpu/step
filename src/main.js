@@ -12,7 +12,7 @@ const readStored = (key, fallback) => {
 };
 
 let progress = readStored(storageKey, {});
-let state = { view: 'library', selectedModelId: null, selectedPassageId: null, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {} };
+let state = { view: 'library', selectedModelId: null, selectedPassageId: null, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -146,10 +146,12 @@ function modelView(model) {
 
 function quizView(model, passage) {
   const item = quizProgress(model.id, passage.id);
-  const answered = Object.keys(item.answers ?? {}).length;
+  const activeAnswers = state.activeAnswers ?? {};
+  const answered = Object.keys(activeAnswers).length;
+  const savedCount = Object.keys(item.answers ?? {}).length;
   const index = Math.min(state.questionIndex, passage.questions.length - 1);
   const question = passage.questions[index];
-  const selectedId = item.answers?.[question.id];
+  const selectedId = activeAnswers[question.id];
   const selectedOption = question.options.find((option) => option.id === selectedId);
   const answeredCorrectly = selectedOption?.isCorrect;
   const isLastQuestion = index === passage.questions.length - 1;
@@ -179,6 +181,7 @@ function quizView(model, passage) {
     </section>
     <footer class="quiz-actions">
       <button data-reset-quiz>إعادة الاختبار</button>
+      ${!state.restoredProgress && item.status === 'in-progress' && savedCount ? `<button data-restore-progress>استعادة التقدم (${savedCount})</button>` : ''}
       <span>${answered} إجابة محفوظة</span>
       <button class="primary-action" data-next-question ${selectedId ? '' : 'disabled'}>${isLastQuestion ? 'عرض النتيجة' : 'التالي'}</button>
     </footer>
@@ -263,9 +266,10 @@ app.addEventListener('click', (event) => {
 
   const passageButton = event.target.closest('[data-open-passage]');
   if (passageButton) {
-    state = { ...state, view: 'quiz', selectedPassageId: passageButton.dataset.openPassage, questionIndex: 0, translationQuestionId: null };
+    state = { ...state, view: 'quiz', selectedPassageId: passageButton.dataset.openPassage, questionIndex: 0, translationQuestionId: null, activeAnswers: {}, restoredProgress: false };
     const passage = currentPassage();
-    setQuizProgress(state.selectedModelId, passage.id, { ...quizProgress(state.selectedModelId, passage.id), status: 'in-progress' });
+    const saved = quizProgress(state.selectedModelId, passage.id);
+    setQuizProgress(state.selectedModelId, passage.id, { ...saved, status: saved.status === 'completed' ? 'completed' : 'in-progress' });
     render();
     return;
   }
@@ -289,10 +293,11 @@ app.addEventListener('click', (event) => {
   if (optionButton) {
     const item = quizProgress(state.selectedModelId, state.selectedPassageId);
     const passage = currentPassage();
-    if (item.answers?.[optionButton.dataset.question]) return;
+    if (state.activeAnswers?.[optionButton.dataset.question]) return;
     const question = passage.questions.find((candidate) => candidate.id === optionButton.dataset.question);
     const option = question?.options.find((candidate) => candidate.id === optionButton.dataset.option);
-    const answers = { ...(item.answers ?? {}), [optionButton.dataset.question]: optionButton.dataset.option };
+    const answers = { ...(state.activeAnswers ?? {}), [optionButton.dataset.question]: optionButton.dataset.option };
+    state.activeAnswers = answers;
     setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, status: 'in-progress', currentQuestionIndex: state.questionIndex });
     playTone(option?.isCorrect ? 'correct' : 'wrong');
     render();
@@ -303,7 +308,7 @@ app.addEventListener('click', (event) => {
     const item = quizProgress(state.selectedModelId, state.selectedPassageId);
     const passage = currentPassage();
     const question = passage.questions[state.questionIndex];
-    if (!item.answers?.[question.id]) return;
+    if (!state.activeAnswers?.[question.id]) return;
     if (state.questionIndex >= passage.questions.length - 1) {
       setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'completed', currentQuestionIndex: 0 });
       state.view = 'result';
@@ -323,6 +328,19 @@ app.addEventListener('click', (event) => {
     state.view = 'quiz';
     state.questionIndex = 0;
     state.translationQuestionId = null;
+    state.activeAnswers = {};
+    state.restoredProgress = false;
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-restore-progress]')) {
+    const item = quizProgress(state.selectedModelId, state.selectedPassageId);
+    const passage = currentPassage();
+    state.activeAnswers = { ...(item.answers ?? {}) };
+    state.questionIndex = Math.min(item.currentQuestionIndex ?? 0, passage.questions.length - 1);
+    state.translationQuestionId = null;
+    state.restoredProgress = true;
     render();
     return;
   }
@@ -334,7 +352,7 @@ app.addEventListener('click', (event) => {
   }
 
   if (event.target.closest('[data-library]')) {
-    state = { ...state, view: 'library', selectedModelId: null, selectedPassageId: null };
+    state = { ...state, view: 'library', selectedModelId: null, selectedPassageId: null, activeAnswers: {}, restoredProgress: false };
     render();
   }
 });
