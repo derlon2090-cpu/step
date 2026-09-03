@@ -29,3 +29,8 @@
 .secondary-action{background:#fff!important}
 @media(max-width:900px){.quiz-actions{flex-wrap:wrap}.quiz-navigation{width:100%;justify-content:space-between;order:-1}.quiz-navigation button{flex:1}}
 @media(max-width:600px){.active-question{padding:18px 14px}.active-question h2{font-size:17px}}
+.quiz-option{display:flex;align-items:center;gap:12px;text-align:start}
+.option-marker{display:inline-flex;align-items:center;justify-content:center;flex:0 0 28px;width:28px;height:28px;border:1px solid #c8d8ec;border-radius:50%;color:#1266e9;background:#f8fbff;font:700 12px "Nunito Sans",Arial,sans-serif;direction:ltr}
+.quiz-option.selected .option-marker{border-color:#1266e9;background:#1266e9;color:#fff}
+.quiz-option.correct .option-marker{border-color:#16a34a;background:#16a34a;color:#fff}
+.quiz-option.wrong .option-marker{border-color:#dc2626;background:#dc2626;color:#fff}
