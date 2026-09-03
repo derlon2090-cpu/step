@@ -46,27 +46,28 @@ function setQuizProgress(modelId, passageId, update) {
   saveProgress();
 }
 
-function playTone(type) {
+async function playTone(type) {
   const AudioContext = window.AudioContext || window.webkitAudioContext;
   if (!AudioContext) return;
   audioContext ??= new AudioContext();
-  if (audioContext.state === 'suspended') audioContext.resume();
-  const tones = {
-    correct: [660, 880],
-    wrong: [240, 180],
-    next: [520],
-  }[type] ?? [440];
-  tones.forEach((frequency, index) => {
+  if (audioContext.state === 'suspended') await audioContext.resume();
+  const sound = {
+    correct: { frequencies: [660, 880], wave: 'sine', volume: 0.08, step: 0.08, length: 0.13 },
+    wrong: { frequencies: [360, 220], wave: 'square', volume: 0.12, step: 0.12, length: 0.2 },
+    next: { frequencies: [520], wave: 'sine', volume: 0.045, step: 0.08, length: 0.1 },
+  }[type] ?? { frequencies: [440], wave: 'sine', volume: 0.06, step: 0.08, length: 0.12 };
+  sound.frequencies.forEach((frequency, index) => {
+    const start = audioContext.currentTime + index * sound.step;
     const oscillator = audioContext.createOscillator();
     const gain = audioContext.createGain();
-    oscillator.type = type === 'wrong' ? 'triangle' : 'sine';
+    oscillator.type = sound.wave;
     oscillator.frequency.value = frequency;
-    gain.gain.setValueAtTime(0.0001, audioContext.currentTime + index * 0.08);
-    gain.gain.exponentialRampToValueAtTime(0.08, audioContext.currentTime + index * 0.08 + 0.01);
-    gain.gain.exponentialRampToValueAtTime(0.0001, audioContext.currentTime + index * 0.08 + 0.12);
+    gain.gain.setValueAtTime(0.0001, start);
+    gain.gain.exponentialRampToValueAtTime(sound.volume, start + 0.01);
+    gain.gain.exponentialRampToValueAtTime(0.0001, start + sound.length);
     oscillator.connect(gain).connect(audioContext.destination);
-    oscillator.start(audioContext.currentTime + index * 0.08);
-    oscillator.stop(audioContext.currentTime + index * 0.08 + 0.13);
+    oscillator.start(start);
+    oscillator.stop(start + sound.length + 0.02);
   });
 }
 
