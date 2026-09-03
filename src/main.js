@@ -12,7 +12,7 @@ const readStored = (key, fallback) => {
 };
 
 let progress = readStored(storageKey, {});
-let state = { view: 'library', selectedModelId: null, selectedPassageId: null, query: '', translationQuestionId: null, translatedWords: {} };
+let state = { view: 'library', selectedModelId: null, selectedPassageId: null, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {} };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -121,19 +121,23 @@ function modelView(model) {
 function quizView(model, passage) {
   const item = quizProgress(model.id, passage.id);
   const answered = Object.keys(item.answers ?? {}).length;
-  const remaining = passage.questions.length - answered;
+  const index = Math.min(state.questionIndex, passage.questions.length - 1);
+  const question = passage.questions[index];
+  const selectedId = item.answers?.[question.id];
+  const selectedOption = question.options.find((option) => option.id === selectedId);
+  const answeredCorrectly = selectedOption?.isCorrect;
+  const isLastQuestion = index === passage.questions.length - 1;
   return `<main class="quiz-shell">
     <header class="quiz-top">
       <button class="back-button" data-model>← قطع النموذج</button>
       <div><p>${escapeHtml(model.title)}</p><h1>${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</h1><small>${escapeHtml(passage.externalTitle)}</small></div>
-      <strong>${answered} / ${passage.questions.length}</strong>
+      <strong>${index + 1} / ${passage.questions.length}</strong>
     </header>
+    <section class="question-progress" aria-label="تقدم الاختبار">
+      <span style="width:${((index + 1) / passage.questions.length) * 100}%"></span>
+    </section>
     <section class="quiz-list">
-      ${passage.questions.map((question) => {
-        const selectedId = item.answers?.[question.id];
-        const selectedOption = question.options.find((option) => option.id === selectedId);
-        const answeredCorrectly = selectedOption?.isCorrect;
-        return `<article class="quiz-question ${selectedId ? answeredCorrectly ? 'answered-correct' : 'answered-wrong' : ''}">
+      <article class="quiz-question active-question ${selectedId ? answeredCorrectly ? 'answered-correct' : 'answered-wrong' : ''}">
         <div class="question-tools">
           <button data-toggle-translation="${question.id}">${state.translationQuestionId === question.id ? 'إخفاء ترجمة الكلمات' : 'ترجمة الكلمات'}</button>
           ${state.translationQuestionId === question.id && state.translatedWords[question.id] ? `<strong>${escapeHtml(state.translatedWords[question.id])}: ${escapeHtml(wordMeaning(state.translatedWords[question.id]))}</strong>` : '<small>اضغط على أي كلمة إنجليزية في السؤال لمعرفة معناها.</small>'}
@@ -145,12 +149,12 @@ function quizView(model, passage) {
           </button>`).join('')}
         </div>
         ${selectedId ? answeredCorrectly ? '<p class="answer-note correct-note">صحيح، إجابتك ممتازة.</p>' : `<div class="answer-note wrong-note"><strong>غير صحيح. الحل الصحيح: ${escapeHtml(question.correctAnswer)}</strong><p>${escapeHtml(question.explanation)}</p></div>` : ''}
-      </article>`;
-      }).join('')}
+      </article>
     </section>
     <footer class="quiz-actions">
       <button data-reset-quiz>إعادة الاختبار</button>
-      <span>${remaining ? `باقي ${remaining} أسئلة` : 'اكتملت الإجابات، تظهر النتيجة تلقائيًا'}</span>
+      <span>${answered} إجابة محفوظة</span>
+      <button class="primary-action" data-next-question ${selectedId ? '' : 'disabled'}>${isLastQuestion ? 'عرض النتيجة' : 'التالي'}</button>
     </footer>
   </main>`;
 }
@@ -233,7 +237,7 @@ app.addEventListener('click', (event) => {
 
   const passageButton = event.target.closest('[data-open-passage]');
   if (passageButton) {
-    state = { ...state, view: 'quiz', selectedPassageId: passageButton.dataset.openPassage };
+    state = { ...state, view: 'quiz', selectedPassageId: passageButton.dataset.openPassage, questionIndex: 0, translationQuestionId: null };
     const passage = currentPassage();
     setQuizProgress(state.selectedModelId, passage.id, { ...quizProgress(state.selectedModelId, passage.id), status: 'in-progress' });
     render();
@@ -260,16 +264,34 @@ app.addEventListener('click', (event) => {
     const item = quizProgress(state.selectedModelId, state.selectedPassageId);
     const passage = currentPassage();
     const answers = { ...(item.answers ?? {}), [optionButton.dataset.question]: optionButton.dataset.option };
-    const completed = Object.keys(answers).length === passage.questions.length;
-    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, status: completed ? 'completed' : 'in-progress' });
-    if (completed) state.view = 'result';
+    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, status: 'in-progress', currentQuestionIndex: state.questionIndex });
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-next-question]')) {
+    const item = quizProgress(state.selectedModelId, state.selectedPassageId);
+    const passage = currentPassage();
+    const question = passage.questions[state.questionIndex];
+    if (!item.answers?.[question.id]) return;
+    if (state.questionIndex >= passage.questions.length - 1) {
+      setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'completed', currentQuestionIndex: 0 });
+      state.view = 'result';
+    } else {
+      const nextIndex = state.questionIndex + 1;
+      setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'in-progress', currentQuestionIndex: nextIndex });
+      state.questionIndex = nextIndex;
+      state.translationQuestionId = null;
+    }
     render();
     return;
   }
 
   if (event.target.closest('[data-reset-quiz]')) {
-    setQuizProgress(state.selectedModelId, state.selectedPassageId, { answers: {}, status: 'not-started' });
+    setQuizProgress(state.selectedModelId, state.selectedPassageId, { answers: {}, status: 'not-started', currentQuestionIndex: 0 });
     state.view = 'quiz';
+    state.questionIndex = 0;
+    state.translationQuestionId = null;
     render();
     return;
   }
