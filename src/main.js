@@ -131,14 +131,13 @@ function libraryView() {
   const filtered = visibleModels();
   const completed = Object.values(progress).filter((item) => item.status === 'completed').length;
   return `<main class="app-shell">
-    <section class="hero">
-      <p class="eyebrow">STEP</p>
-      <h1>STEP Reading</h1>
-      <p>اختر النموذج، ثم ادخل على القطعة الداخلية وابدأ الاختبار.</p>
-    </section>
+    <header class="raseen-header"><div class="brand-mark"><span>رصين</span><i aria-hidden="true">⌁</i></div><nav><a class="active">الرئيسية</a><a>أقسام STEP</a><a>النماذج</a><a>المدونة</a><a>من نحن</a><a>تواصل معنا</a></nav><div class="header-actions"><button class="outline-action">تسجيل الدخول</button><button class="orange-action">ابدأ الآن</button></div></header>
+    <section class="raseen-hero"><div class="hero-copy"><span class="hero-kicker">منصة متخصصة في STEP فقط</span><h1>خطتك الأذكى لاجتياز <em>STEP</em></h1><p>تدرّب على القراءة من مكان واحد، وتابع تقدمك وأخطاءك حتى تصل إلى هدفك بثقة واحترافية.</p><div class="hero-actions"><button class="orange-action" data-open-model="reading-01">ابدأ الآن ←</button><button class="outline-action">استكشف النماذج</button></div></div><div class="hero-art" aria-hidden="true"><div class="hero-orb"></div><div class="hero-card">تقدمك الحالي<strong>${Math.min(100, completed * 12)}%</strong><span>واصل التدريب بخطوة ثابتة</span></div></div></section>
+    <section class="benefits-strip"><span>نماذج STEP منظمة</span><span>متابعة الأخطاء</span><span>حفظ التقدم</span><span>تدريب واختبار</span></section>
+    <section class="skills-section"><div class="section-heading"><div><span>ابدأ من مهارتك</span><h2>طوّر مستواك في كل قسم</h2></div></div><div class="skills-grid"><article><b>◫</b><h3>القراءة</h3><p>افهم القطع وأجب بدقة وسرعة.</p><button data-open-model="reading-01">ابدأ الآن ←</button></article><article><b>⌘</b><h3>القواعد</h3><p>راجع القواعد الأساسية لاختبار STEP.</p><button>قريبًا</button></article><article><b>◉</b><h3>الاستماع</h3><p>درّب أذنك على التفاصيل والفكرة العامة.</p><button>قريبًا</button></article><article><b>✎</b><h3>الكتابة</h3><p>طوّر بناء الجملة والاختيار الصحيح.</p><button>قريبًا</button></article></div></section>
+    <section class="models-section"><div class="section-heading"><div><span>النماذج والاختبارات</span><h2>نماذج STEP المتاحة</h2></div><span class="completion">${completed} مكتملة</span></div>
     <section class="toolbar" aria-label="أدوات القراءة">
       <label class="search"><span>⌕</span><input id="search" value="${escapeHtml(state.query)}" placeholder="ابحث برقم النموذج أو اسم القطعة" /></label>
-      <span class="completion">${completed} اختبارات مكتملة</span>
     </section>
     <section class="reading-grid">
       ${filtered.map((model) => `<button class="reading-card ${model.passages.length ? '' : 'locked'}" data-open-model="${model.id}">
@@ -147,7 +146,8 @@ function libraryView() {
         <span class="reading-meta">${model.passages.length ? `${model.passages.length} قطع داخلية` : 'بانتظار الإضافة'}</span>
         <span class="reading-status ${model.passages.length ? 'in-progress' : 'not-started'}">${model.passages.length ? 'جاهز للاختبار' : 'غير مضاف'}</span>
       </button>`).join('')}
-    </section>
+    </section></section>
+    <footer class="raseen-footer"><strong>رصين</strong><span>منصة تعليمية متخصصة لاجتياز اختبار STEP</span></footer>
   </main>`;
 }
 
