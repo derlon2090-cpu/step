@@ -1,0 +1,1427 @@
+{
+  "modelId": "model-03",
+  "modelNumber": 3,
+  "title": "النموذج الثالث",
+  "subtitle": "اختر قطعة داخل النموذج ثم ابدأ الاختبار",
+  "pieces": [
+    {
+      "pieceId": "reading-03-piece-01",
+      "order": 1,
+      "titleAr": "القطعة الأولى",
+      "titleEn": "Russian Doll",
+      "externalTitle": "أولاً / الدمية الروسية",
+      "passage": "The first Russian nested doll set was carved in 1890 by Vasily Zvyozdochkin and designed by Sergey Malyutin, who was a folk crafts painter in the Abramtsevo estate of Savva Mamontov, a Russian industrialist and patron of arts.\n\nThe doll set was painted by Malyutin. Malyutin’s doll set consisted of eight dolls—the outermost was a girl in a traditional dress holding a rooster. The inner dolls were girls and a boy, and the innermost was a baby.\n\nThe origin of the inspiration for matryoshka dolls is not clear. It is believed that Zvyozdochkin and Malyutin were inspired by Eastern Asian culture, for example, the doll Honshu, named after the main island of Japan. However, the Honshu figures cannot be placed one inside another.\n\nSources differ in descriptions of the doll, describing it as either a round, hollow Daruma doll portraying a bald old Buddhist monk, or a Seven Lucky Gods nesting doll.\n\nSavva Mamontov’s wife presented the dolls at the Exposition Universelle in Paris, where the toy earned a bronze medal. Soon after, matryoshka dolls were being made in several places in Russia and shipped around the world.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-03-russian-doll-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Who is the doll maker?",
+          "questionDisplay": "Who is the doll maker?",
+          "options": [
+            "Vasily Zvyozdochkin",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Vasily Zvyozdochkin",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-russian-doll-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is the title of the passage?",
+          "questionDisplay": "What is the title of the passage?",
+          "options": [
+            "Russian Wood Figurine",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Russian Wood Figurine",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-russian-doll-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What is the first passage talking about?",
+          "questionDisplay": "What is the first passage talking about?",
+          "options": [
+            "The origin of the Russian doll and its appearance.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The origin of the Russian doll and its appearance.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-russian-doll-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What are the basic factors needed to make dolls?",
+          "questionDisplay": "What are the basic factors needed to make dolls?",
+          "options": [
+            "Expert workmen",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Expert workmen",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-russian-doll-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What are dolls made of?",
+          "questionDisplay": "What are dolls made of?",
+          "options": [
+            "Wood",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Wood",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-russian-doll-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What does the word “carved” mean?",
+          "questionDisplay": "What does the word “carved” mean?",
+          "options": [
+            "Shaped",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Shaped",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-russian-doll-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What is the origin of the doll?",
+          "questionDisplay": "What is the origin of the doll?",
+          "options": [
+            "Japan",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Japan",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-russian-doll-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "Why were some presidents excluded from having dolls made for them?",
+          "questionDisplay": "Why were some presidents excluded from having dolls made for them?",
+          "options": [
+            "Because they were not in power for long.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because they were not in power for long.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-russian-doll-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "What does the pronoun “it” refer to?",
+          "questionDisplay": "What does the pronoun “it” refer to?",
+          "options": [
+            "Odd numbers",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Odd numbers",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-russian-doll-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "Which section talks about carving and industry?",
+          "questionDisplay": "Which section talks about carving and industry?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-03-piece-02",
+      "order": 2,
+      "titleAr": "القطعة الثانية",
+      "titleEn": "The Missing Plane",
+      "externalTitle": "ثانياً / الطائرة المفقودة",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-03-missing-plane-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What caused the plane to break down?",
+          "questionDisplay": "What caused the plane to break down?",
+          "options": [
+            "Technical problems",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Technical problems",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-missing-plane-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What was the destination of the plane?",
+          "questionDisplay": "What was the destination of the plane?",
+          "options": [
+            "New Delhi",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "New Delhi",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-missing-plane-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What did they do when the plane stopped?",
+          "questionDisplay": "What did they do when the plane stopped?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-03-missing-plane-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What does “not scheduled” mean?",
+          "questionDisplay": "What does “not scheduled” mean?",
+          "options": [
+            "Not planned",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Not planned",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-missing-plane-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What was the reason for the delay?",
+          "questionDisplay": "What was the reason for the delay?",
+          "options": [
+            "Technical problems",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Technical problems",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-03-piece-03",
+      "order": 3,
+      "titleAr": "القطعة الثالثة",
+      "titleEn": "Piri Reis",
+      "externalTitle": "ثالثاً / السلطان العثماني بيري ريس",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-03-piri-reis-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the nearest meaning of the word “chart”?",
+          "questionDisplay": "What is the nearest meaning of the word “chart”?",
+          "options": [
+            "Maps",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Maps",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-piri-reis-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What field did this scientist contribute to?",
+          "questionDisplay": "What field did this scientist contribute to?",
+          "options": [
+            "Geography and navigation",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Geography and navigation",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-piri-reis-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What was the scientist’s job?",
+          "questionDisplay": "What was the scientist’s job?",
+          "options": [
+            "Map maker",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Map maker",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-piri-reis-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "When did he give Kitab Al-Bahriya to the Sultan?",
+          "questionDisplay": "When did he give Kitab Al-Bahriya to the Sultan?",
+          "options": [
+            "In 1525",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "In 1525",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-piri-reis-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What does the word “cartographer” mean?",
+          "questionDisplay": "What does the word “cartographer” mean?",
+          "options": [
+            "Map maker",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Map maker",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-piri-reis-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Who is the author of the book?",
+          "questionDisplay": "Who is the author of the book?",
+          "options": [
+            "Piri Reis",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Piri Reis",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-piri-reis-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What does the book talk about?",
+          "questionDisplay": "What does the book talk about?",
+          "options": [
+            "Ships and sea travel",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Ships and sea travel",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-piri-reis-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What is the best title for the passage?",
+          "questionDisplay": "What is the best title for the passage?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-03-piece-04",
+      "order": 4,
+      "titleAr": "القطعة الرابعة",
+      "titleEn": "Internal and External Pollution",
+      "externalTitle": "رابعاً / التلوث الداخلي والخارجي",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-03-pollution-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Why is internal pollution more dangerous than external pollution?",
+          "questionDisplay": "Why is internal pollution more dangerous than external pollution?",
+          "options": [
+            "Because people stay most of their time inside.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because people stay most of their time inside.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Which is the correct choice to preserve the environment?",
+          "questionDisplay": "Which is the correct choice to preserve the environment?",
+          "options": [
+            "Using dishes and cups.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Using dishes and cups.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "How much time do we spend inside our houses?",
+          "questionDisplay": "How much time do we spend inside our houses?",
+          "options": [
+            "90%",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "90%",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is one of the causes of this pollution?",
+          "questionDisplay": "What is one of the causes of this pollution?",
+          "options": [
+            "No fresh air",
+            "Construction"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-03-pollution-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Why is internal pollution more serious than outside pollution?",
+          "questionDisplay": "Why is internal pollution more serious than outside pollution?",
+          "options": [
+            "Because people spend most of their time in buildings.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because people spend most of their time in buildings.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What is the name of the pollution from kerosene?",
+          "questionDisplay": "What is the name of the pollution from kerosene?",
+          "options": [
+            "Carbon black",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Carbon black",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What is the best source of aerial pollution?",
+          "questionDisplay": "What is the best source of aerial pollution?",
+          "options": [
+            "Diesel",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Diesel",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What does the word “essential” mean?",
+          "questionDisplay": "What does the word “essential” mean?",
+          "options": [
+            "Important",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Important",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "How many chemicals can cause pollution?",
+          "questionDisplay": "How many chemicals can cause pollution?",
+          "options": [
+            "856",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "856",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "What does the air consist of?",
+          "questionDisplay": "What does the air consist of?",
+          "options": [
+            "Nitrogen, oxygen, and water vapor.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Nitrogen, oxygen, and water vapor.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "What is another name for diesel smoke?",
+          "questionDisplay": "What is another name for diesel smoke?",
+          "options": [
+            "Black carbon",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Black carbon",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "Give an example of external pollution.",
+          "questionDisplay": "Give an example of external pollution.",
+          "options": [
+            "Diesel smoke",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Diesel smoke",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q13",
+          "sourceQuestionNumber": 13,
+          "displayOrder": 13,
+          "questionSource": "Which of the following is NOT true of contaminants?",
+          "questionDisplay": "Which of the following is NOT true of contaminants?",
+          "options": [
+            "Allergy",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Allergy",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q14",
+          "sourceQuestionNumber": 14,
+          "displayOrder": 14,
+          "questionSource": "What is the most polluted country?",
+          "questionDisplay": "What is the most polluted country?",
+          "options": [
+            "India",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "India",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q15",
+          "sourceQuestionNumber": 15,
+          "displayOrder": 15,
+          "questionSource": "Which paragraph talks about the disease?",
+          "questionDisplay": "Which paragraph talks about the disease?",
+          "options": [
+            "Paragraph 3",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Paragraph 3",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q16",
+          "sourceQuestionNumber": 16,
+          "displayOrder": 16,
+          "questionSource": "What is a source of VOCs?",
+          "questionDisplay": "What is a source of VOCs?",
+          "options": [
+            "Printers and computers",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Printers and computers",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q17",
+          "sourceQuestionNumber": 17,
+          "displayOrder": 17,
+          "questionSource": "What is the opposite of “synthetic”?",
+          "questionDisplay": "What is the opposite of “synthetic”?",
+          "options": [
+            "Natural",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Natural",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q18",
+          "sourceQuestionNumber": 18,
+          "displayOrder": 18,
+          "questionSource": "What is the meaning of “synthetic materials”?",
+          "questionDisplay": "What is the meaning of “synthetic materials”?",
+          "options": [
+            "Toxic",
+            "Simple",
+            "Natural",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Toxic",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q19",
+          "sourceQuestionNumber": 19,
+          "displayOrder": 19,
+          "questionSource": "What do you understand from the first paragraph?",
+          "questionDisplay": "What do you understand from the first paragraph?",
+          "options": [
+            "Indoor pollution is more dangerous than outdoor pollution.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Indoor pollution is more dangerous than outdoor pollution.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q20",
+          "sourceQuestionNumber": 20,
+          "displayOrder": 20,
+          "questionSource": "What gas is found in the clouds?",
+          "questionDisplay": "What gas is found in the clouds?",
+          "options": [
+            "Acid rain",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Acid rain",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q21",
+          "sourceQuestionNumber": 21,
+          "displayOrder": 21,
+          "questionSource": "What disease can be caused by pollution?",
+          "questionDisplay": "What disease can be caused by pollution?",
+          "options": [
+            "Cancer",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Cancer",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q22",
+          "sourceQuestionNumber": 22,
+          "displayOrder": 22,
+          "questionSource": "Which paragraph talks about indoor pollution?",
+          "questionDisplay": "Which paragraph talks about indoor pollution?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-03-pollution-q23",
+          "sourceQuestionNumber": 23,
+          "displayOrder": 23,
+          "questionSource": "What type of pollution is NOT mentioned in the paragraph?",
+          "questionDisplay": "What type of pollution is NOT mentioned in the paragraph?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-03-pollution-q24",
+          "sourceQuestionNumber": 24,
+          "displayOrder": 24,
+          "questionSource": "Which paragraph talks about indoor pollution?",
+          "questionDisplay": "Which paragraph talks about indoor pollution?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-03-pollution-q25",
+          "sourceQuestionNumber": 25,
+          "displayOrder": 25,
+          "questionSource": "Which of the following is incorrect?",
+          "questionDisplay": "Which of the following is incorrect?",
+          "options": [
+            "Gases",
+            "Allergy",
+            "Bacteria",
+            "Virus"
+          ],
+          "correctAnswer": "Gases",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q26",
+          "sourceQuestionNumber": 26,
+          "displayOrder": 26,
+          "questionSource": "What is the best title for the passage?",
+          "questionDisplay": "What is the best title for the passage?",
+          "options": [
+            "Pollution",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Pollution",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q27",
+          "sourceQuestionNumber": 27,
+          "displayOrder": 27,
+          "questionSource": "What is the effect of carbon?",
+          "questionDisplay": "What is the effect of carbon?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-03-pollution-q28",
+          "sourceQuestionNumber": 28,
+          "displayOrder": 28,
+          "questionSource": "Is it indoor or outdoor pollution?",
+          "questionDisplay": "Is it indoor or outdoor pollution?",
+          "options": [
+            "Indoor pollution",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Indoor pollution",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q29",
+          "sourceQuestionNumber": 29,
+          "displayOrder": 29,
+          "questionSource": "How do we reduce pollution?",
+          "questionDisplay": "How do we reduce pollution?",
+          "options": [
+            "We use wood and natural furniture.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "We use wood and natural furniture.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q30",
+          "sourceQuestionNumber": 30,
+          "displayOrder": 30,
+          "questionSource": "Which paragraph talks about air pollution?",
+          "questionDisplay": "Which paragraph talks about air pollution?",
+          "options": [
+            "Paragraph 2",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Paragraph 2",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q31",
+          "sourceQuestionNumber": 31,
+          "displayOrder": 31,
+          "questionSource": "In the fifth paragraph, what did the author advise us to stay away from?",
+          "questionDisplay": "In the fifth paragraph, what did the author advise us to stay away from?",
+          "options": [
+            "Synthetic materials",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Synthetic materials",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q32",
+          "sourceQuestionNumber": 32,
+          "displayOrder": 32,
+          "questionSource": "What is the title of Paragraph 1?",
+          "questionDisplay": "What is the title of Paragraph 1?",
+          "options": [
+            "Indoor pollution is more dangerous than external pollution.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Indoor pollution is more dangerous than external pollution.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q33",
+          "sourceQuestionNumber": 33,
+          "displayOrder": 33,
+          "questionSource": "Why does bad air stay inside?",
+          "questionDisplay": "Why does bad air stay inside?",
+          "options": [
+            "Because people want to save energy.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because people want to save energy.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-pollution-q34",
+          "sourceQuestionNumber": 34,
+          "displayOrder": 34,
+          "questionSource": "Which paragraph discusses indoor pollution, and which material was not discussed in the passage?",
+          "questionDisplay": "Which paragraph discusses indoor pollution, and which material was not discussed in the passage?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-03-piece-05",
+      "order": 5,
+      "titleAr": "القطعة الخامسة",
+      "titleEn": "MSA, Arabic Dialects & Mutual Intelligibility",
+      "externalTitle": "خامساً / العربية الفصحى واللهجات",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-03-dialects-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the most understandable Arab dialect?",
+          "questionDisplay": "What is the most understandable Arab dialect?",
+          "options": [
+            "Egyptian Arabic",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Egyptian Arabic",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-dialects-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is the nearest meaning of “mutual intelligibility”?",
+          "questionDisplay": "What is the nearest meaning of “mutual intelligibility”?",
+          "options": [
+            "Similarity",
+            "Different",
+            "Similar",
+            "Match"
+          ],
+          "correctAnswer": "Similarity",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-dialects-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Who speaks the most accurate language? / Who are the best speakers of the language?",
+          "questionDisplay": "Who speaks the most accurate language? / Who are the best speakers of the language?",
+          "options": [
+            "The one who uses and learns it (Standard Modern Arabic)",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The one who uses and learns it (Standard Modern Arabic)",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-dialects-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is the paragraph about?",
+          "questionDisplay": "What is the paragraph about?",
+          "options": [
+            "The differences between languages",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The differences between languages",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-dialects-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What does the pronoun “this” refer to?",
+          "questionDisplay": "What does the pronoun “this” refer to?",
+          "options": [
+            "Teaching MSA in school",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Teaching MSA in school",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-dialects-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Why did the writer mention two cities in the last paragraph, North German and West Slavic?",
+          "questionDisplay": "Why did the writer mention two cities in the last paragraph, North German and West Slavic?",
+          "options": [
+            "Similarity in different dialects",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Similarity in different dialects",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-dialects-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "In Paragraph ___, what did the writer say?",
+          "questionDisplay": "In Paragraph ___, what did the writer say?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-03-piece-06",
+      "order": 6,
+      "titleAr": "القطعة السادسة",
+      "titleEn": "Travel Statistics & Travel Costs",
+      "externalTitle": "سادساً / إحصائية السفر وتكاليفه",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-03-travel-statistics-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Who are the people who travel the most?",
+          "questionDisplay": "Who are the people who travel the most?",
+          "options": [
+            "Europeans and some Asians",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Europeans and some Asians",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-travel-statistics-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Who insists on travelling?",
+          "questionDisplay": "Who insists on travelling?",
+          "options": [
+            "The Americans",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The Americans",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-travel-statistics-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Who spends the most on travel?",
+          "questionDisplay": "Who spends the most on travel?",
+          "options": [
+            "The Americans",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The Americans",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-travel-statistics-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "How much was spent in the year 2005?",
+          "questionDisplay": "How much was spent in the year 2005?",
+          "options": [
+            "3.4 trillion",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "3.4 trillion",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-travel-statistics-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Who travels the most and is the most wasteful?",
+          "questionDisplay": "Who travels the most and is the most wasteful?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-03-travel-statistics-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Who is in the third level in travelling?",
+          "questionDisplay": "Who is in the third level in travelling?",
+          "options": [
+            "Spain",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Spain",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-travel-statistics-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "Where do the majority of Germans travel to?",
+          "questionDisplay": "Where do the majority of Germans travel to?",
+          "options": [
+            "Europe",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Europe",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-travel-statistics-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "Americans travel to ______?",
+          "questionDisplay": "Americans travel to ______?",
+          "options": [
+            "Mexico",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Mexico",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-03-piece-07",
+      "order": 7,
+      "titleAr": "القطعة السابعة",
+      "titleEn": "Gardener’s Announcement",
+      "externalTitle": "سابعاً / إعلان وظيفة بستاني",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-03-gardener-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Where does the gardener prefer to work?",
+          "questionDisplay": "Where does the gardener prefer to work?",
+          "options": [
+            "In a residence",
+            "In a farm",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "In a residence",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-gardener-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "When can employers call Jack?",
+          "questionDisplay": "When can employers call Jack?",
+          "options": [
+            "Weekday evenings",
+            "At 10:00 in the morning",
+            "Weekend evenings",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Weekday evenings",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-gardener-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "How much money does the gardener take?",
+          "questionDisplay": "How much money does the gardener take?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-03-piece-08",
+      "order": 8,
+      "titleAr": "القطعة الثامنة",
+      "titleEn": "Traffic Accident",
+      "externalTitle": "ثامناً / حادث علي",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-03-traffic-accident-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Ali was able to eat using his hands after ______ months.",
+          "questionDisplay": "Ali was able to eat using his hands after ______ months.",
+          "options": [
+            "18 months",
+            "8",
+            "18",
+            "10"
+          ],
+          "correctAnswer": "18 months",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-traffic-accident-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Why did Ali have this problem in his hands?",
+          "questionDisplay": "Why did Ali have this problem in his hands?",
+          "options": [
+            "A traffic accident",
+            "Physiotherapy sessions",
+            "Hospital treatment",
+            "The university"
+          ],
+          "correctAnswer": "A traffic accident",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-traffic-accident-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What is the appropriate meaning of “Pioneer operation”?",
+          "questionDisplay": "What is the appropriate meaning of “Pioneer operation”?",
+          "options": [
+            "A technique used for the first time",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "A technique used for the first time",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-traffic-accident-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Which of the following is correct?",
+          "questionDisplay": "Which of the following is correct?",
+          "options": [
+            "The operation improves the situation in similar injuries.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The operation improves the situation in similar injuries.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-03-piece-09",
+      "order": 9,
+      "titleAr": "القطعة التاسعة",
+      "titleEn": "Travel Agency",
+      "externalTitle": "تاسعاً / وكالة سفر",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-03-travel-agency-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Travel agency for?",
+          "questionDisplay": "Travel agency for?",
+          "options": [
+            "Air",
+            "Sea",
+            "Train",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Air",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-03-travel-agency-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What kind of service does the agency provide?",
+          "questionDisplay": "What kind of service does the agency provide?",
+          "options": [
+            "Personalized services",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Personalized services",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    }
+  ]
+}

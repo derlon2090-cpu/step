@@ -1,0 +1,887 @@
+{
+  "modelId": "model-06",
+  "modelNumber": 6,
+  "title": "النموذج السادس",
+  "subtitle": "اختر قطعة داخل النموذج ثم ابدأ الاختبار",
+  "pieces": [
+    {
+      "pieceId": "reading-06-piece-01",
+      "order": 1,
+      "titleAr": "القطعة الأولى",
+      "titleEn": "The Second World War",
+      "externalTitle": "أولاً / الحرب العالمية الثانية",
+      "passage": "The Second World War is an international war that started on the first of September of 1939 in Europe and ended on the second of September of 1945, in which the vast majority of the countries of the world participated, including the great countries in two conflicting military alliances: the Allied Forces, and the Axis countries, and it is also the broader war in History, in which more than 100 million people participated in the World War, more than 25,000,000 people were killed in the military and more than 30,000,000 citizens. The Second World War was more destructive than previous wars and that weapons can destroy cities because they developed even after the end of the World War.Among the effects that remained were the destruction, the rate of crimes, and the violation of the law.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-06-world-war-two-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "When did the Second World War begin?",
+          "questionDisplay": "When did the Second World War begin?",
+          "options": [
+            "In 1939",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "In 1939",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-world-war-two-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "How many militaries were killed in it?",
+          "questionDisplay": "How many militaries were killed in it?",
+          "options": [
+            "More than 25 million",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "More than 25 million",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-world-war-two-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Why did the war end in the winter?",
+          "questionDisplay": "Why did the war end in the winter?",
+          "options": [
+            "Because it was too cold in Russia.",
+            "There were no means to warm."
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-06-world-war-two-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What was the first reforms?",
+          "questionDisplay": "What was the first reforms?",
+          "options": [
+            "Providing food for people",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Providing food for people",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-world-war-two-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "World War (2) differs from other wars?",
+          "questionDisplay": "World War (2) differs from other wars?",
+          "options": [
+            "more destruction happened.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "more destruction happened.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-world-war-two-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Why are modern weapons more destroyed or why equipment shatters a city easily?",
+          "questionDisplay": "Why are modern weapons more destroyed or why equipment shatters a city easily?",
+          "options": [
+            "Because weapons are advanced.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because weapons are advanced.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-world-war-two-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "After the end of the war, which of the following increased:",
+          "questionDisplay": "After the end of the war, which of the following increased:",
+          "options": [
+            "Crime and breaking the law",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Crime and breaking the law",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-world-war-two-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "The cost of World War 2?",
+          "questionDisplay": "The cost of World War 2?",
+          "options": [
+            "More than three wars before",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "More than three wars before",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-world-war-two-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "After the war:",
+          "questionDisplay": "After the war:",
+          "options": [
+            "People were busy with problems.",
+            "They were sad because of the number of dead.",
+            "They lost the desire to live.",
+            "Ready for an upcoming war."
+          ],
+          "correctAnswer": "People were busy with problems.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-world-war-two-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "What does occur mean?",
+          "questionDisplay": "What does occur mean?",
+          "options": [
+            "Happen",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Happen",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-world-war-two-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "The end of war:",
+          "questionDisplay": "The end of war:",
+          "options": [
+            "disaster remained",
+            "disaster stopped.",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "disaster remained",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-world-war-two-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "Strikes in 1947:",
+          "questionDisplay": "Strikes in 1947:",
+          "options": [
+            "Lack of coal",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Lack of coal",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-world-war-two-q13",
+          "sourceQuestionNumber": 13,
+          "displayOrder": 13,
+          "questionSource": "What is the best title of the passage?",
+          "questionDisplay": "What is the best title of the passage?",
+          "options": [
+            "The Moscow Peace Treaty",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The Moscow Peace Treaty",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-world-war-two-q14",
+          "sourceQuestionNumber": 14,
+          "displayOrder": 14,
+          "questionSource": "How long did the world war last?",
+          "questionDisplay": "How long did the world war last?",
+          "options": [
+            "Six years",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Six years",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-06-piece-02",
+      "order": 2,
+      "titleAr": "القطعة الثانية",
+      "titleEn": "Radio Listening",
+      "externalTitle": "ثانياً / الاستماع إلى الراديو",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-06-radio-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Which statement about radio development is correct?",
+          "questionDisplay": "Which statement about radio development is correct?",
+          "options": [
+            "development made radio cheaper",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "development made radio cheaper",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-radio-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Where do a lot of people listen to the radio?",
+          "questionDisplay": "Where do a lot of people listen to the radio?",
+          "options": [
+            "In cars",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "In cars",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-radio-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "When does Urdu radio broadcast?",
+          "questionDisplay": "When does Urdu radio broadcast?",
+          "options": [
+            "3 pm",
+            "9 am",
+            "7 am",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "3 pm",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-radio-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What does the pronoun “them” refer to?",
+          "questionDisplay": "What does the pronoun “them” refer to?",
+          "options": [
+            "Majority",
+            "minority",
+            "lions power",
+            "young"
+          ],
+          "correctAnswer": "Majority",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-radio-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Are English radios few or many?",
+          "questionDisplay": "Are English radios few or many?",
+          "options": [
+            "Few",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Few",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-06-piece-03",
+      "order": 3,
+      "titleAr": "القطعة الثالثة",
+      "titleEn": "Istanbul",
+      "externalTitle": "ثالثاً / إسطنبول",
+      "passage": "Istanbul, formerly known as Byzantium and Constantinople, is the most populous city in Turkey and the economic, cultural and historical center of the country Istanbul is an intercontinental city in Eurasia, stretching across the Bosporus (separating Europe and Asia) between the Sea of Marmara and the Black Sea. The commercial and historical center is located on the European side and about one third.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-06-istanbul-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the old name of Istanbul? or what’s called?",
+          "questionDisplay": "What is the old name of Istanbul? or what’s called?",
+          "options": [
+            "Constantinople",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Constantinople",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-istanbul-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What does the word “happen” mean?",
+          "questionDisplay": "What does the word “happen” mean?",
+          "options": [
+            "Occur",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Occur",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-istanbul-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What does the word “reign” mean?",
+          "questionDisplay": "What does the word “reign” mean?",
+          "options": [
+            "Rule",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Rule",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-istanbul-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is the best title of the passage?",
+          "questionDisplay": "What is the best title of the passage?",
+          "options": [
+            "The civilization of Turkey",
+            "Ottoman Empire and Turkish Republic",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "The civilization of Turkey",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-istanbul-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "interested in such passage?",
+          "questionDisplay": "interested in such passage?",
+          "options": [
+            "Culture and tours",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Culture and tours",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-istanbul-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What is the goal of the speaker or It seems to be directed to?",
+          "questionDisplay": "What is the goal of the speaker or It seems to be directed to?",
+          "options": [
+            "Tourists",
+            "Historians",
+            "Geographers",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Tourists",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-06-piece-04",
+      "order": 4,
+      "titleAr": "القطعة الرابعة",
+      "titleEn": "The Changing Global Diet",
+      "externalTitle": "رابعاً / النظام الغذائي العالمي",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-06-global-diet-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the best title for the passage?",
+          "questionDisplay": "What is the best title for the passage?",
+          "options": [
+            "The changing global diet",
+            "Health problems",
+            "Healthy eating habits in Japan",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "The changing global diet",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-global-diet-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Western food?",
+          "questionDisplay": "Western food?",
+          "options": [
+            "Making health worse in Japan",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Making health worse in Japan",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-global-diet-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What does the word “nutritious” mean?",
+          "questionDisplay": "What does the word “nutritious” mean?",
+          "options": [
+            "High food value",
+            "more healthy",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "High food value",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-global-diet-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What does the pronoun “these” refer to?",
+          "questionDisplay": "What does the pronoun “these” refer to?",
+          "options": [
+            "Meat and dairy products",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Meat and dairy products",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-global-diet-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "In the Czech Republic:",
+          "questionDisplay": "In the Czech Republic:",
+          "options": [
+            "Most people live healthy lives",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Most people live healthy lives",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-06-piece-05",
+      "order": 5,
+      "titleAr": "القطعة الخامسة",
+      "titleEn": "Type A and B Personalities",
+      "externalTitle": "خامساً / الشخصيتان A وB",
+      "passage": "some very prominent and that is the reason. Type A and B are tow type of personalities why they are so easily identified if you see someone freaking out because they are made time! even if the wait is for hurry and impatience seems to be their middle name, wait they walk fast and are, they speak fast. Urgency is seen clearly in their personality constantly aware of the running time.\n\nOthers are also curious as they are not tolerant of people who speak slowly and usually end up completing sentences to them!, The other characteristics of a personality are that they feel annoyed by small things easily as they ease their strength when they get angry, So it is better not to provoke them, they have high ambitions, they can overcome the competition to achieve their goal, as they tend to compete with others.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-06-personality-types-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Reducing sleep?",
+          "questionDisplay": "Reducing sleep?",
+          "options": [
+            "causes sudden death",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "causes sudden death",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-personality-types-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What does the word “individual” mean?",
+          "questionDisplay": "What does the word “individual” mean?",
+          "options": [
+            "Separated",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Separated",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-personality-types-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Where is most people between A and B?",
+          "questionDisplay": "Where is most people between A and B?",
+          "options": [
+            "in the middle",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "in the middle",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-personality-types-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Type A is different from type B, they?",
+          "questionDisplay": "Type A is different from type B, they?",
+          "options": [
+            "in a rush doing_",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "in a rush doing_",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-personality-types-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What is our goal?",
+          "questionDisplay": "What is our goal?",
+          "options": [
+            "Balance work and play",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Balance work and play",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-06-piece-06",
+      "order": 6,
+      "titleAr": "القطعة السادسة",
+      "titleEn": "Effective Meetings",
+      "externalTitle": "سادساً / الاجتماعات الفعالة",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-06-meeting-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does the “remark” mean?",
+          "questionDisplay": "What does the “remark” mean?",
+          "options": [
+            "Comment",
+            "Suspension",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "Comment",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-meeting-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is the main idea?",
+          "questionDisplay": "What is the main idea?",
+          "options": [
+            "Meeting is planned and organized.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Meeting is planned and organized.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-meeting-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Who should invite for a meeting?",
+          "questionDisplay": "Who should invite for a meeting?",
+          "options": [
+            "People who are necessary",
+            "More people",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "People who are necessary",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-06-piece-07",
+      "order": 7,
+      "titleAr": "القطعة السابعة",
+      "titleEn": "Device Driver",
+      "externalTitle": "سابعاً / برنامج تشغيل الجهاز",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-06-device-driver-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does the passage talk about?",
+          "questionDisplay": "What does the passage talk about?",
+          "options": [
+            "Device driver work",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Device driver work",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-device-driver-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What does the word (current) mean?",
+          "questionDisplay": "What does the word (current) mean?",
+          "options": [
+            "The recent",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The recent",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-device-driver-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Device driver is?",
+          "questionDisplay": "Device driver is?",
+          "options": [
+            "Piece of software",
+            "printer",
+            "modem",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Piece of software",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-device-driver-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "The main function of device driver?",
+          "questionDisplay": "The main function of device driver?",
+          "options": [
+            "Connect hardware to computer",
+            "connecting to internet",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "Connect hardware to computer",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-06-piece-08",
+      "order": 8,
+      "titleAr": "القطعة الثامنة",
+      "titleEn": "Daily Housework",
+      "externalTitle": "ثامناً / الأعمال المنزلية",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-06-housework-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "How is the person?",
+          "questionDisplay": "How is the person?",
+          "options": [
+            "busy.",
+            "happy",
+            "sad",
+            "angry"
+          ],
+          "correctAnswer": "busy.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-housework-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "An example of housework?",
+          "questionDisplay": "An example of housework?",
+          "options": [
+            "washing floor",
+            "studying for the children",
+            "going shopping",
+            "sit with her family."
+          ],
+          "correctAnswer": "washing floor",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-06-piece-09",
+      "order": 9,
+      "titleAr": "القطعة التاسعة",
+      "titleEn": "All-Inclusive Resort",
+      "externalTitle": "تاسعاً / المنتجع الشامل",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-06-resort-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does an all-inclusive resort mean?",
+          "questionDisplay": "What does an all-inclusive resort mean?",
+          "options": [
+            "It covers food lodging and activities.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "It covers food lodging and activities.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-06-resort-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Which of the following may cost more?",
+          "questionDisplay": "Which of the following may cost more?",
+          "options": [
+            "equipment rental",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "equipment rental",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    }
+  ]
+}

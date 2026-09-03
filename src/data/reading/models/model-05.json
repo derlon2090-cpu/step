@@ -1,0 +1,1492 @@
+{
+  "modelId": "model-05",
+  "modelNumber": 5,
+  "title": "النموذج الخامس",
+  "subtitle": "اختر قطعة داخل النموذج ثم ابدأ الاختبار",
+  "pieces": [
+    {
+      "pieceId": "reading-05-piece-01",
+      "order": 1,
+      "titleAr": "القطعة الأولى",
+      "titleEn": "Crochet & Knitting",
+      "externalTitle": "أولاً / الحياكة والكروشيه",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-05-crochet-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the best title of the passage?",
+          "questionDisplay": "What is the best title of the passage?",
+          "options": [
+            "The history of hand-made fabric.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The history of hand-made fabric.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-crochet-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is the main idea of the last paragraph?",
+          "questionDisplay": "What is the main idea of the last paragraph?",
+          "options": [
+            "Hand made is more expensive than machines because of the effort.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Hand made is more expensive than machines because of the effort.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-crochet-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What is the meaning of the word “function”?",
+          "questionDisplay": "What is the meaning of the word “function”?",
+          "options": [
+            "Process",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Process",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-crochet-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is not mentioned about knitting?",
+          "questionDisplay": "What is not mentioned about knitting?",
+          "options": [
+            "History of crochet",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "History of crochet",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-crochet-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What is the difference between crochet and knitting?",
+          "questionDisplay": "What is the difference between crochet and knitting?",
+          "options": [
+            "They both use a different method.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "They both use a different method.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-crochet-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What is not mentioned about knitting?",
+          "questionDisplay": "What is not mentioned about knitting?",
+          "options": [
+            "Knitting is the one used for making socks.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Knitting is the one used for making socks.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-crochet-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "Why do people appreciate those who can sew?",
+          "questionDisplay": "Why do people appreciate those who can sew?",
+          "options": [
+            "Because they feel how much effort they put into making these things.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because they feel how much effort they put into making these things.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-crochet-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "Why do people prefer handicrafts or handmade products?",
+          "questionDisplay": "Why do people prefer handicrafts or handmade products?",
+          "options": [
+            "Because they see the efforts being made in front of them.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because they see the efforts being made in front of them.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-crochet-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "Are all people good at sewing?",
+          "questionDisplay": "Are all people good at sewing?",
+          "options": [
+            "No, they aren’t, only some.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "No, they aren’t, only some.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-crochet-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "Comparison between crochet and knitting?",
+          "questionDisplay": "Comparison between crochet and knitting?",
+          "options": [
+            "They use a different method.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "They use a different method.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-05-piece-02",
+      "order": 2,
+      "titleAr": "القطعة الثانية",
+      "titleEn": "Dates & Palm Trees",
+      "externalTitle": "ثانياً / التمور والنخيل",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-05-dates-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "The passage is mainly talking about:",
+          "questionDisplay": "The passage is mainly talking about:",
+          "options": [
+            "The advantages of dates.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The advantages of dates.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-dates-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "One of the following is NOT an advantage of dates:",
+          "questionDisplay": "One of the following is NOT an advantage of dates:",
+          "options": [
+            "Dates increase constipation.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Dates increase constipation.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-dates-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "The underlined word “thrive” in Paragraph 1 probably means:",
+          "questionDisplay": "The underlined word “thrive” in Paragraph 1 probably means:",
+          "options": [
+            "Grow",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Grow",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-dates-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Yellow dates and dark-colored dates ________.",
+          "questionDisplay": "Yellow dates and dark-colored dates ________.",
+          "options": [
+            "Are preserved differently after harvested.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Are preserved differently after harvested.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-dates-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What is the meaning of the word “agriculture”?",
+          "questionDisplay": "What is the meaning of the word “agriculture”?",
+          "options": [
+            "Cultivated",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Cultivated",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-dates-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What is the suitable title for the passage?",
+          "questionDisplay": "What is the suitable title for the passage?",
+          "options": [
+            "Versatility of Dates",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Versatility of Dates",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-dates-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What is the meaning of “Versatility”?",
+          "questionDisplay": "What is the meaning of “Versatility”?",
+          "options": [
+            "Useful",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Useful",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-dates-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "Uses of the palm parts include:",
+          "questionDisplay": "Uses of the palm parts include:",
+          "options": [
+            "Reconstruction / Weaving / Makeup",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Reconstruction / Weaving / Makeup",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-dates-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "Not from the uses of palm?",
+          "questionDisplay": "Not from the uses of palm?",
+          "options": [
+            "The inscription",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The inscription",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-dates-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "What is the part of the palm tree that was not mentioned?",
+          "questionDisplay": "What is the part of the palm tree that was not mentioned?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-05-dates-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "What is not true about the dates?",
+          "questionDisplay": "What is not true about the dates?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-05-piece-03",
+      "order": 3,
+      "titleAr": "القطعة الثالثة",
+      "titleEn": "Avicenna",
+      "externalTitle": "ثالثاً / ابن سينا",
+      "passage": "Avicenna, commonly known as Ibn Sina or by his Latinized name Avicenna, was a Persian scientist. After he studied hard for years, he became a physician. His famous medical book is called “The Canon of Medicine”. It was in 5 volumes. He also had books in different fields, where they were translated into many languages.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-05-avicenna-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "After studying for many years, what did he become?",
+          "questionDisplay": "After studying for many years, what did he become?",
+          "options": [
+            "A physician",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "A physician",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-avicenna-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "The underlined word “physician” probably means:",
+          "questionDisplay": "The underlined word “physician” probably means:",
+          "options": [
+            "A doctor",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "A doctor",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-avicenna-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Why did they call him Avicenna?",
+          "questionDisplay": "Why did they call him Avicenna?",
+          "options": [
+            "Because his name differs according to languages.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because his name differs according to languages.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-avicenna-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "How was he working?",
+          "questionDisplay": "How was he working?",
+          "options": [
+            "He was a hard-work man with his patients.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "He was a hard-work man with his patients.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-avicenna-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What does the word “physicians” mean?",
+          "questionDisplay": "What does the word “physicians” mean?",
+          "options": [
+            "Doctor",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Doctor",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-avicenna-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What does the word “proficient” mean?",
+          "questionDisplay": "What does the word “proficient” mean?",
+          "options": [
+            "Skilled",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Skilled",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-avicenna-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "How many folders / volumes did the law book have?",
+          "questionDisplay": "How many folders / volumes did the law book have?",
+          "options": [
+            "5 folders / 5 volumes",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "5 folders / 5 volumes",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-avicenna-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What happened after he studied medicine?",
+          "questionDisplay": "What happened after he studied medicine?",
+          "options": [
+            "He became a doctor",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "He became a doctor",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-avicenna-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "What happened to Ibn Sina’s books?",
+          "questionDisplay": "What happened to Ibn Sina’s books?",
+          "options": [
+            "It has been translated into many languages.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "It has been translated into many languages.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-avicenna-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "What happened to him after studied?",
+          "questionDisplay": "What happened to him after studied?",
+          "options": [
+            "Skilled",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Skilled",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-avicenna-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "What does he do?",
+          "questionDisplay": "What does he do?",
+          "options": [
+            "Busy or hard working",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Busy or hard working",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-avicenna-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "How old did he live / how old was he when he died?",
+          "questionDisplay": "How old did he live / how old was he when he died?",
+          "options": [
+            "57 years",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "57 years",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-05-piece-04",
+      "order": 4,
+      "titleAr": "القطعة الرابعة",
+      "titleEn": "Language & Immigrant Identity",
+      "externalTitle": "رابعاً / اللغة وهوية المهاجرين",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-05-korean-immigrants-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the best title of the passage?",
+          "questionDisplay": "What is the best title of the passage?",
+          "options": [
+            "Language and its effect on the identity of immigrants.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Language and its effect on the identity of immigrants.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is not true according to the first paragraph?",
+          "questionDisplay": "What is not true according to the first paragraph?",
+          "options": [
+            "Second generation immigrants are eager to learn parent native language.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Second generation immigrants are eager to learn parent native language.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Did the mother speak Korean with all girls or just one?",
+          "questionDisplay": "Did the mother speak Korean with all girls or just one?",
+          "options": [
+            "All the children",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "All the children",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Is the first girl old or young?",
+          "questionDisplay": "Is the first girl old or young?",
+          "options": [
+            "The first girl is old; the old girl speaks English and Korean very well, but the second and third only speak English.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The first girl is old; the old girl speaks English and Korean very well, but the second and third only speak English.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Why can’t the second girl speak Korean?",
+          "questionDisplay": "Why can’t the second girl speak Korean?",
+          "options": [
+            "Because she is Americanized.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because she is Americanized.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What is not true about the old girl?",
+          "questionDisplay": "What is not true about the old girl?",
+          "options": [
+            "Sympathetic",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Sympathetic",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "Why did the aunt try to teach the girls how to speak Korean?",
+          "questionDisplay": "Why did the aunt try to teach the girls how to speak Korean?",
+          "options": [
+            "To help them establish a Korean identity.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "To help them establish a Korean identity.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What is correct from these sentences?",
+          "questionDisplay": "What is correct from these sentences?",
+          "options": [
+            "The second sister is older than the son.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The second sister is older than the son.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "The oldest sister had a problem with:",
+          "questionDisplay": "The oldest sister had a problem with:",
+          "options": [
+            "She can’t understand some Korean jokes.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "She can’t understand some Korean jokes.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "What is not a reason for the 14-year-old girl’s problems with her mother?",
+          "questionDisplay": "What is not a reason for the 14-year-old girl’s problems with her mother?",
+          "options": [
+            "She does not love mother.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "She does not love mother.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "Which of the following is NOT in the passage?",
+          "questionDisplay": "Which of the following is NOT in the passage?",
+          "options": [
+            "American friends will not see them as Korean American.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "American friends will not see them as Korean American.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "What does the phrase “Americanized immigrants” mean?",
+          "questionDisplay": "What does the phrase “Americanized immigrants” mean?",
+          "options": [
+            "People who imitate Americans.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "People who imitate Americans.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q13",
+          "sourceQuestionNumber": 13,
+          "displayOrder": 13,
+          "questionSource": "What does the pronoun “they” refer to?",
+          "questionDisplay": "What does the pronoun “they” refer to?",
+          "options": [
+            "mother and her young daughter",
+            "children"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-05-korean-immigrants-q14",
+          "sourceQuestionNumber": 14,
+          "displayOrder": 14,
+          "questionSource": "What is the meaning of the word “suffer”?",
+          "questionDisplay": "What is the meaning of the word “suffer”?",
+          "options": [
+            "Problem",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Problem",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q15",
+          "sourceQuestionNumber": 15,
+          "displayOrder": 15,
+          "questionSource": "What language does the 14-year-old girl speak?",
+          "questionDisplay": "What language does the 14-year-old girl speak?",
+          "options": [
+            "English",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "English",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q16",
+          "sourceQuestionNumber": 16,
+          "displayOrder": 16,
+          "questionSource": "According to paragraphs 3–4, how did the aunt deal with the 14-year-old girl?",
+          "questionDisplay": "According to paragraphs 3–4, how did the aunt deal with the 14-year-old girl?",
+          "options": [
+            "She helped her to speak Korean.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "She helped her to speak Korean.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q17",
+          "sourceQuestionNumber": 17,
+          "displayOrder": 17,
+          "questionSource": "How many languages can the 18-year-old girl speak?",
+          "questionDisplay": "How many languages can the 18-year-old girl speak?",
+          "options": [
+            "Two, English and Korean.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Two, English and Korean.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q18",
+          "sourceQuestionNumber": 18,
+          "displayOrder": 18,
+          "questionSource": "Which of the following is NOT true about the 18-year-old daughter?",
+          "questionDisplay": "Which of the following is NOT true about the 18-year-old daughter?",
+          "options": [
+            "She speaks only English very well; her Korean is poor.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "She speaks only English very well; her Korean is poor.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q19",
+          "sourceQuestionNumber": 19,
+          "displayOrder": 19,
+          "questionSource": "Miscommunication between the parents and their children may lead to what?",
+          "questionDisplay": "Miscommunication between the parents and their children may lead to what?",
+          "options": [
+            "Big problem",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Big problem",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-korean-immigrants-q20",
+          "sourceQuestionNumber": 20,
+          "displayOrder": 20,
+          "questionSource": "What is not mentioned about the 14-year-old girl?",
+          "questionDisplay": "What is not mentioned about the 14-year-old girl?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-05-korean-immigrants-q21",
+          "sourceQuestionNumber": 21,
+          "displayOrder": 21,
+          "questionSource": "What are the differences between immigration and ______ the influence on language?",
+          "questionDisplay": "What are the differences between immigration and ______ the influence on language?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-05-korean-immigrants-q22",
+          "sourceQuestionNumber": 22,
+          "displayOrder": 22,
+          "questionSource": "Which of the following is close to the main idea?",
+          "questionDisplay": "Which of the following is close to the main idea?",
+          "options": [
+            "The language in immigrant is mixture of two languages.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The language in immigrant is mixture of two languages.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-05-piece-05",
+      "order": 5,
+      "titleAr": "القطعة الخامسة",
+      "titleEn": "Petra",
+      "externalTitle": "خامساً / البتراء",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-05-petra-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Where is Petra located?",
+          "questionDisplay": "Where is Petra located?",
+          "options": [
+            "Southern Jordan",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Southern Jordan",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-petra-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is Petra capital of?",
+          "questionDisplay": "What is Petra capital of?",
+          "options": [
+            "Nabatean kingdom",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Nabatean kingdom",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-05-piece-06",
+      "order": 6,
+      "titleAr": "القطعة السادسة",
+      "titleEn": "Kingdom Weather Forecast",
+      "externalTitle": "سادساً / طقس مناطق المملكة",
+      "passage": "Strong winds will raise dust and sand, reducing visibility over the northern and central Kingdom between Makkah and Madinah, with the possibility of increasing temperatures over these regions. Suspended haze will spread over Qassim, Hail and northern parts of the Riyadh region, limiting visibility and making driving hazardous. Parts of the central and eastern Kingdom will be partly cloudy, with chances of rain. Storm clouds may form over the southwestern and western highlands, including Abha, Baha and Taif.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-05-weather-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Which parts of the Kingdom may receive rain?",
+          "questionDisplay": "Which parts of the Kingdom may receive rain?",
+          "options": [
+            "The central and eastern parts.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The central and eastern parts.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-weather-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "The forecast for Makkah and Medina is ______.",
+          "questionDisplay": "The forecast for Makkah and Medina is ______.",
+          "options": [
+            "Dusty and hot",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Dusty and hot",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-weather-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Which city may expect to see storm clouds?",
+          "questionDisplay": "Which city may expect to see storm clouds?",
+          "options": [
+            "Abha",
+            "Baha",
+            "Taif"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-05-weather-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Where will it probably be difficult to see clearly while driving?",
+          "questionDisplay": "Where will it probably be difficult to see clearly while driving?",
+          "options": [
+            "Qassim",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Qassim",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-05-piece-07",
+      "order": 7,
+      "titleAr": "القطعة السابعة",
+      "titleEn": "Course Units",
+      "externalTitle": "سابعاً / وحدات المقرر",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-05-course-units-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Which unit shows the prayer?",
+          "questionDisplay": "Which unit shows the prayer?",
+          "options": [
+            "Religion – Unit 3",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Religion – Unit 3",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-course-units-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Which unit talks about the changes of the society?",
+          "questionDisplay": "Which unit talks about the changes of the society?",
+          "options": [
+            "Unit 4",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Unit 4",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-05-piece-08",
+      "order": 8,
+      "titleAr": "القطعة الثامنة",
+      "titleEn": "Medical Doctor",
+      "externalTitle": "ثامناً / الطبيب",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-05-medical-doctor-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "The passage is about?",
+          "questionDisplay": "The passage is about?",
+          "options": [
+            "Medical doctor",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Medical doctor",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-medical-doctor-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "The word “examine” in the passage is closest in meaning to?",
+          "questionDisplay": "The word “examine” in the passage is closest in meaning to?",
+          "options": [
+            "Looking",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Looking",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-05-piece-09",
+      "order": 9,
+      "titleAr": "القطعة التاسعة",
+      "titleEn": "Height Comparison",
+      "externalTitle": "تاسعاً / مقارنة الطول",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-05-height-comparison-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What do you understand from the sentence “Adam is not as tall as Erich”?",
+          "questionDisplay": "What do you understand from the sentence “Adam is not as tall as Erich”?",
+          "options": [
+            "Erich is taller than Adam.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Erich is taller than Adam.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-05-piece-10",
+      "order": 10,
+      "titleAr": "القطعة العاشرة",
+      "titleEn": "Papyrus & Paper",
+      "externalTitle": "عاشراً / البردي والورق",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-05-papyrus-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "According to Paragraph 2, what did the early Egyptians use to make their writing material?",
+          "questionDisplay": "According to Paragraph 2, what did the early Egyptians use to make their writing material?",
+          "options": [
+            "Papyrus",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Papyrus",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-papyrus-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "The word “them” in Paragraph 2 refers to ______.",
+          "questionDisplay": "The word “them” in Paragraph 2 refers to ______.",
+          "options": [
+            "Papyrus stems",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Papyrus stems",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-papyrus-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What does the word “papyrus” mean?",
+          "questionDisplay": "What does the word “papyrus” mean?",
+          "options": [
+            "Sedge",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Sedge",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-papyrus-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "The first real paper was made in ______.",
+          "questionDisplay": "The first real paper was made in ______.",
+          "options": [
+            "China",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "China",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-papyrus-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Who introduced the paper-making process to Europe?",
+          "questionDisplay": "Who introduced the paper-making process to Europe?",
+          "options": [
+            "The Arabs",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The Arabs",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-papyrus-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Which component is necessary for making both paper and papyrus?",
+          "questionDisplay": "Which component is necessary for making both paper and papyrus?",
+          "options": [
+            "Fibrous material",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Fibrous material",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-05-piece-11",
+      "order": 11,
+      "titleAr": "القطعة الحادية عشرة",
+      "titleEn": "Berlin Wall",
+      "externalTitle": "الحادي عشر / جدار برلين",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-05-berlin-wall-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the best title of the passage?",
+          "questionDisplay": "What is the best title of the passage?",
+          "options": [
+            "The history of Berlin Wall",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The history of Berlin Wall",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-berlin-wall-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "How many people could pass the wall?",
+          "questionDisplay": "How many people could pass the wall?",
+          "options": [
+            "5000 / five thousand people",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "5000 / five thousand people",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-berlin-wall-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What does paragraph 1 say about the actions of the East German border guards?",
+          "questionDisplay": "What does paragraph 1 say about the actions of the East German border guards?",
+          "options": [
+            "They closed most of the streets on the border.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "They closed most of the streets on the border.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-berlin-wall-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is the main idea of the second paragraph?",
+          "questionDisplay": "What is the main idea of the second paragraph?",
+          "options": [
+            "5000 crossed over the wall.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "5000 crossed over the wall.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-berlin-wall-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What does paragraph 4 say about the wall between East and West?",
+          "questionDisplay": "What does paragraph 4 say about the wall between East and West?",
+          "options": [
+            "It was 112km long",
+            "It was 155km long"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-05-berlin-wall-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "When did Germany know?",
+          "questionDisplay": "When did Germany know?",
+          "options": [
+            "11 months later",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "11 months later",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-berlin-wall-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What is the last paragraph about?",
+          "questionDisplay": "What is the last paragraph about?",
+          "options": [
+            "The fall, when it came, was quick.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The fall, when it came, was quick.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-05-berlin-wall-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "Why did they build the wall?",
+          "questionDisplay": "Why did they build the wall?",
+          "options": [
+            "To separate East German from West German.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "To separate East German from West German.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-05-piece-12",
+      "order": 12,
+      "titleAr": "القطعة الثانية عشرة",
+      "titleEn": "Wood & Lignin",
+      "externalTitle": "الثاني عشر / الخشب واللجنين",
+      "passage": "With lignin and appropriate architecture, we truly have wood. It is wood that makes trees. In practice, it is mainly the cells of the conducting vessels that become lignified, and they and their surrounding supporting cells are the main ingredient in timber.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-05-wood-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "The word “they” in the passage refers to ______.",
+          "questionDisplay": "The word “they” in the passage refers to ______.",
+          "options": [
+            "Vessels",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Vessels",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1127 @@
+{
+  "modelId": "model-01",
+  "modelNumber": 1,
+  "title": "النموذج الأول",
+  "subtitle": "اختر قطعة داخل النموذج ثم ابدأ الاختبار",
+  "pieces": [
+    {
+      "pieceId": "reading-01-piece-01",
+      "order": 1,
+      "titleAr": "القطعة الأولى",
+      "titleEn": "Ktunaxa Language",
+      "externalTitle": "أولاً / اللغة ودور الإنترنت في تطويرها",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-01-ktunaxa-language-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Why is it too late to record the language?",
+          "questionDisplay": "Why is it too late to record the language?",
+          "options": [
+            "It is mainly spoken by elders.",
+            "Anyone who wishes to use them.",
+            "The material.",
+            "To create interest."
+          ],
+          "correctAnswer": "It is mainly spoken by elders.",
+          "answerStatus": "verified",
+          "sourceNote": "لأن سبب التأخر المذكور هو أن اللغة يتحدث بها كبار السن غالبًا.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ktunaxa-language-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Who will the published materials and recordings be available for?",
+          "questionDisplay": "Who will the published materials and recordings be available for?",
+          "options": [
+            "Anyone who wishes to use them.",
+            "It is mainly spoken by elders.",
+            "As recordings, games for children, and written language.",
+            "Supportive."
+          ],
+          "correctAnswer": "Anyone who wishes to use them.",
+          "answerStatus": "verified",
+          "sourceNote": "السؤال يسأل عن الفئة التي تستطيع استخدام المواد المنشورة والتسجيلات.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ktunaxa-language-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What is the author's opinion of the Ktunaxa language?",
+          "questionDisplay": "What is the author's opinion of the Ktunaxa language?",
+          "options": [
+            "Supportive.",
+            "Protect.",
+            "The material.",
+            "To use technology that the younger generation is familiar with."
+          ],
+          "correctAnswer": "Supportive.",
+          "answerStatus": "verified",
+          "sourceNote": "رأي الكاتب ظاهر كدعم لفكرة حفظ اللغة وإتاحتها.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ktunaxa-language-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What does the word “preserve” mean?",
+          "questionDisplay": "What does the word “preserve” mean?",
+          "options": [
+            "Protect.",
+            "Supportive.",
+            "Italy.",
+            "To create interest."
+          ],
+          "correctAnswer": "Protect.",
+          "answerStatus": "verified",
+          "sourceNote": "كلمة preserve في هذا السياق تعني حماية الشيء والمحافظة عليه.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ktunaxa-language-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What is the purpose of using the word “can” in the first sentence?",
+          "questionDisplay": "What is the purpose of using the word “can” in the first sentence?",
+          "options": [
+            "To create interest.",
+            "To meet the increased demand.",
+            "The Popularity of Pizza.",
+            "The material."
+          ],
+          "correctAnswer": "To create interest.",
+          "answerStatus": "verified",
+          "sourceNote": "استخدام can يعطي القارئ إحساسًا بالإمكانية ويجذب اهتمامه.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ktunaxa-language-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Why did Marina choose the internet?",
+          "questionDisplay": "Why did Marina choose the internet?",
+          "options": [
+            "To use technology that the younger generation is familiar with.",
+            "Because it is high in calories.",
+            "In California in 1954.",
+            "Protect."
+          ],
+          "correctAnswer": "To use technology that the younger generation is familiar with.",
+          "answerStatus": "verified",
+          "sourceNote": "اختيار الإنترنت مرتبط بالوصول للجيل الأصغر عبر تقنية مألوفة لهم.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ktunaxa-language-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What does the pronoun “it” refer to?",
+          "questionDisplay": "What does the pronoun “it” refer to?",
+          "options": [
+            "The material.",
+            "Italy.",
+            "It adapts to different cultures.",
+            "Supportive."
+          ],
+          "correctAnswer": "The material.",
+          "answerStatus": "verified",
+          "sourceNote": "الضمير it يعود على المادة المذكورة قبل الضمير في السياق.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ktunaxa-language-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "How is it available online?",
+          "questionDisplay": "How is it available online?",
+          "options": [
+            "As recordings, games for children, and written language.",
+            "It is mainly spoken by elders.",
+            "To create interest.",
+            "The material."
+          ],
+          "correctAnswer": "As recordings, games for children, and written language.",
+          "answerStatus": "verified",
+          "sourceNote": "طريقة الإتاحة كانت بصيغ متعددة: تسجيلات وألعاب للأطفال ولغة مكتوبة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-01-piece-02",
+      "order": 2,
+      "titleAr": "القطعة الثانية",
+      "titleEn": "Pizza",
+      "externalTitle": "ثانياً / البيتزا",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-01-pizza-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Why is pizza popular?",
+          "questionDisplay": "Why is pizza popular?",
+          "options": [
+            "It adapts to different cultures.",
+            "To meet the increased demand.",
+            "Because it is high in calories.",
+            "In California in 1954."
+          ],
+          "correctAnswer": "It adapts to different cultures.",
+          "answerStatus": "verified",
+          "sourceNote": "شعبية البيتزا جاءت لأنها تناسب ثقافات مختلفة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-pizza-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Why was pizza sold in supermarkets?",
+          "questionDisplay": "Why was pizza sold in supermarkets?",
+          "options": [
+            "To meet the increased demand.",
+            "It adapts to different cultures.",
+            "The Popularity of Pizza.",
+            "Because it contains a variety of ingredients."
+          ],
+          "correctAnswer": "To meet the increased demand.",
+          "answerStatus": "verified",
+          "sourceNote": "بيعها في السوبرماركت كان بسبب زيادة الطلب عليها.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-pizza-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What does the pronoun “there” refer to?",
+          "questionDisplay": "What does the pronoun “there” refer to?",
+          "options": [
+            "Italy.",
+            "The material.",
+            "California.",
+            "Different cultures."
+          ],
+          "correctAnswer": "Italy.",
+          "answerStatus": "verified",
+          "sourceNote": "الضمير there في السياق يعود إلى المكان المذكور وهو إيطاليا.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-pizza-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is the best title for the passage?",
+          "questionDisplay": "What is the best title for the passage?",
+          "options": [
+            "The Popularity of Pizza.",
+            "Ktunaxa Language.",
+            "The material.",
+            "Different cultures."
+          ],
+          "correctAnswer": "The Popularity of Pizza.",
+          "answerStatus": "verified",
+          "sourceNote": "الفكرة العامة في الأسئلة تدور حول انتشار وشعبية البيتزا.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-pizza-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Why is pizza not healthy?",
+          "questionDisplay": "Why is pizza not healthy?",
+          "options": [
+            "Because it is high in calories.",
+            "Because it contains a variety of ingredients.",
+            "To meet the increased demand.",
+            "It adapts to different cultures."
+          ],
+          "correctAnswer": "Because it is high in calories.",
+          "answerStatus": "verified",
+          "sourceNote": "سبب عدم كونها صحية هو ارتفاع السعرات الحرارية فيها.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-pizza-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Where and when did Shakey’s Pizza open?",
+          "questionDisplay": "Where and when did Shakey’s Pizza open?",
+          "options": [
+            "In California in 1954.",
+            "Italy.",
+            "To meet the increased demand.",
+            "The Popularity of Pizza."
+          ],
+          "correctAnswer": "In California in 1954.",
+          "answerStatus": "verified",
+          "sourceNote": "السؤال يطلب المكان والزمن، والإجابة تجمعهما: كاليفورنيا عام 1954.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-pizza-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "Why does pizza contain vitamins?",
+          "questionDisplay": "Why does pizza contain vitamins?",
+          "options": [
+            "Because it contains a variety of ingredients.",
+            "Because it is high in calories.",
+            "It adapts to different cultures.",
+            "In California in 1954."
+          ],
+          "correctAnswer": "Because it contains a variety of ingredients.",
+          "answerStatus": "verified",
+          "sourceNote": "وجود مكونات متنوعة هو سبب احتواء البيتزا على فيتامينات.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-01-piece-03",
+      "order": 3,
+      "titleAr": "القطعة الثالثة",
+      "titleEn": "Oud",
+      "externalTitle": "ثالثاً / العود",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-01-oud-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What should we do to make oud into perfume?",
+          "questionDisplay": "What should we do to make oud into perfume?",
+          "options": [
+            "Distilling.",
+            "Cleaning.",
+            "A fungal infection.",
+            "Chips."
+          ],
+          "correctAnswer": "Distilling.",
+          "answerStatus": "verified",
+          "sourceNote": "تحويل العود إلى عطر يتطلب عملية التقطير.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-oud-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is oud not used for?",
+          "questionDisplay": "What is oud not used for?",
+          "options": [
+            "Cleaning.",
+            "Distilling.",
+            "Oil and bakhoor.",
+            "Rose and sandalwood."
+          ],
+          "correctAnswer": "Cleaning.",
+          "answerStatus": "verified",
+          "sourceNote": "الاستخدام غير المذكور للعود هو التنظيف.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-oud-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What causes an oud tree to produce oud?",
+          "questionDisplay": "What causes an oud tree to produce oud?",
+          "options": [
+            "A fungal infection.",
+            "Distilling.",
+            "Collecting.",
+            "Oil and bakhoor."
+          ],
+          "correctAnswer": "A fungal infection.",
+          "answerStatus": "verified",
+          "sourceNote": "العدوى الفطرية هي السبب المذكور لإنتاج العود.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-oud-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What kind of perfume did Europeans use with oud?",
+          "questionDisplay": "What kind of perfume did Europeans use with oud?",
+          "options": [
+            "Rose and sandalwood.",
+            "Cleaning.",
+            "Chips.",
+            "They evaporate it."
+          ],
+          "correctAnswer": "Rose and sandalwood.",
+          "answerStatus": "verified",
+          "sourceNote": "استخدم الأوروبيون العود مع الورد وخشب الصندل في العطور.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-oud-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What does “harvesting” mean?",
+          "questionDisplay": "What does “harvesting” mean?",
+          "options": [
+            "Collecting.",
+            "Distilling.",
+            "Cleaning.",
+            "Active at night."
+          ],
+          "correctAnswer": "Collecting.",
+          "answerStatus": "verified",
+          "sourceNote": "harvesting تعني الجمع أو الحصاد.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-oud-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Where does oud come from?",
+          "questionDisplay": "Where does oud come from?",
+          "options": [
+            "Ethiopia",
+            "Thailand",
+            "Yemen",
+            "India"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "لم تُحدَّد الإجابة الصحيحة بوضوح في المصدر المرسل.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-01-oud-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What are the two main forms in which oud is used?",
+          "questionDisplay": "What are the two main forms in which oud is used?",
+          "options": [
+            "Oil and bakhoor.",
+            "Rose and sandalwood.",
+            "Chips.",
+            "Collecting."
+          ],
+          "correctAnswer": "Oil and bakhoor.",
+          "answerStatus": "verified",
+          "sourceNote": "الشكلان الرئيسيان هما الزيت والبخور.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-oud-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "In what form is oud used as incense?",
+          "questionDisplay": "In what form is oud used as incense?",
+          "options": [
+            "Chips.",
+            "Oil and bakhoor.",
+            "Cleaning.",
+            "Distilling."
+          ],
+          "correctAnswer": "Chips.",
+          "answerStatus": "verified",
+          "sourceNote": "يُستخدم العود كبخور على شكل رقائق أو قطع.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-oud-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "Oud is taken from how many types of trees?",
+          "questionDisplay": "Oud is taken from how many types of trees?",
+          "options": [
+            "4–5 types of trees.",
+            "One type of tree.",
+            "Two types of trees.",
+            "10 types of trees."
+          ],
+          "correctAnswer": "4–5 types of trees.",
+          "answerStatus": "verified",
+          "sourceNote": "يؤخذ العود من أربعة إلى خمسة أنواع من الأشجار.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-oud-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "What does Europe use oud with in perfumes?",
+          "questionDisplay": "What does Europe use oud with in perfumes?",
+          "options": [
+            "Rose and sandalwood.",
+            "Oil and bakhoor.",
+            "Chips.",
+            "Cleaning."
+          ],
+          "correctAnswer": "Rose and sandalwood.",
+          "answerStatus": "verified",
+          "sourceNote": "يستخدمه الأوروبيون مع الورد وخشب الصندل.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-oud-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "How do they make the small bottles called “Talat” in Arabic?",
+          "questionDisplay": "How do they make the small bottles called “Talat” in Arabic?",
+          "options": [
+            "They evaporate it.",
+            "They distill it.",
+            "They collect it.",
+            "They burn it."
+          ],
+          "correctAnswer": "They evaporate it.",
+          "answerStatus": "verified",
+          "sourceNote": "تُصنع هذه القوارير الصغيرة بتبخير العود.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-01-piece-04",
+      "order": 4,
+      "titleAr": "القطعة الرابعة",
+      "titleEn": "Ants",
+      "externalTitle": "رابعاً / النمل",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-01-ants-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does the word “parallel” mean?",
+          "questionDisplay": "What does the word “parallel” mean?",
+          "options": [
+            "Similar.",
+            "Different.",
+            "Active at night.",
+            "Complex."
+          ],
+          "correctAnswer": "Similar.",
+          "answerStatus": "verified",
+          "sourceNote": "parallel تعني متشابه أو متوازٍ حسب السياق.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is the best title for the passage?",
+          "questionDisplay": "What is the best title for the passage?",
+          "options": [
+            "Ants: A Mirror of Human Activity.",
+            "The Body of Ants.",
+            "How Ants Find Food.",
+            "Ant Colonies."
+          ],
+          "correctAnswer": "Ants: A Mirror of Human Activity.",
+          "answerStatus": "verified",
+          "sourceNote": "العنوان يربط سلوك النمل بنشاط الإنسان.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Which statement is NOT mentioned in the third paragraph?",
+          "questionDisplay": "Which statement is NOT mentioned in the third paragraph?",
+          "options": [
+            "Ants have different organs.",
+            "Ants protect the nest.",
+            "Ants live in colonies.",
+            "Worker ants help the queen."
+          ],
+          "correctAnswer": "Ants have different organs.",
+          "answerStatus": "verified",
+          "sourceNote": "هذه العبارة هي غير المذكورة وفق السؤال.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What does this type of meat ant do?",
+          "questionDisplay": "What does this type of meat ant do?",
+          "options": [
+            "It protects the nest.",
+            "It lays all the eggs.",
+            "It cleans houses.",
+            "It finds water."
+          ],
+          "correctAnswer": "It protects the nest.",
+          "answerStatus": "verified",
+          "sourceNote": "وظيفته المذكورة حماية العش.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Where do ants live?",
+          "questionDisplay": "Where do ants live?",
+          "options": [
+            "In colonies.",
+            "In bottles.",
+            "In flowers.",
+            "In isolation."
+          ],
+          "correctAnswer": "In colonies.",
+          "answerStatus": "verified",
+          "sourceNote": "يعيش النمل في مستعمرات.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Why are ants useful?",
+          "questionDisplay": "Why are ants useful?",
+          "options": [
+            "They eat insects and clean houses.",
+            "They produce perfume.",
+            "They lay all the eggs.",
+            "They live for years."
+          ],
+          "correctAnswer": "They eat insects and clean houses.",
+          "answerStatus": "verified",
+          "sourceNote": "فائدتها أكل الحشرات وتنظيف المنازل.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What does the word “exhibit” mean?",
+          "questionDisplay": "What does the word “exhibit” mean?",
+          "options": [
+            "Display.",
+            "Hide.",
+            "Collect.",
+            "Protect."
+          ],
+          "correctAnswer": "Display.",
+          "answerStatus": "verified",
+          "sourceNote": "exhibit تعني عرض أو إظهار.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "Who helps the queen get food?",
+          "questionDisplay": "Who helps the queen get food?",
+          "options": [
+            "Worker ants.",
+            "The meat ant.",
+            "The eggs.",
+            "The colony walls."
+          ],
+          "correctAnswer": "Worker ants.",
+          "answerStatus": "verified",
+          "sourceNote": "النمل العامل يساعد الملكة في الحصول على الطعام.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "Do all ants lay eggs?",
+          "questionDisplay": "Do all ants lay eggs?",
+          "options": [
+            "No, only the queen.",
+            "Yes, all ants do.",
+            "No, only worker ants.",
+            "Only the meat ant."
+          ],
+          "correctAnswer": "No, only the queen.",
+          "answerStatus": "verified",
+          "sourceNote": "الملكة فقط تضع البيض.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "Do ants live long?",
+          "questionDisplay": "Do ants live long?",
+          "options": [
+            "No, they may live for about 25–30 days.",
+            "Yes, for many years.",
+            "No, only one day.",
+            "Yes, for about 100 days."
+          ],
+          "correctAnswer": "No, they may live for about 25–30 days.",
+          "answerStatus": "verified",
+          "sourceNote": "قد يعيش النمل نحو 25 إلى 30 يومًا.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "What is NOT discussed in the introduction?",
+          "questionDisplay": "What is NOT discussed in the introduction?",
+          "options": [
+            "The body.",
+            "Ant colonies.",
+            "Human activity.",
+            "Ant behavior."
+          ],
+          "correctAnswer": "The body.",
+          "answerStatus": "verified",
+          "sourceNote": "الجسم هو الجزء غير المناقش في المقدمة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "What does the pronoun “it” refer to?",
+          "questionDisplay": "What does the pronoun “it” refer to?",
+          "options": [
+            "The meat ant.",
+            "The queen.",
+            "The nest.",
+            "The colony."
+          ],
+          "correctAnswer": "The meat ant.",
+          "answerStatus": "verified",
+          "sourceNote": "الضمير it يعود إلى نملة اللحم.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q13",
+          "sourceQuestionNumber": 13,
+          "displayOrder": 13,
+          "questionSource": "Which characteristic of ants is NOT discussed?",
+          "questionDisplay": "Which characteristic of ants is NOT discussed?",
+          "options": [
+            "Body composition.",
+            "Their smell.",
+            "Their colonies.",
+            "Their activity."
+          ],
+          "correctAnswer": "Body composition.",
+          "answerStatus": "verified",
+          "sourceNote": "تركيب الجسم هو الخاصية غير المناقشة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q14",
+          "sourceQuestionNumber": 14,
+          "displayOrder": 14,
+          "questionSource": "What does the word “compound” mean?",
+          "questionDisplay": "What does the word “compound” mean?",
+          "options": [
+            "Complex.",
+            "Simple.",
+            "Similar.",
+            "Nocturnal."
+          ],
+          "correctAnswer": "Complex.",
+          "answerStatus": "verified",
+          "sourceNote": "compound تعني معقد.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q15",
+          "sourceQuestionNumber": 15,
+          "displayOrder": 15,
+          "questionSource": "How do ants find food?",
+          "questionDisplay": "How do ants find food?",
+          "options": [
+            "By smell.",
+            "By sound.",
+            "By color.",
+            "By touch."
+          ],
+          "correctAnswer": "By smell.",
+          "answerStatus": "verified",
+          "sourceNote": "يعثر النمل على الطعام عن طريق الرائحة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q16",
+          "sourceQuestionNumber": 16,
+          "displayOrder": 16,
+          "questionSource": "What does the word “nocturnal” mean?",
+          "questionDisplay": "What does the word “nocturnal” mean?",
+          "options": [
+            "Active at night.",
+            "Active in the morning.",
+            "Living alone.",
+            "Working underground."
+          ],
+          "correctAnswer": "Active at night.",
+          "answerStatus": "verified",
+          "sourceNote": "nocturnal تعني نشط ليلًا.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-ants-q17",
+          "sourceQuestionNumber": 17,
+          "displayOrder": 17,
+          "questionSource": "How do ants recognize each other?",
+          "questionDisplay": "How do ants recognize each other?",
+          "options": [
+            "By smell.",
+            "By color.",
+            "By sound.",
+            "By size."
+          ],
+          "correctAnswer": "By smell.",
+          "answerStatus": "verified",
+          "sourceNote": "يتعرف النمل على بعضه عن طريق الرائحة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-01-piece-05",
+      "order": 5,
+      "titleAr": "القطعة الخامسة",
+      "titleEn": "Madain Saleh",
+      "externalTitle": "خامساً / مدائن صالح",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-01-madain-saleh-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does the word “site” mean?",
+          "questionDisplay": "What does the word “site” mean?",
+          "options": [
+            "Place.",
+            "Time.",
+            "People.",
+            "Story."
+          ],
+          "correctAnswer": "Place.",
+          "answerStatus": "verified",
+          "sourceNote": "site تعني مكان.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-madain-saleh-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What does the pronoun “its” refer to?",
+          "questionDisplay": "What does the pronoun “its” refer to?",
+          "options": [
+            "Madain Saleh.",
+            "Petra.",
+            "Madinah.",
+            "Prophet Saleh."
+          ],
+          "correctAnswer": "Madain Saleh.",
+          "answerStatus": "verified",
+          "sourceNote": "الضمير its يعود إلى مدائن صالح.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-madain-saleh-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Why is Madain Saleh important?",
+          "questionDisplay": "Why is Madain Saleh important?",
+          "options": [
+            "It is a great historical and cultural site.",
+            "It is a modern city.",
+            "It is the capital of Europe.",
+            "It is a shopping center."
+          ],
+          "correctAnswer": "It is a great historical and cultural site.",
+          "answerStatus": "verified",
+          "sourceNote": "أهميتها تاريخية وثقافية.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-madain-saleh-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "How did the author describe Petra?",
+          "questionDisplay": "How did the author describe Petra?",
+          "options": [
+            "As the capital of the Nabataean state.",
+            "As a small village.",
+            "As a modern capital.",
+            "As a religious school."
+          ],
+          "correctAnswer": "As the capital of the Nabataean state.",
+          "answerStatus": "verified",
+          "sourceNote": "وصف البتراء بأنها عاصمة الدولة النبطية.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-madain-saleh-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What did the Nabataeans NOT do?",
+          "questionDisplay": "What did the Nabataeans NOT do?",
+          "options": [
+            "Decorations in Madinah.",
+            "Build monuments.",
+            "Trade goods.",
+            "Carve stone."
+          ],
+          "correctAnswer": "Decorations in Madinah.",
+          "answerStatus": "verified",
+          "sourceNote": "هذه هي الإجابة المذكورة للسؤال المنفي.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-madain-saleh-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Why did Prophet Saleh leave his people?",
+          "questionDisplay": "Why did Prophet Saleh leave his people?",
+          "options": [
+            "To prevent the believers from being destroyed.",
+            "To build a market.",
+            "To visit Petra.",
+            "To find a new language."
+          ],
+          "correctAnswer": "To prevent the believers from being destroyed.",
+          "answerStatus": "verified",
+          "sourceNote": "غادر لمنع تدمير المؤمنين.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-01-piece-06",
+      "order": 6,
+      "titleAr": "القطعة السادسة",
+      "titleEn": "Family Responsibility",
+      "externalTitle": "سادساً / مسؤولية الأسرة",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-01-family-responsibility-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Why did the father buy his son a car?",
+          "questionDisplay": "Why did the father buy his son a car?",
+          "options": [
+            "As a reward because he passed all his exams.",
+            "Because he needed a taxi.",
+            "As a birthday gift only.",
+            "Because the car was cheap."
+          ],
+          "correctAnswer": "As a reward because he passed all his exams.",
+          "answerStatus": "verified",
+          "sourceNote": "اشترى الأب السيارة مكافأة لنجاح ابنه في جميع الاختبارات.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-family-responsibility-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What does the word “smashed” mean?",
+          "questionDisplay": "What does the word “smashed” mean?",
+          "options": [
+            "Destroyed.",
+            "Repaired.",
+            "Collected.",
+            "Hidden."
+          ],
+          "correctAnswer": "Destroyed.",
+          "answerStatus": "verified",
+          "sourceNote": "smashed تعني حُطّم أو دُمّر.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-family-responsibility-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What does the word “shatter” mean?",
+          "questionDisplay": "What does the word “shatter” mean?",
+          "options": [
+            "Destroy.",
+            "Build.",
+            "Protect.",
+            "Carry."
+          ],
+          "correctAnswer": "Destroy.",
+          "answerStatus": "verified",
+          "sourceNote": "shatter تعني يدمّر أو يحطّم.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-family-responsibility-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What did Khaled understand from the gift?",
+          "questionDisplay": "What did Khaled understand from the gift?",
+          "options": [
+            "That the car was for family responsibilities.",
+            "That the car was for racing.",
+            "That the car was for travel abroad.",
+            "That the car was for display."
+          ],
+          "correctAnswer": "That the car was for family responsibilities.",
+          "answerStatus": "verified",
+          "sourceNote": "فهم خالد أن السيارة لمسؤوليات الأسرة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-family-responsibility-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What happened to Khaled’s plan?",
+          "questionDisplay": "What happened to Khaled’s plan?",
+          "options": [
+            "It was destroyed.",
+            "It succeeded.",
+            "It changed location.",
+            "It was postponed."
+          ],
+          "correctAnswer": "It was destroyed.",
+          "answerStatus": "verified",
+          "sourceNote": "تحطمت خطة خالد.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-family-responsibility-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What is the best title for the passage?",
+          "questionDisplay": "What is the best title for the passage?",
+          "options": [
+            "The Shattered Dream.",
+            "The New School.",
+            "A Family Holiday.",
+            "The Fast Car."
+          ],
+          "correctAnswer": "The Shattered Dream.",
+          "answerStatus": "verified",
+          "sourceNote": "العنوان الأنسب هو الحلم المحطم.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-01-piece-07",
+      "order": 7,
+      "titleAr": "القطعة السابعة",
+      "titleEn": "Memories",
+      "externalTitle": "سابعاً / الذكريات",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-01-memories-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What do you understand from the statement, “Memory is the power to gather roses in winter”?",
+          "questionDisplay": "What do you understand from the statement, “Memory is the power to gather roses in winter”?",
+          "options": [
+            "Good memories help solve problems.",
+            "Winter is always warm.",
+            "Roses only grow in summer.",
+            "Memory is a type of flower."
+          ],
+          "correctAnswer": "Good memories help solve problems.",
+          "answerStatus": "verified",
+          "sourceNote": "المعنى المقصود أن الذكريات الجيدة تساعد على مواجهة المشكلات.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-01-piece-08",
+      "order": 8,
+      "titleAr": "القطعة الثامنة",
+      "titleEn": "The Award",
+      "externalTitle": "ثامناً / الجائزة",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-01-the-award-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Who won the award?",
+          "questionDisplay": "Who won the award?",
+          "options": [
+            "A team of three students.",
+            "One teacher.",
+            "A family of four.",
+            "A single athlete."
+          ],
+          "correctAnswer": "A team of three students.",
+          "answerStatus": "verified",
+          "sourceNote": "الفائز فريق مكوّن من ثلاثة طلاب.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-01-piece-09",
+      "order": 9,
+      "titleAr": "القطعة التاسعة",
+      "titleEn": "Shopping",
+      "externalTitle": "تاسعاً / التسوق",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-01-shopping-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does the passage talk about?",
+          "questionDisplay": "What does the passage talk about?",
+          "options": [
+            "Shopping.",
+            "Travel.",
+            "Sports.",
+            "Education."
+          ],
+          "correctAnswer": "Shopping.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-shopping-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What do the words “blue, red, and green” refer to?",
+          "questionDisplay": "What do the words “blue, red, and green” refer to?",
+          "options": [
+            "Colors.",
+            "Sizes.",
+            "Prices.",
+            "Stores."
+          ],
+          "correctAnswer": "Colors.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-01-shopping-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What do the words “small” and “medium” refer to?",
+          "questionDisplay": "What do the words “small” and “medium” refer to?",
+          "options": [
+            "Sizes.",
+            "Colors.",
+            "Materials.",
+            "Locations."
+          ],
+          "correctAnswer": "Sizes.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    }
+  ]
+}

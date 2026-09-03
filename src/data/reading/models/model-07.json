@@ -1,0 +1,1188 @@
+{
+  "modelId": "model-07",
+  "modelNumber": 7,
+  "title": "النموذج السابع",
+  "subtitle": "اختر قطعة داخل النموذج ثم ابدأ الاختبار",
+  "pieces": [
+    {
+      "pieceId": "reading-07-piece-01",
+      "order": 1,
+      "titleAr": "القطعة الأولى",
+      "titleEn": "Air Pollution",
+      "externalTitle": "أولاً / مكونات الهواء والتلوث",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-07-air-pollution-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does the air consist of?",
+          "questionDisplay": "What does the air consist of?",
+          "options": [
+            "nitrogen, oxygen and water vapor",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "nitrogen, oxygen and water vapor",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-air-pollution-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "The word essential is closest in meaning to?",
+          "questionDisplay": "The word essential is closest in meaning to?",
+          "options": [
+            "Important",
+            "healthy",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "Important",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-air-pollution-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "An example of particles in the air?",
+          "questionDisplay": "An example of particles in the air?",
+          "options": [
+            "Diesel smoke",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Diesel smoke",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-air-pollution-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Diesel smoke pollution called?",
+          "questionDisplay": "Diesel smoke pollution called?",
+          "options": [
+            "Black carbon",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Black carbon",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-air-pollution-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Indoor pollution is more serious than outdoors?",
+          "questionDisplay": "Indoor pollution is more serious than outdoors?",
+          "options": [
+            "Spend most time in building.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Spend most time in building.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-07-piece-02",
+      "order": 2,
+      "titleAr": "القطعة الثانية",
+      "titleEn": "King Faisal International Prize",
+      "externalTitle": "ثانياً / جائزة الملك فيصل",
+      "passage": "King Faisal International Prize is an annual award sponsored by King Faisal Foundation presented to dedicated men and women whose contributions make a positive difference. The foundation awards prizes in the following categories: Service to Islam, Islamic studies, Arabic Language and Literature, Science, Medicine.\n\nThe first King Faisal International Prize was awarded to Sayyid Abul A'la Maududi in the year 1979. In 1984, King Fahd was the recipient of the Service to Islam award. In 1981, King Khalid received the same award. In 1986, this prize was co-awarded to Ahmed Deedat and French Holocaust denier Roger Garaud.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-07-king-faisal-prize-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "How often do they give the prize?",
+          "questionDisplay": "How often do they give the prize?",
+          "options": [
+            "Once a year",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Once a year",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-faisal-prize-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "In how many fields is the King Faisal International Prize granted?",
+          "questionDisplay": "In how many fields is the King Faisal International Prize granted?",
+          "options": [
+            "5",
+            "3",
+            "4",
+            "6"
+          ],
+          "correctAnswer": "5",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-faisal-prize-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Paragraph 2 is mainly talking about ...............",
+          "questionDisplay": "Paragraph 2 is mainly talking about ...............",
+          "options": [
+            "the winners of the prize.",
+            "the categories of the prize",
+            "King Khalid and King Fahad",
+            "Ahmed Deedat and French Holocaust denier Roger Garaud"
+          ],
+          "correctAnswer": "the winners of the prize.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-faisal-prize-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is the best title of the passage?",
+          "questionDisplay": "What is the best title of the passage?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-07-king-faisal-prize-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What are the sons of king Faisal do to the prize?",
+          "questionDisplay": "What are the sons of king Faisal do to the prize?",
+          "options": [
+            "serves chairman of King Faisal Foundation",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "serves chairman of King Faisal Foundation",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-faisal-prize-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What does the prize consist of?",
+          "questionDisplay": "What does the prize consist of?",
+          "options": [
+            "Cash money and a gold medal",
+            "a certificate, a medal Cash award"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-07-king-faisal-prize-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "When was the first prize?",
+          "questionDisplay": "When was the first prize?",
+          "options": [
+            "In 1979, or 1399 H.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "In 1979, or 1399 H.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-faisal-prize-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "Who suggested this prize?",
+          "questionDisplay": "Who suggested this prize?",
+          "options": [
+            "The Board of Trustees of the Foundation",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The Board of Trustees of the Foundation",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-faisal-prize-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "Who is the responsible party for nominating the winners?",
+          "questionDisplay": "Who is the responsible party for nominating the winners?",
+          "options": [
+            "The Secretariat of the Award",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The Secretariat of the Award",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-faisal-prize-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "Who can nominate a person for the King Faisal International Prize?",
+          "questionDisplay": "Who can nominate a person for the King Faisal International Prize?",
+          "options": [
+            "Islamic institutions, universities and previous winners",
+            "Ordinary individuals",
+            "Political parties",
+            "The King of Saudi Arabia only"
+          ],
+          "correctAnswer": "Islamic institutions, universities and previous winners",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-faisal-prize-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "What does the word “allocate” mean?",
+          "questionDisplay": "What does the word “allocate” mean?",
+          "options": [
+            "Assign money",
+            "specialized",
+            "specify",
+            "give"
+          ],
+          "correctAnswer": "Assign money",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-07-piece-03",
+      "order": 3,
+      "titleAr": "القطعة الثالثة",
+      "titleEn": "King Fahd Causeway",
+      "externalTitle": "ثالثاً / جسر الملك فهد",
+      "passage": "The idea of building a bridge linking the Kingdom of Bahrain to the Eastern region of the Kingdom of Saudi Arabia had been enticing the two kingdoms for generations. The idea was born out of King Saud's wish to nurture and further solidify the bond between the two Kingdoms, during an official visit to the State of Bahrain in 1954.\n\nIn 1965, the desire to construct the causeway began to take form officially when Sheikh Khalifa ibn Salman Al Khalifa the Prime Minister of the State of Bahrain paid a courtesy visit to King Faisal and the king expressed his wish to have the causeway constructed.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-07-king-fahd-causeway-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Who invented the idea of king Fahd bridge?",
+          "questionDisplay": "Who invented the idea of king Fahd bridge?",
+          "options": [
+            "King Saud",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "King Saud",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-fahd-causeway-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "The word it refers to?",
+          "questionDisplay": "The word it refers to?",
+          "options": [
+            "Joint committee",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Joint committee",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-fahd-causeway-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "World Bank provides?",
+          "questionDisplay": "World Bank provides?",
+          "options": [
+            "geographical and environmental factors.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "geographical and environmental factors.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-fahd-causeway-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "If the paragraph continued, what would it be about?",
+          "questionDisplay": "If the paragraph continued, what would it be about?",
+          "options": [
+            "New causeways to construct to other countries.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "New causeways to construct to other countries.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-fahd-causeway-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What is the paragraph 6 about?",
+          "questionDisplay": "What is the paragraph 6 about?",
+          "options": [
+            "describe the construction, facts about the causeway",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "describe the construction, facts about the causeway",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-fahd-causeway-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "A paragraph 7 talks about building mosques, an island, etc. What is the paragraph about?",
+          "questionDisplay": "A paragraph 7 talks about building mosques, an island, etc. What is the paragraph about?",
+          "options": [
+            "Facilities",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Facilities",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-fahd-causeway-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What is not found in the passage?",
+          "questionDisplay": "What is not found in the passage?",
+          "options": [
+            "Shopping malls",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Shopping malls",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-fahd-causeway-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "When did you start thinking officially?",
+          "questionDisplay": "When did you start thinking officially?",
+          "options": [
+            "1965",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "1965",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-fahd-causeway-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "Who called the bridge its name?",
+          "questionDisplay": "Who called the bridge its name?",
+          "options": [
+            "Essa Ibn Salman Khalifa",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Essa Ibn Salman Khalifa",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-fahd-causeway-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "Bahraini side of the bridge is long?",
+          "questionDisplay": "Bahraini side of the bridge is long?",
+          "options": [
+            "4,296 m",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "4,296 m",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-fahd-causeway-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "When was the bridge opened?",
+          "questionDisplay": "When was the bridge opened?",
+          "options": [
+            "November 26, 1986 - 24 Rabi` al-Awwal, 1407",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "November 26, 1986 - 24 Rabi` al-Awwal, 1407",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-fahd-causeway-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "Number of passengers in 2010?",
+          "questionDisplay": "Number of passengers in 2010?",
+          "options": [
+            "19 million",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "19 million",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-king-fahd-causeway-q13",
+          "sourceQuestionNumber": 13,
+          "displayOrder": 13,
+          "questionSource": "What is the best title of the passage?",
+          "questionDisplay": "What is the best title of the passage?",
+          "options": [
+            "bridges between two nations",
+            "Visiting Bahrain",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "bridges between two nations",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-07-piece-04",
+      "order": 4,
+      "titleAr": "القطعة الرابعة",
+      "titleEn": "Blood Types",
+      "externalTitle": "رابعاً / فصائل الدم",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-07-blood-types-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Type (O) blood can be donated to recipients with all four types of blood because .................",
+          "questionDisplay": "Type (O) blood can be donated to recipients with all four types of blood because .................",
+          "options": [
+            "a. it doesn't have antibodies or antigens for either type",
+            "b. it has A antigens",
+            "c. it has B antigens",
+            "d. it has AB antigens"
+          ],
+          "correctAnswer": "a. it doesn't have antibodies or antigens for either type",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-blood-types-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Blood group ........................ has no antigens.",
+          "questionDisplay": "Blood group ........................ has no antigens.",
+          "options": [
+            "(O)",
+            "(A)",
+            "(AB)",
+            "(B)"
+          ],
+          "correctAnswer": "(O)",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-blood-types-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "The blood type that can receive blood from all four types, but can only donate to other AB recipients is called................",
+          "questionDisplay": "The blood type that can receive blood from all four types, but can only donate to other AB recipients is called................",
+          "options": [
+            "(AB)",
+            "(O)",
+            "(A)",
+            "(B)"
+          ],
+          "correctAnswer": "(AB)",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-blood-types-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Which blood takes the donate from others?",
+          "questionDisplay": "Which blood takes the donate from others?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-07-blood-types-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Which blood allocates the donate to all others?",
+          "questionDisplay": "Which blood allocates the donate to all others?",
+          "options": [
+            "Blood type O.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Blood type O.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-blood-types-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What is the wrong sentence?",
+          "questionDisplay": "What is the wrong sentence?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-07-blood-types-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What does the word “compatible” mean?",
+          "questionDisplay": "What does the word “compatible” mean?",
+          "options": [
+            "Matching",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Matching",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-blood-types-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What does the word “completed” mean?",
+          "questionDisplay": "What does the word “completed” mean?",
+          "options": [
+            "Available"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-07-piece-05",
+      "order": 5,
+      "titleAr": "القطعة الخامسة",
+      "titleEn": "Animal Sleep",
+      "externalTitle": "خامساً / نوم الحيوانات",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-07-animal-sleep-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the animal that does not sleep much?",
+          "questionDisplay": "What is the animal that does not sleep much?",
+          "options": [
+            "Sheep",
+            "cat",
+            "moles",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Sheep",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-animal-sleep-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Snakes .....................?",
+          "questionDisplay": "Snakes .....................?",
+          "options": [
+            "May not really sleep.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "May not really sleep.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-animal-sleep-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Elephant .....................?",
+          "questionDisplay": "Elephant .....................?",
+          "options": [
+            "does NOT always sleep lying down.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "does NOT always sleep lying down.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-animal-sleep-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Cows and horses sleep.........?",
+          "questionDisplay": "Cows and horses sleep.........?",
+          "options": [
+            "usually open their eyes",
+            "Never close their eyes",
+            "seldom open their eyes",
+            "always close their eyes"
+          ],
+          "correctAnswer": "usually open their eyes",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-animal-sleep-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "All animals .............?",
+          "questionDisplay": "All animals .............?",
+          "options": [
+            "Spend some time resting.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Spend some time resting.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-animal-sleep-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What does the pronoun \"their\" refer to?",
+          "questionDisplay": "What does the pronoun \"their\" refer to?",
+          "options": [
+            "animals",
+            "Scientists",
+            "device name",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "animals",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-animal-sleep-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What does the word “dozing” mean?",
+          "questionDisplay": "What does the word “dozing” mean?",
+          "options": [
+            "Sleep",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Sleep",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-animal-sleep-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What does the word “clues” mean?",
+          "questionDisplay": "What does the word “clues” mean?",
+          "options": [
+            "signs",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "signs",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-animal-sleep-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "What is the main idea of the passage?",
+          "questionDisplay": "What is the main idea of the passage?",
+          "options": [
+            "Scientists able to study animals sleeping behavior.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Scientists able to study animals sleeping behavior.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-animal-sleep-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "Why do some animals better sleepers?",
+          "questionDisplay": "Why do some animals better sleepers?",
+          "options": [
+            "Because they have a safe place to sleep",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because they have a safe place to sleep",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-animal-sleep-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "What is the best way to test animal sleep?",
+          "questionDisplay": "What is the best way to test animal sleep?",
+          "options": [
+            "Use the electroencephalograph.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Use the electroencephalograph.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-animal-sleep-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "What is not true according to paragraph 2 and 3?",
+          "questionDisplay": "What is not true according to paragraph 2 and 3?",
+          "options": [
+            "Fish and snakes sleep eyes open. They don't like to close them.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Fish and snakes sleep eyes open. They don't like to close them.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-animal-sleep-q13",
+          "sourceQuestionNumber": 13,
+          "displayOrder": 13,
+          "questionSource": "The word stimuli is closest in meaning to?",
+          "questionDisplay": "The word stimuli is closest in meaning to?",
+          "options": [
+            "things produce a reaction in living organisms",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "things produce a reaction in living organisms",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-07-piece-06",
+      "order": 6,
+      "titleAr": "القطعة السادسة",
+      "titleEn": "Farmers in 1900",
+      "externalTitle": "سادساً / المزارعون عام 1900",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-07-farmers-1900-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does the pronoun “themselves” refer to?",
+          "questionDisplay": "What does the pronoun “themselves” refer to?",
+          "options": [
+            "Family farmers",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Family farmers",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-farmers-1900-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is the wrong sentence according to the paragraph?",
+          "questionDisplay": "What is the wrong sentence according to the paragraph?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-07-farmers-1900-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What is wrong with the options?",
+          "questionDisplay": "What is wrong with the options?",
+          "options": [
+            "Half of the farmers in 1900 were engaged in agriculture.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Half of the farmers in 1900 were engaged in agriculture.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-07-piece-07",
+      "order": 7,
+      "titleAr": "القطعة السابعة",
+      "titleEn": "Clothes in 1900",
+      "externalTitle": "سابعاً / الملابس عام 1900",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-07-clothes-1900-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "How was the clothes (wear)?",
+          "questionDisplay": "How was the clothes (wear)?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-07-piece-08",
+      "order": 8,
+      "titleAr": "القطعة الثامنة",
+      "titleEn": "Statue of Liberty",
+      "externalTitle": "ثامناً / تمثال الحرية",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-07-statue-liberty-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does the 2nd paragraph talk about?",
+          "questionDisplay": "What does the 2nd paragraph talk about?",
+          "options": [
+            "Description of the statue",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Description of the statue",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-statue-liberty-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What does it represent?",
+          "questionDisplay": "What does it represent?",
+          "options": [
+            "Liberty",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Liberty",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-statue-liberty-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What is the kind of passage?",
+          "questionDisplay": "What is the kind of passage?",
+          "options": [
+            "description",
+            "opinion",
+            "story",
+            "freedom"
+          ],
+          "correctAnswer": "description",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-statue-liberty-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is mentioned in the passage about the statue?",
+          "questionDisplay": "What is mentioned in the passage about the statue?",
+          "options": [
+            "recognized by people around the world.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "recognized by people around the world.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-statue-liberty-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Who gave the Statue of Liberty as a gift?",
+          "questionDisplay": "Who gave the Statue of Liberty as a gift?",
+          "options": [
+            "France",
+            "Spain",
+            "Britain",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "France",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-statue-liberty-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Why did France gift America the statue?",
+          "questionDisplay": "Why did France gift America the statue?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-07-statue-liberty-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What does she hold in her hand?",
+          "questionDisplay": "What does she hold in her hand?",
+          "options": [
+            "A book and torch",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "A book and torch",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-07-piece-09",
+      "order": 9,
+      "titleAr": "القطعة التاسعة",
+      "titleEn": "Where Food Goes",
+      "externalTitle": "تاسعاً / أين يذهب الطعام",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-07-food-destination-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Where do the food go?",
+          "questionDisplay": "Where do the food go?",
+          "options": [
+            "stomach",
+            "mouth",
+            "brain",
+            "kidneys"
+          ],
+          "correctAnswer": "stomach",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-food-destination-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "If you have 10 Riyal, what will you buy?",
+          "questionDisplay": "If you have 10 Riyal, what will you buy?",
+          "options": [
+            "sandwich",
+            "chicken",
+            "pizza",
+            "fish"
+          ],
+          "correctAnswer": "sandwich",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-07-piece-10",
+      "order": 10,
+      "titleAr": "القطعة العاشرة",
+      "titleEn": "Book Information",
+      "externalTitle": "عاشراً / معلومات الكتاب",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-07-book-information-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the information required about the book?",
+          "questionDisplay": "What is the information required about the book?",
+          "options": [
+            "The date of publication and publisher.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The date of publication and publisher.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-07-book-information-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What information do you find when searching for a book?",
+          "questionDisplay": "What information do you find when searching for a book?",
+          "options": [
+            "Date of publication and publisher",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Date of publication and publisher",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1202 @@
+{
+  "modelId": "model-04",
+  "modelNumber": 4,
+  "title": "النموذج الرابع",
+  "subtitle": "اختر قطعة داخل النموذج ثم ابدأ الاختبار",
+  "pieces": [
+    {
+      "pieceId": "reading-04-piece-01",
+      "order": 1,
+      "titleAr": "القطعة الأولى",
+      "titleEn": "Muhammad Ali Clay",
+      "externalTitle": "أولاً / محمد علي كلاي",
+      "passage": "Mohammed Ali Clay, an American boxer born on behalf of Cassius Marcellus Clay Jr, was born on 17 January 1942 to a family After converting to Islam in 1964 and changing his name to Mohammed Ali without his last name - Clay - Clay won the World Heavyweight Championships three times over twenty years.\n\nHe converted to Islam in 1964 and changed his name to Mohammed Ali without his last name - Clay - Clay won the World Heavyweight Championship three times over twenty years in 1964, 1974 and 1978. He died on June 3, 2016 at the age of 74 after a long struggle with Parkinson's disease.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-04-muhammad-ali-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Where did he get the gold medal from?",
+          "questionDisplay": "Where did he get the gold medal from?",
+          "options": [
+            "Roma",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Roma",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-muhammad-ali-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "When did he change his name?",
+          "questionDisplay": "When did he change his name?",
+          "options": [
+            "In the same year he defeated Sonny Liston.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "In the same year he defeated Sonny Liston.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-muhammad-ali-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "When he won the gold medal, he was?",
+          "questionDisplay": "When he won the gold medal, he was?",
+          "options": [
+            "An amateur boxer",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "An amateur boxer",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-muhammad-ali-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "How old was he when he converted to Islam?",
+          "questionDisplay": "How old was he when he converted to Islam?",
+          "options": [
+            "22 years old",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "22 years old",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-muhammad-ali-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What is the meaning of the word “??????”?",
+          "questionDisplay": "What is the meaning of the word “??????”?",
+          "options": [
+            "Change",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Change",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-muhammad-ali-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "How many competitions did he take part in until he got the medal?",
+          "questionDisplay": "How many competitions did he take part in until he got the medal?",
+          "options": [
+            "3 tournaments",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "3 tournaments",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-muhammad-ali-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What does “assumed” mean?",
+          "questionDisplay": "What does “assumed” mean?",
+          "options": [
+            "Took",
+            "Posited",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "Took",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-muhammad-ali-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "Who supported his rejection of the Vietnam War?",
+          "questionDisplay": "Who supported his rejection of the Vietnam War?",
+          "options": [
+            "The Supreme Court",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The Supreme Court",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-muhammad-ali-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "How old was he when he won the championships?",
+          "questionDisplay": "How old was he when he won the championships?",
+          "options": [
+            "22 years old",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "22 years old",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-muhammad-ali-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "When did he win the third golden medal?",
+          "questionDisplay": "When did he win the third golden medal?",
+          "options": [
+            "1978",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "1978",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-muhammad-ali-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "Who did he beat before becoming famous after the third prize?",
+          "questionDisplay": "Who did he beat before becoming famous after the third prize?",
+          "options": [
+            "Leon",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Leon",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-muhammad-ali-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "How old was he when he won the medal?",
+          "questionDisplay": "How old was he when he won the medal?",
+          "options": [
+            "Thirty-six years old",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Thirty-six years old",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-muhammad-ali-q13",
+          "sourceQuestionNumber": 13,
+          "displayOrder": 13,
+          "questionSource": "When did he die?",
+          "questionDisplay": "When did he die?",
+          "options": [
+            "June 3, 2016",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "June 3, 2016",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-04-piece-02",
+      "order": 2,
+      "titleAr": "القطعة الثانية",
+      "titleEn": "Cupping",
+      "externalTitle": "ثانياً / الحجامة",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-04-cupping-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What are the benefits of cupping?",
+          "questionDisplay": "What are the benefits of cupping?",
+          "options": [
+            "Energize the body",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Energize the body",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-cupping-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "When is it recommended to do cupping?",
+          "questionDisplay": "When is it recommended to do cupping?",
+          "options": [
+            "Once a year or more",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Once a year or more",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-cupping-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What are the reasons for a headache?",
+          "questionDisplay": "What are the reasons for a headache?",
+          "options": [
+            "Toxin",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Toxin",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-cupping-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "How is cupping done?",
+          "questionDisplay": "How is cupping done?",
+          "options": [
+            "Wound’s injury",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Wound’s injury",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-cupping-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Is cupping recommended?",
+          "questionDisplay": "Is cupping recommended?",
+          "options": [
+            "Yes, it is recommended by Prophet Muhammad",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Yes, it is recommended by Prophet Muhammad",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-cupping-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Cupping treats these except?",
+          "questionDisplay": "Cupping treats these except?",
+          "options": [
+            "Cut of body",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Cut of body",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-cupping-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "Which of these things is needed for cupping according to what was mentioned in the paragraph?",
+          "questionDisplay": "Which of these things is needed for cupping according to what was mentioned in the paragraph?",
+          "options": [
+            "Clean instrument",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Clean instrument",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-04-piece-03",
+      "order": 3,
+      "titleAr": "القطعة الثالثة",
+      "titleEn": "Pigeons",
+      "externalTitle": "ثالثاً / الحمام",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-04-pigeons-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does Paragraph 1 talk about?",
+          "questionDisplay": "What does Paragraph 1 talk about?",
+          "options": [
+            "Mixed feelings",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Mixed feelings",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-pigeons-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What does “nocturnal” mean?",
+          "questionDisplay": "What does “nocturnal” mean?",
+          "options": [
+            "Active at night",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Active at night",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-pigeons-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Why did the writer say that pigeons are similar to mice and rats?",
+          "questionDisplay": "Why did the writer say that pigeons are similar to mice and rats?",
+          "options": [
+            "They feed on the fallen food.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "They feed on the fallen food.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-pigeons-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Why did the writer not breathe?",
+          "questionDisplay": "Why did the writer not breathe?",
+          "options": [
+            "The smell of pigeon waste",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The smell of pigeon waste",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-pigeons-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Where did the pigeons build nests?",
+          "questionDisplay": "Where did the pigeons build nests?",
+          "options": [
+            "They build nests in any place.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "They build nests in any place.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-pigeons-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Urban pigeons are dirty because of?",
+          "questionDisplay": "Urban pigeons are dirty because of?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-04-pigeons-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What is NOT a use of pigeons?",
+          "questionDisplay": "What is NOT a use of pigeons?",
+          "options": [
+            "They are pets",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "They are pets",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-pigeons-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What is the paragraph about?",
+          "questionDisplay": "What is the paragraph about?",
+          "options": [
+            "Pigeons can live in all circumstances or conditions.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Pigeons can live in all circumstances or conditions.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-04-piece-04",
+      "order": 4,
+      "titleAr": "القطعة الرابعة",
+      "titleEn": "Ants",
+      "externalTitle": "رابعاً / النمل",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-04-ants-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Do all the ants lay eggs?",
+          "questionDisplay": "Do all the ants lay eggs?",
+          "options": [
+            "No, only the queen",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "No, only the queen",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-ants-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Which creatures have no skeleton?",
+          "questionDisplay": "Which creatures have no skeleton?",
+          "options": [
+            "All insects",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "All insects",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-ants-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "In which paragraph do all workers protect?",
+          "questionDisplay": "In which paragraph do all workers protect?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-04-ants-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "How do ants know each other?",
+          "questionDisplay": "How do ants know each other?",
+          "options": [
+            "By smell",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "By smell",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-ants-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What does the pronoun “they” refer to?",
+          "questionDisplay": "What does the pronoun “they” refer to?",
+          "options": [
+            "Ants",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Ants",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-ants-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Where do ants live?",
+          "questionDisplay": "Where do ants live?",
+          "options": [
+            "Colonies",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Colonies",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-ants-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "Which is true?",
+          "questionDisplay": "Which is true?",
+          "options": [
+            "They cut food and eat",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "They cut food and eat",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-ants-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What food can ants eat?",
+          "questionDisplay": "What food can ants eat?",
+          "options": [
+            "Liquid",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Liquid",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-ants-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "What is the meaning of the word “colony”?",
+          "questionDisplay": "What is the meaning of the word “colony”?",
+          "options": [
+            "Habitation",
+            "Settlement"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-04-ants-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "What does the word “compound” mean?",
+          "questionDisplay": "What does the word “compound” mean?",
+          "options": [
+            "Complex",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Complex",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-ants-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "Do ants live long?",
+          "questionDisplay": "Do ants live long?",
+          "options": [
+            "They live for a period of 20 to 30 days.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "They live for a period of 20 to 30 days.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-ants-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "What are the holes in the ant’s eyes?",
+          "questionDisplay": "What are the holes in the ant’s eyes?",
+          "options": [
+            "The ant has two eyes, and in every eye there are some eyes.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The ant has two eyes, and in every eye there are some eyes.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-ants-q13",
+          "sourceQuestionNumber": 13,
+          "displayOrder": 13,
+          "questionSource": "What is the best title for the passage?",
+          "questionDisplay": "What is the best title for the passage?",
+          "options": [
+            "The Fascinating Creatures",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The Fascinating Creatures",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-04-piece-05",
+      "order": 5,
+      "titleAr": "القطعة الخامسة",
+      "titleEn": "Watching Television",
+      "externalTitle": "خامساً / مشاهدة التلفاز",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-04-watching-tv-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Why do people watch TV?",
+          "questionDisplay": "Why do people watch TV?",
+          "options": [
+            "To spend more enjoyable time for entertainment (have fun).",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "To spend more enjoyable time for entertainment (have fun).",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-watching-tv-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "How does watching TV shorten your life?",
+          "questionDisplay": "How does watching TV shorten your life?",
+          "options": [
+            "Staying long hours without moving.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Staying long hours without moving.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-watching-tv-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "How does exercising make your life longer?",
+          "questionDisplay": "How does exercising make your life longer?",
+          "options": [
+            "Giving you 3 years to your life, reducing the rate of death by 14%, and reducing other dangers by 4%.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Giving you 3 years to your life, reducing the rate of death by 14%, and reducing other dangers by 4%.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-watching-tv-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "According to Paragraph 4, exercising for 15 minutes a day can:",
+          "questionDisplay": "According to Paragraph 4, exercising for 15 minutes a day can:",
+          "options": [
+            "Add three years to the total time of your life.",
+            "Extend your life for 22 minutes.",
+            "Reduce the risk of death by 4%.",
+            "Reduce heart disease by 4%."
+          ],
+          "correctAnswer": "Add three years to the total time of your life.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-watching-tv-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What does “premature” mean?",
+          "questionDisplay": "What does “premature” mean?",
+          "options": [
+            "Early",
+            "Late",
+            "Final",
+            "Developing"
+          ],
+          "correctAnswer": "Early",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-watching-tv-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "According to Paragraph 2, people who watch a lot of television:",
+          "questionDisplay": "According to Paragraph 2, people who watch a lot of television:",
+          "options": [
+            "They cut off 11 minutes of their lives.",
+            "Get the exciting of exercises",
+            "Eat plenty of food",
+            "Breathe cigarette smoke"
+          ],
+          "correctAnswer": "They cut off 11 minutes of their lives.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-watching-tv-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "According to the text, what activity can increase the health risks of diabetes and heart disease by 20%?",
+          "questionDisplay": "According to the text, what activity can increase the health risks of diabetes and heart disease by 20%?",
+          "options": [
+            "Watch TV for two hours a day.",
+            "A lifestyle that is generally inactive",
+            "Over-eating unhealthy food",
+            "Smoking"
+          ],
+          "correctAnswer": "Watch TV for two hours a day.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-watching-tv-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "كم يموتون الذين على التلفاز؟",
+          "questionDisplay": "كم يموتون الذين على التلفاز؟",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-04-watching-tv-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "كم المعدل اليومي للجلوس على التلفاز؟",
+          "questionDisplay": "كم المعدل اليومي للجلوس على التلفاز؟",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-04-piece-06",
+      "order": 6,
+      "titleAr": "القطعة السادسة",
+      "titleEn": "Bone Soup",
+      "externalTitle": "سادساً / مرق العظام",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-04-bone-soup-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does the pronoun “that” refer to?",
+          "questionDisplay": "What does the pronoun “that” refer to?",
+          "options": [
+            "Minerals",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Minerals",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-bone-soup-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What happened to the people who don’t drink bone soup?",
+          "questionDisplay": "What happened to the people who don’t drink bone soup?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-04-bone-soup-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What is the meaning of the word “lacking”?",
+          "questionDisplay": "What is the meaning of the word “lacking”?",
+          "options": [
+            "Missing",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Missing",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-04-piece-07",
+      "order": 7,
+      "titleAr": "القطعة السابعة",
+      "titleEn": "Meeting Email",
+      "externalTitle": "سابعاً / البريد والاجتماع",
+      "passage": "An email from someone informing him about the preparations for the next meeting. And that it is necessary to come early and answer with him the paper he forgot on the desk the last day.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-04-meeting-email-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "When was the previous meeting?",
+          "questionDisplay": "When was the previous meeting?",
+          "options": [
+            "The day before the message",
+            "The day before message",
+            "On the same day",
+            "Before sending"
+          ],
+          "correctAnswer": "The day before the message",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-meeting-email-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "When was the last meeting?",
+          "questionDisplay": "When was the last meeting?",
+          "options": [
+            "The day before the message",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The day before the message",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-meeting-email-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Why was the manager angry at the clerk?",
+          "questionDisplay": "Why was the manager angry at the clerk?",
+          "options": [
+            "Because he came later than him.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because he came later than him.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-meeting-email-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Why was he upset with him?",
+          "questionDisplay": "Why was he upset with him?",
+          "options": [
+            "Because the secretary arrived late last time.",
+            "He apologized",
+            "He did not bring the papers or files.",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Because the secretary arrived late last time.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-04-piece-08",
+      "order": 8,
+      "titleAr": "القطعة الثامنة",
+      "titleEn": "Job Offer",
+      "externalTitle": "ثامناً / العرض الوظيفي",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-04-job-offer-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What are the skills required for the jobs?",
+          "questionDisplay": "What are the skills required for the jobs?",
+          "options": [
+            "Bachelor degree and fluent in English",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Bachelor degree and fluent in English",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-job-offer-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is NOT mentioned in the job offer?",
+          "questionDisplay": "What is NOT mentioned in the job offer?",
+          "options": [
+            "Salary",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Salary",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-job-offer-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Which company is asking for applicants for these jobs?",
+          "questionDisplay": "Which company is asking for applicants for these jobs?",
+          "options": [
+            "Travel and tourism company",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Travel and tourism company",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-job-offer-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What does the word “forceful” mean?",
+          "questionDisplay": "What does the word “forceful” mean?",
+          "options": [
+            "Powerful",
+            "Smart",
+            "Mindful",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Powerful",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-04-job-offer-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What does the word “express” mean?",
+          "questionDisplay": "What does the word “express” mean?",
+          "options": [
+            "Explain",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Explain",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-04-piece-09",
+      "order": 9,
+      "titleAr": "القطعة التاسعة",
+      "titleEn": "Dave’s Response",
+      "externalTitle": "تاسعاً / رد ديف",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-04-dave-response-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is Dave’s response?",
+          "questionDisplay": "What is Dave’s response?",
+          "options": [
+            "Working",
+            "Fast",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "Working",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-04-piece-10",
+      "order": 10,
+      "titleAr": "القطعة العاشرة",
+      "titleEn": "Questionnaires",
+      "externalTitle": "عاشراً / الاستبيان",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-04-questionnaires-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Who should respond to the questionnaires?",
+          "questionDisplay": "Who should respond to the questionnaires?",
+          "options": [
+            "The students",
+            "The students and professors",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "The students",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-04-piece-11",
+      "order": 11,
+      "titleAr": "القطعة الحادية عشرة",
+      "titleEn": "Health Chart",
+      "externalTitle": "الحادي عشر / الرسم البياني الصحي",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-04-health-chart-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "When was the highest percentage of high health in cities?",
+          "questionDisplay": "When was the highest percentage of high health in cities?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    }
+  ]
+}

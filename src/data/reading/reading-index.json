@@ -1,0 +1,58 @@
+[
+  {
+    "modelId": "model-01",
+    "modelNumber": 1,
+    "title": "النموذج الأول",
+    "pieceCount": 9,
+    "questionCount": 60
+  },
+  {
+    "modelId": "model-02",
+    "modelNumber": 2,
+    "title": "النموذج الثاني",
+    "pieceCount": 7,
+    "questionCount": 49
+  },
+  {
+    "modelId": "model-03",
+    "modelNumber": 3,
+    "title": "النموذج الثالث",
+    "pieceCount": 9,
+    "questionCount": 81
+  },
+  {
+    "modelId": "model-04",
+    "modelNumber": 4,
+    "title": "النموذج الرابع",
+    "pieceCount": 11,
+    "questionCount": 65
+  },
+  {
+    "modelId": "model-05",
+    "modelNumber": 5,
+    "title": "النموذج الخامس",
+    "pieceCount": 12,
+    "questionCount": 81
+  },
+  {
+    "modelId": "model-06",
+    "modelNumber": 6,
+    "title": "النموذج السادس",
+    "pieceCount": 9,
+    "questionCount": 46
+  },
+  {
+    "modelId": "model-07",
+    "modelNumber": 7,
+    "title": "النموذج السابع",
+    "pieceCount": 10,
+    "questionCount": 65
+  },
+  {
+    "modelId": "model-08",
+    "modelNumber": 8,
+    "title": "النموذج الثامن",
+    "pieceCount": 12,
+    "questionCount": 62
+  }
+]

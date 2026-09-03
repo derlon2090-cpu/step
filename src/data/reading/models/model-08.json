@@ -1,0 +1,1179 @@
+{
+  "modelId": "model-08",
+  "modelNumber": 8,
+  "title": "النموذج الثامن",
+  "subtitle": "اختر قطعة داخل النموذج ثم ابدأ الاختبار",
+  "pieces": [
+    {
+      "pieceId": "reading-08-piece-01",
+      "order": 1,
+      "titleAr": "القطعة الأولى",
+      "titleEn": "Currencies",
+      "externalTitle": "أولاً / العملات",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-08-currencies-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the wrong answer about deriving a currency?",
+          "questionDisplay": "What is the wrong answer about deriving a currency?",
+          "options": [
+            "about names of king",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "about names of king",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-currencies-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is the origin of the riyal?",
+          "questionDisplay": "What is the origin of the riyal?",
+          "options": [
+            "Spanish- royal.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Spanish- royal.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-currencies-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What are the similarities between the ringgit and the Mexican currency?",
+          "questionDisplay": "What are the similarities between the ringgit and the Mexican currency?",
+          "options": [
+            "They are all made of the same material.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "They are all made of the same material.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-currencies-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is the origin of the word dollar?",
+          "questionDisplay": "What is the origin of the word dollar?",
+          "options": [
+            "Germany",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Germany",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-currencies-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What is the meaning of derivation?",
+          "questionDisplay": "What is the meaning of derivation?",
+          "options": [
+            "Originated",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Originated",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-currencies-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What is the most expensive currency?",
+          "questionDisplay": "What is the most expensive currency?",
+          "options": [
+            "The Kuwaiti Dinar",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "The Kuwaiti Dinar",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-currencies-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "Peso is taken from the weight. What does this mean?",
+          "questionDisplay": "Peso is taken from the weight. What does this mean?",
+          "options": [
+            "Peso is taken from the weight.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Peso is taken from the weight.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-currencies-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What is the derivation of the peso?",
+          "questionDisplay": "What is the derivation of the peso?",
+          "options": [
+            "Light weight",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Light weight",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-currencies-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "What does the pronoun “it” refer to?",
+          "questionDisplay": "What does the pronoun “it” refer to?",
+          "options": [
+            "Peso",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Peso",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-currencies-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "The dinar and rupee have which characteristic?",
+          "questionDisplay": "The dinar and rupee have which characteristic?",
+          "options": [
+            "material",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "material",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-currencies-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "Which currency is referred to again?",
+          "questionDisplay": "Which currency is referred to again?",
+          "options": [
+            "Dinar Kuwaiti",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Dinar Kuwaiti",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-08-piece-02",
+      "order": 2,
+      "titleAr": "القطعة الثانية",
+      "titleEn": "Dolphins City",
+      "externalTitle": "ثانياً / مدينة الدلافين",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-08-dolphins-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Which of the following applies to dolphins?",
+          "questionDisplay": "Which of the following applies to dolphins?",
+          "options": [
+            "They are smart",
+            "Avoid eating animals",
+            "They have many colors",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "They are smart",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-dolphins-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Who is the welcome message directed to?",
+          "questionDisplay": "Who is the welcome message directed to?",
+          "options": [
+            "Visitors watching dolphins",
+            "For people who came to see the fish",
+            "People who attended the museum",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Visitors watching dolphins",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-dolphins-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What are they explaining in this passage?",
+          "questionDisplay": "What are they explaining in this passage?",
+          "options": [
+            "Dolphins City",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Dolphins City",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-08-piece-03",
+      "order": 3,
+      "titleAr": "القطعة الثالثة",
+      "titleEn": "Thomas Edison",
+      "externalTitle": "ثالثاً / توماس إديسون",
+      "passage": "Thomas Edison (February 11, 1847 – October 18, 1931) was an American inventor and businessman. He developed many devices that greatly influenced life around the world, including the phonograph, the motion picture camera, and a long-lasting, practical electric light bulb. He was one of the first inventors to apply the principles of mass production and large-scale teamwork to the process of invention, and because of that, he is often credited with the creation of the first industrial research laboratory.\n\nEdison was a prolific inventor, holding 1,093 US patents, as well as many patents in the United Kingdom, France, and Germany. More significant than the number of Edison's patents, are the impacts of his inventions, because Edison not only invented things, his inventions established major new industries worldwide, notably, electric light and power utilities, sound recording and motion pictures. Edison's inventions contributed to mass communication and, in particular, telecommunications.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-08-edison-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the best title?",
+          "questionDisplay": "What is the best title?",
+          "options": [
+            "Edison the great inventor",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Edison the great inventor",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-edison-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What made him famous?",
+          "questionDisplay": "What made him famous?",
+          "options": [
+            "invention of the light bulb",
+            "The phonograph",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "invention of the light bulb",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-edison-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What does “it” refer to?",
+          "questionDisplay": "What does “it” refer to?",
+          "options": [
+            "Deafness"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-08-edison-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What invention is mentioned in the section?",
+          "questionDisplay": "What invention is mentioned in the section?",
+          "options": [
+            "electric light and power",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "electric light and power",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-edison-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Why was he fired from work?",
+          "questionDisplay": "Why was he fired from work?",
+          "options": [
+            "started fire.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "started fire.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-edison-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "How did he open a shop?",
+          "questionDisplay": "How did he open a shop?",
+          "options": [
+            "Because he sold the Stick for 40,000",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because he sold the Stick for 40,000",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-edison-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "He considered his deafness as a/an:",
+          "questionDisplay": "He considered his deafness as a/an:",
+          "options": [
+            "Advantage",
+            "Positive",
+            "Feature advantage",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Advantage",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-edison-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What does the word “bless” mean?",
+          "questionDisplay": "What does the word “bless” mean?",
+          "options": [
+            "Happy = glad = joyful",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Happy = glad = joyful",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-08-piece-04",
+      "order": 4,
+      "titleAr": "القطعة الرابعة",
+      "titleEn": "The Salt Legend",
+      "externalTitle": "رابعاً / أسطورة الملح",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-08-salt-legend-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the kind of the passage?",
+          "questionDisplay": "What is the kind of the passage?",
+          "options": [
+            "Epic",
+            "Tale",
+            "Fictions",
+            "Mystery"
+          ],
+          "correctAnswer": "Epic",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-salt-legend-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is the type of story?",
+          "questionDisplay": "What is the type of story?",
+          "options": [
+            "Epic",
+            "Factitious",
+            "Mystery",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Epic",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-salt-legend-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What kind of story is in section 2?",
+          "questionDisplay": "What kind of story is in section 2?",
+          "options": [
+            "Real",
+            "romantic",
+            "sport",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Real",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-salt-legend-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What does the word “legend” mean?",
+          "questionDisplay": "What does the word “legend” mean?",
+          "options": [
+            "Mythical story or tale",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Mythical story or tale",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-salt-legend-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What does the word “legend” mean?",
+          "questionDisplay": "What does the word “legend” mean?",
+          "options": [
+            "tale",
+            "mine",
+            "epic",
+            "salt"
+          ],
+          "correctAnswer": "tale",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-salt-legend-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Where did they find the queen’s ring?",
+          "questionDisplay": "Where did they find the queen’s ring?",
+          "options": [
+            "In Salt mine",
+            "A heap of salt",
+            "Sand pile",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "In Salt mine",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-salt-legend-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What did the queen ask the servants to?",
+          "questionDisplay": "What did the queen ask the servants to?",
+          "options": [
+            "find some water",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "find some water",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-salt-legend-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "Miners began to carve sculptures from rock salt because....?",
+          "questionDisplay": "Miners began to carve sculptures from rock salt because....?",
+          "options": [
+            "Safer than wood",
+            "Easy to burn",
+            "Chamber destroy",
+            "less dangerous"
+          ],
+          "correctAnswer": "Safer than wood",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-salt-legend-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "Why did the queen ask the servants to dig the well?",
+          "questionDisplay": "Why did the queen ask the servants to dig the well?",
+          "options": [
+            "Find a source of water",
+            "Gold mine",
+            "dig a mine",
+            "Bring her some water"
+          ],
+          "correctAnswer": "Find a source of water",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-salt-legend-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "What happened to them while they were in the mine?",
+          "questionDisplay": "What happened to them while they were in the mine?",
+          "options": [
+            "Burned out",
+            "chamber has burned"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-08-salt-legend-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "What does the pronoun “it” refer to?",
+          "questionDisplay": "What does the pronoun “it” refer to?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-08-piece-05",
+      "order": 5,
+      "titleAr": "القطعة الخامسة",
+      "titleEn": "Khaled’s Workshop",
+      "externalTitle": "خامساً / ورشة العمل",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-08-workshop-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does the word pleased mean?",
+          "questionDisplay": "What does the word pleased mean?",
+          "options": [
+            "Happy",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Happy",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Someone decided to come back and take the worksheet again why?",
+          "questionDisplay": "Someone decided to come back and take the worksheet again why?",
+          "options": [
+            "he needs to focus on the worksheet more.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "he needs to focus on the worksheet more.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "How does he use it to control?",
+          "questionDisplay": "How does he use it to control?",
+          "options": [
+            "in different areas of his life.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "in different areas of his life.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What does the word effortless mean?",
+          "questionDisplay": "What does the word effortless mean?",
+          "options": [
+            "Without work",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Without work",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "How long did it take?",
+          "questionDisplay": "How long did it take?",
+          "options": [
+            "More than 4 hours",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "More than 4 hours",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Why did he take longer time?",
+          "questionDisplay": "Why did he take longer time?",
+          "options": [
+            "Because he forgot his bag",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Because he forgot his bag",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What did you remember when he was driving?",
+          "questionDisplay": "What did you remember when he was driving?",
+          "options": [
+            "He forgot his bag.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "He forgot his bag.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What does he do to his wife?",
+          "questionDisplay": "What does he do to his wife?",
+          "options": [
+            "he gives her jewelry.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "he gives her jewelry.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "What is the meeting about?",
+          "questionDisplay": "What is the meeting about?",
+          "options": [
+            "Worksheet.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Worksheet.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "What is the purpose of this workshop?",
+          "questionDisplay": "What is the purpose of this workshop?",
+          "options": [
+            "Discipline",
+            "Lesson plan",
+            "Energy",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "Discipline",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "Why is he so excited?",
+          "questionDisplay": "Why is he so excited?",
+          "options": [
+            "gift of his wife beautiful",
+            "He has a beautiful son",
+            "share the things that he learns with others",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "gift of his wife beautiful",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "When was the meeting?",
+          "questionDisplay": "When was the meeting?",
+          "options": [
+            "On weekend",
+            "at the end of a weekend",
+            "Not mentioned in the passage.",
+            "Another possibility."
+          ],
+          "correctAnswer": "On weekend",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q13",
+          "sourceQuestionNumber": 13,
+          "displayOrder": 13,
+          "questionSource": "At the end of the meeting, he thanked?",
+          "questionDisplay": "At the end of the meeting, he thanked?",
+          "options": [
+            "everybody",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "everybody",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q14",
+          "sourceQuestionNumber": 14,
+          "displayOrder": 14,
+          "questionSource": "Who did he thank after finishing the workshop?",
+          "questionDisplay": "Who did he thank after finishing the workshop?",
+          "options": [
+            "All present people.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "All present people.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-workshop-q15",
+          "sourceQuestionNumber": 15,
+          "displayOrder": 15,
+          "questionSource": "What makes him need more time for what he learned?",
+          "questionDisplay": "What makes him need more time for what he learned?",
+          "options": [
+            "He forgot his bag.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "He forgot his bag.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-08-piece-06",
+      "order": 6,
+      "titleAr": "القطعة السادسة",
+      "titleEn": "Car Specifications",
+      "externalTitle": "سادساً / مواصفات السيارة",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-08-car-specifications-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Whose specifications are these?",
+          "questionDisplay": "Whose specifications are these?",
+          "options": [
+            "Car",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Car",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-08-piece-07",
+      "order": 7,
+      "titleAr": "القطعة السابعة",
+      "titleEn": "Social Media Survey",
+      "externalTitle": "سابعاً / وسائل التواصل الاجتماعي",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-08-social-media-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Which program is used least by women?",
+          "questionDisplay": "Which program is used least by women?",
+          "options": [
+            "LinkedIn",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "LinkedIn",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-social-media-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is the most popular program?",
+          "questionDisplay": "What is the most popular program?",
+          "options": [
+            "Instagram",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Instagram",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-social-media-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "How long do most men use social media?",
+          "questionDisplay": "How long do most men use social media?",
+          "options": [
+            "1-3 hours",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "1-3 hours",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-social-media-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "How long do most people use social media?",
+          "questionDisplay": "How long do most people use social media?",
+          "options": [
+            "4-6 hours",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "4-6 hours",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-08-piece-08",
+      "order": 8,
+      "titleAr": "القطعة الثامنة",
+      "titleEn": "Dentist Information Card",
+      "externalTitle": "ثامناً / بطاقة معلومات طبيب الأسنان",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-08-dentist-card-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Which answer has the information in the required order?",
+          "questionDisplay": "Which answer has the information in the required order?",
+          "options": [
+            "Almutlg, Isa — 32 — France — dentist.",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Almutlg, Isa — 32 — France — dentist.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-08-piece-09",
+      "order": 9,
+      "titleAr": "القطعة التاسعة",
+      "titleEn": "Swimming Sign",
+      "externalTitle": "تاسعاً / لوحة السباحة",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-08-swimming-sign-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does “No Non Swimmers Beyond This Point” mean?",
+          "questionDisplay": "What does “No Non Swimmers Beyond This Point” mean?",
+          "options": [
+            "stop if you cannot swim",
+            "It is not allowed to children",
+            "it is not allowed to go further",
+            "Not mentioned in the passage."
+          ],
+          "correctAnswer": "stop if you cannot swim",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-08-piece-10",
+      "order": 10,
+      "titleAr": "القطعة العاشرة",
+      "titleEn": "Tom and Roger",
+      "externalTitle": "عاشراً / توم وروجر",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-08-tom-roger-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What did Tom ask Roger?",
+          "questionDisplay": "What did Tom ask Roger?",
+          "options": [
+            "Can I visit you at weekend?",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "Can I visit you at weekend?",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-08-piece-11",
+      "order": 11,
+      "titleAr": "القطعة الحادية عشرة",
+      "titleEn": "Omar and Ali",
+      "externalTitle": "الحادي عشر / عمر وعلي",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-08-omar-ali-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does Omar want from Ali?",
+          "questionDisplay": "What does Omar want from Ali?",
+          "options": [
+            "To reply",
+            "Not mentioned in the passage.",
+            "Another possibility.",
+            "None of these."
+          ],
+          "correctAnswer": "To reply",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-omar-ali-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "When is the dinner?",
+          "questionDisplay": "When is the dinner?",
+          "options": [],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-08-piece-12",
+      "order": 12,
+      "titleAr": "القطعة الثانية عشرة",
+      "titleEn": "Fish",
+      "externalTitle": "الثاني عشر / الأسماك",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-08-fish-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the main idea of this passage?",
+          "questionDisplay": "What is the main idea of this passage?",
+          "options": [
+            "the types of fish",
+            "the colors of fish",
+            "fish are fascinating animals",
+            "how fish live and play in water"
+          ],
+          "correctAnswer": "the types of fish",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-fish-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "The word “resemble” in paragraph 1 is closest in meaning to:",
+          "questionDisplay": "The word “resemble” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "look like",
+            "differ from",
+            "live in",
+            "move"
+          ],
+          "correctAnswer": "look like",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-fish-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What does the word in paragraph 2 refer to?",
+          "questionDisplay": "What does the word in paragraph 2 refer to?",
+          "options": [
+            "oxygen",
+            "fish",
+            "water",
+            "a river"
+          ],
+          "correctAnswer": "oxygen",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-08-fish-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "According to paragraph 3, what are scientists expected to find more of?",
+          "questionDisplay": "According to paragraph 3, what are scientists expected to find more of?",
+          "options": [
+            "fish",
+            "animals",
+            "kinds of animals",
+            "species of animals"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    }
+  ]
+}

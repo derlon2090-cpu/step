@@ -1,6 +1,33 @@
 import './style.css';
 import { readings } from './data/readings.js';
-import { manualQuizModelsById, wordGlossary } from './data/manualQuizzes.js';
+import { wordGlossary } from './data/manualQuizzes.js';
+
+const jsonModelFiles = import.meta.glob('./data/reading/models/model-*.json', { eager: true, import: 'default' });
+const jsonModelsById = new Map(Object.values(jsonModelFiles).map((model) => [
+  `reading-${String(model.modelNumber).padStart(2, '0')}`,
+  {
+    id: `reading-${String(model.modelNumber).padStart(2, '0')}`,
+    order: model.modelNumber,
+    title: model.title,
+    subtitle: model.subtitle,
+    passages: model.pieces.map((piece) => ({
+      id: piece.pieceId.replace(/^model-\d+-piece-/, '').toLowerCase(),
+      order: piece.order,
+      title: piece.titleAr,
+      englishTitle: piece.titleEn,
+      externalTitle: piece.externalTitle,
+      passageText: piece.passage,
+      questions: piece.questions.map((question) => ({
+        id: question.id,
+        number: question.displayOrder,
+        question: question.questionDisplay ?? question.questionSource,
+        correctAnswer: question.correctAnswer,
+        explanation: question.sourceNote,
+        options: question.options.map((text, index) => ({ id: `${question.id}-o${index + 1}`, text, isCorrect: text === question.correctAnswer })),
+      })),
+    })),
+  },
+]));
 
 const storageKey = 'step-reading-progress-v2';
 const readStored = (key, fallback) => {
@@ -30,7 +57,7 @@ const arabicModelNames = [
 ];
 
 const models = readings.map((reading) => {
-  const manual = manualQuizModelsById.get(reading.id);
+  const manual = jsonModelsById.get(reading.id);
   return {
     id: reading.id,
     order: reading.order,
