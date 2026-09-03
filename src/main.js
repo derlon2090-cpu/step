@@ -78,6 +78,7 @@ function visibleModels() {
 }
 
 function displayedOptions(question) {
+  if (!question.options.length) return [];
   const offset = question.number % question.options.length;
   return [...question.options.slice(offset), ...question.options.slice(0, offset)];
 }
@@ -159,6 +160,7 @@ function quizView(model, passage) {
   const index = Math.min(state.questionIndex, passage.questions.length - 1);
   const question = passage.questions[index];
   const selectedId = activeAnswers[question.id];
+  const answerPending = question.correctAnswer === null;
   const selectedOption = question.options.find((option) => option.id === selectedId);
   const answeredCorrectly = selectedOption?.isCorrect;
   const isLastQuestion = index === passage.questions.length - 1;
@@ -183,6 +185,7 @@ function quizView(model, passage) {
           ${displayedOptions(question).map((option, optionIndex) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && option.isCorrect ? 'correct' : ''} ${selectedId === option.id && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}" ${selectedId ? 'disabled' : ''}>
             <span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span>
           </button>`).join('')}
+          ${answerPending && !question.options.length ? '<div class="pending-answer">مفتاح الإجابة والخيارات قيد المراجعة. يمكنك الانتقال للسؤال التالي.</div>' : ''}
         </div>
         ${selectedId ? answeredCorrectly ? '<p class="answer-note correct-note">صحيح، إجابتك ممتازة.</p>' : `<div class="answer-note wrong-note"><strong>${question.correctAnswer ? `غير صحيح. الحل الصحيح: ${escapeHtml(question.correctAnswer)}` : 'لم تُحدَّد الإجابة الصحيحة في المصدر.'}</strong><p>${escapeHtml(question.explanation)}</p></div>` : ''}
       </article>
@@ -192,7 +195,7 @@ function quizView(model, passage) {
       ${!state.restoredProgress && item.status === 'in-progress' && savedCount ? `<button data-restore-progress>استعادة التقدم (${savedCount})</button>` : ''}
       <span>${answered} إجابة محفوظة</span>
       <div class="quiz-navigation">
-        <button class="primary-action next-action" data-next-question ${selectedId ? '' : 'disabled'}>${isLastQuestion ? 'عرض النتيجة' : 'التالي'} <span aria-hidden="true">←</span></button>
+        <button class="primary-action next-action" data-next-question ${selectedId || answerPending ? '' : 'disabled'}>${isLastQuestion ? 'عرض النتيجة' : 'التالي'} <span aria-hidden="true">←</span></button>
         <button class="secondary-action previous-action" data-previous-question ${index === 0 ? 'disabled' : ''}><span aria-hidden="true">→</span> السابق</button>
       </div>
     </footer>
@@ -201,21 +204,24 @@ function quizView(model, passage) {
 
 function resultView(model, passage) {
   const item = quizProgress(model.id, passage.id);
-  const correct = passage.questions.filter((question) => question.options.find((option) => option.id === item.answers?.[question.id])?.isCorrect).length;
-  const unanswered = passage.questions.filter((question) => !item.answers?.[question.id]).length;
-  const wrong = passage.questions.length - correct - unanswered;
-  const percentage = Math.round((correct / passage.questions.length) * 100);
+  const scoredQuestions = passage.questions.filter((question) => question.correctAnswer !== null);
+  const pendingCount = passage.questions.length - scoredQuestions.length;
+  const correct = scoredQuestions.filter((question) => question.options.find((option) => option.id === item.answers?.[question.id])?.isCorrect).length;
+  const unanswered = scoredQuestions.filter((question) => !item.answers?.[question.id]).length;
+  const wrong = scoredQuestions.length - correct - unanswered;
+  const percentage = scoredQuestions.length ? Math.round((correct / scoredQuestions.length) * 100) : 0;
   return `<main class="quiz-shell">
     <header class="quiz-top">
       <button class="back-button" data-model>← قطع النموذج</button>
       <div><p>نتيجة الاختبار</p><h1>${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</h1><small>${escapeHtml(model.title)}</small></div>
-      <strong>${correct} / ${passage.questions.length}</strong>
+      <strong>${correct} / ${scoredQuestions.length}</strong>
     </header>
     <section class="result-summary">
       <div><strong>${percentage}%</strong><span>النسبة</span></div>
       <div><strong>${correct}</strong><span>صحيح</span></div>
       <div><strong>${wrong}</strong><span>خطأ</span></div>
       <div><strong>${unanswered}</strong><span>غير مجاب</span></div>
+      ${pendingCount ? `<div><strong>${pendingCount}</strong><span>مفتاح معلّق</span></div>` : ''}
     </section>
     <section class="quiz-list review-mode">
       ${passage.questions.map((question) => {
@@ -327,7 +333,7 @@ app.addEventListener('click', (event) => {
     const item = quizProgress(state.selectedModelId, state.selectedPassageId);
     const passage = currentPassage();
     const question = passage.questions[state.questionIndex];
-    if (!state.activeAnswers?.[question.id]) return;
+    if (!state.activeAnswers?.[question.id] && question.correctAnswer !== null) return;
     if (state.questionIndex >= passage.questions.length - 1) {
       setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'completed', currentQuestionIndex: 0 });
       state.view = 'result';

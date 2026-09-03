@@ -26,6 +26,13 @@ const makeUnresolvedQuestion = (modelId, passageId, number, question, options, e
 
 const buildQuestions = (modelId, passageId, entries) => entries.map(([question, answer], index) => makeQuestion(modelId, passageId, index + 1, question, answer, ['Not mentioned in the passage.', 'Another possibility.', 'None of these.']));
 const makePassage = (modelId, id, order, title, englishTitle, externalTitle, entries) => ({ id, order, title, englishTitle, externalTitle, questions: buildQuestions(modelId, id, entries) });
+const completeDecoys = (answer, sourceOptions = []) => [...sourceOptions.filter((option) => option !== answer), 'Not mentioned in the passage.', 'Another possibility.', 'None of these.'].filter((option, index, all) => all.indexOf(option) === index).slice(0, 3);
+const makeMixedPassage = (modelId, id, order, title, englishTitle, externalTitle, entries) => ({
+  id, order, title, englishTitle, externalTitle,
+  questions: entries.map(([question, answer, sourceOptions], index) => answer === null
+    ? makeUnresolvedQuestion(modelId, id, index + 1, question, sourceOptions ?? [], 'مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.')
+    : makeQuestion(modelId, id, index + 1, question, answer, completeDecoys(answer, sourceOptions))),
+});
 
 export const wordGlossary = {
   according: 'وفقًا لـ',
@@ -269,6 +276,38 @@ export const manualQuizModels = [
       ]),
       makePassage('reading-02', 'volcanic-eruption', 7, 'القطعة السابعة', 'Volcanic Eruption', 'سابعاً / ثوران البركان', [
         ['According to Paragraph 1, which of the following is TRUE?', 'By measuring seismic activity, it is possible to predict a volcanic eruption.'], ['According to Paragraph 2, why was the eruption in 79 AD so severe?', 'There was a long period without seismic activity, and then it started again.'], ['What can we understand from the pronoun “we”?', 'The writer believes that his feelings will be shared by many.'], ['What do we understand about Pliny the Younger from the paragraph?', 'He gave details about the eruption and the effect it had on the population.'], ['What does the word “retrospect” mean?', 'Looking back.'],
+      ]),
+    ],
+  },
+  {
+    id: 'reading-03', order: 3, title: 'النموذج الثالث', subtitle: 'اختر قطعة داخل النموذج ثم ابدأ الاختبار',
+    passages: [
+      makeMixedPassage('reading-03','russian-doll',1,'القطعة الأولى','Russian Doll','أولاً / الدمية الروسية',[
+        ['Who is the doll maker?','Vasily Zvyozdochkin'],['What is the title of the passage?','Russian Wood Figurine'],['What is the first passage talking about?','The origin of the Russian doll and its appearance.'],['What are the basic factors needed to make dolls?','Expert workmen'],['What are dolls made of?','Wood'],['What does the word “carved” mean?','Shaped'],['What is the origin of the doll?','Japan'],['Why were some presidents excluded from having dolls made for them?','Because they were not in power for long.'],['What does the pronoun “it” refer to?','Odd numbers'],['Which section talks about carving and industry?',null,[]],
+      ]),
+      makeMixedPassage('reading-03','missing-plane',2,'القطعة الثانية','The Missing Plane','ثانياً / الطائرة المفقودة',[
+        ['What caused the plane to break down?','Technical problems'],['What was the destination of the plane?','New Delhi'],['What did they do when the plane stopped?',null,[]],['What does “not scheduled” mean?','Not planned'],['What was the reason for the delay?','Technical problems'],
+      ]),
+      makeMixedPassage('reading-03','piri-reis',3,'القطعة الثالثة','Piri Reis','ثالثاً / السلطان العثماني بيري ريس',[
+        ['What is the nearest meaning of the word “chart”?','Maps'],['What field did this scientist contribute to?','Geography and navigation'],['What was the scientist’s job?','Map maker'],['When did he give Kitab Al-Bahriya to the Sultan?','In 1525'],['What does the word “cartographer” mean?','Map maker'],['Who is the author of the book?','Piri Reis'],['What does the book talk about?','Ships and sea travel'],['What is the best title for the passage?',null,[]],
+      ]),
+      makeMixedPassage('reading-03','pollution',4,'القطعة الرابعة','Internal and External Pollution','رابعاً / التلوث الداخلي والخارجي',[
+        ['Why is internal pollution more dangerous than external pollution?','Because people stay most of their time inside.'],['Which is the correct choice to preserve the environment?','Using dishes and cups.'],['How much time do we spend inside our houses?','90%'],['What is one of the causes of this pollution?',null,['No fresh air','Construction']],['Why is internal pollution more serious than outside pollution?','Because people spend most of their time in buildings.'],['What is the name of the pollution from kerosene?','Carbon black'],['What is the best source of aerial pollution?','Diesel'],['What does the word “essential” mean?','Important'],['How many chemicals can cause pollution?','856'],['What does the air consist of?','Nitrogen, oxygen, and water vapor.'],['What is another name for diesel smoke?','Black carbon'],['Give an example of external pollution.','Diesel smoke'],['Which of the following is NOT true of contaminants?','Allergy'],['What is the most polluted country?','India'],['Which paragraph talks about the disease?','Paragraph 3'],['What is a source of VOCs?','Printers and computers'],['What is the opposite of “synthetic”?','Natural'],['What is the meaning of “synthetic materials”?','Toxic',['Toxic','Simple','Natural']],['What do you understand from the first paragraph?','Indoor pollution is more dangerous than outdoor pollution.'],['What gas is found in the clouds?','Acid rain'],['What disease can be caused by pollution?','Cancer'],['Which paragraph talks about indoor pollution?',null,[]],['What type of pollution is NOT mentioned in the paragraph?',null,[]],['Which paragraph talks about indoor pollution?',null,[]],['Which of the following is incorrect?','Gases',['Gases','Allergy','Bacteria','Virus']],['What is the best title for the passage?','Pollution'],['What is the effect of carbon?',null,[]],['Is it indoor or outdoor pollution?','Indoor pollution'],['How do we reduce pollution?','We use wood and natural furniture.'],['Which paragraph talks about air pollution?','Paragraph 2'],['In the fifth paragraph, what did the author advise us to stay away from?','Synthetic materials'],['What is the title of Paragraph 1?','Indoor pollution is more dangerous than external pollution.'],['Why does bad air stay inside?','Because people want to save energy.'],['Which paragraph discusses indoor pollution, and which material was not discussed in the passage?',null,[]],
+      ]),
+      makeMixedPassage('reading-03','dialects',5,'القطعة الخامسة','MSA, Arabic Dialects & Mutual Intelligibility','خامساً / العربية الفصحى واللهجات',[
+        ['What is the most understandable Arab dialect?','Egyptian Arabic'],['What is the nearest meaning of “mutual intelligibility”?','Similarity',['Different','Similar','Match']],['Who speaks the most accurate language? / Who are the best speakers of the language?','The one who uses and learns it (Standard Modern Arabic)'],['What is the paragraph about?','The differences between languages'],['What does the pronoun “this” refer to?','Teaching MSA in school'],['Why did the writer mention two cities in the last paragraph, North German and West Slavic?','Similarity in different dialects'],['In Paragraph ___, what did the writer say?',null,[]],
+      ]),
+      makeMixedPassage('reading-03','travel-statistics',6,'القطعة السادسة','Travel Statistics & Travel Costs','سادساً / إحصائية السفر وتكاليفه',[
+        ['Who are the people who travel the most?','Europeans and some Asians'],['Who insists on travelling?','The Americans'],['Who spends the most on travel?','The Americans'],['How much was spent in the year 2005?','3.4 trillion'],['Who travels the most and is the most wasteful?',null,[]],['Who is in the third level in travelling?','Spain'],['Where do the majority of Germans travel to?','Europe'],['Americans travel to ______?','Mexico'],
+      ]),
+      makeMixedPassage('reading-03','gardener',7,'القطعة السابعة','Gardener’s Announcement','سابعاً / إعلان وظيفة بستاني',[
+        ['Where does the gardener prefer to work?','In a residence',['In a farm','In a residence']],['When can employers call Jack?','Weekday evenings',['At 10:00 in the morning','Weekend evenings','Weekday evenings']],['How much money does the gardener take?',null,[]],
+      ]),
+      makeMixedPassage('reading-03','traffic-accident',8,'القطعة الثامنة','Traffic Accident','ثامناً / حادث علي',[
+        ['Ali was able to eat using his hands after ______ months.','18 months',['8','18','10','9']],['Why did Ali have this problem in his hands?','A traffic accident',['Physiotherapy sessions','A traffic accident','Hospital treatment','The university']],['What is the appropriate meaning of “Pioneer operation”?','A technique used for the first time'],['Which of the following is correct?','The operation improves the situation in similar injuries.'],
+      ]),
+      makeMixedPassage('reading-03','travel-agency',9,'القطعة التاسعة','Travel Agency','تاسعاً / وكالة سفر',[
+        ['Travel agency for?','Air',['Air','Sea','Train']],['What kind of service does the agency provide?','Personalized services'],
       ]),
     ],
   },
