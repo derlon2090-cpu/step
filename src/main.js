@@ -31,6 +31,7 @@ const jsonModelsById = new Map(Object.values(jsonModelFiles).map((model) => [
 ]));
 
 const storageKey = 'step-reading-progress-v2';
+const accountKey = 'raseen-local-account-v1';
 const readStored = (key, fallback) => {
   try {
     return JSON.parse(localStorage.getItem(key)) ?? fallback;
@@ -40,6 +41,7 @@ const readStored = (key, fallback) => {
 };
 
 let progress = readStored(storageKey, {});
+let account = readStored(accountKey, null);
 let state = { view: 'library', selectedModelId: null, selectedPassageId: null, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
 const app = document.querySelector('#app');
 
@@ -130,7 +132,18 @@ function renderQuestionText(question) {
 
 function raseenHeader(active = 'النماذج') {
   const nav = ['الرئيسية', 'أقسام STEP', 'النماذج', 'المدونة', 'من نحن', 'تواصل معنا'];
-  return `<header class="raseen-header"><button class="brand-mark brand-button" data-library aria-label="العودة للرئيسية"><span>رصين</span><i aria-hidden="true">⌁</i></button><nav>${nav.map((item) => `<a class="${item === active ? 'active' : ''}">${item}</a>`).join('')}</nav><div class="header-actions"><button class="outline-action" data-library>الرئيسية</button><button class="orange-action" data-library>ابدأ الآن</button></div></header>`;
+  return `<header class="raseen-header"><button class="brand-mark brand-button" data-library aria-label="العودة للرئيسية"><span>رصين</span><i aria-hidden="true">⌁</i></button><nav>${nav.map((item) => `<button class="${item === active ? 'active' : ''}" ${item === 'الرئيسية' ? 'data-library' : item === 'النماذج' || item === 'أقسام STEP' ? 'data-models-scroll' : 'data-dashboard'}>${item}</button>`).join('')}</nav><div class="header-actions"><button class="outline-action" ${account ? 'data-dashboard' : 'data-login'}>${account ? 'حسابي' : 'تسجيل الدخول'}</button><button class="orange-action" data-dashboard>ابدأ الآن</button></div></header>`;
+}
+
+function loginView() {
+  return `<main class="auth-shell"><div class="auth-panel"><button class="brand-mark brand-button" data-library><span>رصين</span><i aria-hidden="true">⌁</i></button><span class="auth-kicker">منصة متخصصة في STEP فقط</span><h1>سجّل دخولك وابدأ رحلتك</h1><p>احفظ تقدمك، راجع أخطاءك، وواصل التدريب من آخر سؤال وصلت إليه.</p><form class="auth-form"><label>البريد الإلكتروني<input name="email" type="email" placeholder="أدخل بريدك الإلكتروني" required></label><label>كلمة المرور<input name="password" type="password" placeholder="أدخل كلمة المرور" required></label><label class="remember-row"><input name="remember" type="checkbox" checked> تذكّرني على هذا الجهاز</label><button class="orange-action" type="submit">تسجيل الدخول</button></form><button class="auth-secondary" data-library>العودة للرئيسية</button></div><div class="auth-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP"><div><strong>تعلّم بثقة</strong><span>خطة واضحة وتقدم محفوظ</span></div></div></main>`;
+}
+
+function dashboardView() {
+  const completed = Object.values(progress).filter((item) => item.status === 'completed').length;
+  const answered = Object.values(progress).reduce((sum, item) => sum + Object.keys(item.answers ?? {}).length, 0);
+  const firstModel = models.find((model) => model.passages.length);
+  return `<main class="dashboard-shell">${raseenHeader('الرئيسية')}<section class="dashboard-welcome"><div><span>لوحة المستخدم</span><h1>مرحبًا${account?.name ? `، ${escapeHtml(account.name)}` : ''} 👋</h1><p>استمر بخطوة ثابتة، وكل جلسة تقرّبك من هدفك في اختبار STEP.</p><button class="orange-action" data-open-model="${firstModel?.id ?? 'reading-01'}">تابع التدريب ←</button></div><div class="dashboard-progress"><strong>${Math.min(100, Math.round((completed / Math.max(1, models.length)) * 100))}%</strong><span>نسبة الإنجاز</span><div><i style="width:${Math.min(100, Math.round((completed / Math.max(1, models.length)) * 100))}%"></i></div></div></section><section class="dashboard-stats"><article><strong>${completed}</strong><span>اختبارات مكتملة</span></article><article><strong>${answered}</strong><span>إجابة محفوظة</span></article><article><strong>${models.length}</strong><span>نموذج متاح</span></article><article><strong>${models.reduce((sum, model) => sum + model.passages.length, 0)}</strong><span>قطعة تدريبية</span></article></section><section class="dashboard-grid"><article><div class="section-heading"><div><span>خطتك الحالية</span><h2>واصل من حيث توقفت</h2></div></div><p>اختر نموذجًا للوصول إلى القطع والاختبارات الخاصة به.</p><button class="outline-action" data-models-scroll>عرض النماذج</button></article><article><div class="section-heading"><div><span>اختصارات سريعة</span><h2>ابدأ الآن</h2></div></div><div class="quick-actions"><button data-open-model="reading-01">النموذج الأول</button><button data-library>كل النماذج</button><button data-logout>تسجيل الخروج</button></div></article></section></main>`;
 }
 
 function libraryView() {
@@ -298,7 +311,9 @@ function currentPassage(model = currentModel()) {
 function render() {
   const model = currentModel();
   const passage = currentPassage(model);
-  if (state.view === 'model' && model) app.innerHTML = modelView(model);
+  if (state.view === 'login') app.innerHTML = loginView();
+  else if (state.view === 'dashboard') app.innerHTML = dashboardView();
+  else if (state.view === 'model' && model) app.innerHTML = modelView(model);
   else if (state.view === 'quiz' && model && passage) app.innerHTML = quizView(model, passage);
   else if (state.view === 'solutions' && model && passage) app.innerHTML = solutionsView(model, passage);
   else if (state.view === 'result' && model && passage) app.innerHTML = resultView(model, passage);
@@ -315,9 +330,47 @@ app.addEventListener('input', (event) => {
   }, 200);
 });
 
+app.addEventListener('submit', (event) => {
+  const form = event.target.closest('.auth-form');
+  if (!form) return;
+  event.preventDefault();
+  const data = new FormData(form);
+  const email = String(data.get('email') ?? '').trim();
+  const name = email.split('@')[0] || 'مستخدم رصين';
+  account = { email, name };
+  localStorage.setItem(accountKey, JSON.stringify(account));
+  state = { ...state, view: 'dashboard' };
+  render();
+});
+
 app.addEventListener('click', (event) => {
+  if (event.target.closest('[data-login]')) {
+    state = { ...state, view: 'login' };
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-dashboard]')) {
+    state = { ...state, view: 'dashboard' };
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-logout]')) {
+    account = null;
+    localStorage.removeItem(accountKey);
+    state = { ...state, view: 'library' };
+    render();
+    return;
+  }
+
   if (event.target.closest('[data-models-scroll]')) {
-    document.querySelector('.models-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const modelsSection = document.querySelector('.models-section');
+    if (modelsSection) modelsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    else {
+      state = { ...state, view: 'library', selectedModelId: null, selectedPassageId: null };
+      render();
+    }
     return;
   }
 
