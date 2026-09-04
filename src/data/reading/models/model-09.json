@@ -1,0 +1,990 @@
+{
+  "modelId": "model-09",
+  "modelNumber": 9,
+  "title": "النموذج التاسع",
+  "subtitle": "اختر قطعة داخل النموذج ثم ابدأ الاختبار",
+  "pieces": [
+    {
+      "pieceId": "reading-09-piece-01",
+      "order": 1,
+      "titleAr": "القطعة الأولى",
+      "titleEn": "Joliet",
+      "externalTitle": "أولاً / جولييت",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-09-juliet-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the title of the story?",
+          "questionDisplay": "What is the title of the story?",
+          "options": [
+            "Profile of Joliet",
+            "The Life of a Traveler",
+            "A Busy Husband",
+            "Joliet’s Organization"
+          ],
+          "correctAnswer": "Profile of Joliet",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-juliet-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What does the pronoun “it” refer to?",
+          "questionDisplay": "What does the pronoun “it” refer to?",
+          "options": [
+            "The way",
+            "The organization",
+            "England",
+            "Her husband"
+          ],
+          "correctAnswer": "The way",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-juliet-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What do you think of her husband?",
+          "questionDisplay": "What do you think of her husband?",
+          "options": [
+            "He was busy.",
+            "He was unemployed.",
+            "He was generous.",
+            "He was ill."
+          ],
+          "correctAnswer": "He was busy.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-juliet-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is NOT mentioned in the story?",
+          "questionDisplay": "What is NOT mentioned in the story?",
+          "options": [
+            "She died.",
+            "She was seventeen.",
+            "She moved to England.",
+            "She founded an organization."
+          ],
+          "correctAnswer": "She died.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-juliet-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Choose the correct order of events.",
+          "questionDisplay": "Choose the correct order of events.",
+          "options": [
+            "She married → travelled → met girls → established an organization.",
+            "She travelled → married → established an organization → met girls.",
+            "She met girls → married → travelled → established an organization.",
+            "She established an organization → married → travelled → met girls."
+          ],
+          "correctAnswer": "She married → travelled → met girls → established an organization.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-09-piece-02",
+      "order": 2,
+      "titleAr": "القطعة الثانية",
+      "titleEn": "The Empty Quarter and Shaybah Oil Field",
+      "externalTitle": "ثانياً / الربع الخالي وحقل شيبة",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-09-shaybah-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What did Bertram Thomas do when he visited the Shaybah Oil Field?",
+          "questionDisplay": "What did Bertram Thomas do when he visited the Shaybah Oil Field?",
+          "options": [
+            "He visited it and wrote about his visit.",
+            "He managed the field.",
+            "He photographed the royal families.",
+            "He built the field."
+          ],
+          "correctAnswer": "He visited it and wrote about his visit.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-shaybah-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Why were the scientists amazed when they visited it?",
+          "questionDisplay": "Why were the scientists amazed when they visited it?",
+          "options": [
+            "Birds could live there and find food.",
+            "There was no sand.",
+            "The field was larger than Ghawar.",
+            "It was below sea level."
+          ],
+          "correctAnswer": "Birds could live there and find food.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-shaybah-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Where is the Shaybah Oil Field located?",
+          "questionDisplay": "Where is the Shaybah Oil Field located?",
+          "options": [
+            "In the middle of the desert.",
+            "Near the coast.",
+            "In the city center.",
+            "In the mountains."
+          ],
+          "correctAnswer": "In the middle of the desert.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-shaybah-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Which is bigger, Shaybah or Ghawar Field?",
+          "questionDisplay": "Which is bigger, Shaybah or Ghawar Field?",
+          "options": [
+            "Ghawar is larger than Shaybah.",
+            "Shaybah is larger than Ghawar.",
+            "They are exactly the same size.",
+            "Neither field is larger."
+          ],
+          "correctAnswer": "Ghawar is larger than Shaybah.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-shaybah-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What is the temperature in the Empty Quarter at night?",
+          "questionDisplay": "What is the temperature in the Empty Quarter at night?",
+          "options": [
+            "Below zero.",
+            "Above 40°C.",
+            "Exactly zero.",
+            "Mild and warm."
+          ],
+          "correctAnswer": "Below zero.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-09-piece-03",
+      "order": 3,
+      "titleAr": "القطعة الثالثة",
+      "titleEn": "A Trip to Paris",
+      "externalTitle": "ثالثاً / المرأة وزوجها اللذان سافرا إلى باريس",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-09-paris-trip-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Where did they go on the second day?",
+          "questionDisplay": "Where did they go on the second day?",
+          "options": [
+            "They went sightseeing and visited the Eiffel Tower.",
+            "They returned to the airport.",
+            "They stayed in the hotel all day.",
+            "They went to the desert."
+          ],
+          "correctAnswer": "They went sightseeing and visited the Eiffel Tower.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-paris-trip-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Why did they travel?",
+          "questionDisplay": "Why did they travel?",
+          "options": [
+            "For shopping and sightseeing.",
+            "For food only.",
+            "To visit their family.",
+            "For work."
+          ],
+          "correctAnswer": "For shopping and sightseeing.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-paris-trip-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What is NOT true in the first paragraph?",
+          "questionDisplay": "What is NOT true in the first paragraph?",
+          "options": [
+            "They stayed near the hotel on the first day.",
+            "They arrived tired.",
+            "They slept and woke up late.",
+            "They went out to the market."
+          ],
+          "correctAnswer": "They stayed near the hotel on the first day.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-paris-trip-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is NOT true according to the paragraph?",
+          "questionDisplay": "What is NOT true according to the paragraph?",
+          "options": [
+            "She sat under the hotel waiting all day.",
+            "She went out and wandered.",
+            "She bought a sandwich.",
+            "They missed breakfast."
+          ],
+          "correctAnswer": "She sat under the hotel waiting all day.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-paris-trip-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Choose the correct sentence according to the second paragraph.",
+          "questionDisplay": "Choose the correct sentence according to the second paragraph.",
+          "options": [
+            "She visited the Eiffel Tower.",
+            "She ate breakfast at the hotel.",
+            "She returned home.",
+            "She went to the airport."
+          ],
+          "correctAnswer": "She visited the Eiffel Tower.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-paris-trip-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What does “head up to” mean?",
+          "questionDisplay": "What does “head up to” mean?",
+          "options": [
+            "Move towards.",
+            "Stay behind.",
+            "Wait for.",
+            "Turn away from."
+          ],
+          "correctAnswer": "Move towards.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-paris-trip-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "Did they have breakfast at the hotel on the second day?",
+          "questionDisplay": "Did they have breakfast at the hotel on the second day?",
+          "options": [
+            "Yes, they did.",
+            "No, they did not.",
+            "Only the wife did.",
+            "Only the husband did."
+          ],
+          "correctAnswer": "Yes, they did.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-paris-trip-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What does the pronoun “there” refer to?",
+          "questionDisplay": "What does the pronoun “there” refer to?",
+          "options": [
+            "The Seine River.",
+            "The hotel.",
+            "The Indian restaurant.",
+            "The city center."
+          ],
+          "correctAnswer": "The Seine River.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-09-piece-04",
+      "order": 4,
+      "titleAr": "القطعة الرابعة",
+      "titleEn": "Tailgating",
+      "externalTitle": "رابعاً / القيادة المتقاربة الخطرة",
+      "passage": "Tailgating is when a driver drives behind another vehicle without leaving sufficient distance to stop without causing a collision if the vehicle in front stops suddenly.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-09-tailgating-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does “tailgating” mean?",
+          "questionDisplay": "What does “tailgating” mean?",
+          "options": [
+            "Driving too closely behind another vehicle; it is unsafe.",
+            "Driving slowly in a safe lane.",
+            "Parking beside another vehicle.",
+            "Driving alone at night."
+          ],
+          "correctAnswer": "Driving too closely behind another vehicle; it is unsafe.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-tailgating-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What does “escalate” mean?",
+          "questionDisplay": "What does “escalate” mean?",
+          "options": [
+            "Increase.",
+            "Decrease.",
+            "Stop.",
+            "Move sideways."
+          ],
+          "correctAnswer": "Increase.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-tailgating-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Why are people afraid of tailgating?",
+          "questionDisplay": "Why are people afraid of tailgating?",
+          "options": [
+            "Because it can cause accidents and make people feel worried or scared.",
+            "Because it saves fuel.",
+            "Because it improves visibility.",
+            "Because it prevents road rage."
+          ],
+          "correctAnswer": "Because it can cause accidents and make people feel worried or scared.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-tailgating-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is the main idea of the second paragraph?",
+          "questionDisplay": "What is the main idea of the second paragraph?",
+          "options": [
+            "Road rage.",
+            "Passenger comfort.",
+            "Buying a new car.",
+            "Traffic signs."
+          ],
+          "correctAnswer": "Road rage.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-tailgating-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What does a defensive driver do?",
+          "questionDisplay": "What does a defensive driver do?",
+          "options": [
+            "Reduces the likelihood of accidents.",
+            "Causes more accidents.",
+            "Drives without a seat belt.",
+            "Follows vehicles very closely."
+          ],
+          "correctAnswer": "Reduces the likelihood of accidents.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-09-piece-05",
+      "order": 5,
+      "titleAr": "القطعة الخامسة",
+      "titleEn": "A Mother and Daughter in the Rain",
+      "externalTitle": "خامساً / الأم وابنتها تحت المطر",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-09-rainy-day-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What were the people doing in the mall?",
+          "questionDisplay": "What were the people doing in the mall?",
+          "options": [
+            "Avoiding the rain.",
+            "Shopping for clothes.",
+            "Waiting for a bus.",
+            "Watching a film."
+          ],
+          "correctAnswer": "Avoiding the rain.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-rainy-day-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Why didn’t the mother go out with her daughter at first?",
+          "questionDisplay": "Why didn’t the mother go out with her daughter at first?",
+          "options": [
+            "She did not want to get wet.",
+            "She was tired.",
+            "She was shopping.",
+            "She was afraid of the mall."
+          ],
+          "correctAnswer": "She did not want to get wet.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-rainy-day-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What did the girl say about her father?",
+          "questionDisplay": "What did the girl say about her father?",
+          "options": [
+            "He had a dangerous disease—cancer.",
+            "He was traveling.",
+            "He was a doctor.",
+            "He had won a prize."
+          ],
+          "correctAnswer": "He had a dangerous disease—cancer.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-rainy-day-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Why did people wonder about the girl’s words?",
+          "questionDisplay": "Why did people wonder about the girl’s words?",
+          "options": [
+            "She spoke confidently, and her words surprised them.",
+            "She was whispering.",
+            "She was selling something.",
+            "She was lost."
+          ],
+          "correctAnswer": "She spoke confidently, and her words surprised them.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-rainy-day-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What did the people do at last?",
+          "questionDisplay": "What did the people do at last?",
+          "options": [
+            "They went out laughing and remembering happy things.",
+            "They called the police.",
+            "They stayed inside silently.",
+            "They returned to work."
+          ],
+          "correctAnswer": "They went out laughing and remembering happy things.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-rainy-day-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Why were people laughing when the mother ran with her daughter?",
+          "questionDisplay": "Why were people laughing when the mother ran with her daughter?",
+          "options": [
+            "They remembered their childhood.",
+            "They were laughing at the rain.",
+            "They had heard a joke.",
+            "They were celebrating a wedding."
+          ],
+          "correctAnswer": "They remembered their childhood.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-rainy-day-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What will wash the city?",
+          "questionDisplay": "What will wash the city?",
+          "options": [
+            "The falling rain.",
+            "The wind.",
+            "The river.",
+            "The sunlight."
+          ],
+          "correctAnswer": "The falling rain.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-rainy-day-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What effect did the event leave on the speaker?",
+          "questionDisplay": "What effect did the event leave on the speaker?",
+          "options": [
+            "Happy memories.",
+            "Fear of travel.",
+            "Anger.",
+            "A desire to leave the city."
+          ],
+          "correctAnswer": "Happy memories.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-rainy-day-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "What did the person who followed them do?",
+          "questionDisplay": "What did the person who followed them do?",
+          "options": [
+            "He chased after their car quickly.",
+            "He entered the mall.",
+            "He repaired their car.",
+            "He waited at the hotel."
+          ],
+          "correctAnswer": "He chased after their car quickly.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-09-piece-06",
+      "order": 6,
+      "titleAr": "القطعة السادسة",
+      "titleEn": "Fast-Food Restaurants",
+      "externalTitle": "سادساً / جدول المطاعم (الوجبات السريعة)",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-09-restaurants-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Which restaurant do most adults go to?",
+          "questionDisplay": "Which restaurant do most adults go to?",
+          "options": [
+            "K.F.C.",
+            "McDonald’s",
+            "Burger King",
+            "Pizza Hut"
+          ],
+          "correctAnswer": "K.F.C.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-restaurants-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What is the most popular restaurant in the world for all ages?",
+          "questionDisplay": "What is the most popular restaurant in the world for all ages?",
+          "options": [
+            "McDonald’s.",
+            "K.F.C.",
+            "Subway",
+            "Pizza Hut"
+          ],
+          "correctAnswer": "McDonald’s.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-09-piece-07",
+      "order": 7,
+      "titleAr": "القطعة السابعة",
+      "titleEn": "Wedding Ceremony Invitation",
+      "externalTitle": "سابعاً / بطاقة حفلة زفاف",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-09-wedding-invitation-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Who invited guests to the wedding?",
+          "questionDisplay": "Who invited guests to the wedding?",
+          "options": [
+            "Both families.",
+            "The groom’s family only",
+            "The bride’s family only",
+            "Michael and Marie"
+          ],
+          "correctAnswer": "Both families.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-09-piece-08",
+      "order": 8,
+      "titleAr": "القطعة الثامنة",
+      "titleEn": "Lost Pen Advertisement",
+      "externalTitle": "ثامناً / إعلان مفقودات (القلم الضائع)",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-09-lost-pen-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What kind of advertisement is it?",
+          "questionDisplay": "What kind of advertisement is it?",
+          "options": [
+            "A missing-item advertisement.",
+            "A job advertisement.",
+            "A wedding advertisement.",
+            "A travel advertisement."
+          ],
+          "correctAnswer": "A missing-item advertisement.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-lost-pen-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Why is the pen important to its owner?",
+          "questionDisplay": "Why is the pen important to its owner?",
+          "options": [
+            "It was a gift from his father.",
+            "It is very expensive.",
+            "It was bought in New York.",
+            "It belongs to his manager."
+          ],
+          "correctAnswer": "It was a gift from his father.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-09-piece-09",
+      "order": 9,
+      "titleAr": "القطعة التاسعة",
+      "titleEn": "Road Closed Sign",
+      "externalTitle": "تاسعاً / عبارة تحذيرية",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-09-road-closed-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What do you understand from “Road closed”?",
+          "questionDisplay": "What do you understand from “Road closed”?",
+          "options": [
+            "The road cannot be used; passing is not allowed.",
+            "The road is newly built.",
+            "Only buses may use the road.",
+            "The road is open at night."
+          ],
+          "correctAnswer": "The road cannot be used; passing is not allowed.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-09-piece-10",
+      "order": 10,
+      "titleAr": "القطعة العاشرة",
+      "titleEn": "A Thank-You Message to a Repair-Shop Manager",
+      "externalTitle": "عاشراً / رسالة شكر لمدير محل إصلاح الأجهزة",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-09-repair-shop-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What was the problem with the man’s device, and why did he visit the company?",
+          "questionDisplay": "What was the problem with the man’s device, and why did he visit the company?",
+          "options": [
+            "It contained an unwanted application that he had not downloaded.",
+            "The screen was broken.",
+            "The battery was empty.",
+            "He wanted to buy a new phone."
+          ],
+          "correctAnswer": "It contained an unwanted application that he had not downloaded.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-repair-shop-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What does “device” mean?",
+          "questionDisplay": "What does “device” mean?",
+          "options": [
+            "Mobile phone.",
+            "Computer desk.",
+            "Television.",
+            "Car engine."
+          ],
+          "correctAnswer": "Mobile phone.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-repair-shop-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What message did the man send to the shop?",
+          "questionDisplay": "What message did the man send to the shop?",
+          "options": [
+            "Thanks.",
+            "A complaint.",
+            "A delivery address.",
+            "A cancellation."
+          ],
+          "correctAnswer": "Thanks.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-repair-shop-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What did the staff do for the man?",
+          "questionDisplay": "What did the staff do for the man?",
+          "options": [
+            "They downloaded an antivirus application.",
+            "They sold him a car.",
+            "They replaced his house.",
+            "They deleted his photographs."
+          ],
+          "correctAnswer": "They downloaded an antivirus application.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-repair-shop-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What does “head” mean in the passage?",
+          "questionDisplay": "What does “head” mean in the passage?",
+          "options": [
+            "Director or manager.",
+            "Customer.",
+            "Technician.",
+            "Owner’s son."
+          ],
+          "correctAnswer": "Director or manager.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-repair-shop-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What will the man do?",
+          "questionDisplay": "What will the man do?",
+          "options": [
+            "Recommend the shop and tell other people about it.",
+            "Close the shop.",
+            "Work for the shop.",
+            "Ask for a refund."
+          ],
+          "correctAnswer": "Recommend the shop and tell other people about it.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-repair-shop-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What is the relationship between Mohammed and the staff?",
+          "questionDisplay": "What is the relationship between Mohammed and the staff?",
+          "options": [
+            "He is their manager.",
+            "He is their customer.",
+            "He is their neighbor.",
+            "He is their teacher."
+          ],
+          "correctAnswer": "He is their manager.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-repair-shop-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What is Mohammed’s job?",
+          "questionDisplay": "What is Mohammed’s job?",
+          "options": [
+            "Manager.",
+            "Driver.",
+            "Doctor.",
+            "Sales assistant."
+          ],
+          "correctAnswer": "Manager.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-repair-shop-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "What is TRUE according to the passage?",
+          "questionDisplay": "What is TRUE according to the passage?",
+          "options": [
+            "The shop took the man’s phone for repair.",
+            "The man lost his phone.",
+            "The shop refused to help him.",
+            "The man bought a tablet."
+          ],
+          "correctAnswer": "The shop took the man’s phone for repair.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-09-piece-11",
+      "order": 11,
+      "titleAr": "القطعة الحادية عشرة",
+      "titleEn": "Tom and Roger",
+      "externalTitle": "الحادي عشر / توم وروجر",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-09-tom-roger-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What did Tom ask Roger?",
+          "questionDisplay": "What did Tom ask Roger?",
+          "options": [
+            "Can I visit you at the weekend?",
+            "Can you work on Friday?",
+            "Did you travel yesterday?",
+            "Will you call the shop?"
+          ],
+          "correctAnswer": "Can I visit you at the weekend?",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-09-piece-12",
+      "order": 12,
+      "titleAr": "القطعة الثانية عشرة",
+      "titleEn": "Short Information: Price and Class Time",
+      "externalTitle": "الثاني عشر / معلومات قصيرة",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-09-price-and-time-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "How much is it?",
+          "questionDisplay": "How much is it?",
+          "options": [
+            "It is 7.99 Riyals.",
+            "It is 9 Riyals.",
+            "It is 6.99 Riyals.",
+            "It is free."
+          ],
+          "correctAnswer": "It is 7.99 Riyals.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-09-price-and-time-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What time is the class?",
+          "questionDisplay": "What time is the class?",
+          "options": [
+            "At 9 a.m.",
+            "At 7 a.m.",
+            "At noon.",
+            "At 9 p.m."
+          ],
+          "correctAnswer": "At 9 a.m.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    }
+  ]
+}

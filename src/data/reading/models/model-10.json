@@ -1,0 +1,1268 @@
+{
+  "modelId": "model-10",
+  "modelNumber": 10,
+  "title": "النموذج العاشر",
+  "subtitle": "اختر قطعة داخل النموذج ثم ابدأ الاختبار",
+  "pieces": [
+    {
+      "pieceId": "reading-10-piece-01",
+      "order": 1,
+      "titleAr": "القطعة الأولى",
+      "titleEn": "Sheba and Bilqis",
+      "externalTitle": "أولاً / مملكة سبأ",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-10-sheba-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the best title for the passage?",
+          "questionDisplay": "What is the best title for the passage?",
+          "options": [
+            "The History of Sheba and Bilqis.",
+            "The Prophet Solomon.",
+            "A Modern Kingdom.",
+            "The Empty Quarter."
+          ],
+          "correctAnswer": "The History of Sheba and Bilqis.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-10-piece-02",
+      "order": 2,
+      "titleAr": "القطعة الثانية",
+      "titleEn": "Fire Risk Sign",
+      "externalTitle": "ثانياً / صورة تحذيرية (Fire Risk)",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-10-fire-risk-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "This sign means not to do what?",
+          "questionDisplay": "This sign means not to do what?",
+          "options": [
+            "Smoke.",
+            "Play.",
+            "Study.",
+            "Run."
+          ],
+          "correctAnswer": "Smoke.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-10-piece-03",
+      "order": 3,
+      "titleAr": "القطعة الثالثة",
+      "titleEn": "A Thank-You Email",
+      "externalTitle": "ثالثاً / رسالة شكر من طالب إلى معلمة",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-10-thank-you-email-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Who is the message addressed to?",
+          "questionDisplay": "Who is the message addressed to?",
+          "options": [
+            "His dad.",
+            "Teacher.",
+            "Classmate.",
+            "The school."
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-10-piece-04",
+      "order": 4,
+      "titleAr": "القطعة الرابعة",
+      "titleEn": "The Suez Canal",
+      "externalTitle": "رابعاً / قناة السويس",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-10-suez-canal-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Compared with the Suez Canal, how was the new building described?",
+          "questionDisplay": "Compared with the Suez Canal, how was the new building described?",
+          "options": [
+            "Extremely inexpensive.",
+            "Extremely expensive.",
+            "Very small.",
+            "Temporarily closed."
+          ],
+          "correctAnswer": "Extremely inexpensive.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-suez-canal-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "To whom was the opening of the Suez Canal important?",
+          "questionDisplay": "To whom was the opening of the Suez Canal important?",
+          "options": [
+            "The Europeans.",
+            "Only local farmers.",
+            "American students.",
+            "South African miners."
+          ],
+          "correctAnswer": "The Europeans.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-suez-canal-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What is Port Said?",
+          "questionDisplay": "What is Port Said?",
+          "options": [
+            "A man-made harbor.",
+            "A natural lake.",
+            "A mountain village.",
+            "A railway station."
+          ],
+          "correctAnswer": "A man-made harbor.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-suez-canal-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What was the nationality of the project manager?",
+          "questionDisplay": "What was the nationality of the project manager?",
+          "options": [
+            "French.",
+            "British.",
+            "Egyptian.",
+            "Italian."
+          ],
+          "correctAnswer": "French.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-suez-canal-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "The Suez Canal connects which two things?",
+          "questionDisplay": "The Suez Canal connects which two things?",
+          "options": [
+            "Two seas.",
+            "Two rivers.",
+            "Two channels.",
+            "Two deserts."
+          ],
+          "correctAnswer": "Two seas.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-10-piece-05",
+      "order": 5,
+      "titleAr": "القطعة الخامسة",
+      "titleEn": "Mailing History",
+      "externalTitle": "خامساً / تاريخ الطابع البريدي",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-10-postage-history-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the title of the passage?",
+          "questionDisplay": "What is the title of the passage?",
+          "options": [
+            "Mailing History.",
+            "Start Mail.",
+            "Mail Story.",
+            "Postage Stamp."
+          ],
+          "correctAnswer": "Mailing History.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-postage-history-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "How did messages arrive in the old days, or why did some letters not arrive?",
+          "questionDisplay": "How did messages arrive in the old days, or why did some letters not arrive?",
+          "options": [
+            "Receivers had to pay to receive a message.",
+            "Letters were always free.",
+            "There were no post offices.",
+            "Only kings could send letters."
+          ],
+          "correctAnswer": "Receivers had to pay to receive a message.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-postage-history-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Which country uses the most stamps?",
+          "questionDisplay": "Which country uses the most stamps?",
+          "options": [
+            "Britain.",
+            "France.",
+            "India.",
+            "Canada."
+          ],
+          "correctAnswer": "Britain.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-postage-history-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "Why did sending messages cost money?",
+          "questionDisplay": "Why did sending messages cost money?",
+          "options": [
+            "Because postage was related to the weight of the message.",
+            "Because letters were delivered by train only.",
+            "Because stamps were made of gold.",
+            "Because messages were read aloud."
+          ],
+          "correctAnswer": "Because postage was related to the weight of the message.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-postage-history-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What was the first country to apply a postage stamp?",
+          "questionDisplay": "What was the first country to apply a postage stamp?",
+          "options": [
+            "Britain (the UK).",
+            "The United States.",
+            "France.",
+            "China."
+          ],
+          "correctAnswer": "Britain (the UK).",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-postage-history-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Did people accept the new system?",
+          "questionDisplay": "Did people accept the new system?",
+          "options": [
+            "Yes; it was applied in most countries.",
+            "No; it was immediately abandoned.",
+            "Only soldiers accepted it.",
+            "Only Britain rejected it."
+          ],
+          "correctAnswer": "Yes; it was applied in most countries.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-postage-history-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "Why did some people not receive their mail?",
+          "questionDisplay": "Why did some people not receive their mail?",
+          "options": [
+            "They were required to pay money.",
+            "The mail was delivered too quickly.",
+            "They lived near a harbor.",
+            "The letters were too short."
+          ],
+          "correctAnswer": "They were required to pay money.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-postage-history-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What does “adapted” mean?",
+          "questionDisplay": "What does “adapted” mean?",
+          "options": [
+            "Accepted.",
+            "Rejected.",
+            "Delayed.",
+            "Written."
+          ],
+          "correctAnswer": "Accepted.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-postage-history-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "What did Hill suggest?",
+          "questionDisplay": "What did Hill suggest?",
+          "options": [
+            "The price should be proportionate to the weight, and senders should buy a stamp.",
+            "All letters should be free.",
+            "Only receivers should write letters.",
+            "Post offices should close."
+          ],
+          "correctAnswer": "The price should be proportionate to the weight, and senders should buy a stamp.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-postage-history-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "In 1800, what was the hardship of sending messages?",
+          "questionDisplay": "In 1800, what was the hardship of sending messages?",
+          "options": [
+            "Delivery.",
+            "Printing.",
+            "Translation.",
+            "Decoration."
+          ],
+          "correctAnswer": "Delivery.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-postage-history-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "Before 1384, how were messages dealt with?",
+          "questionDisplay": "Before 1384, how were messages dealt with?",
+          "options": [
+            "By the number of pages.",
+            "By color.",
+            "By the sender’s age.",
+            "By the weather."
+          ],
+          "correctAnswer": "By the number of pages.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-10-piece-06",
+      "order": 6,
+      "titleAr": "القطعة السادسة",
+      "titleEn": "Weather in Iceland",
+      "externalTitle": "سادساً / جو أيسلندا",
+      "passage": "One always travels to a place by the sea, but last year he decided to travel to an island. Knowing that it was cold and rainy, he found the weather colder and rainier than expected. He did not see the sun and the rain continued for nine continuous days. A tour guide taught them how to keep their things dry and safe. During the last four days, the weather became sunny and pleasant, and they enjoyed the beach.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-10-iceland-weather-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What is the best title for the passage?",
+          "questionDisplay": "What is the best title for the passage?",
+          "options": [
+            "Difficult times teach you new things.",
+            "The Worst Vacation of My Life",
+            "I Advise You Not to Travel to Iceland",
+            "A Guide to Warm Beaches"
+          ],
+          "correctAnswer": "Difficult times teach you new things.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-iceland-weather-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What did you understand about the weather?",
+          "questionDisplay": "What did you understand about the weather?",
+          "options": [
+            "It was rainy for more than a week.",
+            "It was hot all week.",
+            "It was snowy for one hour.",
+            "It was dry and warm."
+          ],
+          "correctAnswer": "It was rainy for more than a week.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-iceland-weather-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What does “it” refer to?",
+          "questionDisplay": "What does “it” refer to?",
+          "options": [
+            "The sun.",
+            "The tour guide.",
+            "The beach.",
+            "The island."
+          ],
+          "correctAnswer": "The sun.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-iceland-weather-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What does “dabble” mean in context?",
+          "questionDisplay": "What does “dabble” mean in context?",
+          "options": [
+            "Wet.",
+            "Dry.",
+            "Travel.",
+            "Rest."
+          ],
+          "correctAnswer": "Wet.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-iceland-weather-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What does “exhausted” mean?",
+          "questionDisplay": "What does “exhausted” mean?",
+          "options": [
+            "Tired.",
+            "Wet.",
+            "Refunded.",
+            "Not happy."
+          ],
+          "correctAnswer": "Tired.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-iceland-weather-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Why was he happy during the last days?",
+          "questionDisplay": "Why was he happy during the last days?",
+          "options": [
+            "Because the weather got better.",
+            "Because the guide left.",
+            "Because the rain increased.",
+            "Because he returned to work."
+          ],
+          "correctAnswer": "Because the weather got better.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-iceland-weather-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "Why did the writer talk about the weather?",
+          "questionDisplay": "Why did the writer talk about the weather?",
+          "options": [
+            "To inform people who want to travel to a particular city.",
+            "To sell umbrellas.",
+            "To describe a restaurant.",
+            "To explain a historical war."
+          ],
+          "correctAnswer": "To inform people who want to travel to a particular city.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-iceland-weather-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What does the man do every summer?",
+          "questionDisplay": "What does the man do every summer?",
+          "options": [
+            "He relaxes.",
+            "He reads books only.",
+            "He works in a factory.",
+            "He studies weather maps."
+          ],
+          "correctAnswer": "He relaxes.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-iceland-weather-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "What did the man and his companions learn?",
+          "questionDisplay": "What did the man and his companions learn?",
+          "options": [
+            "How to keep their belongings dry.",
+            "How to build a boat.",
+            "How to catch fish.",
+            "How to climb a mountain."
+          ],
+          "correctAnswer": "How to keep their belongings dry.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-iceland-weather-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "What is meant by paragraph 2 about the city?",
+          "questionDisplay": "What is meant by paragraph 2 about the city?",
+          "options": [
+            "He did not see the sun for nine days.",
+            "The city had no airport.",
+            "The city was crowded.",
+            "The city was very hot."
+          ],
+          "correctAnswer": "He did not see the sun for nine days.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-iceland-weather-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "Which statement is correct?",
+          "questionDisplay": "Which statement is correct?",
+          "options": [
+            "The man was not ready for the weather.",
+            "He knew nothing about Iceland.",
+            "He expected hot weather.",
+            "He had never traveled before."
+          ],
+          "correctAnswer": "The man was not ready for the weather.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-iceland-weather-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "Why was he happy in the last days?",
+          "questionDisplay": "Why was he happy in the last days?",
+          "options": [
+            "Because the weather had improved.",
+            "Because the tour was cancelled.",
+            "Because the beach was closed.",
+            "Because the rain became heavier."
+          ],
+          "correctAnswer": "Because the weather had improved.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-iceland-weather-q13",
+          "sourceQuestionNumber": 13,
+          "displayOrder": 13,
+          "questionSource": "Why did the writer talk about the weather?",
+          "questionDisplay": "Why did the writer talk about the weather?",
+          "options": [
+            "Travelers want to understand the weather of a specific city.",
+            "To compare two restaurants.",
+            "To explain a medical treatment.",
+            "To advertise a car."
+          ],
+          "correctAnswer": "Travelers want to understand the weather of a specific city.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-10-piece-07",
+      "order": 7,
+      "titleAr": "القطعة السابعة",
+      "titleEn": "Stress and Earthquakes",
+      "externalTitle": "سابعاً / التوتر وتأثيره على الإنسان والزلازل",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-10-stress-earthquakes-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "The word “overloaded” in paragraph 1 is closest in meaning to:",
+          "questionDisplay": "The word “overloaded” in paragraph 1 is closest in meaning to:",
+          "options": [
+            "Feeling under pressure.",
+            "Feeling not listened to.",
+            "Feeling not supported.",
+            "Feeling overweight."
+          ],
+          "correctAnswer": "Feeling under pressure.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-stress-earthquakes-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What does the expression 'fight or flight response' mean?",
+          "questionDisplay": "What does the expression 'fight or flight response' mean?",
+          "options": [
+            "The ways a person’s body reacts to a dangerous situation.",
+            "Staying in danger and facing it.",
+            "Getting away from danger very quickly.",
+            "The ways danger changes with stress."
+          ],
+          "correctAnswer": "The ways a person’s body reacts to a dangerous situation.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-stress-earthquakes-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "According to paragraph 3, what is the best advice during an earthquake?",
+          "questionDisplay": "According to paragraph 3, what is the best advice during an earthquake?",
+          "options": [
+            "Try to get out of the building as quickly as possible.",
+            "Save someone else before yourself.",
+            "Wait inside until the earthquake ends.",
+            "Make sure no heavy weight has fallen on you."
+          ],
+          "correctAnswer": "Try to get out of the building as quickly as possible.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-stress-earthquakes-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "The word “it” in paragraph 4 refers to what?",
+          "questionDisplay": "The word “it” in paragraph 4 refers to what?",
+          "options": [
+            "Body",
+            "Cortisol",
+            "Adrenaline",
+            "Noradrenaline"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-10-stress-earthquakes-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "According to paragraph 5, what is TRUE about a 'fight or flight' situation?",
+          "questionDisplay": "According to paragraph 5, what is TRUE about a 'fight or flight' situation?",
+          "options": [
+            "The digestive and immune systems are considered non-essential.",
+            "All body functions are essential.",
+            "All body functions are non-essential.",
+            "The digestive and immune systems are essential."
+          ],
+          "correctAnswer": "The digestive and immune systems are considered non-essential.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-stress-earthquakes-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Why does the author use the pronoun “we” throughout the passage?",
+          "questionDisplay": "Why does the author use the pronoun “we” throughout the passage?",
+          "options": [
+            "Because he believes many others share the feeling.",
+            "Because he describes someone else’s experience.",
+            "Because the experience is unique to him.",
+            "Because he distances himself from the experience."
+          ],
+          "correctAnswer": "Because he believes many others share the feeling.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-10-piece-08",
+      "order": 8,
+      "titleAr": "القطعة الثامنة",
+      "titleEn": "Globalization",
+      "externalTitle": "ثامناً / العولمة Globalization",
+      "passage": "Many people think globalization is a new phenomenon. In fact, this process has been happening for thousands of years. For example, some very old Chinese artifacts have been found in North and South America, and antique Arabian money has been found as far north as Norway.\n\nWhat is even more remarkable is how quickly plants from the New World became staples in the Old World. Hungarian cooking is famous for red peppers, and the Irish are famous for eating potatoes. Indian food is an even better example. In many “traditional” Indian dishes, you may find potatoes, tomatoes, squash, corn, sweet peppers, peanuts, cashew nuts, guavas, or papaya.\n\nWe think of all this food as traditional Indian food. Yet sailors brought these plants to India from America on ships after 1500. They took a long time to spread and become popular. The chili pepper is now part of diets from South Africa to China, but it originated in the Americas. Globalization is really nothing new; it has happened since people began to trade.",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-10-globalization-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "What does “antique” mean?",
+          "questionDisplay": "What does “antique” mean?",
+          "options": [
+            "Very old.",
+            "Tired.",
+            "New.",
+            "Metallic."
+          ],
+          "correctAnswer": "Very old.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-globalization-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "Why is Indian food mentioned?",
+          "questionDisplay": "Why is Indian food mentioned?",
+          "options": [
+            "As an example of globalization.",
+            "As an example of a local-only tradition.",
+            "To describe a restaurant menu.",
+            "To explain a medical diet."
+          ],
+          "correctAnswer": "As an example of globalization.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-globalization-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "If the text continued, what would it discuss?",
+          "questionDisplay": "If the text continued, what would it discuss?",
+          "options": [
+            "The importance of globalization today.",
+            "The history of one restaurant.",
+            "How to grow rice.",
+            "The weather in India."
+          ],
+          "correctAnswer": "The importance of globalization today.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-globalization-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What does “it” refer to in the globalization passage?",
+          "questionDisplay": "What does “it” refer to in the globalization passage?",
+          "options": [
+            "Indian food",
+            "The Old World",
+            "The chili pepper",
+            "The trading process"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-10-globalization-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "Where did peppers and spicy food originate?",
+          "questionDisplay": "Where did peppers and spicy food originate?",
+          "options": [
+            "North and South America.",
+            "Europe and Asia.",
+            "Africa and Australia.",
+            "India and China."
+          ],
+          "correctAnswer": "North and South America.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-globalization-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "Where is pepper grown or obtained from according to the notes?",
+          "questionDisplay": "Where is pepper grown or obtained from according to the notes?",
+          "options": [
+            "North and South America.",
+            "Only India.",
+            "Only Europe.",
+            "The Arabian Peninsula only."
+          ],
+          "correctAnswer": "North and South America.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-globalization-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What does “they” refer to in paragraph 3?",
+          "questionDisplay": "What does “they” refer to in paragraph 3?",
+          "options": [
+            "The sailors.",
+            "The restaurants.",
+            "The peppers.",
+            "The governments."
+          ],
+          "correctAnswer": "The sailors.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-globalization-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "What does “herbs” mean?",
+          "questionDisplay": "What does “herbs” mean?",
+          "options": [
+            "Plants.",
+            "Animals.",
+            "Spices only.",
+            "Tools."
+          ],
+          "correctAnswer": "Plants.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-globalization-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "Choose the passage’s title.",
+          "questionDisplay": "Choose the passage’s title.",
+          "options": [
+            "Globalization Is Not New.",
+            "The History of Indian Restaurants.",
+            "Modern Government.",
+            "The World’s Oldest Plant."
+          ],
+          "correctAnswer": "Globalization Is Not New.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-globalization-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "Who invented globalization?",
+          "questionDisplay": "Who invented globalization?",
+          "options": [
+            "No one; it has existed since people began to trade.",
+            "A Chinese emperor.",
+            "A modern government.",
+            "A single sailor."
+          ],
+          "correctAnswer": "No one; it has existed since people began to trade.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-globalization-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "What does “great power” refer to?",
+          "questionDisplay": "What does “great power” refer to?",
+          "options": [
+            "Global government",
+            "Global trade",
+            "National wealth",
+            "Education"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        },
+        {
+          "id": "reading-10-globalization-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "What limits poverty rates?",
+          "questionDisplay": "What limits poverty rates?",
+          "options": [
+            "Globalization.",
+            "Education.",
+            "Weather.",
+            "Tourism."
+          ],
+          "correctAnswer": "Globalization.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-globalization-q13",
+          "sourceQuestionNumber": 13,
+          "displayOrder": 13,
+          "questionSource": "What is the origin of the artifacts and antiques mentioned?",
+          "questionDisplay": "What is the origin of the artifacts and antiques mentioned?",
+          "options": [
+            "China and the Arabian Peninsula.",
+            "Norway and China.",
+            "North and South America.",
+            "Arabia and North America."
+          ],
+          "correctAnswer": "China and the Arabian Peninsula.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-10-piece-09",
+      "order": 9,
+      "titleAr": "القطعة التاسعة",
+      "titleEn": "Ice-Cream Car and History",
+      "externalTitle": "تاسعاً / سيارة الآيس كريم",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-10-ice-cream-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Who is the best car driver?",
+          "questionDisplay": "Who is the best car driver?",
+          "options": [
+            "The driver of an ice-cream car.",
+            "A taxi driver.",
+            "A bus driver.",
+            "A racing driver."
+          ],
+          "correctAnswer": "The driver of an ice-cream car.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-ice-cream-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "From paragraph 1, what do you understand?",
+          "questionDisplay": "From paragraph 1, what do you understand?",
+          "options": [
+            "He is a good driver.",
+            "He sells books.",
+            "He repairs cars.",
+            "He avoids driving."
+          ],
+          "correctAnswer": "He is a good driver.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-ice-cream-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "What is the best title for the passage?",
+          "questionDisplay": "What is the best title for the passage?",
+          "options": [
+            "Ice-Cream History.",
+            "A Trip to Iceland.",
+            "The History of Cars.",
+            "Fast-Food Restaurants."
+          ],
+          "correctAnswer": "Ice-Cream History.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-ice-cream-q04",
+          "sourceQuestionNumber": 4,
+          "displayOrder": 4,
+          "questionSource": "What is the car’s name?",
+          "questionDisplay": "What is the car’s name?",
+          "options": [
+            "Ice-cream car.",
+            "Family car.",
+            "Tour bus.",
+            "Delivery van."
+          ],
+          "correctAnswer": "Ice-cream car.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-ice-cream-q05",
+          "sourceQuestionNumber": 5,
+          "displayOrder": 5,
+          "questionSource": "What is the type of car?",
+          "questionDisplay": "What is the type of car?",
+          "options": [
+            "Ice-cream car.",
+            "Sports car.",
+            "Police car.",
+            "Train."
+          ],
+          "correctAnswer": "Ice-cream car.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-ice-cream-q06",
+          "sourceQuestionNumber": 6,
+          "displayOrder": 6,
+          "questionSource": "What is true about the ice-cream-car driver?",
+          "questionDisplay": "What is true about the ice-cream-car driver?",
+          "options": [
+            "He is happy and does not complain.",
+            "He is angry and tired.",
+            "He never drives.",
+            "He dislikes ice cream."
+          ],
+          "correctAnswer": "He is happy and does not complain.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-ice-cream-q07",
+          "sourceQuestionNumber": 7,
+          "displayOrder": 7,
+          "questionSource": "What does “expedition” mean?",
+          "questionDisplay": "What does “expedition” mean?",
+          "options": [
+            "Journey.",
+            "Accident.",
+            "Meal.",
+            "Warning."
+          ],
+          "correctAnswer": "Journey.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-ice-cream-q08",
+          "sourceQuestionNumber": 8,
+          "displayOrder": 8,
+          "questionSource": "The frozen dessert includes 60% of what?",
+          "questionDisplay": "The frozen dessert includes 60% of what?",
+          "options": [
+            "Ice cream.",
+            "Fruit.",
+            "Sugar only.",
+            "Milk only."
+          ],
+          "correctAnswer": "Ice cream.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-ice-cream-q09",
+          "sourceQuestionNumber": 9,
+          "displayOrder": 9,
+          "questionSource": "Who discovered ice cream?",
+          "questionDisplay": "Who discovered ice cream?",
+          "options": [
+            "Smithson.",
+            "Newton.",
+            "Edison.",
+            "Hill."
+          ],
+          "correctAnswer": "Smithson.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-ice-cream-q10",
+          "sourceQuestionNumber": 10,
+          "displayOrder": 10,
+          "questionSource": "Who added fruits to ice cream?",
+          "questionDisplay": "Who added fruits to ice cream?",
+          "options": [
+            "Asia.",
+            "Europe.",
+            "Africa.",
+            "South America."
+          ],
+          "correctAnswer": "Asia.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-ice-cream-q11",
+          "sourceQuestionNumber": 11,
+          "displayOrder": 11,
+          "questionSource": "What happened to ice cream during the World War?",
+          "questionDisplay": "What happened to ice cream during the World War?",
+          "options": [
+            "There was not enough sugar.",
+            "There was too much sugar.",
+            "It became free.",
+            "It disappeared from Asia."
+          ],
+          "correctAnswer": "There was not enough sugar.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-ice-cream-q12",
+          "sourceQuestionNumber": 12,
+          "displayOrder": 12,
+          "questionSource": "What does the word 'low' mean in the traffic-related note?",
+          "questionDisplay": "What does the word 'low' mean in the traffic-related note?",
+          "options": [
+            "No traffic fines",
+            "Very high",
+            "Very fast",
+            "Very expensive"
+          ],
+          "correctAnswer": null,
+          "answerStatus": "missing",
+          "sourceNote": "مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.",
+          "excludeFromScoring": true
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-10-piece-10",
+      "order": 10,
+      "titleAr": "القطعة العاشرة",
+      "titleEn": "Lemurs of Madagascar",
+      "externalTitle": "عاشراً / الليمور في مدغشقر",
+      "passage": "Lemurs are mammals divided into eight families and consisting of fifteen genera and around one hundred existing species. They are native only to the island of Madagascar. Most existing lemurs are small, have a pointed snout, large eyes, and a long tail. They chiefly live in trees and are active at night (nocturnal).",
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-10-lemurs-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "The word “its” refers to what?",
+          "questionDisplay": "The word “its” refers to what?",
+          "options": [
+            "The ring-tailed lemur.",
+            "Species",
+            "Bang lumber",
+            "Madagascar"
+          ],
+          "correctAnswer": "The ring-tailed lemur.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    },
+    {
+      "pieceId": "reading-10-piece-11",
+      "order": 11,
+      "titleAr": "القطعة الحادية عشرة",
+      "titleEn": "Reducing Gas Production",
+      "externalTitle": "الحادي عشر / تقليل إنتاج الغاز من قبل الحكومة",
+      "passage": null,
+      "sourceNotes": [],
+      "questions": [
+        {
+          "id": "reading-10-gas-production-q01",
+          "sourceQuestionNumber": 1,
+          "displayOrder": 1,
+          "questionSource": "Why did the government reduce production?",
+          "questionDisplay": "Why did the government reduce production?",
+          "options": [
+            "Because it wanted to increase the price of gas.",
+            "Because gas was free.",
+            "Because people stopped driving.",
+            "Because production was too low."
+          ],
+          "correctAnswer": "Because it wanted to increase the price of gas.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-gas-production-q02",
+          "sourceQuestionNumber": 2,
+          "displayOrder": 2,
+          "questionSource": "What was the speaker’s reaction?",
+          "questionDisplay": "What was the speaker’s reaction?",
+          "options": [
+            "He thought it was a good sign.",
+            "It was unpleasant.",
+            "He did not know about the change.",
+            "He thought it was dangerous."
+          ],
+          "correctAnswer": "He thought it was a good sign.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        },
+        {
+          "id": "reading-10-gas-production-q03",
+          "sourceQuestionNumber": 3,
+          "displayOrder": 3,
+          "questionSource": "Why did people use less gasoline in 2008?",
+          "questionDisplay": "Why did people use less gasoline in 2008?",
+          "options": [
+            "Gasoline became very expensive.",
+            "Gasoline became free.",
+            "Cars stopped working.",
+            "People moved to another country."
+          ],
+          "correctAnswer": "Gasoline became very expensive.",
+          "answerStatus": "verified",
+          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "excludeFromScoring": false
+        }
+      ]
+    }
+  ]
+}

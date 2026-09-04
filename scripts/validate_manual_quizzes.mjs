@@ -36,6 +36,8 @@ const reading05 = manualQuizModels.find((model) => model.id === 'reading-05');
 const reading06 = manualQuizModels.find((model) => model.id === 'reading-06');
 const reading07 = manualQuizModels.find((model) => model.id === 'reading-07');
 const reading08 = manualQuizModels.find((model) => model.id === 'reading-08');
+const reading09 = manualQuizModels.find((model) => model.id === 'reading-09');
+const reading10 = manualQuizModels.find((model) => model.id === 'reading-10');
 
 if (reading01?.passages.length !== 9) issues.push('reading-01 must currently expose exactly 9 internal passages');
 if (reading01QuestionCount !== 60) issues.push(`reading-01 must currently expose 60 quiz questions, found ${reading01QuestionCount}`);
@@ -46,10 +48,12 @@ if (reading05?.passages.length !== 12 || reading05.passages.flatMap((passage) =>
 if (reading06?.passages.length !== 9 || reading06.passages.flatMap((passage) => passage.questions).length !== 46) issues.push('reading-06 must expose 9 passages and 46 questions');
 if (reading07?.passages.length !== 10 || reading07.passages.flatMap((passage) => passage.questions).length !== 65) issues.push('reading-07 must expose 10 passages and 65 questions');
 if (reading08?.passages.length !== 12 || reading08.passages.flatMap((passage) => passage.questions).length !== 62) issues.push('reading-08 must expose 12 passages and 62 questions');
+if (reading09?.passages.length !== 12 || reading09.passages.flatMap((passage) => passage.questions).length !== 50) issues.push('reading-09 must expose 12 passages and 50 questions');
+if (reading10?.passages.length !== 11 || reading10.passages.flatMap((passage) => passage.questions).length !== 67) issues.push('reading-10 must expose 11 passages and 67 questions');
 
 if (issues.length) {
   console.error(issues.join('\n'));
   process.exit(1);
 }
 
-console.log('Manual quiz validation passed: models 01–08 expose 79 passages and 509 questions; unresolved answers remain unscored.');
+console.log('Manual quiz validation passed: models 01–10 expose 102 passages and 626 questions; unresolved answers remain unscored.');
