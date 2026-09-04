@@ -8,6 +8,7 @@
     "start:api": "node server/index.js",
     "build": "vite build",
     "db:migrate": "node scripts/migrate.mjs",
+    "db:verify-auth": "node scripts/verify-auth-db.mjs",
     "db:import-reading": "node scripts/import-reading.mjs",
     "db:set-admin": "node scripts/set-admin.mjs",
     "test": "node --test tests",

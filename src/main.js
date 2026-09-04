@@ -2,6 +2,7 @@ import './style.css';
 import './raseen.css';
 import { readings } from './data/readings.js';
 import { wordGlossary } from './data/manualQuizzes.js';
+import { authClient } from '../lib/auth-client.ts';
 
 const jsonModelFiles = import.meta.glob('./data/reading/models/model-*.json', { eager: true, import: 'default' });
 const jsonModelsById = new Map(Object.values(jsonModelFiles).map((model) => [
@@ -31,9 +32,6 @@ const jsonModelsById = new Map(Object.values(jsonModelFiles).map((model) => [
 ]));
 
 const storageKey = 'step-reading-progress-v2';
-const accountKey = 'raseen-local-account-v1';
-const sessionAccountKey = 'raseen-session-account-v1';
-const sessionTtlMs = 10 * 60 * 60 * 1000;
 const readStored = (key, fallback) => {
   try {
     return JSON.parse(localStorage.getItem(key)) ?? fallback;
@@ -41,26 +39,14 @@ const readStored = (key, fallback) => {
     return fallback;
   }
 };
-const readSessionStored = (key, fallback) => {
-  try {
-    return JSON.parse(sessionStorage.getItem(key)) ?? fallback;
-  } catch {
-    return fallback;
-  }
-};
-
-const storedAccount = readStored(accountKey, null) ?? readSessionStored(sessionAccountKey, null);
-const validStoredAccount = storedAccount?.email && storedAccount?.passwordHash && Number(storedAccount.sessionExpiresAt) > Date.now();
-let account = validStoredAccount ? storedAccount : null;
-if (storedAccount && !validStoredAccount) {
-  localStorage.removeItem(accountKey);
-  sessionStorage.removeItem(sessionAccountKey);
-}
+// Authentication identity always comes from Better Auth's server session.
+// Local storage is used only for the learner's progress cache.
+let account = null;
 const progressKey = () => account?.email ? `${storageKey}:${account.email}` : storageKey;
 let progress = readStored(progressKey(), {});
 const requestedView = new URLSearchParams(window.location.search).get('view');
-const initialView = account ? 'dashboard' : (requestedView === 'dashboard' ? 'login' : requestedView);
-let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', authError: '', selectedModelId: null, selectedPassageId: null, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
+const initialView = requestedView === 'dashboard' ? 'login' : requestedView;
+let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', authError: '', authLoading: true, selectedModelId: null, selectedPassageId: null, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -68,17 +54,12 @@ const brandLogo = (variant = 'default') => `<img class="brand-image ${variant ==
 const normalizeArabic = (value = '') => String(value).toLowerCase().replace(/[أإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/[ً-ْ]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const modelNumber = (model) => String(model.order).padStart(2, '0');
 const saveProgress = () => localStorage.setItem(progressKey(), JSON.stringify(progress));
-const hashPassword = async (password) => {
-  const bytes = new TextEncoder().encode(password);
-  const digest = await crypto.subtle.digest('SHA-256', bytes);
-  return Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, '0')).join('');
-};
-const saveAccount = (value, remember = true) => {
-  const accountWithExpiry = { ...value, sessionExpiresAt: Date.now() + sessionTtlMs };
-  account = accountWithExpiry;
-  localStorage.removeItem(accountKey);
-  sessionStorage.removeItem(sessionAccountKey);
-  (remember ? localStorage : sessionStorage).setItem(remember ? accountKey : sessionAccountKey, JSON.stringify(accountWithExpiry));
+const authErrorMessage = (error, fallback = 'تعذر تنفيذ الطلب. حاول مرة أخرى.') => {
+  const code = String(error?.code ?? error?.status ?? '').toUpperCase();
+  if (code.includes('USER_ALREADY_EXISTS') || code.includes('EMAIL_ALREADY_EXISTS') || code.includes('CONFLICT')) return 'هذا البريد الإلكتروني مسجل مسبقًا. سجّل الدخول بدلًا من إنشاء حساب جديد.';
+  if (code.includes('INVALID_EMAIL') || code.includes('INVALID_PASSWORD') || code.includes('USER_NOT_FOUND') || code.includes('UNAUTHORIZED')) return 'البريد الإلكتروني أو كلمة المرور غير صحيحة.';
+  if (code.includes('TOO_MANY')) return 'محاولات كثيرة. انتظر قليلًا ثم حاول مرة أخرى.';
+  return error?.message || fallback;
 };
 const quizKey = (modelId, passageId) => `${modelId}:${passageId}`;
 const quizProgress = (modelId, passageId) => progress[quizKey(modelId, passageId)] ?? { answers: {}, status: 'not-started' };
@@ -177,7 +158,7 @@ function loginView() {
 }
 
 function registerView() {
-  return `<main class="auth-shell"><div class="auth-panel"><button class="brand-mark brand-button" data-library>${brandLogo()}</button><span class="auth-kicker">ابدأ خطتك التعليمية</span><h1>أنشئ حسابك في نباهة</h1><p>حسابك يحفظ تقدمك وأخطاءك لتعود إلى التدريب في أي وقت.</p>${state.authError ? `<div class="auth-error" role="alert">${escapeHtml(state.authError)}</div>` : ''}<form class="auth-form register-form"><label>الاسم الكامل<input name="name" type="text" placeholder="اكتب اسمك" autocomplete="name" minlength="2" required></label><label>البريد الإلكتروني<input name="email" type="email" placeholder="أدخل بريدك الإلكتروني" autocomplete="email" required></label><label>كلمة المرور<input name="password" type="password" placeholder="8 أحرف على الأقل" autocomplete="new-password" minlength="8" required></label><label>تأكيد كلمة المرور<input name="confirmPassword" type="password" placeholder="أعد كتابة كلمة المرور" autocomplete="new-password" minlength="8" required></label><label class="remember-row"><input name="terms" type="checkbox" required> أوافق على حفظ بيانات الحساب محليًا</label><button class="orange-action" type="submit">إنشاء الحساب والدخول</button></form><button class="auth-secondary" data-login>لدي حساب بالفعل</button><button class="auth-link" data-library>العودة للرئيسية</button></div><div class="auth-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP"><div><strong>خطتك تبدأ هنا</strong><span>تقدم محفوظ وتجربة منظمة</span></div></div></main>`;
+  return `<main class="auth-shell"><div class="auth-panel"><button class="brand-mark brand-button" data-library>${brandLogo()}</button><span class="auth-kicker">ابدأ خطتك التعليمية</span><h1>أنشئ حسابك في نباهة</h1><p>حسابك يحفظ تقدمك وأخطاءك لتعود إلى التدريب في أي وقت.</p>${state.authError ? `<div class="auth-error" role="alert">${escapeHtml(state.authError)}</div>` : ''}<form class="auth-form register-form"><label>الاسم الكامل<input name="name" type="text" placeholder="اكتب اسمك" autocomplete="name" minlength="2" required></label><label>البريد الإلكتروني<input name="email" type="email" placeholder="أدخل بريدك الإلكتروني" autocomplete="email" required></label><label>كلمة المرور<input name="password" type="password" placeholder="8 أحرف على الأقل" autocomplete="new-password" minlength="8" required></label><label>تأكيد كلمة المرور<input name="confirmPassword" type="password" placeholder="أعد كتابة كلمة المرور" autocomplete="new-password" minlength="8" required></label><label class="remember-row"><input name="terms" type="checkbox" required> أوافق على حفظ بيانات الحساب بأمان</label><button class="orange-action" type="submit">إنشاء الحساب والدخول</button></form><button class="auth-secondary" data-login>لدي حساب بالفعل</button><button class="auth-link" data-library>العودة للرئيسية</button></div><div class="auth-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP"><div><strong>خطتك تبدأ هنا</strong><span>تقدم محفوظ وتجربة منظمة</span></div></div></main>`;
 }
 
 function dashboardView() {
@@ -372,12 +353,9 @@ function currentPassage(model = currentModel()) {
 }
 
 function render() {
-  if (account && Number(account.sessionExpiresAt) <= Date.now()) {
-    account = null;
-    progress = {};
-    localStorage.removeItem(accountKey);
-    sessionStorage.removeItem(sessionAccountKey);
-    state = { ...state, view: 'login', authError: 'انتهت جلسة الدخول بعد 10 ساعات. سجّل الدخول للمتابعة.' };
+  if (state.authLoading) {
+    app.innerHTML = '<main class="auth-shell"><div class="auth-panel"><span class="auth-kicker">نباهة</span><h1>جارٍ التحقق من الجلسة…</h1><p>لحظات ونفتح لك المساحة المناسبة.</p></div></main>';
+    return;
   }
   const model = currentModel();
   const passage = currentPassage(model);
@@ -407,6 +385,8 @@ app.addEventListener('submit', async (event) => {
   const form = event.target.closest('.auth-form');
   if (!form) return;
   event.preventDefault();
+  const submitButton = form.querySelector('button[type="submit"]');
+  if (submitButton) submitButton.disabled = true;
   const data = new FormData(form);
   const email = String(data.get('email') ?? '').trim().toLowerCase();
   const password = String(data.get('password') ?? '');
@@ -415,47 +395,53 @@ app.addEventListener('submit', async (event) => {
     render();
     return;
   }
-  if (form.classList.contains('register-form')) {
-    const name = String(data.get('name') ?? '').trim();
-    const confirmPassword = String(data.get('confirmPassword') ?? '');
-    if (name.length < 2) {
-      state.authError = 'اكتب اسمًا صحيحًا من حرفين على الأقل.';
+  try {
+    let response;
+    if (form.classList.contains('register-form')) {
+      const name = String(data.get('name') ?? '').trim();
+      const confirmPassword = String(data.get('confirmPassword') ?? '');
+      if (name.length < 2) {
+        state.authError = 'اكتب اسمًا صحيحًا من حرفين على الأقل.';
+        render();
+        return;
+      }
+      if (password.length < 8) {
+        state.authError = 'كلمة المرور يجب أن تحتوي على 8 أحرف على الأقل.';
+        render();
+        return;
+      }
+      if (password !== confirmPassword) {
+        state.authError = 'تأكيد كلمة المرور غير مطابق.';
+        render();
+        return;
+      }
+      response = await authClient.signUp.email({ email, name, password, callbackURL: window.location.origin });
+    } else {
+      response = await authClient.signIn.email({ email, password, rememberMe: Boolean(data.get('remember')) });
+    }
+    if (response?.error) {
+      state.authError = authErrorMessage(response.error, form.classList.contains('register-form') ? 'تعذر إنشاء الحساب. حاول مرة أخرى.' : 'البريد الإلكتروني أو كلمة المرور غير صحيحة.');
       render();
       return;
     }
-    if (password.length < 8) {
-      state.authError = 'كلمة المرور يجب أن تحتوي على 8 أحرف على الأقل.';
+    account = response?.data?.user ?? null;
+    if (!account) {
+      const session = await authClient.getSession();
+      account = session?.data?.user ?? null;
+    }
+    if (!account) {
+      state.authError = 'تعذر إنشاء جلسة آمنة. تحقق من إعدادات الخادم ثم حاول مرة أخرى.';
       render();
       return;
     }
-    if (password !== confirmPassword) {
-      state.authError = 'تأكيد كلمة المرور غير مطابق.';
-      render();
-      return;
-    }
-    const passwordHash = await hashPassword(password);
-    account = { email, name, passwordHash };
-    progress = {};
-    saveProgress();
-    saveAccount(account, true);
-  } else {
-    if (!account?.email || !account?.passwordHash) {
-      state.authError = 'لا يوجد حساب محفوظ. أنشئ حسابًا جديدًا أولًا.';
-      render();
-      return;
-    }
-    const passwordHash = await hashPassword(password);
-    if (account.email !== email || account.passwordHash !== passwordHash) {
-      state.authError = 'البريد الإلكتروني أو كلمة المرور غير صحيحة.';
-      render();
-      return;
-    }
-    progress = readStored(progressKey(), {});
+    progress = form.classList.contains('register-form') ? {} : readStored(progressKey(), {});
+    if (form.classList.contains('register-form')) saveProgress();
+    state = { ...state, view: 'dashboard', authError: '', authLoading: false };
+    render();
+  } catch (error) {
+    state.authError = authErrorMessage(error, 'تعذر الاتصال بخدمة الحساب. حاول مرة أخرى.');
+    render();
   }
-  const remember = form.classList.contains('login-form') ? Boolean(data.get('remember')) : true;
-  saveAccount(account, remember);
-  state = { ...state, view: 'dashboard', authError: '' };
-  render();
 });
 
 app.addEventListener('click', (event) => {
@@ -486,12 +472,18 @@ app.addEventListener('click', (event) => {
   }
 
   if (event.target.closest('[data-logout]')) {
-    account = null;
-    progress = {};
-    localStorage.removeItem(accountKey);
-    sessionStorage.removeItem(sessionAccountKey);
-    state = { ...state, view: 'library' };
-    render();
+    const logoutButton = event.target.closest('[data-logout]');
+    if (logoutButton) logoutButton.disabled = true;
+    authClient.signOut()
+      .then(() => {
+        account = null;
+        progress = {};
+        state = { ...state, view: 'library', dashboardSection: 'dashboard', authError: '' };
+      })
+      .catch(() => {
+        state.authError = 'تعذر تسجيل الخروج الآن. حاول مرة أخرى.';
+      })
+      .finally(render);
     return;
   }
 
@@ -625,3 +617,24 @@ app.addEventListener('click', (event) => {
 });
 
 render();
+
+// Hydrate the UI from the server session on every page load. No account
+// credentials or authentication identity are read from localStorage.
+authClient.getSession()
+  .then((response) => {
+    account = response?.data?.user ?? null;
+    if (account) {
+      progress = readStored(progressKey(), {});
+      state.view = 'dashboard';
+    } else if (state.view === 'dashboard') {
+      state.view = 'login';
+    }
+  })
+  .catch(() => {
+    account = null;
+    if (state.view === 'dashboard') state.view = 'login';
+  })
+  .finally(() => {
+    state.authLoading = false;
+    render();
+  });

@@ -1,6 +1,6 @@
 -- Additive application migration. Better Auth's user/session/account/
--- verification tables are managed by Better Auth and are intentionally not
--- recreated here. Run `npx @better-auth/cli generate` for auth upgrades.
+-- verification tables are created by the dedicated 0002 migration so the
+-- application and auth adapter share one explicit Neon schema.
 CREATE EXTENSION IF NOT EXISTS pgcrypto;
 
 CREATE TABLE IF NOT EXISTS profiles (
@@ -96,4 +96,3 @@ CREATE TABLE IF NOT EXISTS audit_logs (
   entity_type text NOT NULL, entity_id text NOT NULL, metadata jsonb, created_at timestamptz NOT NULL DEFAULT now()
 );
 CREATE INDEX IF NOT EXISTS audit_logs_entity_idx ON audit_logs(entity_type, entity_id);
-
