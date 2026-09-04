@@ -53,11 +53,12 @@ let account = storedAccount?.email && storedAccount?.passwordHash ? storedAccoun
 const progressKey = () => account?.email ? `${storageKey}:${account.email}` : storageKey;
 let progress = readStored(progressKey(), {});
 const requestedView = new URLSearchParams(window.location.search).get('view');
-const initialView = requestedView === 'dashboard' && !account ? 'login' : requestedView;
-let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', authError: '', selectedModelId: null, selectedPassageId: null, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
+const initialView = account ? 'dashboard' : (requestedView === 'dashboard' ? 'login' : requestedView);
+let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', authError: '', selectedModelId: null, selectedPassageId: null, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
+const brandLogo = () => `<span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 44 38" focusable="false"><path d="M22 35C19 27 11 22 3 21v13h19Zm0 0c3-8 11-13 19-14v13H22ZM22 35V14c0-7 5-11 12-13v14c0 6-5 10-12 20ZM22 14C18 7 13 3 6 1v14c0 6 5 10 16 20Z"/></svg></span><span class="brand-word">نباهة</span>`;
 const normalizeArabic = (value = '') => String(value).toLowerCase().replace(/[أإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/[ً-ْ]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const modelNumber = (model) => String(model.order).padStart(2, '0');
 const saveProgress = () => localStorage.setItem(progressKey(), JSON.stringify(progress));
@@ -153,21 +154,22 @@ function renderQuestionText(question) {
 }
 
 function raseenHeader(active = 'النماذج') {
+  if (account) return dashboardHeader(['model', 'quiz', 'solutions', 'result'].includes(state.view) ? 'reading' : 'dashboard');
   const nav = ['الرئيسية', 'أقسام STEP', 'النماذج', 'المدونة', 'من نحن', 'تواصل معنا'];
-  return `<header class="raseen-header"><button class="brand-mark brand-button" data-library aria-label="العودة للرئيسية"><span>رصين</span><i aria-hidden="true">⌁</i></button><nav>${nav.map((item) => `<button class="${item === active ? 'active' : ''}" ${item === 'الرئيسية' ? 'data-library' : item === 'النماذج' || item === 'أقسام STEP' ? 'data-models-scroll' : 'data-dashboard'}>${item}</button>`).join('')}</nav><div class="header-actions"><button class="outline-action" ${account ? 'data-dashboard' : 'data-login'}>${account ? 'حسابي' : 'تسجيل الدخول'}</button><button class="orange-action" data-dashboard>ابدأ الآن</button></div></header>`;
+  return `<header class="raseen-header"><button class="brand-mark brand-button" data-library aria-label="العودة للرئيسية">${brandLogo()}</button><nav>${nav.map((item) => `<button class="${item === active ? 'active' : ''}" ${item === 'الرئيسية' ? 'data-library' : item === 'النماذج' || item === 'أقسام STEP' ? 'data-models-scroll' : 'data-dashboard'}>${item}</button>`).join('')}</nav><div class="header-actions"><button class="outline-action" data-login>تسجيل الدخول</button><button class="orange-action" data-dashboard>ابدأ الآن</button></div></header>`;
 }
 
-function dashboardHeader() {
+function dashboardHeader(active = 'dashboard') {
   const name = account?.name ? escapeHtml(account.name) : 'حسابي';
-  return `<header class="dashboard-header"><button class="dashboard-brand" data-dashboard aria-label="لوحة المستخدم"><span>رصين</span><i aria-hidden="true">⌁</i></button><nav aria-label="تنقل لوحة المستخدم"><button class="active" data-dashboard>لوحة التحكم</button><button data-dashboard>الأخطاء</button><button data-models-scroll>القراءة</button><button data-dashboard>القواعد</button><button data-dashboard>الاستماع</button><button data-dashboard>الملف الشخصي</button></nav><div class="dashboard-account"><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></header>`;
+  return `<header class="dashboard-header"><button class="dashboard-brand" data-dashboard-section="dashboard" aria-label="لوحة المستخدم">${brandLogo()}</button><nav aria-label="تنقل لوحة المستخدم"><button class="${active === 'dashboard' ? 'active' : ''}" data-dashboard-section="dashboard">لوحة التحكم</button><button class="${active === 'mistakes' ? 'active' : ''}" data-dashboard-section="mistakes">الأخطاء</button><button class="${active === 'reading' ? 'active' : ''}" data-models-scroll>القراءة</button><button class="${active === 'grammar' ? 'active' : ''}" data-dashboard-section="grammar">القواعد</button><button class="${active === 'listening' ? 'active' : ''}" data-dashboard-section="listening">الاستماع</button><button class="${active === 'profile' ? 'active' : ''}" data-dashboard-section="profile">الملف الشخصي</button></nav><div class="dashboard-account"><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></header>`;
 }
 
 function loginView() {
-  return `<main class="auth-shell"><div class="auth-panel"><button class="brand-mark brand-button" data-library><span>رصين</span><i aria-hidden="true">⌁</i></button><span class="auth-kicker">منصة متخصصة في STEP فقط</span><h1>سجّل دخولك وابدأ رحلتك</h1><p>احفظ تقدمك، راجع أخطاءك، وواصل التدريب من آخر سؤال وصلت إليه.</p>${state.authError ? `<div class="auth-error" role="alert">${escapeHtml(state.authError)}</div>` : ''}<form class="auth-form login-form"><label>البريد الإلكتروني<input name="email" type="email" placeholder="أدخل بريدك الإلكتروني" autocomplete="email" required></label><label>كلمة المرور<input name="password" type="password" placeholder="أدخل كلمة المرور" autocomplete="current-password" required></label><label class="remember-row"><input name="remember" type="checkbox" checked> تذكّرني على هذا الجهاز</label><button class="orange-action" type="submit">تسجيل الدخول</button></form><button class="auth-secondary" data-register>إنشاء حساب جديد</button><button class="auth-link" data-library>العودة للرئيسية</button></div><div class="auth-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP"><div><strong>تعلّم بثقة</strong><span>خطة واضحة وتقدم محفوظ</span></div></div></main>`;
+  return `<main class="auth-shell"><div class="auth-panel"><button class="brand-mark brand-button" data-library>${brandLogo()}</button><span class="auth-kicker">منصة متخصصة في STEP فقط</span><h1>سجّل دخولك إلى نباهة</h1><p>احفظ تقدمك، راجع أخطاءك، وواصل التدريب من آخر سؤال وصلت إليه.</p>${state.authError ? `<div class="auth-error" role="alert">${escapeHtml(state.authError)}</div>` : ''}<form class="auth-form login-form"><label>البريد الإلكتروني<input name="email" type="email" placeholder="أدخل بريدك الإلكتروني" autocomplete="email" required></label><label>كلمة المرور<input name="password" type="password" placeholder="أدخل كلمة المرور" autocomplete="current-password" required></label><label class="remember-row"><input name="remember" type="checkbox" checked> تذكّرني على هذا الجهاز</label><button class="orange-action" type="submit">تسجيل الدخول</button></form><button class="auth-secondary" data-register>إنشاء حساب جديد</button><button class="auth-link" data-library>العودة للرئيسية</button></div><div class="auth-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP"><div><strong>تعلّم بثقة</strong><span>خطة واضحة وتقدم محفوظ</span></div></div></main>`;
 }
 
 function registerView() {
-  return `<main class="auth-shell"><div class="auth-panel"><button class="brand-mark brand-button" data-library><span>رصين</span><i aria-hidden="true">⌁</i></button><span class="auth-kicker">ابدأ خطتك التعليمية</span><h1>أنشئ حسابك في رصين</h1><p>حسابك يحفظ تقدمك وأخطاءك لتعود إلى التدريب في أي وقت.</p>${state.authError ? `<div class="auth-error" role="alert">${escapeHtml(state.authError)}</div>` : ''}<form class="auth-form register-form"><label>الاسم الكامل<input name="name" type="text" placeholder="اكتب اسمك" autocomplete="name" minlength="2" required></label><label>البريد الإلكتروني<input name="email" type="email" placeholder="أدخل بريدك الإلكتروني" autocomplete="email" required></label><label>كلمة المرور<input name="password" type="password" placeholder="8 أحرف على الأقل" autocomplete="new-password" minlength="8" required></label><label>تأكيد كلمة المرور<input name="confirmPassword" type="password" placeholder="أعد كتابة كلمة المرور" autocomplete="new-password" minlength="8" required></label><label class="remember-row"><input name="terms" type="checkbox" required> أوافق على حفظ بيانات الحساب محليًا</label><button class="orange-action" type="submit">إنشاء الحساب والدخول</button></form><button class="auth-secondary" data-login>لدي حساب بالفعل</button><button class="auth-link" data-library>العودة للرئيسية</button></div><div class="auth-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP"><div><strong>خطتك تبدأ هنا</strong><span>تقدم محفوظ وتجربة منظمة</span></div></div></main>`;
+  return `<main class="auth-shell"><div class="auth-panel"><button class="brand-mark brand-button" data-library>${brandLogo()}</button><span class="auth-kicker">ابدأ خطتك التعليمية</span><h1>أنشئ حسابك في نباهة</h1><p>حسابك يحفظ تقدمك وأخطاءك لتعود إلى التدريب في أي وقت.</p>${state.authError ? `<div class="auth-error" role="alert">${escapeHtml(state.authError)}</div>` : ''}<form class="auth-form register-form"><label>الاسم الكامل<input name="name" type="text" placeholder="اكتب اسمك" autocomplete="name" minlength="2" required></label><label>البريد الإلكتروني<input name="email" type="email" placeholder="أدخل بريدك الإلكتروني" autocomplete="email" required></label><label>كلمة المرور<input name="password" type="password" placeholder="8 أحرف على الأقل" autocomplete="new-password" minlength="8" required></label><label>تأكيد كلمة المرور<input name="confirmPassword" type="password" placeholder="أعد كتابة كلمة المرور" autocomplete="new-password" minlength="8" required></label><label class="remember-row"><input name="terms" type="checkbox" required> أوافق على حفظ بيانات الحساب محليًا</label><button class="orange-action" type="submit">إنشاء الحساب والدخول</button></form><button class="auth-secondary" data-login>لدي حساب بالفعل</button><button class="auth-link" data-library>العودة للرئيسية</button></div><div class="auth-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP"><div><strong>خطتك تبدأ هنا</strong><span>تقدم محفوظ وتجربة منظمة</span></div></div></main>`;
 }
 
 function dashboardView() {
@@ -175,7 +177,28 @@ function dashboardView() {
   const answered = Object.values(progress).reduce((sum, item) => sum + Object.keys(item.answers ?? {}).length, 0);
   const mistakes = Object.values(progress).flatMap((item) => item.mistakes ?? []);
   const firstModel = models.find((model) => model.passages.length);
-  return `<main class="dashboard-shell">${dashboardHeader()}<section class="dashboard-welcome"><div><span>لوحة المستخدم</span><h1>مرحبًا${account?.name ? `، ${escapeHtml(account.name)}` : ''} 👋</h1><p>استمر بخطوة ثابتة، وكل جلسة تقرّبك من هدفك في اختبار STEP.</p><button class="orange-action" data-open-model="${firstModel?.id ?? 'reading-01'}">تابع التدريب ←</button></div><div class="dashboard-progress"><strong>${Math.min(100, Math.round((completed / Math.max(1, models.length)) * 100))}%</strong><span>نسبة الإنجاز</span><div><i style="width:${Math.min(100, Math.round((completed / Math.max(1, models.length)) * 100))}%"></i></div></div></section><section class="dashboard-stats"><article><strong>${completed}</strong><span>اختبارات مكتملة</span></article><article><strong>${answered}</strong><span>إجابة محفوظة</span></article><article><strong>${mistakes.length}</strong><span>أخطاء محفوظة</span></article><article><strong>${models.length}</strong><span>نموذج متاح</span></article></section><section class="dashboard-sections"><article><b>◫</b><h3>القراءة</h3><p>${models.reduce((sum, model) => sum + model.passages.length, 0)} قطعة تدريبية متاحة</p><button data-models-scroll>فتح النماذج ←</button></article><article><b>⌘</b><h3>القواعد</h3><p>مسارات القواعد ستضاف تدريجيًا إلى خطتك.</p><button data-dashboard>استعرض القسم</button></article><article><b>◉</b><h3>الاستماع</h3><p>تدريبات الاستماع قيد التجهيز.</p><button data-dashboard>استعرض القسم</button></article><article><b>✎</b><h3>الكتابة</h3><p>تدريبات الكتابة قيد التجهيز.</p><button data-dashboard>استعرض القسم</button></article></section><section class="dashboard-grid"><article><div class="section-heading"><div><span>خطتك الحالية</span><h2>واصل من حيث توقفت</h2></div></div><p>اختر نموذجًا للوصول إلى القطع والاختبارات الخاصة به.</p><button class="outline-action" data-models-scroll>عرض النماذج</button></article><article><div class="section-heading"><div><span>الأخطاء المسجلة</span><h2>${mistakes.length ? `${mistakes.length} تحتاج مراجعة` : 'لا توجد أخطاء بعد'}</h2></div></div><p>${mistakes.length ? 'راجع الأسئلة التي أخطأت فيها قبل إعادة المحاولة.' : 'أجب عن الأسئلة وستظهر الأخطاء هنا للمراجعة.'}</p><button class="outline-action" data-models-scroll>ابدأ المراجعة</button></article><article><div class="section-heading"><div><span>اختصارات سريعة</span><h2>ابدأ الآن</h2></div></div><div class="quick-actions"><button data-open-model="reading-01">النموذج الأول</button><button data-library>كل النماذج</button><button data-logout>تسجيل الخروج</button></div></article></section></main>`;
+  return `<main class="dashboard-shell">${dashboardHeader('dashboard')}<section class="dashboard-welcome"><div><span>لوحة المستخدم</span><h1>مرحبًا${account?.name ? `، ${escapeHtml(account.name)}` : ''} 👋</h1><p>استمر بخطوة ثابتة، وكل جلسة تقرّبك من هدفك في اختبار STEP.</p><button class="orange-action" data-open-model="${firstModel?.id ?? 'reading-01'}">تابع التدريب ←</button></div><div class="dashboard-progress"><strong>${Math.min(100, Math.round((completed / Math.max(1, models.length)) * 100))}%</strong><span>نسبة الإنجاز</span><div><i style="width:${Math.min(100, Math.round((completed / Math.max(1, models.length)) * 100))}%"></i></div></div></section><section class="dashboard-stats"><article><strong>${completed}</strong><span>اختبارات مكتملة</span></article><article><strong>${answered}</strong><span>إجابة محفوظة</span></article><article><strong>${mistakes.length}</strong><span>أخطاء محفوظة</span></article><article><strong>${models.length}</strong><span>نموذج متاح</span></article></section><section class="dashboard-sections"><article><b>◫</b><h3>القراءة</h3><p>${models.reduce((sum, model) => sum + model.passages.length, 0)} قطعة تدريبية متاحة</p><button data-models-scroll>فتح النماذج ←</button></article><article><b>⌘</b><h3>القواعد</h3><p>مسارات القواعد ستضاف تدريجيًا إلى خطتك.</p><button data-dashboard-section="grammar">استعرض القسم</button></article><article><b>◉</b><h3>الاستماع</h3><p>تدريبات الاستماع قيد التجهيز.</p><button data-dashboard-section="listening">استعرض القسم</button></article><article><b>✎</b><h3>الكتابة</h3><p>تدريبات الكتابة ستضاف تدريجيًا إلى خطتك.</p><button data-dashboard-section="writing">استعرض القسم</button></article></section><section class="dashboard-grid"><article><div class="section-heading"><div><span>خطتك الحالية</span><h2>واصل من حيث توقفت</h2></div></div><p>اختر نموذجًا للوصول إلى القطع والاختبارات الخاصة به.</p><button class="outline-action" data-models-scroll>عرض النماذج</button></article><article><div class="section-heading"><div><span>الأخطاء المسجلة</span><h2>${mistakes.length ? `${mistakes.length} تحتاج مراجعة` : 'لا توجد أخطاء بعد'}</h2></div></div><p>${mistakes.length ? 'راجع الأسئلة التي أخطأت فيها قبل إعادة المحاولة.' : 'أجب عن الأسئلة وستظهر الأخطاء هنا للمراجعة.'}</p><button class="outline-action" data-dashboard-section="mistakes">ابدأ المراجعة</button></article><article><div class="section-heading"><div><span>اختصارات سريعة</span><h2>ابدأ الآن</h2></div></div><div class="quick-actions"><button data-open-model="reading-01">النموذج الأول</button><button data-models-scroll>كل النماذج</button><button data-logout>تسجيل الخروج</button></div></article></section></main>`;
+}
+
+function dashboardModelsView() {
+  const filtered = visibleModels();
+  return `<main class="dashboard-shell dashboard-models-shell">${dashboardHeader('reading')}<header class="dashboard-page-heading"><div><span>مكتبة التدريب</span><h1>نماذج القراءة</h1><p>اختر النموذج للوصول إلى قطعه واختباراته.</p></div><button class="outline-action" data-dashboard>لوحة التحكم</button></header><section class="models-section dashboard-models-section"><section class="toolbar" aria-label="أدوات النماذج"><label class="search"><span>⌕</span><input id="search" value="${escapeHtml(state.query)}" placeholder="ابحث برقم النموذج أو اسم القطعة" /></label></section><section class="reading-grid">${filtered.map((model) => `<button class="reading-card ${model.passages.length ? '' : 'locked'}" data-open-model="${model.id}"><span class="reading-number">${modelNumber(model)}</span><span class="reading-title">${escapeHtml(model.title)}</span><span class="reading-meta">${model.passages.length ? `${model.passages.length} قطع داخلية` : 'بانتظار الإضافة'}</span><span class="reading-status ${model.passages.length ? 'in-progress' : 'not-started'}">${model.passages.length ? 'جاهز للاختبار' : 'غير مضاف'}</span></button>`).join('')}</section></section></main>`;
+}
+
+function dashboardSectionView(section) {
+  const labels = { mistakes: ['أخطائي', 'راجع الإجابات التي تحتاج إلى تحسين وحوّلها إلى تقدم.'], grammar: ['القواعد', 'مسارات القواعد ستضاف تدريجيًا إلى خطتك.'], listening: ['الاستماع', 'تدريبات الاستماع ستضاف تدريجيًا إلى خطتك.'], writing: ['الكتابة', 'تدريبات الكتابة ستضاف تدريجيًا إلى خطتك.'], profile: ['الملف الشخصي', 'بيانات حسابك وإعدادات الوصول.'] };
+  const [title, subtitle] = labels[section] ?? labels.mistakes;
+  const mistakes = Object.values(progress).flatMap((item) => item.mistakes ?? []);
+  const questionMap = new Map(models.flatMap((model) => model.passages.flatMap((passage) => passage.questions.map((question) => [question.id, { model, passage, question }]))));
+  let content = '';
+  if (section === 'mistakes') {
+    content = mistakes.length ? `<div class="dashboard-mistakes-list">${mistakes.map((mistake) => { const match = questionMap.get(mistake.questionId); return `<article class="dashboard-mistake-card"><span>سؤال ${match?.question.number ?? '—'}</span><h3>${escapeHtml(match?.question.question ?? 'سؤال غير متاح')}</h3><p>${escapeHtml(match ? `${match.passage.title} · النموذج ${modelNumber(match.model)}` : 'بيانات السؤال محفوظة للمراجعة')}</p><button data-open-model="${match?.model.id ?? 'reading-01'}">أعد التدريب</button></article>`; }).join('')}</div>` : '<div class="dashboard-empty"><strong>لا توجد أخطاء حتى الآن</strong><p>أكمل بعض التدريبات وستظهر هنا الأسئلة التي تحتاج مراجعتها.</p><button class="orange-action" data-models-scroll>ابدأ التدريب</button></div>';
+  } else if (section === 'profile') {
+    content = `<div class="dashboard-profile-card"><span class="dashboard-avatar large">${escapeHtml((account?.name ?? 'ح').charAt(0))}</span><h2>${escapeHtml(account?.name ?? 'المستخدم')}</h2><p>${escapeHtml(account?.email ?? '')}</p><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div>`;
+  } else {
+    content = `<div class="dashboard-empty"><strong>هذا القسم قيد التجهيز</strong><p>ستتم إضافة المحتوى المعتمد إلى هذا القسم قريبًا. يمكنك متابعة نماذج القراءة المتاحة الآن.</p><button class="orange-action" data-models-scroll>استكشف القراءة</button></div>`;
+  }
+  return `<main class="dashboard-shell dashboard-section-shell">${dashboardHeader(section)}<header class="dashboard-page-heading"><div><span>مساحة التعلم</span><h1>${title}</h1><p>${subtitle}</p></div><button class="outline-action" data-dashboard-section="dashboard">لوحة التحكم</button></header>${content}</main>`;
 }
 
 function libraryView() {
@@ -185,7 +208,7 @@ function libraryView() {
   const totalQuestions = models.reduce((sum, model) => sum + model.passages.reduce((pieceSum, passage) => pieceSum + passage.questions.length, 0), 0);
   return `<main class="app-shell">
     ${raseenHeader('الرئيسية')}
-    <section class="raseen-hero"><div class="hero-copy"><span class="hero-kicker">منصة متخصصة في STEP فقط</span><h1>خطتك الأذكى لاجتياز <em>STEP</em></h1><p>تدرّب على القراءة من مكان واحد، وتابع تقدمك وأخطاءك حتى تصل إلى هدفك بثقة واحترافية.</p><ul class="hero-features"><li>نماذج مرتبة وواضحة</li><li>تصحيح فوري مع تفسير</li><li>متابعة وحفظ للتقدم</li><li>تجربة مناسبة لكل الأجهزة</li></ul><div class="hero-actions"><button class="orange-action" data-open-model="reading-01">ابدأ رحلتك مع رصين ←</button><button class="outline-action" data-models-scroll>استكشف النماذج</button></div></div><div class="hero-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP باستخدام منصة رصين"><span class="hero-photo-badge">منصة متخصصة في<br><strong>STEP فقط</strong></span></div></section>
+    <section class="raseen-hero"><div class="hero-copy"><span class="hero-kicker">منصة متخصصة في STEP فقط</span><h1>خطتك الأذكى لاجتياز <em>STEP</em></h1><p>تدرّب على القراءة من مكان واحد، وتابع تقدمك وأخطاءك حتى تصل إلى هدفك بثقة واحترافية.</p><ul class="hero-features"><li>نماذج مرتبة وواضحة</li><li>تصحيح فوري مع تفسير</li><li>متابعة وحفظ للتقدم</li><li>تجربة مناسبة لكل الأجهزة</li></ul><div class="hero-actions"><button class="orange-action" data-open-model="reading-01">ابدأ رحلتك مع نباهة ←</button><button class="outline-action" data-models-scroll>استكشف النماذج</button></div></div><div class="hero-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP باستخدام منصة نباهة"><span class="hero-photo-badge">منصة متخصصة في<br><strong>STEP فقط</strong></span></div></section>
     <section class="hero-stats"><div><strong>${models.filter((model) => model.passages.length).length}</strong><span>نماذج متاحة</span></div><div><strong>${totalPassages}</strong><span>قطعة تدريبية</span></div><div><strong>${totalQuestions}</strong><span>سؤالًا منظمًا</span></div><div><strong>${completed}</strong><span>اختبارات مكتملة</span></div></section>
     <section class="benefits-strip"><span>نماذج STEP منظمة</span><span>متابعة الأخطاء</span><span>حفظ التقدم</span><span>تدريب واختبار</span></section>
     <section class="skills-section"><div class="section-heading"><div><span>ابدأ من مهارتك</span><h2>طوّر مستواك في كل قسم</h2></div></div><div class="skills-grid"><article><b>◫</b><h3>القراءة</h3><p>افهم القطع وأجب بدقة وسرعة.</p><button data-open-model="reading-01">ابدأ الآن ←</button></article><article><b>⌘</b><h3>القواعد</h3><p>راجع القواعد الأساسية لاختبار STEP.</p><button>قريبًا</button></article><article><b>◉</b><h3>الاستماع</h3><p>درّب أذنك على التفاصيل والفكرة العامة.</p><button>قريبًا</button></article><article><b>✎</b><h3>الكتابة</h3><p>طوّر بناء الجملة والاختيار الصحيح.</p><button>قريبًا</button></article></div></section>
@@ -201,7 +224,7 @@ function libraryView() {
         <span class="reading-status ${model.passages.length ? 'in-progress' : 'not-started'}">${model.passages.length ? 'جاهز للاختبار' : 'غير مضاف'}</span>
       </button>`).join('')}
     </section></section>
-    <footer class="raseen-footer"><strong>رصين</strong><span>منصة تعليمية متخصصة لاجتياز اختبار STEP</span></footer>
+    <footer class="raseen-footer"><strong>نباهة</strong><span>منصة تعليمية متخصصة لاجتياز اختبار STEP</span></footer>
   </main>`;
 }
 
@@ -345,7 +368,9 @@ function render() {
   const passage = currentPassage(model);
   if (state.view === 'login') app.innerHTML = loginView();
   else if (state.view === 'register') app.innerHTML = registerView();
-  else if (state.view === 'dashboard') app.innerHTML = dashboardView();
+  else if (state.view === 'dashboard') app.innerHTML = account ? dashboardView() : loginView();
+  else if (state.view === 'dashboard-models') app.innerHTML = account ? dashboardModelsView() : loginView();
+  else if (state.view === 'dashboard-section') app.innerHTML = account ? dashboardSectionView(state.dashboardSection) : loginView();
   else if (state.view === 'model' && model) app.innerHTML = modelView(model);
   else if (state.view === 'quiz' && model && passage) app.innerHTML = quizView(model, passage);
   else if (state.view === 'solutions' && model && passage) app.innerHTML = solutionsView(model, passage);
@@ -431,6 +456,14 @@ app.addEventListener('click', (event) => {
     return;
   }
 
+  const dashboardSectionButton = event.target.closest('[data-dashboard-section]');
+  if (dashboardSectionButton) {
+    const section = dashboardSectionButton.dataset.dashboardSection;
+    state = { ...state, view: section === 'dashboard' ? 'dashboard' : 'dashboard-section', dashboardSection: section };
+    render();
+    return;
+  }
+
   if (event.target.closest('[data-dashboard]')) {
     state = { ...state, view: account ? 'dashboard' : 'login', authError: account ? '' : 'سجّل الدخول أو أنشئ حسابًا للوصول إلى لوحة المستخدم.' };
     render();
@@ -451,7 +484,7 @@ app.addEventListener('click', (event) => {
     const modelsSection = document.querySelector('.models-section');
     if (modelsSection) modelsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
     else {
-      state = { ...state, view: 'library', selectedModelId: null, selectedPassageId: null };
+      state = { ...state, view: account ? 'dashboard-models' : 'library', selectedModelId: null, selectedPassageId: null };
       render();
     }
     return;
@@ -571,7 +604,7 @@ app.addEventListener('click', (event) => {
   }
 
   if (event.target.closest('[data-library]')) {
-    state = { ...state, view: 'library', selectedModelId: null, selectedPassageId: null, activeAnswers: {}, restoredProgress: false };
+    state = { ...state, view: account ? 'dashboard' : 'library', selectedModelId: null, selectedPassageId: null, activeAnswers: {}, restoredProgress: false };
     render();
   }
 });
