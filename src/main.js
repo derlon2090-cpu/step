@@ -641,7 +641,10 @@ app.addEventListener('click', (event) => {
     if (state.grammarQuestionIndex >= model.questions.length - 1) {
       setGrammarProgress(model.id, { status: 'completed', currentQuestionIndex: 0 });
       state.view = 'grammar-result';
-      soundManager.play('exercise-complete');
+      const savedResults = grammarProgress(model.id).results ?? {};
+      const scored = model.questions.filter((candidate) => candidate.correctIndex !== null);
+      const correct = scored.filter((candidate) => savedResults[candidate.id] === true).length;
+      soundManager.play(scored.length && correct / scored.length >= 0.9 ? 'achievement' : 'exercise-complete');
     } else {
       state.grammarQuestionIndex += 1;
       setGrammarProgress(model.id, { currentQuestionIndex: state.grammarQuestionIndex });
