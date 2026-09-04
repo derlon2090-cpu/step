@@ -40,10 +40,18 @@ const readStored = (key, fallback) => {
     return fallback;
   }
 };
+const readSessionStored = (key, fallback) => {
+  try {
+    return JSON.parse(sessionStorage.getItem(key)) ?? fallback;
+  } catch {
+    return fallback;
+  }
+};
 
-let progress = readStored(storageKey, {});
-const storedAccount = readStored(accountKey, null) ?? readStored(sessionAccountKey, null);
+const storedAccount = readStored(accountKey, null) ?? readSessionStored(sessionAccountKey, null);
 let account = storedAccount?.email && storedAccount?.passwordHash ? storedAccount : null;
+const progressKey = () => account?.email ? `${storageKey}:${account.email}` : storageKey;
+let progress = readStored(progressKey(), {});
 const requestedView = new URLSearchParams(window.location.search).get('view');
 const initialView = requestedView === 'dashboard' && !account ? 'login' : requestedView;
 let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', authError: '', selectedModelId: null, selectedPassageId: null, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
@@ -52,7 +60,7 @@ const app = document.querySelector('#app');
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
 const normalizeArabic = (value = '') => String(value).toLowerCase().replace(/[أإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/[ً-ْ]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const modelNumber = (model) => String(model.order).padStart(2, '0');
-const saveProgress = () => localStorage.setItem(storageKey, JSON.stringify(progress));
+const saveProgress = () => localStorage.setItem(progressKey(), JSON.stringify(progress));
 const hashPassword = async (password) => {
   const bytes = new TextEncoder().encode(password);
   const digest = await crypto.subtle.digest('SHA-256', bytes);
@@ -387,6 +395,8 @@ app.addEventListener('submit', async (event) => {
     }
     const passwordHash = await hashPassword(password);
     account = { email, name, passwordHash };
+    progress = {};
+    saveProgress();
     saveAccount(account, true);
   } else {
     if (!account?.email || !account?.passwordHash) {
@@ -400,6 +410,7 @@ app.addEventListener('submit', async (event) => {
       render();
       return;
     }
+    progress = readStored(progressKey(), {});
   }
   const remember = form.classList.contains('login-form') ? Boolean(data.get('remember')) : true;
   saveAccount(account, remember);
@@ -428,6 +439,7 @@ app.addEventListener('click', (event) => {
 
   if (event.target.closest('[data-logout]')) {
     account = null;
+    progress = {};
     localStorage.removeItem(accountKey);
     sessionStorage.removeItem(sessionAccountKey);
     state = { ...state, view: 'library' };
