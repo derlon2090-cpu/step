@@ -32,6 +32,7 @@ const jsonModelsById = new Map(Object.values(jsonModelFiles).map((model) => [
 
 const storageKey = 'step-reading-progress-v2';
 const accountKey = 'raseen-local-account-v1';
+const sessionAccountKey = 'raseen-session-account-v1';
 const readStored = (key, fallback) => {
   try {
     return JSON.parse(localStorage.getItem(key)) ?? fallback;
@@ -41,14 +42,27 @@ const readStored = (key, fallback) => {
 };
 
 let progress = readStored(storageKey, {});
-let account = readStored(accountKey, null);
-let state = { view: 'library', selectedModelId: null, selectedPassageId: null, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
+const storedAccount = readStored(accountKey, null) ?? readStored(sessionAccountKey, null);
+let account = storedAccount?.email && storedAccount?.passwordHash ? storedAccount : null;
+const requestedView = new URLSearchParams(window.location.search).get('view');
+const initialView = requestedView === 'dashboard' && !account ? 'login' : requestedView;
+let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', authError: '', selectedModelId: null, selectedPassageId: null, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
 const normalizeArabic = (value = '') => String(value).toLowerCase().replace(/[أإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/[ً-ْ]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const modelNumber = (model) => String(model.order).padStart(2, '0');
 const saveProgress = () => localStorage.setItem(storageKey, JSON.stringify(progress));
+const hashPassword = async (password) => {
+  const bytes = new TextEncoder().encode(password);
+  const digest = await crypto.subtle.digest('SHA-256', bytes);
+  return Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, '0')).join('');
+};
+const saveAccount = (value, remember = true) => {
+  localStorage.removeItem(accountKey);
+  sessionStorage.removeItem(sessionAccountKey);
+  (remember ? localStorage : sessionStorage).setItem(remember ? accountKey : sessionAccountKey, JSON.stringify(value));
+};
 const quizKey = (modelId, passageId) => `${modelId}:${passageId}`;
 const quizProgress = (modelId, passageId) => progress[quizKey(modelId, passageId)] ?? { answers: {}, status: 'not-started' };
 let audioContext;
@@ -136,14 +150,19 @@ function raseenHeader(active = 'النماذج') {
 }
 
 function loginView() {
-  return `<main class="auth-shell"><div class="auth-panel"><button class="brand-mark brand-button" data-library><span>رصين</span><i aria-hidden="true">⌁</i></button><span class="auth-kicker">منصة متخصصة في STEP فقط</span><h1>سجّل دخولك وابدأ رحلتك</h1><p>احفظ تقدمك، راجع أخطاءك، وواصل التدريب من آخر سؤال وصلت إليه.</p><form class="auth-form"><label>البريد الإلكتروني<input name="email" type="email" placeholder="أدخل بريدك الإلكتروني" required></label><label>كلمة المرور<input name="password" type="password" placeholder="أدخل كلمة المرور" required></label><label class="remember-row"><input name="remember" type="checkbox" checked> تذكّرني على هذا الجهاز</label><button class="orange-action" type="submit">تسجيل الدخول</button></form><button class="auth-secondary" data-library>العودة للرئيسية</button></div><div class="auth-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP"><div><strong>تعلّم بثقة</strong><span>خطة واضحة وتقدم محفوظ</span></div></div></main>`;
+  return `<main class="auth-shell"><div class="auth-panel"><button class="brand-mark brand-button" data-library><span>رصين</span><i aria-hidden="true">⌁</i></button><span class="auth-kicker">منصة متخصصة في STEP فقط</span><h1>سجّل دخولك وابدأ رحلتك</h1><p>احفظ تقدمك، راجع أخطاءك، وواصل التدريب من آخر سؤال وصلت إليه.</p>${state.authError ? `<div class="auth-error" role="alert">${escapeHtml(state.authError)}</div>` : ''}<form class="auth-form login-form"><label>البريد الإلكتروني<input name="email" type="email" placeholder="أدخل بريدك الإلكتروني" autocomplete="email" required></label><label>كلمة المرور<input name="password" type="password" placeholder="أدخل كلمة المرور" autocomplete="current-password" required></label><label class="remember-row"><input name="remember" type="checkbox" checked> تذكّرني على هذا الجهاز</label><button class="orange-action" type="submit">تسجيل الدخول</button></form><button class="auth-secondary" data-register>إنشاء حساب جديد</button><button class="auth-link" data-library>العودة للرئيسية</button></div><div class="auth-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP"><div><strong>تعلّم بثقة</strong><span>خطة واضحة وتقدم محفوظ</span></div></div></main>`;
+}
+
+function registerView() {
+  return `<main class="auth-shell"><div class="auth-panel"><button class="brand-mark brand-button" data-library><span>رصين</span><i aria-hidden="true">⌁</i></button><span class="auth-kicker">ابدأ خطتك التعليمية</span><h1>أنشئ حسابك في رصين</h1><p>حسابك يحفظ تقدمك وأخطاءك لتعود إلى التدريب في أي وقت.</p>${state.authError ? `<div class="auth-error" role="alert">${escapeHtml(state.authError)}</div>` : ''}<form class="auth-form register-form"><label>الاسم الكامل<input name="name" type="text" placeholder="اكتب اسمك" autocomplete="name" minlength="2" required></label><label>البريد الإلكتروني<input name="email" type="email" placeholder="أدخل بريدك الإلكتروني" autocomplete="email" required></label><label>كلمة المرور<input name="password" type="password" placeholder="8 أحرف على الأقل" autocomplete="new-password" minlength="8" required></label><label>تأكيد كلمة المرور<input name="confirmPassword" type="password" placeholder="أعد كتابة كلمة المرور" autocomplete="new-password" minlength="8" required></label><label class="remember-row"><input name="terms" type="checkbox" required> أوافق على حفظ بيانات الحساب محليًا</label><button class="orange-action" type="submit">إنشاء الحساب والدخول</button></form><button class="auth-secondary" data-login>لدي حساب بالفعل</button><button class="auth-link" data-library>العودة للرئيسية</button></div><div class="auth-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP"><div><strong>خطتك تبدأ هنا</strong><span>تقدم محفوظ وتجربة منظمة</span></div></div></main>`;
 }
 
 function dashboardView() {
   const completed = Object.values(progress).filter((item) => item.status === 'completed').length;
   const answered = Object.values(progress).reduce((sum, item) => sum + Object.keys(item.answers ?? {}).length, 0);
+  const mistakes = Object.values(progress).flatMap((item) => item.mistakes ?? []);
   const firstModel = models.find((model) => model.passages.length);
-  return `<main class="dashboard-shell">${raseenHeader('الرئيسية')}<section class="dashboard-welcome"><div><span>لوحة المستخدم</span><h1>مرحبًا${account?.name ? `، ${escapeHtml(account.name)}` : ''} 👋</h1><p>استمر بخطوة ثابتة، وكل جلسة تقرّبك من هدفك في اختبار STEP.</p><button class="orange-action" data-open-model="${firstModel?.id ?? 'reading-01'}">تابع التدريب ←</button></div><div class="dashboard-progress"><strong>${Math.min(100, Math.round((completed / Math.max(1, models.length)) * 100))}%</strong><span>نسبة الإنجاز</span><div><i style="width:${Math.min(100, Math.round((completed / Math.max(1, models.length)) * 100))}%"></i></div></div></section><section class="dashboard-stats"><article><strong>${completed}</strong><span>اختبارات مكتملة</span></article><article><strong>${answered}</strong><span>إجابة محفوظة</span></article><article><strong>${models.length}</strong><span>نموذج متاح</span></article><article><strong>${models.reduce((sum, model) => sum + model.passages.length, 0)}</strong><span>قطعة تدريبية</span></article></section><section class="dashboard-grid"><article><div class="section-heading"><div><span>خطتك الحالية</span><h2>واصل من حيث توقفت</h2></div></div><p>اختر نموذجًا للوصول إلى القطع والاختبارات الخاصة به.</p><button class="outline-action" data-models-scroll>عرض النماذج</button></article><article><div class="section-heading"><div><span>اختصارات سريعة</span><h2>ابدأ الآن</h2></div></div><div class="quick-actions"><button data-open-model="reading-01">النموذج الأول</button><button data-library>كل النماذج</button><button data-logout>تسجيل الخروج</button></div></article></section></main>`;
+  return `<main class="dashboard-shell">${raseenHeader('الرئيسية')}<section class="dashboard-welcome"><div><span>لوحة المستخدم</span><h1>مرحبًا${account?.name ? `، ${escapeHtml(account.name)}` : ''} 👋</h1><p>استمر بخطوة ثابتة، وكل جلسة تقرّبك من هدفك في اختبار STEP.</p><button class="orange-action" data-open-model="${firstModel?.id ?? 'reading-01'}">تابع التدريب ←</button></div><div class="dashboard-progress"><strong>${Math.min(100, Math.round((completed / Math.max(1, models.length)) * 100))}%</strong><span>نسبة الإنجاز</span><div><i style="width:${Math.min(100, Math.round((completed / Math.max(1, models.length)) * 100))}%"></i></div></div></section><section class="dashboard-stats"><article><strong>${completed}</strong><span>اختبارات مكتملة</span></article><article><strong>${answered}</strong><span>إجابة محفوظة</span></article><article><strong>${mistakes.length}</strong><span>أخطاء محفوظة</span></article><article><strong>${models.length}</strong><span>نموذج متاح</span></article></section><section class="dashboard-sections"><article><b>◫</b><h3>القراءة</h3><p>${models.reduce((sum, model) => sum + model.passages.length, 0)} قطعة تدريبية متاحة</p><button data-models-scroll>فتح النماذج ←</button></article><article><b>⌘</b><h3>القواعد</h3><p>مسارات القواعد ستضاف تدريجيًا إلى خطتك.</p><button data-dashboard>استعرض القسم</button></article><article><b>◉</b><h3>الاستماع</h3><p>تدريبات الاستماع قيد التجهيز.</p><button data-dashboard>استعرض القسم</button></article><article><b>✎</b><h3>الكتابة</h3><p>تدريبات الكتابة قيد التجهيز.</p><button data-dashboard>استعرض القسم</button></article></section><section class="dashboard-grid"><article><div class="section-heading"><div><span>خطتك الحالية</span><h2>واصل من حيث توقفت</h2></div></div><p>اختر نموذجًا للوصول إلى القطع والاختبارات الخاصة به.</p><button class="outline-action" data-models-scroll>عرض النماذج</button></article><article><div class="section-heading"><div><span>الأخطاء المسجلة</span><h2>${mistakes.length ? `${mistakes.length} تحتاج مراجعة` : 'لا توجد أخطاء بعد'}</h2></div></div><p>${mistakes.length ? 'راجع الأسئلة التي أخطأت فيها قبل إعادة المحاولة.' : 'أجب عن الأسئلة وستظهر الأخطاء هنا للمراجعة.'}</p><button class="outline-action" data-models-scroll>ابدأ المراجعة</button></article><article><div class="section-heading"><div><span>اختصارات سريعة</span><h2>ابدأ الآن</h2></div></div><div class="quick-actions"><button data-open-model="reading-01">النموذج الأول</button><button data-library>كل النماذج</button><button data-logout>تسجيل الخروج</button></div></article></section></main>`;
 }
 
 function libraryView() {
@@ -312,6 +331,7 @@ function render() {
   const model = currentModel();
   const passage = currentPassage(model);
   if (state.view === 'login') app.innerHTML = loginView();
+  else if (state.view === 'register') app.innerHTML = registerView();
   else if (state.view === 'dashboard') app.innerHTML = dashboardView();
   else if (state.view === 'model' && model) app.innerHTML = modelView(model);
   else if (state.view === 'quiz' && model && passage) app.innerHTML = quizView(model, passage);
@@ -330,28 +350,73 @@ app.addEventListener('input', (event) => {
   }, 200);
 });
 
-app.addEventListener('submit', (event) => {
+app.addEventListener('submit', async (event) => {
   const form = event.target.closest('.auth-form');
   if (!form) return;
   event.preventDefault();
   const data = new FormData(form);
-  const email = String(data.get('email') ?? '').trim();
-  const name = email.split('@')[0] || 'مستخدم رصين';
-  account = { email, name };
-  localStorage.setItem(accountKey, JSON.stringify(account));
-  state = { ...state, view: 'dashboard' };
+  const email = String(data.get('email') ?? '').trim().toLowerCase();
+  const password = String(data.get('password') ?? '');
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    state.authError = 'أدخل بريدًا إلكترونيًا صحيحًا.';
+    render();
+    return;
+  }
+  if (form.classList.contains('register-form')) {
+    const name = String(data.get('name') ?? '').trim();
+    const confirmPassword = String(data.get('confirmPassword') ?? '');
+    if (name.length < 2) {
+      state.authError = 'اكتب اسمًا صحيحًا من حرفين على الأقل.';
+      render();
+      return;
+    }
+    if (password.length < 8) {
+      state.authError = 'كلمة المرور يجب أن تحتوي على 8 أحرف على الأقل.';
+      render();
+      return;
+    }
+    if (password !== confirmPassword) {
+      state.authError = 'تأكيد كلمة المرور غير مطابق.';
+      render();
+      return;
+    }
+    const passwordHash = await hashPassword(password);
+    account = { email, name, passwordHash };
+    saveAccount(account, true);
+  } else {
+    if (!account?.email || !account?.passwordHash) {
+      state.authError = 'لا يوجد حساب محفوظ. أنشئ حسابًا جديدًا أولًا.';
+      render();
+      return;
+    }
+    const passwordHash = await hashPassword(password);
+    if (account.email !== email || account.passwordHash !== passwordHash) {
+      state.authError = 'البريد الإلكتروني أو كلمة المرور غير صحيحة.';
+      render();
+      return;
+    }
+  }
+  const remember = form.classList.contains('login-form') ? Boolean(data.get('remember')) : true;
+  saveAccount(account, remember);
+  state = { ...state, view: 'dashboard', authError: '' };
   render();
 });
 
 app.addEventListener('click', (event) => {
   if (event.target.closest('[data-login]')) {
-    state = { ...state, view: 'login' };
+    state = { ...state, view: 'login', authError: '' };
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-register]')) {
+    state = { ...state, view: 'register', authError: '' };
     render();
     return;
   }
 
   if (event.target.closest('[data-dashboard]')) {
-    state = { ...state, view: 'dashboard' };
+    state = { ...state, view: account ? 'dashboard' : 'login', authError: account ? '' : 'سجّل الدخول أو أنشئ حسابًا للوصول إلى لوحة المستخدم.' };
     render();
     return;
   }
@@ -359,6 +424,7 @@ app.addEventListener('click', (event) => {
   if (event.target.closest('[data-logout]')) {
     account = null;
     localStorage.removeItem(accountKey);
+    sessionStorage.removeItem(sessionAccountKey);
     state = { ...state, view: 'library' };
     render();
     return;
@@ -422,7 +488,11 @@ app.addEventListener('click', (event) => {
     const option = question?.options.find((candidate) => candidate.id === optionButton.dataset.option);
     const answers = { ...(state.activeAnswers ?? {}), [optionButton.dataset.question]: optionButton.dataset.option };
     state.activeAnswers = answers;
-    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, status: 'in-progress', currentQuestionIndex: state.questionIndex });
+    const mistakes = [...(item.mistakes ?? [])];
+    if (question?.correctAnswer !== null && option && !option.isCorrect && !mistakes.some((mistake) => mistake.questionId === question.id && mistake.attempt === state.questionIndex)) {
+      mistakes.push({ questionId: question.id, optionId: option.id, attempt: state.questionIndex, createdAt: new Date().toISOString() });
+    }
+    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, mistakes, status: 'in-progress', currentQuestionIndex: state.questionIndex });
     playTone(option?.isCorrect ? 'correct' : 'wrong');
     render();
     return;

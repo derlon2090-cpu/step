@@ -350,7 +350,7 @@
   grid-template-columns: minmax(360px, 520px) minmax(320px, 1fr);
   gap: 32px;
   align-items: center;
-  direction: ltr;
+  direction: rtl;
 }
 
 .auth-panel,
@@ -451,6 +451,28 @@
   cursor: pointer;
 }
 
+.auth-link {
+  display: block;
+  width: 100%;
+  margin-top: 15px;
+  border: 0;
+  background: transparent;
+  color: var(--blue);
+  font: 700 12px Tahoma;
+  cursor: pointer;
+}
+
+.auth-error {
+  margin: 0 0 15px;
+  padding: 11px 13px;
+  border: 1px solid #fecaca;
+  border-radius: 10px;
+  background: #fff1f2;
+  color: #b42318;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
 .auth-art {
   position: relative;
   min-height: 560px;
@@ -487,6 +509,27 @@
 
 .dashboard-shell .raseen-header {
   margin-bottom: 28px;
+}
+
+.dashboard-shell .raseen-header {
+  background: #071f51;
+  border-color: #071f51;
+}
+
+.dashboard-shell .raseen-header .brand-mark,
+.dashboard-shell .raseen-header nav button {
+  color: #fff;
+}
+
+.dashboard-shell .raseen-header nav button.active {
+  color: #71a5ff;
+  border-color: #2877ff;
+}
+
+.dashboard-shell .raseen-header .outline-action {
+  border-color: rgba(255, 255, 255, .28);
+  background: transparent;
+  color: #fff;
 }
 
 .dashboard-welcome {
@@ -567,9 +610,58 @@
   font-size: 11px;
 }
 
+.dashboard-sections {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-top: 18px;
+  direction: rtl;
+}
+
+.dashboard-sections article {
+  padding: 20px;
+  border: 1px solid #e3ebf5;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 5px 18px rgba(31, 65, 111, .04);
+}
+
+.dashboard-sections b {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  background: #fff1df;
+  color: var(--orange);
+  font-size: 18px;
+}
+
+.dashboard-sections h3 {
+  margin: 13px 0 5px;
+  color: var(--navy);
+}
+
+.dashboard-sections p {
+  min-height: 34px;
+  margin: 0;
+  color: #71819a;
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.dashboard-sections button {
+  margin-top: 11px;
+  border: 0;
+  background: transparent;
+  color: var(--blue);
+  font: 700 11px Tahoma;
+  cursor: pointer;
+}
+
 .dashboard-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 14px;
   margin-top: 18px;
   direction: rtl;
@@ -635,6 +727,7 @@
   }
 
   .dashboard-stats,
+  .dashboard-sections,
   .dashboard-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -646,6 +739,7 @@
   }
 
   .dashboard-stats,
+  .dashboard-sections,
   .dashboard-grid {
     grid-template-columns: 1fr;
   }
