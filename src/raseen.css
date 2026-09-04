@@ -12,6 +12,16 @@
   width: 100%;
   padding-inline: 40px;
   overflow-x: hidden;
+  direction: ltr;
+}
+
+.app-shell .raseen-header,
+.app-shell .raseen-hero,
+.app-shell .benefits-strip,
+.app-shell .skills-section,
+.app-shell .models-section,
+.app-shell .raseen-footer {
+  direction: rtl;
 }
 
 .brand-mark {
