@@ -47,8 +47,10 @@ let account = null;
 let serverDashboard = null;
 const progressKey = () => account?.email ? `${storageKey}:${account.email}` : storageKey;
 let progress = readStored(progressKey(), {});
+const authHintKey = 'step-reading-auth-hint';
 const requestedView = new URLSearchParams(window.location.search).get('view');
-const initialView = requestedView === 'dashboard' ? 'login' : requestedView;
+const hasAuthHint = localStorage.getItem(authHintKey) === '1';
+const initialView = requestedView === 'dashboard' ? 'login' : (!requestedView && hasAuthHint ? 'dashboard' : requestedView);
 let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: null, selectedPassageId: null, selectedGrammarModelId: null, grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
 const app = document.querySelector('#app');
 
@@ -480,7 +482,12 @@ function currentGrammarModel() {
 
 function render() {
   if (state.authLoading) {
-    app.innerHTML = '<main class="auth-shell"><div class="auth-panel"><span class="auth-kicker">نباهة</span><h1>جارٍ التحقق من الجلسة…</h1><p>لحظات ونفتح لك المساحة المناسبة.</p></div></main>';
+    // Keep the target surface visible while Better Auth hydrates. This avoids
+    // the distracting full-page loading jump on every visit.
+    if (state.view === 'dashboard' && hasAuthHint) app.innerHTML = dashboardView();
+    else if (state.view === 'login') app.innerHTML = loginView();
+    else if (state.view === 'register') app.innerHTML = registerView();
+    else app.innerHTML = libraryView();
     return;
   }
   const model = currentModel();
@@ -565,6 +572,7 @@ app.addEventListener('submit', async (event) => {
     progress = form.classList.contains('register-form') ? {} : readStored(progressKey(), {});
     if (form.classList.contains('register-form')) saveProgress();
     await refreshServerDashboard();
+    localStorage.setItem(authHintKey, '1');
     state = { ...state, view: 'dashboard', authError: '', authLoading: false };
     render();
   } catch (error) {
@@ -683,6 +691,7 @@ app.addEventListener('click', (event) => {
       .then(() => {
         account = null;
         serverDashboard = null;
+        localStorage.removeItem(authHintKey);
         progress = {};
         state = { ...state, view: 'library', dashboardSection: 'dashboard', authError: '' };
       })
@@ -844,14 +853,17 @@ authClient.getSession()
     if (account) {
       progress = readStored(progressKey(), {});
       await refreshServerDashboard();
+      localStorage.setItem(authHintKey, '1');
       state.view = 'dashboard';
     } else if (state.view === 'dashboard') {
-      state.view = 'login';
+      localStorage.removeItem(authHintKey);
+      state.view = requestedView === 'dashboard' ? 'login' : 'library';
     }
   })
   .catch(() => {
     account = null;
-    if (state.view === 'dashboard') state.view = 'login';
+    localStorage.removeItem(authHintKey);
+    if (state.view === 'dashboard') state.view = requestedView === 'dashboard' ? 'login' : 'library';
   })
   .finally(() => {
     state.authLoading = false;
