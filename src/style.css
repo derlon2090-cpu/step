@@ -11,12 +11,44 @@
 @media(max-width:900px){.app-shell{padding:0 14px 35px}.raseen-header{margin:0 -14px;padding:0 14px;height:68px}.raseen-header nav{display:none}.header-actions{margin-inline-start:auto}.header-actions .outline-action{display:none}.raseen-hero{grid-template-columns:1fr;padding:28px 22px}.hero-copy h1{font-size:31px}.hero-art{height:170px}.benefits-strip{grid-template-columns:repeat(2,1fr);gap:13px}.benefits-strip span{border:0}.skills-grid{grid-template-columns:repeat(2,1fr)}.raseen-footer{flex-direction:column;gap:8px}}
 @media(max-width:560px){.skills-grid{grid-template-columns:1fr}.hero-actions{flex-direction:column}.hero-actions button{width:100%}.reading-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 
+/* Final reference alignment — intentionally last in the cascade. */
+.brand-button{border:0;background:transparent;padding:0;cursor:pointer;font:inherit}
+.raseen-header{left:auto;transform:none;width:auto;margin:0 -34px 26px;padding-inline:34px}
+.reader-shell .raseen-header,.solutions-shell .raseen-header,.quiz-shell .raseen-header{margin-top:-34px}
+.raseen-hero{grid-template-columns:1.08fr .92fr;min-height:405px;padding:0;direction:rtl;gap:0}
+.hero-copy{padding:42px 54px 48px;max-width:none}.hero-copy h1{font-size:46px;letter-spacing:-1.2px}.hero-copy p{max-width:650px}
+.hero-features{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 28px;margin:0 0 24px;padding:0;list-style:none;color:#405775;font-size:13px;font-weight:700}
+.hero-features li::before{content:'✓';display:inline-grid;place-items:center;width:18px;height:18px;margin-inline-end:8px;border-radius:50%;background:#fff0da;color:var(--orange);font-size:11px}
+.hero-art{height:405px;border-radius:19px 0 0 19px;overflow:hidden;background:#eef3fa}.hero-art img{width:100%;height:100%;display:block;object-fit:cover;object-position:48% center}
+.hero-photo-badge{position:absolute;top:28px;right:28px;padding:12px 18px;border-radius:12px;background:rgba(255,255,255,.92);border:1px solid rgba(224,231,241,.9);box-shadow:0 8px 24px rgba(14,41,82,.12);color:#355071;font-size:11px;line-height:1.7;text-align:center;backdrop-filter:blur(7px)}.hero-photo-badge strong{color:var(--navy);font-size:13px}
+.hero-stats{width:88%;margin:-30px auto 28px;position:relative;z-index:2;display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid #e4ebf4;border-radius:15px;box-shadow:0 10px 28px rgba(31,65,111,.11);padding:17px 8px}.hero-stats div{display:flex;flex-direction:column;align-items:center;gap:2px;border-left:1px solid #e7edf5}.hero-stats div:last-child{border:0}.hero-stats strong{color:var(--navy);font-size:21px}.hero-stats span{color:#75849a;font-size:11px}.benefits-strip{margin-top:0}
+@media(max-width:900px){.raseen-header{padding-inline:14px}.reader-shell .raseen-header,.solutions-shell .raseen-header,.quiz-shell .raseen-header{margin-top:-20px}.raseen-hero{grid-template-columns:1fr}.hero-copy{padding:30px 24px 34px}.hero-copy h1{font-size:34px}.hero-art{height:290px;border-radius:0 0 19px 19px;order:2}.hero-stats{width:92%;grid-template-columns:repeat(2,1fr);gap:15px;margin-top:-22px}.hero-stats div{border:0}.hero-features{grid-template-columns:1fr}}
+@media(max-width:560px){.hero-copy h1{font-size:29px}.hero-art{height:240px}.hero-stats{width:94%}.hero-stats strong{font-size:18px}}
+
 /* Shared Raseen chrome for every route, including model, quiz and solutions views. */
 .brand-button{border:0;background:transparent;padding:0;cursor:pointer;font:inherit}
 .reader-shell,.solutions-shell,.quiz-shell{background:var(--surface)}
 .reader-shell .raseen-header,.solutions-shell .raseen-header,.quiz-shell .raseen-header{margin:-34px -32px 26px;padding-inline:32px}
 .solutions-shell .raseen-header,.quiz-shell .raseen-header{margin-inline:-24px;padding-inline:24px}
 @media(max-width:900px){.reader-shell .raseen-header,.solutions-shell .raseen-header,.quiz-shell .raseen-header{margin-inline:-14px;padding-inline:14px}}
+
+/* Reference-aligned landing composition. */
+.raseen-header{width:100vw;margin-inline:calc(50% - 50vw);padding-inline:max(34px,calc((100vw - 1440px)/2 + 34px))}
+.raseen-hero{grid-template-columns:1.08fr .92fr;min-height:405px;padding:0;direction:rtl}
+.hero-copy{padding:42px 54px 48px;max-width:none}
+.hero-copy h1{font-size:46px;letter-spacing:-1.2px}
+.hero-features{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 28px;margin:0 0 24px;padding:0;list-style:none;color:#405775;font-size:13px;font-weight:700}
+.hero-features li::before{content:'✓';display:inline-grid;place-items:center;width:18px;height:18px;margin-inline-end:8px;border-radius:50%;background:#fff0da;color:var(--orange);font-size:11px}
+.hero-art{height:405px;border-radius:19px 0 0 19px;overflow:hidden;background:#eef3fa}
+.hero-art img{width:100%;height:100%;display:block;object-fit:cover;object-position:48% center}
+.hero-photo-badge{position:absolute;top:28px;right:28px;padding:12px 18px;border-radius:12px;background:rgba(255,255,255,.92);border:1px solid rgba(224,231,241,.9);box-shadow:0 8px 24px rgba(14,41,82,.12);color:#355071;font-size:11px;line-height:1.7;text-align:center;backdrop-filter:blur(7px)}
+.hero-photo-badge strong{color:var(--navy);font-size:13px}
+.hero-stats{width:88%;margin:-30px auto 28px;position:relative;z-index:2;display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border:1px solid #e4ebf4;border-radius:15px;box-shadow:0 10px 28px rgba(31,65,111,.11);padding:17px 8px}
+.hero-stats div{display:flex;flex-direction:column;align-items:center;gap:2px;border-left:1px solid #e7edf5}
+.hero-stats div:last-child{border:0}.hero-stats strong{color:var(--navy);font-size:21px}.hero-stats span{color:#75849a;font-size:11px}
+.benefits-strip{margin-top:0}
+@media(max-width:900px){.raseen-header{padding-inline:14px}.raseen-hero{grid-template-columns:1fr}.hero-copy{padding:30px 24px 34px}.hero-copy h1{font-size:34px}.hero-art{height:290px;border-radius:0 0 19px 19px;order:2}.hero-stats{width:92%;grid-template-columns:repeat(2,1fr);gap:15px;margin-top:-22px}.hero-stats div{border:0}.hero-features{grid-template-columns:1fr}}
+@media(max-width:560px){.hero-copy h1{font-size:29px}.hero-art{height:240px}.hero-stats{width:94%}.hero-stats strong{font-size:18px}}
 
 /* Focused quiz layout: open question surface with clear navigation order. */
 .quiz-shell{background:linear-gradient(180deg,#f8fbff 0%,#f2f7fd 100%);min-height:100vh}

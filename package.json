@@ -5,7 +5,12 @@
   "private": true,
   "scripts": {
     "start": "vite",
+    "start:api": "node server/index.js",
     "build": "vite build",
+    "db:migrate": "node scripts/migrate.mjs",
+    "db:import-reading": "node scripts/import-reading.mjs",
+    "db:set-admin": "node scripts/set-admin.mjs",
+    "test": "node --test tests",
     "build:data": "py -3 scripts/build_reading_data.py",
     "export:reading-json": "node scripts/export_reading_json.mjs",
     "report:visual": "py -3 scripts/build_visual_question_review_report.py",
@@ -16,6 +21,16 @@
     "validate": "npm run validate:records && npm run validate:visual && npm run validate:ui && npm run validate:manual"
   },
   "devDependencies": {
+    "drizzle-kit": "^0.31.10",
+    "tsx": "^4.23.13",
     "vite": "^6.1.0"
+  },
+  "dependencies": {
+    "@better-auth/infra": "^0.4.5",
+    "better-auth": "^1.7.2",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^0.45.2",
+    "postgres": "^3.4.9",
+    "zod": "^4.5.4"
   }
 }

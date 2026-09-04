@@ -1,0 +1,9 @@
+import 'dotenv/config';
+export default {
+  schema: './server/db/schema.js',
+  out: './drizzle',
+  dialect: 'postgresql',
+  dbCredentials: { url: process.env.DATABASE_URL ?? 'postgres://localhost/raseen' },
+  strict: true,
+  verbose: true,
+};

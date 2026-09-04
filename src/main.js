@@ -1,4 +1,5 @@
 import './style.css';
+import './raseen.css';
 import { readings } from './data/readings.js';
 import { wordGlossary } from './data/manualQuizzes.js';
 
@@ -135,9 +136,12 @@ function raseenHeader(active = 'النماذج') {
 function libraryView() {
   const filtered = visibleModels();
   const completed = Object.values(progress).filter((item) => item.status === 'completed').length;
+  const totalPassages = models.reduce((sum, model) => sum + model.passages.length, 0);
+  const totalQuestions = models.reduce((sum, model) => sum + model.passages.reduce((pieceSum, passage) => pieceSum + passage.questions.length, 0), 0);
   return `<main class="app-shell">
     ${raseenHeader('الرئيسية')}
-    <section class="raseen-hero"><div class="hero-copy"><span class="hero-kicker">منصة متخصصة في STEP فقط</span><h1>خطتك الأذكى لاجتياز <em>STEP</em></h1><p>تدرّب على القراءة من مكان واحد، وتابع تقدمك وأخطاءك حتى تصل إلى هدفك بثقة واحترافية.</p><div class="hero-actions"><button class="orange-action" data-open-model="reading-01">ابدأ الآن ←</button><button class="outline-action">استكشف النماذج</button></div></div><div class="hero-art" aria-hidden="true"><div class="hero-orb"></div><div class="hero-card">تقدمك الحالي<strong>${Math.min(100, completed * 12)}%</strong><span>واصل التدريب بخطوة ثابتة</span></div></div></section>
+    <section class="raseen-hero"><div class="hero-copy"><span class="hero-kicker">منصة متخصصة في STEP فقط</span><h1>خطتك الأذكى لاجتياز <em>STEP</em></h1><p>تدرّب على القراءة من مكان واحد، وتابع تقدمك وأخطاءك حتى تصل إلى هدفك بثقة واحترافية.</p><ul class="hero-features"><li>نماذج مرتبة وواضحة</li><li>تصحيح فوري مع تفسير</li><li>متابعة وحفظ للتقدم</li><li>تجربة مناسبة لكل الأجهزة</li></ul><div class="hero-actions"><button class="orange-action" data-open-model="reading-01">ابدأ رحلتك مع رصين ←</button><button class="outline-action" data-models-scroll>استكشف النماذج</button></div></div><div class="hero-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP باستخدام منصة رصين"><span class="hero-photo-badge">منصة متخصصة في<br><strong>STEP فقط</strong></span></div></section>
+    <section class="hero-stats"><div><strong>${models.filter((model) => model.passages.length).length}</strong><span>نماذج متاحة</span></div><div><strong>${totalPassages}</strong><span>قطعة تدريبية</span></div><div><strong>${totalQuestions}</strong><span>سؤالًا منظمًا</span></div><div><strong>${completed}</strong><span>اختبارات مكتملة</span></div></section>
     <section class="benefits-strip"><span>نماذج STEP منظمة</span><span>متابعة الأخطاء</span><span>حفظ التقدم</span><span>تدريب واختبار</span></section>
     <section class="skills-section"><div class="section-heading"><div><span>ابدأ من مهارتك</span><h2>طوّر مستواك في كل قسم</h2></div></div><div class="skills-grid"><article><b>◫</b><h3>القراءة</h3><p>افهم القطع وأجب بدقة وسرعة.</p><button data-open-model="reading-01">ابدأ الآن ←</button></article><article><b>⌘</b><h3>القواعد</h3><p>راجع القواعد الأساسية لاختبار STEP.</p><button>قريبًا</button></article><article><b>◉</b><h3>الاستماع</h3><p>درّب أذنك على التفاصيل والفكرة العامة.</p><button>قريبًا</button></article><article><b>✎</b><h3>الكتابة</h3><p>طوّر بناء الجملة والاختيار الصحيح.</p><button>قريبًا</button></article></div></section>
     <section class="models-section"><div class="section-heading"><div><span>النماذج والاختبارات</span><h2>نماذج STEP المتاحة</h2></div><span class="completion">${completed} مكتملة</span></div>
@@ -312,6 +316,11 @@ app.addEventListener('input', (event) => {
 });
 
 app.addEventListener('click', (event) => {
+  if (event.target.closest('[data-models-scroll]')) {
+    document.querySelector('.models-section')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    return;
+  }
+
   const modelButton = event.target.closest('[data-open-model]');
   if (modelButton) {
     state = { ...state, view: 'model', selectedModelId: modelButton.dataset.openModel, selectedPassageId: null };
