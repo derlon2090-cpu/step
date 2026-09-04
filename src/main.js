@@ -64,7 +64,7 @@ let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? i
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
-const brandLogo = () => `<span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 44 38" focusable="false"><path d="M22 35C19 27 11 22 3 21v13h19Zm0 0c3-8 11-13 19-14v13H22ZM22 35V14c0-7 5-11 12-13v14c0 6-5 10-12 20ZM22 14C18 7 13 3 6 1v14c0 6 5 10 16 20Z"/></svg></span><span class="brand-word">نباهة</span>`;
+const brandLogo = (variant = 'default') => `<img class="brand-image ${variant === 'light' ? 'brand-image-light' : ''}" src="/assets/nabahah-logo.png" alt="نباهة" />`;
 const normalizeArabic = (value = '') => String(value).toLowerCase().replace(/[أإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/[ً-ْ]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const modelNumber = (model) => String(model.order).padStart(2, '0');
 const saveProgress = () => localStorage.setItem(progressKey(), JSON.stringify(progress));
@@ -169,7 +169,7 @@ function raseenHeader(active = 'النماذج') {
 
 function dashboardHeader(active = 'dashboard') {
   const name = account?.name ? escapeHtml(account.name) : 'حسابي';
-  return `<header class="dashboard-header"><button class="dashboard-brand" data-dashboard-section="dashboard" aria-label="لوحة المستخدم">${brandLogo()}</button><nav aria-label="تنقل لوحة المستخدم"><button class="${active === 'dashboard' ? 'active' : ''}" data-dashboard-section="dashboard">لوحة التحكم</button><button class="${active === 'mistakes' ? 'active' : ''}" data-dashboard-section="mistakes">الأخطاء</button><button class="${active === 'reading' ? 'active' : ''}" data-models-scroll>القراءة</button><button class="${active === 'grammar' ? 'active' : ''}" data-dashboard-section="grammar">القواعد</button><button class="${active === 'listening' ? 'active' : ''}" data-dashboard-section="listening">الاستماع</button><button class="${active === 'profile' ? 'active' : ''}" data-dashboard-section="profile">الملف الشخصي</button></nav><div class="dashboard-account"><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></header>`;
+  return `<header class="dashboard-header"><button class="dashboard-brand" data-dashboard-section="dashboard" aria-label="لوحة المستخدم">${brandLogo('light')}</button><nav aria-label="تنقل لوحة المستخدم"><button class="${active === 'dashboard' ? 'active' : ''}" data-dashboard-section="dashboard">لوحة التحكم</button><button class="${active === 'mistakes' ? 'active' : ''}" data-dashboard-section="mistakes">الأخطاء</button><button class="${active === 'reading' ? 'active' : ''}" data-models-scroll>القراءة</button><button class="${active === 'grammar' ? 'active' : ''}" data-dashboard-section="grammar">القواعد</button><button class="${active === 'listening' ? 'active' : ''}" data-dashboard-section="listening">الاستماع</button><button class="${active === 'profile' ? 'active' : ''}" data-dashboard-section="profile">الملف الشخصي</button></nav><div class="dashboard-account"><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></header>`;
 }
 
 function loginView() {

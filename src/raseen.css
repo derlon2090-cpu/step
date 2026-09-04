@@ -35,6 +35,25 @@
   gap: 10px;
 }
 
+.brand-image {
+  display: block;
+  width: auto;
+  height: 58px;
+  object-fit: contain;
+}
+
+.auth-panel .brand-image {
+  height: 92px;
+}
+
+.dashboard-header .brand-image {
+  height: 64px;
+}
+
+.brand-image-light {
+  filter: brightness(0) invert(1);
+}
+
 .brand-word {
   color: inherit;
   font-weight: 800;
@@ -1051,4 +1070,30 @@
   .dashboard-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Nabahah brand accent: replace the previous yellow/orange accent with mint. */
+:root {
+  --mint: #24a88f;
+  --orange: var(--mint);
+  --brand-primary: #1e3a8a;
+}
+
+.orange-action {
+  background: var(--mint);
+  border-color: var(--mint);
+  box-shadow: 0 4px 12px rgba(36, 168, 143, .18);
+}
+
+.hero-copy h1 em,
+.hero-kicker,
+.section-heading > div > span,
+.auth-kicker {
+  color: var(--mint);
+}
+
+.hero-features li::before,
+.skills-grid article b {
+  background: #e5f8f3;
+  color: var(--mint);
 }
