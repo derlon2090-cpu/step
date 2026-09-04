@@ -33,6 +33,7 @@ const jsonModelsById = new Map(Object.values(jsonModelFiles).map((model) => [
 const storageKey = 'step-reading-progress-v2';
 const accountKey = 'raseen-local-account-v1';
 const sessionAccountKey = 'raseen-session-account-v1';
+const sessionTtlMs = 10 * 60 * 60 * 1000;
 const readStored = (key, fallback) => {
   try {
     return JSON.parse(localStorage.getItem(key)) ?? fallback;
@@ -49,7 +50,12 @@ const readSessionStored = (key, fallback) => {
 };
 
 const storedAccount = readStored(accountKey, null) ?? readSessionStored(sessionAccountKey, null);
-let account = storedAccount?.email && storedAccount?.passwordHash ? storedAccount : null;
+const validStoredAccount = storedAccount?.email && storedAccount?.passwordHash && Number(storedAccount.sessionExpiresAt) > Date.now();
+let account = validStoredAccount ? storedAccount : null;
+if (storedAccount && !validStoredAccount) {
+  localStorage.removeItem(accountKey);
+  sessionStorage.removeItem(sessionAccountKey);
+}
 const progressKey = () => account?.email ? `${storageKey}:${account.email}` : storageKey;
 let progress = readStored(progressKey(), {});
 const requestedView = new URLSearchParams(window.location.search).get('view');
@@ -68,9 +74,11 @@ const hashPassword = async (password) => {
   return Array.from(new Uint8Array(digest), (byte) => byte.toString(16).padStart(2, '0')).join('');
 };
 const saveAccount = (value, remember = true) => {
+  const accountWithExpiry = { ...value, sessionExpiresAt: Date.now() + sessionTtlMs };
+  account = accountWithExpiry;
   localStorage.removeItem(accountKey);
   sessionStorage.removeItem(sessionAccountKey);
-  (remember ? localStorage : sessionStorage).setItem(remember ? accountKey : sessionAccountKey, JSON.stringify(value));
+  (remember ? localStorage : sessionStorage).setItem(remember ? accountKey : sessionAccountKey, JSON.stringify(accountWithExpiry));
 };
 const quizKey = (modelId, passageId) => `${modelId}:${passageId}`;
 const quizProgress = (modelId, passageId) => progress[quizKey(modelId, passageId)] ?? { answers: {}, status: 'not-started' };
@@ -364,6 +372,13 @@ function currentPassage(model = currentModel()) {
 }
 
 function render() {
+  if (account && Number(account.sessionExpiresAt) <= Date.now()) {
+    account = null;
+    progress = {};
+    localStorage.removeItem(accountKey);
+    sessionStorage.removeItem(sessionAccountKey);
+    state = { ...state, view: 'login', authError: 'انتهت جلسة الدخول بعد 10 ساعات. سجّل الدخول للمتابعة.' };
+  }
   const model = currentModel();
   const passage = currentPassage(model);
   if (state.view === 'login') app.innerHTML = loginView();

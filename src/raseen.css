@@ -542,10 +542,11 @@
 /* The dashboard has its own authenticated chrome; it is intentionally
    separate from the public landing/navigation header. */
 .dashboard-header {
-  width: calc(100% + 10vw);
+  width: 100vw;
   min-height: 76px;
-  margin: -28px -5vw 28px;
-  padding: 0 5vw;
+  margin: -34px 0 28px;
+  margin-inline: calc(50% - 50vw);
+  padding-inline: max(24px, calc((100vw - 1440px) / 2 + 24px));
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
@@ -982,8 +983,9 @@
   }
 
   .dashboard-header {
-    width: calc(100% + 28px);
-    margin: 0 -14px 22px;
+    width: 100vw;
+    margin: -20px 0 22px;
+    margin-inline: calc(50% - 50vw);
     padding: 0 14px;
     grid-template-columns: auto auto;
     gap: 10px;
