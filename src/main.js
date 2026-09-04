@@ -2,6 +2,8 @@ import './style.css';
 import './raseen.css';
 import { readings } from './data/readings.js';
 import { wordGlossary } from './data/manualQuizzes.js';
+import { grammarModels } from './data/grammarModels.js';
+import { soundManager } from './soundManager.js';
 import { authClient } from '../lib/auth-client.ts';
 
 const jsonModelFiles = import.meta.glob('./data/reading/models/model-*.json', { eager: true, import: 'default' });
@@ -42,11 +44,12 @@ const readStored = (key, fallback) => {
 // Authentication identity always comes from Better Auth's server session.
 // Local storage is used only for the learner's progress cache.
 let account = null;
+let serverDashboard = null;
 const progressKey = () => account?.email ? `${storageKey}:${account.email}` : storageKey;
 let progress = readStored(progressKey(), {});
 const requestedView = new URLSearchParams(window.location.search).get('view');
 const initialView = requestedView === 'dashboard' ? 'login' : requestedView;
-let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', authError: '', authLoading: true, selectedModelId: null, selectedPassageId: null, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
+let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: null, selectedPassageId: null, selectedGrammarModelId: null, grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -54,6 +57,18 @@ const brandLogo = (variant = 'default') => `<img class="brand-image ${variant ==
 const normalizeArabic = (value = '') => String(value).toLowerCase().replace(/[أإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/[ً-ْ]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const modelNumber = (model) => String(model.order).padStart(2, '0');
 const saveProgress = () => localStorage.setItem(progressKey(), JSON.stringify(progress));
+async function refreshServerDashboard() {
+  if (!account) {
+    serverDashboard = null;
+    return;
+  }
+  try {
+    const response = await fetch('/api/dashboard', { credentials: 'include', headers: { accept: 'application/json' } });
+    if (response.ok) serverDashboard = await response.json();
+  } catch {
+    // The local progress cache remains available when the API is offline.
+  }
+}
 const authErrorMessage = (error, fallback = 'تعذر تنفيذ الطلب. حاول مرة أخرى.') => {
   const code = String(error?.code ?? error?.status ?? '').toUpperCase();
   if (code.includes('USER_ALREADY_EXISTS') || code.includes('EMAIL_ALREADY_EXISTS') || code.includes('CONFLICT')) return 'هذا البريد الإلكتروني مسجل مسبقًا. سجّل الدخول بدلًا من إنشاء حساب جديد.';
@@ -63,8 +78,6 @@ const authErrorMessage = (error, fallback = 'تعذر تنفيذ الطلب. ح�
 };
 const quizKey = (modelId, passageId) => `${modelId}:${passageId}`;
 const quizProgress = (modelId, passageId) => progress[quizKey(modelId, passageId)] ?? { answers: {}, status: 'not-started' };
-let audioContext;
-
 const arabicModelNames = [
   'الأول', 'الثاني', 'الثالث', 'الرابع', 'الخامس', 'السادس', 'السابع', 'الثامن', 'التاسع', 'العاشر',
   'الحادي عشر', 'الثاني عشر', 'الثالث عشر', 'الرابع عشر', 'الخامس عشر', 'السادس عشر', 'السابع عشر',
@@ -84,33 +97,8 @@ const models = readings.map((reading) => {
 
 function setQuizProgress(modelId, passageId, update) {
   const key = quizKey(modelId, passageId);
-  progress[key] = { ...quizProgress(modelId, passageId), ...update };
+  progress[key] = { ...quizProgress(modelId, passageId), ...update, updatedAt: new Date().toISOString() };
   saveProgress();
-}
-
-async function playTone(type) {
-  const AudioContext = window.AudioContext || window.webkitAudioContext;
-  if (!AudioContext) return;
-  audioContext ??= new AudioContext();
-  if (audioContext.state === 'suspended') await audioContext.resume();
-  const sound = {
-    correct: { frequencies: [660, 880], wave: 'sine', volume: 0.08, step: 0.08, length: 0.13 },
-    wrong: { frequencies: [360, 220], wave: 'square', volume: 0.12, step: 0.12, length: 0.2 },
-    next: { frequencies: [520], wave: 'sine', volume: 0.045, step: 0.08, length: 0.1 },
-  }[type] ?? { frequencies: [440], wave: 'sine', volume: 0.06, step: 0.08, length: 0.12 };
-  sound.frequencies.forEach((frequency, index) => {
-    const start = audioContext.currentTime + index * sound.step;
-    const oscillator = audioContext.createOscillator();
-    const gain = audioContext.createGain();
-    oscillator.type = sound.wave;
-    oscillator.frequency.value = frequency;
-    gain.gain.setValueAtTime(0.0001, start);
-    gain.gain.exponentialRampToValueAtTime(sound.volume, start + 0.01);
-    gain.gain.exponentialRampToValueAtTime(0.0001, start + sound.length);
-    oscillator.connect(gain).connect(audioContext.destination);
-    oscillator.start(start);
-    oscillator.stop(start + sound.length + 0.02);
-  });
 }
 
 function visibleModels() {
@@ -150,7 +138,8 @@ function raseenHeader(active = 'النماذج') {
 
 function dashboardHeader(active = 'dashboard') {
   const name = account?.name ? escapeHtml(account.name) : 'حسابي';
-  return `<header class="dashboard-header"><button class="dashboard-brand" data-dashboard-section="dashboard" aria-label="لوحة المستخدم">${brandLogo('light')}</button><nav aria-label="تنقل لوحة المستخدم"><button class="${active === 'dashboard' ? 'active' : ''}" data-dashboard-section="dashboard">لوحة التحكم</button><button class="${active === 'mistakes' ? 'active' : ''}" data-dashboard-section="mistakes">الأخطاء</button><button class="${active === 'reading' ? 'active' : ''}" data-models-scroll>القراءة</button><button class="${active === 'grammar' ? 'active' : ''}" data-dashboard-section="grammar">القواعد</button><button class="${active === 'listening' ? 'active' : ''}" data-dashboard-section="listening">الاستماع</button><button class="${active === 'profile' ? 'active' : ''}" data-dashboard-section="profile">الملف الشخصي</button></nav><div class="dashboard-account"><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></header>`;
+  const mistakesCount = Object.values(progress).flatMap((item) => item.mistakes ?? []).length;
+  return `<header class="dashboard-header ${state.dashboardMenuOpen ? 'menu-open' : ''}"><button class="dashboard-menu-toggle" data-toggle-dashboard-menu aria-expanded="${state.dashboardMenuOpen}" aria-label="فتح قائمة لوحة المستخدم">☰</button><button class="dashboard-brand" data-dashboard-section="dashboard" aria-label="لوحة المستخدم">${brandLogo('light')}</button><nav aria-label="تنقل لوحة المستخدم"><button class="${active === 'dashboard' ? 'active' : ''}" data-dashboard-section="dashboard">لوحتي</button><button class="${active === 'reading' ? 'active' : ''}" data-models-scroll>القراءة</button><button class="${active === 'grammar' ? 'active' : ''}" data-dashboard-section="grammar">القواعد</button><button class="${active === 'listening' ? 'active' : ''}" data-dashboard-section="listening">الاستماع</button><button class="${active === 'exams' ? 'active' : ''}" data-dashboard-section="exams">الاختبارات</button><button class="${active === 'mistakes' ? 'active' : ''}" data-dashboard-section="mistakes">أخطائي${mistakesCount ? `<b class="nav-badge">${mistakesCount}</b>` : ''}</button><button class="${active === 'progress' ? 'active' : ''}" data-dashboard-section="progress">تقدمي</button><details class="dashboard-step-menu"><summary class="${active === 'step-sections' ? 'active' : ''}">أقسام STEP <span aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="reading">فهم المقروء</button><button data-dashboard-section="grammar">التراكيب النحوية</button><button data-dashboard-section="listening">فهم المسموع</button><button data-dashboard-section="writing">التحليل الكتابي</button></div></details></nav><details class="dashboard-profile-menu"><summary><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><span class="profile-caret" aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="profile">ملفي الشخصي</button><button data-dashboard-section="settings">إعدادات الحساب</button><button data-dashboard-section="subscription">الاشتراك</button><button data-dashboard-section="help">المساعدة</button><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></details></header>`;
 }
 
 function loginView() {
@@ -161,12 +150,78 @@ function registerView() {
   return `<main class="auth-shell"><div class="auth-panel"><button class="brand-mark brand-button" data-library>${brandLogo()}</button><span class="auth-kicker">ابدأ خطتك التعليمية</span><h1>أنشئ حسابك في نباهة</h1><p>حسابك يحفظ تقدمك وأخطاءك لتعود إلى التدريب في أي وقت.</p>${state.authError ? `<div class="auth-error" role="alert">${escapeHtml(state.authError)}</div>` : ''}<form class="auth-form register-form"><label>الاسم الكامل<input name="name" type="text" placeholder="اكتب اسمك" autocomplete="name" minlength="2" required></label><label>البريد الإلكتروني<input name="email" type="email" placeholder="أدخل بريدك الإلكتروني" autocomplete="email" required></label><label>كلمة المرور<input name="password" type="password" placeholder="8 أحرف على الأقل" autocomplete="new-password" minlength="8" required></label><label>تأكيد كلمة المرور<input name="confirmPassword" type="password" placeholder="أعد كتابة كلمة المرور" autocomplete="new-password" minlength="8" required></label><label class="remember-row"><input name="terms" type="checkbox" required> أوافق على حفظ بيانات الحساب بأمان</label><button class="orange-action" type="submit">إنشاء الحساب والدخول</button></form><button class="auth-secondary" data-login>لدي حساب بالفعل</button><button class="auth-link" data-library>العودة للرئيسية</button></div><div class="auth-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP"><div><strong>خطتك تبدأ هنا</strong><span>تقدم محفوظ وتجربة منظمة</span></div></div></main>`;
 }
 
-function dashboardView() {
-  const completed = Object.values(progress).filter((item) => item.status === 'completed').length;
-  const answered = Object.values(progress).reduce((sum, item) => sum + Object.keys(item.answers ?? {}).length, 0);
-  const mistakes = Object.values(progress).flatMap((item) => item.mistakes ?? []);
+function dashboardData() {
+  const passageCount = models.reduce((sum, model) => sum + model.passages.length, 0);
+  const questionCount = models.reduce((sum, model) => sum + model.passages.reduce((pieceSum, passage) => pieceSum + passage.questions.length, 0), 0);
+  const entries = Object.entries(progress).filter(([key, item]) => key.includes(':') && item && typeof item === 'object');
+  const completedEntries = entries.filter(([, item]) => item.status === 'completed');
+  const answered = entries.reduce((sum, [, item]) => sum + Object.keys(item.answers ?? {}).length, 0);
+  const mistakes = entries.flatMap(([, item]) => item.mistakes ?? []);
+  const uniqueMistakes = [...new Map(mistakes.map((mistake) => [mistake.questionId, mistake])).values()];
+  const questionMap = new Map(models.flatMap((model) => model.passages.flatMap((passage) => passage.questions.map((question) => [question.id, { model, passage, question }]))));
+  const resultRows = completedEntries.map(([key, item]) => {
+    const [modelId, passageId] = key.split(':');
+    const model = models.find((candidate) => candidate.id === modelId);
+    const passage = model?.passages.find((candidate) => candidate.id === passageId);
+    if (!model || !passage) return null;
+    const scoredQuestions = passage.questions.filter((question) => question.correctAnswer !== null);
+    const correct = scoredQuestions.reduce((sum, question) => {
+      const selected = item.answers?.[question.id];
+      return sum + (selected && question.options.find((option) => option.id === selected)?.isCorrect ? 1 : 0);
+    }, 0);
+    const answeredScored = scoredQuestions.filter((question) => item.answers?.[question.id]).length;
+    return { key, item, model, passage, correct, answeredScored, score: answeredScored ? Math.round((correct / answeredScored) * 100) : 0 };
+  }).filter(Boolean).sort((a, b) => String(b.item.updatedAt ?? '').localeCompare(String(a.item.updatedAt ?? '')));
+  const answerStats = entries.reduce((stats, [key, item]) => {
+    const [modelId, passageId] = key.split(':');
+    const passage = models.find((candidate) => candidate.id === modelId)?.passages.find((candidate) => candidate.id === passageId);
+    if (!passage) return stats;
+    passage.questions.forEach((question) => {
+      if (question.correctAnswer === null || !item.answers?.[question.id]) return;
+      stats.answered += 1;
+      if (question.options.find((option) => option.id === item.answers[question.id])?.isCorrect) stats.correct += 1;
+    });
+    return stats;
+  }, { answered: 0, correct: 0 });
+  const scoredAnswers = answerStats.answered;
+  const correctAnswers = answerStats.correct;
+  const completedPieces = completedEntries.length;
+  const progressPercent = passageCount ? Math.round((completedPieces / passageCount) * 100) : 0;
+  const hasLocalActivity = entries.length > 0;
+  const remoteOverall = serverDashboard?.overall;
+  const remoteAnswered = Number(remoteOverall?.correctAnswers ?? 0) + Number(remoteOverall?.wrongAnswers ?? 0);
+  const accuracy = hasLocalActivity ? (scoredAnswers ? Math.round((correctAnswers / scoredAnswers) * 100) : 0) : (remoteAnswered ? Math.round((Number(remoteOverall.correctAnswers) / remoteAnswered) * 100) : 0);
+  const latest = entries.slice().sort((a, b) => String(b[1].updatedAt ?? '').localeCompare(String(a[1].updatedAt ?? '')))[0];
+  let latestContext = null;
+  if (latest) {
+    const [modelId, passageId] = latest[0].split(':');
+    const model = models.find((candidate) => candidate.id === modelId);
+    const passage = model?.passages.find((candidate) => candidate.id === passageId);
+    if (model && passage) latestContext = { model, passage, item: latest[1] };
+  }
   const firstModel = models.find((model) => model.passages.length);
-  return `<main class="dashboard-shell">${dashboardHeader('dashboard')}<section class="dashboard-welcome"><div><span>لوحة المستخدم</span><h1>مرحبًا${account?.name ? `، ${escapeHtml(account.name)}` : ''} 👋</h1><p>استمر بخطوة ثابتة، وكل جلسة تقرّبك من هدفك في اختبار STEP.</p><button class="orange-action" data-open-model="${firstModel?.id ?? 'reading-01'}">تابع التدريب ←</button></div><div class="dashboard-progress"><strong>${Math.min(100, Math.round((completed / Math.max(1, models.length)) * 100))}%</strong><span>نسبة الإنجاز</span><div><i style="width:${Math.min(100, Math.round((completed / Math.max(1, models.length)) * 100))}%"></i></div></div></section><section class="dashboard-stats"><article><strong>${completed}</strong><span>اختبارات مكتملة</span></article><article><strong>${answered}</strong><span>إجابة محفوظة</span></article><article><strong>${mistakes.length}</strong><span>أخطاء محفوظة</span></article><article><strong>${models.length}</strong><span>نموذج متاح</span></article></section><section class="dashboard-sections"><article><b>◫</b><h3>القراءة</h3><p>${models.reduce((sum, model) => sum + model.passages.length, 0)} قطعة تدريبية متاحة</p><button data-models-scroll>فتح النماذج ←</button></article><article><b>⌘</b><h3>القواعد</h3><p>مسارات القواعد ستضاف تدريجيًا إلى خطتك.</p><button data-dashboard-section="grammar">استعرض القسم</button></article><article><b>◉</b><h3>الاستماع</h3><p>تدريبات الاستماع قيد التجهيز.</p><button data-dashboard-section="listening">استعرض القسم</button></article><article><b>✎</b><h3>الكتابة</h3><p>تدريبات الكتابة ستضاف تدريجيًا إلى خطتك.</p><button data-dashboard-section="writing">استعرض القسم</button></article></section><section class="dashboard-grid"><article><div class="section-heading"><div><span>خطتك الحالية</span><h2>واصل من حيث توقفت</h2></div></div><p>اختر نموذجًا للوصول إلى القطع والاختبارات الخاصة به.</p><button class="outline-action" data-models-scroll>عرض النماذج</button></article><article><div class="section-heading"><div><span>الأخطاء المسجلة</span><h2>${mistakes.length ? `${mistakes.length} تحتاج مراجعة` : 'لا توجد أخطاء بعد'}</h2></div></div><p>${mistakes.length ? 'راجع الأسئلة التي أخطأت فيها قبل إعادة المحاولة.' : 'أجب عن الأسئلة وستظهر الأخطاء هنا للمراجعة.'}</p><button class="outline-action" data-dashboard-section="mistakes">ابدأ المراجعة</button></article><article><div class="section-heading"><div><span>اختصارات سريعة</span><h2>ابدأ الآن</h2></div></div><div class="quick-actions"><button data-open-model="reading-01">النموذج الأول</button><button data-models-scroll>كل النماذج</button><button data-logout>تسجيل الخروج</button></div></article></section></main>`;
+  const firstPassage = firstModel?.passages[0];
+  const weekStart = new Date();
+  weekStart.setHours(0, 0, 0, 0);
+  weekStart.setDate(weekStart.getDate() - ((weekStart.getDay() + 6) % 7));
+  const weeklyCompleted = completedEntries.filter(([, item]) => item.updatedAt && new Date(item.updatedAt) >= weekStart).length;
+  const improvement = uniqueMistakes.map((mistake) => questionMap.get(mistake.questionId)).filter(Boolean)[0] ?? null;
+  const dashboardAnswered = hasLocalActivity ? answered : remoteAnswered;
+  const dashboardMistakeCount = hasLocalActivity ? uniqueMistakes.length : Number(serverDashboard?.unreviewedMistakes ?? 0);
+  return { passageCount, questionCount, completedPieces, completedEntries, answered: dashboardAnswered, mistakes, uniqueMistakes, resultRows, progressPercent, accuracy, latestContext, firstModel, firstPassage, weeklyCompleted, improvement, dashboardMistakeCount };
+}
+
+function dashboardView() {
+  const data = dashboardData();
+  const resume = data.latestContext ?? (data.firstModel && data.firstPassage ? { model: data.firstModel, passage: data.firstPassage, item: { answers: {}, currentQuestionIndex: 0 } } : null);
+  const resumePercent = resume?.item?.status === 'completed' ? 100 : resume?.passage?.questions.length ? Math.round((Object.keys(resume.item?.answers ?? {}).length / resume.passage.questions.length) * 100) : 0;
+  const resumeButton = resume ? (data.latestContext ? `<button class="mint-action" data-resume-passage="${resume.model.id}|${resume.passage.id}">متابعة التدريب</button>` : `<button class="mint-action" data-open-model="${resume.model.id}">ابدأ التدريب</button>`) : '';
+  const improvement = data.improvement ? `<article class="improvement-card"><span class="eyebrow">نقطة تحتاج تحسين</span><h3>${escapeHtml(data.improvement.passage.title)}</h3><p>راجع السؤال ${data.improvement.question.number} ضمن هذه القطعة وجرّب الإجابة مرة أخرى.</p><button data-open-model="${data.improvement.model.id}">تدرّب الآن <span>←</span></button></article>` : `<article class="improvement-card empty"><span class="eyebrow">نقطة تحتاج تحسين</span><h3>ستظهر هنا توصياتك</h3><p>ابدأ أول تدريب لتتعرف نباهة على المهارات التي تحتاج إلى تركيز.</p><button data-open-model="${data.firstModel?.id ?? 'reading-01'}">ابدأ التدريب <span>←</span></button></article>`;
+  const recentResults = data.resultRows.slice(0, 3).map((row) => `<tr><td>${escapeHtml(row.passage.title)}</td><td>${row.score}%</td><td>${row.item.updatedAt ? new Date(row.item.updatedAt).toLocaleDateString('ar-SA') : '—'}</td></tr>`).join('');
+  const trend = data.resultRows.slice(0, 4).reverse();
+  const trendMarkup = trend.length ? trend.map((row) => `<span style="height:${Math.max(12, row.score)}%" title="${row.score}%"><b>${row.score}%</b></span>`).join('') : '<div class="dashboard-chart-empty">أكمل تدريبًا واحدًا ليظهر تطور دقتك هنا.</div>';
+  const mistakeBreakdown = data.dashboardMistakeCount ? `<div class="mistake-breakdown"><span>Reading <b>${data.dashboardMistakeCount}</b></span><span>Grammar <b>0</b></span><span>Listening <b>0</b></span></div>` : '<p class="muted-copy">لا توجد أخطاء محفوظة بعد. ستظهر هنا فور إجابتك عن الأسئلة.</p>';
+  return `<main class="dashboard-shell">${dashboardHeader('dashboard')}<section class="dashboard-intro"><span class="eyebrow">مساحة تعلمك الشخصية</span><h1>مرحبًا${account?.name ? `، ${escapeHtml(account.name)}` : ''} 👋</h1><p>واصل تقدمك نحو إتقان STEP بخطوات واضحة وهادئة.</p></section><section class="dashboard-focus-grid"><article class="continue-card"><div class="continue-card-copy"><span class="eyebrow">تابع من حيث توقفت</span><h2>${resume ? `${escapeHtml(resume.model.title)} — ${escapeHtml(resume.passage.title)}` : 'ابدأ رحلتك الأولى'}</h2><p>${data.latestContext ? `آخر نشاط ${resume.item.updatedAt ? new Date(resume.item.updatedAt).toLocaleString('ar-SA') : 'محفوظ'}` : 'اختر قطعة وابدأ أول جلسة تدريب.'}</p><div class="continue-progress"><div><i style="width:${resumePercent}%"></i></div><strong>${resumePercent}%</strong></div>${resumeButton}</div><div class="continue-meta"><strong>${Object.keys(resume?.item?.answers ?? {}).length} من ${resume?.passage?.questions.length ?? 0}</strong><span>أسئلة مجابة</span></div></article><aside class="weekly-goal"><span class="eyebrow">هدف هذا الأسبوع</span><strong>${Math.min(6, data.weeklyCompleted)} / 6</strong><p>تدريبات مكتملة</p><div class="goal-track"><i style="width:${Math.min(100, (data.weeklyCompleted / 6) * 100)}%"></i></div><small>خطوة صغيرة كل يوم تصنع فرقًا.</small></aside></section><section class="dashboard-stats dashboard-stats-four"><article><strong>${data.progressPercent}%</strong><span>التقدم العام</span></article><article><strong>${data.accuracy}%</strong><span>دقة الإجابات</span></article><article><strong>${data.answered}</strong><span>الأسئلة المجابة</span></article><article><strong>${data.dashboardMistakeCount}</strong><span>أخطاء تحتاج مراجعة</span></article></section><section class="dashboard-main-grid"><article class="dashboard-panel skills-panel"><header class="panel-heading"><div><span class="eyebrow">تقدمك حسب المهارة</span><h2>المهارات</h2></div></header><div class="skill-row"><div><strong>Reading</strong><span>${data.completedPieces} من ${data.passageCount} قطعة مكتملة</span></div><b>${data.progressPercent}%</b><div class="skill-track"><i style="width:${data.progressPercent}%"></i></div></div><div class="skill-row"><div><strong>Grammar</strong><span>0 من 0 درس مكتمل</span></div><b>0%</b><div class="skill-track"><i style="width:0%"></i></div></div><div class="skill-row"><div><strong>Listening</strong><span>0 من 0 مقطع مكتمل</span></div><b>0%</b><div class="skill-track"><i style="width:0%"></i></div></div></article>${improvement}</section><section class="dashboard-main-grid lower-grid"><article class="dashboard-panel mistakes-panel"><header class="panel-heading"><div><span class="eyebrow">مراجعة أخطائي</span><h2>${data.dashboardMistakeCount} سؤالًا يحتاج المراجعة</h2></div><button class="text-action" data-dashboard-section="mistakes">عرض الكل</button></header>${mistakeBreakdown}<button class="navy-action" data-dashboard-section="mistakes">ابدأ المراجعة <span>←</span></button></article><article class="dashboard-panel suggestion-panel"><span class="eyebrow">اقتراح نباهة لك</span><h2>${data.dashboardMistakeCount ? 'راجع أخطاءك قبل بدء قطعة جديدة' : 'ابدأ بأول قطعة اليوم'}</h2><p>${data.dashboardMistakeCount ? 'ركّز على الأسئلة التي أخطأت فيها؛ ستبني منها جلسة مراجعة قصيرة ومفيدة.' : 'اقرأ القطعة بهدوء ثم أجب عن أسئلتها خطوة بخطوة.'}</p><button class="mint-action" data-open-model="${data.firstModel?.id ?? 'reading-01'}">ابدأ تدريبًا لمدة 5 دقائق</button></article></section><section class="dashboard-main-grid lower-grid"><article class="dashboard-panel results-panel"><header class="panel-heading"><div><span class="eyebrow">آخر النتائج</span><h2>محاولاتك الأخيرة</h2></div><button class="text-action" data-dashboard-section="progress">عرض جميع النتائج</button></header><table><thead><tr><th>التدريب</th><th>النتيجة</th><th>التاريخ</th></tr></thead><tbody>${recentResults || '<tr><td colspan="3" class="table-empty">لا توجد نتائج مكتملة بعد.</td></tr>'}</tbody></table></article><article class="dashboard-panel chart-panel"><header class="panel-heading"><div><span class="eyebrow">تحسن الطالب</span><h2>تطور دقتك</h2></div><span class="chart-range">آخر 30 يومًا</span></header><div class="dashboard-chart" aria-label="تطور دقة الإجابات">${trendMarkup}</div></article></section></main>`;
 }
 
 function dashboardModelsView() {
@@ -175,7 +230,7 @@ function dashboardModelsView() {
 }
 
 function dashboardSectionView(section) {
-  const labels = { mistakes: ['أخطائي', 'راجع الإجابات التي تحتاج إلى تحسين وحوّلها إلى تقدم.'], grammar: ['القواعد', 'مسارات القواعد ستضاف تدريجيًا إلى خطتك.'], listening: ['الاستماع', 'تدريبات الاستماع ستضاف تدريجيًا إلى خطتك.'], writing: ['الكتابة', 'تدريبات الكتابة ستضاف تدريجيًا إلى خطتك.'], profile: ['الملف الشخصي', 'بيانات حسابك وإعدادات الوصول.'] };
+  const labels = { mistakes: ['أخطائي', 'راجع الإجابات التي تحتاج إلى تحسين وحوّلها إلى تقدم.'], grammar: ['القواعد', 'مسارات القواعد ستضاف تدريجيًا إلى خطتك.'], listening: ['الاستماع', 'تدريبات الاستماع ستضاف تدريجيًا إلى خطتك.'], writing: ['الكتابة', 'تدريبات الكتابة ستضاف تدريجيًا إلى خطتك.'], exams: ['الاختبارات', 'ابدأ اختبارًا تدريبيًا وتابع نتائج محاولاتك.'], progress: ['تقدمي', 'راجع نتائجك وتطور دقتك عبر الوقت.'], profile: ['الملف الشخصي', 'بيانات حسابك وإعدادات الوصول.'], settings: ['إعدادات الحساب', 'تحكم في تفضيلات حسابك وبيانات جلستك.'], subscription: ['الاشتراك', 'تفاصيل الوصول إلى مزايا نباهة.'], help: ['المساعدة', 'إجابات سريعة وإرشادات استخدام المنصة.'], reading: ['فهم المقروء', 'تدرب على فهم القطع وربط الفكرة بالتفاصيل.'] };
   const [title, subtitle] = labels[section] ?? labels.mistakes;
   const mistakes = Object.values(progress).flatMap((item) => item.mistakes ?? []);
   const questionMap = new Map(models.flatMap((model) => model.passages.flatMap((passage) => passage.questions.map((question) => [question.id, { model, passage, question }]))));
@@ -184,10 +239,77 @@ function dashboardSectionView(section) {
     content = mistakes.length ? `<div class="dashboard-mistakes-list">${mistakes.map((mistake) => { const match = questionMap.get(mistake.questionId); return `<article class="dashboard-mistake-card"><span>سؤال ${match?.question.number ?? '—'}</span><h3>${escapeHtml(match?.question.question ?? 'سؤال غير متاح')}</h3><p>${escapeHtml(match ? `${match.passage.title} · النموذج ${modelNumber(match.model)}` : 'بيانات السؤال محفوظة للمراجعة')}</p><button data-open-model="${match?.model.id ?? 'reading-01'}">أعد التدريب</button></article>`; }).join('')}</div>` : '<div class="dashboard-empty"><strong>لا توجد أخطاء حتى الآن</strong><p>أكمل بعض التدريبات وستظهر هنا الأسئلة التي تحتاج مراجعتها.</p><button class="orange-action" data-models-scroll>ابدأ التدريب</button></div>';
   } else if (section === 'profile') {
     content = `<div class="dashboard-profile-card"><span class="dashboard-avatar large">${escapeHtml((account?.name ?? 'ح').charAt(0))}</span><h2>${escapeHtml(account?.name ?? 'المستخدم')}</h2><p>${escapeHtml(account?.email ?? '')}</p><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div>`;
+  } else if (section === 'progress') {
+    const data = dashboardData();
+    content = `<section class="dashboard-panel progress-detail-panel"><header class="panel-heading"><div><span class="eyebrow">ملخص تقدمك</span><h2>${data.progressPercent}% تقدم عام</h2></div></header><div class="progress-detail-grid"><div><strong>${data.completedPieces}</strong><span>قطع مكتملة</span></div><div><strong>${data.accuracy}%</strong><span>دقة الإجابات</span></div><div><strong>${data.answered}</strong><span>أسئلة مجابة</span></div></div><div class="skill-row"><div><strong>Reading</strong><span>${data.completedPieces} من ${data.passageCount} قطعة مكتملة</span></div><b>${data.progressPercent}%</b><div class="skill-track"><i style="width:${data.progressPercent}%"></i></div></div></section>`;
+  } else if (section === 'exams') {
+    content = `<section class="dashboard-panel exams-panel"><header class="panel-heading"><div><span class="eyebrow">اختبارات STEP</span><h2>ابدأ اختبارًا جديدًا</h2></div></header><p class="muted-copy">اختر أي نموذج قراءة متاح وابدأ بمحاولة منظمة. تحفظ نباهة إجاباتك لتعود إليها لاحقًا.</p><button class="navy-action" data-models-scroll>استعرض النماذج <span>←</span></button></section>`;
+  } else if (section === 'settings') {
+    const soundSettings = soundManager.getSettings();
+    content = `<section class="dashboard-panel settings-panel"><header class="panel-heading"><div><span class="eyebrow">تجربة هادئة</span><h2>أصوات التفاعل</h2></div><span class="settings-state ${soundSettings.enabled ? 'on' : 'off'}">${soundSettings.enabled ? 'مفعّلة' : 'متوقفة'}</span></header><p class="muted-copy">نغمات قصيرة وناعمة أثناء التدريب فقط. صوت Listening مستقل تمامًا عن أصوات الواجهة.</p><div class="sound-setting-row"><div><strong>أصوات التفاعل</strong><span>اختيار، إجابة صحيحة أو خاطئة، والانتقال بين الأسئلة</span></div><button class="sound-toggle ${soundSettings.enabled ? 'is-on' : ''}" data-toggle-sounds aria-pressed="${soundSettings.enabled}">${soundSettings.enabled ? 'تشغيل' : 'إيقاف'}</button></div><div class="sound-volume-note"><span>المستوى الافتراضي</span><strong>${Math.round(soundSettings.volume * 100)}%</strong><small>أخفض بوضوح من مستوى Listening</small></div></section>`;
   } else {
     content = `<div class="dashboard-empty"><strong>هذا القسم قيد التجهيز</strong><p>ستتم إضافة المحتوى المعتمد إلى هذا القسم قريبًا. يمكنك متابعة نماذج القراءة المتاحة الآن.</p><button class="orange-action" data-models-scroll>استكشف القراءة</button></div>`;
   }
   return `<main class="dashboard-shell dashboard-section-shell">${dashboardHeader(section)}<header class="dashboard-page-heading"><div><span>مساحة التعلم</span><h1>${title}</h1><p>${subtitle}</p></div><button class="outline-action" data-dashboard-section="dashboard">لوحة التحكم</button></header>${content}</main>`;
+}
+
+function grammarProgress(modelId) {
+  return progress.grammar?.[modelId] ?? { answers: {}, results: {}, status: 'not-started', currentQuestionIndex: 0 };
+}
+
+function setGrammarProgress(modelId, update) {
+  progress.grammar = { ...(progress.grammar ?? {}), [modelId]: { ...grammarProgress(modelId), ...update, updatedAt: new Date().toISOString() } };
+  saveProgress();
+}
+
+const grammarCategoryOrder = ['general', 'incorrect', 'correct-sentence', 'word-order', 'capitalization', 'punctuation', 'special'];
+const grammarCategoryNames = { general: 'القواعد العامة', incorrect: 'اكتشاف الخطأ', 'correct-sentence': 'الجملة الصحيحة', 'word-order': 'ترتيب الكلمات', capitalization: 'Capitalization', punctuation: 'Punctuation', special: 'أسئلة خاصة' };
+
+function grammarLibraryView() {
+  const available = grammarModels.filter((model) => model.status === 'available');
+  return `<main class="dashboard-shell grammar-shell">${dashboardHeader('grammar')}<header class="dashboard-page-heading"><div><span>مسار STEP · التراكيب النحوية</span><h1>نماذج القواعد</h1><p>44 نموذجًا مرتبة بعناية؛ أول ثلاثة نماذج جاهزة للتدريب بالمحتوى المعتمد.</p></div><button class="outline-action" data-dashboard-section="dashboard">لوحة التحكم</button></header><section class="grammar-intro-card"><div><span class="eyebrow">منهج نباهة</span><h2>تدرّب على القاعدة، ثم افهم سبب الإجابة</h2><p>رتّبنا كل نموذج من القواعد العامة إلى الأسئلة الخاصة، مع الحفاظ على الإجابات كما ظهرت في المصدر.</p></div><div class="grammar-category-sequence">${grammarCategoryOrder.map((category, index) => `<span><b>${index + 1}</b>${grammarCategoryNames[category]}</span>`).join('')}</div></section><section class="grammar-model-grid" aria-label="نماذج القواعد">${grammarModels.map((model) => { const saved = grammarProgress(model.id); const done = saved.status === 'completed'; return `<article class="grammar-model-card ${model.status === 'available' ? 'is-available' : 'is-locked'}"><div class="grammar-model-number">${String(model.order).padStart(2, '0')}</div><div class="grammar-model-copy"><span class="eyebrow">نموذج ${model.order}</span><h2>${escapeHtml(model.title)}</h2><p>${escapeHtml(model.subtitle)}</p></div><span class="grammar-model-status">${model.status === 'available' ? (done ? 'مكتمل' : 'متاح الآن') : 'قريبًا'}</span>${model.status === 'available' ? `<button class="mint-action" data-open-grammar-model="${model.id}">${done ? 'مراجعة النموذج' : 'ابدأ التدريب'} <span>←</span></button>` : '<span class="grammar-lock" aria-label="محتوى قادم">🔒</span>'}</article>`; }).join('')}</section><section class="grammar-source-note"><strong>أمانة المصدر</strong><span>الإجابة المعتمدة هي الإجابة المحددة في المصدر. السؤال 100 في النموذج الثالث محفوظ بلا إجابة لأن التسطير غير واضح في الصورة.</span></section></main>`;
+}
+
+function grammarQuestionView(model) {
+  const questions = model.questions;
+  const index = Math.min(state.grammarQuestionIndex, Math.max(0, questions.length - 1));
+  const question = questions[index];
+  const selected = state.grammarAnswers?.[question.id];
+  const confirmed = state.grammarConfirmed?.[question.id];
+  const progressPercent = Math.round(((index + (selected !== undefined ? 1 : 0)) / questions.length) * 100);
+  return `<main class="dashboard-shell grammar-quiz-shell">${dashboardHeader('grammar')}<header class="grammar-quiz-top"><button class="back-button" data-grammar-library>← نماذج القواعد</button><div><span class="eyebrow">${escapeHtml(model.title)}</span><h1>السؤال ${question.displayOrder} من ${questions.length}</h1></div><div class="grammar-quiz-progress"><span>${progressPercent}%</span><div><i style="width:${progressPercent}%"></i></div></div></header><section class="grammar-question-card"><div class="grammar-question-meta"><span class="grammar-category-pill">${escapeHtml(question.categoryLabel)}</span><span>رقم المصدر: ${question.sourceNumber}</span></div><h2>${escapeHtml(question.prompt)}</h2><div class="grammar-options" role="list">${question.options.map((option, optionIndex) => { const isSelected = selected === optionIndex; const isRight = confirmed !== undefined && optionIndex === question.correctIndex; const isWrong = confirmed !== undefined && isSelected && question.correctIndex !== null && optionIndex !== question.correctIndex; return `<button class="grammar-option ${isSelected ? 'is-selected' : ''} ${isRight ? 'is-correct' : ''} ${isWrong ? 'is-wrong' : ''}" data-grammar-option="${optionIndex}" ${selected !== undefined || state.grammarPendingQuestionId === question.id ? 'disabled' : ''}><span>${String.fromCharCode(65 + optionIndex)}</span><strong>${escapeHtml(option)}</strong></button>`; }).join('')}</div>${state.grammarPendingQuestionId === question.id ? '<p class="grammar-confirming">جارٍ تأكيد الإجابة…</p>' : ''}${confirmed !== undefined ? `<div class="grammar-feedback ${confirmed ? 'is-correct' : 'is-wrong'}"><strong>${confirmed ? 'أحسنت، إجابة صحيحة.' : question.correctIndex === null ? 'تم حفظ إجابتك، لكن الإجابة المعتمدة غير محددة في المصدر.' : 'ليست الإجابة الصحيحة.'}</strong>${!confirmed && question.correctIndex !== null ? `<span>الحل الصحيح: ${String.fromCharCode(65 + question.correctIndex)}) ${escapeHtml(question.options[question.correctIndex])}</span>` : ''}${question.sourceNote ? `<small>${escapeHtml(question.sourceNote)}</small>` : ''}</div>` : ''}</section><footer class="grammar-quiz-actions"><button class="outline-action" data-grammar-previous ${index === 0 ? 'disabled' : ''}>السابق</button><button class="mint-action" data-grammar-next ${selected === undefined || state.grammarPendingQuestionId ? 'disabled' : ''}>${index === questions.length - 1 ? 'إنهاء التدريب' : 'السؤال التالي'} <span>←</span></button></footer></main>`;
+}
+
+function grammarResultView(model) {
+  const saved = grammarProgress(model.id);
+  const scored = model.questions.filter((question) => question.correctIndex !== null);
+  const correct = scored.filter((question) => saved.results?.[question.id] === true).length;
+  const score = scored.length ? Math.round((correct / scored.length) * 100) : 0;
+  return `<main class="dashboard-shell grammar-result-shell">${dashboardHeader('grammar')}<section class="grammar-result-card"><span class="eyebrow">نتيجة التدريب</span><h1>${escapeHtml(model.title)} مكتمل</h1><div class="grammar-score"><strong>${score}%</strong><span>${correct} من ${scored.length} إجابة صحيحة</span></div><p>حافظنا على ترتيبك وإجابات المصدر لتتمكن من مراجعة كل سؤال بهدوء.</p><div class="grammar-result-actions"><button class="mint-action" data-grammar-retry>إعادة التدريب</button><button class="outline-action" data-grammar-library>العودة للنماذج</button></div></section></main>`;
+}
+
+async function confirmGrammarAnswer(model, question, optionIndex) {
+  state.grammarPendingQuestionId = question.id;
+  state.grammarAnswers = { ...(state.grammarAnswers ?? {}), [question.id]: optionIndex };
+  render();
+  let isCorrect;
+  try {
+    const response = await fetch('/api/grammar/answer', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ modelId: model.id, questionId: question.id, selectedIndex: optionIndex }) });
+    if (!response.ok) throw new Error('grammar answer endpoint unavailable');
+    const payload = await response.json();
+    isCorrect = payload.isCorrect;
+  } catch {
+    // Local catalogue fallback keeps offline practice usable; production API
+    // responses still take precedence when the server is available.
+    isCorrect = question.correctIndex === null ? null : optionIndex === question.correctIndex;
+  }
+  const saved = grammarProgress(model.id);
+  setGrammarProgress(model.id, { answers: { ...(saved.answers ?? {}), [question.id]: optionIndex }, results: { ...(saved.results ?? {}), [question.id]: isCorrect }, status: 'in-progress', currentQuestionIndex: state.grammarQuestionIndex });
+  state.grammarConfirmed = { ...(state.grammarConfirmed ?? {}), [question.id]: isCorrect === true };
+  state.grammarPendingQuestionId = null;
+  render();
+  if (isCorrect === true) soundManager.play('answer-correct');
+  else if (isCorrect === false && question.correctIndex !== null) soundManager.play('answer-wrong');
 }
 
 function libraryView() {
@@ -352,6 +474,10 @@ function currentPassage(model = currentModel()) {
   return model?.passages.find((passage) => passage.id === state.selectedPassageId);
 }
 
+function currentGrammarModel() {
+  return grammarModels.find((model) => model.id === state.selectedGrammarModelId);
+}
+
 function render() {
   if (state.authLoading) {
     app.innerHTML = '<main class="auth-shell"><div class="auth-panel"><span class="auth-kicker">نباهة</span><h1>جارٍ التحقق من الجلسة…</h1><p>لحظات ونفتح لك المساحة المناسبة.</p></div></main>';
@@ -363,7 +489,9 @@ function render() {
   else if (state.view === 'register') app.innerHTML = registerView();
   else if (state.view === 'dashboard') app.innerHTML = account ? dashboardView() : loginView();
   else if (state.view === 'dashboard-models') app.innerHTML = account ? dashboardModelsView() : loginView();
-  else if (state.view === 'dashboard-section') app.innerHTML = account ? dashboardSectionView(state.dashboardSection) : loginView();
+  else if (state.view === 'dashboard-section') app.innerHTML = account ? (state.dashboardSection === 'grammar' ? grammarLibraryView() : dashboardSectionView(state.dashboardSection)) : loginView();
+  else if (state.view === 'grammar-quiz' && currentGrammarModel()) app.innerHTML = account ? grammarQuestionView(currentGrammarModel()) : loginView();
+  else if (state.view === 'grammar-result' && currentGrammarModel()) app.innerHTML = account ? grammarResultView(currentGrammarModel()) : loginView();
   else if (state.view === 'model' && model) app.innerHTML = modelView(model);
   else if (state.view === 'quiz' && model && passage) app.innerHTML = quizView(model, passage);
   else if (state.view === 'solutions' && model && passage) app.innerHTML = solutionsView(model, passage);
@@ -436,6 +564,7 @@ app.addEventListener('submit', async (event) => {
     }
     progress = form.classList.contains('register-form') ? {} : readStored(progressKey(), {});
     if (form.classList.contains('register-form')) saveProgress();
+    await refreshServerDashboard();
     state = { ...state, view: 'dashboard', authError: '', authLoading: false };
     render();
   } catch (error) {
@@ -445,6 +574,7 @@ app.addEventListener('submit', async (event) => {
 });
 
 app.addEventListener('click', (event) => {
+  soundManager.activate();
   if (event.target.closest('[data-login]')) {
     state = { ...state, view: 'login', authError: '' };
     render();
@@ -457,10 +587,82 @@ app.addEventListener('click', (event) => {
     return;
   }
 
+  if (event.target.closest('[data-toggle-dashboard-menu]')) {
+    state = { ...state, dashboardMenuOpen: !state.dashboardMenuOpen };
+    render();
+    return;
+  }
+
   const dashboardSectionButton = event.target.closest('[data-dashboard-section]');
   if (dashboardSectionButton) {
     const section = dashboardSectionButton.dataset.dashboardSection;
-    state = { ...state, view: section === 'dashboard' ? 'dashboard' : 'dashboard-section', dashboardSection: section };
+    state = { ...state, view: section === 'dashboard' ? 'dashboard' : section === 'reading' ? 'dashboard-models' : 'dashboard-section', dashboardSection: section, dashboardMenuOpen: false };
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-toggle-sounds]')) {
+    soundManager.updateSettings({ enabled: !soundManager.getSettings().enabled });
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-grammar-library]')) {
+    state = { ...state, view: 'dashboard-section', dashboardSection: 'grammar', selectedGrammarModelId: null, grammarPendingQuestionId: null };
+    render();
+    return;
+  }
+
+  const grammarModelButton = event.target.closest('[data-open-grammar-model]');
+  if (grammarModelButton) {
+    const model = grammarModels.find((candidate) => candidate.id === grammarModelButton.dataset.openGrammarModel);
+    if (!model || model.status !== 'available') return;
+    const saved = grammarProgress(model.id);
+    state = { ...state, view: 'grammar-quiz', dashboardSection: 'grammar', selectedGrammarModelId: model.id, grammarQuestionIndex: Math.min(saved.currentQuestionIndex ?? 0, model.questions.length - 1), grammarAnswers: { ...(saved.answers ?? {}) }, grammarConfirmed: Object.fromEntries(Object.entries(saved.results ?? {}).filter(([, value]) => value !== null)), grammarPendingQuestionId: null };
+    render();
+    return;
+  }
+
+  const grammarOption = event.target.closest('[data-grammar-option]');
+  if (grammarOption) {
+    const model = currentGrammarModel();
+    const question = model?.questions[state.grammarQuestionIndex];
+    if (!model || !question || state.grammarAnswers?.[question.id] !== undefined || state.grammarPendingQuestionId) return;
+    soundManager.play('option-select');
+    confirmGrammarAnswer(model, question, Number(grammarOption.dataset.grammarOption));
+    return;
+  }
+
+  if (event.target.closest('[data-grammar-next]')) {
+    const model = currentGrammarModel();
+    if (!model) return;
+    const question = model.questions[state.grammarQuestionIndex];
+    if (state.grammarAnswers?.[question.id] === undefined || state.grammarPendingQuestionId) return;
+    if (state.grammarQuestionIndex >= model.questions.length - 1) {
+      setGrammarProgress(model.id, { status: 'completed', currentQuestionIndex: 0 });
+      state.view = 'grammar-result';
+      soundManager.play('exercise-complete');
+    } else {
+      state.grammarQuestionIndex += 1;
+      setGrammarProgress(model.id, { currentQuestionIndex: state.grammarQuestionIndex });
+      soundManager.play('question-next');
+    }
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-grammar-previous]')) {
+    if (state.grammarQuestionIndex <= 0) return;
+    state.grammarQuestionIndex -= 1;
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-grammar-retry]')) {
+    const model = currentGrammarModel();
+    if (!model) return;
+    setGrammarProgress(model.id, { answers: {}, results: {}, status: 'in-progress', currentQuestionIndex: 0 });
+    state = { ...state, view: 'grammar-quiz', grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, grammarPendingQuestionId: null };
     render();
     return;
   }
@@ -477,6 +679,7 @@ app.addEventListener('click', (event) => {
     authClient.signOut()
       .then(() => {
         account = null;
+        serverDashboard = null;
         progress = {};
         state = { ...state, view: 'library', dashboardSection: 'dashboard', authError: '' };
       })
@@ -494,6 +697,18 @@ app.addEventListener('click', (event) => {
       state = { ...state, view: account ? 'dashboard-models' : 'library', selectedModelId: null, selectedPassageId: null };
       render();
     }
+    return;
+  }
+
+  const resumeButton = event.target.closest('[data-resume-passage]');
+  if (resumeButton) {
+    const [modelId, passageId] = resumeButton.dataset.resumePassage.split('|');
+    const model = models.find((candidate) => candidate.id === modelId);
+    const passage = model?.passages.find((candidate) => candidate.id === passageId);
+    if (!model || !passage) return;
+    const saved = quizProgress(modelId, passageId);
+    state = { ...state, view: 'quiz', selectedModelId: modelId, selectedPassageId: passageId, questionIndex: Math.min(saved.currentQuestionIndex ?? 0, Math.max(0, passage.questions.length - 1)), translationQuestionId: null, activeAnswers: { ...(saved.answers ?? {}) }, restoredProgress: true };
+    render();
     return;
   }
 
@@ -550,7 +765,7 @@ app.addEventListener('click', (event) => {
       mistakes.push({ questionId: question.id, optionId: option.id, attempt: state.questionIndex, createdAt: new Date().toISOString() });
     }
     setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, mistakes, status: 'in-progress', currentQuestionIndex: state.questionIndex });
-    playTone(option?.isCorrect ? 'correct' : 'wrong');
+    soundManager.play(option?.isCorrect ? 'answer-correct' : 'answer-wrong');
     render();
     return;
   }
@@ -564,7 +779,7 @@ app.addEventListener('click', (event) => {
       setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'completed', currentQuestionIndex: 0 });
       state.view = 'result';
     } else {
-      playTone('next');
+      soundManager.play('question-next');
       const nextIndex = state.questionIndex + 1;
       setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'in-progress', currentQuestionIndex: nextIndex });
       state.questionIndex = nextIndex;
@@ -621,10 +836,11 @@ render();
 // Hydrate the UI from the server session on every page load. No account
 // credentials or authentication identity are read from localStorage.
 authClient.getSession()
-  .then((response) => {
+  .then(async (response) => {
     account = response?.data?.user ?? null;
     if (account) {
       progress = readStored(progressKey(), {});
+      await refreshServerDashboard();
       state.view = 'dashboard';
     } else if (state.view === 'dashboard') {
       state.view = 'login';
