@@ -507,6 +507,111 @@
   font-size: 11px;
 }
 
+/* The dashboard has its own authenticated chrome; it is intentionally
+   separate from the public landing/navigation header. */
+.dashboard-header {
+  width: calc(100% + 10vw);
+  min-height: 76px;
+  margin: -28px -5vw 28px;
+  padding: 0 5vw;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 24px;
+  direction: rtl;
+  background: #071f51;
+  color: #fff;
+  box-shadow: 0 8px 24px rgba(7, 31, 81, .14);
+}
+
+.dashboard-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font: 800 24px Tahoma;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.dashboard-brand i {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border: 2px solid var(--orange);
+  border-radius: 50% 12px;
+  color: var(--orange);
+  font-size: 0;
+  transform: rotate(45deg);
+}
+
+.dashboard-header nav {
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.dashboard-header nav button {
+  min-height: 76px;
+  padding: 0 14px;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  background: transparent;
+  color: rgba(255, 255, 255, .82);
+  font: 700 12px Tahoma;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color .2s ease, border-color .2s ease, background .2s ease;
+}
+
+.dashboard-header nav button:hover,
+.dashboard-header nav button.active {
+  color: #fff;
+  border-bottom-color: #2877ff;
+  background: rgba(255, 255, 255, .06);
+}
+
+.dashboard-account {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: #fff;
+  font: 700 11px Tahoma;
+  white-space: nowrap;
+}
+
+.dashboard-avatar {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  border: 2px solid #4a8fff;
+  border-radius: 50%;
+  background: #123875;
+  color: #fff;
+  font-size: 14px;
+}
+
+.dashboard-logout {
+  margin-inline-start: 8px;
+  padding: 8px 11px;
+  border: 1px solid rgba(255, 255, 255, .28);
+  border-radius: 8px;
+  background: transparent;
+  color: #fff;
+  font: 700 10px Tahoma;
+  cursor: pointer;
+}
+
+.dashboard-logout:hover {
+  border-color: #fff;
+  background: rgba(255, 255, 255, .08);
+}
+
 .dashboard-shell .raseen-header {
   margin-bottom: 28px;
 }
@@ -714,6 +819,38 @@
 
   .dashboard-shell {
     padding: 0 14px 35px;
+  }
+
+  .dashboard-header {
+    width: calc(100% + 28px);
+    margin: 0 -14px 22px;
+    padding: 0 14px;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+
+  .dashboard-header nav {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-content: flex-start;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .dashboard-header nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .dashboard-header nav button {
+    min-height: 48px;
+  }
+
+  .dashboard-account {
+    justify-self: end;
+  }
+
+  .dashboard-logout {
+    display: none;
   }
 
   .dashboard-welcome {
