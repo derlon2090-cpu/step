@@ -4,7 +4,25 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "functions": {
-    "api/**/*.js": {
+    "api/health.js": {
+      "maxDuration": 30
+    },
+    "api/auth/index.js": {
+      "maxDuration": 30
+    },
+    "api/auth/[...path].js": {
+      "maxDuration": 30
+    },
+    "api/auth/get-session.js": {
+      "maxDuration": 30
+    },
+    "api/auth/sign-in/email.js": {
+      "maxDuration": 30
+    },
+    "api/auth/sign-out.js": {
+      "maxDuration": 30
+    },
+    "api/auth/sign-up/email.js": {
       "maxDuration": 30
     }
   }
