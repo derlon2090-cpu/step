@@ -81,6 +81,8 @@ export async function deepseekCheck({ requestId = randomUUID() } = {}) {
       console.error(`[DEEPSEEK_CHECK_BODY] requestId=${requestId} code=${result.code} message=${result.message}`);
       return result;
     }
+    const usage = usageSummary(payload?.usage);
+    console.info(`[DEEPSEEK_CHECK_USAGE] requestId=${requestId} inputTokens=${usage.inputTokens ?? 'unknown'} outputTokens=${usage.outputTokens ?? 'unknown'} totalTokens=${usage.totalTokens ?? 'unknown'}`);
     console.info(`[DEEPSEEK_CHECK_SUCCESS] requestId=${requestId} latencyMs=${latencyMs}`);
     return { ok: true, provider: 'deepseek', model, status: response.status, latencyMs, receivedContent, ...config };
   } catch (error) {
