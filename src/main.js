@@ -868,6 +868,7 @@ app.addEventListener('submit', async (event) => {
     progress = form.classList.contains('register-form') ? {} : readStored(progressKey(), {});
     if (form.classList.contains('register-form')) saveProgress();
     await refreshServerDashboard();
+    await refreshServerMistakes({ renderAfter: false });
     localStorage.setItem(authHintKey, '1');
     state = { ...state, view: 'dashboard', authError: '', authLoading: false };
     render();
@@ -1258,6 +1259,7 @@ authClient.getSession()
     if (account) {
       progress = readStored(progressKey(), {});
       await refreshServerDashboard();
+      await refreshServerMistakes({ renderAfter: false });
       localStorage.setItem(authHintKey, '1');
       state.view = 'dashboard';
     } else if (state.view === 'dashboard') {
@@ -1274,3 +1276,6 @@ authClient.getSession()
     state.authLoading = false;
     render();
   });
+
+window.addEventListener('focus', () => { if (account) void Promise.all([refreshServerDashboard(), refreshServerMistakes()]); });
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && account) void Promise.all([refreshServerDashboard(), refreshServerMistakes()]); });
