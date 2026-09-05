@@ -2230,18 +2230,16 @@ input[type='radio'] {
 .answer-note.correct-note,
 .grammar-feedback.is-correct,
 .solution-answer {
-  border: 2px solid var(--brand-900);
-  background: var(--brand-100);
-  color: var(--text-primary);
+  border: 2px solid #2E8B57;
+  background: #ECFDF3;
+  color: #166534;
 }
 
 .quiz-option.correct .option-marker,
 .grammar-option.is-correct > span,
-.quiz-option.selected .option-marker,
-.grammar-option.is-selected > span,
 .option-marker:has(input:checked) {
-  border-color: var(--brand-900);
-  background: var(--brand-900);
+  border-color: #2E8B57;
+  background: #2E8B57;
   color: #fff;
 }
 
@@ -2259,8 +2257,8 @@ input[type='radio'] {
 
 .quiz-option.wrong .option-marker,
 .grammar-option.is-wrong > span {
-  border-color: var(--danger-border);
-  background: var(--danger-border);
+  border-color: #D92D20;
+  background: #D92D20;
   color: #fff;
 }
 
