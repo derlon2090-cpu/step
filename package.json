@@ -4,7 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "start": "vite",
+    "start": "node server/index.js",
+    "start:web": "vite",
     "start:api": "node server/index.js",
     "build": "vite build",
     "db:migrate": "node scripts/migrate.mjs",
