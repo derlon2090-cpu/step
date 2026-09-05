@@ -415,13 +415,13 @@ function tutorPopover(model, passage, question, selectedOption) {
       ${hasConversation ? `<button class="tutor-expand" data-tutor-expand aria-label="${session.expanded ? 'تصغير النافذة' : 'توسيع النافذة'}" title="${session.expanded ? 'تصغير' : 'توسيع'}">${session.expanded ? '↙' : '↗'}</button>` : ''}
       <button class="tutor-close" data-tutor-close aria-label="إغلاق مساعد نباهة">×</button>
     </header>
-    ${hasConversation ? `<div class="tutor-conversation" aria-live="polite">${messages}${session.loading ? `<div class="tutor-message is-assistant is-loading"><span></span><p>نباهة يجهز الشرح...</p></div>` : ''}</div>` : `<div class="tutor-quick-actions">${actions.map((action) => `<button data-tutor-action="${action}"><span>${escapeHtml(tutorActionLabels[action])}</span><b aria-hidden="true">←</b></button>`).join('')}</div>`}
+    ${hasConversation ? `<div class="tutor-conversation" aria-live="polite">${messages}${session.loading ? `<div class="tutor-message is-assistant is-loading"><span></span><p>${escapeHtml(session.loadingMessage || 'نباهة يجهز الشرح...')}</p></div>` : ''}</div>` : `<div class="tutor-quick-actions">${actions.map((action) => `<button data-tutor-action="${action}"><span>${escapeHtml(tutorActionLabels[action])}</span><b aria-hidden="true">←</b></button>`).join('')}</div>`}
     ${hasConversation && !session.loading ? `<div class="tutor-followups"><button data-tutor-action="simplify">أبسط أكثر</button><button data-tutor-action="similar">مثال آخر</button><button data-tutor-understood>فهمت ✓</button></div>` : ''}
     <form class="tutor-composer" data-tutor-form>
       <input name="message" maxlength="1000" autocomplete="off" placeholder="${hasConversation ? 'تابع سؤالك...' : 'اكتب سؤالك...'}" aria-label="اكتب سؤالك عن السؤال الحالي" ${session.loading ? 'disabled' : ''}>
       <button type="submit" aria-label="إرسال السؤال" ${session.loading ? 'disabled' : ''}>↑</button>
     </form>
-    ${session.error ? `<div class="tutor-error" role="alert"><p>تعذر الاتصال بمساعد نباهة الآن.</p><button type="button" data-tutor-retry>إعادة المحاولة</button></div>` : ''}
+    ${session.error ? `<div class="tutor-error" role="alert"><p>${session.errorCode === 'AI_TIMEOUT' ? 'استغرق مساعد نباهة وقتًا أطول من المتوقع.' : 'تعذر الحصول على الرد الآن.'}</p><button type="button" data-tutor-retry>إعادة المحاولة</button></div>` : ''}
     <small class="tutor-privacy">السياق محفوظ لهذا السؤال فقط</small>
   </section>`;
 }
@@ -432,6 +432,7 @@ async function requestTutor({ key, question, selectedOption, action, message }) 
   const prompt = String(message || tutorActionLabels[action] || '').trim();
   if (!prompt) return;
   const history = session.messages.map(({ role, content }) => ({ role, content }));
+  let loadingTimer;
   state.tutorOpen = true;
   state.tutorQuestionKey = key;
   state.tutorSessions = {
@@ -440,13 +441,21 @@ async function requestTutor({ key, question, selectedOption, action, message }) 
       ...session,
       expanded: session.expanded || history.length >= 2,
       error: '',
+      errorCode: '',
       loading: true,
+      loadingMessage: 'نباهة يجهز الشرح...',
       lastRequest: { action, message: prompt },
       messages: [...session.messages, { role: 'user', content: prompt }],
     },
   };
   state.tutorScrollToEnd = true;
   render();
+  loadingTimer = setTimeout(() => {
+    const latest = state.tutorSessions[key];
+    if (!latest?.loading) return;
+    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loadingMessage: 'جاري الاتصال بالمساعد...' } };
+    render();
+  }, 8_000);
   try {
     const response = await questionTutorProvider.chat({
       questionId: question.id,
@@ -457,13 +466,17 @@ async function requestTutor({ key, question, selectedOption, action, message }) 
       history: history.slice(-12),
     });
     const latest = state.tutorSessions[key];
-    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, messages: [...latest.messages, { role: 'assistant', content: response.content, source: response.source, provider: response.provider, model: response.model }] } };
+    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, messages: [...latest.messages, { role: 'assistant', content: response.content, source: response.source, provider: response.provider, model: response.model }] } };
   } catch (error) {
     const latest = state.tutorSessions[key];
-    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, error: true } };
+    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, error: true, errorCode: error?.code || 'AI_REQUEST_FAILED' } };
+  } finally {
+    clearTimeout(loadingTimer);
+    const latest = state.tutorSessions[key];
+    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, loadingMessage: '' } };
+    state.tutorScrollToEnd = true;
+    render();
   }
-  state.tutorScrollToEnd = true;
-  render();
 }
 
 async function askQuestionTutor(action, message) {

@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { randomUUID } from 'node:crypto';
 import { resolveQuestionContext } from './questionContext.js';
 
 export const questionTutorSchema = z.object({
@@ -58,11 +59,9 @@ function userPrompt(input, context) {
   }, null, 2);
 }
 
-export async function chatWithQuestionTutor(input) {
+export async function chatWithQuestionTutor(input, { requestId = randomUUID() } = {}) {
   const model = process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash';
   const startedAt = Date.now();
-  console.info(`[NABAHAH_AI_REQUEST] questionId=${input.questionId} action=${input.action} model=${model}`);
-
   try {
     if (!input.sessionId.endsWith(`:${input.questionId}`) && input.sessionId !== input.questionId) {
       throw tutorError('TUTOR_SESSION_MISMATCH', 422);
@@ -72,7 +71,9 @@ export async function chatWithQuestionTutor(input) {
     if (!apiKey) throw tutorError('AI_NOT_CONFIGURED', 503, 'DEEPSEEK_API_KEY_MISSING');
 
     const context = await resolveQuestionContext(input.questionId, input.selectedOptionId);
+    console.info(`[TUTOR_CONTEXT_READY] requestId=${requestId} questionId=${input.questionId} skill=${context.skill} answered=${context.isAnswered}`);
     const baseURL = (process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com').replace(/\/+$/, '');
+    console.info(`[TUTOR_DEEPSEEK_START] requestId=${requestId} model=${model}`);
     const response = await fetch(`${baseURL}/chat/completions`, {
       method: 'POST',
       headers: { authorization: `Bearer ${apiKey}`, 'content-type': 'application/json' },
@@ -94,10 +95,10 @@ export async function chatWithQuestionTutor(input) {
     const content = String(payload?.choices?.[0]?.message?.content ?? '').trim();
     if (!content) throw tutorError('DEEPSEEK_EMPTY_RESPONSE', 502);
 
-    console.info(`[NABAHAH_AI_SUCCESS] questionId=${input.questionId} status=${response.status} model=${model} latencyMs=${Date.now() - startedAt}`);
+    console.info(`[TUTOR_DEEPSEEK_SUCCESS] requestId=${requestId} status=${response.status} model=${model} latencyMs=${Date.now() - startedAt}`);
     return { content, provider: 'deepseek', model, source: context.humanNote ? 'human-note' : 'tutor' };
   } catch (error) {
-    console.error(`[NABAHAH_AI_ERROR] questionId=${input.questionId} status=${error?.status ?? 502} code=${error?.code ?? error?.name ?? 'UNKNOWN'} latencyMs=${Date.now() - startedAt}`);
+    console.error(`[NABAHAH_AI_ERROR] requestId=${requestId} questionId=${input.questionId} status=${error?.status ?? 502} code=${error?.code ?? error?.name ?? 'UNKNOWN'} latencyMs=${Date.now() - startedAt}`);
     throw error;
   }
 }

@@ -1,4 +1,5 @@
 import http from 'node:http';
+import { randomUUID } from 'node:crypto';
 import { validateEnv } from './config/env.js';
 import { getAuth } from './auth/auth.js';
 import { toNodeHandler } from 'better-auth/node';
@@ -14,13 +15,18 @@ const json = (res, status, body) => { res.statusCode = status; res.setHeader('co
 const tutorOrigins = new Set((process.env.FRONTEND_ORIGINS ?? 'https://www.nabahah.com,https://nabahah.com').split(',').map((origin) => origin.trim()).filter(Boolean));
 function applyTutorCors(req, res) {
   const origin = req.headers.origin;
+  if (origin && !tutorOrigins.has(origin)) {
+    json(res, 403, { error: 'Tutor origin not allowed', code: 'TUTOR_CORS_ORIGIN_DENIED' });
+    return false;
+  }
   if (origin && tutorOrigins.has(origin)) {
     res.setHeader('access-control-allow-origin', origin);
     res.setHeader('access-control-allow-credentials', 'true');
     res.setHeader('vary', 'Origin');
   }
   res.setHeader('access-control-allow-headers', 'content-type, accept');
-  res.setHeader('access-control-allow-methods', 'POST, OPTIONS');
+  res.setHeader('access-control-allow-methods', 'GET, POST, OPTIONS');
+  return true;
 }
 async function body(req) {
   let raw = ''; for await (const chunk of req) { raw += chunk; if (raw.length > 128 * 1024) throw new HttpError(413, 'Payload too large'); }
@@ -35,16 +41,25 @@ const reviewStatus = z.enum(['needs_review', 'missing', 'verified']);
 export const server = http.createServer(async (req, res) => {
   try {
     const url = new URL(req.url ?? '/', 'http://localhost');
-    if (url.pathname === '/api/question-tutor') {
-      applyTutorCors(req, res);
+    if (url.pathname === '/api/question-tutor' || url.pathname === '/api/question-tutor/health') {
+      const requestId = randomUUID();
+      if (!applyTutorCors(req, res)) return;
+      console.info(`[TUTOR_CORS_OK] requestId=${requestId} origin=${req.headers.origin ?? 'same-origin'}`);
       if (req.method === 'OPTIONS') { res.statusCode = 204; res.end(); return; }
+      if (url.pathname === '/api/question-tutor/health') {
+        if (req.method !== 'GET') return json(res, 405, { error: 'Method Not Allowed', code: 'METHOD_NOT_ALLOWED' });
+        return json(res, 200, { ok: true, service: 'nabahah-tutor', deepseekConfigured: Boolean(process.env.DEEPSEEK_API_KEY) });
+      }
+      if (req.method !== 'POST') return json(res, 405, { error: 'Method Not Allowed', code: 'METHOD_NOT_ALLOWED' });
+      console.info(`[TUTOR_INCOMING_REQUEST] requestId=${requestId} method=POST origin=${req.headers.origin ?? 'same-origin'}`);
+      const payload = questionTutorSchema.parse(await body(req));
+      const result = await chatWithQuestionTutor(payload, { requestId });
+      json(res, 200, result);
+      console.info(`[TUTOR_RESPONSE_SENT] requestId=${requestId} status=200`);
+      return;
     }
     if (url.pathname === '/api/auth' || url.pathname.startsWith('/api/auth/')) return authHandler(req, res);
     if (req.method === 'GET' && url.pathname === '/api/dashboard') return json(res, 200, await getDashboard((await requireUser(req)).user));
-    if (req.method === 'POST' && url.pathname === '/api/question-tutor') {
-      const payload = questionTutorSchema.parse(await body(req));
-      return json(res, 200, await chatWithQuestionTutor(payload));
-    }
     if (req.method === 'POST' && url.pathname === '/api/grammar/answer') {
       await requireUser(req);
       const payload = grammarAnswerSchema.parse(await body(req));

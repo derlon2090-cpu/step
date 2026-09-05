@@ -9,7 +9,7 @@ export default async function handler(req, res) {
     res.setHeader('vary', 'Origin');
   }
   res.setHeader('access-control-allow-headers', 'content-type, accept');
-  res.setHeader('access-control-allow-methods', 'POST, OPTIONS');
+  res.setHeader('access-control-allow-methods', 'GET, POST, OPTIONS');
   if (req.method === 'OPTIONS') {
     res.status(204).end();
     return;
