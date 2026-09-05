@@ -55,7 +55,7 @@ export async function submitAttempt(user, attemptId, { durationSeconds = null } 
       if (evaluable) { scored++; if (isCorrect) correct++; else if (row.selected_answer != null) mistakes.push(row.question_id); }
     }
     for (const questionId of mistakes) {
-      await tx.insert(userMistakes).values({ userId, questionId, firstAttemptId: attemptId, lastAttemptId: attemptId }).onConflictDoUpdate({ target: [userMistakes.userId, userMistakes.questionId], set: { mistakeCount: sql`${userMistakes.mistakeCount} + 1`, lastAttemptId: attemptId, lastSeenAt: now(), status: 'unreviewed' } });
+      await tx.insert(userMistakes).values({ userId, questionId, firstAttemptId: attemptId, lastAttemptId: attemptId }).onConflictDoNothing({ target: [userMistakes.userId, userMistakes.questionId] });
     }
     const wrong = scored - correct;
     const submitted = now();
