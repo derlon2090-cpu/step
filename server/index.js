@@ -9,8 +9,29 @@ import { z } from 'zod';
 import { grammarModels } from '../src/data/grammarModels.js';
 import { chatWithQuestionTutor, deepseekCheck, questionTutorSchema } from './services/ai/questionTutor.js';
 
-validateEnv();
-const authHandler = toNodeHandler(getAuth());
+console.info('[BOOT] starting Nabahah API');
+console.info('[BOOT_CONFIG]', {
+  nodeEnv: process.env.NODE_ENV,
+  portPresent: Boolean(process.env.PORT),
+  databaseUrlPresent: Boolean(process.env.DATABASE_URL),
+  betterAuthSecretPresent: Boolean(process.env.BETTER_AUTH_SECRET),
+  betterAuthSecretLengthOk: Boolean(process.env.BETTER_AUTH_SECRET?.length >= 32),
+  betterAuthApiKeyPresent: Boolean(process.env.BETTER_AUTH_API_KEY),
+  betterAuthUrlPresent: Boolean(process.env.BETTER_AUTH_URL),
+  deepseekKeyPresent: Boolean(process.env.DEEPSEEK_API_KEY),
+});
+try {
+  validateEnv();
+  console.info('[BOOT] environment validation passed');
+} catch (error) {
+  console.error('[BOOT_ENV_ERROR]', error instanceof Error ? error.message : String(error));
+  process.exit(1);
+}
+
+// Keep the liveness endpoint independent from Better Auth/DB initialization.
+// Auth is initialized only when an auth route is actually requested.
+let authHandler;
+const getAuthHandler = () => authHandler ??= toNodeHandler(getAuth());
 const json = (res, status, body) => { res.statusCode = status; res.setHeader('content-type', 'application/json; charset=utf-8'); res.end(JSON.stringify(body)); };
 const tutorOrigins = new Set((process.env.FRONTEND_ORIGINS ?? 'https://www.nabahah.com,https://nabahah.com').split(',').map((origin) => origin.trim()).filter(Boolean));
 function applyTutorCors(req, res) {
@@ -41,6 +62,9 @@ const reviewStatus = z.enum(['needs_review', 'missing', 'verified']);
 export const server = http.createServer(async (req, res) => {
   try {
     const url = new URL(req.url ?? '/', 'http://localhost');
+    if (req.method === 'GET' && url.pathname === '/health') {
+      return json(res, 200, { ok: true, service: 'nabahah-api' });
+    }
     if (url.pathname === '/api/question-tutor' || url.pathname === '/api/question-tutor/health' || url.pathname === '/api/question-tutor/deepseek-check') {
       const requestId = randomUUID();
       if (!applyTutorCors(req, res)) return;
@@ -69,7 +93,7 @@ export const server = http.createServer(async (req, res) => {
       console.info(`[TUTOR_RESPONSE_SENT] requestId=${requestId} status=200`);
       return;
     }
-    if (url.pathname === '/api/auth' || url.pathname.startsWith('/api/auth/')) return authHandler(req, res);
+    if (url.pathname === '/api/auth' || url.pathname.startsWith('/api/auth/')) return getAuthHandler()(req, res);
     if (req.method === 'GET' && url.pathname === '/api/dashboard') return json(res, 200, await getDashboard((await requireUser(req)).user));
     if (req.method === 'POST' && url.pathname === '/api/grammar/answer') {
       await requireUser(req);
@@ -101,6 +125,11 @@ export const server = http.createServer(async (req, res) => {
 });
 
 if (process.argv[1] && /server[\\/]index\.js$/.test(process.argv[1])) {
-  const port = Number(process.env.PORT ?? 3000);
-  server.listen(port, () => console.log(`RASEEN API listening on http://localhost:${port}`));
+  const port = Number(process.env.PORT || 10000);
+  const host = '0.0.0.0';
+  server.listen(port, host, () => console.info(`[BOOT_READY] listening on ${host}:${port}`));
+  server.on('error', (error) => {
+    console.error('[BOOT_SERVER_ERROR]', error instanceof Error ? error.message : String(error));
+    process.exitCode = 1;
+  });
 }
