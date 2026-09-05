@@ -2293,8 +2293,8 @@ input[type='radio'] {
   background: var(--brand-100);
   color: var(--brand-900);
 }
-.question-heading{position:relative;z-index:4}
-.question-tutor-anchor{position:relative;display:flex;align-items:center;margin-inline-start:auto;flex:0 0 auto}
+.question-heading{position:relative;z-index:4;padding-left:42px}
+.question-tutor-anchor{position:absolute;left:0;top:-2px;display:flex;align-items:center;flex:0 0 auto}
 .question-tutor-trigger{display:grid;place-items:center;width:32px;height:32px;padding:0;border:1px solid #DCE5F8;border-radius:9px;background:#F6F8FD;color:#1E3A8A;cursor:pointer;transition:background .15s,border-color .15s,transform .15s}
 .question-tutor-trigger:hover,.question-tutor-trigger[aria-expanded="true"]{background:#EDF2FC;border-color:#AFC0E8;transform:translateY(-1px)}
 .question-tutor-trigger svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
