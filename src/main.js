@@ -280,8 +280,10 @@ function grammarQuestionView(model) {
   const question = questions[index];
   const selected = state.grammarAnswers?.[question.id];
   const confirmed = state.grammarConfirmed?.[question.id];
+  const selectedTutorOption = selected === undefined ? null : { id: `${question.id}-o${selected}`, text: question.options[selected], isCorrect: question.correctIndex === selected };
+  const grammarTutorKey = tutorSessionKey(model, { id: 'grammar' }, question);
   const progressPercent = Math.round(((index + (selected !== undefined ? 1 : 0)) / questions.length) * 100);
-  return `<main class="dashboard-shell grammar-quiz-shell">${dashboardHeader('grammar')}<header class="grammar-quiz-top"><button class="back-button" data-grammar-library>← نماذج القواعد</button><div><span class="eyebrow">${escapeHtml(model.title)}</span><h1>السؤال ${question.displayOrder} من ${questions.length}</h1></div><div class="grammar-quiz-progress"><span>${progressPercent}%</span><div><i style="width:${progressPercent}%"></i></div></div></header><section class="grammar-question-card"><div class="grammar-question-meta"><span class="grammar-category-pill">${escapeHtml(question.categoryLabel)}</span><span>رقم المصدر: ${question.sourceNumber}</span></div><h2>${escapeHtml(question.prompt)}</h2><div class="grammar-options" role="list">${question.options.map((option, optionIndex) => { const isSelected = selected === optionIndex; const isRight = confirmed !== undefined && optionIndex === question.correctIndex; const isWrong = confirmed !== undefined && isSelected && question.correctIndex !== null && optionIndex !== question.correctIndex; return `<button class="grammar-option ${isSelected ? 'is-selected' : ''} ${isRight ? 'is-correct' : ''} ${isWrong ? 'is-wrong' : ''}" data-grammar-option="${optionIndex}" ${selected !== undefined || state.grammarPendingQuestionId === question.id ? 'disabled' : ''}><span>${String.fromCharCode(65 + optionIndex)}</span><strong>${escapeHtml(option)}</strong></button>`; }).join('')}</div>${state.grammarPendingQuestionId === question.id ? '<p class="grammar-confirming">جارٍ تأكيد الإجابة…</p>' : ''}${confirmed !== undefined ? `<div class="grammar-feedback ${confirmed ? 'is-correct' : 'is-wrong'}"><strong>${confirmed ? 'أحسنت، إجابة صحيحة.' : question.correctIndex === null ? 'تم حفظ إجابتك، لكن الإجابة المعتمدة غير محددة في المصدر.' : 'ليست الإجابة الصحيحة.'}</strong>${!confirmed && question.correctIndex !== null ? `<span>الحل الصحيح: ${String.fromCharCode(65 + question.correctIndex)}) ${escapeHtml(question.options[question.correctIndex])}</span>` : ''}${question.sourceNote ? `<small>${escapeHtml(question.sourceNote)}</small>` : ''}</div>` : ''}</section><footer class="grammar-quiz-actions"><button class="outline-action" data-grammar-previous ${index === 0 ? 'disabled' : ''}>السابق</button><button class="mint-action" data-grammar-next ${selected === undefined || state.grammarPendingQuestionId ? 'disabled' : ''}>${index === questions.length - 1 ? 'إنهاء التدريب' : 'السؤال التالي'} <span>←</span></button></footer></main>`;
+  return `<main class="dashboard-shell grammar-quiz-shell">${dashboardHeader('grammar')}<header class="grammar-quiz-top"><button class="back-button" data-grammar-library>← نماذج القواعد</button><div><span class="eyebrow">${escapeHtml(model.title)}</span><h1>السؤال ${question.displayOrder} من ${questions.length}</h1></div><div class="grammar-quiz-progress"><span>${progressPercent}%</span><div><i style="width:${progressPercent}%"></i></div></div></header><section class="grammar-question-card"><div class="grammar-question-meta"><span class="grammar-category-pill">${escapeHtml(question.categoryLabel)}</span><span>رقم المصدر: ${question.sourceNumber}</span></div><div class="grammar-tutor-anchor" data-tutor-scope="grammar"><button class="question-tutor-trigger" data-tutor-scope="grammar" data-tutor-toggle="${question.id}" aria-label="اسأل نباهة" title="اسأل نباهة" aria-haspopup="dialog" aria-expanded="${state.tutorOpen && state.tutorQuestionKey === grammarTutorKey}" aria-controls="question-tutor">${tutorSparkleIcon()}</button>${tutorPopover(model, { id: 'grammar' }, question, selectedTutorOption)}</div><h2>${escapeHtml(question.prompt)}</h2><div class="grammar-options" role="list">${question.options.map((option, optionIndex) => { const isSelected = selected === optionIndex; const isRight = confirmed !== undefined && optionIndex === question.correctIndex; const isWrong = confirmed !== undefined && isSelected && question.correctIndex !== null && optionIndex !== question.correctIndex; return `<button class="grammar-option ${isSelected ? 'is-selected' : ''} ${isRight ? 'is-correct' : ''} ${isWrong ? 'is-wrong' : ''}" data-grammar-option="${optionIndex}" ${selected !== undefined || state.grammarPendingQuestionId === question.id ? 'disabled' : ''}><span>${String.fromCharCode(65 + optionIndex)}</span><strong>${escapeHtml(option)}</strong></button>`; }).join('')}</div>${state.grammarPendingQuestionId === question.id ? '<p class="grammar-confirming">جارٍ تأكيد الإجابة…</p>' : ''}${confirmed !== undefined ? `<div class="grammar-feedback ${confirmed ? 'is-correct' : 'is-wrong'}"><strong>${confirmed ? 'أحسنت، إجابة صحيحة.' : question.correctIndex === null ? 'تم حفظ إجابتك، لكن الإجابة المعتمدة غير محددة في المصدر.' : 'ليست الإجابة الصحيحة.'}</strong>${!confirmed && question.correctIndex !== null ? `<span>الحل الصحيح: ${String.fromCharCode(65 + question.correctIndex)}) ${escapeHtml(question.options[question.correctIndex])}</span>` : ''}${question.sourceNote ? `<small>${escapeHtml(question.sourceNote)}</small>` : ''}</div>` : ''}</section><footer class="grammar-quiz-actions"><button class="outline-action" data-grammar-previous ${index === 0 ? 'disabled' : ''}>السابق</button><button class="mint-action" data-grammar-next ${selected === undefined || state.grammarPendingQuestionId ? 'disabled' : ''}>${index === questions.length - 1 ? 'إنهاء التدريب' : 'السؤال التالي'} <span>←</span></button></footer></main>`;
 }
 
 function grammarResultView(model) {
@@ -387,7 +389,7 @@ const tutorActionLabels = {
 const tutorSparkleIcon = () => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5c.55 4.4 2.1 5.95 6.5 6.5-4.4.55-5.95 2.1-6.5 6.5-.55-4.4-2.1-5.95-6.5-6.5 4.4-.55 5.95-2.1 6.5-6.5Z"/><path d="M18.5 15.5c.22 1.78.85 2.41 2.63 2.63-1.78.22-2.41.85-2.63 2.63-.22-1.78-.85-2.41-2.63-2.63 1.78-.22 2.41-.85 2.63-2.63Z"/></svg>`;
 
 function tutorSessionKey(model, passage, question) {
-  return `${model.id}:${passage.id}:${question.id}`;
+  return `${model.id}:${passage?.id ?? 'grammar'}:${question.id}`;
 }
 
 function tutorActions(selectedOption) {
@@ -423,14 +425,7 @@ function tutorPopover(model, passage, question, selectedOption) {
   </section>`;
 }
 
-async function askQuestionTutor(action, message) {
-  const model = currentModel();
-  const passage = currentPassage(model);
-  const question = passage?.questions[state.questionIndex];
-  if (!model || !passage || !question) return;
-  const key = tutorSessionKey(model, passage, question);
-  const selectedId = state.activeAnswers?.[question.id] ?? null;
-  const selectedOption = question.options.find((option) => option.id === selectedId) ?? null;
+async function requestTutor({ key, question, selectedOption, action, message, correctAnswer, humanNote }) {
   const session = state.tutorSessions[key] ?? { messages: [], loading: false, expanded: false };
   if (session.loading) return;
   const prompt = String(message || tutorActionLabels[action] || '').trim();
@@ -452,15 +447,15 @@ async function askQuestionTutor(action, message) {
   try {
     const response = await questionTutorProvider.chat({
       questionId: question.id,
-      question: question.question,
+      question: question.question ?? question.prompt,
       options: question.options.map(({ id, text }) => ({ id, text })),
       message: prompt,
       action,
       isAnswered: Boolean(selectedOption),
       selectedOptionId: selectedOption?.id ?? null,
       selectedOptionText: selectedOption?.text ?? null,
-      correctAnswer: selectedOption ? question.correctAnswer : null,
-      humanNote: selectedOption ? question.explanation || null : null,
+      correctAnswer: selectedOption ? correctAnswer : null,
+      humanNote: selectedOption ? humanNote || null : null,
       history,
     });
     const latest = state.tutorSessions[key];
@@ -470,6 +465,26 @@ async function askQuestionTutor(action, message) {
     state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, error: error?.message || 'تعذر تجهيز الشرح الآن. يمكنك متابعة حل السؤال بشكل طبيعي.' } };
   }
   render();
+}
+
+async function askQuestionTutor(action, message) {
+  const model = currentModel();
+  const passage = currentPassage(model);
+  const question = passage?.questions[state.questionIndex];
+  if (!model || !passage || !question) return;
+  const selectedId = state.activeAnswers?.[question.id] ?? null;
+  const selectedOption = question.options.find((option) => option.id === selectedId) ?? null;
+  return requestTutor({ key: tutorSessionKey(model, passage, question), question, selectedOption, action, message, correctAnswer: question.correctAnswer, humanNote: question.explanation });
+}
+
+async function askGrammarTutor(action, message) {
+  const model = currentGrammarModel();
+  const question = model?.questions[state.grammarQuestionIndex];
+  if (!model || !question) return;
+  const selectedIndex = state.grammarAnswers?.[question.id];
+  const selectedOption = selectedIndex === undefined ? null : { id: `${question.id}-o${selectedIndex}`, text: question.options[selectedIndex], isCorrect: question.correctIndex === selectedIndex };
+  const options = question.options.map((text, index) => ({ id: `${question.id}-o${index}`, text }));
+  return requestTutor({ key: tutorSessionKey(model, { id: 'grammar' }, question), question: { ...question, options }, selectedOption, action, message, correctAnswer: question.correctIndex === null ? null : question.options[question.correctIndex], humanNote: question.sourceNote });
 }
 
 function quizView(model, passage) {
@@ -625,7 +640,8 @@ app.addEventListener('submit', async (event) => {
     const message = String(input?.value ?? '').trim();
     if (!message) return;
     if (input) input.value = '';
-    await askQuestionTutor('custom', message);
+    if (tutorForm.closest('[data-tutor-scope="grammar"]')) await askGrammarTutor('custom', message);
+    else await askQuestionTutor('custom', message);
     return;
   }
   const form = event.target.closest('.auth-form');
@@ -696,6 +712,16 @@ app.addEventListener('click', (event) => {
   soundManager.activate();
   const tutorToggle = event.target.closest('[data-tutor-toggle]');
   if (tutorToggle) {
+    if (tutorToggle.dataset.tutorScope === 'grammar') {
+      const model = currentGrammarModel();
+      const question = model?.questions[state.grammarQuestionIndex];
+      if (!model || !question) return;
+      const key = tutorSessionKey(model, { id: 'grammar' }, question);
+      state.tutorOpen = !(state.tutorOpen && state.tutorQuestionKey === key);
+      state.tutorQuestionKey = key;
+      render();
+      return;
+    }
     const model = currentModel();
     const passage = currentPassage(model);
     const question = passage?.questions[state.questionIndex];
@@ -722,7 +748,8 @@ app.addEventListener('click', (event) => {
 
   const tutorAction = event.target.closest('[data-tutor-action]');
   if (tutorAction) {
-    askQuestionTutor(tutorAction.dataset.tutorAction);
+    if (tutorAction.closest('[data-tutor-scope="grammar"]')) askGrammarTutor(tutorAction.dataset.tutorAction);
+    else askQuestionTutor(tutorAction.dataset.tutorAction);
     return;
   }
 
@@ -807,6 +834,8 @@ app.addEventListener('click', (event) => {
       setGrammarProgress(model.id, { currentQuestionIndex: state.grammarQuestionIndex });
       soundManager.play('question-next');
     }
+    state.tutorOpen = false;
+    state.tutorQuestionKey = null;
     render();
     return;
   }
@@ -814,6 +843,8 @@ app.addEventListener('click', (event) => {
   if (event.target.closest('[data-grammar-previous]')) {
     if (state.grammarQuestionIndex <= 0) return;
     state.grammarQuestionIndex -= 1;
+    state.tutorOpen = false;
+    state.tutorQuestionKey = null;
     render();
     return;
   }
@@ -822,7 +853,7 @@ app.addEventListener('click', (event) => {
     const model = currentGrammarModel();
     if (!model) return;
     setGrammarProgress(model.id, { answers: {}, results: {}, status: 'in-progress', currentQuestionIndex: 0 });
-    state = { ...state, view: 'grammar-quiz', grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, grammarPendingQuestionId: null };
+    state = { ...state, view: 'grammar-quiz', grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, grammarPendingQuestionId: null, tutorOpen: false, tutorQuestionKey: null };
     render();
     return;
   }
