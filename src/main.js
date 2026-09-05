@@ -47,6 +47,8 @@ const readStored = (key, fallback) => {
 // Local storage is used only for the learner's progress cache.
 let account = null;
 let serverDashboard = null;
+let serverMistakes = [];
+let serverMistakesLoaded = false;
 const progressKey = () => account?.email ? `${storageKey}:${account.email}` : storageKey;
 let progress = readStored(progressKey(), {});
 const authHintKey = 'step-reading-auth-hint';
@@ -94,6 +96,19 @@ async function refreshServerDashboard() {
     if (response.ok) serverDashboard = await response.json();
   } catch {
     // The local progress cache remains available when the API is offline.
+  }
+}
+async function refreshServerMistakes({ renderAfter = true } = {}) {
+  if (!account) { serverMistakes = []; serverMistakesLoaded = false; return; }
+  try {
+    const response = await fetch('/api/me/mistakes', { credentials: 'include', headers: { accept: 'application/json' } });
+    if (!response.ok) throw new Error('mistakes unavailable');
+    const payload = await response.json();
+    serverMistakes = Array.isArray(payload.mistakes) ? payload.mistakes : [];
+    serverMistakesLoaded = true;
+    if (renderAfter) render();
+  } catch {
+    serverMistakesLoaded = false;
   }
 }
 const authErrorMessage = (error, fallback = 'تعذر تنفيذ الطلب. حاول مرة أخرى.') => {
@@ -176,7 +191,7 @@ function raseenHeader(active = 'النماذج') {
 
 function dashboardHeader(active = 'dashboard') {
   const name = account?.name ? escapeHtml(account.name) : 'حسابي';
-  const mistakesCount = Object.values(progress).flatMap((item) => item.mistakes ?? []).length;
+  const mistakesCount = serverMistakesLoaded ? serverMistakes.length : Object.values(progress).flatMap((item) => item.mistakes ?? []).length;
   return `<header class="dashboard-header ${state.dashboardMenuOpen ? 'menu-open' : ''}"><button class="dashboard-menu-toggle" data-toggle-dashboard-menu aria-expanded="${state.dashboardMenuOpen}" aria-label="فتح قائمة لوحة المستخدم">☰</button><button class="dashboard-brand" data-dashboard-section="dashboard" aria-label="لوحة المستخدم">${dashboardBrandLogo()}</button><nav aria-label="تنقل لوحة المستخدم"><button class="${active === 'dashboard' ? 'active' : ''}" data-dashboard-section="dashboard">لوحتي</button><button class="${active === 'reading' ? 'active' : ''}" data-models-scroll>القراءة</button><button class="${active === 'grammar' ? 'active' : ''}" data-dashboard-section="grammar">القواعد</button><button class="${active === 'listening' ? 'active' : ''}" data-dashboard-section="listening">الاستماع</button><button class="${active === 'exams' ? 'active' : ''}" data-dashboard-section="exams">الاختبارات</button><button class="${active === 'mistakes' ? 'active' : ''}" data-dashboard-section="mistakes">أخطائي${mistakesCount ? `<b class="nav-badge">${mistakesCount}</b>` : ''}</button><button class="${active === 'progress' ? 'active' : ''}" data-dashboard-section="progress">تقدمي</button><details class="dashboard-step-menu frequent-menu"><summary class="${active === 'frequent' ? 'active' : ''}">الأكثر تكرارًا <span aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="reading">أسئلة القراءة المتكررة</button><button data-dashboard-section="grammar">قواعد STEP المتكررة</button><button data-dashboard-section="listening">مقاطع الاستماع المتكررة</button><button data-dashboard-section="writing">موضوعات الكتابة المتكررة</button></div></details></nav><details class="dashboard-profile-menu"><summary><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><span class="profile-caret" aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="profile">ملفي الشخصي</button><button data-dashboard-section="settings">إعدادات الحساب</button><button data-dashboard-section="subscription">الاشتراك</button><button data-dashboard-section="help">المساعدة</button><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></details></header>`;
 }
 
@@ -281,7 +296,7 @@ function dashboardData() {
   const previousWeekStart = new Date(weekStart); previousWeekStart.setDate(previousWeekStart.getDate() - 7);
   const previousWeekAnswered = entries.reduce((sum, [, item]) => sum + Object.values(item.answerMeta ?? {}).filter((meta) => meta?.answeredAt && new Date(meta.answeredAt) >= previousWeekStart && new Date(meta.answeredAt) < weekStart).length, 0);
   const dashboardAnswered = hasLocalActivity ? answered : remoteAnswered;
-  const dashboardMistakeCount = hasLocalActivity ? dueMistakes.length : Number(serverDashboard?.unreviewedMistakes ?? 0);
+  const dashboardMistakeCount = serverMistakesLoaded ? serverMistakes.length : (hasLocalActivity ? dueMistakes.length : Number(serverDashboard?.unreviewedMistakes ?? 0));
   return { passageCount, questionCount, completedPieces, completedEntries, answered: dashboardAnswered, mistakes, uniqueMistakes, dueMistakes, resultRows, progressPercent, accuracy, latestContext, firstModel, firstPassage, weeklyCompleted, improvement, dashboardMistakeCount, streak, activeDaysThisWeek, avgSeconds, skillStats, reasonBreakdown, focusSkill, weeklyAnswered, previousWeekAnswered };
 }
 
