@@ -47,9 +47,13 @@ const readStored = (key, fallback) => {
 // Local storage is used only for the learner's progress cache.
 let account = null;
 let serverDashboard = null;
+let serverLearningState = null;
+let serverLearningStateLoaded = false;
 let serverMistakes = [];
 let serverMistakesLoaded = false;
 const progressKey = () => account?.email ? `${storageKey}:${account.email}` : storageKey;
+const migrationMarkerKey = () => `nabahah-learning-migrated-v1:${account?.id ?? 'anonymous'}`;
+const pendingAnswersKey = () => `nabahah-pending-answers-v1:${account?.id ?? 'anonymous'}`;
 let progress = readStored(progressKey(), {});
 const authHintKey = 'step-reading-auth-hint';
 const requestedView = new URLSearchParams(window.location.search).get('view');
@@ -140,6 +144,175 @@ const models = readings.map((reading) => {
   };
 });
 
+function collectLegacyAnswers(snapshot) {
+  const records = [];
+  Object.entries(snapshot ?? {}).forEach(([key, item]) => {
+    if (key === 'grammar' || !key.includes(':') || !item?.answers) return;
+    const [modelId, passageId] = key.split(':');
+    const model = models.find((candidate) => candidate.id === modelId);
+    const passage = model?.passages.find((candidate) => candidate.id === passageId);
+    if (!model || !passage) return;
+    Object.entries(item.answers).forEach(([questionId, optionId]) => {
+      const question = passage.questions.find((candidate) => candidate.id === questionId);
+      const selectedIndex = question?.options.findIndex((option) => option.id === optionId) ?? -1;
+      if (!question || selectedIndex < 0) return;
+      records.push({ skill: 'reading', questionSourceId: question.id, selectedIndex, modelSourceId: `model-${String(model.order).padStart(2, '0')}`, pieceSourceId: passage.id, totalQuestions: passage.questions.length, completed: item.status === 'completed', clientMutationId: crypto.randomUUID() });
+    });
+  });
+  Object.entries(snapshot?.grammar ?? {}).forEach(([modelId, item]) => {
+    const model = grammarModels.find((candidate) => candidate.id === modelId);
+    if (!model || !item?.answers) return;
+    Object.entries(item.answers).forEach(([questionId, selectedIndex]) => {
+      if (!model.questions.some((question) => question.id === questionId) || !Number.isInteger(Number(selectedIndex))) return;
+      records.push({ skill: 'grammar', questionSourceId: questionId, selectedIndex: Number(selectedIndex), modelSourceId: model.id, totalQuestions: model.questions.length, completed: item.status === 'completed', clientMutationId: crypto.randomUUID() });
+    });
+  });
+  return records;
+}
+
+function hydrateProgressFromServer(payload) {
+  const next = {};
+  const ensureReading = (modelSourceId, pieceSourceId) => {
+    if (!modelSourceId || !pieceSourceId) return null;
+    const modelId = String(modelSourceId).replace(/^model-/, 'reading-');
+    const key = quizKey(modelId, pieceSourceId);
+    next[key] ??= { answers: {}, answerMeta: {}, status: 'not-started', currentQuestionIndex: 0 };
+    return { key, item: next[key], model: models.find((candidate) => candidate.id === modelId), passageId: pieceSourceId };
+  };
+  (payload.progress ?? []).forEach((remote) => {
+    const status = remote.status === 'completed' ? 'completed' : remote.status === 'in_progress' ? 'in-progress' : 'not-started';
+    if (remote.skill === 'grammar' && remote.modelSourceId) {
+      next.grammar ??= {};
+      next.grammar[remote.modelSourceId] = { ...(next.grammar[remote.modelSourceId] ?? {}), answers: {}, results: {}, status, currentQuestionIndex: 0, updatedAt: remote.lastActivityAt };
+      return;
+    }
+    const reading = ensureReading(remote.modelSourceId, remote.pieceSourceId);
+    if (reading) Object.assign(reading.item, { status, updatedAt: remote.lastActivityAt });
+  });
+  const attempts = [...(payload.recentAttempts ?? [])].reverse().concat([...(payload.activeAttempts ?? [])].reverse());
+  attempts.forEach((attempt) => {
+    if (attempt.skill === 'grammar' && attempt.modelSourceId) {
+      const model = grammarModels.find((candidate) => candidate.id === attempt.modelSourceId);
+      if (!model) return;
+      next.grammar ??= {};
+      const item = next.grammar[model.id] ?? { answers: {}, results: {}, status: 'not-started', currentQuestionIndex: 0 };
+      (attempt.answers ?? []).forEach((answer) => {
+        const question = model.questions.find((candidate) => candidate.id === answer.questionId);
+        const selectedIndex = question?.options.findIndex((option) => option === answer.selectedAnswer) ?? -1;
+        if (!question || selectedIndex < 0) return;
+        item.answers[question.id] = selectedIndex;
+        item.results[question.id] = answer.isCorrect;
+        item.currentQuestionIndex = Math.max(item.currentQuestionIndex, model.questions.indexOf(question));
+      });
+      Object.assign(item, { attemptId: attempt.id, status: attempt.status === 'submitted' ? 'completed' : 'in-progress', updatedAt: attempt.lastActivityAt });
+      next.grammar[model.id] = item;
+      return;
+    }
+    if (attempt.skill !== 'reading') return;
+    const reading = ensureReading(attempt.modelSourceId, attempt.pieceSourceId);
+    const passage = reading?.model?.passages.find((candidate) => candidate.id === reading.passageId);
+    if (!reading || !passage) return;
+    (attempt.answers ?? []).forEach((answer) => {
+      const question = passage.questions.find((candidate) => candidate.id === answer.questionId);
+      const option = question?.options.find((candidate) => candidate.text === answer.selectedAnswer);
+      if (!question || !option) return;
+      reading.item.answers[question.id] = option.id;
+      reading.item.answerMeta[question.id] = { answeredAt: answer.answeredAt, seconds: Math.round(Number(answer.responseTimeMs ?? 0) / 1000), isCorrect: answer.isCorrect };
+      reading.item.currentQuestionIndex = Math.max(reading.item.currentQuestionIndex, passage.questions.indexOf(question));
+    });
+    Object.assign(reading.item, { attemptId: attempt.id, status: attempt.status === 'submitted' ? 'completed' : 'in-progress', updatedAt: attempt.lastActivityAt });
+  });
+  progress = next;
+  saveProgress();
+}
+
+function queuePendingAnswer(payload) {
+  const queued = readStored(pendingAnswersKey(), []);
+  if (!queued.some((item) => item.clientMutationId === payload.clientMutationId)) queued.push(payload);
+  localStorage.setItem(pendingAnswersKey(), JSON.stringify(queued.slice(-500)));
+}
+
+async function sendLearningAnswer(payload, { queueOnFailure = true } = {}) {
+  try {
+    const response = await fetch('/api/learning/answer', { method: 'POST', credentials: 'include', headers: { 'content-type': 'application/json', accept: 'application/json' }, body: JSON.stringify(payload) });
+    if (!response.ok) {
+      if (response.status >= 500 && queueOnFailure) queuePendingAnswer(payload);
+      throw new Error(`learning answer failed: ${response.status}`);
+    }
+    return await response.json();
+  } catch (error) {
+    if (queueOnFailure && !String(error?.message).startsWith('learning answer failed:')) queuePendingAnswer(payload);
+    throw error;
+  }
+}
+
+async function flushPendingAnswers() {
+  const queued = readStored(pendingAnswersKey(), []);
+  if (!account || !queued.length) return;
+  const remaining = [];
+  for (const payload of queued) {
+    try { await sendLearningAnswer(payload, { queueOnFailure: false }); } catch { remaining.push(payload); }
+  }
+  if (remaining.length) localStorage.setItem(pendingAnswersKey(), JSON.stringify(remaining));
+  else localStorage.removeItem(pendingAnswersKey());
+}
+
+async function submitLearningAttempt(attemptId) {
+  if (!attemptId) return;
+  try {
+    const response = await fetch('/api/learning/submit', { method: 'POST', credentials: 'include', headers: { 'content-type': 'application/json', accept: 'application/json' }, body: JSON.stringify({ attemptId }) });
+    if (!response.ok && response.status !== 409) throw new Error('attempt submit failed');
+    await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false, hydrate: false, flushPending: false })]);
+  } catch {
+    // The saved answers remain resumable and a later state refresh can retry.
+  }
+}
+
+async function migrateLegacyProgress(snapshot) {
+  if (!account || localStorage.getItem(migrationMarkerKey()) === '1') return;
+  const records = collectLegacyAnswers(snapshot);
+  if (!records.length) {
+    localStorage.setItem(migrationMarkerKey(), '1');
+    return;
+  }
+  try {
+    const response = await fetch('/api/me/learning-state', { method: 'POST', credentials: 'include', headers: { 'content-type': 'application/json', accept: 'application/json' }, body: JSON.stringify({ importKey: storageKey, records }) });
+    if (!response.ok) return;
+    const result = await response.json();
+    localStorage.setItem(migrationMarkerKey(), '1');
+    if (result.state) {
+      serverLearningState = result.state;
+      serverLearningStateLoaded = true;
+      serverMistakes = result.state.mistakes ?? [];
+      serverMistakesLoaded = true;
+      hydrateProgressFromServer(result.state);
+    }
+  } catch {
+    // Retry on a later authenticated load; the local cache remains intact.
+  }
+}
+
+async function refreshLearningState({ renderAfter = true, hydrate = true, flushPending = true } = {}) {
+  if (!account) { serverLearningState = null; serverLearningStateLoaded = false; return; }
+  try {
+    if (flushPending) await flushPendingAnswers();
+    const since = serverLearningState?.updatedAt ? `?since=${encodeURIComponent(serverLearningState.updatedAt)}` : '';
+    const response = await fetch(`/api/me/learning-state${since}`, { credentials: 'include', headers: { accept: 'application/json' } });
+    if (!response.ok) throw new Error('learning state unavailable');
+    const payload = await response.json();
+    serverLearningStateLoaded = true;
+    if (!payload.unchanged) {
+      serverLearningState = payload;
+      serverMistakes = Array.isArray(payload.mistakes) ? payload.mistakes : [];
+      serverMistakesLoaded = true;
+      if (hydrate) hydrateProgressFromServer(payload);
+    }
+    if (renderAfter) render();
+  } catch {
+    serverLearningStateLoaded = false;
+  }
+}
+
 function setQuizProgress(modelId, passageId, update) {
   const key = quizKey(modelId, passageId);
   progress[key] = { ...quizProgress(modelId, passageId), ...update, updatedAt: new Date().toISOString() };
@@ -195,7 +368,7 @@ function raseenHeader(active = 'النماذج') {
 function dashboardHeader(active = 'dashboard') {
   const name = account?.name ? escapeHtml(account.name) : 'حسابي';
   const mistakesCount = serverMistakesLoaded ? serverMistakes.filter((mistake) => ['reading', 'grammar', 'listening'].includes(mistake.skill)).length : Object.values(progress).flatMap((item) => item.mistakes ?? []).length;
-  return `<header class="dashboard-header ${state.dashboardMenuOpen ? 'menu-open' : ''}"><button class="dashboard-menu-toggle" data-toggle-dashboard-menu aria-expanded="${state.dashboardMenuOpen}" aria-label="فتح قائمة لوحة المستخدم">☰</button><button class="dashboard-brand" data-dashboard-section="dashboard" aria-label="لوحة المستخدم">${dashboardBrandLogo()}</button><nav aria-label="تنقل لوحة المستخدم"><button class="${active === 'dashboard' ? 'active' : ''}" data-dashboard-section="dashboard">لوحتي</button><button class="${active === 'reading' ? 'active' : ''}" data-models-scroll>القراءة</button><button class="${active === 'grammar' ? 'active' : ''}" data-dashboard-section="grammar">القواعد</button><button class="${active === 'listening' ? 'active' : ''}" data-dashboard-section="listening">الاستماع</button><button class="${active === 'exams' ? 'active' : ''}" data-dashboard-section="exams">الاختبارات</button><button class="${active === 'mistakes' ? 'active' : ''}" data-dashboard-section="mistakes">أخطائي${mistakesCount ? `<b class="nav-badge">${mistakesCount}</b>` : ''}</button><button class="${active === 'progress' ? 'active' : ''}" data-dashboard-section="progress">تقدمي</button><details class="dashboard-step-menu frequent-menu"><summary class="${active === 'frequent' ? 'active' : ''}">الأكثر تكرارًا <span aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="reading">أسئلة القراءة المتكررة</button><button data-dashboard-section="grammar">قواعد STEP المتكررة</button><button data-dashboard-section="listening">مقاطع الاستماع المتكررة</button><button data-dashboard-section="writing">موضوعات الكتابة المتكررة</button></div></details></nav><details class="dashboard-profile-menu"><summary><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><span class="profile-caret" aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="profile">ملفي الشخصي</button><button data-dashboard-section="settings">إعدادات الحساب</button><button data-dashboard-section="subscription">الاشتراك</button><button data-dashboard-section="help">المساعدة</button><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></details></header>`;
+  return `<header class="dashboard-header ${state.dashboardMenuOpen ? 'menu-open' : ''}"><button class="dashboard-menu-toggle" data-toggle-dashboard-menu aria-expanded="${state.dashboardMenuOpen}" aria-label="فتح قائمة لوحة المستخدم">☰</button><button class="dashboard-brand" data-dashboard-section="dashboard" aria-label="لوحة المستخدم">${dashboardBrandLogo()}</button><nav aria-label="تنقل لوحة المستخدم"><button class="${active === 'dashboard' ? 'active' : ''}" data-dashboard-section="dashboard">لوحتي</button><button class="${active === 'reading' ? 'active' : ''}" data-models-scroll>القراءة</button><button class="${active === 'grammar' ? 'active' : ''}" data-dashboard-section="grammar">القواعد</button><button class="${active === 'listening' ? 'active' : ''}" data-dashboard-section="listening">الاستماع</button><button class="${active === 'exams' ? 'active' : ''}" data-dashboard-section="exams">الاختبارات</button><button class="${active === 'mistakes' ? 'active' : ''}" data-dashboard-section="mistakes">أخطائي${mistakesCount ? `<b class="nav-badge">${mistakesCount}</b>` : ''}</button><button class="${active === 'progress' ? 'active' : ''}" data-dashboard-section="progress">تقدمي</button><button class="${active === 'frequent' ? 'active' : ''}" data-dashboard-section="frequent">الأكثر تكرارًا</button></nav><details class="dashboard-profile-menu"><summary><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><span class="profile-caret" aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="profile">ملفي الشخصي</button><button data-dashboard-section="settings">إعدادات الحساب</button><button data-dashboard-section="subscription">الاشتراك</button><button data-dashboard-section="help">المساعدة</button><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></details></header>`;
 }
 
 function loginView() {
@@ -212,7 +385,7 @@ function dashboardData() {
   const entries = Object.entries(progress).filter(([key, item]) => key.includes(':') && item && typeof item === 'object');
   const completedEntries = entries.filter(([, item]) => item.status === 'completed');
   const answered = entries.reduce((sum, [, item]) => sum + Object.keys(item.answers ?? {}).length, 0);
-  const mistakes = entries.flatMap(([, item]) => item.mistakes ?? []);
+  const mistakes = serverMistakesLoaded ? serverMistakes.map((mistake) => ({ ...mistake, questionId: mistake.questionSourceId ?? mistake.questionId, createdAt: mistake.lastSeenAt })) : entries.flatMap(([, item]) => item.mistakes ?? []);
   const uniqueMistakes = [...new Map(mistakes.map((mistake) => [mistake.questionId, mistake])).values()];
   const questionMap = new Map(models.flatMap((model) => model.passages.flatMap((passage) => passage.questions.map((question) => [question.id, { model, passage, question }]))));
   const resultRows = completedEntries.map(([key, item]) => {
@@ -241,12 +414,13 @@ function dashboardData() {
   }, { answered: 0, correct: 0 });
   const scoredAnswers = answerStats.answered;
   const correctAnswers = answerStats.correct;
-  const completedPieces = completedEntries.length;
-  const progressPercent = passageCount ? Math.round((completedPieces / passageCount) * 100) : 0;
+  const serverReadingProgress = serverLearningStateLoaded ? (serverLearningState?.progress ?? []).filter((item) => item.skill === 'reading' && item.pieceSourceId) : null;
+  const completedPieces = serverReadingProgress ? serverReadingProgress.filter((item) => item.status === 'completed').length : completedEntries.length;
+  const progressPercent = passageCount ? (serverReadingProgress ? Math.round(serverReadingProgress.reduce((sum, item) => sum + Number(item.progressPercent ?? 0), 0) / passageCount) : Math.round((completedPieces / passageCount) * 100)) : 0;
   const hasLocalActivity = entries.length > 0;
   const remoteOverall = serverDashboard?.overall;
   const remoteAnswered = Number(remoteOverall?.correctAnswers ?? 0) + Number(remoteOverall?.wrongAnswers ?? 0);
-  const accuracy = hasLocalActivity ? (scoredAnswers ? Math.round((correctAnswers / scoredAnswers) * 100) : 0) : (remoteAnswered ? Math.round((Number(remoteOverall.correctAnswers) / remoteAnswered) * 100) : 0);
+  const accuracy = serverLearningStateLoaded ? (remoteAnswered ? Math.round((Number(remoteOverall?.correctAnswers ?? 0) / remoteAnswered) * 100) : 0) : hasLocalActivity ? (scoredAnswers ? Math.round((correctAnswers / scoredAnswers) * 100) : 0) : (remoteAnswered ? Math.round((Number(remoteOverall.correctAnswers) / remoteAnswered) * 100) : 0);
   const latest = entries.slice().sort((a, b) => String(b[1].updatedAt ?? '').localeCompare(String(a[1].updatedAt ?? '')))[0];
   let latestContext = null;
   if (latest) {
@@ -298,7 +472,7 @@ function dashboardData() {
   const weeklyAnswered = entries.reduce((sum, [, item]) => sum + Object.values(item.answerMeta ?? {}).filter((meta) => meta?.answeredAt && new Date(meta.answeredAt) >= weekStart).length, 0);
   const previousWeekStart = new Date(weekStart); previousWeekStart.setDate(previousWeekStart.getDate() - 7);
   const previousWeekAnswered = entries.reduce((sum, [, item]) => sum + Object.values(item.answerMeta ?? {}).filter((meta) => meta?.answeredAt && new Date(meta.answeredAt) >= previousWeekStart && new Date(meta.answeredAt) < weekStart).length, 0);
-  const dashboardAnswered = hasLocalActivity ? answered : remoteAnswered;
+  const dashboardAnswered = serverLearningStateLoaded ? remoteAnswered : hasLocalActivity ? answered : remoteAnswered;
   const dashboardMistakeCount = serverMistakesLoaded ? serverMistakes.filter((mistake) => ['reading', 'grammar', 'listening'].includes(mistake.skill)).length : (hasLocalActivity ? dueMistakes.length : Number(serverDashboard?.unreviewedMistakes ?? 0));
   return { passageCount, questionCount, completedPieces, completedEntries, answered: dashboardAnswered, mistakes, uniqueMistakes, dueMistakes, resultRows, progressPercent, accuracy, latestContext, firstModel, firstPassage, weeklyCompleted, improvement, dashboardMistakeCount, streak, activeDaysThisWeek, avgSeconds, skillStats, reasonBreakdown, focusSkill, weeklyAnswered, previousWeekAnswered };
 }
@@ -331,15 +505,18 @@ function renderMistakeSurface() {
   const skills = Object.keys(labels);
   const activeSkill = state.mistakeSkill && labels[state.mistakeSkill] ? state.mistakeSkill : null;
   const selected = state.mistakeReviewId ? source.find((mistake) => mistake.id === state.mistakeReviewId) : null;
-  if (!activeSkill) return `<section class="mistake-category-grid">${skills.map((skill) => `<button class="mistake-category-card" data-mistake-skill="${skill}"><span>${labels[skill]}</span><strong>${source.filter((mistake) => mistake.skill === skill).length}</strong><small>سؤالًا · راجع أخطاءك ←</small></button>`).join('')}</section><p class="mistakes-total">الإجمالي <strong>${source.length}</strong> سؤالًا</p>`;
+  const dismissing = state.dismissMistakeId ? source.find((mistake) => mistake.id === state.dismissMistakeId) : null;
+  const confirmDialog = dismissing ? `<div class="mistake-confirm-backdrop" role="presentation"><section class="mistake-confirm-dialog" role="alertdialog" aria-modal="true" aria-labelledby="dismiss-mistake-title"><h2 id="dismiss-mistake-title">إزالة من أخطائي</h2><p>هل تريد إزالة هذا السؤال من قائمة أخطائك؟</p><div><button class="outline-action" data-cancel-dismiss-mistake>إلغاء</button><button class="navy-action" data-confirm-dismiss-mistake="${dismissing.id}">إزالة</button></div></section></div>` : '';
+  if (!activeSkill) return `<section class="mistake-category-grid">${skills.map((skill) => `<button class="mistake-category-card" data-mistake-skill="${skill}"><span>${labels[skill]}</span><strong>${source.filter((mistake) => mistake.skill === skill).length}</strong><small>سؤالًا · راجع أخطاءك ←</small></button>`).join('')}</section><p class="mistakes-total">الإجمالي <strong>${source.length}</strong> سؤالًا</p>${confirmDialog}`;
   const items = source.filter((mistake) => mistake.skill === activeSkill);
   const list = items.length ? `<div class="dashboard-mistakes-list">${items.map((mistake) => `<article class="dashboard-mistake-card"><span class="mistake-meta">سؤال · ${mistake.mistakeCount} ${mistake.mistakeCount === 1 ? 'مرة' : 'مرات'}</span><h3 dir="ltr">${escapeHtml(mistake.questionText)}</h3><p>آخر خطأ: ${mistake.lastSeenAt ? new Date(mistake.lastSeenAt).toLocaleDateString('ar-SA') : '—'}</p><button data-review-mistake="${mistake.id}">مراجعة السؤال</button><button class="mistake-dismiss-action" data-dismiss-mistake="${mistake.id}">إزالة من أخطائي</button></article>`).join('')}</div>` : '<div class="dashboard-empty"><strong>لا توجد أخطاء في هذا القسم</strong><p>ستظهر هنا الإجابات الخاطئة المحفوظة في حسابك.</p></div>';
-  const review = selected ? `<aside class="mistake-review-drawer"><button class="tutor-close" data-close-mistake-review aria-label="إغلاق المراجعة">×</button><span class="eyebrow">مراجعة ${labels[selected.skill]}</span><h2 dir="ltr">${escapeHtml(selected.questionText)}</h2><div class="mistake-review-options">${(selected.options ?? []).map((option) => `<div>${escapeHtml(option.value)}</div>`).join('')}</div><p><strong>إجابة الطالب الأخيرة:</strong> ${escapeHtml(selected.selectedAnswer ?? '—')}</p><p><strong>الإجابة الصحيحة:</strong> ${escapeHtml(selected.correctAnswer ?? 'غير محددة')}</p><p>${escapeHtml(selected.explanation ?? 'راجع سبب الإجابة ثم حاول تطبيق القاعدة في سؤال مشابه.')}</p></aside>` : '';
-  return `<button class="back-button mistake-back" data-clear-mistake-skill>← كل الأقسام</button>${list}${review}`;
+  const explanationLabel = selected?.skill === 'reading' ? 'كيف وصلت للإجابة؟' : selected?.skill === 'grammar' ? 'القاعدة ولماذا وكيف أعرفها؟' : 'تفسير الإجابة';
+  const review = selected ? `<aside class="mistake-review-drawer"><button class="tutor-close" data-close-mistake-review aria-label="إغلاق المراجعة">×</button><span class="eyebrow">مراجعة ${labels[selected.skill]}</span><h2 dir="ltr">${escapeHtml(selected.questionText)}</h2>${selected.skill === 'listening' && selected.audioUrl ? `<audio controls preload="metadata" src="${escapeHtml(selected.audioUrl)}" data-listening-review></audio>` : ''}<div class="mistake-review-options">${(selected.options ?? []).map((option) => `<div>${escapeHtml(option.value)}</div>`).join('')}</div><p><strong>إجابة الطالب الأخيرة:</strong> ${escapeHtml(selected.selectedAnswer ?? '—')}</p><p><strong>الإجابة الصحيحة:</strong> ${escapeHtml(selected.correctAnswer ?? 'غير محددة')}</p><p><strong>${explanationLabel}</strong><br>${escapeHtml(selected.explanation ?? 'راجع سبب الإجابة ثم حاول تطبيق القاعدة في سؤال مشابه.')}</p></aside>` : '';
+  return `<button class="back-button mistake-back" data-clear-mistake-skill>← كل الأقسام</button>${list}${review}${confirmDialog}`;
 }
 
 function dashboardSectionView(section) {
-  const labels = { mistakes: ['أخطائي', 'راجع الإجابات التي تحتاج إلى تحسين وحوّلها إلى تقدم.'], grammar: ['القواعد', 'مسارات القواعد ستضاف تدريجيًا إلى خطتك.'], listening: ['الاستماع', 'تدريبات الاستماع ستضاف تدريجيًا إلى خطتك.'], writing: ['الكتابة', 'تدريبات الكتابة ستضاف تدريجيًا إلى خطتك.'], exams: ['الاختبارات', 'ابدأ اختبارًا تدريبيًا وتابع نتائج محاولاتك.'], progress: ['تقدمي', 'راجع نتائجك وتطور دقتك عبر الوقت.'], profile: ['الملف الشخصي', 'بيانات حسابك وإعدادات الوصول.'], settings: ['إعدادات الحساب', 'تحكم في تفضيلات حسابك وبيانات جلستك.'], subscription: ['الاشتراك', 'تفاصيل الوصول إلى مزايا نباهة.'], help: ['المساعدة', 'إجابات سريعة وإرشادات استخدام المنصة.'], reading: ['فهم المقروء', 'تدرب على فهم القطع وربط الفكرة بالتفاصيل.'] };
+  const labels = { mistakes: ['أخطائي', 'راجع الإجابات التي تحتاج إلى تحسين وحوّلها إلى تقدم.'], grammar: ['القواعد', 'مسارات القواعد ستضاف تدريجيًا إلى خطتك.'], listening: ['الاستماع', 'تدريبات الاستماع ستضاف تدريجيًا إلى خطتك.'], writing: ['الكتابة', 'تدريبات الكتابة ستضاف تدريجيًا إلى خطتك.'], exams: ['الاختبارات', 'ابدأ اختبارًا تدريبيًا وتابع نتائج محاولاتك.'], progress: ['تقدمي', 'راجع نتائجك وتطور دقتك عبر الوقت.'], frequent: ['الأكثر تكرارًا', 'وصول مباشر إلى تدريبات STEP الأعلى تكرارًا.'], profile: ['الملف الشخصي', 'بيانات حسابك وإعدادات الوصول.'], settings: ['إعدادات الحساب', 'تحكم في تفضيلات حسابك وبيانات جلستك.'], subscription: ['الاشتراك', 'تفاصيل الوصول إلى مزايا نباهة.'], help: ['المساعدة', 'إجابات سريعة وإرشادات استخدام المنصة.'], reading: ['فهم المقروء', 'تدرب على فهم القطع وربط الفكرة بالتفاصيل.'] };
   const [title, subtitle] = labels[section] ?? labels.mistakes;
   const mistakes = Object.values(progress).flatMap((item) => item.mistakes ?? []);
   const questionMap = new Map(models.flatMap((model) => model.passages.flatMap((passage) => passage.questions.map((question) => [question.id, { model, passage, question }]))));
@@ -349,6 +526,8 @@ function dashboardSectionView(section) {
     const reasonSummary = data.reasonBreakdown.length ? `<section class="mistakes-summary"><span class="eyebrow">تحليل سبب الخطأ</span><h2>أكثر سبب تخسر فيه درجاتك: <em>${escapeHtml(data.reasonBreakdown[0].label)}</em></h2><div>${data.reasonBreakdown.map((item) => `<span><b>${item.count}</b>${escapeHtml(item.label)}</span>`).join('')}</div></section>` : '';
     content = `${reasonSummary}${mistakes.length ? `<div class="dashboard-mistakes-list">${mistakes.map((mistake) => { const match = questionMap.get(mistake.questionId); const reason = mistake.reason ?? inferMistakeReason(match?.question); const reviewText = mistake.mastered ? 'تم الإتقان' : mistake.reviewAt && new Date(mistake.reviewAt) > new Date() ? `المراجعة ${new Date(mistake.reviewAt).toLocaleDateString('ar-SA')}` : 'جاهز للمراجعة'; return `<article class="dashboard-mistake-card"><span class="mistake-meta">سؤال ${match?.question.number ?? '—'} · ${escapeHtml(reason)}</span><div class="question-heading dashboard-question-heading" dir="ltr"><span class="question-number">${String(match?.question.number ?? '').padStart(2, '0')}</span><div class="question-text">${escapeHtml(match?.question.question ?? 'سؤال غير متاح')}</div></div><p>${escapeHtml(match ? `${match.passage.title} · النموذج ${modelNumber(match.model)}` : 'بيانات السؤال محفوظة للمراجعة')}</p><div class="mistake-review-status ${mistake.mastered ? 'mastered' : ''}">${reviewText}</div><button data-open-model="${match?.model.id ?? 'reading-01'}">أعد التدريب</button></article>`; }).join('')}</div>` : '<div class="dashboard-empty"><strong>لا توجد أخطاء حتى الآن</strong><p>أكمل بعض التدريبات وستظهر هنا الأسئلة التي تحتاج مراجعتها.</p><button class="orange-action" data-models-scroll>ابدأ التدريب</button></div>'}`;
     content = renderMistakeSurface();
+  } else if (section === 'frequent') {
+    content = `<section class="dashboard-panel frequent-section"><header class="panel-heading"><div><span class="eyebrow">اختيارات مركزة</span><h2>تدريبات الأكثر تكرارًا</h2></div></header><p class="muted-copy">اختر المسار الذي تريد التدرب عليه. هذه صفحة مستقلة، ويمكنك الرجوع إليها مباشرة من الشريط العلوي.</p><div class="frequent-section-grid"><button data-dashboard-section="reading"><strong>القراءة</strong><span>القطع والأسئلة الأكثر تكرارًا</span></button><button data-dashboard-section="grammar"><strong>القواعد</strong><span>قواعد STEP الأكثر تكرارًا</span></button><button data-dashboard-section="listening"><strong>الاستماع</strong><span>المقاطع الأعلى تكرارًا</span></button></div></section>`;
   } else if (section === 'profile') {
     content = `<div class="dashboard-profile-card"><span class="dashboard-avatar large">${escapeHtml((account?.name ?? 'ح').charAt(0))}</span><h2>${escapeHtml(account?.name ?? 'المستخدم')}</h2><p>${escapeHtml(account?.email ?? '')}</p><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div>`;
   } else if (section === 'progress') {
@@ -409,11 +588,11 @@ async function confirmGrammarAnswer(model, question, optionIndex) {
   render();
   let isCorrect;
   let serverSaved = false;
+  let attemptId = null;
   try {
-    const response = await fetch('/api/grammar/answer', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ modelId: model.id, questionId: question.id, selectedIndex: optionIndex }) });
-    if (!response.ok) throw new Error('grammar answer endpoint unavailable');
-    const payload = await response.json();
+    const payload = await sendLearningAnswer({ skill: 'grammar', modelSourceId: model.id, questionSourceId: question.id, selectedIndex: optionIndex, totalQuestions: model.questions.length, clientMutationId: crypto.randomUUID() });
     isCorrect = payload.isCorrect;
+    attemptId = payload.attemptId;
     serverSaved = true;
   } catch {
     // Local catalogue fallback keeps offline practice usable; production API
@@ -421,9 +600,9 @@ async function confirmGrammarAnswer(model, question, optionIndex) {
     isCorrect = question.correctIndex === null ? null : optionIndex === question.correctIndex;
   }
   const saved = grammarProgress(model.id);
-  setGrammarProgress(model.id, { answers: { ...(saved.answers ?? {}), [question.id]: optionIndex }, results: { ...(saved.results ?? {}), [question.id]: isCorrect }, status: 'in-progress', currentQuestionIndex: state.grammarQuestionIndex });
+  setGrammarProgress(model.id, { answers: { ...(saved.answers ?? {}), [question.id]: optionIndex }, results: { ...(saved.results ?? {}), [question.id]: isCorrect }, attemptId: attemptId ?? saved.attemptId, status: 'in-progress', currentQuestionIndex: state.grammarQuestionIndex });
   state.grammarConfirmed = { ...(state.grammarConfirmed ?? {}), [question.id]: isCorrect === true };
-  if (serverSaved) await refreshServerMistakes({ renderAfter: false });
+  if (serverSaved) await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false, hydrate: false, flushPending: false })]);
   state.grammarPendingQuestionId = null;
   render();
   if (isCorrect === true) soundManager.play('answer-correct');
@@ -605,12 +784,13 @@ async function requestTutor({ key, question, selectedOption, action, message }) 
   } catch (error) {
     if (flushTimer) { window.clearTimeout(flushTimer); flushStream(); }
     const latest = state.tutorSessions[key];
-    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, error: true, errorCode: error?.code || 'AI_REQUEST_FAILED' } };
+    const messages = latest.messages.filter((item, index) => !(index === latest.messages.length - 1 && item.role === 'assistant' && !item.content));
+    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, messages, error: true, errorCode: error?.code || 'AI_REQUEST_FAILED' } };
   } finally {
     clearTimeout(loadingTimer);
     const latest = state.tutorSessions[key];
     state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, loadingMessage: '' } };
-    state.tutorScrollToEnd = true;
+    state.tutorScrollToEnd = latest.autoScroll !== false;
     render();
   }
 }
@@ -796,6 +976,7 @@ function render() {
   else if (state.view === 'result' && model && passage) app.innerHTML = resultView(model, passage);
   else app.innerHTML = libraryView();
   applyNibrasAccessibility();
+  document.querySelectorAll('[data-listening-review]').forEach((audio) => soundManager.applyListeningVolume(audio));
   restoreTutorViewport(viewport, scrollTutor, tutorViewport);
 }
 
@@ -901,10 +1082,12 @@ app.addEventListener('submit', async (event) => {
       render();
       return;
     }
-    progress = form.classList.contains('register-form') ? {} : readStored(progressKey(), {});
+    const localSnapshot = form.classList.contains('register-form') ? {} : readStored(progressKey(), {});
+    progress = localSnapshot;
     if (form.classList.contains('register-form')) saveProgress();
-    await refreshServerDashboard();
-    await refreshServerMistakes({ renderAfter: false });
+    await migrateLegacyProgress(localSnapshot);
+    await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false })]);
+    if (!serverMistakesLoaded) await refreshServerMistakes({ renderAfter: false });
     localStorage.setItem(authHintKey, '1');
     state = { ...state, view: 'dashboard', authError: '', authLoading: false };
     render();
@@ -1027,8 +1210,24 @@ app.addEventListener('click', (event) => {
   }
   const dismissMistakeButton = event.target.closest('[data-dismiss-mistake]');
   if (dismissMistakeButton) {
-    if (!window.confirm('هل تريد إزالة هذا السؤال من قائمة أخطائك؟')) return;
-    void fetch(`/api/me/mistakes/${encodeURIComponent(dismissMistakeButton.dataset.dismissMistake)}`, { method: 'DELETE', credentials: 'include', headers: { accept: 'application/json' } }).then((response) => { if (response.ok) return refreshServerMistakes(); return null; }).catch(() => null);
+    state = { ...state, dismissMistakeId: dismissMistakeButton.dataset.dismissMistake };
+    render();
+    return;
+  }
+  if (event.target.closest('[data-cancel-dismiss-mistake]')) {
+    state = { ...state, dismissMistakeId: null };
+    render();
+    return;
+  }
+  const confirmDismissButton = event.target.closest('[data-confirm-dismiss-mistake]');
+  if (confirmDismissButton) {
+    const mistakeId = confirmDismissButton.dataset.confirmDismissMistake;
+    confirmDismissButton.disabled = true;
+    void fetch(`/api/me/mistakes/${encodeURIComponent(mistakeId)}`, { method: 'DELETE', credentials: 'include', headers: { accept: 'application/json' } }).then(async (response) => {
+      if (!response.ok) throw new Error('dismiss failed');
+      state = { ...state, dismissMistakeId: null, mistakeReviewId: state.mistakeReviewId === mistakeId ? null : state.mistakeReviewId };
+      await refreshLearningState();
+    }).catch(() => { state = { ...state, dismissMistakeId: null }; render(); });
     return;
   }
 
@@ -1037,6 +1236,7 @@ app.addEventListener('click', (event) => {
     const section = dashboardSectionButton.dataset.dashboardSection;
     state = { ...state, view: section === 'dashboard' ? 'dashboard' : section === 'reading' ? 'dashboard-models' : 'dashboard-section', dashboardSection: section, dashboardMenuOpen: false };
     render();
+    void Promise.all([refreshServerDashboard(), refreshLearningState()]);
     return;
   }
 
@@ -1086,6 +1286,7 @@ app.addEventListener('click', (event) => {
       setGrammarProgress(model.id, { status: 'completed', currentQuestionIndex: 0 });
       state.view = 'grammar-result';
       const savedResults = grammarProgress(model.id).results ?? {};
+      void submitLearningAttempt(grammarProgress(model.id).attemptId);
       const scored = model.questions.filter((candidate) => candidate.correctIndex !== null);
       const correct = scored.filter((candidate) => savedResults[candidate.id] === true).length;
       soundManager.play(scored.length && correct / scored.length >= 0.9 ? 'achievement' : 'exercise-complete');
@@ -1121,6 +1322,7 @@ app.addEventListener('click', (event) => {
   if (event.target.closest('[data-dashboard]')) {
     state = { ...state, view: account ? 'dashboard' : 'login', authError: account ? '' : 'سجّل الدخول أو أنشئ حسابًا للوصول إلى لوحة المستخدم.' };
     render();
+    if (account) void Promise.all([refreshServerDashboard(), refreshLearningState()]);
     return;
   }
 
@@ -1131,6 +1333,10 @@ app.addEventListener('click', (event) => {
       .then(() => {
         account = null;
         serverDashboard = null;
+        serverLearningState = null;
+        serverLearningStateLoaded = false;
+        serverMistakes = [];
+        serverMistakesLoaded = false;
         localStorage.removeItem(authHintKey);
         progress = {};
         state = { ...state, view: 'library', dashboardSection: 'dashboard', authError: '' };
@@ -1226,7 +1432,13 @@ app.addEventListener('click', (event) => {
     }
     const activityDates = [...new Set([...(item.activityDates ?? []), dateKey(now)])];
     setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, answerMeta, activityDates, mistakes, status: 'in-progress', currentQuestionIndex: state.questionIndex });
-    void fetch('/api/learning/answer', { method: 'POST', credentials: 'include', headers: { 'content-type': 'application/json', accept: 'application/json' }, body: JSON.stringify({ skill: 'reading', questionSourceId: question.id, selectedIndex: question.options.findIndex((candidate) => candidate.id === option?.id), modelSourceId: `model-${String(currentModel()?.order ?? '').padStart(2, '0')}`, totalQuestions: passage.questions.length, responseTimeMs: seconds * 1000 }) }).then((response) => { if (response.ok) return refreshServerMistakes({ renderAfter: state.dashboardSection === 'mistakes' }); return null; }).catch(() => null);
+    const answerPayload = { skill: 'reading', questionSourceId: question.id, selectedIndex: question.options.findIndex((candidate) => candidate.id === option?.id), modelSourceId: `model-${String(currentModel()?.order ?? '').padStart(2, '0')}`, pieceSourceId: passage.id, totalQuestions: passage.questions.length, responseTimeMs: seconds * 1000, clientMutationId: crypto.randomUUID() };
+    void sendLearningAnswer(answerPayload).then(async (savedAnswer) => {
+      const latest = quizProgress(state.selectedModelId, state.selectedPassageId);
+      setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...latest, attemptId: savedAnswer.attemptId });
+      if (latest.status === 'completed') await submitLearningAttempt(savedAnswer.attemptId);
+      await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: state.dashboardSection === 'mistakes', hydrate: false, flushPending: false })]);
+    }).catch(() => null);
     soundManager.play(option?.isCorrect ? 'answer-correct' : 'answer-wrong');
     render();
     return;
@@ -1252,6 +1464,7 @@ app.addEventListener('click', (event) => {
     if (state.questionIndex >= passage.questions.length - 1) {
       setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'completed', currentQuestionIndex: 0 });
       state.view = 'result';
+      void submitLearningAttempt(item.attemptId);
     } else {
       soundManager.play('question-next');
       const nextIndex = state.questionIndex + 1;
@@ -1323,9 +1536,11 @@ authClient.getSession()
   .then(async (response) => {
     account = response?.data?.user ?? null;
     if (account) {
-      progress = readStored(progressKey(), {});
-      await refreshServerDashboard();
-      await refreshServerMistakes({ renderAfter: false });
+      const localSnapshot = readStored(progressKey(), {});
+      progress = localSnapshot;
+      await migrateLegacyProgress(localSnapshot);
+      await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false })]);
+      if (!serverMistakesLoaded) await refreshServerMistakes({ renderAfter: false });
       localStorage.setItem(authHintKey, '1');
       state.view = 'dashboard';
     } else if (state.view === 'dashboard') {
@@ -1343,5 +1558,6 @@ authClient.getSession()
     render();
   });
 
-window.addEventListener('focus', () => { if (account) void Promise.all([refreshServerDashboard(), refreshServerMistakes()]); });
-document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && account) void Promise.all([refreshServerDashboard(), refreshServerMistakes()]); });
+window.addEventListener('focus', () => { if (account) void Promise.all([refreshServerDashboard(), refreshLearningState()]); });
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && account) void Promise.all([refreshServerDashboard(), refreshLearningState()]); });
+window.setInterval(() => { if (account && document.visibilityState === 'visible') void refreshLearningState({ renderAfter: false }); }, 25_000);

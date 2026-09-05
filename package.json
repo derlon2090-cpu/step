@@ -15,6 +15,8 @@
     "db:set-admin": "node scripts/set-admin.mjs",
     "test": "node --test tests",
     "test:auth": "node tests/auth-flow.integration.mjs",
+    "test:learning": "node tests/cross-device-learning.integration.mjs",
+    "test:learning:isolated": "node scripts/run-learning-acceptance.mjs",
     "build:data": "py -3 scripts/build_reading_data.py",
     "export:reading-json": "node scripts/export_reading_json.mjs",
     "report:visual": "py -3 scripts/build_visual_question_review_report.py",

@@ -171,7 +171,8 @@ export const attemptAnswers = pgTable('attempt_answers', {
   isCorrect: boolean('is_correct'),
   answeredAt: timestamp('answered_at', { withTimezone: true }).defaultNow().notNull(),
   responseTimeMs: integer('response_time_ms'),
-}, (t) => [uniqueIndex('attempt_answers_attempt_question_uq').on(t.attemptId, t.questionId), index('attempt_answers_user_idx').on(t.userId), index('attempt_answers_question_idx').on(t.questionId)]);
+  clientMutationId: uuid('client_mutation_id'),
+}, (t) => [uniqueIndex('attempt_answers_attempt_question_uq').on(t.attemptId, t.questionId), uniqueIndex('attempt_answers_user_mutation_uq').on(t.userId, t.clientMutationId), index('attempt_answers_user_idx').on(t.userId), index('attempt_answers_question_idx').on(t.questionId)]);
 
 export const userMistakes = pgTable('user_mistakes', {
   id: uuid('id').defaultRandom().primaryKey(),
@@ -185,6 +186,7 @@ export const userMistakes = pgTable('user_mistakes', {
   firstSeenAt: timestamp('first_seen_at', { withTimezone: true }).defaultNow().notNull(),
   lastSeenAt: timestamp('last_seen_at', { withTimezone: true }).defaultNow().notNull(),
   masteredAt: timestamp('mastered_at', { withTimezone: true }),
+  updatedAt: timestamp('updated_at', { withTimezone: true }).defaultNow().notNull(),
 }, (t) => [uniqueIndex('user_mistakes_user_question_uq').on(t.userId, t.questionId), index('user_mistakes_user_status_idx').on(t.userId, t.status)]);
 
 export const dailyActivity = pgTable('daily_activity', {
@@ -196,6 +198,14 @@ export const dailyActivity = pgTable('daily_activity', {
   wrongCount: integer('wrong_count').notNull().default(0),
   lastActivityAt: timestamp('last_activity_at', { withTimezone: true }).defaultNow().notNull(),
 }, (t) => [uniqueIndex('daily_activity_user_date_uq').on(t.userId, t.activityDate), index('daily_activity_user_idx').on(t.userId)]);
+
+export const localProgressImports = pgTable('local_progress_imports', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  userId: text('user_id').notNull(),
+  importKey: text('import_key').notNull().default('step-reading-progress-v2'),
+  answerCount: integer('answer_count').notNull().default(0),
+  importedAt: timestamp('imported_at', { withTimezone: true }).defaultNow().notNull(),
+}, (t) => [uniqueIndex('local_progress_imports_user_key_uq').on(t.userId, t.importKey)]);
 
 export const auditLogs = pgTable('audit_logs', {
   id: uuid('id').defaultRandom().primaryKey(),

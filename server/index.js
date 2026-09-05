@@ -4,9 +4,8 @@ import { validateEnv } from './config/env.js';
 import { getAuth } from './auth/auth.js';
 import { toNodeHandler } from 'better-auth/node';
 import { requireUser, requireAdmin, HttpError } from './auth/guards.js';
-import { startAttempt, saveAnswer, submitAttempt, getResumeAttempt, getDashboard, listMistakes, getMistake, dismissMistake, saveSourceAnswer, approveQuestion, listQuestionsForReview } from './services/learning.js';
+import { startAttempt, saveAnswer, submitAttempt, getResumeAttempt, getDashboard, getLearningState, importLocalLearningState, listMistakes, getMistake, dismissMistake, saveSourceAnswer, approveQuestion, listQuestionsForReview } from './services/learning.js';
 import { z } from 'zod';
-import { grammarModels } from '../src/data/grammarModels.js';
 import { chatWithQuestionTutor, deepseekCheck, questionTutorSchema } from './services/ai/questionTutor.js';
 
 console.info('[BOOT] starting Nabahah API');
@@ -54,9 +53,11 @@ async function body(req) {
   if (!raw) return {}; try { return JSON.parse(raw); } catch { throw new HttpError(422, 'Invalid JSON'); }
 }
 const startSchema = z.object({ skill: z.enum(['reading', 'grammar', 'listening', 'writing']).default('reading'), modelId: z.string().uuid().nullable().optional(), pieceId: z.string().uuid().nullable().optional(), mode: z.enum(['practice', 'exam']).default('practice'), totalQuestions: z.number().int().min(0).max(500).default(0) });
-const answerSchema = z.object({ questionId: z.string().uuid(), selectedAnswer: z.string().max(2000).nullable().optional(), responseTimeMs: z.number().int().min(0).max(86_400_000).nullable().optional() });
-const grammarAnswerSchema = z.object({ modelId: z.string().regex(/^grammar-\d{2}$/), questionId: z.string().regex(/^grammar-\d{2}-q\d{2}$/), selectedIndex: z.number().int().min(0).max(3) });
-const learningAnswerSchema = z.object({ skill: z.enum(['reading', 'grammar', 'listening', 'writing']), questionSourceId: z.string().min(1).max(200), selectedIndex: z.number().int().min(0).max(20).nullable().optional(), selectedAnswer: z.string().max(2000).nullable().optional(), modelSourceId: z.string().max(200).nullable().optional(), pieceSourceId: z.string().max(200).nullable().optional(), totalQuestions: z.number().int().min(0).max(500).default(0), responseTimeMs: z.number().int().min(0).max(86_400_000).nullable().optional() });
+const answerSchema = z.object({ questionId: z.string().uuid(), selectedAnswer: z.string().max(2000).nullable().optional(), responseTimeMs: z.number().int().min(0).max(86_400_000).nullable().optional(), clientMutationId: z.string().uuid().nullable().optional() });
+const grammarAnswerSchema = z.object({ modelId: z.string().regex(/^grammar-\d{2}$/), questionId: z.string().regex(/^grammar-\d{2}-q\d{2}$/), selectedIndex: z.number().int().min(0).max(3), clientMutationId: z.string().uuid().nullable().optional() });
+const learningAnswerSchema = z.object({ skill: z.enum(['reading', 'grammar', 'listening', 'writing']), questionSourceId: z.string().min(1).max(200), selectedIndex: z.number().int().min(0).max(20).nullable().optional(), selectedAnswer: z.string().max(2000).nullable().optional(), modelSourceId: z.string().max(200).nullable().optional(), pieceSourceId: z.string().max(200).nullable().optional(), totalQuestions: z.number().int().min(0).max(500).default(0), responseTimeMs: z.number().int().min(0).max(86_400_000).nullable().optional(), clientMutationId: z.string().uuid().nullable().optional() });
+const learningSubmitSchema = z.object({ attemptId: z.string().uuid(), durationSeconds: z.number().int().min(0).max(86_400).nullable().optional() });
+const localImportSchema = z.object({ importKey: z.literal('step-reading-progress-v2').default('step-reading-progress-v2'), records: z.array(learningAnswerSchema.extend({ completed: z.boolean().default(false) })).max(5000) });
 const approveSchema = z.object({ proposedAnswer: z.string().max(2000).nullable().optional(), adminNote: z.string().max(4000).nullable().optional(), hadOptionsInSource: z.boolean().nullable().optional() });
 const reviewStatus = z.enum(['needs_review', 'missing', 'verified']);
 
@@ -102,6 +103,19 @@ export const server = http.createServer(async (req, res) => {
     }
     if (url.pathname === '/api/auth' || url.pathname.startsWith('/api/auth/')) return getAuthHandler()(req, res);
     if (req.method === 'GET' && url.pathname === '/api/dashboard') return json(res, 200, await getDashboard((await requireUser(req)).user));
+    if (url.pathname === '/api/me/learning-state') {
+      const user = (await requireUser(req)).user;
+      if (req.method === 'GET') {
+        const learningState = await getLearningState(user);
+        const since = url.searchParams.get('since');
+        return json(res, 200, since && Date.parse(since) >= Date.parse(learningState.updatedAt) ? { unchanged: true, updatedAt: learningState.updatedAt } : learningState);
+      }
+      if (req.method === 'POST') {
+        const payload = localImportSchema.parse(await body(req));
+        return json(res, 200, await importLocalLearningState(user, payload.records, payload.importKey));
+      }
+      return json(res, 405, { error: 'Method Not Allowed' });
+    }
     if (req.method === 'GET' && url.pathname === '/api/me/mistakes') {
       const skill = url.searchParams.get('skill');
       if (skill && !['reading', 'grammar', 'listening', 'writing'].includes(skill)) return json(res, 422, { error: 'Invalid skill' });
@@ -113,10 +127,14 @@ export const server = http.createServer(async (req, res) => {
     if (req.method === 'POST' && url.pathname === '/api/grammar/answer') {
       const user = (await requireUser(req)).user;
       const payload = grammarAnswerSchema.parse(await body(req));
-      const result = await saveSourceAnswer(user, { skill: 'grammar', questionSourceId: payload.questionId, selectedIndex: payload.selectedIndex, modelSourceId: payload.modelId, totalQuestions: 0 });
+      const result = await saveSourceAnswer(user, { skill: 'grammar', questionSourceId: payload.questionId, selectedIndex: payload.selectedIndex, modelSourceId: payload.modelId, totalQuestions: 0, clientMutationId: payload.clientMutationId });
       return json(res, 200, { isCorrect: result.isCorrect, mistakeId: result.isCorrect === false ? result.questionId : null, attemptId: result.attemptId });
     }
     if (req.method === 'POST' && url.pathname === '/api/learning/answer') return json(res, 200, await saveSourceAnswer((await requireUser(req)).user, learningAnswerSchema.parse(await body(req))));
+    if (req.method === 'POST' && url.pathname === '/api/learning/submit') {
+      const payload = learningSubmitSchema.parse(await body(req));
+      return json(res, 200, await submitAttempt((await requireUser(req)).user, payload.attemptId, { durationSeconds: payload.durationSeconds }));
+    }
     if (req.method === 'POST' && url.pathname === '/api/attempts') return json(res, 201, await startAttempt((await requireUser(req)).user, startSchema.parse(await body(req))));
     const answerMatch = url.pathname.match(/^\/api\/attempts\/([^/]+)\/answers$/);
     if (req.method === 'POST' && answerMatch) return json(res, 200, await saveAnswer((await requireUser(req)).user, answerMatch[1], answerSchema.parse(await body(req))));
@@ -134,6 +152,11 @@ export const server = http.createServer(async (req, res) => {
   } catch (error) {
     const status = error instanceof z.ZodError ? 422 : error?.status ?? 500;
     if (status >= 500) console.error(error);
+    if (res.headersSent) {
+      res.write(`data: ${JSON.stringify({ type: 'error', error: status >= 500 ? 'Tutor service unavailable' : error.message, code: error?.code })}\n\n`);
+      res.end();
+      return;
+    }
     return json(res, status, { error: status >= 500 ? 'Tutor service unavailable' : error.message, code: error?.code });
   }
 });

@@ -78,8 +78,9 @@ export class ApiQuestionTutorProvider extends QuestionTutorProvider {
       }
       if (buffer.trim()) await consume(buffer);
       if (result.provider !== 'deepseek') throw Object.assign(new Error('AI_PROVIDER_UNAVAILABLE'), { code: 'AI_PROVIDER_UNAVAILABLE' });
-      if (!content.trim()) throw Object.assign(new Error('AI_EMPTY_RESPONSE'), { code: 'AI_EMPTY_RESPONSE' });
-      return { content: content.trim(), provider: result.provider, model: result.model, source: result.source === 'human-note' ? 'human-note' : 'tutor' };
+      const finalContent = String(result.content ?? content).trim();
+      if (!finalContent) throw Object.assign(new Error('AI_EMPTY_RESPONSE'), { code: 'AI_EMPTY_RESPONSE' });
+      return { content: finalContent, provider: result.provider, model: result.model, source: result.source === 'human-note' ? 'human-note' : 'tutor' };
     } catch (error) {
       if (error?.name === 'TimeoutError' || error?.name === 'AbortError') {
         const timeoutError = new Error('AI_TIMEOUT');
