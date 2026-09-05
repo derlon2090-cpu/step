@@ -2319,3 +2319,25 @@ input[type='radio'] {
 .grammar-question-card h2{display:block;width:100%;max-width:none;margin-inline-start:0;margin-inline-end:0;text-align:left!important;direction:ltr!important}
 .grammar-tutor-anchor{position:absolute;left:28px;top:28px;z-index:6}
 @media(max-width:560px){.grammar-tutor-anchor{left:15px;top:20px}.grammar-question-card h2{padding-inline-end:42px}}
+
+/* Restored learner dashboard chrome: keep today's navigation/content, bring back
+   the original dark header, logo treatment, and visible active-section motion. */
+.dashboard-header{background:#071F51;color:#fff;box-shadow:0 8px 24px rgba(7,31,81,.14);border-bottom:1px solid rgba(255,255,255,.08)}
+.dashboard-brand{color:#fff}
+.dashboard-brand .brand-symbol{color:#fff}
+.dashboard-brand .brand-word{color:#fff}
+.dashboard-header nav button,.dashboard-step-menu summary{transition:color .2s ease,background .2s ease,border-color .2s ease,transform .2s ease}
+.dashboard-header nav button:hover,.dashboard-header nav button.active,.dashboard-step-menu summary:hover,.dashboard-step-menu[open] summary{color:#fff;border-bottom-color:#2877ff;background:rgba(255,255,255,.06);transform:translateY(-1px)}
+.dashboard-header nav button.active::after,.dashboard-step-menu[open] summary::after{content:'';position:absolute;right:14px;left:14px;bottom:-3px;height:3px;border-radius:99px;background:#2877ff;transform:scaleX(1);transform-origin:center;transition:transform .2s ease}
+.dashboard-header nav button::after,.dashboard-step-menu summary::after{content:'';position:absolute;right:14px;left:14px;bottom:-3px;height:3px;border-radius:99px;background:#2877ff;transform:scaleX(0);transform-origin:center;transition:transform .2s ease}
+.dashboard-header nav button:hover::after,.dashboard-step-menu summary:hover::after{transform:scaleX(1)}
+
+@media(max-width:900px){
+  .dashboard-header{grid-template-columns:auto minmax(0,1fr) auto;gap:10px}
+  .dashboard-menu-toggle{display:none}
+  .dashboard-header nav,.dashboard-header.menu-open nav{display:flex;position:static;grid-column:1 / -1;grid-row:2;flex-direction:row;align-items:stretch;justify-content:flex-start;gap:2px;overflow-x:auto;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;scrollbar-width:none}
+  .dashboard-header nav::-webkit-scrollbar{display:none}
+  .dashboard-header nav button,.dashboard-step-menu summary{min-height:48px;flex:0 0 auto;padding:0 12px;border-radius:0;color:rgba(255,255,255,.82);text-align:center}
+  .dashboard-header nav button:hover,.dashboard-header nav button.active,.dashboard-step-menu summary:hover,.dashboard-step-menu[open] summary{background:rgba(255,255,255,.06);color:#fff}
+  .dashboard-header nav button.active::after,.dashboard-step-menu[open] summary::after,.dashboard-header nav button:hover::after,.dashboard-step-menu summary:hover::after{right:8px;left:8px}
+}
