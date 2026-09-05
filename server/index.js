@@ -11,6 +11,17 @@ import { chatWithQuestionTutor, questionTutorSchema } from './services/ai/questi
 validateEnv();
 const authHandler = toNodeHandler(getAuth());
 const json = (res, status, body) => { res.statusCode = status; res.setHeader('content-type', 'application/json; charset=utf-8'); res.end(JSON.stringify(body)); };
+const tutorOrigins = new Set((process.env.FRONTEND_ORIGINS ?? 'https://www.nabahah.com,https://nabahah.com').split(',').map((origin) => origin.trim()).filter(Boolean));
+function applyTutorCors(req, res) {
+  const origin = req.headers.origin;
+  if (origin && tutorOrigins.has(origin)) {
+    res.setHeader('access-control-allow-origin', origin);
+    res.setHeader('access-control-allow-credentials', 'true');
+    res.setHeader('vary', 'Origin');
+  }
+  res.setHeader('access-control-allow-headers', 'content-type, accept');
+  res.setHeader('access-control-allow-methods', 'POST, OPTIONS');
+}
 async function body(req) {
   let raw = ''; for await (const chunk of req) { raw += chunk; if (raw.length > 128 * 1024) throw new HttpError(413, 'Payload too large'); }
   if (!raw) return {}; try { return JSON.parse(raw); } catch { throw new HttpError(422, 'Invalid JSON'); }
@@ -24,6 +35,10 @@ const reviewStatus = z.enum(['needs_review', 'missing', 'verified']);
 export const server = http.createServer(async (req, res) => {
   try {
     const url = new URL(req.url ?? '/', 'http://localhost');
+    if (url.pathname === '/api/question-tutor') {
+      applyTutorCors(req, res);
+      if (req.method === 'OPTIONS') { res.statusCode = 204; res.end(); return; }
+    }
     if (url.pathname === '/api/auth' || url.pathname.startsWith('/api/auth/')) return authHandler(req, res);
     if (req.method === 'GET' && url.pathname === '/api/dashboard') return json(res, 200, await getDashboard((await requireUser(req)).user));
     if (req.method === 'POST' && url.pathname === '/api/question-tutor') {
@@ -55,7 +70,7 @@ export const server = http.createServer(async (req, res) => {
   } catch (error) {
     const status = error instanceof z.ZodError ? 422 : error?.status ?? 500;
     if (status >= 500) console.error(error);
-    return json(res, status, { error: status >= 500 ? 'Internal Server Error' : error.message });
+    return json(res, status, { error: status >= 500 ? 'Tutor service unavailable' : error.message, code: error?.code });
   }
 });
 

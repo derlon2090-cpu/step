@@ -421,13 +421,13 @@ function tutorPopover(model, passage, question, selectedOption) {
       <input name="message" maxlength="1000" autocomplete="off" placeholder="${hasConversation ? 'تابع سؤالك...' : 'اكتب سؤالك...'}" aria-label="اكتب سؤالك عن السؤال الحالي" ${session.loading ? 'disabled' : ''}>
       <button type="submit" aria-label="إرسال السؤال" ${session.loading ? 'disabled' : ''}>↑</button>
     </form>
-    ${session.error ? `<p class="tutor-error" role="alert">${escapeHtml(session.error)}</p>` : ''}
+    ${session.error ? `<div class="tutor-error" role="alert"><p>تعذر الاتصال بمساعد نباهة الآن.</p><button type="button" data-tutor-retry>إعادة المحاولة</button></div>` : ''}
     <small class="tutor-privacy">السياق محفوظ لهذا السؤال فقط</small>
   </section>`;
 }
 
-async function requestTutor({ key, question, selectedOption, action, message, correctAnswer, humanNote }) {
-  const session = state.tutorSessions[key] ?? { messages: [], loading: false, expanded: false };
+async function requestTutor({ key, question, selectedOption, action, message }) {
+  const session = state.tutorSessions[key] ?? { messages: [], loading: false, expanded: false, lastRequest: null };
   if (session.loading) return;
   const prompt = String(message || tutorActionLabels[action] || '').trim();
   if (!prompt) return;
@@ -441,6 +441,7 @@ async function requestTutor({ key, question, selectedOption, action, message, co
       expanded: session.expanded || history.length >= 2,
       error: '',
       loading: true,
+      lastRequest: { action, message: prompt },
       messages: [...session.messages, { role: 'user', content: prompt }],
     },
   };
@@ -449,22 +450,17 @@ async function requestTutor({ key, question, selectedOption, action, message, co
   try {
     const response = await questionTutorProvider.chat({
       questionId: question.id,
-      question: question.question ?? question.prompt,
-      options: question.options.map(({ id, text }) => ({ id, text })),
+      sessionId: key,
       message: prompt,
       action,
-      isAnswered: Boolean(selectedOption),
       selectedOptionId: selectedOption?.id ?? null,
-      selectedOptionText: selectedOption?.text ?? null,
-      correctAnswer: selectedOption ? correctAnswer : null,
-      humanNote: selectedOption ? humanNote || null : null,
-      history,
+      history: history.slice(-12),
     });
     const latest = state.tutorSessions[key];
-    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, messages: [...latest.messages, { role: 'assistant', content: response.content, source: response.source }] } };
+    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, messages: [...latest.messages, { role: 'assistant', content: response.content, source: response.source, provider: response.provider, model: response.model }] } };
   } catch (error) {
     const latest = state.tutorSessions[key];
-    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, error: error?.message || 'تعذر تجهيز الشرح الآن. يمكنك متابعة حل السؤال بشكل طبيعي.' } };
+    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, error: true } };
   }
   state.tutorScrollToEnd = true;
   render();
@@ -477,7 +473,7 @@ async function askQuestionTutor(action, message) {
   if (!model || !passage || !question) return;
   const selectedId = state.activeAnswers?.[question.id] ?? null;
   const selectedOption = question.options.find((option) => option.id === selectedId) ?? null;
-  return requestTutor({ key: tutorSessionKey(model, passage, question), question, selectedOption, action, message, correctAnswer: question.correctAnswer, humanNote: question.explanation });
+  return requestTutor({ key: tutorSessionKey(model, passage, question), question, selectedOption, action, message });
 }
 
 async function askGrammarTutor(action, message) {
@@ -487,7 +483,7 @@ async function askGrammarTutor(action, message) {
   const selectedIndex = state.grammarAnswers?.[question.id];
   const selectedOption = selectedIndex === undefined ? null : { id: `${question.id}-o${selectedIndex}`, text: question.options[selectedIndex], isCorrect: question.correctIndex === selectedIndex };
   const options = question.options.map((text, index) => ({ id: `${question.id}-o${index}`, text }));
-  return requestTutor({ key: tutorSessionKey(model, { id: 'grammar' }, question), question: { ...question, options }, selectedOption, action, message, correctAnswer: question.correctIndex === null ? null : question.options[question.correctIndex], humanNote: question.sourceNote });
+  return requestTutor({ key: tutorSessionKey(model, { id: 'grammar' }, question), question: { ...question, options }, selectedOption, action, message });
 }
 
 function quizView(model, passage) {
@@ -761,6 +757,16 @@ app.addEventListener('click', (event) => {
     const session = state.tutorSessions[state.tutorQuestionKey];
     if (session) state.tutorSessions = { ...state.tutorSessions, [state.tutorQuestionKey]: { ...session, expanded: !session.expanded } };
     render();
+    return;
+  }
+
+  if (event.target.closest('[data-tutor-retry]')) {
+    const key = state.tutorQuestionKey;
+    const retry = state.tutorSessions[key]?.lastRequest;
+    if (retry) {
+      if (key.split(':')[1] === 'grammar') void askGrammarTutor(retry.action, retry.message);
+      else void askQuestionTutor(retry.action, retry.message);
+    }
     return;
   }
 
