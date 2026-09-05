@@ -194,7 +194,7 @@ function raseenHeader(active = 'النماذج') {
 
 function dashboardHeader(active = 'dashboard') {
   const name = account?.name ? escapeHtml(account.name) : 'حسابي';
-  const mistakesCount = serverMistakesLoaded ? serverMistakes.length : Object.values(progress).flatMap((item) => item.mistakes ?? []).length;
+  const mistakesCount = serverMistakesLoaded ? serverMistakes.filter((mistake) => ['reading', 'grammar', 'listening'].includes(mistake.skill)).length : Object.values(progress).flatMap((item) => item.mistakes ?? []).length;
   return `<header class="dashboard-header ${state.dashboardMenuOpen ? 'menu-open' : ''}"><button class="dashboard-menu-toggle" data-toggle-dashboard-menu aria-expanded="${state.dashboardMenuOpen}" aria-label="فتح قائمة لوحة المستخدم">☰</button><button class="dashboard-brand" data-dashboard-section="dashboard" aria-label="لوحة المستخدم">${dashboardBrandLogo()}</button><nav aria-label="تنقل لوحة المستخدم"><button class="${active === 'dashboard' ? 'active' : ''}" data-dashboard-section="dashboard">لوحتي</button><button class="${active === 'reading' ? 'active' : ''}" data-models-scroll>القراءة</button><button class="${active === 'grammar' ? 'active' : ''}" data-dashboard-section="grammar">القواعد</button><button class="${active === 'listening' ? 'active' : ''}" data-dashboard-section="listening">الاستماع</button><button class="${active === 'exams' ? 'active' : ''}" data-dashboard-section="exams">الاختبارات</button><button class="${active === 'mistakes' ? 'active' : ''}" data-dashboard-section="mistakes">أخطائي${mistakesCount ? `<b class="nav-badge">${mistakesCount}</b>` : ''}</button><button class="${active === 'progress' ? 'active' : ''}" data-dashboard-section="progress">تقدمي</button><details class="dashboard-step-menu frequent-menu"><summary class="${active === 'frequent' ? 'active' : ''}">الأكثر تكرارًا <span aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="reading">أسئلة القراءة المتكررة</button><button data-dashboard-section="grammar">قواعد STEP المتكررة</button><button data-dashboard-section="listening">مقاطع الاستماع المتكررة</button><button data-dashboard-section="writing">موضوعات الكتابة المتكررة</button></div></details></nav><details class="dashboard-profile-menu"><summary><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><span class="profile-caret" aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="profile">ملفي الشخصي</button><button data-dashboard-section="settings">إعدادات الحساب</button><button data-dashboard-section="subscription">الاشتراك</button><button data-dashboard-section="help">المساعدة</button><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></details></header>`;
 }
 
@@ -299,7 +299,7 @@ function dashboardData() {
   const previousWeekStart = new Date(weekStart); previousWeekStart.setDate(previousWeekStart.getDate() - 7);
   const previousWeekAnswered = entries.reduce((sum, [, item]) => sum + Object.values(item.answerMeta ?? {}).filter((meta) => meta?.answeredAt && new Date(meta.answeredAt) >= previousWeekStart && new Date(meta.answeredAt) < weekStart).length, 0);
   const dashboardAnswered = hasLocalActivity ? answered : remoteAnswered;
-  const dashboardMistakeCount = serverMistakesLoaded ? serverMistakes.length : (hasLocalActivity ? dueMistakes.length : Number(serverDashboard?.unreviewedMistakes ?? 0));
+  const dashboardMistakeCount = serverMistakesLoaded ? serverMistakes.filter((mistake) => ['reading', 'grammar', 'listening'].includes(mistake.skill)).length : (hasLocalActivity ? dueMistakes.length : Number(serverDashboard?.unreviewedMistakes ?? 0));
   return { passageCount, questionCount, completedPieces, completedEntries, answered: dashboardAnswered, mistakes, uniqueMistakes, dueMistakes, resultRows, progressPercent, accuracy, latestContext, firstModel, firstPassage, weeklyCompleted, improvement, dashboardMistakeCount, streak, activeDaysThisWeek, avgSeconds, skillStats, reasonBreakdown, focusSkill, weeklyAnswered, previousWeekAnswered };
 }
 
@@ -325,7 +325,8 @@ function dashboardModelsView() {
 }
 
 function renderMistakeSurface() {
-  const source = serverMistakesLoaded ? serverMistakes : [];
+  const localFallback = Object.values(progress).flatMap((item) => item.mistakes ?? []).map((mistake, index) => ({ id: `local-${index}`, skill: 'reading', questionId: mistake.questionId, questionText: 'سؤال محفوظ محليًا', mistakeCount: mistake.mistakeCount ?? 1, lastSeenAt: mistake.createdAt, status: 'unreviewed' }));
+  const source = serverMistakesLoaded ? serverMistakes : localFallback;
   const labels = { reading: 'القراءة', grammar: 'القواعد', listening: 'الاستماع' };
   const skills = Object.keys(labels);
   const activeSkill = state.mistakeSkill && labels[state.mistakeSkill] ? state.mistakeSkill : null;
