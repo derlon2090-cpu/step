@@ -22,10 +22,22 @@ export default async function handler(req, res) {
 
   try {
     const payload = questionTutorSchema.parse(typeof req.body === 'string' ? JSON.parse(req.body) : req.body ?? {});
-    const result = await chatWithQuestionTutor(payload);
-    res.status(200).json(result);
+    res.statusCode = 200;
+    res.setHeader('content-type', 'text/event-stream; charset=utf-8');
+    res.setHeader('cache-control', 'no-cache, no-transform');
+    res.setHeader('connection', 'keep-alive');
+    res.flushHeaders?.();
+    const write = (event) => res.write(`data: ${JSON.stringify(event)}\n\n`);
+    const result = await chatWithQuestionTutor(payload, { onChunk: async (content) => write({ type: 'delta', content }) });
+    write({ type: 'done', ...result });
+    res.end();
   } catch (error) {
     const status = error?.name === 'ZodError' ? 422 : Number.isInteger(error?.status) ? error.status : 502;
-    res.status(status).json({ error: status === 422 ? 'Invalid tutor request' : 'Tutor service unavailable', code: error?.code });
+    if (res.headersSent) {
+      res.write(`data: ${JSON.stringify({ type: 'error', error: status === 422 ? 'Invalid tutor request' : 'Tutor service unavailable', code: error?.code })}\n\n`);
+      res.end();
+    } else {
+      res.status(status).json({ error: status === 422 ? 'Invalid tutor request' : 'Tutor service unavailable', code: error?.code });
+    }
   }
 }

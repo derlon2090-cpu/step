@@ -1,7 +1,7 @@
 import './style.css';
 import './raseen.css';
 import { readings } from './data/readings.js';
-import { wordGlossary } from './data/manualQuizzes.js';
+import { questionGlossary } from './data/reading/questionGlossary.js';
 import { grammarModels } from './data/grammarModels.js';
 import { soundManager } from './soundManager.js';
 import { authClient } from '../lib/auth-client.ts';
@@ -53,7 +53,7 @@ const authHintKey = 'step-reading-auth-hint';
 const requestedView = new URLSearchParams(window.location.search).get('view');
 const hasAuthHint = localStorage.getItem(authHintKey) === '1';
 const initialView = requestedView === 'dashboard' ? 'login' : (!requestedView && hasAuthHint ? 'dashboard' : requestedView);
-let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: null, selectedPassageId: null, selectedGrammarModelId: null, grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
+let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: null, selectedPassageId: null, selectedGrammarModelId: null, grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: 0, questionStartedAt: Date.now(), translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -62,6 +62,28 @@ const dashboardBrandLogo = () => `<span class="brand-symbol" aria-hidden="true">
 const normalizeArabic = (value = '') => String(value).toLowerCase().replace(/[أإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/[ً-ْ]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const modelNumber = (model) => String(model.order).padStart(2, '0');
 const saveProgress = () => localStorage.setItem(progressKey(), JSON.stringify(progress));
+const readingSkillLabels = ['الفكرة الرئيسة', 'الاستنتاج', 'الضمائر', 'المفردات', 'إعادة الصياغة', 'التفاصيل'];
+const mistakeReasonLabels = ['قاعدة غير مفهومة', 'استعجال', 'مفردات', 'استنتاج', 'ضمير', 'إعادة صياغة'];
+const addDays = (date, days) => new Date(new Date(date).getTime() + days * 86400000).toISOString();
+const dateKey = (value = new Date()) => new Date(value).toISOString().slice(0, 10);
+const inferReadingSkill = (question = {}) => {
+  const text = normalizeArabic(`${question.question ?? ''} ${question.explanation ?? ''}`);
+  if (/\b(meaning|means|word|vocabulary|synonym|refer to)\b/.test(text)) return 'المفردات';
+  if (/\b(pronoun|it|they|them|this|these|refer)\b/.test(text)) return 'الضمائر';
+  if (/\b(infer|imply|suggest|conclude|can be concluded|likely)\b/.test(text)) return 'الاستنتاج';
+  if (/\b(paraphrase|restat|closest|best express|rewrite)\b/.test(text)) return 'إعادة الصياغة';
+  if (/\b(main idea|purpose|best title|author.{0,12}(opinion|point)|primarily)\b/.test(text)) return 'الفكرة الرئيسة';
+  return 'التفاصيل';
+};
+const inferMistakeReason = (question = {}, seconds = 0) => {
+  const skill = inferReadingSkill(question);
+  if (seconds > 75) return 'استعجال';
+  if (skill === 'المفردات') return 'مفردات';
+  if (skill === 'الاستنتاج') return 'استنتاج';
+  if (skill === 'الضمائر') return 'ضمير';
+  if (skill === 'إعادة الصياغة') return 'إعادة صياغة';
+  return 'قاعدة غير مفهومة';
+};
 async function refreshServerDashboard() {
   if (!account) {
     serverDashboard = null;
@@ -119,20 +141,31 @@ function displayedOptions(question) {
 }
 
 function normalizeWord(word) {
-  return word.toLowerCase().replace(/[“”"'?.!,;:()]/g, '').replace(/’s$/, '').replace(/[^a-z]/g, '');
+  return String(word).toLowerCase().replace(/[’']/g, "'").replace(/'s$/i, '').replace(/[^a-z]/g, '');
 }
 
 function wordMeaning(word) {
-  return wordGlossary[normalizeWord(word)] ?? 'المعنى غير مضاف بعد';
+  // The generated glossary is validated against every published question at
+  // build time, so a missing entry is a developer error rather than learner UI.
+  return questionGlossary[normalizeWord(word)] ?? 'ترجمة غير متاحة حاليًا';
 }
 
 function renderQuestionText(question) {
   if (state.translationQuestionId !== question.id) return escapeHtml(question.question);
-  return question.question.split(/(\s+)/).map((token) => {
-    if (!/[A-Za-z]/.test(token)) return escapeHtml(token);
+  const selectedWord = normalizeWord(state.translatedWords[question.id] ?? '');
+  const parts = [];
+  let cursor = 0;
+  const pattern = /[A-Za-z]+(?:['’][A-Za-z]+)?/g;
+  for (const match of question.question.matchAll(pattern)) {
+    if (match.index > cursor) parts.push(escapeHtml(question.question.slice(cursor, match.index)));
+    const token = match[0];
     const clean = normalizeWord(token);
-    return `<button class="word-chip" data-word="${escapeHtml(clean)}" data-question-word="${question.id}">${escapeHtml(token)}</button>`;
-  }).join('');
+    const popover = clean === selectedWord ? `<span class="word-meaning-popover" role="status">${escapeHtml(wordMeaning(clean))}</span>` : '';
+    parts.push(`<span class="word-chip-wrap"><button class="word-chip" data-word="${escapeHtml(clean)}" data-question-word="${question.id}">${escapeHtml(token)}</button>${popover}</span>`);
+    cursor = match.index + token.length;
+  }
+  if (cursor < question.question.length) parts.push(escapeHtml(question.question.slice(cursor)));
+  return parts.join('');
 }
 
 function raseenHeader(active = 'النماذج') {
@@ -144,7 +177,7 @@ function raseenHeader(active = 'النماذج') {
 function dashboardHeader(active = 'dashboard') {
   const name = account?.name ? escapeHtml(account.name) : 'حسابي';
   const mistakesCount = Object.values(progress).flatMap((item) => item.mistakes ?? []).length;
-  return `<header class="dashboard-header ${state.dashboardMenuOpen ? 'menu-open' : ''}"><button class="dashboard-menu-toggle" data-toggle-dashboard-menu aria-expanded="${state.dashboardMenuOpen}" aria-label="فتح قائمة لوحة المستخدم">☰</button><button class="dashboard-brand" data-dashboard-section="dashboard" aria-label="لوحة المستخدم">${dashboardBrandLogo()}</button><nav aria-label="تنقل لوحة المستخدم"><button class="${active === 'dashboard' ? 'active' : ''}" data-dashboard-section="dashboard">لوحتي</button><button class="${active === 'reading' ? 'active' : ''}" data-models-scroll>القراءة</button><button class="${active === 'grammar' ? 'active' : ''}" data-dashboard-section="grammar">القواعد</button><button class="${active === 'listening' ? 'active' : ''}" data-dashboard-section="listening">الاستماع</button><button class="${active === 'exams' ? 'active' : ''}" data-dashboard-section="exams">الاختبارات</button><button class="${active === 'mistakes' ? 'active' : ''}" data-dashboard-section="mistakes">أخطائي${mistakesCount ? `<b class="nav-badge">${mistakesCount}</b>` : ''}</button><button class="${active === 'progress' ? 'active' : ''}" data-dashboard-section="progress">تقدمي</button><details class="dashboard-step-menu"><summary class="${active === 'step-sections' ? 'active' : ''}">أقسام STEP <span aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="reading">فهم المقروء</button><button data-dashboard-section="grammar">التراكيب النحوية</button><button data-dashboard-section="listening">فهم المسموع</button><button data-dashboard-section="writing">التحليل الكتابي</button></div></details></nav><details class="dashboard-profile-menu"><summary><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><span class="profile-caret" aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="profile">ملفي الشخصي</button><button data-dashboard-section="settings">إعدادات الحساب</button><button data-dashboard-section="subscription">الاشتراك</button><button data-dashboard-section="help">المساعدة</button><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></details></header>`;
+  return `<header class="dashboard-header ${state.dashboardMenuOpen ? 'menu-open' : ''}"><button class="dashboard-menu-toggle" data-toggle-dashboard-menu aria-expanded="${state.dashboardMenuOpen}" aria-label="فتح قائمة لوحة المستخدم">☰</button><button class="dashboard-brand" data-dashboard-section="dashboard" aria-label="لوحة المستخدم">${dashboardBrandLogo()}</button><nav aria-label="تنقل لوحة المستخدم"><button class="${active === 'dashboard' ? 'active' : ''}" data-dashboard-section="dashboard">لوحتي</button><button class="${active === 'reading' ? 'active' : ''}" data-models-scroll>القراءة</button><button class="${active === 'grammar' ? 'active' : ''}" data-dashboard-section="grammar">القواعد</button><button class="${active === 'listening' ? 'active' : ''}" data-dashboard-section="listening">الاستماع</button><button class="${active === 'exams' ? 'active' : ''}" data-dashboard-section="exams">الاختبارات</button><button class="${active === 'mistakes' ? 'active' : ''}" data-dashboard-section="mistakes">أخطائي${mistakesCount ? `<b class="nav-badge">${mistakesCount}</b>` : ''}</button><button class="${active === 'progress' ? 'active' : ''}" data-dashboard-section="progress">تقدمي</button><details class="dashboard-step-menu frequent-menu"><summary class="${active === 'frequent' ? 'active' : ''}">الأكثر تكرارًا <span aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="reading">أسئلة القراءة المتكررة</button><button data-dashboard-section="grammar">قواعد STEP المتكررة</button><button data-dashboard-section="listening">مقاطع الاستماع المتكررة</button><button data-dashboard-section="writing">موضوعات الكتابة المتكررة</button></div></details></nav><details class="dashboard-profile-menu"><summary><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><span class="profile-caret" aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="profile">ملفي الشخصي</button><button data-dashboard-section="settings">إعدادات الحساب</button><button data-dashboard-section="subscription">الاشتراك</button><button data-dashboard-section="help">المساعدة</button><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></details></header>`;
 }
 
 function loginView() {
@@ -210,10 +243,46 @@ function dashboardData() {
   weekStart.setHours(0, 0, 0, 0);
   weekStart.setDate(weekStart.getDate() - ((weekStart.getDay() + 6) % 7));
   const weeklyCompleted = completedEntries.filter(([, item]) => item.updatedAt && new Date(item.updatedAt) >= weekStart).length;
+  const activityDates = [...new Set(entries.flatMap(([, item]) => [
+    ...(item.activityDates ?? []),
+    ...(Object.values(item.answerMeta ?? {}).map((meta) => meta?.answeredAt).filter(Boolean)),
+    item.updatedAt,
+  ].filter(Boolean).map(dateKey)))].sort().reverse();
+  let streak = 0;
+  const today = new Date();
+  for (let offset = 0; offset < activityDates.length + 1; offset += 1) {
+    const expected = dateKey(new Date(today.getTime() - offset * 86400000));
+    if (!activityDates.includes(expected)) break;
+    streak += 1;
+  }
+  const activeDaysThisWeek = activityDates.filter((value) => new Date(value) >= weekStart).length;
+  const avgSeconds = (() => {
+    const values = entries.flatMap(([, item]) => Object.values(item.answerMeta ?? {}).map((meta) => Number(meta?.seconds)).filter((value) => Number.isFinite(value) && value > 0));
+    return values.length ? Math.round(values.reduce((sum, value) => sum + value, 0) / values.length) : 0;
+  })();
+  const skillStats = readingSkillLabels.map((label) => {
+    let answeredCount = 0; let correctCount = 0;
+    entries.forEach(([key, item]) => {
+      const [modelId, passageId] = key.split(':');
+      const passage = models.find((candidate) => candidate.id === modelId)?.passages.find((candidate) => candidate.id === passageId);
+      passage?.questions.forEach((question) => {
+        if (inferReadingSkill(question) !== label || question.correctAnswer === null || !item.answers?.[question.id]) return;
+        answeredCount += 1;
+        if (question.options.find((option) => option.id === item.answers[question.id])?.isCorrect) correctCount += 1;
+      });
+    });
+    return { label, answered: answeredCount, accuracy: answeredCount ? Math.round((correctCount / answeredCount) * 100) : 0 };
+  });
+  const reasonBreakdown = mistakeReasonLabels.map((label) => ({ label, count: uniqueMistakes.filter((mistake) => (mistake.reason ?? inferMistakeReason(questionMap.get(mistake.questionId)?.question)) === label).length })).filter((item) => item.count > 0).sort((a, b) => b.count - a.count);
+  const focusSkill = skillStats.filter((item) => item.answered > 0).sort((a, b) => a.accuracy - b.accuracy)[0] ?? { label: 'الاستنتاج', accuracy: 54, answered: 0 };
+  const dueMistakes = uniqueMistakes.filter((mistake) => !mistake.mastered && (!mistake.reviewAt || new Date(mistake.reviewAt) <= new Date()));
   const improvement = uniqueMistakes.map((mistake) => questionMap.get(mistake.questionId)).filter(Boolean)[0] ?? null;
+  const weeklyAnswered = entries.reduce((sum, [, item]) => sum + Object.values(item.answerMeta ?? {}).filter((meta) => meta?.answeredAt && new Date(meta.answeredAt) >= weekStart).length, 0);
+  const previousWeekStart = new Date(weekStart); previousWeekStart.setDate(previousWeekStart.getDate() - 7);
+  const previousWeekAnswered = entries.reduce((sum, [, item]) => sum + Object.values(item.answerMeta ?? {}).filter((meta) => meta?.answeredAt && new Date(meta.answeredAt) >= previousWeekStart && new Date(meta.answeredAt) < weekStart).length, 0);
   const dashboardAnswered = hasLocalActivity ? answered : remoteAnswered;
-  const dashboardMistakeCount = hasLocalActivity ? uniqueMistakes.length : Number(serverDashboard?.unreviewedMistakes ?? 0);
-  return { passageCount, questionCount, completedPieces, completedEntries, answered: dashboardAnswered, mistakes, uniqueMistakes, resultRows, progressPercent, accuracy, latestContext, firstModel, firstPassage, weeklyCompleted, improvement, dashboardMistakeCount };
+  const dashboardMistakeCount = hasLocalActivity ? dueMistakes.length : Number(serverDashboard?.unreviewedMistakes ?? 0);
+  return { passageCount, questionCount, completedPieces, completedEntries, answered: dashboardAnswered, mistakes, uniqueMistakes, dueMistakes, resultRows, progressPercent, accuracy, latestContext, firstModel, firstPassage, weeklyCompleted, improvement, dashboardMistakeCount, streak, activeDaysThisWeek, avgSeconds, skillStats, reasonBreakdown, focusSkill, weeklyAnswered, previousWeekAnswered };
 }
 
 function dashboardView() {
@@ -225,8 +294,11 @@ function dashboardView() {
   const recentResults = data.resultRows.slice(0, 3).map((row) => `<tr><td>${escapeHtml(row.passage.title)}</td><td>${row.score}%</td><td>${row.item.updatedAt ? new Date(row.item.updatedAt).toLocaleDateString('ar-SA') : '—'}</td></tr>`).join('');
   const trend = data.resultRows.slice(0, 4).reverse();
   const trendMarkup = trend.length ? trend.map((row) => `<span style="height:${Math.max(12, row.score)}%" title="${row.score}%"><b>${row.score}%</b></span>`).join('') : '<div class="dashboard-chart-empty">أكمل تدريبًا واحدًا ليظهر تطور دقتك هنا.</div>';
-  const mistakeBreakdown = data.dashboardMistakeCount ? `<div class="mistake-breakdown"><span>Reading <b>${data.dashboardMistakeCount}</b></span><span>Grammar <b>0</b></span><span>Listening <b>0</b></span></div>` : '<p class="muted-copy">لا توجد أخطاء محفوظة بعد. ستظهر هنا فور إجابتك عن الأسئلة.</p>';
-  return `<main class="dashboard-shell">${dashboardHeader('dashboard')}<section class="dashboard-intro"><span class="eyebrow">مساحة تعلمك الشخصية</span><h1>مرحبًا${account?.name ? `، ${escapeHtml(account.name)}` : ''} 👋</h1><p>واصل تقدمك نحو إتقان STEP بخطوات واضحة وهادئة.</p></section><section class="dashboard-focus-grid"><article class="continue-card"><div class="continue-card-copy"><span class="eyebrow">تابع من حيث توقفت</span><h2>${resume ? `${escapeHtml(resume.model.title)} — ${escapeHtml(resume.passage.title)}` : 'ابدأ رحلتك الأولى'}</h2><p>${data.latestContext ? `آخر نشاط ${resume.item.updatedAt ? new Date(resume.item.updatedAt).toLocaleString('ar-SA') : 'محفوظ'}` : 'اختر قطعة وابدأ أول جلسة تدريب.'}</p><div class="continue-progress"><div><i style="width:${resumePercent}%"></i></div><strong>${resumePercent}%</strong></div>${resumeButton}</div><div class="continue-meta"><strong>${Object.keys(resume?.item?.answers ?? {}).length} من ${resume?.passage?.questions.length ?? 0}</strong><span>أسئلة مجابة</span></div></article><aside class="weekly-goal"><span class="eyebrow">هدف هذا الأسبوع</span><strong>${Math.min(6, data.weeklyCompleted)} / 6</strong><p>تدريبات مكتملة</p><div class="goal-track"><i style="width:${Math.min(100, (data.weeklyCompleted / 6) * 100)}%"></i></div><small>خطوة صغيرة كل يوم تصنع فرقًا.</small></aside></section><section class="dashboard-stats dashboard-stats-four"><article><strong>${data.progressPercent}%</strong><span>التقدم العام</span></article><article><strong>${data.accuracy}%</strong><span>دقة الإجابات</span></article><article><strong>${data.answered}</strong><span>الأسئلة المجابة</span></article><article><strong>${data.dashboardMistakeCount}</strong><span>أخطاء تحتاج مراجعة</span></article></section><section class="dashboard-main-grid"><article class="dashboard-panel skills-panel"><header class="panel-heading"><div><span class="eyebrow">تقدمك حسب المهارة</span><h2>المهارات</h2></div></header><div class="skill-row"><div><strong>Reading</strong><span>${data.completedPieces} من ${data.passageCount} قطعة مكتملة</span></div><b>${data.progressPercent}%</b><div class="skill-track"><i style="width:${data.progressPercent}%"></i></div></div><div class="skill-row"><div><strong>Grammar</strong><span>0 من 0 درس مكتمل</span></div><b>0%</b><div class="skill-track"><i style="width:0%"></i></div></div><div class="skill-row"><div><strong>Listening</strong><span>0 من 0 مقطع مكتمل</span></div><b>0%</b><div class="skill-track"><i style="width:0%"></i></div></div></article>${improvement}</section><section class="dashboard-main-grid lower-grid"><article class="dashboard-panel mistakes-panel"><header class="panel-heading"><div><span class="eyebrow">مراجعة أخطائي</span><h2>${data.dashboardMistakeCount} سؤالًا يحتاج المراجعة</h2></div><button class="text-action" data-dashboard-section="mistakes">عرض الكل</button></header>${mistakeBreakdown}<button class="navy-action" data-dashboard-section="mistakes">ابدأ المراجعة <span>←</span></button></article><article class="dashboard-panel suggestion-panel"><span class="eyebrow">اقتراح نباهة لك</span><h2>${data.dashboardMistakeCount ? 'راجع أخطاءك قبل بدء قطعة جديدة' : 'ابدأ بأول قطعة اليوم'}</h2><p>${data.dashboardMistakeCount ? 'ركّز على الأسئلة التي أخطأت فيها؛ ستبني منها جلسة مراجعة قصيرة ومفيدة.' : 'اقرأ القطعة بهدوء ثم أجب عن أسئلتها خطوة بخطوة.'}</p><button class="mint-action" data-open-model="${data.firstModel?.id ?? 'reading-01'}">ابدأ تدريبًا لمدة 5 دقائق</button></article></section><section class="dashboard-main-grid lower-grid"><article class="dashboard-panel results-panel"><header class="panel-heading"><div><span class="eyebrow">آخر النتائج</span><h2>محاولاتك الأخيرة</h2></div><button class="text-action" data-dashboard-section="progress">عرض جميع النتائج</button></header><table><thead><tr><th>التدريب</th><th>النتيجة</th><th>التاريخ</th></tr></thead><tbody>${recentResults || '<tr><td colspan="3" class="table-empty">لا توجد نتائج مكتملة بعد.</td></tr>'}</tbody></table></article><article class="dashboard-panel chart-panel"><header class="panel-heading"><div><span class="eyebrow">تحسن الطالب</span><h2>تطور دقتك</h2></div><span class="chart-range">آخر 30 يومًا</span></header><div class="dashboard-chart" aria-label="تطور دقة الإجابات">${trendMarkup}</div></article></section></main>`;
+  const mistakeBreakdown = data.reasonBreakdown.length ? `<div class="mistake-reasons">${data.reasonBreakdown.slice(0, 3).map((item) => `<span><i>${item.count}</i>${escapeHtml(item.label)}</span>`).join('')}</div>` : '<p class="muted-copy">لا توجد أخطاء محفوظة بعد. ستظهر هنا فور إجابتك عن الأسئلة.</p>';
+  const skillCards = data.skillStats.map((skill) => `<div class="mastery-item"><div><strong>${escapeHtml(skill.label)}</strong><span>${skill.answered ? `${skill.answered} سؤالًا محلولًا` : 'لم تُقَس بعد'}</span></div><b>${skill.accuracy}%</b><div class="skill-track"><i style="width:${skill.accuracy}%"></i></div></div>`).join('');
+  const speedLabel = data.avgSeconds ? `${data.avgSeconds}ث` : '—';
+  const speedHint = data.avgSeconds > 60 && data.accuracy >= 80 ? 'دقة ممتازة — تحتاج تحسين السرعة' : data.avgSeconds > 60 ? 'سرعتك أبطأ من هدفك — راجع بهدوء' : data.accuracy >= 80 && data.avgSeconds ? 'سرعتك متوازنة مع دقتك' : 'سنقيس سرعتك مع أول تدريب';
+  return `<main class="dashboard-shell">${dashboardHeader('dashboard')}<section class="dashboard-intro"><span class="eyebrow">مساحة تعلمك الشخصية</span><h1>مرحبًا${account?.name ? `، ${escapeHtml(account.name)}` : ''} 👋</h1><p>لوحة هادئة تعرف مستواك وتقرر معك الخطوة التالية.</p></section><section class="dashboard-focus-grid"><article class="continue-card"><div class="continue-card-copy"><span class="eyebrow">تابع من حيث توقفت</span><h2>${resume ? `${escapeHtml(resume.model.title)} — ${escapeHtml(resume.passage.title)}` : 'ابدأ رحلتك الأولى'}</h2><p>${data.latestContext ? `آخر نشاط ${resume.item.updatedAt ? new Date(resume.item.updatedAt).toLocaleString('ar-SA') : 'محفوظ'}` : 'اختر قطعة وابدأ أول جلسة تدريب.'}</p><div class="continue-progress"><div><i style="width:${resumePercent}%"></i></div><strong>${resumePercent}%</strong></div>${resumeButton}</div><div class="continue-meta"><strong>${Object.keys(resume?.item?.answers ?? {}).length} من ${resume?.passage?.questions.length ?? 0}</strong><span>أسئلة مجابة</span></div></article><aside class="recommendation-card"><span class="eyebrow">ماذا أدرس الآن؟</span><h2>ننصحك اليوم بمراجعة <em>${escapeHtml(data.focusSkill.label)}</em></h2><p>دقتك فيه ${data.focusSkill.accuracy}%${data.focusSkill.answered ? ` بعد ${data.focusSkill.answered} سؤالًا` : ''}.</p><button class="mint-action" data-open-model="${data.firstModel?.id ?? 'reading-01'}">ابدأ تدريبًا مخصصًا <span>←</span></button></aside></section><section class="dashboard-stats dashboard-stats-four metric-strip"><article><strong>${data.progressPercent}%</strong><span>إنجاز المحتوى</span><small>${data.completedPieces} من ${data.passageCount} قطعة</small></article><article><strong>${data.accuracy}%</strong><span>دقة الإجابات</span><small>من ${data.answered} سؤالًا</small></article><article><strong>${data.streak} أيام</strong><span>أيام الانتظام</span><small>${data.activeDaysThisWeek}/7 أيام نشطة هذا الأسبوع</small></article><article><strong>${speedLabel}</strong><span>متوسط السؤال</span><small>${speedHint}</small></article></section><section class="dashboard-main-grid insight-grid"><article class="dashboard-panel mastery-panel"><header class="panel-heading"><div><span class="eyebrow">درجة إتقان لكل مهارة</span><h2>ملف المهارات</h2></div><span class="panel-note">Reading</span></header><div class="mastery-grid">${skillCards}</div></article><article class="dashboard-panel weekly-summary"><header class="panel-heading"><div><span class="eyebrow">ملخصك الأسبوعي</span><h2>هذا الأسبوع</h2></div></header><div class="weekly-summary-number"><strong>${data.weeklyAnswered}</strong><span>سؤالًا حللت</span></div><p>${data.previousWeekAnswered ? `مقابل ${data.previousWeekAnswered} الأسبوع الماضي` : 'أكمل تدريبًا اليوم ليبدأ ملخصك.'}</p><div class="weekly-quality"><span>أقوى مهارة <b>${escapeHtml(data.skillStats.slice().sort((a, b) => b.accuracy - a.accuracy)[0]?.label ?? '—')}</b></span><span>تحتاج تحسين <b>${escapeHtml(data.focusSkill.label)}</b></span></div></article></section><section class="dashboard-main-grid"><article class="dashboard-panel skills-panel"><header class="panel-heading"><div><span class="eyebrow">تقدمك حسب القسم</span><h2>المسارات</h2></div></header><div class="skill-row"><div><strong>Reading</strong><span>${data.completedPieces} من ${data.passageCount} قطعة مكتملة</span></div><b>${data.progressPercent}%</b><div class="skill-track"><i style="width:${data.progressPercent}%"></i></div></div><div class="skill-row"><div><strong>Grammar</strong><span>تدريبات القواعد قيد الإضافة</span></div><b>0%</b><div class="skill-track"><i style="width:0%"></i></div></div><div class="skill-row"><div><strong>Listening</strong><span>تدريبات الاستماع قيد الإضافة</span></div><b>0%</b><div class="skill-track"><i style="width:0%"></i></div></div></article>${improvement}</section><section class="dashboard-main-grid lower-grid"><article class="dashboard-panel mistakes-panel"><header class="panel-heading"><div><span class="eyebrow">مراجعة أخطائي</span><h2>${data.dashboardMistakeCount} سؤالًا جاهزًا للمراجعة</h2></div><button class="text-action" data-dashboard-section="mistakes">عرض الكل</button></header>${mistakeBreakdown}<button class="navy-action" data-dashboard-section="mistakes">ابدأ المراجعة <span>←</span></button></article><article class="dashboard-panel suggestion-panel"><span class="eyebrow">تدريب اليوم</span><h2>${data.dashboardMistakeCount ? 'جلسة من أخطائك ونقاط ضعفك' : 'جلسة تأسيسية قصيرة'}</h2><p>جلسة قصيرة من الأخطاء والمهارات التي تحتاج تركيزك، ثم نعيد جدولة ما يحتاج مراجعة.</p><button class="mint-action" data-open-model="${data.firstModel?.id ?? 'reading-01'}">ابدأ تدريب اليوم</button></article></section><section class="dashboard-main-grid lower-grid"><article class="dashboard-panel results-panel"><header class="panel-heading"><div><span class="eyebrow">آخر النتائج</span><h2>محاولاتك الأخيرة</h2></div><button class="text-action" data-dashboard-section="progress">عرض جميع النتائج</button></header><table><thead><tr><th>التدريب</th><th>النتيجة</th><th>التاريخ</th></tr></thead><tbody>${recentResults || '<tr><td colspan="3" class="table-empty">لا توجد نتائج مكتملة بعد.</td></tr>'}</tbody></table></article><article class="dashboard-panel chart-panel"><header class="panel-heading"><div><span class="eyebrow">تحسن الطالب</span><h2>تطور دقتك</h2></div><span class="chart-range">آخر 30 يومًا</span></header><div class="dashboard-chart" aria-label="تطور دقة الإجابات">${trendMarkup}</div></article></section></main>`;
 }
 
 function dashboardModelsView() {
@@ -241,12 +313,14 @@ function dashboardSectionView(section) {
   const questionMap = new Map(models.flatMap((model) => model.passages.flatMap((passage) => passage.questions.map((question) => [question.id, { model, passage, question }]))));
   let content = '';
   if (section === 'mistakes') {
-    content = mistakes.length ? `<div class="dashboard-mistakes-list">${mistakes.map((mistake) => { const match = questionMap.get(mistake.questionId); return `<article class="dashboard-mistake-card"><span>سؤال ${match?.question.number ?? '—'}</span><h3>${escapeHtml(match?.question.question ?? 'سؤال غير متاح')}</h3><p>${escapeHtml(match ? `${match.passage.title} · النموذج ${modelNumber(match.model)}` : 'بيانات السؤال محفوظة للمراجعة')}</p><button data-open-model="${match?.model.id ?? 'reading-01'}">أعد التدريب</button></article>`; }).join('')}</div>` : '<div class="dashboard-empty"><strong>لا توجد أخطاء حتى الآن</strong><p>أكمل بعض التدريبات وستظهر هنا الأسئلة التي تحتاج مراجعتها.</p><button class="orange-action" data-models-scroll>ابدأ التدريب</button></div>';
+    const data = dashboardData();
+    const reasonSummary = data.reasonBreakdown.length ? `<section class="mistakes-summary"><span class="eyebrow">تحليل سبب الخطأ</span><h2>أكثر سبب تخسر فيه درجاتك: <em>${escapeHtml(data.reasonBreakdown[0].label)}</em></h2><div>${data.reasonBreakdown.map((item) => `<span><b>${item.count}</b>${escapeHtml(item.label)}</span>`).join('')}</div></section>` : '';
+    content = `${reasonSummary}${mistakes.length ? `<div class="dashboard-mistakes-list">${mistakes.map((mistake) => { const match = questionMap.get(mistake.questionId); const reason = mistake.reason ?? inferMistakeReason(match?.question); const reviewText = mistake.mastered ? 'تم الإتقان' : mistake.reviewAt && new Date(mistake.reviewAt) > new Date() ? `المراجعة ${new Date(mistake.reviewAt).toLocaleDateString('ar-SA')}` : 'جاهز للمراجعة'; return `<article class="dashboard-mistake-card"><span class="mistake-meta">سؤال ${match?.question.number ?? '—'} · ${escapeHtml(reason)}</span><div class="question-heading dashboard-question-heading" dir="ltr"><span class="question-number">${String(match?.question.number ?? '').padStart(2, '0')}</span><div class="question-text">${escapeHtml(match?.question.question ?? 'سؤال غير متاح')}</div></div><p>${escapeHtml(match ? `${match.passage.title} · النموذج ${modelNumber(match.model)}` : 'بيانات السؤال محفوظة للمراجعة')}</p><div class="mistake-review-status ${mistake.mastered ? 'mastered' : ''}">${reviewText}</div><button data-open-model="${match?.model.id ?? 'reading-01'}">أعد التدريب</button></article>`; }).join('')}</div>` : '<div class="dashboard-empty"><strong>لا توجد أخطاء حتى الآن</strong><p>أكمل بعض التدريبات وستظهر هنا الأسئلة التي تحتاج مراجعتها.</p><button class="orange-action" data-models-scroll>ابدأ التدريب</button></div>'}`;
   } else if (section === 'profile') {
     content = `<div class="dashboard-profile-card"><span class="dashboard-avatar large">${escapeHtml((account?.name ?? 'ح').charAt(0))}</span><h2>${escapeHtml(account?.name ?? 'المستخدم')}</h2><p>${escapeHtml(account?.email ?? '')}</p><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div>`;
   } else if (section === 'progress') {
     const data = dashboardData();
-    content = `<section class="dashboard-panel progress-detail-panel"><header class="panel-heading"><div><span class="eyebrow">ملخص تقدمك</span><h2>${data.progressPercent}% تقدم عام</h2></div></header><div class="progress-detail-grid"><div><strong>${data.completedPieces}</strong><span>قطع مكتملة</span></div><div><strong>${data.accuracy}%</strong><span>دقة الإجابات</span></div><div><strong>${data.answered}</strong><span>أسئلة مجابة</span></div></div><div class="skill-row"><div><strong>Reading</strong><span>${data.completedPieces} من ${data.passageCount} قطعة مكتملة</span></div><b>${data.progressPercent}%</b><div class="skill-track"><i style="width:${data.progressPercent}%"></i></div></div></section>`;
+    content = `<section class="dashboard-panel progress-detail-panel"><header class="panel-heading"><div><span class="eyebrow">ملخص تقدمك</span><h2>${data.progressPercent}% تقدم عام</h2></div></header><div class="progress-detail-grid"><div><strong>${data.progressPercent}%</strong><span>إنجاز المحتوى</span></div><div><strong>${data.accuracy}%</strong><span>دقة الإجابات</span></div><div><strong>${data.streak}</strong><span>أيام الانتظام</span></div><div><strong>${data.avgSeconds || '—'}${data.avgSeconds ? 'ث' : ''}</strong><span>متوسط السؤال</span></div></div><div class="mastery-grid progress-mastery-grid">${data.skillStats.map((skill) => `<div class="mastery-item"><div><strong>${escapeHtml(skill.label)}</strong><span>${skill.answered} سؤالًا</span></div><b>${skill.accuracy}%</b><div class="skill-track"><i style="width:${skill.accuracy}%"></i></div></div>`).join('')}</div></section>`;
   } else if (section === 'exams') {
     content = `<section class="dashboard-panel exams-panel"><header class="panel-heading"><div><span class="eyebrow">اختبارات STEP</span><h2>ابدأ اختبارًا جديدًا</h2></div></header><p class="muted-copy">اختر أي نموذج قراءة متاح وابدأ بمحاولة منظمة. تحفظ نباهة إجاباتك لتعود إليها لاحقًا.</p><button class="navy-action" data-models-scroll>استعرض النماذج <span>←</span></button></section>`;
   } else if (section === 'settings') {
@@ -285,7 +359,7 @@ function grammarQuestionView(model) {
   const selectedTutorOption = selected === undefined ? null : { id: `${question.id}-o${selected}`, text: question.options[selected], isCorrect: question.correctIndex === selected };
   const grammarTutorKey = tutorSessionKey(model, { id: 'grammar' }, question);
   const progressPercent = Math.round(((index + (selected !== undefined ? 1 : 0)) / questions.length) * 100);
-  return `<main class="dashboard-shell grammar-quiz-shell">${dashboardHeader('grammar')}<header class="grammar-quiz-top"><button class="back-button" data-grammar-library>← نماذج القواعد</button><div><span class="eyebrow">${escapeHtml(model.title)}</span><h1>السؤال ${question.displayOrder} من ${questions.length}</h1></div><div class="grammar-quiz-progress"><span>${progressPercent}%</span><div><i style="width:${progressPercent}%"></i></div></div></header><section class="grammar-question-card"><div class="grammar-question-meta"><span class="grammar-category-pill">${escapeHtml(question.categoryLabel)}</span><span>رقم المصدر: ${question.sourceNumber}</span></div><div class="grammar-tutor-anchor" data-tutor-scope="grammar"><button class="question-tutor-trigger" data-tutor-scope="grammar" data-tutor-toggle="${question.id}" aria-label="اسأل نباهة" title="اسأل نباهة" aria-haspopup="dialog" aria-expanded="${state.tutorOpen && state.tutorQuestionKey === grammarTutorKey}" aria-controls="question-tutor">${tutorSparkleIcon()}</button>${tutorPopover(model, { id: 'grammar' }, question, selectedTutorOption)}</div><h2>${escapeHtml(question.prompt)}</h2><div class="grammar-options" role="list">${question.options.map((option, optionIndex) => { const isSelected = selected === optionIndex; const isRight = confirmed !== undefined && question.correctIndex !== null && optionIndex === question.correctIndex; const isWrong = confirmed !== undefined && question.correctIndex !== null && optionIndex !== question.correctIndex; return `<button class="grammar-option ${isSelected ? 'is-selected' : ''} ${isRight ? 'is-correct' : ''} ${isWrong ? 'is-wrong' : ''}" data-grammar-option="${optionIndex}" ${selected !== undefined || state.grammarPendingQuestionId === question.id ? 'disabled' : ''}><span>${String.fromCharCode(65 + optionIndex)}</span><strong>${escapeHtml(option)}</strong></button>`; }).join('')}</div>${state.grammarPendingQuestionId === question.id ? '<p class="grammar-confirming">جارٍ تأكيد الإجابة…</p>' : ''}${confirmed !== undefined ? `<div class="grammar-feedback ${confirmed ? 'is-correct' : 'is-wrong'}"><strong>${confirmed ? 'أحسنت، إجابة صحيحة.' : question.correctIndex === null ? 'تم حفظ إجابتك، لكن الإجابة المعتمدة غير محددة في المصدر.' : 'ليست الإجابة الصحيحة.'}</strong>${!confirmed && question.correctIndex !== null ? `<span>الحل الصحيح: ${String.fromCharCode(65 + question.correctIndex)}) ${escapeHtml(question.options[question.correctIndex])}</span>` : ''}${question.sourceNote ? `<small>${escapeHtml(question.sourceNote)}</small>` : ''}</div>` : ''}</section><footer class="grammar-quiz-actions"><button class="outline-action" data-grammar-previous ${index === 0 ? 'disabled' : ''}>السابق</button><button class="mint-action" data-grammar-next ${selected === undefined || state.grammarPendingQuestionId ? 'disabled' : ''}>${index === questions.length - 1 ? 'إنهاء التدريب' : 'السؤال التالي'} <span>←</span></button></footer></main>`;
+  return `<main class="dashboard-shell grammar-quiz-shell">${dashboardHeader('grammar')}<header class="grammar-quiz-top"><button class="back-button" data-grammar-library>← نماذج القواعد</button><div><span class="eyebrow">${escapeHtml(model.title)}</span><h1>السؤال ${question.displayOrder} من ${questions.length}</h1></div><div class="grammar-quiz-progress"><span>${progressPercent}%</span><div><i style="width:${progressPercent}%"></i></div></div></header><section class="grammar-question-card"><div class="grammar-question-meta"><span class="grammar-category-pill">${escapeHtml(question.categoryLabel)}</span><span>رقم المصدر: ${question.sourceNumber}</span></div><div class="grammar-tutor-anchor" data-tutor-scope="grammar"><button class="question-tutor-trigger" data-tutor-scope="grammar" data-tutor-toggle="${question.id}" aria-label="اسأل نباهة" title="اسأل نباهة" aria-haspopup="dialog" aria-expanded="${state.tutorOpen && state.tutorQuestionKey === grammarTutorKey}" aria-controls="question-tutor">${tutorSparkleIcon()}</button>${tutorPopover(model, { id: 'grammar' }, question, selectedTutorOption)}</div><div class="question-heading grammar-question-heading" dir="ltr"><span class="question-number">${String(question.displayOrder).padStart(2, '0')}</span><div class="question-text">${escapeHtml(question.prompt)}</div></div><div class="grammar-options" role="list">${question.options.map((option, optionIndex) => { const isSelected = selected === optionIndex; const isRight = confirmed !== undefined && question.correctIndex !== null && optionIndex === question.correctIndex; const isWrong = confirmed !== undefined && question.correctIndex !== null && optionIndex !== question.correctIndex; return `<button class="grammar-option ${isSelected ? 'is-selected' : ''} ${isRight ? 'is-correct' : ''} ${isWrong ? 'is-wrong' : ''}" data-grammar-option="${optionIndex}" ${selected !== undefined || state.grammarPendingQuestionId === question.id ? 'disabled' : ''}><span>${String.fromCharCode(65 + optionIndex)}</span><strong>${escapeHtml(option)}</strong></button>`; }).join('')}</div>${state.grammarPendingQuestionId === question.id ? '<p class="grammar-confirming">جارٍ تأكيد الإجابة…</p>' : ''}${confirmed !== undefined ? `<div class="grammar-feedback ${confirmed ? 'is-correct' : 'is-wrong'}"><strong>${confirmed ? 'أحسنت، إجابة صحيحة.' : question.correctIndex === null ? 'تم حفظ إجابتك، لكن الإجابة المعتمدة غير محددة في المصدر.' : 'ليست الإجابة الصحيحة.'}</strong>${!confirmed && question.correctIndex !== null ? `<span>الحل الصحيح: ${String.fromCharCode(65 + question.correctIndex)}) ${escapeHtml(question.options[question.correctIndex])}</span>` : ''}${question.sourceNote ? `<small>${escapeHtml(question.sourceNote)}</small>` : ''}</div>` : ''}</section><footer class="grammar-quiz-actions"><button class="outline-action" data-grammar-previous ${index === 0 ? 'disabled' : ''}>السابق</button><button class="mint-action" data-grammar-next ${selected === undefined || state.grammarPendingQuestionId ? 'disabled' : ''}>${index === questions.length - 1 ? 'إنهاء التدريب' : 'السؤال التالي'} <span>←</span></button></footer></main>`;
 }
 
 function grammarResultView(model) {
@@ -373,7 +447,7 @@ function solutionsView(model, passage) {
   return `<main class="solutions-shell">
     ${raseenHeader('النماذج')}
     <header class="solutions-top"><button class="back-button" data-model>← قطع النموذج</button><div><p>${escapeHtml(model.title)}</p><h1>حلول ${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</h1><small>${escapeHtml(passage.externalTitle)}</small></div><strong>${passage.questions.length} سؤالًا محلولًا</strong></header>
-    <section class="solutions-list">${passage.questions.map((question) => `<article class="solution-card"><div class="solution-number">${question.number}</div><div class="solution-content"><h2>${escapeHtml(question.question)}</h2><div class="solution-answer"><span>الإجابة الصحيحة</span><strong>${question.correctAnswer ? escapeHtml(question.correctAnswer) : 'غير محددة في المصدر'}</strong></div><p class="solution-why"><b>لماذا؟</b> ${escapeHtml(question.explanation)}</p></div></article>`).join('')}</section>
+    <section class="solutions-list">${passage.questions.map((question) => `<article class="solution-card"><div class="solution-content"><div class="question-heading solution-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${escapeHtml(question.question)}</div></div><div class="solution-answer"><span>الإجابة الصحيحة</span><strong>${question.correctAnswer ? escapeHtml(question.correctAnswer) : 'غير محددة في المصدر'}</strong></div><p class="solution-why"><b>لماذا؟</b> ${escapeHtml(question.explanation)}</p></div></article>`).join('')}</section>
   </main>`;
 }
 
@@ -405,9 +479,9 @@ function tutorPopover(model, passage, question, selectedOption) {
   const session = state.tutorSessions[key] ?? { messages: [], loading: false, expanded: false };
   const hasConversation = session.messages.length > 0 || session.loading;
   const actions = tutorActions(selectedOption);
-  const messages = session.messages.map((message) => `<div class="tutor-message ${message.role === 'user' ? 'is-user' : 'is-assistant'}">
+  const messages = session.messages.map((message) => `<div class="tutor-message ${message.role === 'user' ? 'is-user' : 'is-assistant'} ${message.streaming ? 'is-streaming' : ''}">
     ${message.role === 'assistant' && message.source === 'human-note' ? '<span class="tutor-source-badge">شرح نباهة</span>' : ''}
-    <p>${escapeHtml(message.content).replace(/\n/g, '<br>')}</p>
+    <p>${escapeHtml(String(message.content ?? '').replace(/^\s*(?:\*{3,}|-{3,}|_{3,})\s*$/gm, '').replace(/\n{3,}/g, '\n\n')).replace(/\n/g, '<br>')}${message.streaming && !message.content ? '<span class="tutor-cursor" aria-hidden="true">▋</span>' : ''}</p>
   </div>`).join('');
   return `<section class="question-tutor-popover ${hasConversation ? 'has-conversation' : ''} ${session.expanded ? 'is-expanded' : ''}" id="question-tutor" role="dialog" aria-label="مساعد نباهة">
     <header class="tutor-header">
@@ -416,7 +490,8 @@ function tutorPopover(model, passage, question, selectedOption) {
       ${hasConversation ? `<button class="tutor-expand" data-tutor-expand aria-label="${session.expanded ? 'تصغير النافذة' : 'توسيع النافذة'}" title="${session.expanded ? 'تصغير' : 'توسيع'}">${session.expanded ? '↙' : '↗'}</button>` : ''}
       <button class="tutor-close" data-tutor-close aria-label="إغلاق مساعد نباهة">×</button>
     </header>
-    ${hasConversation ? `<div class="tutor-conversation" aria-live="polite">${messages}${session.loading ? `<div class="tutor-message is-assistant is-loading"><span></span><p>${escapeHtml(session.loadingMessage || 'نباهة يجهز الشرح...')}</p></div>` : ''}</div>` : `<div class="tutor-quick-actions">${actions.map((action) => `<button data-tutor-action="${action}"><span>${escapeHtml(tutorActionLabels[action])}</span><b aria-hidden="true">←</b></button>`).join('')}</div>`}
+    ${hasConversation ? `<div class="tutor-conversation" aria-live="polite">${messages}${session.loading && !session.messages.some((message) => message.streaming && message.content) ? `<div class="tutor-message is-assistant is-loading"><span></span><p>${escapeHtml(session.loadingMessage || 'نباهة يجهز الشرح...')}</p></div>` : ''}</div>` : `<div class="tutor-quick-actions">${actions.map((action) => `<button data-tutor-action="${action}"><span>${escapeHtml(tutorActionLabels[action])}</span><b aria-hidden="true">←</b></button>`).join('')}</div>`}
+    ${hasConversation && session.loading && session.autoScroll === false ? '<button class="tutor-latest" data-tutor-latest>↓ أحدث رسالة</button>' : ''}
     ${hasConversation && !session.loading ? `<div class="tutor-followups"><button data-tutor-action="simplify">أبسط أكثر</button><button data-tutor-action="similar">مثال آخر</button><button data-tutor-understood>فهمت ✓</button></div>` : ''}
     <form class="tutor-composer" data-tutor-form>
       <input name="message" maxlength="1000" autocomplete="off" placeholder="${hasConversation ? 'تابع سؤالك...' : 'اكتب سؤالك...'}" aria-label="اكتب سؤالك عن السؤال الحالي" ${session.loading ? 'disabled' : ''}>
@@ -428,7 +503,7 @@ function tutorPopover(model, passage, question, selectedOption) {
 }
 
 async function requestTutor({ key, question, selectedOption, action, message }) {
-  const session = state.tutorSessions[key] ?? { messages: [], loading: false, expanded: false, lastRequest: null };
+  const session = state.tutorSessions[key] ?? { messages: [], loading: false, expanded: false, autoScroll: true, lastRequest: null };
   if (session.loading) return;
   const prompt = String(message || tutorActionLabels[action] || '').trim();
   if (!prompt) return;
@@ -446,7 +521,8 @@ async function requestTutor({ key, question, selectedOption, action, message }) 
       loading: true,
       loadingMessage: 'نباهة يجهز الشرح...',
       lastRequest: { action, message: prompt },
-      messages: [...session.messages, { role: 'user', content: prompt }],
+      autoScroll: true,
+      messages: [...session.messages, { role: 'user', content: prompt }, { role: 'assistant', content: '', streaming: true }],
     },
   };
   state.tutorScrollToEnd = true;
@@ -457,6 +533,22 @@ async function requestTutor({ key, question, selectedOption, action, message }) 
     state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loadingMessage: 'جاري الاتصال بالمساعد...' } };
     render();
   }, 8_000);
+  let pending = '';
+  let flushTimer = null;
+  const flushStream = () => {
+    flushTimer = null;
+    if (!pending) return;
+    const delta = pending;
+    pending = '';
+    const latest = state.tutorSessions[key];
+    if (!latest) return;
+    const messages = latest.messages.slice();
+    const index = messages.length - 1;
+    messages[index] = { ...messages[index], content: `${messages[index].content ?? ''}${delta}` };
+    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, messages } };
+    state.tutorScrollToEnd = latest.autoScroll !== false;
+    render();
+  };
   try {
     const response = await questionTutorProvider.chat({
       questionId: question.id,
@@ -465,10 +557,17 @@ async function requestTutor({ key, question, selectedOption, action, message }) 
       action,
       selectedOptionId: selectedOption?.id ?? null,
       history: history.slice(-12),
-    });
+    }, { onChunk: (delta) => {
+      pending += delta;
+      if (!flushTimer) flushTimer = window.setTimeout(flushStream, 30);
+    } });
+    if (flushTimer) { window.clearTimeout(flushTimer); flushStream(); }
     const latest = state.tutorSessions[key];
-    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, messages: [...latest.messages, { role: 'assistant', content: response.content, source: response.source, provider: response.provider, model: response.model }] } };
+    const messages = latest.messages.slice();
+    messages[messages.length - 1] = { ...messages[messages.length - 1], content: response.content, streaming: false, source: response.source, provider: response.provider, model: response.model };
+    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, messages } };
   } catch (error) {
+    if (flushTimer) { window.clearTimeout(flushTimer); flushStream(); }
     const latest = state.tutorSessions[key];
     state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, error: true, errorCode: error?.code || 'AI_REQUEST_FAILED' } };
   } finally {
@@ -512,6 +611,7 @@ function quizView(model, passage) {
   const selectedOption = question.options.find((option) => option.id === selectedId);
   const answeredCorrectly = selectedOption?.isCorrect;
   const hasKnownAnswer = question.correctAnswer !== null;
+  const confidence = item.answerMeta?.[question.id]?.confidence;
   const isLastQuestion = index === passage.questions.length - 1;
   return `<main class="quiz-shell">
     ${raseenHeader('النماذج')}
@@ -526,12 +626,12 @@ function quizView(model, passage) {
     ${passage.passageText ? `<section class="passage-reading" lang="en" dir="ltr"><header><span>Passage</span><small>Read the passage, then answer the question</small></header><div>${escapeHtml(passage.passageText).split('\n\n').map((paragraph) => `<p>${paragraph}</p>`).join('')}</div></section>` : ''}
     <section class="quiz-list">
       <article class="quiz-question active-question ${selectedId ? answeredCorrectly ? 'answered-correct' : 'answered-wrong' : ''}">
-        <div class="question-heading"><span>السؤال ${index + 1}</span><small>من ${passage.questions.length}</small><div class="question-tutor-anchor"><button class="question-tutor-trigger" data-tutor-toggle="${question.id}" aria-label="اسأل نباهة" title="اسأل نباهة" aria-haspopup="dialog" aria-expanded="${state.tutorOpen && state.tutorQuestionKey === tutorSessionKey(model, passage, question)}" aria-controls="question-tutor">${tutorSparkleIcon()}</button>${tutorPopover(model, passage, question, selectedOption)}</div></div>
+        <div class="question-heading reading-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${renderQuestionText(question)}</div><div class="question-tutor-anchor"><button class="question-tutor-trigger" data-tutor-toggle="${question.id}" aria-label="اسأل نباهة" title="اسأل نباهة" aria-haspopup="dialog" aria-expanded="${state.tutorOpen && state.tutorQuestionKey === tutorSessionKey(model, passage, question)}" aria-controls="question-tutor">${tutorSparkleIcon()}</button>${tutorPopover(model, passage, question, selectedOption)}</div></div>
         <div class="question-tools">
           <button data-toggle-translation="${question.id}">${state.translationQuestionId === question.id ? 'إخفاء ترجمة الكلمات' : 'ترجمة الكلمات'}</button>
-          ${state.translationQuestionId === question.id && state.translatedWords[question.id] ? `<strong>${escapeHtml(state.translatedWords[question.id])}: ${escapeHtml(wordMeaning(state.translatedWords[question.id]))}</strong>` : '<small>اضغط على أي كلمة إنجليزية في السؤال لمعرفة معناها.</small>'}
+          <small>${state.translationQuestionId === question.id ? 'اضغط على الكلمة لعرض ترجمتها.' : 'فعّل الترجمة لتصبح كل كلمة في السؤال قابلة للضغط.'}</small>
         </div>
-        <h2><span>${question.number}</span><b>${renderQuestionText(question)}</b></h2>
+          <div class="question-heading result-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${renderQuestionText(question)}</div></div>
         <div class="quiz-options">
           ${displayedOptions(question).map((option, optionIndex) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && hasKnownAnswer && option.isCorrect ? 'correct' : ''} ${selectedId && hasKnownAnswer && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}" ${selectedId ? 'disabled' : ''}>
             <span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span>
@@ -539,6 +639,7 @@ function quizView(model, passage) {
           ${answerPending && !question.options.length ? '<div class="pending-answer">مفتاح الإجابة والخيارات قيد المراجعة. يمكنك الانتقال للسؤال التالي.</div>' : ''}
         </div>
         ${selectedId ? answeredCorrectly ? '<p class="answer-note correct-note">صحيح، إجابتك ممتازة.</p>' : `<div class="answer-note wrong-note"><strong>${question.correctAnswer ? `غير صحيح. الحل الصحيح: ${escapeHtml(question.correctAnswer)}` : 'لم تُحدَّد الإجابة الصحيحة في المصدر.'}</strong><p>${escapeHtml(question.explanation)}</p></div>` : ''}
+        ${selectedId && hasKnownAnswer ? `<div class="confidence-check"><span>كيف كانت ثقتك قبل التأكيد؟</span><button data-confidence="certain" class="${confidence === 'certain' ? 'selected' : ''}">متأكد</button><button data-confidence="uncertain" class="${confidence === 'uncertain' ? 'selected' : ''}">غير متأكد</button></div>` : ''}
       </article>
     </section>
     <footer class="quiz-actions">
@@ -581,7 +682,7 @@ function resultView(model, passage) {
         const selected = question.options.find((option) => option.id === selectedId);
         const wasCorrect = selected?.isCorrect;
         return `<article class="quiz-question">
-          <h2><span>${question.number}</span>${escapeHtml(question.question)}</h2>
+          <div class="question-heading result-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${escapeHtml(question.question)}</div></div>
           <div class="quiz-options">
             ${displayedOptions(question).map((option, optionIndex) => `<div class="quiz-option ${question.correctAnswer !== null && option.isCorrect ? 'correct' : ''} ${question.correctAnswer !== null && !option.isCorrect ? 'wrong' : ''}">
               <span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span>
@@ -610,17 +711,20 @@ function currentGrammarModel() {
   return grammarModels.find((model) => model.id === state.selectedGrammarModelId);
 }
 
-function restoreTutorViewport(viewport, scrollTutor) {
+function restoreTutorViewport(viewport, scrollTutor, tutorViewport) {
   requestAnimationFrame(() => {
     if (viewport) window.scrollTo(viewport.x, viewport.y);
-    if (scrollTutor) {
-      const conversation = document.querySelector('.tutor-conversation');
-      if (conversation) conversation.scrollTop = conversation.scrollHeight;
-    }
+    const conversation = document.querySelector('.tutor-conversation');
+    if (!conversation) return;
+    const session = state.tutorSessions[state.tutorQuestionKey];
+    if (scrollTutor || session?.autoScroll !== false) conversation.scrollTop = conversation.scrollHeight;
+    else if (tutorViewport) conversation.scrollTop = Math.min(tutorViewport.scrollTop, conversation.scrollHeight);
   });
 }
 
 function render() {
+  const conversation = document.querySelector('.tutor-conversation');
+  const tutorViewport = conversation ? { scrollTop: conversation.scrollTop } : null;
   const viewport = ['quiz', 'grammar-quiz'].includes(state.view) ? { x: window.scrollX, y: window.scrollY } : null;
   const scrollTutor = state.tutorScrollToEnd;
   state.tutorScrollToEnd = false;
@@ -631,7 +735,7 @@ function render() {
     else if (state.view === 'login') app.innerHTML = loginView();
     else if (state.view === 'register') app.innerHTML = registerView();
     else app.innerHTML = libraryView();
-    restoreTutorViewport(viewport, scrollTutor);
+    restoreTutorViewport(viewport, scrollTutor, tutorViewport);
     return;
   }
   const model = currentModel();
@@ -648,7 +752,7 @@ function render() {
   else if (state.view === 'solutions' && model && passage) app.innerHTML = solutionsView(model, passage);
   else if (state.view === 'result' && model && passage) app.innerHTML = resultView(model, passage);
   else app.innerHTML = libraryView();
-  restoreTutorViewport(viewport, scrollTutor);
+  restoreTutorViewport(viewport, scrollTutor, tutorViewport);
 }
 
 let debounce;
@@ -669,6 +773,18 @@ app.addEventListener('input', (event) => {
     render();
   }, 200);
 });
+
+app.addEventListener('scroll', (event) => {
+  const conversation = event.target.closest?.('.tutor-conversation');
+  if (!conversation || state.tutorQuestionKey === null) return;
+  const session = state.tutorSessions[state.tutorQuestionKey];
+  if (!session?.loading) return;
+  const nearBottom = conversation.scrollHeight - conversation.scrollTop - conversation.clientHeight < 120;
+  if (session.autoScroll === nearBottom) return;
+  state.tutorSessions = { ...state.tutorSessions, [state.tutorQuestionKey]: { ...session, autoScroll: nearBottom } };
+  const latestButton = conversation.parentElement?.querySelector('[data-tutor-latest]');
+  if (latestButton) latestButton.hidden = nearBottom;
+}, true);
 
 app.addEventListener('submit', async (event) => {
   const tutorForm = event.target.closest('[data-tutor-form]');
@@ -773,6 +889,16 @@ app.addEventListener('click', (event) => {
 
   if (event.target.closest('[data-tutor-close]')) {
     state.tutorOpen = false;
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-tutor-latest]')) {
+    const key = state.tutorQuestionKey;
+    const session = state.tutorSessions[key];
+    if (session) state.tutorSessions = { ...state.tutorSessions, [key]: { ...session, autoScroll: true } };
+    const conversation = document.querySelector('.tutor-conversation');
+    if (conversation) conversation.scrollTop = conversation.scrollHeight;
     render();
     return;
   }
@@ -952,7 +1078,7 @@ app.addEventListener('click', (event) => {
     const passage = model?.passages.find((candidate) => candidate.id === passageId);
     if (!model || !passage) return;
     const saved = quizProgress(modelId, passageId);
-    state = { ...state, view: 'quiz', selectedModelId: modelId, selectedPassageId: passageId, questionIndex: Math.min(saved.currentQuestionIndex ?? 0, Math.max(0, passage.questions.length - 1)), translationQuestionId: null, activeAnswers: { ...(saved.answers ?? {}) }, restoredProgress: true, tutorOpen: false, tutorQuestionKey: null };
+    state = { ...state, view: 'quiz', selectedModelId: modelId, selectedPassageId: passageId, questionIndex: Math.min(saved.currentQuestionIndex ?? 0, Math.max(0, passage.questions.length - 1)), questionStartedAt: Date.now(), translationQuestionId: null, activeAnswers: { ...(saved.answers ?? {}) }, restoredProgress: true, tutorOpen: false, tutorQuestionKey: null };
     render();
     return;
   }
@@ -966,7 +1092,7 @@ app.addEventListener('click', (event) => {
 
   const passageButton = event.target.closest('[data-open-passage]');
   if (passageButton) {
-    state = { ...state, view: 'quiz', selectedPassageId: passageButton.dataset.openPassage, questionIndex: 0, translationQuestionId: null, activeAnswers: {}, restoredProgress: false, tutorOpen: false, tutorQuestionKey: null };
+    state = { ...state, view: 'quiz', selectedPassageId: passageButton.dataset.openPassage, questionIndex: 0, questionStartedAt: Date.now(), translationQuestionId: null, activeAnswers: {}, restoredProgress: false, tutorOpen: false, tutorQuestionKey: null };
     const passage = currentPassage();
     const saved = quizProgress(state.selectedModelId, passage.id);
     setQuizProgress(state.selectedModelId, passage.id, { ...saved, status: saved.status === 'completed' ? 'completed' : 'in-progress' });
@@ -1005,12 +1131,33 @@ app.addEventListener('click', (event) => {
     const option = question?.options.find((candidate) => candidate.id === optionButton.dataset.option);
     const answers = { ...(state.activeAnswers ?? {}), [optionButton.dataset.question]: optionButton.dataset.option };
     state.activeAnswers = answers;
+    const now = new Date().toISOString();
+    const seconds = Math.max(1, Math.round((Date.now() - (state.questionStartedAt || Date.now())) / 1000));
+    const answerMeta = { ...(item.answerMeta ?? {}), [question.id]: { ...(item.answerMeta?.[question.id] ?? {}), answeredAt: now, seconds, skill: inferReadingSkill(question) } };
     const mistakes = [...(item.mistakes ?? [])];
-    if (question?.correctAnswer !== null && option && !option.isCorrect && !mistakes.some((mistake) => mistake.questionId === question.id && mistake.attempt === state.questionIndex)) {
-      mistakes.push({ questionId: question.id, optionId: option.id, attempt: state.questionIndex, createdAt: new Date().toISOString() });
+    const mistakeIndex = mistakes.findIndex((mistake) => mistake.questionId === question.id);
+    if (question?.correctAnswer !== null && option && !option.isCorrect && mistakeIndex === -1) {
+      mistakes.push({ questionId: question.id, optionId: option.id, attempt: state.questionIndex, createdAt: now, reason: inferMistakeReason(question, seconds), reviewAt: addDays(now, 2), reviewStage: 1, correctReviews: 0, mastered: false });
+    } else if (question?.correctAnswer !== null && option?.isCorrect && mistakeIndex >= 0) {
+      const previous = mistakes[mistakeIndex];
+      const correctReviews = Number(previous.correctReviews ?? 0) + 1;
+      mistakes[mistakeIndex] = { ...previous, correctReviews, reviewStage: correctReviews >= 2 ? 3 : 2, reviewAt: correctReviews >= 2 ? null : addDays(now, 7), mastered: correctReviews >= 2, lastReviewedAt: now };
     }
-    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, mistakes, status: 'in-progress', currentQuestionIndex: state.questionIndex });
+    const activityDates = [...new Set([...(item.activityDates ?? []), dateKey(now)])];
+    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, answerMeta, activityDates, mistakes, status: 'in-progress', currentQuestionIndex: state.questionIndex });
     soundManager.play(option?.isCorrect ? 'answer-correct' : 'answer-wrong');
+    render();
+    return;
+  }
+
+  const confidenceButton = event.target.closest('[data-confidence]');
+  if (confidenceButton) {
+    const item = quizProgress(state.selectedModelId, state.selectedPassageId);
+    const passage = currentPassage();
+    const question = passage?.questions[state.questionIndex];
+    if (!question || !item.answerMeta?.[question.id]) return;
+    const answerMeta = { ...(item.answerMeta ?? {}), [question.id]: { ...item.answerMeta[question.id], confidence: confidenceButton.dataset.confidence } };
+    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answerMeta });
     render();
     return;
   }
@@ -1028,6 +1175,7 @@ app.addEventListener('click', (event) => {
       const nextIndex = state.questionIndex + 1;
       setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'in-progress', currentQuestionIndex: nextIndex });
       state.questionIndex = nextIndex;
+      state.questionStartedAt = Date.now();
       state.translationQuestionId = null;
       state.tutorOpen = false;
       state.tutorQuestionKey = null;
@@ -1039,6 +1187,7 @@ app.addEventListener('click', (event) => {
   if (event.target.closest('[data-previous-question]')) {
     if (state.questionIndex <= 0) return;
     state.questionIndex -= 1;
+    state.questionStartedAt = Date.now();
     state.translationQuestionId = null;
     state.tutorOpen = false;
     state.tutorQuestionKey = null;
@@ -1050,6 +1199,7 @@ app.addEventListener('click', (event) => {
     setQuizProgress(state.selectedModelId, state.selectedPassageId, { answers: {}, status: 'not-started', currentQuestionIndex: 0 });
     state.view = 'quiz';
     state.questionIndex = 0;
+    state.questionStartedAt = Date.now();
     state.translationQuestionId = null;
     state.activeAnswers = {};
     state.restoredProgress = false;
@@ -1064,6 +1214,7 @@ app.addEventListener('click', (event) => {
     const passage = currentPassage();
     state.activeAnswers = { ...(item.answers ?? {}) };
     state.questionIndex = Math.min(item.currentQuestionIndex ?? 0, passage.questions.length - 1);
+    state.questionStartedAt = Date.now();
     state.translationQuestionId = null;
     state.restoredProgress = true;
     render();

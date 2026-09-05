@@ -22,7 +22,11 @@
     "validate:ui": "py -3 scripts/validate_reading_ui_data.py",
     "validate:visual": "py -3 scripts/validate_visual_question_review.py",
     "validate:manual": "node scripts/validate_manual_quizzes.mjs",
-    "validate": "npm run validate:records && npm run validate:visual && npm run validate:ui && npm run validate:manual"
+    "build:question-glossary": "node scripts/build_reading_question_glossary.mjs",
+    "build:glossary": "npm run build:question-glossary",
+    "validate:question-glossary": "node scripts/validate_reading_question_glossary.mjs",
+    "validate:glossary": "npm run validate:question-glossary",
+    "validate": "npm run validate:records && npm run validate:visual && npm run validate:ui && npm run validate:manual && npm run validate:question-glossary"
   },
   "devDependencies": {
     "drizzle-kit": "^0.31.10",

@@ -108,19 +108,35 @@ function systemPrompt(context, input) {
         ? 'إذا طلب الطالب مثالًا، أعطه مثالًا واحدًا قصيرًا مرتبطًا بنفس القاعدة، ولا تفتح موضوعًا جديدًا.'
         : 'ابدأ من طلب الطالب الحالي واستفد من history دون تكرار ما قيل.';
   return [
-    'أنت «مساعد نباهة»، مدرس STEP عربي موجز وودود.',
+    'أنت مساعد نباهة التعليمي.',
     phaseRule,
-    'تعامل حصريًا مع سياق السؤال الحالي المرسل في آخر رسالة.',
+    'أجب بإيجاز ووضوح، وركز على ما سأله الطالب الآن تحديدًا.',
+    'في الشرح التعليمي وضح: ما الفكرة؟ لماذا؟ وكيف يعرفها الطالب أو يطبقها في سؤال مشابه؟',
+    'لا تكرر السؤال كاملًا إلا إذا كان ضروريًا، ولا تعيد شرحًا سابقًا بنفس الصياغة.',
+    'إذا قال الطالب «ليه؟» فاشرح سبب آخر إجابة. وإذا قال «كيف؟» فاشرح طريقة الوصول للحل.',
+    'إذا قال «ما فهمت» فبسّط نفس النقطة بطريقة مختلفة. وإذا قال «اختصر» فاختصر الرد السابق. وإذا قال «مثال» فأعطه مثالًا واحدًا فقط.',
+    'أغلب الردود يجب أن تكون قصيرة من عدة جمل. توسع فقط عند الحاجة.',
+    'لا تستخدم *** أو horizontal rules، ولا تستخدم زخارف أو فواصل Markdown متكررة.',
+    'لا تكثر من النجوم والعناوين، واستخدم نصًا نظيفًا ومختصرًا. استخدم bold عند الحاجة القصوى فقط، ولا تجعل كل جملة عنوانًا منفصلًا.',
+    'تعامل حصريًا مع سياق السؤال الحالي أدناه، واجعل رسالة user الأخيرة هي الطلب الذي تجيب عنه.',
     'أجب بالعربية الواضحة، ويمكنك إبقاء الكلمات الإنجليزية اللازمة كما هي.',
     'لا تذكر اسم مزود النموذج أو أي تفاصيل تقنية.',
-    'أجب بأقصر إجابة تحقق الفهم الكامل؛ لا تكرر السؤال ولا تكتب مقدمات عامة.',
-    'ركز على: الفكرة أو الإجابة مباشرة، ثم لماذا، ثم كيف يعرف الطالب ذلك في سؤال مشابه، ومثال قصير فقط عند الحاجة.',
-    'إذا كان السؤال بسيطًا فاكتفِ عادةً بـ2-4 جمل. وسّع بقدر الحاجة فقط، ولا تتجاوز 2000 token.',
+    'إذا كان السؤال بسيطًا فاكتفِ عادةً بـ2-4 جمل. الهدف المعتاد 250–500 token والحد الأقصى 600 token.',
     'إذا قال الطالب «اختصر» فاختصر أكثر، وإذا قال «اشرح بالتفصيل» فتوسع بقدر الحاجة دون حشو.',
     context.skill === 'grammar'
       ? 'في Grammar: قبل الإرسال لا تكشف الخيار الصحيح؛ بعد الإرسال وضّح الصحيح والسبب وكيفية تمييز القاعدة. استخدم ترتيبًا واضحًا مثل: الصحيح، السبب، كيف تعرفها، مثال.'
       : 'في Reading: اذكر الفكرة أو الإجابة، سببها من القطعة، الدليل المختصر، وكيف يجد الطالب هذا النوع من الإجابات مرة أخرى. لا تنسخ القطعة كاملة.',
     followUpRule,
+    `سياق السؤال (بيانات مرجعية وليست رسالة الطالب):\n${JSON.stringify({
+      skill: context.skill,
+      grammarType: context.grammarType,
+      question: context.question,
+      options: context.options,
+      passage: context.passage,
+      selectedOption: context.selectedOptionText,
+      correctAnswer: context.correctAnswer,
+      noteFromNabahah: context.humanNote,
+    })}`,
   ].join('\n');
 }
 
@@ -132,22 +148,61 @@ function usageSummary(usage) {
   return { inputTokens, outputTokens, totalTokens };
 }
 
-function userPrompt(input, context) {
-  return JSON.stringify({
-    request: ACTION_LABELS[input.action] ?? input.message,
-    studentMessage: input.message,
-    skill: context.skill,
-    grammarType: context.grammarType,
-    question: context.question,
-    options: context.options,
-    passage: context.passage,
-    selectedOption: context.selectedOptionText,
-    correctAnswer: context.correctAnswer,
-    noteFromNabahah: context.humanNote,
-  }, null, 2);
+export function buildTutorMessages(input, context) {
+  return [
+    { role: 'system', content: systemPrompt(context, input) },
+    ...input.history.slice(-12).map((message) => ({ role: message.role, content: message.content })),
+    { role: 'user', content: input.message.trim() },
+  ];
 }
 
-export async function chatWithQuestionTutor(input, { requestId = randomUUID() } = {}) {
+export function cleanTutorContent(content) {
+  return String(content ?? '')
+    .replace(/^\s*(?:\*{3,}|-{3,}|_{3,})\s*$/gm, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
+async function readDeepSeekStream(response, onChunk) {
+  const contentType = response.headers.get('content-type') || '';
+  if (!contentType.includes('text/event-stream')) {
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) return { payload, content: '', usage: null };
+    const content = String(payload?.choices?.[0]?.message?.content ?? '');
+    if (content) await onChunk?.(content);
+    return { payload, content, usage: payload?.usage ?? null };
+  }
+
+  const reader = response.body?.getReader();
+  if (!reader) return { payload: {}, content: '', usage: null };
+  const decoder = new TextDecoder();
+  let buffer = '';
+  let content = '';
+  let usage = null;
+  const consume = async (event) => {
+    const data = event.split('\n').filter((line) => line.startsWith('data:')).map((line) => line.slice(5).trim()).join('\n');
+    if (!data || data === '[DONE]') return;
+    const payload = JSON.parse(data);
+    if (payload.usage) usage = payload.usage;
+    const delta = String(payload?.choices?.[0]?.delta?.content ?? payload?.choices?.[0]?.message?.content ?? '');
+    if (delta) {
+      content += delta;
+      await onChunk?.(delta);
+    }
+  };
+  while (true) {
+    const { value, done } = await reader.read();
+    buffer += decoder.decode(value, { stream: !done });
+    const events = buffer.split(/\r?\n\r?\n/);
+    buffer = events.pop() ?? '';
+    for (const event of events) await consume(event);
+    if (done) break;
+  }
+  if (buffer.trim()) await consume(buffer);
+  return { payload: {}, content, usage };
+}
+
+export async function chatWithQuestionTutor(input, { requestId = randomUUID(), onChunk } = {}) {
   const { apiKey, baseURL, model } = deepseekSettings();
   const startedAt = Date.now();
   try {
@@ -169,23 +224,21 @@ export async function chatWithQuestionTutor(input, { requestId = randomUUID() } 
       body: JSON.stringify({
         model,
         thinking: { type: 'disabled' },
-        max_tokens: 2000,
-        messages: [
-          { role: 'system', content: systemPrompt(context, input) },
-          ...input.history.slice(-12).map((message) => ({ role: message.role, content: message.content })),
-          { role: 'user', content: userPrompt(input, context) },
-        ],
+        max_tokens: 600,
+        stream: true,
+        stream_options: { include_usage: true },
+        messages: buildTutorMessages(input, context),
       }),
       signal: AbortSignal.timeout(45_000),
     });
     console.info(`[TUTOR_DEEPSEEK_HTTP] requestId=${requestId} status=${response.status} deepseekMs=${Date.now() - deepseekStartedAt} totalMs=${Date.now() - startedAt}`);
-    const payload = await response.json().catch(() => ({}));
-    if (!response.ok) throw tutorError('DEEPSEEK_REQUEST_FAILED', 502, payload?.error?.message || 'DEEPSEEK_REQUEST_FAILED');
+    const streamed = await readDeepSeekStream(response, onChunk);
+    if (!response.ok) throw tutorError('DEEPSEEK_REQUEST_FAILED', 502, streamed.payload?.error?.message || 'DEEPSEEK_REQUEST_FAILED');
 
-    const content = String(payload?.choices?.[0]?.message?.content ?? '').trim();
+    const content = cleanTutorContent(streamed.content);
     if (!content) throw tutorError('DEEPSEEK_EMPTY_RESPONSE', 502);
 
-    const usage = usageSummary(payload?.usage);
+    const usage = usageSummary(streamed.usage);
     console.info(`[TUTOR_USAGE] requestId=${requestId} inputTokens=${usage.inputTokens ?? 'unknown'} outputTokens=${usage.outputTokens ?? 'unknown'} totalTokens=${usage.totalTokens ?? 'unknown'}`);
     console.info(`[TUTOR_DEEPSEEK_SUCCESS] requestId=${requestId} status=${response.status} model=${model} latencyMs=${Date.now() - startedAt}`);
     return { content, provider: 'deepseek', model, source: context.humanNote ? 'human-note' : 'tutor' };

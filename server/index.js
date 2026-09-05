@@ -88,9 +88,15 @@ export const server = http.createServer(async (req, res) => {
       if (req.method !== 'POST') return json(res, 405, { error: 'Method Not Allowed', code: 'METHOD_NOT_ALLOWED' });
       console.info(`[TUTOR_INCOMING_REQUEST] requestId=${requestId} method=POST origin=${req.headers.origin ?? 'same-origin'}`);
       const payload = questionTutorSchema.parse(await body(req));
-      const result = await chatWithQuestionTutor(payload, { requestId });
-      json(res, 200, result);
-      console.info(`[TUTOR_RESPONSE_SENT] requestId=${requestId} status=200`);
+      res.statusCode = 200;
+      res.setHeader('content-type', 'text/event-stream; charset=utf-8');
+      res.setHeader('cache-control', 'no-cache, no-transform');
+      res.setHeader('connection', 'keep-alive');
+      const write = (event) => res.write(`data: ${JSON.stringify(event)}\n\n`);
+      const result = await chatWithQuestionTutor(payload, { requestId, onChunk: async (content) => write({ type: 'delta', content }) });
+      write({ type: 'done', ...result });
+      res.end();
+      console.info(`[TUTOR_RESPONSE_SENT] requestId=${requestId} status=200 streaming=true`);
       return;
     }
     if (url.pathname === '/api/auth' || url.pathname.startsWith('/api/auth/')) return getAuthHandler()(req, res);

@@ -27,41 +27,59 @@ export class ApiQuestionTutorProvider extends QuestionTutorProvider {
   }
 
   /** @param {QuestionTutorInput} input */
-  async chat(input) {
+  async chat(input, _options = {}) {
     try {
       const response = await fetch(this.endpoint, {
         method: 'POST',
         credentials: 'include',
-        headers: { 'content-type': 'application/json', accept: 'application/json' },
+        headers: { 'content-type': 'application/json', accept: 'text/event-stream' },
         body: JSON.stringify(input),
         // Temporary diagnostic window: keep this above the Render -> DeepSeek
         // timeout so the backend stage can be measured without masking it.
         signal: AbortSignal.timeout(50_000),
       });
-      const payload = await response.json().catch(() => ({}));
       if (!response.ok) {
+        const payload = await response.json().catch(() => ({}));
         const error = new Error(payload.error || 'تعذر الوصول إلى مساعد نباهة');
         error.code = payload.code || payload.error;
         error.status = response.status;
         throw error;
       }
-      if (payload.provider !== 'deepseek') {
-        const error = new Error('AI_PROVIDER_UNAVAILABLE');
-        error.code = 'AI_PROVIDER_UNAVAILABLE';
-        throw error;
-      }
-      const content = String(payload.content ?? '').trim();
-      if (!content) {
-        const error = new Error('AI_EMPTY_RESPONSE');
-        error.code = 'AI_EMPTY_RESPONSE';
-        throw error;
-      }
-      return {
-        content,
-        provider: payload.provider,
-        model: payload.model,
-        source: payload.source === 'human-note' ? 'human-note' : 'tutor',
+      const reader = response.body?.getReader();
+      if (!reader) throw Object.assign(new Error('AI_EMPTY_RESPONSE'), { code: 'AI_EMPTY_RESPONSE' });
+      const onChunk = _options.onChunk;
+      const decoder = new TextDecoder();
+      let buffer = '';
+      let content = '';
+      let result = {};
+      const consume = async (event) => {
+        const data = event.split(/\r?\n/).filter((line) => line.startsWith('data:')).map((line) => line.slice(5).trim()).join('\n');
+        if (!data || data === '[DONE]') return;
+        const payload = JSON.parse(data);
+        if (payload.type === 'error') {
+          const error = new Error(payload.error || 'تعذر الوصول إلى مساعد نباهة');
+          error.code = payload.code || 'AI_REQUEST_FAILED';
+          throw error;
+        }
+        if (payload.type === 'delta') {
+          const delta = String(payload.content ?? '');
+          content += delta;
+          await onChunk?.(delta);
+        }
+        if (payload.type === 'done') result = payload;
       };
+      while (true) {
+        const { value, done } = await reader.read();
+        buffer += decoder.decode(value, { stream: !done });
+        const events = buffer.split(/\r?\n\r?\n/);
+        buffer = events.pop() ?? '';
+        for (const event of events) await consume(event);
+        if (done) break;
+      }
+      if (buffer.trim()) await consume(buffer);
+      if (result.provider !== 'deepseek') throw Object.assign(new Error('AI_PROVIDER_UNAVAILABLE'), { code: 'AI_PROVIDER_UNAVAILABLE' });
+      if (!content.trim()) throw Object.assign(new Error('AI_EMPTY_RESPONSE'), { code: 'AI_EMPTY_RESPONSE' });
+      return { content: content.trim(), provider: result.provider, model: result.model, source: result.source === 'human-note' ? 'human-note' : 'tutor' };
     } catch (error) {
       if (error?.name === 'TimeoutError' || error?.name === 'AbortError') {
         const timeoutError = new Error('AI_TIMEOUT');
