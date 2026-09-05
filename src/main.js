@@ -251,7 +251,8 @@ function dashboardSectionView(section) {
     content = `<section class="dashboard-panel exams-panel"><header class="panel-heading"><div><span class="eyebrow">اختبارات STEP</span><h2>ابدأ اختبارًا جديدًا</h2></div></header><p class="muted-copy">اختر أي نموذج قراءة متاح وابدأ بمحاولة منظمة. تحفظ نباهة إجاباتك لتعود إليها لاحقًا.</p><button class="navy-action" data-models-scroll>استعرض النماذج <span>←</span></button></section>`;
   } else if (section === 'settings') {
     const soundSettings = soundManager.getSettings();
-    content = `<section class="dashboard-panel settings-panel"><header class="panel-heading"><div><span class="eyebrow">تجربة هادئة</span><h2>أصوات التفاعل</h2></div><span class="settings-state ${soundSettings.enabled ? 'on' : 'off'}">${soundSettings.enabled ? 'مفعّلة' : 'متوقفة'}</span></header><p class="muted-copy">نغمات قصيرة وناعمة أثناء التدريب فقط. صوت Listening مستقل تمامًا عن أصوات الواجهة.</p><div class="sound-setting-row"><div><strong>أصوات التفاعل</strong><span>اختيار، إجابة صحيحة أو خاطئة، والانتقال بين الأسئلة</span></div><button class="sound-toggle ${soundSettings.enabled ? 'is-on' : ''}" data-toggle-sounds aria-pressed="${soundSettings.enabled}">${soundSettings.enabled ? 'تشغيل' : 'إيقاف'}</button></div><div class="sound-volume-note"><span>المستوى الافتراضي</span><strong>${Math.round(soundSettings.volume * 100)}%</strong><small>أخفض بوضوح من مستوى Listening</small></div></section>`;
+    const soundPercent = (value) => Math.round(value * 100);
+    content = `<section class="dashboard-panel settings-panel"><header class="panel-heading"><div><span class="eyebrow">تجربة هادئة</span><h2>الصوت</h2></div><span class="settings-state ${soundSettings.enabled ? 'on' : 'off'}">${soundSettings.enabled ? 'مفعّلة' : 'متوقفة'}</span></header><p class="muted-copy">تحكم في كل مستوى بشكل مستقل. التغيير يُحفظ على هذا الجهاز ويُطبّق فورًا.</p><div class="sound-setting-row"><div><strong>🔊 أصوات التفاعل</strong><span>اختيار الإجابة، الصحيح والخطأ، الانتقال والإنجاز</span></div><button class="sound-toggle ${soundSettings.enabled ? 'is-on' : ''}" data-toggle-sounds aria-pressed="${soundSettings.enabled}">${soundSettings.enabled ? 'تشغيل' : 'إيقاف'}</button></div><div class="sound-controls"><label class="sound-control"><span><strong>أصوات التفاعل</strong><output data-sound-value="volume">${soundPercent(soundSettings.volume)}%</output></span><input type="range" min="0" max="100" step="5" value="${soundPercent(soundSettings.volume)}" data-sound-slider="volume" aria-label="مستوى أصوات التفاعل"></label><label class="sound-control"><span><strong>صوت الاستماع</strong><output data-sound-value="listeningVolume">${soundPercent(soundSettings.listeningVolume)}%</output></span><input type="range" min="0" max="100" step="5" value="${soundPercent(soundSettings.listeningVolume)}" data-sound-slider="listeningVolume" aria-label="مستوى صوت الاستماع"></label></div><button class="outline-action sound-test-button" data-sound-test ${soundSettings.enabled ? '' : 'disabled'}>تشغيل صوت تجريبي</button><small class="sound-settings-hint">الصحيح والخطأ أوضح، والانتقال أخف حتى يبقى التدريب مريحًا.</small></section>`;
   } else {
     content = `<div class="dashboard-empty"><strong>هذا القسم قيد التجهيز</strong><p>ستتم إضافة المحتوى المعتمد إلى هذا القسم قريبًا. يمكنك متابعة نماذج القراءة المتاحة الآن.</p><button class="orange-action" data-models-scroll>استكشف القراءة</button></div>`;
   }
@@ -652,6 +653,15 @@ function render() {
 
 let debounce;
 app.addEventListener('input', (event) => {
+  const soundSlider = event.target.closest('[data-sound-slider]');
+  if (soundSlider) {
+    const setting = soundSlider.dataset.soundSlider;
+    const value = Math.max(0, Math.min(100, Number(soundSlider.value))) / 100;
+    soundManager.updateSettings({ [setting]: value });
+    const output = soundSlider.closest('.sound-control')?.querySelector('[data-sound-value]');
+    if (output) output.textContent = `${Math.round(value * 100)}%`;
+    return;
+  }
   if (event.target.id !== 'search') return;
   clearTimeout(debounce);
   debounce = setTimeout(() => {
@@ -826,6 +836,11 @@ app.addEventListener('click', (event) => {
   if (event.target.closest('[data-toggle-sounds]')) {
     soundManager.updateSettings({ enabled: !soundManager.getSettings().enabled });
     render();
+    return;
+  }
+
+  if (event.target.closest('[data-sound-test]')) {
+    soundManager.play('answer-correct');
     return;
   }
 

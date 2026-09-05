@@ -6,7 +6,15 @@
  */
 
 const SETTINGS_KEY = 'nabahah-sound-settings-v1';
-const defaultSettings = { enabled: true, volume: 0.24, listeningVolume: 1 };
+const defaultSettings = { enabled: true, volume: 0.50, listeningVolume: 0.50 };
+export const SOUND_LEVELS = Object.freeze({
+  'option-select': 0.30,
+  'question-next': 0.35,
+  'answer-correct': 0.75,
+  'answer-wrong': 0.65,
+  'exercise-complete': 0.80,
+  achievement: 0.85,
+});
 const soundDurations = {
   'option-select': 0.07,
   'question-next': 0.12,
@@ -17,8 +25,21 @@ const soundDurations = {
 };
 
 function readSettings() {
-  try { return { ...defaultSettings, ...(JSON.parse(localStorage.getItem(SETTINGS_KEY)) ?? {}) }; } catch { return { ...defaultSettings }; }
+  try {
+    const saved = JSON.parse(localStorage.getItem(SETTINGS_KEY));
+    return normalizeSettings(saved && typeof saved === 'object' ? { ...defaultSettings, ...saved } : defaultSettings);
+  } catch { return { ...defaultSettings }; }
 }
+
+const clamp = (value, fallback) => {
+  const number = Number(value);
+  return Number.isFinite(number) ? Math.max(0, Math.min(1, number)) : fallback;
+};
+const normalizeSettings = (settings) => ({
+  enabled: settings.enabled !== false,
+  volume: clamp(settings.volume, defaultSettings.volume),
+  listeningVolume: clamp(settings.listeningVolume, defaultSettings.listeningVolume),
+});
 
 class SoundManager {
   constructor() {
@@ -27,16 +48,44 @@ class SoundManager {
     this.activeNodes = [];
     this.preloaded = false;
     this.audioFiles = new Map();
+    this.listeningAudios = new Set();
     this.reducedMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
   }
 
   getSettings() { return { ...this.settings }; }
 
   updateSettings(update) {
-    this.settings = { ...this.settings, ...update, volume: Math.max(0, Math.min(1, Number(update.volume ?? this.settings.volume))) };
+    this.settings = normalizeSettings({ ...this.settings, ...update });
     localStorage.setItem(SETTINGS_KEY, JSON.stringify(this.settings));
     if (!this.settings.enabled) this.stop();
+    else this.audioFiles.forEach((audio, type) => { audio.volume = this.fileVolume(type); });
+    this.listeningAudios.forEach((audio) => { audio.volume = this.settings.listeningVolume; });
+    this.activeNodes.forEach(({ gain, type }) => {
+      const now = this.context?.currentTime ?? 0;
+      const level = this.gainLevel(type);
+      try { gain.gain.setTargetAtTime(Math.max(0.0001, level), now, 0.01); } catch { /* already stopped */ }
+    });
     return this.getSettings();
+  }
+
+  fileVolume(type) { return Math.min(1, this.settings.volume * (SOUND_LEVELS[type] ?? SOUND_LEVELS['option-select'])); }
+  gainLevel(type) { return this.settings.volume * (SOUND_LEVELS[type] ?? SOUND_LEVELS['option-select']) * 0.30; }
+
+  /** Apply the independent Listening level to an HTMLAudioElement. */
+  applyListeningVolume(audio) {
+    if (audio) {
+      audio.volume = this.settings.listeningVolume;
+      this.listeningAudios.add(audio);
+      audio.addEventListener?.('ended', () => this.listeningAudios.delete(audio), { once: true });
+    }
+    return audio;
+  }
+
+  /** Create a listening audio element without coupling it to UI feedback volume. */
+  createListeningAudio(src) {
+    const audio = new Audio(src);
+    audio.preload = 'metadata';
+    return this.applyListeningVolume(audio);
   }
 
   async preload() {
@@ -79,7 +128,7 @@ class SoundManager {
     this.stop();
     const file = this.audioFiles.get(type);
     if (file) {
-      file.volume = this.settings.volume;
+      file.volume = this.fileVolume(type);
       file.currentTime = 0;
       file.play().catch(() => {});
       return;
@@ -101,12 +150,12 @@ class SoundManager {
       oscillator.type = wave;
       oscillator.frequency.setValueAtTime(frequency, start);
       gain.gain.setValueAtTime(0.0001, start);
-      gain.gain.exponentialRampToValueAtTime(Math.max(0.012, this.settings.volume * 0.22), start + 0.012);
+      gain.gain.exponentialRampToValueAtTime(Math.max(0.0001, this.gainLevel(type)), start + 0.012);
       gain.gain.exponentialRampToValueAtTime(0.0001, start + length);
       oscillator.connect(gain).connect(this.context.destination);
       oscillator.start(start);
       oscillator.stop(start + length + 0.03);
-      nodes.push({ oscillator, gain });
+      nodes.push({ oscillator, gain, type });
     });
     this.activeNodes = nodes;
     window.setTimeout(() => { this.activeNodes = this.activeNodes.filter((node) => nodes.includes(node) === false); }, soundDurations[type] * 1000 + 100);
