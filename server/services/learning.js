@@ -80,7 +80,7 @@ export async function getDashboard(user) {
     COUNT(*) FILTER (WHERE status='in_progress')::int AS in_progress_attempts,
     MAX(last_activity_at) AS last_activity
     FROM attempts WHERE user_id=${userId}`);
-  const [mistakes] = await db.execute(sql`SELECT COUNT(*)::int AS count FROM user_mistakes WHERE user_id=${userId} AND status <> 'mastered'`);
+  const [mistakes] = await db.execute(sql`SELECT COUNT(*)::int AS count FROM user_mistakes WHERE user_id=${userId} AND status NOT IN ('mastered','dismissed')`);
   return { overall: { completedAttempts: summary?.completed_attempts ?? 0, correctAnswers: summary?.correct_answers ?? 0, wrongAnswers: summary?.wrong_answers ?? 0, inProgressAttempts: summary?.in_progress_attempts ?? 0 }, unreviewedMistakes: mistakes?.count ?? 0, lastActivity: summary?.last_activity ?? null };
 }
 
@@ -109,7 +109,7 @@ export async function saveSourceAnswer(user, { skill = 'reading', questionSource
   if (!question) throw Object.assign(new Error('Question not found'), { status: 404 });
   const selected = selectedIndex === null || selectedIndex === undefined
     ? selectedAnswer
-    : (await db.select().from(questionOptions).where(and(eq(questionOptions.questionId, question.id), eq(questionOptions.optionOrder, selectedIndex))).limit(1))[0]?.value ?? null;
+    : (await db.select().from(questionOptions).where(and(eq(questionOptions.questionId, question.id), eq(questionOptions.optionOrder, selectedIndex + (skill === 'reading' ? 1 : 0)))).limit(1))[0]?.value ?? null;
   let [attempt] = await db.select().from(attempts).where(and(eq(attempts.userId, identity(user)), eq(attempts.skill, skill), question.modelId ? eq(attempts.modelId, question.modelId) : sql`TRUE`, question.pieceId ? eq(attempts.pieceId, question.pieceId) : sql`TRUE`, eq(attempts.status, 'in_progress'))).orderBy(desc(attempts.lastActivityAt)).limit(1);
   if (!attempt) {
     [attempt] = await db.insert(attempts).values({ userId: identity(user), skill, modelId: question.modelId, pieceId: question.pieceId, mode: 'practice', totalQuestions: totalQuestions || 0, status: 'in_progress' }).returning();

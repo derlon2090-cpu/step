@@ -60,6 +60,9 @@ const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
 const brandLogo = (variant = 'default') => `<img class="brand-image ${variant === 'light' ? 'brand-image-light' : ''}" src="/assets/nabahah-logo.png" alt="نباهة" />`;
+const NIBRAS_BRAND = { name: 'نِبراس', slug: 'nibras', subtitle: 'يساعدك في هذا السؤال فقط', tooltip: 'اسأل نِبراس', logo: '/assets/nibras-mark.png' };
+const nibrasLogo = (className = 'nibras-logo') => `<img class="${className}" src="${NIBRAS_BRAND.logo}" alt="" aria-hidden="true" />`;
+const nibrasizeTutorMarkup = (markup) => markup.replaceAll('اسأل نباهة', 'اسأل نِبراس').replaceAll('مساعد نباهة', NIBRAS_BRAND.name);
 const dashboardBrandLogo = () => `<span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 44 38" focusable="false"><path d="M22 35C19 27 11 22 3 21v13h19Zm0 0c3-8 11-13 19-14v13H22ZM22 35V14c0-7 5-11 12-13v14c0 6-5 10-12 20ZM22 14C18 7 13 3 6 1v14c0 6 5 10 16 20Z"/></svg></span><span class="brand-word">نباهة</span>`;
 const normalizeArabic = (value = '') => String(value).toLowerCase().replace(/[أإآ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه').replace(/[ً-ْ]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 const modelNumber = (model) => String(model.order).padStart(2, '0');
@@ -321,6 +324,19 @@ function dashboardModelsView() {
   return `<main class="dashboard-shell dashboard-models-shell">${dashboardHeader('reading')}<header class="dashboard-page-heading"><div><span>مكتبة التدريب</span><h1>نماذج القراءة</h1><p>اختر النموذج للوصول إلى قطعه واختباراته.</p></div><button class="outline-action" data-dashboard>لوحة التحكم</button></header><section class="models-section dashboard-models-section"><section class="toolbar" aria-label="أدوات النماذج"><label class="search"><span>⌕</span><input id="search" value="${escapeHtml(state.query)}" placeholder="ابحث برقم النموذج أو اسم القطعة" /></label></section><section class="reading-grid">${filtered.map((model) => `<button class="reading-card ${model.passages.length ? '' : 'locked'}" data-open-model="${model.id}"><span class="reading-number">${modelNumber(model)}</span><span class="reading-title">${escapeHtml(model.title)}</span><span class="reading-meta">${model.passages.length ? `${model.passages.length} قطع داخلية` : 'بانتظار الإضافة'}</span><span class="reading-status ${model.passages.length ? 'in-progress' : 'not-started'}">${model.passages.length ? 'جاهز للاختبار' : 'غير مضاف'}</span></button>`).join('')}</section></section></main>`;
 }
 
+function renderMistakeSurface() {
+  const source = serverMistakesLoaded ? serverMistakes : [];
+  const labels = { reading: 'القراءة', grammar: 'القواعد', listening: 'الاستماع' };
+  const skills = Object.keys(labels);
+  const activeSkill = state.mistakeSkill && labels[state.mistakeSkill] ? state.mistakeSkill : null;
+  const selected = state.mistakeReviewId ? source.find((mistake) => mistake.id === state.mistakeReviewId) : null;
+  if (!activeSkill) return `<section class="mistake-category-grid">${skills.map((skill) => `<button class="mistake-category-card" data-mistake-skill="${skill}"><span>${labels[skill]}</span><strong>${source.filter((mistake) => mistake.skill === skill).length}</strong><small>سؤالًا · راجع أخطاءك ←</small></button>`).join('')}</section><p class="mistakes-total">الإجمالي <strong>${source.length}</strong> سؤالًا</p>`;
+  const items = source.filter((mistake) => mistake.skill === activeSkill);
+  const list = items.length ? `<div class="dashboard-mistakes-list">${items.map((mistake) => `<article class="dashboard-mistake-card"><span class="mistake-meta">سؤال · ${mistake.mistakeCount} ${mistake.mistakeCount === 1 ? 'مرة' : 'مرات'}</span><h3 dir="ltr">${escapeHtml(mistake.questionText)}</h3><p>آخر خطأ: ${mistake.lastSeenAt ? new Date(mistake.lastSeenAt).toLocaleDateString('ar-SA') : '—'}</p><button data-review-mistake="${mistake.id}">مراجعة السؤال</button><button class="mistake-dismiss-action" data-dismiss-mistake="${mistake.id}">إزالة من أخطائي</button></article>`).join('')}</div>` : '<div class="dashboard-empty"><strong>لا توجد أخطاء في هذا القسم</strong><p>ستظهر هنا الإجابات الخاطئة المحفوظة في حسابك.</p></div>';
+  const review = selected ? `<aside class="mistake-review-drawer"><button class="tutor-close" data-close-mistake-review aria-label="إغلاق المراجعة">×</button><span class="eyebrow">مراجعة ${labels[selected.skill]}</span><h2 dir="ltr">${escapeHtml(selected.questionText)}</h2><div class="mistake-review-options">${(selected.options ?? []).map((option) => `<div>${escapeHtml(option.value)}</div>`).join('')}</div><p><strong>إجابة الطالب الأخيرة:</strong> ${escapeHtml(selected.selectedAnswer ?? '—')}</p><p><strong>الإجابة الصحيحة:</strong> ${escapeHtml(selected.correctAnswer ?? 'غير محددة')}</p><p>${escapeHtml(selected.explanation ?? 'راجع سبب الإجابة ثم حاول تطبيق القاعدة في سؤال مشابه.')}</p></aside>` : '';
+  return `<button class="back-button mistake-back" data-clear-mistake-skill>← كل الأقسام</button>${list}${review}`;
+}
+
 function dashboardSectionView(section) {
   const labels = { mistakes: ['أخطائي', 'راجع الإجابات التي تحتاج إلى تحسين وحوّلها إلى تقدم.'], grammar: ['القواعد', 'مسارات القواعد ستضاف تدريجيًا إلى خطتك.'], listening: ['الاستماع', 'تدريبات الاستماع ستضاف تدريجيًا إلى خطتك.'], writing: ['الكتابة', 'تدريبات الكتابة ستضاف تدريجيًا إلى خطتك.'], exams: ['الاختبارات', 'ابدأ اختبارًا تدريبيًا وتابع نتائج محاولاتك.'], progress: ['تقدمي', 'راجع نتائجك وتطور دقتك عبر الوقت.'], profile: ['الملف الشخصي', 'بيانات حسابك وإعدادات الوصول.'], settings: ['إعدادات الحساب', 'تحكم في تفضيلات حسابك وبيانات جلستك.'], subscription: ['الاشتراك', 'تفاصيل الوصول إلى مزايا نباهة.'], help: ['المساعدة', 'إجابات سريعة وإرشادات استخدام المنصة.'], reading: ['فهم المقروء', 'تدرب على فهم القطع وربط الفكرة بالتفاصيل.'] };
   const [title, subtitle] = labels[section] ?? labels.mistakes;
@@ -331,6 +347,7 @@ function dashboardSectionView(section) {
     const data = dashboardData();
     const reasonSummary = data.reasonBreakdown.length ? `<section class="mistakes-summary"><span class="eyebrow">تحليل سبب الخطأ</span><h2>أكثر سبب تخسر فيه درجاتك: <em>${escapeHtml(data.reasonBreakdown[0].label)}</em></h2><div>${data.reasonBreakdown.map((item) => `<span><b>${item.count}</b>${escapeHtml(item.label)}</span>`).join('')}</div></section>` : '';
     content = `${reasonSummary}${mistakes.length ? `<div class="dashboard-mistakes-list">${mistakes.map((mistake) => { const match = questionMap.get(mistake.questionId); const reason = mistake.reason ?? inferMistakeReason(match?.question); const reviewText = mistake.mastered ? 'تم الإتقان' : mistake.reviewAt && new Date(mistake.reviewAt) > new Date() ? `المراجعة ${new Date(mistake.reviewAt).toLocaleDateString('ar-SA')}` : 'جاهز للمراجعة'; return `<article class="dashboard-mistake-card"><span class="mistake-meta">سؤال ${match?.question.number ?? '—'} · ${escapeHtml(reason)}</span><div class="question-heading dashboard-question-heading" dir="ltr"><span class="question-number">${String(match?.question.number ?? '').padStart(2, '0')}</span><div class="question-text">${escapeHtml(match?.question.question ?? 'سؤال غير متاح')}</div></div><p>${escapeHtml(match ? `${match.passage.title} · النموذج ${modelNumber(match.model)}` : 'بيانات السؤال محفوظة للمراجعة')}</p><div class="mistake-review-status ${mistake.mastered ? 'mastered' : ''}">${reviewText}</div><button data-open-model="${match?.model.id ?? 'reading-01'}">أعد التدريب</button></article>`; }).join('')}</div>` : '<div class="dashboard-empty"><strong>لا توجد أخطاء حتى الآن</strong><p>أكمل بعض التدريبات وستظهر هنا الأسئلة التي تحتاج مراجعتها.</p><button class="orange-action" data-models-scroll>ابدأ التدريب</button></div>'}`;
+    content = renderMistakeSurface();
   } else if (section === 'profile') {
     content = `<div class="dashboard-profile-card"><span class="dashboard-avatar large">${escapeHtml((account?.name ?? 'ح').charAt(0))}</span><h2>${escapeHtml(account?.name ?? 'المستخدم')}</h2><p>${escapeHtml(account?.email ?? '')}</p><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div>`;
   } else if (section === 'progress') {
@@ -390,11 +407,13 @@ async function confirmGrammarAnswer(model, question, optionIndex) {
   state.grammarAnswers = { ...(state.grammarAnswers ?? {}), [question.id]: optionIndex };
   render();
   let isCorrect;
+  let serverSaved = false;
   try {
     const response = await fetch('/api/grammar/answer', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ modelId: model.id, questionId: question.id, selectedIndex: optionIndex }) });
     if (!response.ok) throw new Error('grammar answer endpoint unavailable');
     const payload = await response.json();
     isCorrect = payload.isCorrect;
+    serverSaved = true;
   } catch {
     // Local catalogue fallback keeps offline practice usable; production API
     // responses still take precedence when the server is available.
@@ -403,6 +422,7 @@ async function confirmGrammarAnswer(model, question, optionIndex) {
   const saved = grammarProgress(model.id);
   setGrammarProgress(model.id, { answers: { ...(saved.answers ?? {}), [question.id]: optionIndex }, results: { ...(saved.results ?? {}), [question.id]: isCorrect }, status: 'in-progress', currentQuestionIndex: state.grammarQuestionIndex });
   state.grammarConfirmed = { ...(state.grammarConfirmed ?? {}), [question.id]: isCorrect === true };
+  if (serverSaved) await refreshServerMistakes({ renderAfter: false });
   state.grammarPendingQuestionId = null;
   render();
   if (isCorrect === true) soundManager.play('answer-correct');
@@ -495,13 +515,13 @@ function tutorPopover(model, passage, question, selectedOption) {
   const hasConversation = session.messages.length > 0 || session.loading;
   const actions = tutorActions(selectedOption);
   const messages = session.messages.map((message) => `<div class="tutor-message ${message.role === 'user' ? 'is-user' : 'is-assistant'} ${message.streaming ? 'is-streaming' : ''}">
-    ${message.role === 'assistant' && message.source === 'human-note' ? '<span class="tutor-source-badge">شرح نباهة</span>' : ''}
+    ${message.role === 'assistant' && message.source === 'human-note' ? `<span class="tutor-source-badge">شرح ${NIBRAS_BRAND.name}</span>` : ''}
     <p>${escapeHtml(String(message.content ?? '').replace(/^\s*(?:\*{3,}|-{3,}|_{3,})\s*$/gm, '').replace(/\n{3,}/g, '\n\n')).replace(/\n/g, '<br>')}${message.streaming && !message.content ? '<span class="tutor-cursor" aria-hidden="true">▋</span>' : ''}</p>
   </div>`).join('');
-  return `<section class="question-tutor-popover ${hasConversation ? 'has-conversation' : ''} ${session.expanded ? 'is-expanded' : ''}" id="question-tutor" role="dialog" aria-label="مساعد نباهة">
+  return nibrasizeTutorMarkup(`<section class="question-tutor-popover ${hasConversation ? 'has-conversation' : ''} ${session.expanded ? 'is-expanded' : ''}" id="question-tutor" role="dialog" aria-label="مساعد نباهة">
     <header class="tutor-header">
-      <span class="tutor-brand-icon">${tutorSparkleIcon()}</span>
-      <div><strong>مساعد نباهة</strong><small>${hasConversation ? 'يساعدك في هذا السؤال فقط' : 'كيف أقدر أساعدك؟'}</small></div>
+      <span class="tutor-brand-icon">${nibrasLogo()}</span>
+      <div><strong>${NIBRAS_BRAND.name}</strong><small>${hasConversation ? NIBRAS_BRAND.subtitle : 'كيف أساعدك في هذا السؤال؟'}</small></div>
       ${hasConversation ? `<button class="tutor-expand" data-tutor-expand aria-label="${session.expanded ? 'تصغير النافذة' : 'توسيع النافذة'}" title="${session.expanded ? 'تصغير' : 'توسيع'}">${session.expanded ? '↙' : '↗'}</button>` : ''}
       <button class="tutor-close" data-tutor-close aria-label="إغلاق مساعد نباهة">×</button>
     </header>
@@ -509,12 +529,12 @@ function tutorPopover(model, passage, question, selectedOption) {
     ${hasConversation && session.loading && session.autoScroll === false ? '<button class="tutor-latest" data-tutor-latest>↓ أحدث رسالة</button>' : ''}
     ${hasConversation && !session.loading ? `<div class="tutor-followups"><button data-tutor-action="simplify">أبسط أكثر</button><button data-tutor-action="similar">مثال آخر</button><button data-tutor-understood>فهمت ✓</button></div>` : ''}
     <form class="tutor-composer" data-tutor-form>
-      <input name="message" maxlength="1000" autocomplete="off" placeholder="${hasConversation ? 'تابع سؤالك...' : 'اكتب سؤالك...'}" aria-label="اكتب سؤالك عن السؤال الحالي" ${session.loading ? 'disabled' : ''}>
+      <textarea name="message" rows="1" maxlength="1000" autocomplete="off" placeholder="اسأل نِبراس عن هذا السؤال..." aria-label="اكتب سؤالك عن السؤال الحالي" ${session.loading ? 'disabled' : ''}></textarea>
       <button type="submit" aria-label="إرسال السؤال" ${session.loading ? 'disabled' : ''}>↑</button>
     </form>
     ${session.error ? `<div class="tutor-error" role="alert"><p>${session.errorCode === 'AI_TIMEOUT' ? 'استغرق مساعد نباهة وقتًا أطول من المتوقع.' : 'تعذر الحصول على الرد الآن.'}</p><button type="button" data-tutor-retry>إعادة المحاولة</button></div>` : ''}
     <small class="tutor-privacy">السياق محفوظ لهذا السؤال فقط</small>
-  </section>`;
+  </section>`);
 }
 
 async function requestTutor({ key, question, selectedOption, action, message }) {
@@ -737,6 +757,13 @@ function restoreTutorViewport(viewport, scrollTutor, tutorViewport) {
   });
 }
 
+function applyNibrasAccessibility() {
+  document.querySelectorAll('[data-tutor-toggle]').forEach((button) => {
+    button.setAttribute('aria-label', `${NIBRAS_BRAND.tooltip} عن هذا السؤال`);
+    button.removeAttribute('title');
+  });
+}
+
 function render() {
   const conversation = document.querySelector('.tutor-conversation');
   const tutorViewport = conversation ? { scrollTop: conversation.scrollTop } : null;
@@ -767,6 +794,7 @@ function render() {
   else if (state.view === 'solutions' && model && passage) app.innerHTML = solutionsView(model, passage);
   else if (state.view === 'result' && model && passage) app.innerHTML = resultView(model, passage);
   else app.innerHTML = libraryView();
+  applyNibrasAccessibility();
   restoreTutorViewport(viewport, scrollTutor, tutorViewport);
 }
 
@@ -801,11 +829,18 @@ app.addEventListener('scroll', (event) => {
   if (latestButton) latestButton.hidden = nearBottom;
 }, true);
 
+app.addEventListener('keydown', (event) => {
+  const textarea = event.target.closest?.('.tutor-composer textarea[name="message"]');
+  if (!textarea || event.key !== 'Enter' || event.shiftKey) return;
+  event.preventDefault();
+  textarea.form?.requestSubmit();
+});
+
 app.addEventListener('submit', async (event) => {
   const tutorForm = event.target.closest('[data-tutor-form]');
   if (tutorForm) {
     event.preventDefault();
-    const input = tutorForm.querySelector('input[name="message"]');
+    const input = tutorForm.querySelector('textarea[name="message"]');
     const message = String(input?.value ?? '').trim();
     if (!message) return;
     if (input) input.value = '';
@@ -964,6 +999,35 @@ app.addEventListener('click', (event) => {
   if (event.target.closest('[data-toggle-dashboard-menu]')) {
     state = { ...state, dashboardMenuOpen: !state.dashboardMenuOpen };
     render();
+    return;
+  }
+
+  const mistakeSkillButton = event.target.closest('[data-mistake-skill]');
+  if (mistakeSkillButton) {
+    state = { ...state, mistakeSkill: mistakeSkillButton.dataset.mistakeSkill, mistakeReviewId: null };
+    render();
+    return;
+  }
+  if (event.target.closest('[data-clear-mistake-skill]')) {
+    state = { ...state, mistakeSkill: null, mistakeReviewId: null };
+    render();
+    return;
+  }
+  const reviewMistakeButton = event.target.closest('[data-review-mistake]');
+  if (reviewMistakeButton) {
+    state = { ...state, mistakeReviewId: reviewMistakeButton.dataset.reviewMistake };
+    render();
+    return;
+  }
+  if (event.target.closest('[data-close-mistake-review]')) {
+    state = { ...state, mistakeReviewId: null };
+    render();
+    return;
+  }
+  const dismissMistakeButton = event.target.closest('[data-dismiss-mistake]');
+  if (dismissMistakeButton) {
+    if (!window.confirm('هل تريد إزالة هذا السؤال من قائمة أخطائك؟')) return;
+    void fetch(`/api/me/mistakes/${encodeURIComponent(dismissMistakeButton.dataset.dismissMistake)}`, { method: 'DELETE', credentials: 'include', headers: { accept: 'application/json' } }).then((response) => { if (response.ok) return refreshServerMistakes(); return null; }).catch(() => null);
     return;
   }
 
@@ -1161,6 +1225,7 @@ app.addEventListener('click', (event) => {
     }
     const activityDates = [...new Set([...(item.activityDates ?? []), dateKey(now)])];
     setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, answerMeta, activityDates, mistakes, status: 'in-progress', currentQuestionIndex: state.questionIndex });
+    void fetch('/api/learning/answer', { method: 'POST', credentials: 'include', headers: { 'content-type': 'application/json', accept: 'application/json' }, body: JSON.stringify({ skill: 'reading', questionSourceId: question.id, selectedIndex: question.options.findIndex((candidate) => candidate.id === option?.id), modelSourceId: `model-${String(currentModel()?.order ?? '').padStart(2, '0')}`, totalQuestions: passage.questions.length, responseTimeMs: seconds * 1000 }) }).then((response) => { if (response.ok) return refreshServerMistakes({ renderAfter: state.dashboardSection === 'mistakes' }); return null; }).catch(() => null);
     soundManager.play(option?.isCorrect ? 'answer-correct' : 'answer-wrong');
     render();
     return;

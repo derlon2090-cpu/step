@@ -34,18 +34,19 @@ test('question tutor sends the current question context to DeepSeek without expo
     return new Response(JSON.stringify({ choices: [{ message: { content: 'ركّز على صيغة المقارنة في الجملة.' } }], usage: { prompt_tokens: 120, completion_tokens: 24, total_tokens: 144 } }), { status: 200, headers: { 'content-type': 'application/json' } });
   };
   const response = await chatWithQuestionTutor(input({ history: [{ role: 'user', content: 'ما القاعدة؟' }] }));
-  const prompt = JSON.parse(requestBody.messages.at(-1).content);
   assert.equal(response.provider, 'deepseek');
   assert.equal(response.model, 'deepseek-v4-flash');
   assert.deepEqual(requestBody.thinking, { type: 'disabled' });
-  assert.equal(requestBody.max_tokens, 2000);
+  assert.equal(requestBody.max_tokens, 600);
+  assert.equal(requestBody.stream, true);
   assert.equal('temperature' in requestBody, false);
-  assert.match(requestBody.messages[0].content, /أقصر إجابة تحقق الفهم الكامل/);
+  assert.match(requestBody.messages[0].content, /الحد الأقصى 600 token/);
   assert.match(requestBody.messages[0].content, /لماذا/);
   assert.match(requestBody.messages[0].content, /كيف يعرف/);
-  assert.equal(prompt.question, 'Russia is ...... than Canada.');
-  assert.equal(prompt.correctAnswer, null);
-  assert.equal(prompt.selectedOption, null);
+  assert.equal(requestBody.messages.at(-1).role, 'user');
+  assert.equal(requestBody.messages.at(-1).content, 'أعطني تلميحًا');
+  assert.match(requestBody.messages[0].content, /Russia is \.{6} than Canada/);
+  assert.match(requestBody.messages[0].content, /"correctAnswer":null/);
   assert.equal(requestBody.messages.at(-2).content, 'ما القاعدة؟');
 });
 
@@ -69,6 +70,33 @@ test('question tutor uses prior context for follow-up requests and logs usage wi
   assert.equal(logs.join('\n').includes('test-key'), false);
 });
 
+test('question tutor streams deltas and keeps the current user message last', async () => {
+  process.env.DEEPSEEK_API_KEY = 'test-key';
+  let requestBody;
+  const chunks = [];
+  globalThis.fetch = async (_url, options) => {
+    requestBody = JSON.parse(options.body);
+    const body = new ReadableStream({
+      start(controller) {
+        controller.enqueue(new TextEncoder().encode('data: {"choices":[{"delta":{"content":"السبب هو "}}]}\n\n'));
+        controller.enqueue(new TextEncoder().encode('data: {"choices":[{"delta":{"content":"السياق."}}]}\n\ndata: {"choices":[{}],"usage":{"prompt_tokens":90,"completion_tokens":12,"total_tokens":102}}\n\ndata: [DONE]\n\n'));
+        controller.close();
+      },
+    });
+    return new Response(body, { status: 200, headers: { 'content-type': 'text/event-stream' } });
+  };
+  const response = await chatWithQuestionTutor(input({ message: 'طيب ليه؟', history: [{ role: 'user', content: 'اشرح' }, { role: 'assistant', content: 'لأنها شرطية.' }] }), { onChunk: (delta) => chunks.push(delta) });
+  assert.equal(requestBody.stream, true);
+  assert.equal(requestBody.max_tokens, 600);
+  assert.deepEqual(requestBody.messages.slice(-3).map(({ role, content }) => ({ role, content })), [
+    { role: 'user', content: 'اشرح' },
+    { role: 'assistant', content: 'لأنها شرطية.' },
+    { role: 'user', content: 'طيب ليه؟' },
+  ]);
+  assert.deepEqual(chunks, ['السبب هو ', 'السياق.']);
+  assert.equal(response.content, 'السبب هو السياق.');
+});
+
 test('question tutor receives the answer key only after a valid option is selected', async () => {
   process.env.DEEPSEEK_API_KEY = 'test-key';
   let requestBody;
@@ -77,9 +105,9 @@ test('question tutor receives the answer key only after a valid option is select
     return new Response(JSON.stringify({ choices: [{ message: { content: 'اختيارك صحيح لأن صيغة المقارنة هنا هي المطلوبة.' } }] }), { status: 200 });
   };
   await chatWithQuestionTutor(input({ action: 'why_correct', message: 'لماذا هذه الإجابة صحيحة؟', selectedOptionId: 'grammar-01-q02-o0' }));
-  const prompt = JSON.parse(requestBody.messages.at(-1).content);
-  assert.equal(prompt.selectedOption, 'bigger');
-  assert.equal(prompt.correctAnswer, 'bigger');
+  assert.equal(requestBody.messages.at(-1).content, 'لماذا هذه الإجابة صحيحة؟');
+  assert.match(requestBody.messages[0].content, /"selectedOption":"bigger"/);
+  assert.match(requestBody.messages[0].content, /"correctAnswer":"bigger"/);
 });
 
 test('a new question cannot reuse another question session', async () => {
