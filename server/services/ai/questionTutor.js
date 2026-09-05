@@ -241,7 +241,7 @@ export async function chatWithQuestionTutor(input, { requestId = randomUUID(), o
     const usage = usageSummary(streamed.usage);
     console.info(`[TUTOR_USAGE] requestId=${requestId} inputTokens=${usage.inputTokens ?? 'unknown'} outputTokens=${usage.outputTokens ?? 'unknown'} totalTokens=${usage.totalTokens ?? 'unknown'}`);
     console.info(`[TUTOR_DEEPSEEK_SUCCESS] requestId=${requestId} status=${response.status} model=${model} latencyMs=${Date.now() - startedAt}`);
-    return { content, provider: 'deepseek', model, source: context.humanNote ? 'human-note' : 'tutor' };
+    return { content, provider: 'deepseek', model, source: context.humanNote ? 'human-note' : 'tutor', usage };
   } catch (error) {
     console.error(`[NABAHAH_AI_ERROR] requestId=${requestId} questionId=${input.questionId} status=${error?.status ?? 502} code=${error?.code ?? error?.name ?? 'UNKNOWN'} latencyMs=${Date.now() - startedAt}`);
     throw error;
