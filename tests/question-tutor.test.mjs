@@ -31,19 +31,42 @@ test('question tutor sends the current question context to DeepSeek without expo
   let requestBody;
   globalThis.fetch = async (_url, options) => {
     requestBody = JSON.parse(options.body);
-    return new Response(JSON.stringify({ choices: [{ message: { content: 'ركّز على صيغة المقارنة في الجملة.' } }] }), { status: 200, headers: { 'content-type': 'application/json' } });
+    return new Response(JSON.stringify({ choices: [{ message: { content: 'ركّز على صيغة المقارنة في الجملة.' } }], usage: { prompt_tokens: 120, completion_tokens: 24, total_tokens: 144 } }), { status: 200, headers: { 'content-type': 'application/json' } });
   };
   const response = await chatWithQuestionTutor(input({ history: [{ role: 'user', content: 'ما القاعدة؟' }] }));
   const prompt = JSON.parse(requestBody.messages.at(-1).content);
   assert.equal(response.provider, 'deepseek');
   assert.equal(response.model, 'deepseek-v4-flash');
   assert.deepEqual(requestBody.thinking, { type: 'disabled' });
-  assert.equal(requestBody.max_tokens, 300);
+  assert.equal(requestBody.max_tokens, 2000);
   assert.equal('temperature' in requestBody, false);
+  assert.match(requestBody.messages[0].content, /أقصر إجابة تحقق الفهم الكامل/);
+  assert.match(requestBody.messages[0].content, /لماذا/);
+  assert.match(requestBody.messages[0].content, /كيف يعرف/);
   assert.equal(prompt.question, 'Russia is ...... than Canada.');
   assert.equal(prompt.correctAnswer, null);
   assert.equal(prompt.selectedOption, null);
   assert.equal(requestBody.messages.at(-2).content, 'ما القاعدة؟');
+});
+
+test('question tutor uses prior context for follow-up requests and logs usage without exposing secrets', async () => {
+  process.env.DEEPSEEK_API_KEY = 'test-key';
+  let requestBody;
+  const logs = [];
+  const originalInfo = console.info;
+  console.info = (...args) => logs.push(args.join(' '));
+  globalThis.fetch = async (_url, options) => {
+    requestBody = JSON.parse(options.body);
+    return new Response(JSON.stringify({ choices: [{ message: { content: 'لأن الجملة تتحدث عن حالة افتراضية.' } }], usage: { prompt_tokens: 90, completion_tokens: 18, total_tokens: 108 } }), { status: 200 });
+  };
+  try {
+    await chatWithQuestionTutor(input({ message: 'ليه؟', history: [{ role: 'assistant', content: 'هذه جملة شرطية افتراضية.' }] }));
+  } finally {
+    console.info = originalInfo;
+  }
+  assert.match(requestBody.messages[0].content, /استخدم سياق المحادثة السابقة/);
+  assert.match(logs.join('\n'), /\[TUTOR_USAGE\].*inputTokens=90.*outputTokens=18.*totalTokens=108/);
+  assert.equal(logs.join('\n').includes('test-key'), false);
 });
 
 test('question tutor receives the answer key only after a valid option is selected', async () => {

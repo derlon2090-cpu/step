@@ -93,18 +93,41 @@ export async function deepseekCheck({ requestId = randomUUID() } = {}) {
   }
 }
 
-function systemPrompt(context) {
+function systemPrompt(context, input) {
   const phaseRule = context.isAnswered && context.correctAnswer
     ? 'تم إرسال إجابة الطالب. يمكنك الآن شرح الإجابة الصحيحة وسبب صحة أو خطأ اختياره والقاعدة ومثال مشابه.'
     : 'لم يثبت إرسال إجابة صحيحة المصدر بعد. ممنوع منعًا باتًا ذكر الإجابة الصحيحة أو تعيين خيار بعينه أو تقديم تلميح يكشفه مباشرة. ساعده بخطوة تفكير قصيرة فقط، حتى لو طلب الحل صراحة.';
+  const message = input.message.trim();
+  const followUpRule = /^(ليه|لماذا|ليش)\s*[؟?]*$/u.test(message)
+    ? 'إذا كانت رسالة الطالب «ليه؟» أو سؤال متابعة قصيرًا، استخدم سياق المحادثة السابقة وأجب عن آخر نقطة دون إعادة شرح السؤال من البداية.'
+    : /مافهمت|لم أفهم|ما فهمت/u.test(message)
+      ? 'إذا قال الطالب إنه لم يفهم، لا تكرر الرد السابق؛ اشرح الفكرة بطريقة أبسط وبمثال صغير أو تشبيه واضح.'
+      : /مثال/u.test(message) || input.action === 'similar'
+        ? 'إذا طلب الطالب مثالًا، أعطه مثالًا واحدًا قصيرًا مرتبطًا بنفس القاعدة، ولا تفتح موضوعًا جديدًا.'
+        : 'ابدأ من طلب الطالب الحالي واستفد من history دون تكرار ما قيل.';
   return [
     'أنت «مساعد نباهة»، مدرس STEP عربي موجز وودود.',
     phaseRule,
     'تعامل حصريًا مع سياق السؤال الحالي المرسل في آخر رسالة.',
     'أجب بالعربية الواضحة، ويمكنك إبقاء الكلمات الإنجليزية اللازمة كما هي.',
     'لا تذكر اسم مزود النموذج أو أي تفاصيل تقنية.',
-    'اجعل الرد بين 2 و6 جمل وابتعد عن العبارات العامة التي لا ترتبط بالسؤال.',
+    'أجب بأقصر إجابة تحقق الفهم الكامل؛ لا تكرر السؤال ولا تكتب مقدمات عامة.',
+    'ركز على: الفكرة أو الإجابة مباشرة، ثم لماذا، ثم كيف يعرف الطالب ذلك في سؤال مشابه، ومثال قصير فقط عند الحاجة.',
+    'إذا كان السؤال بسيطًا فاكتفِ عادةً بـ2-4 جمل. وسّع بقدر الحاجة فقط، ولا تتجاوز 2000 token.',
+    'إذا قال الطالب «اختصر» فاختصر أكثر، وإذا قال «اشرح بالتفصيل» فتوسع بقدر الحاجة دون حشو.',
+    context.skill === 'grammar'
+      ? 'في Grammar: قبل الإرسال لا تكشف الخيار الصحيح؛ بعد الإرسال وضّح الصحيح والسبب وكيفية تمييز القاعدة. استخدم ترتيبًا واضحًا مثل: الصحيح، السبب، كيف تعرفها، مثال.'
+      : 'في Reading: اذكر الفكرة أو الإجابة، سببها من القطعة، الدليل المختصر، وكيف يجد الطالب هذا النوع من الإجابات مرة أخرى. لا تنسخ القطعة كاملة.',
+    followUpRule,
   ].join('\n');
+}
+
+function usageSummary(usage) {
+  const numberOrNull = (value) => Number.isFinite(Number(value)) ? Number(value) : null;
+  const inputTokens = numberOrNull(usage?.prompt_tokens ?? usage?.input_tokens);
+  const outputTokens = numberOrNull(usage?.completion_tokens ?? usage?.output_tokens);
+  const totalTokens = numberOrNull(usage?.total_tokens) ?? (inputTokens !== null && outputTokens !== null ? inputTokens + outputTokens : null);
+  return { inputTokens, outputTokens, totalTokens };
 }
 
 function userPrompt(input, context) {
@@ -144,9 +167,9 @@ export async function chatWithQuestionTutor(input, { requestId = randomUUID() } 
       body: JSON.stringify({
         model,
         thinking: { type: 'disabled' },
-        max_tokens: 300,
+        max_tokens: 2000,
         messages: [
-          { role: 'system', content: systemPrompt(context) },
+          { role: 'system', content: systemPrompt(context, input) },
           ...input.history.slice(-12).map((message) => ({ role: message.role, content: message.content })),
           { role: 'user', content: userPrompt(input, context) },
         ],
@@ -160,6 +183,8 @@ export async function chatWithQuestionTutor(input, { requestId = randomUUID() } 
     const content = String(payload?.choices?.[0]?.message?.content ?? '').trim();
     if (!content) throw tutorError('DEEPSEEK_EMPTY_RESPONSE', 502);
 
+    const usage = usageSummary(payload?.usage);
+    console.info(`[TUTOR_USAGE] requestId=${requestId} inputTokens=${usage.inputTokens ?? 'unknown'} outputTokens=${usage.outputTokens ?? 'unknown'} totalTokens=${usage.totalTokens ?? 'unknown'}`);
     console.info(`[TUTOR_DEEPSEEK_SUCCESS] requestId=${requestId} status=${response.status} model=${model} latencyMs=${Date.now() - startedAt}`);
     return { content, provider: 'deepseek', model, source: context.humanNote ? 'human-note' : 'tutor' };
   } catch (error) {
