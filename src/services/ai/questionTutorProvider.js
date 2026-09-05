@@ -34,7 +34,9 @@ export class ApiQuestionTutorProvider extends QuestionTutorProvider {
         credentials: 'include',
         headers: { 'content-type': 'application/json', accept: 'application/json' },
         body: JSON.stringify(input),
-        signal: AbortSignal.timeout(25_000),
+        // Temporary diagnostic window: keep this above the Render -> DeepSeek
+        // timeout so the backend stage can be measured without masking it.
+        signal: AbortSignal.timeout(50_000),
       });
       const payload = await response.json().catch(() => ({}));
       if (!response.ok) {

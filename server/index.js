@@ -7,7 +7,7 @@ import { requireUser, requireAdmin, HttpError } from './auth/guards.js';
 import { startAttempt, saveAnswer, submitAttempt, getResumeAttempt, getDashboard, approveQuestion, listQuestionsForReview } from './services/learning.js';
 import { z } from 'zod';
 import { grammarModels } from '../src/data/grammarModels.js';
-import { chatWithQuestionTutor, questionTutorSchema } from './services/ai/questionTutor.js';
+import { chatWithQuestionTutor, deepseekCheck, questionTutorSchema } from './services/ai/questionTutor.js';
 
 validateEnv();
 const authHandler = toNodeHandler(getAuth());
@@ -41,14 +41,25 @@ const reviewStatus = z.enum(['needs_review', 'missing', 'verified']);
 export const server = http.createServer(async (req, res) => {
   try {
     const url = new URL(req.url ?? '/', 'http://localhost');
-    if (url.pathname === '/api/question-tutor' || url.pathname === '/api/question-tutor/health') {
+    if (url.pathname === '/api/question-tutor' || url.pathname === '/api/question-tutor/health' || url.pathname === '/api/question-tutor/deepseek-check') {
       const requestId = randomUUID();
       if (!applyTutorCors(req, res)) return;
       console.info(`[TUTOR_CORS_OK] requestId=${requestId} origin=${req.headers.origin ?? 'same-origin'}`);
       if (req.method === 'OPTIONS') { res.statusCode = 204; res.end(); return; }
       if (url.pathname === '/api/question-tutor/health') {
         if (req.method !== 'GET') return json(res, 405, { error: 'Method Not Allowed', code: 'METHOD_NOT_ALLOWED' });
-        return json(res, 200, { ok: true, service: 'nabahah-tutor', deepseekConfigured: Boolean(process.env.DEEPSEEK_API_KEY) });
+        return json(res, 200, {
+          ok: true,
+          service: 'nabahah-tutor',
+          deepseekConfigured: Boolean(process.env.DEEPSEEK_API_KEY),
+          deepseekBaseUrl: (process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com').replace(/\/+$/, ''),
+          deepseekModel: process.env.DEEPSEEK_MODEL || 'deepseek-v4-flash',
+          commit: process.env.RENDER_GIT_COMMIT || process.env.RENDER_GIT_COMMIT_SHA || 'unknown',
+        });
+      }
+      if (url.pathname === '/api/question-tutor/deepseek-check') {
+        if (req.method !== 'GET') return json(res, 405, { error: 'Method Not Allowed', code: 'METHOD_NOT_ALLOWED' });
+        return json(res, 200, await deepseekCheck({ requestId }));
       }
       if (req.method !== 'POST') return json(res, 405, { error: 'Method Not Allowed', code: 'METHOD_NOT_ALLOWED' });
       console.info(`[TUTOR_INCOMING_REQUEST] requestId=${requestId} method=POST origin=${req.headers.origin ?? 'same-origin'}`);
