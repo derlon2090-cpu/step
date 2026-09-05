@@ -7,6 +7,9 @@
     "api/health.js": {
       "maxDuration": 30
     },
+    "api/question-tutor.js": {
+      "maxDuration": 60
+    },
     "api/auth/index.js": {
       "maxDuration": 30
     },

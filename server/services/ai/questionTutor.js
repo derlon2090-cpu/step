@@ -1,3 +1,19 @@
+import { z } from 'zod';
+
+export const questionTutorSchema = z.object({
+  questionId: z.string().min(1).max(200),
+  question: z.string().min(1).max(4000),
+  options: z.array(z.object({ id: z.string().max(200), text: z.string().max(2000) })).max(10),
+  message: z.string().min(1).max(1000),
+  action: z.enum(['explain', 'simplify', 'rule', 'hint', 'options', 'why_wrong', 'why_correct', 'similar', 'custom']),
+  isAnswered: z.boolean(),
+  selectedOptionId: z.string().max(200).nullable(),
+  selectedOptionText: z.string().max(2000).nullable(),
+  correctAnswer: z.string().max(2000).nullable(),
+  humanNote: z.string().max(4000).nullable(),
+  history: z.array(z.object({ role: z.enum(['user', 'assistant']), content: z.string().max(4000) })).max(12),
+});
+
 const ACTION_LABELS = {
   explain: 'اشرح السؤال',
   simplify: 'بسّطه لي',

@@ -53,7 +53,7 @@ const authHintKey = 'step-reading-auth-hint';
 const requestedView = new URLSearchParams(window.location.search).get('view');
 const hasAuthHint = localStorage.getItem(authHintKey) === '1';
 const initialView = requestedView === 'dashboard' ? 'login' : (!requestedView && hasAuthHint ? 'dashboard' : requestedView);
-let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: null, selectedPassageId: null, selectedGrammarModelId: null, grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {} };
+let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: null, selectedPassageId: null, selectedGrammarModelId: null, grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -443,6 +443,7 @@ async function requestTutor({ key, question, selectedOption, action, message, co
       messages: [...session.messages, { role: 'user', content: prompt }],
     },
   };
+  state.tutorScrollToEnd = true;
   render();
   try {
     const response = await questionTutorProvider.chat({
@@ -464,6 +465,7 @@ async function requestTutor({ key, question, selectedOption, action, message, co
     const latest = state.tutorSessions[key];
     state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, error: error?.message || 'تعذر تجهيز الشرح الآن. يمكنك متابعة حل السؤال بشكل طبيعي.' } };
   }
+  state.tutorScrollToEnd = true;
   render();
 }
 
@@ -596,7 +598,20 @@ function currentGrammarModel() {
   return grammarModels.find((model) => model.id === state.selectedGrammarModelId);
 }
 
+function restoreTutorViewport(viewport, scrollTutor) {
+  requestAnimationFrame(() => {
+    if (viewport) window.scrollTo(viewport.x, viewport.y);
+    if (scrollTutor) {
+      const conversation = document.querySelector('.tutor-conversation');
+      if (conversation) conversation.scrollTop = conversation.scrollHeight;
+    }
+  });
+}
+
 function render() {
+  const viewport = ['quiz', 'grammar-quiz'].includes(state.view) ? { x: window.scrollX, y: window.scrollY } : null;
+  const scrollTutor = state.tutorScrollToEnd;
+  state.tutorScrollToEnd = false;
   if (state.authLoading) {
     // Keep the target surface visible while Better Auth hydrates. This avoids
     // the distracting full-page loading jump on every visit.
@@ -604,6 +619,7 @@ function render() {
     else if (state.view === 'login') app.innerHTML = loginView();
     else if (state.view === 'register') app.innerHTML = registerView();
     else app.innerHTML = libraryView();
+    restoreTutorViewport(viewport, scrollTutor);
     return;
   }
   const model = currentModel();
@@ -620,6 +636,7 @@ function render() {
   else if (state.view === 'solutions' && model && passage) app.innerHTML = solutionsView(model, passage);
   else if (state.view === 'result' && model && passage) app.innerHTML = resultView(model, passage);
   else app.innerHTML = libraryView();
+  restoreTutorViewport(viewport, scrollTutor);
 }
 
 let debounce;
