@@ -187,6 +187,16 @@ export const userMistakes = pgTable('user_mistakes', {
   masteredAt: timestamp('mastered_at', { withTimezone: true }),
 }, (t) => [uniqueIndex('user_mistakes_user_question_uq').on(t.userId, t.questionId), index('user_mistakes_user_status_idx').on(t.userId, t.status)]);
 
+export const dailyActivity = pgTable('daily_activity', {
+  id: uuid('id').defaultRandom().primaryKey(),
+  userId: text('user_id').notNull(),
+  activityDate: text('activity_date').notNull(),
+  answeredCount: integer('answered_count').notNull().default(0),
+  correctCount: integer('correct_count').notNull().default(0),
+  wrongCount: integer('wrong_count').notNull().default(0),
+  lastActivityAt: timestamp('last_activity_at', { withTimezone: true }).defaultNow().notNull(),
+}, (t) => [uniqueIndex('daily_activity_user_date_uq').on(t.userId, t.activityDate), index('daily_activity_user_idx').on(t.userId)]);
+
 export const auditLogs = pgTable('audit_logs', {
   id: uuid('id').defaultRandom().primaryKey(),
   actorUserId: text('actor_user_id').notNull(),
