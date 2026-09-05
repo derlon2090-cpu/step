@@ -1,77 +1,93 @@
 /**
- * Central UI audio for Nabahah. Listening audio deliberately lives outside
- * this manager so a learner can raise listening volume without making UI
- * feedback louder at the same time.
+ * Low-latency UI audio for Nabahah. Listening audio deliberately stays on a
+ * separate volume path so raising a lesson never makes UI feedback startling.
  * @typedef {'option-select'|'question-next'|'answer-correct'|'answer-wrong'|'exercise-complete'|'achievement'} NabahahSound
  */
 
 const SETTINGS_KEY = 'nabahah-sound-settings-v1';
-const defaultSettings = { enabled: true, volume: 0.50, listeningVolume: 0.50 };
+export const defaultSettings = Object.freeze({ enabled: true, volume: 0.50, listeningVolume: 0.50 });
 export const SOUND_LEVELS = Object.freeze({
-  'option-select': 0.30,
-  'question-next': 0.35,
-  'answer-correct': 0.75,
-  'answer-wrong': 0.65,
-  'exercise-complete': 0.80,
-  achievement: 0.85,
+  'option-select': 0.42,
+  'question-next': 0.38,
+  'answer-correct': 0.92,
+  'answer-wrong': 0.82,
+  'exercise-complete': 0.90,
+  achievement: 0.95,
 });
-const soundDurations = {
-  'option-select': 0.07,
-  'question-next': 0.12,
-  'answer-correct': 0.34,
-  'answer-wrong': 0.22,
-  'exercise-complete': 0.75,
-  achievement: 1.0,
-};
 
-function readSettings() {
-  try {
-    const saved = JSON.parse(localStorage.getItem(SETTINGS_KEY));
-    return normalizeSettings(saved && typeof saved === 'object' ? { ...defaultSettings, ...saved } : defaultSettings);
-  } catch { return { ...defaultSettings }; }
-}
+const SOUND_META = Object.freeze({
+  'option-select': { priority: 1, duration: 0.075 },
+  'question-next': { priority: 0, duration: 0.13 },
+  'answer-correct': { priority: 3, duration: 0.36 },
+  'answer-wrong': { priority: 3, duration: 0.25 },
+  'exercise-complete': { priority: 4, duration: 0.72 },
+  achievement: { priority: 5, duration: 1.05 },
+});
+const SOUND_NAMES = Object.freeze(Object.keys(SOUND_META));
 
 const clamp = (value, fallback) => {
   const number = Number(value);
   return Number.isFinite(number) ? Math.max(0, Math.min(1, number)) : fallback;
 };
-const normalizeSettings = (settings) => ({
+const normalizeSettings = (settings = {}) => ({
   enabled: settings.enabled !== false,
   volume: clamp(settings.volume, defaultSettings.volume),
   listeningVolume: clamp(settings.listeningVolume, defaultSettings.listeningVolume),
 });
+function readSettings() {
+  try {
+    const saved = JSON.parse(globalThis.localStorage?.getItem(SETTINGS_KEY));
+    return normalizeSettings(saved && typeof saved === 'object' ? { ...defaultSettings, ...saved } : defaultSettings);
+  } catch { return { ...defaultSettings }; }
+}
 
 class SoundManager {
   constructor() {
     this.settings = readSettings();
     this.context = null;
-    this.activeNodes = [];
-    this.preloaded = false;
-    this.audioFiles = new Map();
+    this.masterGain = null;
+    this.compressor = null;
+    this.buffers = new Map();
+    this.failedAssets = new Set();
+    this.preloadPromise = null;
+    this.active = new Set();
+    this.activePriority = -1;
+    this.activeUntil = 0;
+    this.deferredTransition = null;
+    this.previewTimer = null;
     this.listeningAudios = new Set();
-    this.reducedMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
+    this.reducedMotion = globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
   }
 
   getSettings() { return { ...this.settings }; }
 
+  getDiagnostics() {
+    return {
+      loadedAssets: SOUND_NAMES.filter((name) => this.buffers.has(name)),
+      failedAssets: [...this.failedAssets],
+      masterBusReady: Boolean(this.masterGain && this.compressor),
+    };
+  }
+
   updateSettings(update) {
     this.settings = normalizeSettings({ ...this.settings, ...update });
-    localStorage.setItem(SETTINGS_KEY, JSON.stringify(this.settings));
-    if (!this.settings.enabled) this.stop();
-    else this.audioFiles.forEach((audio, type) => { audio.volume = this.fileVolume(type); });
+    try { globalThis.localStorage?.setItem(SETTINGS_KEY, JSON.stringify(this.settings)); } catch { /* storage unavailable */ }
+    if (this.masterGain && this.context) {
+      this.masterGain.gain.cancelScheduledValues(this.context.currentTime);
+      this.masterGain.gain.setTargetAtTime(this.settings.enabled ? this.settings.volume : 0, this.context.currentTime, 0.012);
+    }
+    if (!this.settings.enabled) this.stopAll();
     this.listeningAudios.forEach((audio) => { audio.volume = this.settings.listeningVolume; });
-    this.activeNodes.forEach(({ gain, type }) => {
-      const now = this.context?.currentTime ?? 0;
-      const level = this.gainLevel(type);
-      try { gain.gain.setTargetAtTime(Math.max(0.0001, level), now, 0.01); } catch { /* already stopped */ }
-    });
+    if (Object.prototype.hasOwnProperty.call(update, 'volume') && this.settings.enabled && this.settings.volume > 0) {
+      clearTimeout(this.previewTimer);
+      this.previewTimer = globalThis.setTimeout?.(() => this.play('answer-correct'), 90);
+    }
     return this.getSettings();
   }
 
-  fileVolume(type) { return Math.min(1, this.settings.volume * (SOUND_LEVELS[type] ?? SOUND_LEVELS['option-select'])); }
-  gainLevel(type) { return this.settings.volume * (SOUND_LEVELS[type] ?? SOUND_LEVELS['option-select']) * 0.30; }
+  /** Per-sound headroom; the master applies UI volume directly with no 0.30 attenuation. */
+  gainLevel(type) { return (SOUND_LEVELS[type] ?? SOUND_LEVELS['option-select']) * 0.70; }
 
-  /** Apply the independent Listening level to an HTMLAudioElement. */
   applyListeningVolume(audio) {
     if (audio) {
       audio.volume = this.settings.listeningVolume;
@@ -81,84 +97,150 @@ class SoundManager {
     return audio;
   }
 
-  /** Create a listening audio element without coupling it to UI feedback volume. */
   createListeningAudio(src) {
     const audio = new Audio(src);
     audio.preload = 'metadata';
     return this.applyListeningVolume(audio);
   }
 
+  ensureBus() {
+    if (this.context) return true;
+    const AudioContext = globalThis.AudioContext || globalThis.webkitAudioContext;
+    if (!AudioContext) return false;
+    this.context = new AudioContext({ latencyHint: 'interactive' });
+    this.masterGain = this.context.createGain();
+    this.compressor = this.context.createDynamicsCompressor();
+    this.masterGain.gain.value = this.settings.enabled ? this.settings.volume : 0;
+    this.compressor.threshold.value = -10;
+    this.compressor.knee.value = 10;
+    this.compressor.ratio.value = 5;
+    this.compressor.attack.value = 0.003;
+    this.compressor.release.value = 0.12;
+    this.masterGain.connect(this.compressor).connect(this.context.destination);
+    return true;
+  }
+
   async preload() {
-    if (this.preloaded || !this.settings.enabled) return;
-    this.preloaded = true;
-    // Small UI files can be dropped in /public/audio/ui later. Missing files
-    // intentionally fall back to the warm Web Audio tones below.
-    const names = ['option-select', 'question-next', 'answer-correct', 'answer-wrong', 'exercise-complete', 'achievement'];
-    await Promise.all(names.map((name) => new Promise((resolve) => {
-      const audio = new Audio(`/audio/ui/${name}.mp3`);
-      audio.preload = 'auto';
-      audio.addEventListener('canplaythrough', () => { this.audioFiles.set(name, audio); resolve(); }, { once: true });
-      audio.addEventListener('error', resolve, { once: true });
-      audio.load();
-    })));
+    if (!this.ensureBus()) return;
+    if (this.preloadPromise) return this.preloadPromise;
+    this.preloadPromise = Promise.all(SOUND_NAMES.map(async (name) => {
+      try {
+        const response = await fetch(`/audio/ui/${name}.mp3`, { cache: 'force-cache' });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        this.buffers.set(name, await this.context.decodeAudioData(await response.arrayBuffer()));
+      } catch {
+        this.failedAssets.add(name);
+      }
+    }));
+    return this.preloadPromise;
   }
 
   async activate() {
-    if (!this.context) {
-      const AudioContext = window.AudioContext || window.webkitAudioContext;
-      if (!AudioContext) return;
-      this.context = new AudioContext();
-    }
+    if (!this.ensureBus()) return false;
     if (this.context.state === 'suspended') await this.context.resume();
-    this.preload();
+    await this.preload();
+    return true;
   }
 
-  stop() {
-    this.activeNodes.forEach(({ oscillator, gain }) => {
-      try { gain.gain.cancelScheduledValues(this.context?.currentTime ?? 0); gain.gain.setTargetAtTime(0.0001, this.context?.currentTime ?? 0, 0.015); oscillator.stop((this.context?.currentTime ?? 0) + 0.03); } catch { /* already stopped */ }
+  releaseEntry(entry) {
+    this.active.delete(entry);
+    if (!this.active.size) {
+      this.activePriority = -1;
+      this.activeUntil = 0;
+    } else {
+      this.activePriority = Math.max(...[...this.active].map((item) => item.priority));
+      this.activeUntil = Math.max(...[...this.active].map((item) => item.until));
+    }
+  }
+
+  stopEntry(entry, fade = 0.018) {
+    if (!this.context || !this.active.has(entry)) return;
+    const now = this.context.currentTime;
+    try {
+      entry.gain.gain.cancelScheduledValues(now);
+      entry.gain.gain.setTargetAtTime(0.0001, now, fade / 3);
+      entry.source.stop(now + fade);
+    } catch { /* source already ended */ }
+    this.releaseEntry(entry);
+  }
+
+  stopAll(maxPriority = Infinity) {
+    clearTimeout(this.deferredTransition);
+    this.deferredTransition = null;
+    [...this.active].filter((entry) => entry.priority <= maxPriority).forEach((entry) => this.stopEntry(entry));
+  }
+
+  scheduleTransition() {
+    clearTimeout(this.deferredTransition);
+    const remaining = Math.max(0, this.activeUntil - (this.context?.currentTime ?? 0));
+    this.deferredTransition = globalThis.setTimeout?.(() => {
+      this.deferredTransition = null;
+      this.play('question-next');
+    }, Math.min(420, Math.ceil(remaining * 1000) + 24));
+  }
+
+  playBuffer(type, buffer) {
+    const source = this.context.createBufferSource();
+    const gain = this.context.createGain();
+    const now = this.context.currentTime;
+    const meta = SOUND_META[type];
+    source.buffer = buffer;
+    gain.gain.setValueAtTime(Math.max(0.0001, this.gainLevel(type)), now);
+    source.connect(gain).connect(this.masterGain);
+    const entry = { source, gain, priority: meta.priority, until: now + buffer.duration, type };
+    source.onended = () => this.releaseEntry(entry);
+    this.active.add(entry);
+    this.activePriority = Math.max(this.activePriority, meta.priority);
+    this.activeUntil = Math.max(this.activeUntil, entry.until);
+    source.start(now);
+  }
+
+  playFallback(type) {
+    const meta = SOUND_META[type];
+    const now = this.context.currentTime;
+    const recipes = {
+      'option-select': [[760, 0.055, 'triangle', 0]],
+      'question-next': [[610, 0.10, 'triangle', 0]],
+      'answer-correct': [[510, 0.15, 'triangle', 0], [680, 0.19, 'sine', 0.075]],
+      'answer-wrong': [[265, 0.20, 'triangle', 0]],
+      'exercise-complete': [[440, 0.16, 'triangle', 0], [555, 0.19, 'sine', 0.12], [700, 0.28, 'sine', 0.25]],
+      achievement: [[430, 0.17, 'triangle', 0], [560, 0.20, 'sine', 0.13], [700, 0.23, 'sine', 0.29], [850, 0.38, 'sine', 0.47]],
+    };
+    (recipes[type] ?? recipes['option-select']).forEach(([frequency, length, wave, delay]) => {
+      const source = this.context.createOscillator();
+      const gain = this.context.createGain();
+      const start = now + delay;
+      source.type = wave;
+      source.frequency.setValueAtTime(frequency, start);
+      gain.gain.setValueAtTime(0.0001, start);
+      gain.gain.exponentialRampToValueAtTime(Math.max(0.0001, this.gainLevel(type) * 0.72), start + 0.009);
+      gain.gain.exponentialRampToValueAtTime(0.0001, start + length);
+      source.connect(gain).connect(this.masterGain);
+      const entry = { source, gain, priority: meta.priority, until: start + length, type };
+      source.onended = () => this.releaseEntry(entry);
+      this.active.add(entry);
+      source.start(start);
+      source.stop(start + length + 0.02);
     });
-    this.activeNodes = [];
-    this.audioFiles.forEach((audio) => { audio.pause(); audio.currentTime = 0; });
+    this.activePriority = Math.max(this.activePriority, meta.priority);
+    this.activeUntil = Math.max(this.activeUntil, now + meta.duration);
   }
 
   async play(type) {
-    if (!this.settings.enabled || (this.reducedMotion && type === 'question-next')) return;
-    await this.activate();
-    if (!this.context) return;
-    this.stop();
-    const file = this.audioFiles.get(type);
-    if (file) {
-      file.volume = this.fileVolume(type);
-      file.currentTime = 0;
-      file.play().catch(() => {});
-      return;
+    const meta = SOUND_META[type];
+    if (!meta || !this.settings.enabled || (this.reducedMotion && type === 'question-next')) return false;
+    if (!await this.activate()) return false;
+
+    if (type === 'question-next' && this.activePriority >= 3) {
+      this.scheduleTransition();
+      return true;
     }
-    const recipes = {
-      'option-select': [[520, 0.055, 'sine']],
-      'question-next': [[620, 0.11, 'sine']],
-      'answer-correct': [[520, 0.13, 'sine'], [700, 0.17, 'sine']],
-      'answer-wrong': [[270, 0.2, 'sine']],
-      'exercise-complete': [[440, 0.16, 'sine'], [560, 0.18, 'sine'], [720, 0.28, 'sine']],
-      achievement: [[430, 0.16, 'sine'], [560, 0.18, 'sine'], [700, 0.2, 'sine'], [860, 0.34, 'sine']],
-    };
-    const now = this.context.currentTime;
-    const nodes = [];
-    (recipes[type] ?? recipes['option-select']).forEach(([frequency, length, wave], index) => {
-      const start = now + index * 0.085;
-      const oscillator = this.context.createOscillator();
-      const gain = this.context.createGain();
-      oscillator.type = wave;
-      oscillator.frequency.setValueAtTime(frequency, start);
-      gain.gain.setValueAtTime(0.0001, start);
-      gain.gain.exponentialRampToValueAtTime(Math.max(0.0001, this.gainLevel(type)), start + 0.012);
-      gain.gain.exponentialRampToValueAtTime(0.0001, start + length);
-      oscillator.connect(gain).connect(this.context.destination);
-      oscillator.start(start);
-      oscillator.stop(start + length + 0.03);
-      nodes.push({ oscillator, gain, type });
-    });
-    this.activeNodes = nodes;
-    window.setTimeout(() => { this.activeNodes = this.activeNodes.filter((node) => nodes.includes(node) === false); }, soundDurations[type] * 1000 + 100);
+    if (meta.priority < this.activePriority) return false;
+    this.stopAll(meta.priority);
+    const buffer = this.buffers.get(type);
+    if (buffer) this.playBuffer(type, buffer);
+    else this.playFallback(type);
+    return true;
   }
 }
 
