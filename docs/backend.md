@@ -4,12 +4,21 @@ The original project is a Vite client with canonical reading JSON. The backend i
 
 ## First deployment
 
-1. Copy `.env.example` to `.env` and set `DATABASE_URL`, `BETTER_AUTH_SECRET` (32+ random characters), `BETTER_AUTH_API_KEY` (from Better Auth Dash), and `BETTER_AUTH_URL` (the production origin, without a trailing slash). These values are server-only.
+1. Copy `.env.example` to `.env` and set `DATABASE_URL`, `BETTER_AUTH_SECRET` (32+ random characters), `BETTER_AUTH_API_KEY` (from Better Auth Dash), and `BETTER_AUTH_URL` (the production origin, without a trailing slash). Set `BETTER_AUTH_TRUSTED_ORIGINS` to the exact browser origins used by Production, Preview, and local development. These values are server-only.
 2. Apply the additive application migration with `npm run db:migrate` (the script executes ordered SQL files in `drizzle/`; it does not reset production).
 3. Generate/apply Better Auth's official tables using the installed Better Auth CLI for the pinned version (do not hand-edit those tables).
 4. Import content with `npm run db:import-reading`. It is idempotent on the stable `source_id` values.
 5. Bootstrap an administrator explicitly, server-side: `npm run db:set-admin -- <better-auth-user-id>`.
 6. Start the API with `npm run start:api` (the Vite client remains `npm run start`).
+
+## Auth consistency diagnostics
+
+Run `npm run db:report-auth` against the same `DATABASE_URL` used by the
+deployment you are investigating. The report is read-only and lists users
+without a credential account/password, orphaned accounts, and case-insensitive
+duplicate emails. It never creates hashes or deletes rows. Compare the printed
+database fingerprint and `BETTER_AUTH_URL` in each Vercel environment; a
+Production/Preview mismatch is equivalent to using two different auth systems.
 
 ## API surface
 

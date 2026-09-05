@@ -6,6 +6,7 @@ import { requireUser, requireAdmin, HttpError } from './auth/guards.js';
 import { startAttempt, saveAnswer, submitAttempt, getResumeAttempt, getDashboard, approveQuestion, listQuestionsForReview } from './services/learning.js';
 import { z } from 'zod';
 import { grammarModels } from '../src/data/grammarModels.js';
+import { chatWithQuestionTutor } from './services/ai/questionTutor.js';
 
 validateEnv();
 const authHandler = toNodeHandler(getAuth());
@@ -19,12 +20,29 @@ const answerSchema = z.object({ questionId: z.string().uuid(), selectedAnswer: z
 const grammarAnswerSchema = z.object({ modelId: z.string().regex(/^grammar-\d{2}$/), questionId: z.string().regex(/^grammar-\d{2}-q\d{2}$/), selectedIndex: z.number().int().min(0).max(3) });
 const approveSchema = z.object({ proposedAnswer: z.string().max(2000).nullable().optional(), adminNote: z.string().max(4000).nullable().optional(), hadOptionsInSource: z.boolean().nullable().optional() });
 const reviewStatus = z.enum(['needs_review', 'missing', 'verified']);
+const tutorSchema = z.object({
+  questionId: z.string().min(1).max(200),
+  question: z.string().min(1).max(4000),
+  options: z.array(z.object({ id: z.string().max(200), text: z.string().max(2000) })).max(10),
+  message: z.string().min(1).max(1000),
+  action: z.enum(['explain', 'simplify', 'rule', 'hint', 'options', 'why_wrong', 'why_correct', 'similar', 'custom']),
+  isAnswered: z.boolean(),
+  selectedOptionId: z.string().max(200).nullable(),
+  selectedOptionText: z.string().max(2000).nullable(),
+  correctAnswer: z.string().max(2000).nullable(),
+  humanNote: z.string().max(4000).nullable(),
+  history: z.array(z.object({ role: z.enum(['user', 'assistant']), content: z.string().max(4000) })).max(12),
+});
 
 export const server = http.createServer(async (req, res) => {
   try {
     const url = new URL(req.url ?? '/', 'http://localhost');
     if (url.pathname === '/api/auth' || url.pathname.startsWith('/api/auth/')) return authHandler(req, res);
     if (req.method === 'GET' && url.pathname === '/api/dashboard') return json(res, 200, await getDashboard((await requireUser(req)).user));
+    if (req.method === 'POST' && url.pathname === '/api/question-tutor') {
+      const payload = tutorSchema.parse(await body(req));
+      return json(res, 200, await chatWithQuestionTutor(payload));
+    }
     if (req.method === 'POST' && url.pathname === '/api/grammar/answer') {
       await requireUser(req);
       const payload = grammarAnswerSchema.parse(await body(req));

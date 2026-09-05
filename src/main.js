@@ -5,6 +5,8 @@ import { wordGlossary } from './data/manualQuizzes.js';
 import { grammarModels } from './data/grammarModels.js';
 import { soundManager } from './soundManager.js';
 import { authClient } from '../lib/auth-client.ts';
+import { normalizeEmail } from '../lib/email.js';
+import { questionTutorProvider } from './services/ai/questionTutorProvider.js';
 
 const jsonModelFiles = import.meta.glob('./data/reading/models/model-*.json', { eager: true, import: 'default' });
 const jsonModelsById = new Map(Object.values(jsonModelFiles).map((model) => [
@@ -51,7 +53,7 @@ const authHintKey = 'step-reading-auth-hint';
 const requestedView = new URLSearchParams(window.location.search).get('view');
 const hasAuthHint = localStorage.getItem(authHintKey) === '1';
 const initialView = requestedView === 'dashboard' ? 'login' : (!requestedView && hasAuthHint ? 'dashboard' : requestedView);
-let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: null, selectedPassageId: null, selectedGrammarModelId: null, grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false };
+let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: null, selectedPassageId: null, selectedGrammarModelId: null, grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: 0, translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {} };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -336,7 +338,7 @@ function libraryView() {
         <span class="reading-status ${model.passages.length ? 'in-progress' : 'not-started'}">${model.passages.length ? 'جاهز للاختبار' : 'غير مضاف'}</span>
       </button>`).join('')}
     </section></section>
-    <section class="testimonials-section" aria-labelledby="testimonials-title"><header class="landing-section-heading"><span>تجارب طلابنا</span><h2 id="testimonials-title">نتائج وآراء طلابنا</h2><p>تجربة منظمة تساعدك على المذاكرة بثقة والاستمرار حتى هدفك.</p></header><div class="testimonials-grid"><article class="testimonial-card"><span class="quote-mark">“</span><p>المنصة مرتبة وواضحة، عرفت من أين أبدأ وكيف أتابع تقدمي في كل جلسة.</p><footer><span class="testimonial-avatar">س</span><div><strong>سعود الشهراني</strong><small>الدمام</small></div><b aria-label="5 من 5">★★★★★</b></footer></article><article class="testimonial-card"><span class="quote-mark">“</span><p>أحببت طريقة عرض القطع والأسئلة؛ أصبحت المراجعة اليومية أسهل وأكثر تركيزًا.</p><footer><span class="testimonial-avatar purple">م</span><div><strong>مريم العتيبي</strong><small>جدة</small></div><b aria-label="5 من 5">★★★★★</b></footer></article><article class="testimonial-card"><span class="quote-mark">“</span><p>شرح بسيط ومركز، والنماذج تساعدني على معرفة نقاط القوة والأخطاء بسرعة.</p><footer><span class="testimonial-avatar green">ت</span><div><strong>تركي الحربي</strong><small>الرياض</small></div><b aria-label="5 من 5">★★★★★</b></footer></article></div></section>
+    <section class="testimonials-section" aria-labelledby="testimonials-title"><header class="landing-section-heading"><span>تجارب طلابنا</span><h2 id="testimonials-title">نتائج وآراء طلابنا</h2><p>تجربة منظمة تساعدك على المذاكرة بثقة والاستمرار حتى هدفك.</p></header><div class="testimonials-grid"><article class="testimonial-card"><span class="quote-mark">“</span><p>المنصة مرتبة وواضحة، عرفت من أين أبدأ وكيف أتابع تقدمي في كل جلسة.</p><footer><span class="testimonial-avatar">س</span><div><strong>سعود الشهراني</strong><small>الدمام</small></div><b aria-label="5 من 5">★★★★★</b></footer></article><article class="testimonial-card"><span class="quote-mark">“</span><p>أحببت طريقة عرض القطع والأسئلة؛ أصبحت المراجعة اليومية أسهل وأكثر تركيزًا.</p><footer><span class="testimonial-avatar shade-two">م</span><div><strong>مريم العتيبي</strong><small>جدة</small></div><b aria-label="5 من 5">★★★★★</b></footer></article><article class="testimonial-card"><span class="quote-mark">“</span><p>شرح بسيط ومركز، والنماذج تساعدني على معرفة نقاط القوة والأخطاء بسرعة.</p><footer><span class="testimonial-avatar shade-three">ت</span><div><strong>تركي الحربي</strong><small>الرياض</small></div><b aria-label="5 من 5">★★★★★</b></footer></article></div></section>
     <footer class="raseen-footer"><div class="footer-brand"><strong>نباهة</strong><span>منصة تعليمية متخصصة لاجتياز اختبار STEP</span></div><div class="footer-links"><a href="#goals-title">الأقسام</a><a href="#models-title">النماذج</a><a href="#testimonials-title">آراء الطلاب</a></div><div class="footer-help"><strong>ابدأ رحلتك الآن</strong><span>تعلّم بوضوح، وتقدم بثقة.</span></div></footer>
   </main>`;
 }
@@ -371,6 +373,105 @@ function solutionsView(model, passage) {
   </main>`;
 }
 
+const tutorActionLabels = {
+  explain: 'اشرح السؤال',
+  simplify: 'بسّطه لي',
+  rule: 'ما القاعدة؟',
+  hint: 'أعطني تلميحًا',
+  options: 'اشرح الخيارات',
+  why_wrong: 'لماذا إجابتي خطأ؟',
+  why_correct: 'لماذا هذه الإجابة صحيحة؟',
+  similar: 'أعطني مثالًا مشابهًا',
+};
+
+const tutorSparkleIcon = () => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5c.55 4.4 2.1 5.95 6.5 6.5-4.4.55-5.95 2.1-6.5 6.5-.55-4.4-2.1-5.95-6.5-6.5 4.4-.55 5.95-2.1 6.5-6.5Z"/><path d="M18.5 15.5c.22 1.78.85 2.41 2.63 2.63-1.78.22-2.41.85-2.63 2.63-.22-1.78-.85-2.41-2.63-2.63 1.78-.22 2.41-.85 2.63-2.63Z"/></svg>`;
+
+function tutorSessionKey(model, passage, question) {
+  return `${model.id}:${passage.id}:${question.id}`;
+}
+
+function tutorActions(selectedOption) {
+  if (!selectedOption) return ['hint', 'simplify', 'rule', 'options', 'explain'];
+  return [selectedOption.isCorrect ? 'why_correct' : 'why_wrong', 'rule', 'explain', 'similar'];
+}
+
+function tutorPopover(model, passage, question, selectedOption) {
+  const key = tutorSessionKey(model, passage, question);
+  if (!state.tutorOpen || state.tutorQuestionKey !== key) return '';
+  const session = state.tutorSessions[key] ?? { messages: [], loading: false, expanded: false };
+  const hasConversation = session.messages.length > 0 || session.loading;
+  const actions = tutorActions(selectedOption);
+  const messages = session.messages.map((message) => `<div class="tutor-message ${message.role === 'user' ? 'is-user' : 'is-assistant'}">
+    ${message.role === 'assistant' && message.source === 'human-note' ? '<span class="tutor-source-badge">شرح نباهة</span>' : ''}
+    <p>${escapeHtml(message.content).replace(/\n/g, '<br>')}</p>
+  </div>`).join('');
+  return `<section class="question-tutor-popover ${hasConversation ? 'has-conversation' : ''} ${session.expanded ? 'is-expanded' : ''}" id="question-tutor" role="dialog" aria-label="مساعد نباهة">
+    <header class="tutor-header">
+      <span class="tutor-brand-icon">${tutorSparkleIcon()}</span>
+      <div><strong>مساعد نباهة</strong><small>${hasConversation ? 'يساعدك في هذا السؤال فقط' : 'كيف أقدر أساعدك؟'}</small></div>
+      ${hasConversation ? `<button class="tutor-expand" data-tutor-expand aria-label="${session.expanded ? 'تصغير النافذة' : 'توسيع النافذة'}" title="${session.expanded ? 'تصغير' : 'توسيع'}">${session.expanded ? '↙' : '↗'}</button>` : ''}
+      <button class="tutor-close" data-tutor-close aria-label="إغلاق مساعد نباهة">×</button>
+    </header>
+    ${hasConversation ? `<div class="tutor-conversation" aria-live="polite">${messages}${session.loading ? `<div class="tutor-message is-assistant is-loading"><span></span><p>نباهة يجهز الشرح...</p></div>` : ''}</div>` : `<div class="tutor-quick-actions">${actions.map((action) => `<button data-tutor-action="${action}"><span>${escapeHtml(tutorActionLabels[action])}</span><b aria-hidden="true">←</b></button>`).join('')}</div>`}
+    ${hasConversation && !session.loading ? `<div class="tutor-followups"><button data-tutor-action="simplify">أبسط أكثر</button><button data-tutor-action="similar">مثال آخر</button><button data-tutor-understood>فهمت ✓</button></div>` : ''}
+    <form class="tutor-composer" data-tutor-form>
+      <input name="message" maxlength="1000" autocomplete="off" placeholder="${hasConversation ? 'تابع سؤالك...' : 'اكتب سؤالك...'}" aria-label="اكتب سؤالك عن السؤال الحالي" ${session.loading ? 'disabled' : ''}>
+      <button type="submit" aria-label="إرسال السؤال" ${session.loading ? 'disabled' : ''}>↑</button>
+    </form>
+    ${session.error ? `<p class="tutor-error" role="alert">${escapeHtml(session.error)}</p>` : ''}
+    <small class="tutor-privacy">السياق محفوظ لهذا السؤال فقط</small>
+  </section>`;
+}
+
+async function askQuestionTutor(action, message) {
+  const model = currentModel();
+  const passage = currentPassage(model);
+  const question = passage?.questions[state.questionIndex];
+  if (!model || !passage || !question) return;
+  const key = tutorSessionKey(model, passage, question);
+  const selectedId = state.activeAnswers?.[question.id] ?? null;
+  const selectedOption = question.options.find((option) => option.id === selectedId) ?? null;
+  const session = state.tutorSessions[key] ?? { messages: [], loading: false, expanded: false };
+  if (session.loading) return;
+  const prompt = String(message || tutorActionLabels[action] || '').trim();
+  if (!prompt) return;
+  const history = session.messages.map(({ role, content }) => ({ role, content }));
+  state.tutorOpen = true;
+  state.tutorQuestionKey = key;
+  state.tutorSessions = {
+    ...state.tutorSessions,
+    [key]: {
+      ...session,
+      expanded: session.expanded || history.length >= 2,
+      error: '',
+      loading: true,
+      messages: [...session.messages, { role: 'user', content: prompt }],
+    },
+  };
+  render();
+  try {
+    const response = await questionTutorProvider.chat({
+      questionId: question.id,
+      question: question.question,
+      options: question.options.map(({ id, text }) => ({ id, text })),
+      message: prompt,
+      action,
+      isAnswered: Boolean(selectedOption),
+      selectedOptionId: selectedOption?.id ?? null,
+      selectedOptionText: selectedOption?.text ?? null,
+      correctAnswer: selectedOption ? question.correctAnswer : null,
+      humanNote: selectedOption ? question.explanation || null : null,
+      history,
+    });
+    const latest = state.tutorSessions[key];
+    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, messages: [...latest.messages, { role: 'assistant', content: response.content, source: response.source }] } };
+  } catch (error) {
+    const latest = state.tutorSessions[key];
+    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, error: error?.message || 'تعذر تجهيز الشرح الآن. يمكنك متابعة حل السؤال بشكل طبيعي.' } };
+  }
+  render();
+}
+
 function quizView(model, passage) {
   const item = quizProgress(model.id, passage.id);
   const activeAnswers = state.activeAnswers ?? {};
@@ -396,7 +497,7 @@ function quizView(model, passage) {
     ${passage.passageText ? `<section class="passage-reading" lang="en" dir="ltr"><header><span>Passage</span><small>Read the passage, then answer the question</small></header><div>${escapeHtml(passage.passageText).split('\n\n').map((paragraph) => `<p>${paragraph}</p>`).join('')}</div></section>` : ''}
     <section class="quiz-list">
       <article class="quiz-question active-question ${selectedId ? answeredCorrectly ? 'answered-correct' : 'answered-wrong' : ''}">
-        <div class="question-heading"><span>السؤال ${index + 1}</span><small>من ${passage.questions.length}</small></div>
+        <div class="question-heading"><span>السؤال ${index + 1}</span><small>من ${passage.questions.length}</small><div class="question-tutor-anchor"><button class="question-tutor-trigger" data-tutor-toggle="${question.id}" aria-label="اسأل نباهة" title="اسأل نباهة" aria-expanded="${state.tutorOpen && state.tutorQuestionKey === tutorSessionKey(model, passage, question)}" aria-controls="question-tutor">${tutorSparkleIcon()}</button>${tutorPopover(model, passage, question, selectedOption)}</div></div>
         <div class="question-tools">
           <button data-toggle-translation="${question.id}">${state.translationQuestionId === question.id ? 'إخفاء ترجمة الكلمات' : 'ترجمة الكلمات'}</button>
           ${state.translationQuestionId === question.id && state.translatedWords[question.id] ? `<strong>${escapeHtml(state.translatedWords[question.id])}: ${escapeHtml(wordMeaning(state.translatedWords[question.id]))}</strong>` : '<small>اضغط على أي كلمة إنجليزية في السؤال لمعرفة معناها.</small>'}
@@ -517,13 +618,23 @@ app.addEventListener('input', (event) => {
 });
 
 app.addEventListener('submit', async (event) => {
+  const tutorForm = event.target.closest('[data-tutor-form]');
+  if (tutorForm) {
+    event.preventDefault();
+    const input = tutorForm.querySelector('input[name="message"]');
+    const message = String(input?.value ?? '').trim();
+    if (!message) return;
+    if (input) input.value = '';
+    await askQuestionTutor('custom', message);
+    return;
+  }
   const form = event.target.closest('.auth-form');
   if (!form) return;
   event.preventDefault();
   const submitButton = form.querySelector('button[type="submit"]');
   if (submitButton) submitButton.disabled = true;
   const data = new FormData(form);
-  const email = String(data.get('email') ?? '').trim().toLowerCase();
+  const email = normalizeEmail(data.get('email'));
   const password = String(data.get('password') ?? '');
   if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     state.authError = 'أدخل بريدًا إلكترونيًا صحيحًا.';
@@ -583,6 +694,44 @@ app.addEventListener('submit', async (event) => {
 
 app.addEventListener('click', (event) => {
   soundManager.activate();
+  const tutorToggle = event.target.closest('[data-tutor-toggle]');
+  if (tutorToggle) {
+    const model = currentModel();
+    const passage = currentPassage(model);
+    const question = passage?.questions[state.questionIndex];
+    if (!model || !passage || !question) return;
+    const key = tutorSessionKey(model, passage, question);
+    state.tutorOpen = !(state.tutorOpen && state.tutorQuestionKey === key);
+    state.tutorQuestionKey = key;
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-tutor-close]')) {
+    state.tutorOpen = false;
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-tutor-expand]')) {
+    const session = state.tutorSessions[state.tutorQuestionKey];
+    if (session) state.tutorSessions = { ...state.tutorSessions, [state.tutorQuestionKey]: { ...session, expanded: !session.expanded } };
+    render();
+    return;
+  }
+
+  const tutorAction = event.target.closest('[data-tutor-action]');
+  if (tutorAction) {
+    askQuestionTutor(tutorAction.dataset.tutorAction);
+    return;
+  }
+
+  if (event.target.closest('[data-tutor-understood]')) {
+    state.tutorOpen = false;
+    render();
+    return;
+  }
+
   if (event.target.closest('[data-login]')) {
     state = { ...state, view: 'login', authError: '' };
     render();
@@ -719,7 +868,7 @@ app.addEventListener('click', (event) => {
     const passage = model?.passages.find((candidate) => candidate.id === passageId);
     if (!model || !passage) return;
     const saved = quizProgress(modelId, passageId);
-    state = { ...state, view: 'quiz', selectedModelId: modelId, selectedPassageId: passageId, questionIndex: Math.min(saved.currentQuestionIndex ?? 0, Math.max(0, passage.questions.length - 1)), translationQuestionId: null, activeAnswers: { ...(saved.answers ?? {}) }, restoredProgress: true };
+    state = { ...state, view: 'quiz', selectedModelId: modelId, selectedPassageId: passageId, questionIndex: Math.min(saved.currentQuestionIndex ?? 0, Math.max(0, passage.questions.length - 1)), translationQuestionId: null, activeAnswers: { ...(saved.answers ?? {}) }, restoredProgress: true, tutorOpen: false, tutorQuestionKey: null };
     render();
     return;
   }
@@ -733,7 +882,7 @@ app.addEventListener('click', (event) => {
 
   const passageButton = event.target.closest('[data-open-passage]');
   if (passageButton) {
-    state = { ...state, view: 'quiz', selectedPassageId: passageButton.dataset.openPassage, questionIndex: 0, translationQuestionId: null, activeAnswers: {}, restoredProgress: false };
+    state = { ...state, view: 'quiz', selectedPassageId: passageButton.dataset.openPassage, questionIndex: 0, translationQuestionId: null, activeAnswers: {}, restoredProgress: false, tutorOpen: false, tutorQuestionKey: null };
     const passage = currentPassage();
     const saved = quizProgress(state.selectedModelId, passage.id);
     setQuizProgress(state.selectedModelId, passage.id, { ...saved, status: saved.status === 'completed' ? 'completed' : 'in-progress' });
@@ -796,6 +945,8 @@ app.addEventListener('click', (event) => {
       setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'in-progress', currentQuestionIndex: nextIndex });
       state.questionIndex = nextIndex;
       state.translationQuestionId = null;
+      state.tutorOpen = false;
+      state.tutorQuestionKey = null;
     }
     render();
     return;
@@ -805,6 +956,8 @@ app.addEventListener('click', (event) => {
     if (state.questionIndex <= 0) return;
     state.questionIndex -= 1;
     state.translationQuestionId = null;
+    state.tutorOpen = false;
+    state.tutorQuestionKey = null;
     render();
     return;
   }
@@ -816,6 +969,8 @@ app.addEventListener('click', (event) => {
     state.translationQuestionId = null;
     state.activeAnswers = {};
     state.restoredProgress = false;
+    state.tutorOpen = false;
+    state.tutorQuestionKey = null;
     render();
     return;
   }

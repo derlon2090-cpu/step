@@ -39,8 +39,14 @@ try {
       (SELECT count(*)::int FROM "account") AS accounts,
       (SELECT count(*)::int FROM "session") AS sessions
   `);
+  const [legacyIssuers] = await sql.unsafe(`
+    SELECT count(*)::int AS count
+    FROM "account"
+    WHERE issuer = 'credential'
+  `);
   console.log('Better Auth database schema verified.');
   console.log(`users=${counts.users} accounts=${counts.accounts} sessions=${counts.sessions}`);
+  if (legacyIssuers.count) console.warn(`warning: ${legacyIssuers.count} account row(s) use legacy issuer=credential; run npm run db:migrate to apply the compatibility migration and review the report.`);
 } finally {
   await sql.end();
 }

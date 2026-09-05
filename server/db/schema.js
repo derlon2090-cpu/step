@@ -27,7 +27,10 @@ export const authSessions = pgTable('session', {
 
 export const authAccounts = pgTable('account', {
   id: text('id').primaryKey(),
-  issuer: text('issuer').notNull().default('credential'),
+  // Better Auth's createLocalAccountIssuer('credential') is `local:credential`.
+  // Keep this default aligned with the adapter so direct schema-created rows
+  // cannot look valid while being invisible to sign-in.
+  issuer: text('issuer').notNull().default('local:credential'),
   accountId: text('account_id').notNull(),
   providerId: text('provider_id').notNull(),
   userId: text('user_id').notNull().references(() => authUsers.id, { onDelete: 'cascade' }),
