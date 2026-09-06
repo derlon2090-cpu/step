@@ -3,6 +3,7 @@ import './raseen.css';
 import './listening.css';
 import { readings } from './data/readings.js';
 import { questionGlossary } from './data/reading/questionGlossary.js';
+import { buildReadingExplanation } from './data/readingExplanations.js';
 import { grammarModels } from './data/grammarModels.js';
 import { listeningModels } from './data/listeningModels.js';
 import { soundManager } from './soundManager.js';
@@ -31,7 +32,7 @@ const jsonModelsById = new Map(Object.values(jsonModelFiles).map((model) => [
         number: question.displayOrder,
         question: question.questionDisplay ?? question.questionSource,
         correctAnswer: question.correctAnswer,
-        explanation: question.sourceNote,
+        explanation: buildReadingExplanation(question),
         options: question.options.map((text, index) => ({ id: `${question.id}-o${index + 1}`, text, isCorrect: text === question.correctAnswer })),
       })),
     })),

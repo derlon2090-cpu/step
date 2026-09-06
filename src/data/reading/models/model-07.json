@@ -27,7 +27,7 @@
           ],
           "correctAnswer": "nitrogen, oxygen and water vapor",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «nitrogen, oxygen and water vapor»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -44,7 +44,7 @@
           ],
           "correctAnswer": "Important",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "المعنى السياقي المطلوب هو «Important»؛ لأنه يحافظ على معنى الكلمة داخل الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -61,7 +61,7 @@
           ],
           "correctAnswer": "Diesel smoke",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Diesel smoke»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -78,7 +78,7 @@
           ],
           "correctAnswer": "Black carbon",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Black carbon»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -95,7 +95,7 @@
           ],
           "correctAnswer": "Spend most time in building.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Spend most time in building»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -123,7 +123,7 @@
           ],
           "correctAnswer": "Once a year",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Once a year»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -140,7 +140,7 @@
           ],
           "correctAnswer": "5",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «5»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -157,7 +157,7 @@
           ],
           "correctAnswer": "the winners of the prize.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «the winners of the prize»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -186,7 +186,7 @@
           ],
           "correctAnswer": "serves chairman of King Faisal Foundation",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «serves chairman of King Faisal Foundation»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -218,7 +218,7 @@
           ],
           "correctAnswer": "In 1979, or 1399 H.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «In 1979, or 1399 H»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -235,7 +235,7 @@
           ],
           "correctAnswer": "The Board of Trustees of the Foundation",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «The Board of Trustees of the Foundation».",
           "excludeFromScoring": false
         },
         {
@@ -252,7 +252,7 @@
           ],
           "correctAnswer": "The Secretariat of the Award",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «The Secretariat of the Award».",
           "excludeFromScoring": false
         },
         {
@@ -269,7 +269,7 @@
           ],
           "correctAnswer": "Islamic institutions, universities and previous winners",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «Islamic institutions, universities and previous winners».",
           "excludeFromScoring": false
         },
         {
@@ -286,7 +286,7 @@
           ],
           "correctAnswer": "Assign money",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «allocate» تحمل معنى «Assign money»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         }
       ]
@@ -314,7 +314,7 @@
           ],
           "correctAnswer": "King Saud",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «King Saud».",
           "excludeFromScoring": false
         },
         {
@@ -331,7 +331,7 @@
           ],
           "correctAnswer": "Joint committee",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Joint committee»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -348,7 +348,7 @@
           ],
           "correctAnswer": "geographical and environmental factors.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «geographical and environmental factors»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -365,7 +365,7 @@
           ],
           "correctAnswer": "New causeways to construct to other countries.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «New causeways to construct to other countries»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -382,7 +382,7 @@
           ],
           "correctAnswer": "describe the construction, facts about the causeway",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «describe the construction, facts about the causeway»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -399,7 +399,7 @@
           ],
           "correctAnswer": "Facilities",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Facilities»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -416,7 +416,7 @@
           ],
           "correctAnswer": "Shopping malls",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Shopping malls»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -433,7 +433,7 @@
           ],
           "correctAnswer": "1965",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «1965»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -450,7 +450,7 @@
           ],
           "correctAnswer": "Essa Ibn Salman Khalifa",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «Essa Ibn Salman Khalifa».",
           "excludeFromScoring": false
         },
         {
@@ -467,7 +467,7 @@
           ],
           "correctAnswer": "4,296 m",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «4,296 m»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -484,7 +484,7 @@
           ],
           "correctAnswer": "November 26, 1986 - 24 Rabi` al-Awwal, 1407",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «November 26, 1986 - 24 Rabi` al-Awwal, 1407»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -501,7 +501,7 @@
           ],
           "correctAnswer": "19 million",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «19 million»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -518,7 +518,7 @@
           ],
           "correctAnswer": "bridges between two nations",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«bridges between two nations» هو الأنسب لأنه يلخص محور القطعة كاملًا، بينما تمثل الخيارات الأخرى تفاصيل جزئية أو أفكارًا جانبية.",
           "excludeFromScoring": false
         }
       ]
@@ -546,7 +546,7 @@
           ],
           "correctAnswer": "a. it doesn't have antibodies or antigens for either type",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «a. it doesn't have antibodies or antigens for either type»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -563,7 +563,7 @@
           ],
           "correctAnswer": "(O)",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «(O)»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -580,7 +580,7 @@
           ],
           "correctAnswer": "(AB)",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «(AB)»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -609,7 +609,7 @@
           ],
           "correctAnswer": "Blood type O.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Blood type O»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -638,7 +638,7 @@
           ],
           "correctAnswer": "Matching",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «compatible» تحمل معنى «Matching»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -680,7 +680,7 @@
           ],
           "correctAnswer": "Sheep",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«Sheep» هو الاستثناء المطلوب؛ فهو لا يطابق المعلومات التي عرضتها القطعة، بخلاف بقية الخيارات.",
           "excludeFromScoring": false
         },
         {
@@ -697,7 +697,7 @@
           ],
           "correctAnswer": "May not really sleep.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «May not really sleep»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -714,7 +714,7 @@
           ],
           "correctAnswer": "does NOT always sleep lying down.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «does NOT always sleep lying down»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -731,7 +731,7 @@
           ],
           "correctAnswer": "usually open their eyes",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «usually open their eyes»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -748,7 +748,7 @@
           ],
           "correctAnswer": "Spend some time resting.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Spend some time resting»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -765,7 +765,7 @@
           ],
           "correctAnswer": "animals",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يعود الضمير إلى «animals» لأنه المرجع الذي يتوافق معه في المعنى والسياق داخل الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -782,7 +782,7 @@
           ],
           "correctAnswer": "Sleep",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «dozing» تحمل معنى «Sleep»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -799,7 +799,7 @@
           ],
           "correctAnswer": "signs",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «clues» تحمل معنى «signs»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -816,7 +816,7 @@
           ],
           "correctAnswer": "Scientists able to study animals sleeping behavior.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«Scientists able to study animals sleeping behavior» هو الأنسب لأنه يلخص محور القطعة كاملًا، بينما تمثل الخيارات الأخرى تفاصيل جزئية أو أفكارًا جانبية.",
           "excludeFromScoring": false
         },
         {
@@ -833,7 +833,7 @@
           ],
           "correctAnswer": "Because they have a safe place to sleep",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Because they have a safe place to sleep»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -850,7 +850,7 @@
           ],
           "correctAnswer": "Use the electroencephalograph.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Use the electroencephalograph»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -867,7 +867,7 @@
           ],
           "correctAnswer": "Fish and snakes sleep eyes open. They don't like to close them.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Fish and snakes sleep eyes open. They don't like to close them»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -884,7 +884,7 @@
           ],
           "correctAnswer": "things produce a reaction in living organisms",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "المعنى السياقي المطلوب هو «things produce a reaction in living organisms»؛ لأنه يحافظ على معنى الكلمة داخل الجملة.",
           "excludeFromScoring": false
         }
       ]
@@ -912,7 +912,7 @@
           ],
           "correctAnswer": "Family farmers",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يعود الضمير إلى «Family farmers» لأنه المرجع الذي يتوافق معه في المعنى والسياق داخل الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -941,7 +941,7 @@
           ],
           "correctAnswer": "Half of the farmers in 1900 were engaged in agriculture.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Half of the farmers in 1900 were engaged in agriculture»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -992,7 +992,7 @@
           ],
           "correctAnswer": "Description of the statue",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Description of the statue»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1009,7 +1009,7 @@
           ],
           "correctAnswer": "Liberty",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Liberty»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1026,7 +1026,7 @@
           ],
           "correctAnswer": "description",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «description»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1043,7 +1043,7 @@
           ],
           "correctAnswer": "recognized by people around the world.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «recognized by people around the world»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1060,7 +1060,7 @@
           ],
           "correctAnswer": "France",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «France».",
           "excludeFromScoring": false
         },
         {
@@ -1089,7 +1089,7 @@
           ],
           "correctAnswer": "A book and torch",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «A book and torch»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -1117,7 +1117,7 @@
           ],
           "correctAnswer": "stomach",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "المكان المحدد في القطعة هو «stomach»، وهو ما يجيب عن موضع الحدث أو المعلومة بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1134,7 +1134,7 @@
           ],
           "correctAnswer": "sandwich",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «sandwich»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -1162,7 +1162,7 @@
           ],
           "correctAnswer": "The date of publication and publisher.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «The date of publication and publisher»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1179,7 +1179,7 @@
           ],
           "correctAnswer": "Date of publication and publisher",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «Date of publication and publisher»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         }
       ]

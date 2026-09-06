@@ -1084,7 +1084,7 @@
           ],
           "correctAnswer": "Shopping.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Shopping»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1101,7 +1101,7 @@
           ],
           "correctAnswer": "Colors.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يعود الضمير إلى «Colors» لأنه المرجع الذي يتوافق معه في المعنى والسياق داخل الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -1118,7 +1118,7 @@
           ],
           "correctAnswer": "Sizes.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يعود الضمير إلى «Sizes» لأنه المرجع الذي يتوافق معه في المعنى والسياق داخل الجملة.",
           "excludeFromScoring": false
         }
       ]

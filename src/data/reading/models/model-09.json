@@ -27,7 +27,7 @@
           ],
           "correctAnswer": "Profile of Joliet",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Profile of Joliet»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -44,7 +44,7 @@
           ],
           "correctAnswer": "The way",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يعود الضمير إلى «The way» لأنه المرجع الذي يتوافق معه في المعنى والسياق داخل الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -61,7 +61,7 @@
           ],
           "correctAnswer": "He was busy.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «He was busy»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -78,7 +78,7 @@
           ],
           "correctAnswer": "She died.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«She died» هو الاستثناء المطلوب؛ فهو لا يطابق المعلومات التي عرضتها القطعة، بخلاف بقية الخيارات.",
           "excludeFromScoring": false
         },
         {
@@ -95,7 +95,7 @@
           ],
           "correctAnswer": "She married → travelled → met girls → established an organization.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «She married → travelled → met girls → established an organization»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -123,7 +123,7 @@
           ],
           "correctAnswer": "He visited it and wrote about his visit.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «He visited it and wrote about his visit»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -140,7 +140,7 @@
           ],
           "correctAnswer": "Birds could live there and find food.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Birds could live there and find food»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -157,7 +157,7 @@
           ],
           "correctAnswer": "In the middle of the desert.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "المكان المحدد في القطعة هو «In the middle of the desert»، وهو ما يجيب عن موضع الحدث أو المعلومة بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -174,7 +174,7 @@
           ],
           "correctAnswer": "Ghawar is larger than Shaybah.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Ghawar is larger than Shaybah»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -191,7 +191,7 @@
           ],
           "correctAnswer": "Below zero.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Below zero»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -219,7 +219,7 @@
           ],
           "correctAnswer": "They went sightseeing and visited the Eiffel Tower.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "المكان المحدد في القطعة هو «They went sightseeing and visited the Eiffel Tower»، وهو ما يجيب عن موضع الحدث أو المعلومة بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -236,7 +236,7 @@
           ],
           "correctAnswer": "For shopping and sightseeing.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «For shopping and sightseeing»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -253,7 +253,7 @@
           ],
           "correctAnswer": "They stayed near the hotel on the first day.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «They stayed near the hotel on the first day»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -270,7 +270,7 @@
           ],
           "correctAnswer": "She sat under the hotel waiting all day.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «She sat under the hotel waiting all day»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -287,7 +287,7 @@
           ],
           "correctAnswer": "She visited the Eiffel Tower.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «She visited the Eiffel Tower»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -304,7 +304,7 @@
           ],
           "correctAnswer": "Move towards.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «head up to» تحمل معنى «Move towards»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -321,7 +321,7 @@
           ],
           "correctAnswer": "Yes, they did.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Yes, they did»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -338,7 +338,7 @@
           ],
           "correctAnswer": "The Seine River.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يعود الضمير إلى «The Seine River» لأنه المرجع الذي يتوافق معه في المعنى والسياق داخل الجملة.",
           "excludeFromScoring": false
         }
       ]
@@ -366,7 +366,7 @@
           ],
           "correctAnswer": "Driving too closely behind another vehicle; it is unsafe.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «tailgating» تحمل معنى «Driving too closely behind another vehicle; it is unsafe»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -383,7 +383,7 @@
           ],
           "correctAnswer": "Increase.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «escalate» تحمل معنى «Increase»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -400,7 +400,7 @@
           ],
           "correctAnswer": "Because it can cause accidents and make people feel worried or scared.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Because it can cause accidents and make people feel worried or scared»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -417,7 +417,7 @@
           ],
           "correctAnswer": "Road rage.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«Road rage» هو الأنسب لأنه يلخص محور القطعة كاملًا، بينما تمثل الخيارات الأخرى تفاصيل جزئية أو أفكارًا جانبية.",
           "excludeFromScoring": false
         },
         {
@@ -434,7 +434,7 @@
           ],
           "correctAnswer": "Reduces the likelihood of accidents.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Reduces the likelihood of accidents»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -462,7 +462,7 @@
           ],
           "correctAnswer": "Avoiding the rain.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Avoiding the rain»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -479,7 +479,7 @@
           ],
           "correctAnswer": "She did not want to get wet.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «She did not want to get wet»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -496,7 +496,7 @@
           ],
           "correctAnswer": "He had a dangerous disease—cancer.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «He had a dangerous disease—cancer»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -513,7 +513,7 @@
           ],
           "correctAnswer": "She spoke confidently, and her words surprised them.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «She spoke confidently, and her words surprised them»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -530,7 +530,7 @@
           ],
           "correctAnswer": "They went out laughing and remembering happy things.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «They went out laughing and remembering happy things»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -547,7 +547,7 @@
           ],
           "correctAnswer": "They remembered their childhood.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «They remembered their childhood»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -564,7 +564,7 @@
           ],
           "correctAnswer": "The falling rain.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «The falling rain»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -581,7 +581,7 @@
           ],
           "correctAnswer": "Happy memories.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Happy memories»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -598,7 +598,7 @@
           ],
           "correctAnswer": "He chased after their car quickly.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «He chased after their car quickly».",
           "excludeFromScoring": false
         }
       ]
@@ -626,7 +626,7 @@
           ],
           "correctAnswer": "K.F.C.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «K.F.C»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -643,7 +643,7 @@
           ],
           "correctAnswer": "McDonald’s.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «McDonald’s»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -671,7 +671,7 @@
           ],
           "correctAnswer": "Both families.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «Both families».",
           "excludeFromScoring": false
         }
       ]
@@ -699,7 +699,7 @@
           ],
           "correctAnswer": "A missing-item advertisement.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «A missing-item advertisement»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -716,7 +716,7 @@
           ],
           "correctAnswer": "It was a gift from his father.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «It was a gift from his father»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         }
       ]
@@ -744,7 +744,7 @@
           ],
           "correctAnswer": "The road cannot be used; passing is not allowed.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يمكن استنتاج «The road cannot be used; passing is not allowed» من ترابط التفاصيل الواردة في القطعة، حتى لو لم تُذكر بهذه الصياغة حرفيًا.",
           "excludeFromScoring": false
         }
       ]
@@ -772,7 +772,7 @@
           ],
           "correctAnswer": "It contained an unwanted application that he had not downloaded.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «It contained an unwanted application that he had not downloaded»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -789,7 +789,7 @@
           ],
           "correctAnswer": "Mobile phone.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «device» تحمل معنى «Mobile phone»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -806,7 +806,7 @@
           ],
           "correctAnswer": "Thanks.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Thanks»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -823,7 +823,7 @@
           ],
           "correctAnswer": "They downloaded an antivirus application.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «They downloaded an antivirus application»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -840,7 +840,7 @@
           ],
           "correctAnswer": "Director or manager.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «head» تحمل معنى «Director or manager»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -857,7 +857,7 @@
           ],
           "correctAnswer": "Recommend the shop and tell other people about it.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Recommend the shop and tell other people about it»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -874,7 +874,7 @@
           ],
           "correctAnswer": "He is their manager.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «He is their manager»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -891,7 +891,7 @@
           ],
           "correctAnswer": "Manager.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Manager»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -908,7 +908,7 @@
           ],
           "correctAnswer": "The shop took the man’s phone for repair.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «The shop took the man’s phone for repair»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -936,7 +936,7 @@
           ],
           "correctAnswer": "Can I visit you at the weekend?",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Can I visit you at the weekend»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -964,7 +964,7 @@
           ],
           "correctAnswer": "It is 7.99 Riyals.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «It is 7.99 Riyals»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -981,7 +981,7 @@
           ],
           "correctAnswer": "At 9 a.m.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «At 9 a.m»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]

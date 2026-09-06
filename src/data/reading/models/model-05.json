@@ -27,7 +27,7 @@
           ],
           "correctAnswer": "The history of hand-made fabric.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«The history of hand-made fabric» هو الأنسب لأنه يلخص محور القطعة كاملًا، بينما تمثل الخيارات الأخرى تفاصيل جزئية أو أفكارًا جانبية.",
           "excludeFromScoring": false
         },
         {
@@ -44,7 +44,7 @@
           ],
           "correctAnswer": "Hand made is more expensive than machines because of the effort.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«Hand made is more expensive than machines because of the effort» هو الأنسب لأنه يلخص محور القطعة كاملًا، بينما تمثل الخيارات الأخرى تفاصيل جزئية أو أفكارًا جانبية.",
           "excludeFromScoring": false
         },
         {
@@ -61,7 +61,7 @@
           ],
           "correctAnswer": "Process",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «function» تحمل معنى «Process»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -78,7 +78,7 @@
           ],
           "correctAnswer": "History of crochet",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«History of crochet» هو الاستثناء المطلوب؛ فهو لا يطابق المعلومات التي عرضتها القطعة، بخلاف بقية الخيارات.",
           "excludeFromScoring": false
         },
         {
@@ -95,7 +95,7 @@
           ],
           "correctAnswer": "They both use a different method.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«They both use a different method» يحدد علاقة المقارنة المطلوبة بين العناصر المذكورة في القطعة.",
           "excludeFromScoring": false
         },
         {
@@ -112,7 +112,7 @@
           ],
           "correctAnswer": "Knitting is the one used for making socks.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«Knitting is the one used for making socks» هو الاستثناء المطلوب؛ فهو لا يطابق المعلومات التي عرضتها القطعة، بخلاف بقية الخيارات.",
           "excludeFromScoring": false
         },
         {
@@ -129,7 +129,7 @@
           ],
           "correctAnswer": "Because they feel how much effort they put into making these things.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Because they feel how much effort they put into making these things»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -146,7 +146,7 @@
           ],
           "correctAnswer": "Because they see the efforts being made in front of them.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Because they see the efforts being made in front of them»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -163,7 +163,7 @@
           ],
           "correctAnswer": "No, they aren’t, only some.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «No, they aren’t, only some»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -180,7 +180,7 @@
           ],
           "correctAnswer": "They use a different method.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «They use a different method»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -208,7 +208,7 @@
           ],
           "correctAnswer": "The advantages of dates.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «The advantages of dates»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -225,7 +225,7 @@
           ],
           "correctAnswer": "Dates increase constipation.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Dates increase constipation»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -242,7 +242,7 @@
           ],
           "correctAnswer": "Grow",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يمكن استنتاج «Grow» من ترابط التفاصيل الواردة في القطعة، حتى لو لم تُذكر بهذه الصياغة حرفيًا.",
           "excludeFromScoring": false
         },
         {
@@ -259,7 +259,7 @@
           ],
           "correctAnswer": "Are preserved differently after harvested.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Are preserved differently after harvested»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -276,7 +276,7 @@
           ],
           "correctAnswer": "Cultivated",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «agriculture» تحمل معنى «Cultivated»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -293,7 +293,7 @@
           ],
           "correctAnswer": "Versatility of Dates",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Versatility of Dates»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -310,7 +310,7 @@
           ],
           "correctAnswer": "Useful",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «Versatility» تحمل معنى «Useful»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -327,7 +327,7 @@
           ],
           "correctAnswer": "Reconstruction / Weaving / Makeup",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Reconstruction / Weaving / Makeup»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -344,7 +344,7 @@
           ],
           "correctAnswer": "The inscription",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «The inscription»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -396,7 +396,7 @@
           ],
           "correctAnswer": "A physician",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «A physician»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -413,7 +413,7 @@
           ],
           "correctAnswer": "A doctor",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يمكن استنتاج «A doctor» من ترابط التفاصيل الواردة في القطعة، حتى لو لم تُذكر بهذه الصياغة حرفيًا.",
           "excludeFromScoring": false
         },
         {
@@ -430,7 +430,7 @@
           ],
           "correctAnswer": "Because his name differs according to languages.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Because his name differs according to languages»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -447,7 +447,7 @@
           ],
           "correctAnswer": "He was a hard-work man with his patients.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «He was a hard-work man with his patients»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -464,7 +464,7 @@
           ],
           "correctAnswer": "Doctor",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «physicians» تحمل معنى «Doctor»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -481,7 +481,7 @@
           ],
           "correctAnswer": "Skilled",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «proficient» تحمل معنى «Skilled»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -498,7 +498,7 @@
           ],
           "correctAnswer": "5 folders / 5 volumes",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «5 folders / 5 volumes»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -515,7 +515,7 @@
           ],
           "correctAnswer": "He became a doctor",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «He became a doctor»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -532,7 +532,7 @@
           ],
           "correctAnswer": "It has been translated into many languages.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «It has been translated into many languages»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -549,7 +549,7 @@
           ],
           "correctAnswer": "Skilled",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Skilled»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -566,7 +566,7 @@
           ],
           "correctAnswer": "Busy or hard working",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Busy or hard working»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -583,7 +583,7 @@
           ],
           "correctAnswer": "57 years",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «57 years»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         }
       ]
@@ -611,7 +611,7 @@
           ],
           "correctAnswer": "Language and its effect on the identity of immigrants.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«Language and its effect on the identity of immigrants» هو الأنسب لأنه يلخص محور القطعة كاملًا، بينما تمثل الخيارات الأخرى تفاصيل جزئية أو أفكارًا جانبية.",
           "excludeFromScoring": false
         },
         {
@@ -628,7 +628,7 @@
           ],
           "correctAnswer": "Second generation immigrants are eager to learn parent native language.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Second generation immigrants are eager to learn parent native language»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -645,7 +645,7 @@
           ],
           "correctAnswer": "All the children",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «All the children»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -662,7 +662,7 @@
           ],
           "correctAnswer": "The first girl is old; the old girl speaks English and Korean very well, but the second and third only speak English.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «The first girl is old; the old girl speaks English and Korean very well, but the second and third only speak English»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -679,7 +679,7 @@
           ],
           "correctAnswer": "Because she is Americanized.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Because she is Americanized»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -696,7 +696,7 @@
           ],
           "correctAnswer": "Sympathetic",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Sympathetic»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -713,7 +713,7 @@
           ],
           "correctAnswer": "To help them establish a Korean identity.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «To help them establish a Korean identity»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -730,7 +730,7 @@
           ],
           "correctAnswer": "The second sister is older than the son.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «The second sister is older than the son»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -747,7 +747,7 @@
           ],
           "correctAnswer": "She can’t understand some Korean jokes.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «She can’t understand some Korean jokes»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -764,7 +764,7 @@
           ],
           "correctAnswer": "She does not love mother.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «She does not love mother»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -781,7 +781,7 @@
           ],
           "correctAnswer": "American friends will not see them as Korean American.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «American friends will not see them as Korean American»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -798,7 +798,7 @@
           ],
           "correctAnswer": "People who imitate Americans.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «Americanized immigrants» تحمل معنى «People who imitate Americans»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -830,7 +830,7 @@
           ],
           "correctAnswer": "Problem",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «suffer» تحمل معنى «Problem»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -847,7 +847,7 @@
           ],
           "correctAnswer": "English",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «English»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -864,7 +864,7 @@
           ],
           "correctAnswer": "She helped her to speak Korean.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «She helped her to speak Korean»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -881,7 +881,7 @@
           ],
           "correctAnswer": "Two, English and Korean.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «Two, English and Korean»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -898,7 +898,7 @@
           ],
           "correctAnswer": "She speaks only English very well; her Korean is poor.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «She speaks only English very well; her Korean is poor»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -915,7 +915,7 @@
           ],
           "correctAnswer": "Big problem",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Big problem»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -956,7 +956,7 @@
           ],
           "correctAnswer": "The language in immigrant is mixture of two languages.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«The language in immigrant is mixture of two languages» هو الأنسب لأنه يلخص محور القطعة كاملًا، بينما تمثل الخيارات الأخرى تفاصيل جزئية أو أفكارًا جانبية.",
           "excludeFromScoring": false
         }
       ]
@@ -984,7 +984,7 @@
           ],
           "correctAnswer": "Southern Jordan",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "المكان المحدد في القطعة هو «Southern Jordan»، وهو ما يجيب عن موضع الحدث أو المعلومة بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1001,7 +1001,7 @@
           ],
           "correctAnswer": "Nabatean kingdom",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Nabatean kingdom»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -1029,7 +1029,7 @@
           ],
           "correctAnswer": "The central and eastern parts.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «The central and eastern parts»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1046,7 +1046,7 @@
           ],
           "correctAnswer": "Dusty and hot",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Dusty and hot»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1079,7 +1079,7 @@
           ],
           "correctAnswer": "Qassim",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "المكان المحدد في القطعة هو «Qassim»، وهو ما يجيب عن موضع الحدث أو المعلومة بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -1107,7 +1107,7 @@
           ],
           "correctAnswer": "Religion – Unit 3",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Religion – Unit 3»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1124,7 +1124,7 @@
           ],
           "correctAnswer": "Unit 4",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Unit 4»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -1152,7 +1152,7 @@
           ],
           "correctAnswer": "Medical doctor",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Medical doctor»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1169,7 +1169,7 @@
           ],
           "correctAnswer": "Looking",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «examine» تحمل معنى «Looking»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         }
       ]
@@ -1197,7 +1197,7 @@
           ],
           "correctAnswer": "Erich is taller than Adam.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يمكن استنتاج «Erich is taller than Adam» من ترابط التفاصيل الواردة في القطعة، حتى لو لم تُذكر بهذه الصياغة حرفيًا.",
           "excludeFromScoring": false
         }
       ]
@@ -1225,7 +1225,7 @@
           ],
           "correctAnswer": "Papyrus",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Papyrus»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1242,7 +1242,7 @@
           ],
           "correctAnswer": "Papyrus stems",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Papyrus stems»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1259,7 +1259,7 @@
           ],
           "correctAnswer": "Sedge",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «papyrus» تحمل معنى «Sedge»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -1276,7 +1276,7 @@
           ],
           "correctAnswer": "China",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «China»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1293,7 +1293,7 @@
           ],
           "correctAnswer": "The Arabs",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «The Arabs».",
           "excludeFromScoring": false
         },
         {
@@ -1310,7 +1310,7 @@
           ],
           "correctAnswer": "Fibrous material",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Fibrous material»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -1338,7 +1338,7 @@
           ],
           "correctAnswer": "The history of Berlin Wall",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«The history of Berlin Wall» هو الأنسب لأنه يلخص محور القطعة كاملًا، بينما تمثل الخيارات الأخرى تفاصيل جزئية أو أفكارًا جانبية.",
           "excludeFromScoring": false
         },
         {
@@ -1355,7 +1355,7 @@
           ],
           "correctAnswer": "5000 / five thousand people",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «5000 / five thousand people»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -1372,7 +1372,7 @@
           ],
           "correctAnswer": "They closed most of the streets on the border.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «They closed most of the streets on the border»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1389,7 +1389,7 @@
           ],
           "correctAnswer": "5000 crossed over the wall.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«5000 crossed over the wall» هو الأنسب لأنه يلخص محور القطعة كاملًا، بينما تمثل الخيارات الأخرى تفاصيل جزئية أو أفكارًا جانبية.",
           "excludeFromScoring": false
         },
         {
@@ -1421,7 +1421,7 @@
           ],
           "correctAnswer": "11 months later",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «11 months later»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -1438,7 +1438,7 @@
           ],
           "correctAnswer": "The fall, when it came, was quick.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «The fall, when it came, was quick»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1455,7 +1455,7 @@
           ],
           "correctAnswer": "To separate East German from West German.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «To separate East German from West German»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         }
       ]
@@ -1483,7 +1483,7 @@
           ],
           "correctAnswer": "Vessels",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Vessels»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]

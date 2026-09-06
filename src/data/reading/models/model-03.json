@@ -27,7 +27,7 @@
           ],
           "correctAnswer": "Vasily Zvyozdochkin",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «Vasily Zvyozdochkin».",
           "excludeFromScoring": false
         },
         {
@@ -44,7 +44,7 @@
           ],
           "correctAnswer": "Russian Wood Figurine",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Russian Wood Figurine»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -61,7 +61,7 @@
           ],
           "correctAnswer": "The origin of the Russian doll and its appearance.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «The origin of the Russian doll and its appearance»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -78,7 +78,7 @@
           ],
           "correctAnswer": "Expert workmen",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Expert workmen»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -95,7 +95,7 @@
           ],
           "correctAnswer": "Wood",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Wood»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -112,7 +112,7 @@
           ],
           "correctAnswer": "Shaped",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «carved» تحمل معنى «Shaped»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -129,7 +129,7 @@
           ],
           "correctAnswer": "Japan",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Japan»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -146,7 +146,7 @@
           ],
           "correctAnswer": "Because they were not in power for long.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Because they were not in power for long»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -163,7 +163,7 @@
           ],
           "correctAnswer": "Odd numbers",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يعود الضمير إلى «Odd numbers» لأنه المرجع الذي يتوافق معه في المعنى والسياق داخل الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -203,7 +203,7 @@
           ],
           "correctAnswer": "Technical problems",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Technical problems»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -220,7 +220,7 @@
           ],
           "correctAnswer": "New Delhi",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «New Delhi»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -249,7 +249,7 @@
           ],
           "correctAnswer": "Not planned",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «not scheduled» تحمل معنى «Not planned»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -266,7 +266,7 @@
           ],
           "correctAnswer": "Technical problems",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Technical problems»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         }
       ]
@@ -294,7 +294,7 @@
           ],
           "correctAnswer": "Maps",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «chart» تحمل معنى «Maps»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -311,7 +311,7 @@
           ],
           "correctAnswer": "Geography and navigation",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Geography and navigation»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -328,7 +328,7 @@
           ],
           "correctAnswer": "Map maker",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Map maker»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -345,7 +345,7 @@
           ],
           "correctAnswer": "In 1525",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «In 1525»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -362,7 +362,7 @@
           ],
           "correctAnswer": "Map maker",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «cartographer» تحمل معنى «Map maker»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -379,7 +379,7 @@
           ],
           "correctAnswer": "Piri Reis",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «Piri Reis».",
           "excludeFromScoring": false
         },
         {
@@ -396,7 +396,7 @@
           ],
           "correctAnswer": "Ships and sea travel",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Ships and sea travel»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -436,7 +436,7 @@
           ],
           "correctAnswer": "Because people stay most of their time inside.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Because people stay most of their time inside»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -453,7 +453,7 @@
           ],
           "correctAnswer": "Using dishes and cups.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Using dishes and cups»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -470,7 +470,7 @@
           ],
           "correctAnswer": "90%",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «90%»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -502,7 +502,7 @@
           ],
           "correctAnswer": "Because people spend most of their time in buildings.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Because people spend most of their time in buildings»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -519,7 +519,7 @@
           ],
           "correctAnswer": "Carbon black",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Carbon black»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -536,7 +536,7 @@
           ],
           "correctAnswer": "Diesel",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Diesel»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -553,7 +553,7 @@
           ],
           "correctAnswer": "Important",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «essential» تحمل معنى «Important»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -570,7 +570,7 @@
           ],
           "correctAnswer": "856",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «856»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -587,7 +587,7 @@
           ],
           "correctAnswer": "Nitrogen, oxygen, and water vapor.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Nitrogen, oxygen, and water vapor»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -604,7 +604,7 @@
           ],
           "correctAnswer": "Black carbon",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Black carbon»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -621,7 +621,7 @@
           ],
           "correctAnswer": "Diesel smoke",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Diesel smoke»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -638,7 +638,7 @@
           ],
           "correctAnswer": "Allergy",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Allergy»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -655,7 +655,7 @@
           ],
           "correctAnswer": "India",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «India»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -672,7 +672,7 @@
           ],
           "correctAnswer": "Paragraph 3",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Paragraph 3»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -689,7 +689,7 @@
           ],
           "correctAnswer": "Printers and computers",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Printers and computers»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -706,7 +706,7 @@
           ],
           "correctAnswer": "Natural",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Natural»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -723,7 +723,7 @@
           ],
           "correctAnswer": "Toxic",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «synthetic materials» تحمل معنى «Toxic»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -740,7 +740,7 @@
           ],
           "correctAnswer": "Indoor pollution is more dangerous than outdoor pollution.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يمكن استنتاج «Indoor pollution is more dangerous than outdoor pollution» من ترابط التفاصيل الواردة في القطعة، حتى لو لم تُذكر بهذه الصياغة حرفيًا.",
           "excludeFromScoring": false
         },
         {
@@ -757,7 +757,7 @@
           ],
           "correctAnswer": "Acid rain",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Acid rain»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -774,7 +774,7 @@
           ],
           "correctAnswer": "Cancer",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Cancer»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -827,7 +827,7 @@
           ],
           "correctAnswer": "Gases",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Gases»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -844,7 +844,7 @@
           ],
           "correctAnswer": "Pollution",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "«Pollution» هو الأنسب لأنه يلخص محور القطعة كاملًا، بينما تمثل الخيارات الأخرى تفاصيل جزئية أو أفكارًا جانبية.",
           "excludeFromScoring": false
         },
         {
@@ -873,7 +873,7 @@
           ],
           "correctAnswer": "Indoor pollution",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Indoor pollution»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -890,7 +890,7 @@
           ],
           "correctAnswer": "We use wood and natural furniture.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «We use wood and natural furniture»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -907,7 +907,7 @@
           ],
           "correctAnswer": "Paragraph 2",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Paragraph 2»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -924,7 +924,7 @@
           ],
           "correctAnswer": "Synthetic materials",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Synthetic materials»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -941,7 +941,7 @@
           ],
           "correctAnswer": "Indoor pollution is more dangerous than external pollution.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Indoor pollution is more dangerous than external pollution»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -958,7 +958,7 @@
           ],
           "correctAnswer": "Because people want to save energy.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Because people want to save energy»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -998,7 +998,7 @@
           ],
           "correctAnswer": "Egyptian Arabic",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Egyptian Arabic»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1015,7 +1015,7 @@
           ],
           "correctAnswer": "Similarity",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «mutual intelligibility» تحمل معنى «Similarity»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -1032,7 +1032,7 @@
           ],
           "correctAnswer": "The one who uses and learns it (Standard Modern Arabic)",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «The one who uses and learns it (Standard Modern Arabic)».",
           "excludeFromScoring": false
         },
         {
@@ -1049,7 +1049,7 @@
           ],
           "correctAnswer": "The differences between languages",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «The differences between languages»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1066,7 +1066,7 @@
           ],
           "correctAnswer": "Teaching MSA in school",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "يعود الضمير إلى «Teaching MSA in school» لأنه المرجع الذي يتوافق معه في المعنى والسياق داخل الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -1083,7 +1083,7 @@
           ],
           "correctAnswer": "Similarity in different dialects",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «Similarity in different dialects»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -1123,7 +1123,7 @@
           ],
           "correctAnswer": "Europeans and some Asians",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «Europeans and some Asians».",
           "excludeFromScoring": false
         },
         {
@@ -1140,7 +1140,7 @@
           ],
           "correctAnswer": "The Americans",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «The Americans».",
           "excludeFromScoring": false
         },
         {
@@ -1157,7 +1157,7 @@
           ],
           "correctAnswer": "The Americans",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «The Americans».",
           "excludeFromScoring": false
         },
         {
@@ -1174,7 +1174,7 @@
           ],
           "correctAnswer": "3.4 trillion",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «3.4 trillion»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -1203,7 +1203,7 @@
           ],
           "correctAnswer": "Spain",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "الشخص أو الجهة التي تنسب إليها القطعة هذه المعلومة هي «Spain».",
           "excludeFromScoring": false
         },
         {
@@ -1220,7 +1220,7 @@
           ],
           "correctAnswer": "Europe",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "المكان المحدد في القطعة هو «Europe»، وهو ما يجيب عن موضع الحدث أو المعلومة بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1237,7 +1237,7 @@
           ],
           "correctAnswer": "Mexico",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Mexico»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -1265,7 +1265,7 @@
           ],
           "correctAnswer": "In a residence",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "المكان المحدد في القطعة هو «In a residence»، وهو ما يجيب عن موضع الحدث أو المعلومة بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1282,7 +1282,7 @@
           ],
           "correctAnswer": "Weekday evenings",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "القيمة أو الزمن المذكور في القطعة هو «Weekday evenings»، لذا فهو يطابق التفصيل العددي المطلوب.",
           "excludeFromScoring": false
         },
         {
@@ -1322,7 +1322,7 @@
           ],
           "correctAnswer": "18 months",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «18 months»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1339,7 +1339,7 @@
           ],
           "correctAnswer": "A traffic accident",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "السبب الذي تربطه القطعة بالسؤال هو «A traffic accident»؛ لذلك يجيب هذا الخيار عن علاقة السبب والنتيجة مباشرة.",
           "excludeFromScoring": false
         },
         {
@@ -1356,7 +1356,7 @@
           ],
           "correctAnswer": "A technique used for the first time",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "في سياق القطعة، كلمة «Pioneer operation» تحمل معنى «A technique used for the first time»؛ وهذا هو المعنى الذي يستقيم مع الجملة.",
           "excludeFromScoring": false
         },
         {
@@ -1373,7 +1373,7 @@
           ],
           "correctAnswer": "The operation improves the situation in similar injuries.",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «The operation improves the situation in similar injuries»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
@@ -1401,7 +1401,7 @@
           ],
           "correctAnswer": "Air",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Air»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         },
         {
@@ -1418,7 +1418,7 @@
           ],
           "correctAnswer": "Personalized services",
           "answerStatus": "verified",
-          "sourceNote": "الإجابة موثقة ضمن بيانات القطعة.",
+          "sourceNote": "تذكر القطعة أن الإجابة هي «Personalized services»؛ وهذا الخيار يطابق المعلومة المطلوبة، بينما لا تجيب الخيارات الأخرى عنها بدقة.",
           "excludeFromScoring": false
         }
       ]
