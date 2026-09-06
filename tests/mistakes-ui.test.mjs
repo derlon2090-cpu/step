@@ -39,6 +39,7 @@ test('word translation targets the exact clicked occurrence', () => {
 test('question actions stay fixed at desktop, tablet and phone sizes', () => {
   assert.match(quizSource, /<main class="quiz-shell quiz-active-shell">/);
   assert.match(cssSource, /\.quiz-active-shell>\.quiz-actions,\.grammar-quiz-actions\{position:fixed/);
+  assert.match(cssSource, /\.quiz-active-shell>\.quiz-actions,\.grammar-quiz-actions\{bottom:8px;padding:8px 0 10px;border:0;border-radius:0;background:transparent;box-shadow:none;backdrop-filter:none/);
   assert.match(cssSource, /@media\(min-width:701px\) and \(max-width:1024px\)/);
   assert.match(cssSource, /@media\(max-width:700px\)/);
 });

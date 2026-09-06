@@ -1402,7 +1402,6 @@ app.addEventListener('click', (event) => {
     state.tutorOpen = false;
     state.tutorQuestionKey = null;
     render();
-    if (state.view === 'grammar-quiz') keepQuestionInPlace();
     return;
   }
 
@@ -1412,7 +1411,6 @@ app.addEventListener('click', (event) => {
     state.tutorOpen = false;
     state.tutorQuestionKey = null;
     render();
-    keepQuestionInPlace();
     return;
   }
 
@@ -1580,7 +1578,6 @@ app.addEventListener('click', (event) => {
       state.tutorQuestionKey = null;
     }
     render();
-    if (state.view === 'quiz') keepQuestionInPlace();
     return;
   }
 
@@ -1592,7 +1589,6 @@ app.addEventListener('click', (event) => {
     state.tutorOpen = false;
     state.tutorQuestionKey = null;
     render();
-    keepQuestionInPlace();
     return;
   }
 
