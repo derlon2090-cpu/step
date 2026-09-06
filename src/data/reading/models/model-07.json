@@ -21,9 +21,9 @@
           "questionDisplay": "What does the air consist of?",
           "options": [
             "nitrogen, oxygen and water vapor",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Diesel smoke",
+            "Black carbon",
+            "Spend most time in building."
           ],
           "correctAnswer": "nitrogen, oxygen and water vapor",
           "answerStatus": "verified",
@@ -39,8 +39,8 @@
           "options": [
             "Important",
             "healthy",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "nitrogen, oxygen and water vapor",
+            "Diesel smoke"
           ],
           "correctAnswer": "Important",
           "answerStatus": "verified",
@@ -55,9 +55,9 @@
           "questionDisplay": "An example of particles in the air?",
           "options": [
             "Diesel smoke",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Spend most time in building.",
+            "nitrogen, oxygen and water vapor",
+            "Black carbon"
           ],
           "correctAnswer": "Diesel smoke",
           "answerStatus": "verified",
@@ -72,9 +72,9 @@
           "questionDisplay": "Diesel smoke pollution called?",
           "options": [
             "Black carbon",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "nitrogen, oxygen and water vapor",
+            "Diesel smoke",
+            "Spend most time in building."
           ],
           "correctAnswer": "Black carbon",
           "answerStatus": "verified",
@@ -89,9 +89,9 @@
           "questionDisplay": "Indoor pollution is more serious than outdoors?",
           "options": [
             "Spend most time in building.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Diesel smoke",
+            "Black carbon",
+            "nitrogen, oxygen and water vapor"
           ],
           "correctAnswer": "Spend most time in building.",
           "answerStatus": "verified",
@@ -117,9 +117,9 @@
           "questionDisplay": "How often do they give the prize?",
           "options": [
             "Once a year",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "5",
+            "serves chairman of King Faisal Foundation",
+            "In 1979, or 1399 H."
           ],
           "correctAnswer": "Once a year",
           "answerStatus": "verified",
@@ -180,9 +180,9 @@
           "questionDisplay": "What are the sons of king Faisal do to the prize?",
           "options": [
             "serves chairman of King Faisal Foundation",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Once a year",
+            "5",
+            "In 1979, or 1399 H."
           ],
           "correctAnswer": "serves chairman of King Faisal Foundation",
           "answerStatus": "verified",
@@ -212,9 +212,9 @@
           "questionDisplay": "When was the first prize?",
           "options": [
             "In 1979, or 1399 H.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "serves chairman of King Faisal Foundation",
+            "The Board of Trustees of the Foundation",
+            "The Secretariat of the Award"
           ],
           "correctAnswer": "In 1979, or 1399 H.",
           "answerStatus": "verified",
@@ -229,9 +229,9 @@
           "questionDisplay": "Who suggested this prize?",
           "options": [
             "The Board of Trustees of the Foundation",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Islamic institutions, universities and previous winners",
+            "The Secretariat of the Award",
+            "In 1979, or 1399 H."
           ],
           "correctAnswer": "The Board of Trustees of the Foundation",
           "answerStatus": "verified",
@@ -246,9 +246,9 @@
           "questionDisplay": "Who is the responsible party for nominating the winners?",
           "options": [
             "The Secretariat of the Award",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The Board of Trustees of the Foundation",
+            "Islamic institutions, universities and previous winners",
+            "5"
           ],
           "correctAnswer": "The Secretariat of the Award",
           "answerStatus": "verified",
@@ -308,9 +308,9 @@
           "questionDisplay": "Who invented the idea of king Fahd bridge?",
           "options": [
             "King Saud",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Essa Ibn Salman Khalifa",
+            "geographical and environmental factors.",
+            "New causeways to construct to other countries."
           ],
           "correctAnswer": "King Saud",
           "answerStatus": "verified",
@@ -325,9 +325,9 @@
           "questionDisplay": "The word it refers to?",
           "options": [
             "Joint committee",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "New causeways to construct to other countries.",
+            "describe the construction, facts about the causeway",
+            "Facilities"
           ],
           "correctAnswer": "Joint committee",
           "answerStatus": "verified",
@@ -342,9 +342,9 @@
           "questionDisplay": "World Bank provides?",
           "options": [
             "geographical and environmental factors.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "describe the construction, facts about the causeway",
+            "Facilities",
+            "Shopping malls"
           ],
           "correctAnswer": "geographical and environmental factors.",
           "answerStatus": "verified",
@@ -359,9 +359,9 @@
           "questionDisplay": "If the paragraph continued, what would it be about?",
           "options": [
             "New causeways to construct to other countries.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Facilities",
+            "Shopping malls",
+            "4,296 m"
           ],
           "correctAnswer": "New causeways to construct to other countries.",
           "answerStatus": "verified",
@@ -376,9 +376,9 @@
           "questionDisplay": "What is the paragraph 6 about?",
           "options": [
             "describe the construction, facts about the causeway",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Shopping malls",
+            "4,296 m",
+            "19 million"
           ],
           "correctAnswer": "describe the construction, facts about the causeway",
           "answerStatus": "verified",
@@ -393,9 +393,9 @@
           "questionDisplay": "A paragraph 7 talks about building mosques, an island, etc. What is the paragraph about?",
           "options": [
             "Facilities",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "4,296 m",
+            "19 million",
+            "Joint committee"
           ],
           "correctAnswer": "Facilities",
           "answerStatus": "verified",
@@ -410,9 +410,9 @@
           "questionDisplay": "What is not found in the passage?",
           "options": [
             "Shopping malls",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "19 million",
+            "Joint committee",
+            "geographical and environmental factors."
           ],
           "correctAnswer": "Shopping malls",
           "answerStatus": "verified",
@@ -427,9 +427,9 @@
           "questionDisplay": "When did you start thinking officially?",
           "options": [
             "1965",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "November 26, 1986 - 24 Rabi` al-Awwal, 1407",
+            "King Saud",
+            "Joint committee"
           ],
           "correctAnswer": "1965",
           "answerStatus": "verified",
@@ -444,9 +444,9 @@
           "questionDisplay": "Who called the bridge its name?",
           "options": [
             "Essa Ibn Salman Khalifa",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "King Saud",
+            "describe the construction, facts about the causeway",
+            "Facilities"
           ],
           "correctAnswer": "Essa Ibn Salman Khalifa",
           "answerStatus": "verified",
@@ -461,9 +461,9 @@
           "questionDisplay": "Bahraini side of the bridge is long?",
           "options": [
             "4,296 m",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "New causeways to construct to other countries.",
+            "describe the construction, facts about the causeway",
+            "Facilities"
           ],
           "correctAnswer": "4,296 m",
           "answerStatus": "verified",
@@ -478,9 +478,9 @@
           "questionDisplay": "When was the bridge opened?",
           "options": [
             "November 26, 1986 - 24 Rabi` al-Awwal, 1407",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "1965",
+            "19 million",
+            "bridges between two nations"
           ],
           "correctAnswer": "November 26, 1986 - 24 Rabi` al-Awwal, 1407",
           "answerStatus": "verified",
@@ -495,9 +495,9 @@
           "questionDisplay": "Number of passengers in 2010?",
           "options": [
             "19 million",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Facilities",
+            "Shopping malls",
+            "4,296 m"
           ],
           "correctAnswer": "19 million",
           "answerStatus": "verified",
@@ -513,8 +513,8 @@
           "options": [
             "bridges between two nations",
             "Visiting Bahrain",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "Joint committee",
+            "geographical and environmental factors."
           ],
           "correctAnswer": "bridges between two nations",
           "answerStatus": "verified",
@@ -603,9 +603,9 @@
           "questionDisplay": "Which blood allocates the donate to all others?",
           "options": [
             "Blood type O.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "(O)",
+            "(AB)",
+            "a. it doesn't have antibodies or antigens for either type"
           ],
           "correctAnswer": "Blood type O.",
           "answerStatus": "verified",
@@ -632,9 +632,9 @@
           "questionDisplay": "What does the word “compatible” mean?",
           "options": [
             "Matching",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Blood type O.",
+            "a. it doesn't have antibodies or antigens for either type",
+            "(O)"
           ],
           "correctAnswer": "Matching",
           "answerStatus": "verified",
@@ -676,7 +676,7 @@
             "Sheep",
             "cat",
             "moles",
-            "Not mentioned in the passage."
+            "May not really sleep."
           ],
           "correctAnswer": "Sheep",
           "answerStatus": "verified",
@@ -691,9 +691,9 @@
           "questionDisplay": "Snakes .....................?",
           "options": [
             "May not really sleep.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "does NOT always sleep lying down.",
+            "usually open their eyes",
+            "Spend some time resting."
           ],
           "correctAnswer": "May not really sleep.",
           "answerStatus": "verified",
@@ -708,9 +708,9 @@
           "questionDisplay": "Elephant .....................?",
           "options": [
             "does NOT always sleep lying down.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "usually open their eyes",
+            "Spend some time resting.",
+            "Use the electroencephalograph."
           ],
           "correctAnswer": "does NOT always sleep lying down.",
           "answerStatus": "verified",
@@ -742,9 +742,9 @@
           "questionDisplay": "All animals .............?",
           "options": [
             "Spend some time resting.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Use the electroencephalograph.",
+            "Fish and snakes sleep eyes open. They don't like to close them.",
+            "Sheep"
           ],
           "correctAnswer": "Spend some time resting.",
           "answerStatus": "verified",
@@ -761,7 +761,7 @@
             "animals",
             "Scientists",
             "device name",
-            "Not mentioned in the passage."
+            "Spend some time resting."
           ],
           "correctAnswer": "animals",
           "answerStatus": "verified",
@@ -776,9 +776,9 @@
           "questionDisplay": "What does the word “dozing” mean?",
           "options": [
             "Sleep",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "signs",
+            "things produce a reaction in living organisms",
+            "Fish and snakes sleep eyes open. They don't like to close them."
           ],
           "correctAnswer": "Sleep",
           "answerStatus": "verified",
@@ -793,9 +793,9 @@
           "questionDisplay": "What does the word “clues” mean?",
           "options": [
             "signs",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "things produce a reaction in living organisms",
+            "Sleep",
+            "does NOT always sleep lying down."
           ],
           "correctAnswer": "signs",
           "answerStatus": "verified",
@@ -810,9 +810,9 @@
           "questionDisplay": "What is the main idea of the passage?",
           "options": [
             "Scientists able to study animals sleeping behavior.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "May not really sleep.",
+            "does NOT always sleep lying down.",
+            "usually open their eyes"
           ],
           "correctAnswer": "Scientists able to study animals sleeping behavior.",
           "answerStatus": "verified",
@@ -827,9 +827,9 @@
           "questionDisplay": "Why do some animals better sleepers?",
           "options": [
             "Because they have a safe place to sleep",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Spend some time resting.",
+            "animals",
+            "Sleep"
           ],
           "correctAnswer": "Because they have a safe place to sleep",
           "answerStatus": "verified",
@@ -844,9 +844,9 @@
           "questionDisplay": "What is the best way to test animal sleep?",
           "options": [
             "Use the electroencephalograph.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Spend some time resting.",
+            "Fish and snakes sleep eyes open. They don't like to close them.",
+            "Sheep"
           ],
           "correctAnswer": "Use the electroencephalograph.",
           "answerStatus": "verified",
@@ -861,9 +861,9 @@
           "questionDisplay": "What is not true according to paragraph 2 and 3?",
           "options": [
             "Fish and snakes sleep eyes open. They don't like to close them.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Use the electroencephalograph.",
+            "Sheep",
+            "May not really sleep."
           ],
           "correctAnswer": "Fish and snakes sleep eyes open. They don't like to close them.",
           "answerStatus": "verified",
@@ -878,9 +878,9 @@
           "questionDisplay": "The word stimuli is closest in meaning to?",
           "options": [
             "things produce a reaction in living organisms",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Sleep",
+            "signs",
+            "Because they have a safe place to sleep"
           ],
           "correctAnswer": "things produce a reaction in living organisms",
           "answerStatus": "verified",
@@ -906,9 +906,9 @@
           "questionDisplay": "What does the pronoun “themselves” refer to?",
           "options": [
             "Family farmers",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Factory workers",
+            "City merchants",
+            "Farm animals"
           ],
           "correctAnswer": "Family farmers",
           "answerStatus": "verified",
@@ -935,9 +935,9 @@
           "questionDisplay": "What is wrong with the options?",
           "options": [
             "Half of the farmers in 1900 were engaged in agriculture.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Most farmers lived in cities.",
+            "Farm families bought all their food.",
+            "Agriculture employed no families."
           ],
           "correctAnswer": "Half of the farmers in 1900 were engaged in agriculture.",
           "answerStatus": "verified",
@@ -986,9 +986,9 @@
           "questionDisplay": "What does the 2nd paragraph talk about?",
           "options": [
             "Description of the statue",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Liberty",
+            "description",
+            "A book and torch"
           ],
           "correctAnswer": "Description of the statue",
           "answerStatus": "verified",
@@ -1003,9 +1003,9 @@
           "questionDisplay": "What does it represent?",
           "options": [
             "Liberty",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "description",
+            "A book and torch",
+            "Description of the statue"
           ],
           "correctAnswer": "Liberty",
           "answerStatus": "verified",
@@ -1037,9 +1037,9 @@
           "questionDisplay": "What is mentioned in the passage about the statue?",
           "options": [
             "recognized by people around the world.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Description of the statue",
+            "Liberty",
+            "description"
           ],
           "correctAnswer": "recognized by people around the world.",
           "answerStatus": "verified",
@@ -1056,7 +1056,7 @@
             "France",
             "Spain",
             "Britain",
-            "Not mentioned in the passage."
+            "recognized by people around the world."
           ],
           "correctAnswer": "France",
           "answerStatus": "verified",
@@ -1083,9 +1083,9 @@
           "questionDisplay": "What does she hold in her hand?",
           "options": [
             "A book and torch",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Description of the statue",
+            "Liberty",
+            "description"
           ],
           "correctAnswer": "A book and torch",
           "answerStatus": "verified",
@@ -1156,9 +1156,9 @@
           "questionDisplay": "What is the information required about the book?",
           "options": [
             "The date of publication and publisher.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The cover color and price",
+            "The author’s address",
+            "The number of illustrations"
           ],
           "correctAnswer": "The date of publication and publisher.",
           "answerStatus": "verified",
@@ -1173,9 +1173,9 @@
           "questionDisplay": "What information do you find when searching for a book?",
           "options": [
             "Date of publication and publisher",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Reader reviews only",
+            "The shelf color",
+            "The shop opening hours"
           ],
           "correctAnswer": "Date of publication and publisher",
           "answerStatus": "verified",

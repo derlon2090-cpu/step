@@ -51,6 +51,7 @@ let serverLearningState = null;
 let serverLearningStateLoaded = false;
 let serverMistakes = [];
 let serverMistakesLoaded = false;
+let grammarAnswerQueue = Promise.resolve();
 const progressKey = () => account?.email ? `${storageKey}:${account.email}` : storageKey;
 const migrationMarkerKey = () => `nabahah-learning-migrated-v1:${account?.id ?? 'anonymous'}`;
 const pendingAnswersKey = () => `nabahah-pending-answers-v1:${account?.id ?? 'anonymous'}`;
@@ -400,17 +401,21 @@ function wordMeaning(word) {
 
 function renderQuestionText(question) {
   if (state.translationQuestionId !== question.id) return escapeHtml(question.question);
-  const selectedWord = normalizeWord(state.translatedWords[question.id] ?? '');
+  const selection = state.translatedWords[question.id];
+  const selectedWord = normalizeWord(typeof selection === 'object' ? selection.word : selection ?? '');
+  const selectedIndex = typeof selection === 'object' ? Number(selection.index) : null;
   const parts = [];
   let cursor = 0;
+  let wordIndex = 0;
   const pattern = /[A-Za-z]+(?:['’][A-Za-z]+)?/g;
   for (const match of question.question.matchAll(pattern)) {
     if (match.index > cursor) parts.push(escapeHtml(question.question.slice(cursor, match.index)));
     const token = match[0];
     const clean = normalizeWord(token);
-    const popover = clean === selectedWord ? `<span class="word-meaning-popover" role="status">${escapeHtml(wordMeaning(clean))}</span>` : '';
-    parts.push(`<span class="word-chip-wrap"><button class="word-chip" data-word="${escapeHtml(clean)}" data-question-word="${question.id}">${escapeHtml(token)}</button>${popover}</span>`);
+    const popover = (selectedIndex === null ? clean === selectedWord : wordIndex === selectedIndex) ? `<span class="word-meaning-popover" role="status">${escapeHtml(wordMeaning(clean))}</span>` : '';
+    parts.push(`<span class="word-chip-wrap"><button class="word-chip" data-word="${escapeHtml(clean)}" data-word-index="${wordIndex}" data-question-word="${question.id}">${escapeHtml(token)}</button>${popover}</span>`);
     cursor = match.index + token.length;
+    wordIndex += 1;
   }
   if (cursor < question.question.length) parts.push(escapeHtml(question.question.slice(cursor)));
   return parts.join('');
@@ -642,33 +647,30 @@ function grammarResultView(model) {
   return `<main class="dashboard-shell grammar-result-shell">${dashboardHeader('grammar')}<section class="grammar-result-card"><span class="eyebrow">نتيجة التدريب</span><h1>${escapeHtml(model.title)} مكتمل</h1><div class="grammar-score"><strong>${score}%</strong><span>${correct} من ${scored.length} إجابة صحيحة</span></div><p>حافظنا على ترتيبك وإجابات المصدر لتتمكن من مراجعة كل سؤال بهدوء.</p><div class="grammar-result-actions"><div class="result-retry-stack"><button class="mint-action" data-grammar-retry>إعادة التدريب</button><button class="outline-action result-mistakes-action" data-open-mistakes="grammar">مراجعة أخطاء القواعد</button></div><button class="outline-action" data-grammar-library>العودة للنماذج</button></div></section></main>`;
 }
 
-async function confirmGrammarAnswer(model, question, optionIndex) {
-  state.grammarPendingQuestionId = question.id;
+function confirmGrammarAnswer(model, question, optionIndex) {
+  const isCorrect = question.correctIndex === null ? null : optionIndex === question.correctIndex;
   state.grammarAnswers = { ...(state.grammarAnswers ?? {}), [question.id]: optionIndex };
-  render();
-  let isCorrect;
-  let serverSaved = false;
-  let attemptId = null;
-  try {
-    const payload = await sendLearningAnswer({ skill: 'grammar', modelSourceId: model.id, questionSourceId: question.id, selectedIndex: optionIndex, totalQuestions: model.questions.length, clientMutationId: crypto.randomUUID() });
-    isCorrect = payload.isCorrect;
-    attemptId = payload.attemptId;
-    serverSaved = true;
-  } catch {
-    // Local catalogue fallback keeps offline practice usable; production API
-    // responses still take precedence when the server is available.
-    isCorrect = question.correctIndex === null ? null : optionIndex === question.correctIndex;
-  }
   const saved = grammarProgress(model.id);
   const savedMistakes = { ...(saved.mistakes ?? {}) };
   if (isCorrect === false) savedMistakes[question.id] = { mistakeCount: Number(savedMistakes[question.id]?.mistakeCount ?? 0) + 1, selectedAnswer: question.options[optionIndex], lastSeenAt: new Date().toISOString() };
-  setGrammarProgress(model.id, { answers: { ...(saved.answers ?? {}), [question.id]: optionIndex }, results: { ...(saved.results ?? {}), [question.id]: isCorrect }, mistakes: savedMistakes, attemptId: attemptId ?? saved.attemptId, status: 'in-progress', currentQuestionIndex: state.grammarQuestionIndex });
+  setGrammarProgress(model.id, { answers: { ...(saved.answers ?? {}), [question.id]: optionIndex }, results: { ...(saved.results ?? {}), [question.id]: isCorrect }, mistakes: savedMistakes, status: 'in-progress', currentQuestionIndex: state.grammarQuestionIndex });
   state.grammarConfirmed = { ...(state.grammarConfirmed ?? {}), [question.id]: isCorrect === true };
-  if (serverSaved) await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false, hydrate: false, flushPending: false })]);
   state.grammarPendingQuestionId = null;
   render();
   if (isCorrect === true) soundManager.play('answer-correct');
   else if (isCorrect === false && question.correctIndex !== null) soundManager.play('answer-wrong');
+  const answerPayload = { skill: 'grammar', modelSourceId: model.id, questionSourceId: question.id, selectedIndex: optionIndex, totalQuestions: model.questions.length, clientMutationId: crypto.randomUUID() };
+  grammarAnswerQueue = grammarAnswerQueue.then(async () => {
+    try {
+      const payload = await sendLearningAnswer(answerPayload);
+      const latest = grammarProgress(model.id);
+      setGrammarProgress(model.id, { attemptId: payload.attemptId ?? latest.attemptId });
+      await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false, hydrate: false, flushPending: false })]);
+    } catch {
+      // The answer is already queued locally by sendLearningAnswer when the
+      // connection is unavailable; feedback never waits for synchronization.
+    }
+  });
 }
 
 function libraryView() {
@@ -891,7 +893,7 @@ function quizView(model, passage) {
   const hasKnownAnswer = question.correctAnswer !== null;
   const confidence = item.answerMeta?.[question.id]?.confidence;
   const isLastQuestion = index === passage.questions.length - 1;
-  return `<main class="quiz-shell">
+  return `<main class="quiz-shell quiz-active-shell">
     ${raseenHeader('النماذج')}
     <header class="quiz-top">
       <button class="back-button" data-model>← قطع النموذج</button>
@@ -996,6 +998,13 @@ function restoreTutorViewport(viewport, scrollTutor, tutorViewport) {
     const session = state.tutorSessions[state.tutorQuestionKey];
     if (scrollTutor || session?.autoScroll !== false) conversation.scrollTop = conversation.scrollHeight;
     else if (tutorViewport) conversation.scrollTop = Math.min(tutorViewport.scrollTop, conversation.scrollHeight);
+  });
+}
+
+function keepQuestionInPlace() {
+  requestAnimationFrame(() => {
+    const question = document.querySelector('.active-question, .grammar-question-card');
+    if (question) question.scrollIntoView({ block: 'start', behavior: 'auto' });
   });
 }
 
@@ -1365,7 +1374,7 @@ app.addEventListener('click', (event) => {
       setGrammarProgress(model.id, { status: 'completed', currentQuestionIndex: 0 });
       state.view = 'grammar-result';
       const savedResults = grammarProgress(model.id).results ?? {};
-      void submitLearningAttempt(grammarProgress(model.id).attemptId);
+      void grammarAnswerQueue.then(() => submitLearningAttempt(grammarProgress(model.id).attemptId));
       const scored = model.questions.filter((candidate) => candidate.correctIndex !== null);
       const correct = scored.filter((candidate) => savedResults[candidate.id] === true).length;
       soundManager.play(scored.length && correct / scored.length >= 0.9 ? 'achievement' : 'exercise-complete');
@@ -1377,6 +1386,7 @@ app.addEventListener('click', (event) => {
     state.tutorOpen = false;
     state.tutorQuestionKey = null;
     render();
+    if (state.view === 'grammar-quiz') keepQuestionInPlace();
     return;
   }
 
@@ -1386,6 +1396,7 @@ app.addEventListener('click', (event) => {
     state.tutorOpen = false;
     state.tutorQuestionKey = null;
     render();
+    keepQuestionInPlace();
     return;
   }
 
@@ -1395,6 +1406,7 @@ app.addEventListener('click', (event) => {
     setGrammarProgress(model.id, { answers: {}, results: {}, status: 'in-progress', currentQuestionIndex: 0 });
     state = { ...state, view: 'grammar-quiz', grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, grammarPendingQuestionId: null, tutorOpen: false, tutorQuestionKey: null };
     render();
+    keepQuestionInPlace();
     return;
   }
 
@@ -1446,6 +1458,7 @@ app.addEventListener('click', (event) => {
     const saved = quizProgress(modelId, passageId);
     state = { ...state, view: 'quiz', selectedModelId: modelId, selectedPassageId: passageId, questionIndex: Math.min(saved.currentQuestionIndex ?? 0, Math.max(0, passage.questions.length - 1)), questionStartedAt: Date.now(), translationQuestionId: null, activeAnswers: { ...(saved.answers ?? {}) }, restoredProgress: true, tutorOpen: false, tutorQuestionKey: null };
     render();
+    keepQuestionInPlace();
     return;
   }
 
@@ -1483,7 +1496,7 @@ app.addEventListener('click', (event) => {
 
   const wordButton = event.target.closest('[data-word]');
   if (wordButton) {
-    state.translatedWords = { ...state.translatedWords, [wordButton.dataset.questionWord]: wordButton.dataset.word };
+    state.translatedWords = { ...state.translatedWords, [wordButton.dataset.questionWord]: { word: wordButton.dataset.word, index: Number(wordButton.dataset.wordIndex) } };
     render();
     return;
   }
@@ -1551,6 +1564,7 @@ app.addEventListener('click', (event) => {
       state.tutorQuestionKey = null;
     }
     render();
+    if (state.view === 'quiz') keepQuestionInPlace();
     return;
   }
 
@@ -1562,6 +1576,7 @@ app.addEventListener('click', (event) => {
     state.tutorOpen = false;
     state.tutorQuestionKey = null;
     render();
+    keepQuestionInPlace();
     return;
   }
 

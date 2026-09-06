@@ -21,9 +21,9 @@
           "questionDisplay": "What is the wrong answer about deriving a currency?",
           "options": [
             "about names of king",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Spanish- royal.",
+            "They are all made of the same material.",
+            "Germany"
           ],
           "correctAnswer": "about names of king",
           "answerStatus": "verified",
@@ -38,9 +38,9 @@
           "questionDisplay": "What is the origin of the riyal?",
           "options": [
             "Spanish- royal.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "They are all made of the same material.",
+            "Germany",
+            "The Kuwaiti Dinar"
           ],
           "correctAnswer": "Spanish- royal.",
           "answerStatus": "verified",
@@ -55,9 +55,9 @@
           "questionDisplay": "What are the similarities between the ringgit and the Mexican currency?",
           "options": [
             "They are all made of the same material.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Germany",
+            "The Kuwaiti Dinar",
+            "Light weight"
           ],
           "correctAnswer": "They are all made of the same material.",
           "answerStatus": "verified",
@@ -72,9 +72,9 @@
           "questionDisplay": "What is the origin of the word dollar?",
           "options": [
             "Germany",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The Kuwaiti Dinar",
+            "Light weight",
+            "material"
           ],
           "correctAnswer": "Germany",
           "answerStatus": "verified",
@@ -89,9 +89,9 @@
           "questionDisplay": "What is the meaning of derivation?",
           "options": [
             "Originated",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Peso is taken from the weight.",
+            "The Kuwaiti Dinar",
+            "Light weight"
           ],
           "correctAnswer": "Originated",
           "answerStatus": "verified",
@@ -106,9 +106,9 @@
           "questionDisplay": "What is the most expensive currency?",
           "options": [
             "The Kuwaiti Dinar",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "material",
+            "Dinar Kuwaiti",
+            "about names of king"
           ],
           "correctAnswer": "The Kuwaiti Dinar",
           "answerStatus": "verified",
@@ -123,9 +123,9 @@
           "questionDisplay": "Peso is taken from the weight. What does this mean?",
           "options": [
             "Peso is taken from the weight.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Originated",
+            "Spanish- royal.",
+            "They are all made of the same material."
           ],
           "correctAnswer": "Peso is taken from the weight.",
           "answerStatus": "verified",
@@ -140,9 +140,9 @@
           "questionDisplay": "What is the derivation of the peso?",
           "options": [
             "Light weight",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "about names of king",
+            "Spanish- royal.",
+            "They are all made of the same material."
           ],
           "correctAnswer": "Light weight",
           "answerStatus": "verified",
@@ -157,9 +157,9 @@
           "questionDisplay": "What does the pronoun “it” refer to?",
           "options": [
             "Peso",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The Kuwaiti Dinar",
+            "Peso is taken from the weight.",
+            "Light weight"
           ],
           "correctAnswer": "Peso",
           "answerStatus": "verified",
@@ -174,9 +174,9 @@
           "questionDisplay": "The dinar and rupee have which characteristic?",
           "options": [
             "material",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "They are all made of the same material.",
+            "Germany",
+            "The Kuwaiti Dinar"
           ],
           "correctAnswer": "material",
           "answerStatus": "verified",
@@ -191,9 +191,9 @@
           "questionDisplay": "Which currency is referred to again?",
           "options": [
             "Dinar Kuwaiti",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Germany",
+            "The Kuwaiti Dinar",
+            "Light weight"
           ],
           "correctAnswer": "Dinar Kuwaiti",
           "answerStatus": "verified",
@@ -221,7 +221,7 @@
             "They are smart",
             "Avoid eating animals",
             "They have many colors",
-            "Not mentioned in the passage."
+            "They live only on land"
           ],
           "correctAnswer": "They are smart",
           "answerStatus": "verified",
@@ -236,9 +236,9 @@
           "questionDisplay": "Who is the welcome message directed to?",
           "options": [
             "Visitors watching dolphins",
-            "For people who came to see the fish",
-            "People who attended the museum",
-            "Not mentioned in the passage."
+            "People attending a museum",
+            "Marine researchers only",
+            "Boat drivers"
           ],
           "correctAnswer": "Visitors watching dolphins",
           "answerStatus": "verified",
@@ -253,9 +253,9 @@
           "questionDisplay": "What are they explaining in this passage?",
           "options": [
             "Dolphins City",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "A fishing village",
+            "A marine museum",
+            "A swimming course"
           ],
           "correctAnswer": "Dolphins City",
           "answerStatus": "verified",
@@ -281,9 +281,9 @@
           "questionDisplay": "What is the best title?",
           "options": [
             "Edison the great inventor",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "electric light and power",
+            "started fire.",
+            "Because he sold the Stick for 40,000"
           ],
           "correctAnswer": "Edison the great inventor",
           "answerStatus": "verified",
@@ -299,8 +299,8 @@
           "options": [
             "invention of the light bulb",
             "The phonograph",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "Because he sold the Stick for 40,000",
+            "Advantage"
           ],
           "correctAnswer": "invention of the light bulb",
           "answerStatus": "verified",
@@ -329,9 +329,9 @@
           "questionDisplay": "What invention is mentioned in the section?",
           "options": [
             "electric light and power",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "invention of the light bulb",
+            "Because he sold the Stick for 40,000",
+            "Advantage"
           ],
           "correctAnswer": "electric light and power",
           "answerStatus": "verified",
@@ -346,9 +346,9 @@
           "questionDisplay": "Why was he fired from work?",
           "options": [
             "started fire.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "invention of the light bulb",
+            "electric light and power",
+            "Because he sold the Stick for 40,000"
           ],
           "correctAnswer": "started fire.",
           "answerStatus": "verified",
@@ -363,9 +363,9 @@
           "questionDisplay": "How did he open a shop?",
           "options": [
             "Because he sold the Stick for 40,000",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Advantage",
+            "invention of the light bulb",
+            "electric light and power"
           ],
           "correctAnswer": "Because he sold the Stick for 40,000",
           "answerStatus": "verified",
@@ -382,7 +382,7 @@
             "Advantage",
             "Positive",
             "Feature advantage",
-            "Not mentioned in the passage."
+            "invention of the light bulb"
           ],
           "correctAnswer": "Advantage",
           "answerStatus": "verified",
@@ -397,9 +397,9 @@
           "questionDisplay": "What does the word “bless” mean?",
           "options": [
             "Happy = glad = joyful",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Because he sold the Stick for 40,000",
+            "Advantage",
+            "Edison the great inventor"
           ],
           "correctAnswer": "Happy = glad = joyful",
           "answerStatus": "verified",
@@ -444,7 +444,7 @@
             "Epic",
             "Factitious",
             "Mystery",
-            "Not mentioned in the passage."
+            "find some water"
           ],
           "correctAnswer": "Epic",
           "answerStatus": "verified",
@@ -461,7 +461,7 @@
             "Real",
             "romantic",
             "sport",
-            "Not mentioned in the passage."
+            "find some water"
           ],
           "correctAnswer": "Real",
           "answerStatus": "verified",
@@ -476,9 +476,9 @@
           "questionDisplay": "What does the word “legend” mean?",
           "options": [
             "Mythical story or tale",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "tale",
+            "In Salt mine",
+            "find some water"
           ],
           "correctAnswer": "Mythical story or tale",
           "answerStatus": "verified",
@@ -512,7 +512,7 @@
             "In Salt mine",
             "A heap of salt",
             "Sand pile",
-            "Not mentioned in the passage."
+            "Epic"
           ],
           "correctAnswer": "In Salt mine",
           "answerStatus": "verified",
@@ -527,9 +527,9 @@
           "questionDisplay": "What did the queen ask the servants to?",
           "options": [
             "find some water",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Real",
+            "Safer than wood",
+            "Epic"
           ],
           "correctAnswer": "find some water",
           "answerStatus": "verified",
@@ -616,9 +616,9 @@
           "questionDisplay": "What does the word pleased mean?",
           "options": [
             "Happy",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Without work",
+            "in different areas of his life.",
+            "More than 4 hours"
           ],
           "correctAnswer": "Happy",
           "answerStatus": "verified",
@@ -633,9 +633,9 @@
           "questionDisplay": "Someone decided to come back and take the worksheet again why?",
           "options": [
             "he needs to focus on the worksheet more.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "He forgot his bag.",
+            "he gives her jewelry.",
+            "Worksheet."
           ],
           "correctAnswer": "he needs to focus on the worksheet more.",
           "answerStatus": "verified",
@@ -650,9 +650,9 @@
           "questionDisplay": "How does he use it to control?",
           "options": [
             "in different areas of his life.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "he gives her jewelry.",
+            "Worksheet.",
+            "Discipline"
           ],
           "correctAnswer": "in different areas of his life.",
           "answerStatus": "verified",
@@ -667,9 +667,9 @@
           "questionDisplay": "What does the word effortless mean?",
           "options": [
             "Without work",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Happy",
+            "everybody",
+            "All present people."
           ],
           "correctAnswer": "Without work",
           "answerStatus": "verified",
@@ -684,9 +684,9 @@
           "questionDisplay": "How long did it take?",
           "options": [
             "More than 4 hours",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "On weekend",
+            "Happy",
+            "he needs to focus on the worksheet more."
           ],
           "correctAnswer": "More than 4 hours",
           "answerStatus": "verified",
@@ -701,9 +701,9 @@
           "questionDisplay": "Why did he take longer time?",
           "options": [
             "Because he forgot his bag",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "gift of his wife beautiful",
+            "Without work",
+            "More than 4 hours"
           ],
           "correctAnswer": "Because he forgot his bag",
           "answerStatus": "verified",
@@ -718,9 +718,9 @@
           "questionDisplay": "What did you remember when he was driving?",
           "options": [
             "He forgot his bag.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "he needs to focus on the worksheet more.",
+            "in different areas of his life.",
+            "he gives her jewelry."
           ],
           "correctAnswer": "He forgot his bag.",
           "answerStatus": "verified",
@@ -735,9 +735,9 @@
           "questionDisplay": "What does he do to his wife?",
           "options": [
             "he gives her jewelry.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "he needs to focus on the worksheet more.",
+            "in different areas of his life.",
+            "He forgot his bag."
           ],
           "correctAnswer": "he gives her jewelry.",
           "answerStatus": "verified",
@@ -752,9 +752,9 @@
           "questionDisplay": "What is the meeting about?",
           "options": [
             "Worksheet.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "in different areas of his life.",
+            "He forgot his bag.",
+            "he gives her jewelry."
           ],
           "correctAnswer": "Worksheet.",
           "answerStatus": "verified",
@@ -771,7 +771,7 @@
             "Discipline",
             "Lesson plan",
             "Energy",
-            "Not mentioned in the passage."
+            "He forgot his bag."
           ],
           "correctAnswer": "Discipline",
           "answerStatus": "verified",
@@ -788,7 +788,7 @@
             "gift of his wife beautiful",
             "He has a beautiful son",
             "share the things that he learns with others",
-            "Not mentioned in the passage."
+            "Because he forgot his bag"
           ],
           "correctAnswer": "gift of his wife beautiful",
           "answerStatus": "verified",
@@ -804,8 +804,8 @@
           "options": [
             "On weekend",
             "at the end of a weekend",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "More than 4 hours",
+            "Discipline"
           ],
           "correctAnswer": "On weekend",
           "answerStatus": "verified",
@@ -820,9 +820,9 @@
           "questionDisplay": "At the end of the meeting, he thanked?",
           "options": [
             "everybody",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Discipline",
+            "He forgot his bag.",
+            "he needs to focus on the worksheet more."
           ],
           "correctAnswer": "everybody",
           "answerStatus": "verified",
@@ -837,9 +837,9 @@
           "questionDisplay": "Who did he thank after finishing the workshop?",
           "options": [
             "All present people.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "everybody",
+            "He forgot his bag.",
+            "Happy"
           ],
           "correctAnswer": "All present people.",
           "answerStatus": "verified",
@@ -854,9 +854,9 @@
           "questionDisplay": "What makes him need more time for what he learned?",
           "options": [
             "He forgot his bag.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "he gives her jewelry.",
+            "Worksheet.",
+            "Discipline"
           ],
           "correctAnswer": "He forgot his bag.",
           "answerStatus": "verified",
@@ -882,9 +882,9 @@
           "questionDisplay": "Whose specifications are these?",
           "options": [
             "Car",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Bicycle",
+            "Computer",
+            "Boat"
           ],
           "correctAnswer": "Car",
           "answerStatus": "verified",
@@ -910,9 +910,9 @@
           "questionDisplay": "Which program is used least by women?",
           "options": [
             "LinkedIn",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Instagram",
+            "4-6 hours",
+            "1-3 hours"
           ],
           "correctAnswer": "LinkedIn",
           "answerStatus": "verified",
@@ -927,9 +927,9 @@
           "questionDisplay": "What is the most popular program?",
           "options": [
             "Instagram",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "LinkedIn",
+            "1-3 hours",
+            "4-6 hours"
           ],
           "correctAnswer": "Instagram",
           "answerStatus": "verified",
@@ -944,9 +944,9 @@
           "questionDisplay": "How long do most men use social media?",
           "options": [
             "1-3 hours",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "4-6 hours",
+            "Instagram",
+            "LinkedIn"
           ],
           "correctAnswer": "1-3 hours",
           "answerStatus": "verified",
@@ -961,9 +961,9 @@
           "questionDisplay": "How long do most people use social media?",
           "options": [
             "4-6 hours",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "1-3 hours",
+            "LinkedIn",
+            "Instagram"
           ],
           "correctAnswer": "4-6 hours",
           "answerStatus": "verified",
@@ -989,9 +989,9 @@
           "questionDisplay": "Which answer has the information in the required order?",
           "options": [
             "Almutlg, Isa — 32 — France — dentist.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Isa, Almutlg — France — 32 — dentist.",
+            "Almutlg, Isa — dentist — France — 32.",
+            "32 — France — Almutlg, Isa — dentist."
           ],
           "correctAnswer": "Almutlg, Isa — 32 — France — dentist.",
           "answerStatus": "verified",
@@ -1017,9 +1017,9 @@
           "questionDisplay": "What does “No Non Swimmers Beyond This Point” mean?",
           "options": [
             "stop if you cannot swim",
-            "It is not allowed to children",
-            "it is not allowed to go further",
-            "Not mentioned in the passage."
+            "Children must swim alone",
+            "Everyone may go farther",
+            "Swimming equipment is forbidden"
           ],
           "correctAnswer": "stop if you cannot swim",
           "answerStatus": "verified",
@@ -1045,9 +1045,9 @@
           "questionDisplay": "What did Tom ask Roger?",
           "options": [
             "Can I visit you at weekend?",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Can you work this weekend?",
+            "Did you visit me yesterday?",
+            "Will you travel on Monday?"
           ],
           "correctAnswer": "Can I visit you at weekend?",
           "answerStatus": "verified",
@@ -1073,9 +1073,9 @@
           "questionDisplay": "What does Omar want from Ali?",
           "options": [
             "To reply",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "To cancel the dinner",
+            "To bring a guest",
+            "To change the address"
           ],
           "correctAnswer": "To reply",
           "answerStatus": "verified",

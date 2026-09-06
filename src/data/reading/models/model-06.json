@@ -21,9 +21,9 @@
           "questionDisplay": "When did the Second World War begin?",
           "options": [
             "In 1939",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Six years",
+            "Providing food for people",
+            "more destruction happened."
           ],
           "correctAnswer": "In 1939",
           "answerStatus": "verified",
@@ -38,9 +38,9 @@
           "questionDisplay": "How many militaries were killed in it?",
           "options": [
             "More than 25 million",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Crime and breaking the law",
+            "More than three wars before",
+            "People were busy with problems."
           ],
           "correctAnswer": "More than 25 million",
           "answerStatus": "verified",
@@ -70,9 +70,9 @@
           "questionDisplay": "What was the first reforms?",
           "options": [
             "Providing food for people",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "People were busy with problems.",
+            "disaster remained",
+            "Lack of coal"
           ],
           "correctAnswer": "Providing food for people",
           "answerStatus": "verified",
@@ -87,9 +87,9 @@
           "questionDisplay": "World War (2) differs from other wars?",
           "options": [
             "more destruction happened.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "disaster remained",
+            "Lack of coal",
+            "Providing food for people"
           ],
           "correctAnswer": "more destruction happened.",
           "answerStatus": "verified",
@@ -104,9 +104,9 @@
           "questionDisplay": "Why are modern weapons more destroyed or why equipment shatters a city easily?",
           "options": [
             "Because weapons are advanced.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Crime and breaking the law",
+            "More than three wars before",
+            "People were busy with problems."
           ],
           "correctAnswer": "Because weapons are advanced.",
           "answerStatus": "verified",
@@ -121,9 +121,9 @@
           "questionDisplay": "After the end of the war, which of the following increased:",
           "options": [
             "Crime and breaking the law",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Providing food for people",
+            "more destruction happened.",
+            "More than three wars before"
           ],
           "correctAnswer": "Crime and breaking the law",
           "answerStatus": "verified",
@@ -138,9 +138,9 @@
           "questionDisplay": "The cost of World War 2?",
           "options": [
             "More than three wars before",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "more destruction happened.",
+            "Crime and breaking the law",
+            "People were busy with problems."
           ],
           "correctAnswer": "More than three wars before",
           "answerStatus": "verified",
@@ -172,9 +172,9 @@
           "questionDisplay": "What does occur mean?",
           "options": [
             "Happen",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Because weapons are advanced.",
+            "Crime and breaking the law",
+            "More than three wars before"
           ],
           "correctAnswer": "Happen",
           "answerStatus": "verified",
@@ -190,8 +190,8 @@
           "options": [
             "disaster remained",
             "disaster stopped.",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "People were busy with problems.",
+            "Lack of coal"
           ],
           "correctAnswer": "disaster remained",
           "answerStatus": "verified",
@@ -206,9 +206,9 @@
           "questionDisplay": "Strikes in 1947:",
           "options": [
             "Lack of coal",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "disaster remained",
+            "Providing food for people",
+            "more destruction happened."
           ],
           "correctAnswer": "Lack of coal",
           "answerStatus": "verified",
@@ -223,9 +223,9 @@
           "questionDisplay": "What is the best title of the passage?",
           "options": [
             "The Moscow Peace Treaty",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "More than 25 million",
+            "Providing food for people",
+            "more destruction happened."
           ],
           "correctAnswer": "The Moscow Peace Treaty",
           "answerStatus": "verified",
@@ -240,9 +240,9 @@
           "questionDisplay": "How long did the world war last?",
           "options": [
             "Six years",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "In 1939",
+            "Happen",
+            "disaster remained"
           ],
           "correctAnswer": "Six years",
           "answerStatus": "verified",
@@ -268,9 +268,9 @@
           "questionDisplay": "Which statement about radio development is correct?",
           "options": [
             "development made radio cheaper",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Few",
+            "3 pm",
+            "Majority"
           ],
           "correctAnswer": "development made radio cheaper",
           "answerStatus": "verified",
@@ -285,9 +285,9 @@
           "questionDisplay": "Where do a lot of people listen to the radio?",
           "options": [
             "In cars",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "development made radio cheaper",
+            "3 pm",
+            "Majority"
           ],
           "correctAnswer": "In cars",
           "answerStatus": "verified",
@@ -304,7 +304,7 @@
             "3 pm",
             "9 am",
             "7 am",
-            "Not mentioned in the passage."
+            "Few"
           ],
           "correctAnswer": "3 pm",
           "answerStatus": "verified",
@@ -336,9 +336,9 @@
           "questionDisplay": "Are English radios few or many?",
           "options": [
             "Few",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "development made radio cheaper",
+            "3 pm",
+            "Majority"
           ],
           "correctAnswer": "Few",
           "answerStatus": "verified",
@@ -364,9 +364,9 @@
           "questionDisplay": "What is the old name of Istanbul? or what’s called?",
           "options": [
             "Constantinople",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Culture and tours",
+            "Tourists",
+            "Rule"
           ],
           "correctAnswer": "Constantinople",
           "answerStatus": "verified",
@@ -381,9 +381,9 @@
           "questionDisplay": "What does the word “happen” mean?",
           "options": [
             "Occur",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Rule",
+            "Constantinople",
+            "The civilization of Turkey"
           ],
           "correctAnswer": "Occur",
           "answerStatus": "verified",
@@ -398,9 +398,9 @@
           "questionDisplay": "What does the word “reign” mean?",
           "options": [
             "Rule",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Occur",
+            "Tourists",
+            "Constantinople"
           ],
           "correctAnswer": "Rule",
           "answerStatus": "verified",
@@ -416,8 +416,8 @@
           "options": [
             "The civilization of Turkey",
             "Ottoman Empire and Turkish Republic",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "Constantinople",
+            "Occur"
           ],
           "correctAnswer": "The civilization of Turkey",
           "answerStatus": "verified",
@@ -432,9 +432,9 @@
           "questionDisplay": "interested in such passage?",
           "options": [
             "Culture and tours",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Constantinople",
+            "Tourists",
+            "Rule"
           ],
           "correctAnswer": "Culture and tours",
           "answerStatus": "verified",
@@ -451,7 +451,7 @@
             "Tourists",
             "Historians",
             "Geographers",
-            "Not mentioned in the passage."
+            "Culture and tours"
           ],
           "correctAnswer": "Tourists",
           "answerStatus": "verified",
@@ -479,7 +479,7 @@
             "The changing global diet",
             "Health problems",
             "Healthy eating habits in Japan",
-            "Not mentioned in the passage."
+            "High food value"
           ],
           "correctAnswer": "The changing global diet",
           "answerStatus": "verified",
@@ -494,9 +494,9 @@
           "questionDisplay": "Western food?",
           "options": [
             "Making health worse in Japan",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Most people live healthy lives",
+            "High food value",
+            "Meat and dairy products"
           ],
           "correctAnswer": "Making health worse in Japan",
           "answerStatus": "verified",
@@ -512,8 +512,8 @@
           "options": [
             "High food value",
             "more healthy",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "Most people live healthy lives",
+            "The changing global diet"
           ],
           "correctAnswer": "High food value",
           "answerStatus": "verified",
@@ -528,9 +528,9 @@
           "questionDisplay": "What does the pronoun “these” refer to?",
           "options": [
             "Meat and dairy products",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "High food value",
+            "Most people live healthy lives",
+            "The changing global diet"
           ],
           "correctAnswer": "Meat and dairy products",
           "answerStatus": "verified",
@@ -545,9 +545,9 @@
           "questionDisplay": "In the Czech Republic:",
           "options": [
             "Most people live healthy lives",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Making health worse in Japan",
+            "High food value",
+            "Meat and dairy products"
           ],
           "correctAnswer": "Most people live healthy lives",
           "answerStatus": "verified",
@@ -573,9 +573,9 @@
           "questionDisplay": "Reducing sleep?",
           "options": [
             "causes sudden death",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "in a rush doing_",
+            "Balance work and play",
+            "in the middle"
           ],
           "correctAnswer": "causes sudden death",
           "answerStatus": "verified",
@@ -590,9 +590,9 @@
           "questionDisplay": "What does the word “individual” mean?",
           "options": [
             "Separated",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "causes sudden death",
+            "in the middle",
+            "in a rush doing_"
           ],
           "correctAnswer": "Separated",
           "answerStatus": "verified",
@@ -607,9 +607,9 @@
           "questionDisplay": "Where is most people between A and B?",
           "options": [
             "in the middle",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Balance work and play",
+            "causes sudden death",
+            "Separated"
           ],
           "correctAnswer": "in the middle",
           "answerStatus": "verified",
@@ -624,9 +624,9 @@
           "questionDisplay": "Type A is different from type B, they?",
           "options": [
             "in a rush doing_",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Balance work and play",
+            "causes sudden death",
+            "Separated"
           ],
           "correctAnswer": "in a rush doing_",
           "answerStatus": "verified",
@@ -641,9 +641,9 @@
           "questionDisplay": "What is our goal?",
           "options": [
             "Balance work and play",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "causes sudden death",
+            "in a rush doing_",
+            "in the middle"
           ],
           "correctAnswer": "Balance work and play",
           "answerStatus": "verified",
@@ -670,8 +670,8 @@
           "options": [
             "Comment",
             "Suspension",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "Question",
+            "Agenda"
           ],
           "correctAnswer": "Comment",
           "answerStatus": "verified",
@@ -686,9 +686,9 @@
           "questionDisplay": "What is the main idea?",
           "options": [
             "Meeting is planned and organized.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Meetings should be cancelled",
+            "Everyone must attend every meeting",
+            "Meetings need no preparation"
           ],
           "correctAnswer": "Meeting is planned and organized.",
           "answerStatus": "verified",
@@ -703,9 +703,9 @@
           "questionDisplay": "Who should invite for a meeting?",
           "options": [
             "People who are necessary",
-            "More people",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "All employees",
+            "Outside visitors",
+            "Only managers"
           ],
           "correctAnswer": "People who are necessary",
           "answerStatus": "verified",
@@ -731,9 +731,9 @@
           "questionDisplay": "What does the passage talk about?",
           "options": [
             "Device driver work",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Piece of software",
+            "Connect hardware to computer",
+            "The recent"
           ],
           "correctAnswer": "Device driver work",
           "answerStatus": "verified",
@@ -748,9 +748,9 @@
           "questionDisplay": "What does the word (current) mean?",
           "options": [
             "The recent",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Piece of software",
+            "Connect hardware to computer",
+            "Device driver work"
           ],
           "correctAnswer": "The recent",
           "answerStatus": "verified",
@@ -767,7 +767,7 @@
             "Piece of software",
             "printer",
             "modem",
-            "Not mentioned in the passage."
+            "Connect hardware to computer"
           ],
           "correctAnswer": "Piece of software",
           "answerStatus": "verified",
@@ -783,8 +783,8 @@
           "options": [
             "Connect hardware to computer",
             "connecting to internet",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "Piece of software",
+            "Device driver work"
           ],
           "correctAnswer": "Connect hardware to computer",
           "answerStatus": "verified",
@@ -855,9 +855,9 @@
           "questionDisplay": "What does an all-inclusive resort mean?",
           "options": [
             "It covers food lodging and activities.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "It covers lodging only",
+            "It excludes meals and activities",
+            "It provides transport only"
           ],
           "correctAnswer": "It covers food lodging and activities.",
           "answerStatus": "verified",
@@ -872,9 +872,9 @@
           "questionDisplay": "Which of the following may cost more?",
           "options": [
             "equipment rental",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Meals",
+            "The room",
+            "Included activities"
           ],
           "correctAnswer": "equipment rental",
           "answerStatus": "verified",

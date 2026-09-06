@@ -1,6 +1,7 @@
 import { manualQuizModels } from '../src/data/manualQuizzes.js';
 
 const issues = [];
+const forbiddenPlaceholderOptions = new Set(['Not mentioned in the passage.', 'Another possibility.', 'None of these.']);
 
 for (const model of manualQuizModels) {
   if (!model.id || !model.title) issues.push(`Model is missing id/title: ${JSON.stringify(model)}`);
@@ -14,7 +15,7 @@ for (const model of manualQuizModels) {
       if (question.number !== index + 1) issues.push(`${model.id}/${passage.id} question numbering must start at 1 and stay sequential; expected ${index + 1}, found ${question.number}`);
       if (!question.id || !question.question) issues.push(`${question.id} is missing question text`);
       if (!question.explanation) issues.push(`${question.id} is missing a simple explanation`);
-      if (!Array.isArray(question.options) || (question.correctAnswer !== null && question.options.length < 4)) issues.push(`${question.id} has fewer than 4 quiz options`);
+      if (!Array.isArray(question.options) || (question.correctAnswer !== null && question.options.length !== 4)) issues.push(`${question.id} must have exactly 4 quiz options`);
       const correctOptions = question.options.filter((option) => option.isCorrect);
       if (question.correctAnswer === null) {
         if (correctOptions.length !== 0) issues.push(`${question.id} unresolved question must not mark a correct option`);
@@ -23,6 +24,7 @@ for (const model of manualQuizModels) {
         if (correctOptions[0]?.text !== question.correctAnswer) issues.push(`${question.id} correct option does not match correctAnswer`);
       }
       if (new Set(question.options.map((option) => option.text)).size !== question.options.length) issues.push(`${question.id} has duplicate option text`);
+      if (question.options.some((option) => forbiddenPlaceholderOptions.has(option.text))) issues.push(`${question.id} still uses a repeated placeholder option`);
     }
   }
 }

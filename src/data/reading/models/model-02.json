@@ -21,9 +21,9 @@
           "questionDisplay": "How large is the biggest star?",
           "options": [
             "It is more than 17,000 times bigger than the Sun.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Green.",
+            "Shape.",
+            "The camera."
           ],
           "correctAnswer": "It is more than 17,000 times bigger than the Sun.",
           "answerStatus": "verified",
@@ -38,9 +38,9 @@
           "questionDisplay": "Which color is NOT mentioned in the passage?",
           "options": [
             "Green.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Shape.",
+            "It is more than 17,000 times bigger than the Sun.",
+            "Enough."
           ],
           "correctAnswer": "Green.",
           "answerStatus": "verified",
@@ -55,9 +55,9 @@
           "questionDisplay": "What is the best title for the passage?",
           "options": [
             "Classifying Stars According to Their Colors and Sizes.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "More shiny.",
+            "Improbable.",
+            "It is more than 17,000 times bigger than the Sun."
           ],
           "correctAnswer": "Classifying Stars According to Their Colors and Sizes.",
           "answerStatus": "verified",
@@ -72,9 +72,9 @@
           "questionDisplay": "What does the pronoun “it” refer to?",
           "options": [
             "The camera.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Green.",
+            "Classifying Stars According to Their Colors and Sizes.",
+            "To study them."
           ],
           "correctAnswer": "The camera.",
           "answerStatus": "verified",
@@ -89,9 +89,9 @@
           "questionDisplay": "Why are scientists photographing stars?",
           "options": [
             "To study them.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "30 seconds.",
+            "Shape.",
+            "Enough."
           ],
           "correctAnswer": "To study them.",
           "answerStatus": "verified",
@@ -106,9 +106,9 @@
           "questionDisplay": "How long does it take to take a photo at night?",
           "options": [
             "30 seconds.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "More shiny.",
+            "Improbable.",
+            "It is more than 17,000 times bigger than the Sun."
           ],
           "correctAnswer": "30 seconds.",
           "answerStatus": "verified",
@@ -123,9 +123,9 @@
           "questionDisplay": "Which characteristic did the author NOT use when comparing stars?",
           "options": [
             "Shape.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "It is more than 17,000 times bigger than the Sun.",
+            "Green.",
+            "More shiny."
           ],
           "correctAnswer": "Shape.",
           "answerStatus": "verified",
@@ -140,9 +140,9 @@
           "questionDisplay": "What does the word “sufficient” mean?",
           "options": [
             "Enough.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Improbable.",
+            "More shiny.",
+            "Green."
           ],
           "correctAnswer": "Enough.",
           "answerStatus": "verified",
@@ -157,9 +157,9 @@
           "questionDisplay": "What does the word “brighter” mean?",
           "options": [
             "More shiny.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Enough.",
+            "Improbable.",
+            "To study them."
           ],
           "correctAnswer": "More shiny.",
           "answerStatus": "verified",
@@ -174,9 +174,9 @@
           "questionDisplay": "What is the nearest meaning of the word “unlikely”?",
           "options": [
             "Improbable.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "More shiny.",
+            "Enough.",
+            "It is more than 17,000 times bigger than the Sun."
           ],
           "correctAnswer": "Improbable.",
           "answerStatus": "verified",
@@ -202,9 +202,9 @@
           "questionDisplay": "What does the pronoun “These amazing creatures” refer to?",
           "options": [
             "Insects.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Paragraph 3.",
+            "Understanding similar feelings in humans and bees may help both.",
+            "They are not afraid."
           ],
           "correctAnswer": "Insects.",
           "answerStatus": "verified",
@@ -219,9 +219,9 @@
           "questionDisplay": "What is the benefit of bees for other creatures?",
           "options": [
             "They are necessary to produce food.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Paragraph 3.",
+            "Understanding similar feelings in humans and bees may help both.",
+            "They are not afraid."
           ],
           "correctAnswer": "They are necessary to produce food.",
           "answerStatus": "verified",
@@ -236,9 +236,9 @@
           "questionDisplay": "In which paragraph does the passage discuss how scientists trained the bees?",
           "options": [
             "Paragraph 3.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "They are necessary to produce food.",
+            "Understanding similar feelings in humans and bees may help both.",
+            "They are not afraid."
           ],
           "correctAnswer": "Paragraph 3.",
           "answerStatus": "verified",
@@ -253,9 +253,9 @@
           "questionDisplay": "What is the main idea of the paragraph?",
           "options": [
             "Understanding similar feelings in humans and bees may help both.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Paragraph 3.",
+            "They are not afraid.",
+            "Insects."
           ],
           "correctAnswer": "Understanding similar feelings in humans and bees may help both.",
           "answerStatus": "verified",
@@ -270,9 +270,9 @@
           "questionDisplay": "What does the word “optimist” mean?",
           "options": [
             "They are not afraid.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "They are necessary to produce food.",
+            "Paragraph 3.",
+            "Understanding similar feelings in humans and bees may help both."
           ],
           "correctAnswer": "They are not afraid.",
           "answerStatus": "verified",
@@ -298,9 +298,9 @@
           "questionDisplay": "What did people discover about Mike?",
           "options": [
             "He cared for others.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "His arms were strained and painful.",
+            "They created a firebreak.",
+            "To stop the blazing fire."
           ],
           "correctAnswer": "He cared for others.",
           "answerStatus": "verified",
@@ -315,9 +315,9 @@
           "questionDisplay": "Why was Mike tired or exhausted?",
           "options": [
             "Because he did so much to fight the fire.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "A man.",
+            "Fire.",
+            "More than."
           ],
           "correctAnswer": "Because he did so much to fight the fire.",
           "answerStatus": "verified",
@@ -332,9 +332,9 @@
           "questionDisplay": "What problem did Mike face when he went to help someone in need?",
           "options": [
             "His arms were strained and painful.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "To stop the blazing fire.",
+            "He is a firefighter. He is the best one who can take care of his mates.",
+            "He cared for others."
           ],
           "correctAnswer": "His arms were strained and painful.",
           "answerStatus": "verified",
@@ -349,9 +349,9 @@
           "questionDisplay": "What did they do to help stop the fire?",
           "options": [
             "They created a firebreak.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "He is a firefighter. He is the best one who can take care of his mates.",
+            "He cared for others.",
+            "His arms were strained and painful."
           ],
           "correctAnswer": "They created a firebreak.",
           "answerStatus": "verified",
@@ -366,9 +366,9 @@
           "questionDisplay": "What was Mike’s only thought as he tried to put out the fire?",
           "options": [
             "To stop the blazing fire.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "He cared for others.",
+            "His arms were strained and painful.",
+            "They created a firebreak."
           ],
           "correctAnswer": "To stop the blazing fire.",
           "answerStatus": "verified",
@@ -383,9 +383,9 @@
           "questionDisplay": "What does the pronoun in “his courage” refer to?",
           "options": [
             "A man.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Fire.",
+            "His arms were strained and painful.",
+            "They created a firebreak."
           ],
           "correctAnswer": "A man.",
           "answerStatus": "verified",
@@ -400,9 +400,9 @@
           "questionDisplay": "What does “flaming monster” refer to?",
           "options": [
             "Fire.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "A man.",
+            "More than.",
+            "He is a firefighter. He is the best one who can take care of his mates."
           ],
           "correctAnswer": "Fire.",
           "answerStatus": "verified",
@@ -417,9 +417,9 @@
           "questionDisplay": "What does the word “greedy” mean?",
           "options": [
             "More than.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "To stop the blazing fire.",
+            "A man.",
+            "Fire."
           ],
           "correctAnswer": "More than.",
           "answerStatus": "verified",
@@ -434,9 +434,9 @@
           "questionDisplay": "What does the pronoun “it” refer to?",
           "options": [
             "Fire.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "A man.",
+            "To stop the blazing fire.",
+            "More than."
           ],
           "correctAnswer": "Fire.",
           "answerStatus": "verified",
@@ -451,9 +451,9 @@
           "questionDisplay": "What is Ben’s job?",
           "options": [
             "He is a firefighter. He is the best one who can take care of his mates.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "His arms were strained and painful.",
+            "They created a firebreak.",
+            "To stop the blazing fire."
           ],
           "correctAnswer": "He is a firefighter. He is the best one who can take care of his mates.",
           "answerStatus": "verified",
@@ -479,9 +479,9 @@
           "questionDisplay": "Why did the Chinese teach the pandas the language?",
           "options": [
             "So that they would feel at home.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Teacher.",
+            "In Georgia.",
+            "Atlanta, Georgia."
           ],
           "correctAnswer": "So that they would feel at home.",
           "answerStatus": "verified",
@@ -496,9 +496,9 @@
           "questionDisplay": "Who taught them the language?",
           "options": [
             "Scientists, professors, environmentalists, and teachers.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "So that they would feel at home.",
+            "Teacher.",
+            "In Georgia."
           ],
           "correctAnswer": "Scientists, professors, environmentalists, and teachers.",
           "answerStatus": "verified",
@@ -513,9 +513,9 @@
           "questionDisplay": "What does the word “Tutor” mean?",
           "options": [
             "Teacher.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Atlanta, Georgia.",
+            "So that they would feel at home.",
+            "Scientists, professors, environmentalists, and teachers."
           ],
           "correctAnswer": "Teacher.",
           "answerStatus": "verified",
@@ -530,9 +530,9 @@
           "questionDisplay": "Where do they live?",
           "options": [
             "In Georgia.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Atlanta, Georgia.",
+            "Scientists, professors, environmentalists, and teachers.",
+            "Teacher."
           ],
           "correctAnswer": "In Georgia.",
           "answerStatus": "verified",
@@ -547,9 +547,9 @@
           "questionDisplay": "Where did the panda live before being transported to China?",
           "options": [
             "Atlanta, Georgia.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "In Georgia.",
+            "Scientists, professors, environmentalists, and teachers.",
+            "Teacher."
           ],
           "correctAnswer": "Atlanta, Georgia.",
           "answerStatus": "verified",
@@ -575,9 +575,9 @@
           "questionDisplay": "Which of the following is true?",
           "options": [
             "Scientists do not know the species of animal that produced the strange gel.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The unknown substance.",
+            "Difficult to believe.",
+            "Between Kotzebue and Point Hope."
           ],
           "correctAnswer": "Scientists do not know the species of animal that produced the strange gel.",
           "answerStatus": "verified",
@@ -592,9 +592,9 @@
           "questionDisplay": "Why is the liquid material orange?",
           "options": [
             "It contains oil.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "In Antarctica.",
+            "Classify into groups.",
+            "Consummated / Completed."
           ],
           "correctAnswer": "It contains oil.",
           "answerStatus": "verified",
@@ -609,9 +609,9 @@
           "questionDisplay": "What does the pronoun “it” refer to?",
           "options": [
             "The unknown substance.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Scientists do not know the species of animal that produced the strange gel.",
+            "It contains oil.",
+            "Difficult to believe."
           ],
           "correctAnswer": "The unknown substance.",
           "answerStatus": "verified",
@@ -626,9 +626,9 @@
           "questionDisplay": "What does “far-fetched” mean?",
           "options": [
             "Difficult to believe.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Consummated / Completed.",
+            "Classify into groups.",
+            "Scientists do not know the species of animal that produced the strange gel."
           ],
           "correctAnswer": "Difficult to believe.",
           "answerStatus": "verified",
@@ -643,9 +643,9 @@
           "questionDisplay": "Where did they find the strange substance?",
           "options": [
             "Between Kotzebue and Point Hope.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "In Antarctica.",
+            "It contains oil.",
+            "The unknown substance."
           ],
           "correctAnswer": "Between Kotzebue and Point Hope.",
           "answerStatus": "verified",
@@ -660,9 +660,9 @@
           "questionDisplay": "Where was this substance first found?",
           "options": [
             "In Antarctica.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Between Kotzebue and Point Hope.",
+            "Classify into groups.",
+            "Consummated / Completed."
           ],
           "correctAnswer": "In Antarctica.",
           "answerStatus": "verified",
@@ -677,9 +677,9 @@
           "questionDisplay": "What is the nearest meaning of the word “classify”?",
           "options": [
             "Classify into groups.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Difficult to believe.",
+            "Consummated / Completed.",
+            "In Antarctica."
           ],
           "correctAnswer": "Classify into groups.",
           "answerStatus": "verified",
@@ -694,9 +694,9 @@
           "questionDisplay": "What is the nearest meaning of the word “concluded”?",
           "options": [
             "Consummated / Completed.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Classify into groups.",
+            "Difficult to believe.",
+            "The unknown substance."
           ],
           "correctAnswer": "Consummated / Completed.",
           "answerStatus": "verified",
@@ -722,9 +722,9 @@
           "questionDisplay": "What type of text is the passage?",
           "options": [
             "A reply to a complaint.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Leaking water.",
+            "The employees working in that area.",
+            "Staff need to be instructed about how to treat the floor."
           ],
           "correctAnswer": "A reply to a complaint.",
           "answerStatus": "verified",
@@ -739,9 +739,9 @@
           "questionDisplay": "According to Paragraph 2, what caused the problems with the wiring?",
           "options": [
             "Leaking water.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The employees working in that area.",
+            "Staff need to be instructed about how to treat the floor.",
+            "When the customer notifies the contractor."
           ],
           "correctAnswer": "Leaking water.",
           "answerStatus": "verified",
@@ -756,9 +756,9 @@
           "questionDisplay": "According to Paragraph 3, what caused the floor problems?",
           "options": [
             "The employees working in that area.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Staff need to be instructed about how to treat the floor.",
+            "When the customer notifies the contractor.",
+            "A reply to a complaint."
           ],
           "correctAnswer": "The employees working in that area.",
           "answerStatus": "verified",
@@ -773,9 +773,9 @@
           "questionDisplay": "According to Paragraph 3, which of the following is true?",
           "options": [
             "Staff need to be instructed about how to treat the floor.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "When the customer notifies the contractor.",
+            "A reply to a complaint.",
+            "Leaking water."
           ],
           "correctAnswer": "Staff need to be instructed about how to treat the floor.",
           "answerStatus": "verified",
@@ -790,9 +790,9 @@
           "questionDisplay": "According to Paragraph 4, when will the damaged floor surface begin to be replaced?",
           "options": [
             "When the customer notifies the contractor.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "A reply to a complaint.",
+            "Leaking water.",
+            "The employees working in that area."
           ],
           "correctAnswer": "When the customer notifies the contractor.",
           "answerStatus": "verified",
@@ -807,9 +807,9 @@
           "questionDisplay": "What is the closest meaning of the word “inconvenience”?",
           "options": [
             "Trouble.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Leaking water.",
+            "The employees working in that area.",
+            "Staff need to be instructed about how to treat the floor."
           ],
           "correctAnswer": "Trouble.",
           "answerStatus": "verified",
@@ -835,9 +835,9 @@
           "questionDisplay": "According to Paragraph 1, which of the following is TRUE?",
           "options": [
             "By measuring seismic activity, it is possible to predict a volcanic eruption.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "There was a long period without seismic activity, and then it started again.",
+            "He gave details about the eruption and the effect it had on the population.",
+            "Looking back."
           ],
           "correctAnswer": "By measuring seismic activity, it is possible to predict a volcanic eruption.",
           "answerStatus": "verified",
@@ -852,9 +852,9 @@
           "questionDisplay": "According to Paragraph 2, why was the eruption in 79 AD so severe?",
           "options": [
             "There was a long period without seismic activity, and then it started again.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "He gave details about the eruption and the effect it had on the population.",
+            "By measuring seismic activity, it is possible to predict a volcanic eruption.",
+            "The writer believes that his feelings will be shared by many."
           ],
           "correctAnswer": "There was a long period without seismic activity, and then it started again.",
           "answerStatus": "verified",
@@ -869,9 +869,9 @@
           "questionDisplay": "What can we understand from the pronoun “we”?",
           "options": [
             "The writer believes that his feelings will be shared by many.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Looking back.",
+            "By measuring seismic activity, it is possible to predict a volcanic eruption.",
+            "There was a long period without seismic activity, and then it started again."
           ],
           "correctAnswer": "The writer believes that his feelings will be shared by many.",
           "answerStatus": "verified",
@@ -886,9 +886,9 @@
           "questionDisplay": "What do we understand about Pliny the Younger from the paragraph?",
           "options": [
             "He gave details about the eruption and the effect it had on the population.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "There was a long period without seismic activity, and then it started again.",
+            "By measuring seismic activity, it is possible to predict a volcanic eruption.",
+            "The writer believes that his feelings will be shared by many."
           ],
           "correctAnswer": "He gave details about the eruption and the effect it had on the population.",
           "answerStatus": "verified",
@@ -903,9 +903,9 @@
           "questionDisplay": "What does the word “retrospect” mean?",
           "options": [
             "Looking back.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "There was a long period without seismic activity, and then it started again.",
+            "The writer believes that his feelings will be shared by many.",
+            "He gave details about the eruption and the effect it had on the population."
           ],
           "correctAnswer": "Looking back.",
           "answerStatus": "verified",

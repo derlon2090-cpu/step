@@ -21,9 +21,9 @@
           "questionDisplay": "Who is the doll maker?",
           "options": [
             "Vasily Zvyozdochkin",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The origin of the Russian doll and its appearance.",
+            "Expert workmen",
+            "Wood"
           ],
           "correctAnswer": "Vasily Zvyozdochkin",
           "answerStatus": "verified",
@@ -38,9 +38,9 @@
           "questionDisplay": "What is the title of the passage?",
           "options": [
             "Russian Wood Figurine",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Wood",
+            "Japan",
+            "Expert workmen"
           ],
           "correctAnswer": "Russian Wood Figurine",
           "answerStatus": "verified",
@@ -55,9 +55,9 @@
           "questionDisplay": "What is the first passage talking about?",
           "options": [
             "The origin of the Russian doll and its appearance.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Odd numbers",
+            "Vasily Zvyozdochkin",
+            "Russian Wood Figurine"
           ],
           "correctAnswer": "The origin of the Russian doll and its appearance.",
           "answerStatus": "verified",
@@ -72,9 +72,9 @@
           "questionDisplay": "What are the basic factors needed to make dolls?",
           "options": [
             "Expert workmen",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Russian Wood Figurine",
+            "Wood",
+            "Japan"
           ],
           "correctAnswer": "Expert workmen",
           "answerStatus": "verified",
@@ -89,9 +89,9 @@
           "questionDisplay": "What are dolls made of?",
           "options": [
             "Wood",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Expert workmen",
+            "Japan",
+            "Russian Wood Figurine"
           ],
           "correctAnswer": "Wood",
           "answerStatus": "verified",
@@ -106,9 +106,9 @@
           "questionDisplay": "What does the word “carved” mean?",
           "options": [
             "Shaped",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Vasily Zvyozdochkin",
+            "Russian Wood Figurine",
+            "The origin of the Russian doll and its appearance."
           ],
           "correctAnswer": "Shaped",
           "answerStatus": "verified",
@@ -123,9 +123,9 @@
           "questionDisplay": "What is the origin of the doll?",
           "options": [
             "Japan",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Russian Wood Figurine",
+            "Expert workmen",
+            "Wood"
           ],
           "correctAnswer": "Japan",
           "answerStatus": "verified",
@@ -140,9 +140,9 @@
           "questionDisplay": "Why were some presidents excluded from having dolls made for them?",
           "options": [
             "Because they were not in power for long.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Japan",
+            "Odd numbers",
+            "Vasily Zvyozdochkin"
           ],
           "correctAnswer": "Because they were not in power for long.",
           "answerStatus": "verified",
@@ -157,9 +157,9 @@
           "questionDisplay": "What does the pronoun “it” refer to?",
           "options": [
             "Odd numbers",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Russian Wood Figurine",
+            "The origin of the Russian doll and its appearance.",
+            "Expert workmen"
           ],
           "correctAnswer": "Odd numbers",
           "answerStatus": "verified",
@@ -197,9 +197,9 @@
           "questionDisplay": "What caused the plane to break down?",
           "options": [
             "Technical problems",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Bad weather",
+            "A fuel shortage",
+            "A crew error"
           ],
           "correctAnswer": "Technical problems",
           "answerStatus": "verified",
@@ -214,9 +214,9 @@
           "questionDisplay": "What was the destination of the plane?",
           "options": [
             "New Delhi",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Mumbai",
+            "London",
+            "Dubai"
           ],
           "correctAnswer": "New Delhi",
           "answerStatus": "verified",
@@ -243,9 +243,9 @@
           "questionDisplay": "What does “not scheduled” mean?",
           "options": [
             "Not planned",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Confirmed in advance",
+            "Cancelled permanently",
+            "Delayed by one hour"
           ],
           "correctAnswer": "Not planned",
           "answerStatus": "verified",
@@ -260,9 +260,9 @@
           "questionDisplay": "What was the reason for the delay?",
           "options": [
             "Technical problems",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Heavy traffic",
+            "Late passengers",
+            "Missing luggage"
           ],
           "correctAnswer": "Technical problems",
           "answerStatus": "verified",
@@ -288,9 +288,9 @@
           "questionDisplay": "What is the nearest meaning of the word “chart”?",
           "options": [
             "Maps",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Map maker",
+            "In 1525",
+            "Piri Reis"
           ],
           "correctAnswer": "Maps",
           "answerStatus": "verified",
@@ -305,9 +305,9 @@
           "questionDisplay": "What field did this scientist contribute to?",
           "options": [
             "Geography and navigation",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Ships and sea travel",
+            "Map maker",
+            "Maps"
           ],
           "correctAnswer": "Geography and navigation",
           "answerStatus": "verified",
@@ -322,9 +322,9 @@
           "questionDisplay": "What was the scientist’s job?",
           "options": [
             "Map maker",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Geography and navigation",
+            "Ships and sea travel",
+            "In 1525"
           ],
           "correctAnswer": "Map maker",
           "answerStatus": "verified",
@@ -339,9 +339,9 @@
           "questionDisplay": "When did he give Kitab Al-Bahriya to the Sultan?",
           "options": [
             "In 1525",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Piri Reis",
+            "Ships and sea travel",
+            "Maps"
           ],
           "correctAnswer": "In 1525",
           "answerStatus": "verified",
@@ -356,9 +356,9 @@
           "questionDisplay": "What does the word “cartographer” mean?",
           "options": [
             "Map maker",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Maps",
+            "In 1525",
+            "Piri Reis"
           ],
           "correctAnswer": "Map maker",
           "answerStatus": "verified",
@@ -373,9 +373,9 @@
           "questionDisplay": "Who is the author of the book?",
           "options": [
             "Piri Reis",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Map maker",
+            "Ships and sea travel",
+            "Maps"
           ],
           "correctAnswer": "Piri Reis",
           "answerStatus": "verified",
@@ -390,9 +390,9 @@
           "questionDisplay": "What does the book talk about?",
           "options": [
             "Ships and sea travel",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Geography and navigation",
+            "Map maker",
+            "Piri Reis"
           ],
           "correctAnswer": "Ships and sea travel",
           "answerStatus": "verified",
@@ -430,9 +430,9 @@
           "questionDisplay": "Why is internal pollution more dangerous than external pollution?",
           "options": [
             "Because people stay most of their time inside.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Because people spend most of their time in buildings.",
+            "Because people want to save energy.",
+            "90%"
           ],
           "correctAnswer": "Because people stay most of their time inside.",
           "answerStatus": "verified",
@@ -447,9 +447,9 @@
           "questionDisplay": "Which is the correct choice to preserve the environment?",
           "options": [
             "Using dishes and cups.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Diesel",
+            "Nitrogen, oxygen, and water vapor.",
+            "Black carbon"
           ],
           "correctAnswer": "Using dishes and cups.",
           "answerStatus": "verified",
@@ -464,9 +464,9 @@
           "questionDisplay": "How much time do we spend inside our houses?",
           "options": [
             "90%",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "856",
+            "Black carbon",
+            "Diesel smoke"
           ],
           "correctAnswer": "90%",
           "answerStatus": "verified",
@@ -496,9 +496,9 @@
           "questionDisplay": "Why is internal pollution more serious than outside pollution?",
           "options": [
             "Because people spend most of their time in buildings.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Because people stay most of their time inside.",
+            "Because people want to save energy.",
+            "Natural"
           ],
           "correctAnswer": "Because people spend most of their time in buildings.",
           "answerStatus": "verified",
@@ -513,9 +513,9 @@
           "questionDisplay": "What is the name of the pollution from kerosene?",
           "options": [
             "Carbon black",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Allergy",
+            "India",
+            "Paragraph 3"
           ],
           "correctAnswer": "Carbon black",
           "answerStatus": "verified",
@@ -530,9 +530,9 @@
           "questionDisplay": "What is the best source of aerial pollution?",
           "options": [
             "Diesel",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "India",
+            "Paragraph 3",
+            "Printers and computers"
           ],
           "correctAnswer": "Diesel",
           "answerStatus": "verified",
@@ -547,9 +547,9 @@
           "questionDisplay": "What does the word “essential” mean?",
           "options": [
             "Important",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Toxic",
+            "Paragraph 2",
+            "Synthetic materials"
           ],
           "correctAnswer": "Important",
           "answerStatus": "verified",
@@ -564,9 +564,9 @@
           "questionDisplay": "How many chemicals can cause pollution?",
           "options": [
             "856",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "90%",
+            "Because people want to save energy.",
+            "Because people stay most of their time inside."
           ],
           "correctAnswer": "856",
           "answerStatus": "verified",
@@ -581,9 +581,9 @@
           "questionDisplay": "What does the air consist of?",
           "options": [
             "Nitrogen, oxygen, and water vapor.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Natural",
+            "Indoor pollution is more dangerous than outdoor pollution.",
+            "Acid rain"
           ],
           "correctAnswer": "Nitrogen, oxygen, and water vapor.",
           "answerStatus": "verified",
@@ -598,9 +598,9 @@
           "questionDisplay": "What is another name for diesel smoke?",
           "options": [
             "Black carbon",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Indoor pollution is more dangerous than outdoor pollution.",
+            "Acid rain",
+            "Cancer"
           ],
           "correctAnswer": "Black carbon",
           "answerStatus": "verified",
@@ -615,9 +615,9 @@
           "questionDisplay": "Give an example of external pollution.",
           "options": [
             "Diesel smoke",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Acid rain",
+            "Cancer",
+            "Gases"
           ],
           "correctAnswer": "Diesel smoke",
           "answerStatus": "verified",
@@ -632,9 +632,9 @@
           "questionDisplay": "Which of the following is NOT true of contaminants?",
           "options": [
             "Allergy",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Cancer",
+            "Gases",
+            "Indoor pollution"
           ],
           "correctAnswer": "Allergy",
           "answerStatus": "verified",
@@ -649,9 +649,9 @@
           "questionDisplay": "What is the most polluted country?",
           "options": [
             "India",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Gases",
+            "Indoor pollution",
+            "We use wood and natural furniture."
           ],
           "correctAnswer": "India",
           "answerStatus": "verified",
@@ -666,9 +666,9 @@
           "questionDisplay": "Which paragraph talks about the disease?",
           "options": [
             "Paragraph 3",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Indoor pollution",
+            "We use wood and natural furniture.",
+            "Paragraph 2"
           ],
           "correctAnswer": "Paragraph 3",
           "answerStatus": "verified",
@@ -683,9 +683,9 @@
           "questionDisplay": "What is a source of VOCs?",
           "options": [
             "Printers and computers",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "We use wood and natural furniture.",
+            "Paragraph 2",
+            "Synthetic materials"
           ],
           "correctAnswer": "Printers and computers",
           "answerStatus": "verified",
@@ -700,9 +700,9 @@
           "questionDisplay": "What is the opposite of “synthetic”?",
           "options": [
             "Natural",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Paragraph 2",
+            "Synthetic materials",
+            "Indoor pollution is more dangerous than external pollution."
           ],
           "correctAnswer": "Natural",
           "answerStatus": "verified",
@@ -719,7 +719,7 @@
             "Toxic",
             "Simple",
             "Natural",
-            "Not mentioned in the passage."
+            "Important"
           ],
           "correctAnswer": "Toxic",
           "answerStatus": "verified",
@@ -734,9 +734,9 @@
           "questionDisplay": "What do you understand from the first paragraph?",
           "options": [
             "Indoor pollution is more dangerous than outdoor pollution.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Indoor pollution is more dangerous than external pollution.",
+            "Using dishes and cups.",
+            "Carbon black"
           ],
           "correctAnswer": "Indoor pollution is more dangerous than outdoor pollution.",
           "answerStatus": "verified",
@@ -751,9 +751,9 @@
           "questionDisplay": "What gas is found in the clouds?",
           "options": [
             "Acid rain",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Using dishes and cups.",
+            "Carbon black",
+            "Diesel"
           ],
           "correctAnswer": "Acid rain",
           "answerStatus": "verified",
@@ -768,9 +768,9 @@
           "questionDisplay": "What disease can be caused by pollution?",
           "options": [
             "Cancer",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Carbon black",
+            "Diesel",
+            "Nitrogen, oxygen, and water vapor."
           ],
           "correctAnswer": "Cancer",
           "answerStatus": "verified",
@@ -838,9 +838,9 @@
           "questionDisplay": "What is the best title for the passage?",
           "options": [
             "Pollution",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "We use wood and natural furniture.",
+            "Paragraph 2",
+            "Synthetic materials"
           ],
           "correctAnswer": "Pollution",
           "answerStatus": "verified",
@@ -867,9 +867,9 @@
           "questionDisplay": "Is it indoor or outdoor pollution?",
           "options": [
             "Indoor pollution",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Paragraph 3",
+            "Printers and computers",
+            "Natural"
           ],
           "correctAnswer": "Indoor pollution",
           "answerStatus": "verified",
@@ -884,9 +884,9 @@
           "questionDisplay": "How do we reduce pollution?",
           "options": [
             "We use wood and natural furniture.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Printers and computers",
+            "Natural",
+            "Indoor pollution is more dangerous than outdoor pollution."
           ],
           "correctAnswer": "We use wood and natural furniture.",
           "answerStatus": "verified",
@@ -901,9 +901,9 @@
           "questionDisplay": "Which paragraph talks about air pollution?",
           "options": [
             "Paragraph 2",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Natural",
+            "Indoor pollution is more dangerous than outdoor pollution.",
+            "Acid rain"
           ],
           "correctAnswer": "Paragraph 2",
           "answerStatus": "verified",
@@ -918,9 +918,9 @@
           "questionDisplay": "In the fifth paragraph, what did the author advise us to stay away from?",
           "options": [
             "Synthetic materials",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Indoor pollution is more dangerous than outdoor pollution.",
+            "Acid rain",
+            "Cancer"
           ],
           "correctAnswer": "Synthetic materials",
           "answerStatus": "verified",
@@ -935,9 +935,9 @@
           "questionDisplay": "What is the title of Paragraph 1?",
           "options": [
             "Indoor pollution is more dangerous than external pollution.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Acid rain",
+            "Cancer",
+            "Gases"
           ],
           "correctAnswer": "Indoor pollution is more dangerous than external pollution.",
           "answerStatus": "verified",
@@ -952,9 +952,9 @@
           "questionDisplay": "Why does bad air stay inside?",
           "options": [
             "Because people want to save energy.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Because people stay most of their time inside.",
+            "Because people spend most of their time in buildings.",
+            "Paragraph 2"
           ],
           "correctAnswer": "Because people want to save energy.",
           "answerStatus": "verified",
@@ -992,9 +992,9 @@
           "questionDisplay": "What is the most understandable Arab dialect?",
           "options": [
             "Egyptian Arabic",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The differences between languages",
+            "The one who uses and learns it (Standard Modern Arabic)",
+            "Teaching MSA in school"
           ],
           "correctAnswer": "Egyptian Arabic",
           "answerStatus": "verified",
@@ -1026,9 +1026,9 @@
           "questionDisplay": "Who speaks the most accurate language? / Who are the best speakers of the language?",
           "options": [
             "The one who uses and learns it (Standard Modern Arabic)",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The differences between languages",
+            "Teaching MSA in school",
+            "Similarity in different dialects"
           ],
           "correctAnswer": "The one who uses and learns it (Standard Modern Arabic)",
           "answerStatus": "verified",
@@ -1043,9 +1043,9 @@
           "questionDisplay": "What is the paragraph about?",
           "options": [
             "The differences between languages",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Egyptian Arabic",
+            "Teaching MSA in school",
+            "Similarity in different dialects"
           ],
           "correctAnswer": "The differences between languages",
           "answerStatus": "verified",
@@ -1060,9 +1060,9 @@
           "questionDisplay": "What does the pronoun “this” refer to?",
           "options": [
             "Teaching MSA in school",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The differences between languages",
+            "Similarity in different dialects",
+            "Egyptian Arabic"
           ],
           "correctAnswer": "Teaching MSA in school",
           "answerStatus": "verified",
@@ -1077,9 +1077,9 @@
           "questionDisplay": "Why did the writer mention two cities in the last paragraph, North German and West Slavic?",
           "options": [
             "Similarity in different dialects",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Similarity",
+            "The one who uses and learns it (Standard Modern Arabic)",
+            "The differences between languages"
           ],
           "correctAnswer": "Similarity in different dialects",
           "answerStatus": "verified",
@@ -1117,9 +1117,9 @@
           "questionDisplay": "Who are the people who travel the most?",
           "options": [
             "Europeans and some Asians",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The Americans",
+            "Spain",
+            "Europe"
           ],
           "correctAnswer": "Europeans and some Asians",
           "answerStatus": "verified",
@@ -1134,9 +1134,9 @@
           "questionDisplay": "Who insists on travelling?",
           "options": [
             "The Americans",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Spain",
+            "Europeans and some Asians",
+            "Europe"
           ],
           "correctAnswer": "The Americans",
           "answerStatus": "verified",
@@ -1151,9 +1151,9 @@
           "questionDisplay": "Who spends the most on travel?",
           "options": [
             "The Americans",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Europeans and some Asians",
+            "Spain",
+            "Europe"
           ],
           "correctAnswer": "The Americans",
           "answerStatus": "verified",
@@ -1168,9 +1168,9 @@
           "questionDisplay": "How much was spent in the year 2005?",
           "options": [
             "3.4 trillion",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Europe",
+            "Mexico",
+            "Europeans and some Asians"
           ],
           "correctAnswer": "3.4 trillion",
           "answerStatus": "verified",
@@ -1197,9 +1197,9 @@
           "questionDisplay": "Who is in the third level in travelling?",
           "options": [
             "Spain",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The Americans",
+            "Europeans and some Asians",
+            "Europe"
           ],
           "correctAnswer": "Spain",
           "answerStatus": "verified",
@@ -1214,9 +1214,9 @@
           "questionDisplay": "Where do the majority of Germans travel to?",
           "options": [
             "Europe",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The Americans",
+            "3.4 trillion",
+            "Spain"
           ],
           "correctAnswer": "Europe",
           "answerStatus": "verified",
@@ -1231,9 +1231,9 @@
           "questionDisplay": "Americans travel to ______?",
           "options": [
             "Mexico",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Spain",
+            "Europe",
+            "Europeans and some Asians"
           ],
           "correctAnswer": "Mexico",
           "answerStatus": "verified",
@@ -1260,8 +1260,8 @@
           "options": [
             "In a residence",
             "In a farm",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "In a public park",
+            "In a plant nursery"
           ],
           "correctAnswer": "In a residence",
           "answerStatus": "verified",
@@ -1278,7 +1278,7 @@
             "Weekday evenings",
             "At 10:00 in the morning",
             "Weekend evenings",
-            "Not mentioned in the passage."
+            "Weekday mornings"
           ],
           "correctAnswer": "Weekday evenings",
           "answerStatus": "verified",
@@ -1350,9 +1350,9 @@
           "questionDisplay": "What is the appropriate meaning of “Pioneer operation”?",
           "options": [
             "A technique used for the first time",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "A traffic accident",
+            "The operation improves the situation in similar injuries.",
+            "18 months"
           ],
           "correctAnswer": "A technique used for the first time",
           "answerStatus": "verified",
@@ -1367,9 +1367,9 @@
           "questionDisplay": "Which of the following is correct?",
           "options": [
             "The operation improves the situation in similar injuries.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "18 months",
+            "A traffic accident",
+            "A technique used for the first time"
           ],
           "correctAnswer": "The operation improves the situation in similar injuries.",
           "answerStatus": "verified",
@@ -1397,7 +1397,7 @@
             "Air",
             "Sea",
             "Train",
-            "Not mentioned in the passage."
+            "Bus"
           ],
           "correctAnswer": "Air",
           "answerStatus": "verified",
@@ -1412,9 +1412,9 @@
           "questionDisplay": "What kind of service does the agency provide?",
           "options": [
             "Personalized services",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Group-only services",
+            "Cargo services",
+            "Self-service booking"
           ],
           "correctAnswer": "Personalized services",
           "answerStatus": "verified",

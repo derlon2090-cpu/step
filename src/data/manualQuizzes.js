@@ -24,14 +24,47 @@ const makeUnresolvedQuestion = (modelId, passageId, number, question, options, e
   })),
 });
 
-const buildQuestions = (modelId, passageId, entries) => entries.map(([question, answer], index) => makeQuestion(modelId, passageId, index + 1, question, answer, ['Not mentioned in the passage.', 'Another possibility.', 'None of these.']));
+const normalizeOption = (value) => String(value ?? '').trim().toLowerCase().replace(/[.!?]+$/g, '');
+const questionKind = (question) => {
+  const text = String(question).trim().toLowerCase();
+  if (/^(who|whose)\b/.test(text)) return 'person';
+  if (/^where\b/.test(text)) return 'place';
+  if (/^(when|how long|what (year|time|date))\b/.test(text)) return 'time';
+  if (/^(how many|how much|what percentage)\b/.test(text)) return 'number';
+  if (/^why\b/.test(text)) return 'reason';
+  if (/(meaning|mean\?|closest in meaning|word “|word \()/.test(text)) return 'vocabulary';
+  if (/(pronoun|refer to)/.test(text)) return 'reference';
+  if (/(best title|main idea|passage (talk|about)|mainly talking)/.test(text)) return 'topic';
+  return 'detail';
+};
+
+const contextualDecoys = (entries, questionIndex, question, answer, sourceOptions = []) => {
+  const kind = questionKind(question);
+  const peers = entries
+    .map(([peerQuestion, peerAnswer], index) => ({ value: peerAnswer, kind: questionKind(peerQuestion), index }))
+    .filter((peer) => peer.index !== questionIndex && typeof peer.value === 'string' && peer.value.trim() && normalizeOption(peer.value) !== normalizeOption(answer));
+  const rotate = (items, offset) => items.length ? [...items.slice(offset % items.length), ...items.slice(0, offset % items.length)] : [];
+  const candidates = [
+    ...sourceOptions,
+    ...rotate(peers.filter((peer) => peer.kind === kind), questionIndex).map((peer) => peer.value),
+    ...rotate(peers.filter((peer) => peer.kind !== kind), questionIndex * 3 + 1).map((peer) => peer.value),
+  ];
+  const seen = new Set([normalizeOption(answer)]);
+  return candidates.filter((candidate) => {
+    const normalized = normalizeOption(candidate);
+    if (!normalized || seen.has(normalized)) return false;
+    seen.add(normalized);
+    return true;
+  }).slice(0, 3);
+};
+
+const buildQuestions = (modelId, passageId, entries) => entries.map(([question, answer, sourceOptions = []], index) => answer === null
+  ? makeUnresolvedQuestion(modelId, passageId, index + 1, question, sourceOptions, 'مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.')
+  : makeQuestion(modelId, passageId, index + 1, question, answer, contextualDecoys(entries, index, question, answer, sourceOptions)));
 const makePassage = (modelId, id, order, title, englishTitle, externalTitle, entries) => ({ id, order, title, englishTitle, externalTitle, questions: buildQuestions(modelId, id, entries) });
-const completeDecoys = (answer, sourceOptions = []) => [...sourceOptions.filter((option) => option !== answer), 'Not mentioned in the passage.', 'Another possibility.', 'None of these.'].filter((option, index, all) => all.indexOf(option) === index).slice(0, 3);
 const makeMixedPassage = (modelId, id, order, title, englishTitle, externalTitle, entries) => ({
   id, order, title, englishTitle, externalTitle,
-  questions: entries.map(([question, answer, sourceOptions], index) => answer === null
-    ? makeUnresolvedQuestion(modelId, id, index + 1, question, sourceOptions ?? [], 'مفتاح الإجابة غير مؤكد في المصدر ويحتاج مراجعة.')
-    : makeQuestion(modelId, id, index + 1, question, answer, completeDecoys(answer, sourceOptions))),
+  questions: buildQuestions(modelId, id, entries),
 });
 
 export const wordGlossary = {
@@ -294,7 +327,7 @@ Sources differ in descriptions of the doll, describing it as either a round, hol
 
 Savva Mamontov’s wife presented the dolls at the Exposition Universelle in Paris, where the toy earned a bronze medal. Soon after, matryoshka dolls were being made in several places in Russia and shipped around the world.` },
       makeMixedPassage('reading-03','missing-plane',2,'القطعة الثانية','The Missing Plane','ثانياً / الطائرة المفقودة',[
-        ['What caused the plane to break down?','Technical problems'],['What was the destination of the plane?','New Delhi'],['What did they do when the plane stopped?',null,[]],['What does “not scheduled” mean?','Not planned'],['What was the reason for the delay?','Technical problems'],
+        ['What caused the plane to break down?','Technical problems',['Bad weather','A fuel shortage','A crew error']],['What was the destination of the plane?','New Delhi',['Mumbai','London','Dubai']],['What did they do when the plane stopped?',null,[]],['What does “not scheduled” mean?','Not planned',['Confirmed in advance','Cancelled permanently','Delayed by one hour']],['What was the reason for the delay?','Technical problems',['Heavy traffic','Late passengers','Missing luggage']],
       ]),
       makeMixedPassage('reading-03','piri-reis',3,'القطعة الثالثة','Piri Reis','ثالثاً / السلطان العثماني بيري ريس',[
         ['What is the nearest meaning of the word “chart”?','Maps'],['What field did this scientist contribute to?','Geography and navigation'],['What was the scientist’s job?','Map maker'],['When did he give Kitab Al-Bahriya to the Sultan?','In 1525'],['What does the word “cartographer” mean?','Map maker'],['Who is the author of the book?','Piri Reis'],['What does the book talk about?','Ships and sea travel'],['What is the best title for the passage?',null,[]],
@@ -309,13 +342,13 @@ Savva Mamontov’s wife presented the dolls at the Exposition Universelle in Par
         ['Who are the people who travel the most?','Europeans and some Asians'],['Who insists on travelling?','The Americans'],['Who spends the most on travel?','The Americans'],['How much was spent in the year 2005?','3.4 trillion'],['Who travels the most and is the most wasteful?',null,[]],['Who is in the third level in travelling?','Spain'],['Where do the majority of Germans travel to?','Europe'],['Americans travel to ______?','Mexico'],
       ]),
       makeMixedPassage('reading-03','gardener',7,'القطعة السابعة','Gardener’s Announcement','سابعاً / إعلان وظيفة بستاني',[
-        ['Where does the gardener prefer to work?','In a residence',['In a farm','In a residence']],['When can employers call Jack?','Weekday evenings',['At 10:00 in the morning','Weekend evenings','Weekday evenings']],['How much money does the gardener take?',null,[]],
+        ['Where does the gardener prefer to work?','In a residence',['In a farm','In a public park','In a plant nursery']],['When can employers call Jack?','Weekday evenings',['At 10:00 in the morning','Weekend evenings','Weekday mornings']],['How much money does the gardener take?',null,[]],
       ]),
       makeMixedPassage('reading-03','traffic-accident',8,'القطعة الثامنة','Traffic Accident','ثامناً / حادث علي',[
         ['Ali was able to eat using his hands after ______ months.','18 months',['8','18','10','9']],['Why did Ali have this problem in his hands?','A traffic accident',['Physiotherapy sessions','A traffic accident','Hospital treatment','The university']],['What is the appropriate meaning of “Pioneer operation”?','A technique used for the first time'],['Which of the following is correct?','The operation improves the situation in similar injuries.'],
       ]),
       makeMixedPassage('reading-03','travel-agency',9,'القطعة التاسعة','Travel Agency','تاسعاً / وكالة سفر',[
-        ['Travel agency for?','Air',['Air','Sea','Train']],['What kind of service does the agency provide?','Personalized services'],
+        ['Travel agency for?','Air',['Sea','Train','Bus']],['What kind of service does the agency provide?','Personalized services',['Group-only services','Cargo services','Self-service booking']],
       ]),
     ],
   },
@@ -340,19 +373,19 @@ He converted to Islam in 1964 and changed his name to Mohammed Ali without his l
         ['Why do people watch TV?','To spend more enjoyable time for entertainment (have fun).'],['How does watching TV shorten your life?','Staying long hours without moving.'],['How does exercising make your life longer?','Giving you 3 years to your life, reducing the rate of death by 14%, and reducing other dangers by 4%.'],['According to Paragraph 4, exercising for 15 minutes a day can:','Add three years to the total time of your life.',['Add three years to the total time of your life.','Extend your life for 22 minutes.','Reduce the risk of death by 4%.','Reduce heart disease by 4%.']],['What does “premature” mean?','Early',['Early','Late','Final','Developing']],['According to Paragraph 2, people who watch a lot of television:','They cut off 11 minutes of their lives.',['Get the exciting of exercises','Eat plenty of food','Breathe cigarette smoke']],['According to the text, what activity can increase the health risks of diabetes and heart disease by 20%?','Watch TV for two hours a day.',['A lifestyle that is generally inactive','Over-eating unhealthy food','Smoking']],['كم يموتون الذين على التلفاز؟',null,[]],['كم المعدل اليومي للجلوس على التلفاز؟',null,[]],
       ]),
       makeMixedPassage('reading-04','bone-soup',6,'القطعة السادسة','Bone Soup','سادساً / مرق العظام',[
-        ['What does the pronoun “that” refer to?','Minerals'],['What happened to the people who don’t drink bone soup?',null,[]],['What is the meaning of the word “lacking”?','Missing'],
+        ['What does the pronoun “that” refer to?','Minerals',['Bones','Soup','People']],['What happened to the people who don’t drink bone soup?',null,[]],['What is the meaning of the word “lacking”?','Missing',['Available','Complete','Extra']],
       ]),
       { ...makeMixedPassage('reading-04','meeting-email',7,'القطعة السابعة','Meeting Email','سابعاً / البريد والاجتماع',[
-        ['When was the previous meeting?','The day before the message',['The day before message','On the same day','Before sending','Only days before']],['When was the last meeting?','The day before the message'],['Why was the manager angry at the clerk?','Because he came later than him.'],['Why was he upset with him?','Because the secretary arrived late last time.',['He apologized','He did not bring the papers or files.']],
+        ['When was the previous meeting?','The day before the message',['On the same day','A week before','The following day']],['When was the last meeting?','The day before the message',['On the same day','The following morning','One week earlier']],['Why was the manager angry at the clerk?','Because he came later than him.',['Because he cancelled the meeting','Because he lost the agenda','Because he left too early']],['Why was he upset with him?','Because the secretary arrived late last time.',['He apologized','He did not bring the papers or files.','He changed the meeting room']],
       ]), passageText: `An email from someone informing him about the preparations for the next meeting. And that it is necessary to come early and answer with him the paper he forgot on the desk the last day.` },
       makeMixedPassage('reading-04','job-offer',8,'القطعة الثامنة','Job Offer','ثامناً / العرض الوظيفي',[
         ['What are the skills required for the jobs?','Bachelor degree and fluent in English'],['What is NOT mentioned in the job offer?','Salary'],['Which company is asking for applicants for these jobs?','Travel and tourism company'],['What does the word “forceful” mean?','Powerful',['Powerful','Smart','Mindful']],['What does the word “express” mean?','Explain'],
       ]),
       makeMixedPassage('reading-04','dave-response',9,'القطعة التاسعة','Dave’s Response','تاسعاً / رد ديف',[
-        ['What is Dave’s response?','Working',['Working','Fast']],
+        ['What is Dave’s response?','Working',['Resting','Travelling','Unavailable']],
       ]),
       makeMixedPassage('reading-04','questionnaires',10,'القطعة العاشرة','Questionnaires','عاشراً / الاستبيان',[
-        ['Who should respond to the questionnaires?','The students',['The students','The students and professors']],
+        ['Who should respond to the questionnaires?','The students',['The professors','The administrators','The parents']],
       ]),
       makeMixedPassage('reading-04','health-chart',11,'القطعة الحادية عشرة','Health Chart','الحادي عشر / الرسم البياني الصحي',[
         ['When was the highest percentage of high health in cities?',null,[]],
@@ -374,19 +407,19 @@ He converted to Islam in 1964 and changed his name to Mohammed Ali without his l
         ['What is the best title of the passage?','Language and its effect on the identity of immigrants.'],['What is not true according to the first paragraph?','Second generation immigrants are eager to learn parent native language.'],['Did the mother speak Korean with all girls or just one?','All the children'],['Is the first girl old or young?','The first girl is old; the old girl speaks English and Korean very well, but the second and third only speak English.'],['Why can’t the second girl speak Korean?','Because she is Americanized.'],['What is not true about the old girl?','Sympathetic'],['Why did the aunt try to teach the girls how to speak Korean?','To help them establish a Korean identity.'],['What is correct from these sentences?','The second sister is older than the son.'],['The oldest sister had a problem with:','She can’t understand some Korean jokes.'],['What is not a reason for the 14-year-old girl’s problems with her mother?','She does not love mother.'],['Which of the following is NOT in the passage?','American friends will not see them as Korean American.'],['What does the phrase “Americanized immigrants” mean?','People who imitate Americans.'],['What does the pronoun “they” refer to?',null,['mother and her young daughter','children']],['What is the meaning of the word “suffer”?','Problem'],['What language does the 14-year-old girl speak?','English'],['According to paragraphs 3–4, how did the aunt deal with the 14-year-old girl?','She helped her to speak Korean.'],['How many languages can the 18-year-old girl speak?','Two, English and Korean.'],['Which of the following is NOT true about the 18-year-old daughter?','She speaks only English very well; her Korean is poor.'],['Miscommunication between the parents and their children may lead to what?','Big problem'],['What is not mentioned about the 14-year-old girl?',null,[]],['What are the differences between immigration and ______ the influence on language?',null,[]],['Which of the following is close to the main idea?','The language in immigrant is mixture of two languages.'],
       ]),
       makeMixedPassage('reading-05','petra',5,'القطعة الخامسة','Petra','خامساً / البتراء',[
-        ['Where is Petra located?','Southern Jordan'],['What is Petra capital of?','Nabatean kingdom'],
+        ['Where is Petra located?','Southern Jordan',['Northern Jordan','Western Saudi Arabia','Southern Egypt']],['What is Petra capital of?','Nabatean kingdom',['Roman Empire','Ottoman Empire','Byzantine kingdom']],
       ]),
       { ...makeMixedPassage('reading-05','weather',6,'القطعة السادسة','Kingdom Weather Forecast','سادساً / طقس مناطق المملكة',[
-        ['Which parts of the Kingdom may receive rain?','The central and eastern parts.'],['The forecast for Makkah and Medina is ______.','Dusty and hot'],['Which city may expect to see storm clouds?',null,['Abha','Baha','Taif']],['Where will it probably be difficult to see clearly while driving?','Qassim'],
+        ['Which parts of the Kingdom may receive rain?','The central and eastern parts.',['The northern coast','The western highlands only','The southern desert']],['The forecast for Makkah and Medina is ______.','Dusty and hot',['Cool and clear','Rainy and cold','Cloudy and mild']],['Which city may expect to see storm clouds?',null,['Abha','Baha','Taif']],['Where will it probably be difficult to see clearly while driving?','Qassim',['Jeddah','Dammam','Najran']],
       ]), passageText:`Strong winds will raise dust and sand, reducing visibility over the northern and central Kingdom between Makkah and Madinah, with the possibility of increasing temperatures over these regions. Suspended haze will spread over Qassim, Hail and northern parts of the Riyadh region, limiting visibility and making driving hazardous. Parts of the central and eastern Kingdom will be partly cloudy, with chances of rain. Storm clouds may form over the southwestern and western highlands, including Abha, Baha and Taif.` },
       makeMixedPassage('reading-05','course-units',7,'القطعة السابعة','Course Units','سابعاً / وحدات المقرر',[
-        ['Which unit shows the prayer?','Religion – Unit 3'],['Which unit talks about the changes of the society?','Unit 4'],
+        ['Which unit shows the prayer?','Religion – Unit 3',['Religion – Unit 1','History – Unit 2','Society – Unit 4']],['Which unit talks about the changes of the society?','Unit 4',['Unit 1','Unit 2','Unit 3']],
       ]),
       makeMixedPassage('reading-05','medical-doctor',8,'القطعة الثامنة','Medical Doctor','ثامناً / الطبيب',[
-        ['The passage is about?','Medical doctor'],['The word “examine” in the passage is closest in meaning to?','Looking'],
+        ['The passage is about?','Medical doctor',['School teacher','Travel agent','Software engineer']],['The word “examine” in the passage is closest in meaning to?','Looking',['Ignoring','Hiding','Leaving']],
       ]),
       makeMixedPassage('reading-05','height-comparison',9,'القطعة التاسعة','Height Comparison','تاسعاً / مقارنة الطول',[
-        ['What do you understand from the sentence “Adam is not as tall as Erich”?','Erich is taller than Adam.'],
+        ['What do you understand from the sentence “Adam is not as tall as Erich”?','Erich is taller than Adam.',['Adam is taller than Erich.','Adam and Erich are the same height.','Erich is shorter than Adam.']],
       ]),
       makeMixedPassage('reading-05','papyrus',10,'القطعة العاشرة','Papyrus & Paper','عاشراً / البردي والورق',[
         ['According to Paragraph 2, what did the early Egyptians use to make their writing material?','Papyrus'],['The word “them” in Paragraph 2 refers to ______.','Papyrus stems'],['What does the word “papyrus” mean?','Sedge'],['The first real paper was made in ______.','China'],['Who introduced the paper-making process to Europe?','The Arabs'],['Which component is necessary for making both paper and papyrus?','Fibrous material'],
@@ -395,7 +428,7 @@ He converted to Islam in 1964 and changed his name to Mohammed Ali without his l
         ['What is the best title of the passage?','The history of Berlin Wall'],['How many people could pass the wall?','5000 / five thousand people'],['What does paragraph 1 say about the actions of the East German border guards?','They closed most of the streets on the border.'],['What is the main idea of the second paragraph?','5000 crossed over the wall.'],['What does paragraph 4 say about the wall between East and West?',null,['It was 112km long','It was 155km long']],['When did Germany know?','11 months later'],['What is the last paragraph about?','The fall, when it came, was quick.'],['Why did they build the wall?','To separate East German from West German.'],
       ]),
       { ...makeMixedPassage('reading-05','wood',12,'القطعة الثانية عشرة','Wood & Lignin','الثاني عشر / الخشب واللجنين',[
-        ['The word “they” in the passage refers to ______.','Vessels'],
+        ['The word “they” in the passage refers to ______.','Vessels',['Trees','Supporting cells','Timber']],
       ]), passageText:`With lignin and appropriate architecture, we truly have wood. It is wood that makes trees. In practice, it is mainly the cells of the conducting vessels that become lignified, and they and their surrounding supporting cells are the main ingredient in timber.` },
     ]
   },
@@ -419,7 +452,7 @@ He converted to Islam in 1964 and changed his name to Mohammed Ali without his l
 
 Others are also curious as they are not tolerant of people who speak slowly and usually end up completing sentences to them!, The other characteristics of a personality are that they feel annoyed by small things easily as they ease their strength when they get angry, So it is better not to provoke them, they have high ambitions, they can overcome the competition to achieve their goal, as they tend to compete with others.`},
       makeMixedPassage('reading-06','meeting',6,'القطعة السادسة','Effective Meetings','سادساً / الاجتماعات الفعالة',[
-        ['What does the “remark” mean?','Comment',['Comment','Suspension']],['What is the main idea?','Meeting is planned and organized.'],['Who should invite for a meeting?','People who are necessary',['More people','People who are necessary']],
+        ['What does the “remark” mean?','Comment',['Suspension','Question','Agenda']],['What is the main idea?','Meeting is planned and organized.',['Meetings should be cancelled','Everyone must attend every meeting','Meetings need no preparation']],['Who should invite for a meeting?','People who are necessary',['All employees','Outside visitors','Only managers']],
       ]),
       makeMixedPassage('reading-06','device-driver',7,'القطعة السابعة','Device Driver','سابعاً / برنامج تشغيل الجهاز',[
         ['What does the passage talk about?','Device driver work'],['What does the word (current) mean?','The recent'],['Device driver is?','Piece of software',['Piece of software','printer','modem']],['The main function of device driver?','Connect hardware to computer',['Connect hardware to computer','connecting to internet']],
@@ -428,7 +461,7 @@ Others are also curious as they are not tolerant of people who speak slowly and 
         ['How is the person?','busy.',['busy.','happy','sad','angry']],['An example of housework?','washing floor',['washing floor','studying for the children','going shopping','sit with her family.']],
       ]),
       makeMixedPassage('reading-06','resort',9,'القطعة التاسعة','All-Inclusive Resort','تاسعاً / المنتجع الشامل',[
-        ['What does an all-inclusive resort mean?','It covers food lodging and activities.'],['Which of the following may cost more?','equipment rental'],
+        ['What does an all-inclusive resort mean?','It covers food lodging and activities.',['It covers lodging only','It excludes meals and activities','It provides transport only']],['Which of the following may cost more?','equipment rental',['Meals','The room','Included activities']],
       ]),
     ]
   },
@@ -454,7 +487,7 @@ In 1965, the desire to construct the causeway began to take form officially when
         ['What is the animal that does not sleep much?','Sheep',['Sheep','cat','moles']],['Snakes .....................?','May not really sleep.'],['Elephant .....................?','does NOT always sleep lying down.'],['Cows and horses sleep.........?','usually open their eyes',['Never close their eyes','seldom open their eyes','usually open their eyes','always close their eyes']],['All animals .............?','Spend some time resting.'],['What does the pronoun "their" refer to?','animals',['Scientists','device name','animals']],['What does the word “dozing” mean?','Sleep'],['What does the word “clues” mean?','signs'],['What is the main idea of the passage?','Scientists able to study animals sleeping behavior.'],['Why do some animals better sleepers?','Because they have a safe place to sleep'],['What is the best way to test animal sleep?','Use the electroencephalograph.'],['What is not true according to paragraph 2 and 3?','Fish and snakes sleep eyes open. They don\'t like to close them.'],['The word stimuli is closest in meaning to?','things produce a reaction in living organisms'],
       ]),
       makeMixedPassage('reading-07','farmers-1900',6,'القطعة السادسة','Farmers in 1900','سادساً / المزارعون عام 1900',[
-        ['What does the pronoun “themselves” refer to?','Family farmers'],['What is the wrong sentence according to the paragraph?',null,[]],['What is wrong with the options?','Half of the farmers in 1900 were engaged in agriculture.'],
+        ['What does the pronoun “themselves” refer to?','Family farmers',['Factory workers','City merchants','Farm animals']],['What is the wrong sentence according to the paragraph?',null,[]],['What is wrong with the options?','Half of the farmers in 1900 were engaged in agriculture.',['Most farmers lived in cities.','Farm families bought all their food.','Agriculture employed no families.']],
       ]),
       makeMixedPassage('reading-07','clothes-1900',7,'القطعة السابعة','Clothes in 1900','سابعاً / الملابس عام 1900',[
         ['How was the clothes (wear)?',null,[]],
@@ -466,7 +499,7 @@ In 1965, the desire to construct the causeway began to take form officially when
         ['Where do the food go?','stomach',['stomach','mouth','brain','kidneys']],['If you have 10 Riyal, what will you buy?','sandwich',['sandwich','chicken','pizza','fish']],
       ]),
       makeMixedPassage('reading-07','book-information',10,'القطعة العاشرة','Book Information','عاشراً / معلومات الكتاب',[
-        ['What is the information required about the book?','The date of publication and publisher.'],['What information do you find when searching for a book?','Date of publication and publisher'],
+        ['What is the information required about the book?','The date of publication and publisher.',['The cover color and price','The author’s address','The number of illustrations']],['What information do you find when searching for a book?','Date of publication and publisher',['Reader reviews only','The shelf color','The shop opening hours']],
       ]),
     ]
   },
@@ -476,7 +509,7 @@ In 1965, the desire to construct the causeway began to take form officially when
         ['What is the wrong answer about deriving a currency?','about names of king'],['What is the origin of the riyal?','Spanish- royal.'],['What are the similarities between the ringgit and the Mexican currency?','They are all made of the same material.'],['What is the origin of the word dollar?','Germany'],['What is the meaning of derivation?','Originated'],['What is the most expensive currency?','The Kuwaiti Dinar'],['Peso is taken from the weight. What does this mean?','Peso is taken from the weight.'],['What is the derivation of the peso?','Light weight'],['What does the pronoun “it” refer to?','Peso'],['The dinar and rupee have which characteristic?','material'],['Which currency is referred to again?','Dinar Kuwaiti'],
       ]),
       makeMixedPassage('reading-08','dolphins',2,'القطعة الثانية','Dolphins City','ثانياً / مدينة الدلافين',[
-        ['Which of the following applies to dolphins?','They are smart',['Avoid eating animals','They have many colors','They are smart']],['Who is the welcome message directed to?','Visitors watching dolphins',['For people who came to see the fish','People who attended the museum','Visitors watching dolphins']],['What are they explaining in this passage?','Dolphins City'],
+        ['Which of the following applies to dolphins?','They are smart',['Avoid eating animals','They have many colors','They live only on land']],['Who is the welcome message directed to?','Visitors watching dolphins',['People attending a museum','Marine researchers only','Boat drivers']],['What are they explaining in this passage?','Dolphins City',['A fishing village','A marine museum','A swimming course']],
       ]),
       { ...makeMixedPassage('reading-08','edison',3,'القطعة الثالثة','Thomas Edison','ثالثاً / توماس إديسون',[
         ['What is the best title?','Edison the great inventor'],['What made him famous?','invention of the light bulb',['The phonograph','invention of the light bulb']],['What does “it” refer to?',null,['Deafness']],['What invention is mentioned in the section?','electric light and power'],['Why was he fired from work?','started fire.'],['How did he open a shop?','Because he sold the Stick for 40,000'],['He considered his deafness as a/an:','Advantage',['Positive','Feature advantage']],['What does the word “bless” mean?','Happy = glad = joyful'],
@@ -490,22 +523,22 @@ Edison was a prolific inventor, holding 1,093 US patents, as well as many patent
         ['What does the word pleased mean?','Happy'],['Someone decided to come back and take the worksheet again why?','he needs to focus on the worksheet more.'],['How does he use it to control?','in different areas of his life.'],['What does the word effortless mean?','Without work'],['How long did it take?','More than 4 hours'],['Why did he take longer time?','Because he forgot his bag'],['What did you remember when he was driving?','He forgot his bag.'],['What does he do to his wife?','he gives her jewelry.'],['What is the meeting about?','Worksheet.'],['What is the purpose of this workshop?','Discipline',['Lesson plan','Energy','Discipline']],['Why is he so excited?','gift of his wife beautiful',['He has a beautiful son','gift of his wife beautiful','share the things that he learns with others']],['When was the meeting?','On weekend',['On weekend','at the end of a weekend']],['At the end of the meeting, he thanked?','everybody'],['Who did he thank after finishing the workshop?','All present people.'],['What makes him need more time for what he learned?','He forgot his bag.'],
       ]),
       makeMixedPassage('reading-08','car-specifications',6,'القطعة السادسة','Car Specifications','سادساً / مواصفات السيارة',[
-        ['Whose specifications are these?','Car'],
+        ['Whose specifications are these?','Car',['Bicycle','Computer','Boat']],
       ]),
       makeMixedPassage('reading-08','social-media',7,'القطعة السابعة','Social Media Survey','سابعاً / وسائل التواصل الاجتماعي',[
         ['Which program is used least by women?','LinkedIn'],['What is the most popular program?','Instagram'],['How long do most men use social media?','1-3 hours'],['How long do most people use social media?','4-6 hours'],
       ]),
       makeMixedPassage('reading-08','dentist-card',8,'القطعة الثامنة','Dentist Information Card','ثامناً / بطاقة معلومات طبيب الأسنان',[
-        ['Which answer has the information in the required order?','Almutlg, Isa — 32 — France — dentist.'],
+        ['Which answer has the information in the required order?','Almutlg, Isa — 32 — France — dentist.',['Isa, Almutlg — France — 32 — dentist.','Almutlg, Isa — dentist — France — 32.','32 — France — Almutlg, Isa — dentist.']],
       ]),
       makeMixedPassage('reading-08','swimming-sign',9,'القطعة التاسعة','Swimming Sign','تاسعاً / لوحة السباحة',[
-        ['What does “No Non Swimmers Beyond This Point” mean?','stop if you cannot swim',['It is not allowed to children','stop if you cannot swim','it is not allowed to go further']],
+        ['What does “No Non Swimmers Beyond This Point” mean?','stop if you cannot swim',['Children must swim alone','Everyone may go farther','Swimming equipment is forbidden']],
       ]),
       makeMixedPassage('reading-08','tom-roger',10,'القطعة العاشرة','Tom and Roger','عاشراً / توم وروجر',[
-        ['What did Tom ask Roger?','Can I visit you at weekend?'],
+        ['What did Tom ask Roger?','Can I visit you at weekend?',['Can you work this weekend?','Did you visit me yesterday?','Will you travel on Monday?']],
       ]),
       makeMixedPassage('reading-08','omar-ali',11,'القطعة الحادية عشرة','Omar and Ali','الحادي عشر / عمر وعلي',[
-        ['What does Omar want from Ali?','To reply'],['When is the dinner?',null,[]],
+        ['What does Omar want from Ali?','To reply',['To cancel the dinner','To bring a guest','To change the address']],['When is the dinner?',null,[]],
       ]),
       makeMixedPassage('reading-08','fish',12,'القطعة الثانية عشرة','Fish','الثاني عشر / الأسماك',[
         ['What is the main idea of this passage?','the types of fish',['the types of fish','the colors of fish','fish are fascinating animals','how fish live and play in water']],['The word “resemble” in paragraph 1 is closest in meaning to:','look like',['differ from','look like','live in','move']],['What does the word in paragraph 2 refer to?','oxygen',['fish','water','a river','oxygen']],['According to paragraph 3, what are scientists expected to find more of?',null,['fish','animals','kinds of animals','species of animals']],

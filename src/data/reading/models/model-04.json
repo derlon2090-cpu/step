@@ -21,9 +21,9 @@
           "questionDisplay": "Where did he get the gold medal from?",
           "options": [
             "Roma",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "An amateur boxer",
+            "22 years old",
+            "Change"
           ],
           "correctAnswer": "Roma",
           "answerStatus": "verified",
@@ -38,9 +38,9 @@
           "questionDisplay": "When did he change his name?",
           "options": [
             "In the same year he defeated Sonny Liston.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "1978",
+            "June 3, 2016",
+            "An amateur boxer"
           ],
           "correctAnswer": "In the same year he defeated Sonny Liston.",
           "answerStatus": "verified",
@@ -55,9 +55,9 @@
           "questionDisplay": "When he won the gold medal, he was?",
           "options": [
             "An amateur boxer",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "June 3, 2016",
+            "In the same year he defeated Sonny Liston.",
+            "1978"
           ],
           "correctAnswer": "An amateur boxer",
           "answerStatus": "verified",
@@ -72,9 +72,9 @@
           "questionDisplay": "How old was he when he converted to Islam?",
           "options": [
             "22 years old",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Thirty-six years old",
+            "Roma",
+            "In the same year he defeated Sonny Liston."
           ],
           "correctAnswer": "22 years old",
           "answerStatus": "verified",
@@ -89,9 +89,9 @@
           "questionDisplay": "What is the meaning of the word “??????”?",
           "options": [
             "Change",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Took",
+            "An amateur boxer",
+            "22 years old"
           ],
           "correctAnswer": "Change",
           "answerStatus": "verified",
@@ -106,9 +106,9 @@
           "questionDisplay": "How many competitions did he take part in until he got the medal?",
           "options": [
             "3 tournaments",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Change",
+            "Took",
+            "The Supreme Court"
           ],
           "correctAnswer": "3 tournaments",
           "answerStatus": "verified",
@@ -124,8 +124,8 @@
           "options": [
             "Took",
             "Posited",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "Change",
+            "Leon"
           ],
           "correctAnswer": "Took",
           "answerStatus": "verified",
@@ -140,9 +140,9 @@
           "questionDisplay": "Who supported his rejection of the Vietnam War?",
           "options": [
             "The Supreme Court",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Leon",
+            "Roma",
+            "In the same year he defeated Sonny Liston."
           ],
           "correctAnswer": "The Supreme Court",
           "answerStatus": "verified",
@@ -157,9 +157,9 @@
           "questionDisplay": "How old was he when he won the championships?",
           "options": [
             "22 years old",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Thirty-six years old",
+            "Took",
+            "The Supreme Court"
           ],
           "correctAnswer": "22 years old",
           "answerStatus": "verified",
@@ -174,9 +174,9 @@
           "questionDisplay": "When did he win the third golden medal?",
           "options": [
             "1978",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "In the same year he defeated Sonny Liston.",
+            "An amateur boxer",
+            "June 3, 2016"
           ],
           "correctAnswer": "1978",
           "answerStatus": "verified",
@@ -191,9 +191,9 @@
           "questionDisplay": "Who did he beat before becoming famous after the third prize?",
           "options": [
             "Leon",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The Supreme Court",
+            "Thirty-six years old",
+            "June 3, 2016"
           ],
           "correctAnswer": "Leon",
           "answerStatus": "verified",
@@ -208,9 +208,9 @@
           "questionDisplay": "How old was he when he won the medal?",
           "options": [
             "Thirty-six years old",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "22 years old",
+            "3 tournaments",
+            "Took"
           ],
           "correctAnswer": "Thirty-six years old",
           "answerStatus": "verified",
@@ -225,9 +225,9 @@
           "questionDisplay": "When did he die?",
           "options": [
             "June 3, 2016",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "In the same year he defeated Sonny Liston.",
+            "An amateur boxer",
+            "1978"
           ],
           "correctAnswer": "June 3, 2016",
           "answerStatus": "verified",
@@ -253,9 +253,9 @@
           "questionDisplay": "What are the benefits of cupping?",
           "options": [
             "Energize the body",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Toxin",
+            "Wound’s injury",
+            "Yes, it is recommended by Prophet Muhammad"
           ],
           "correctAnswer": "Energize the body",
           "answerStatus": "verified",
@@ -270,9 +270,9 @@
           "questionDisplay": "When is it recommended to do cupping?",
           "options": [
             "Once a year or more",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Cut of body",
+            "Clean instrument",
+            "Energize the body"
           ],
           "correctAnswer": "Once a year or more",
           "answerStatus": "verified",
@@ -287,9 +287,9 @@
           "questionDisplay": "What are the reasons for a headache?",
           "options": [
             "Toxin",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Yes, it is recommended by Prophet Muhammad",
+            "Cut of body",
+            "Clean instrument"
           ],
           "correctAnswer": "Toxin",
           "answerStatus": "verified",
@@ -304,9 +304,9 @@
           "questionDisplay": "How is cupping done?",
           "options": [
             "Wound’s injury",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Cut of body",
+            "Clean instrument",
+            "Energize the body"
           ],
           "correctAnswer": "Wound’s injury",
           "answerStatus": "verified",
@@ -321,9 +321,9 @@
           "questionDisplay": "Is cupping recommended?",
           "options": [
             "Yes, it is recommended by Prophet Muhammad",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Clean instrument",
+            "Energize the body",
+            "Toxin"
           ],
           "correctAnswer": "Yes, it is recommended by Prophet Muhammad",
           "answerStatus": "verified",
@@ -338,9 +338,9 @@
           "questionDisplay": "Cupping treats these except?",
           "options": [
             "Cut of body",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Energize the body",
+            "Toxin",
+            "Wound’s injury"
           ],
           "correctAnswer": "Cut of body",
           "answerStatus": "verified",
@@ -355,9 +355,9 @@
           "questionDisplay": "Which of these things is needed for cupping according to what was mentioned in the paragraph?",
           "options": [
             "Clean instrument",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Toxin",
+            "Wound’s injury",
+            "Yes, it is recommended by Prophet Muhammad"
           ],
           "correctAnswer": "Clean instrument",
           "answerStatus": "verified",
@@ -383,9 +383,9 @@
           "questionDisplay": "What does Paragraph 1 talk about?",
           "options": [
             "Mixed feelings",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "They are pets",
+            "Pigeons can live in all circumstances or conditions.",
+            "They feed on the fallen food."
           ],
           "correctAnswer": "Mixed feelings",
           "answerStatus": "verified",
@@ -400,9 +400,9 @@
           "questionDisplay": "What does “nocturnal” mean?",
           "options": [
             "Active at night",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "They are pets",
+            "Pigeons can live in all circumstances or conditions.",
+            "Mixed feelings"
           ],
           "correctAnswer": "Active at night",
           "answerStatus": "verified",
@@ -417,9 +417,9 @@
           "questionDisplay": "Why did the writer say that pigeons are similar to mice and rats?",
           "options": [
             "They feed on the fallen food.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The smell of pigeon waste",
+            "They build nests in any place.",
+            "They are pets"
           ],
           "correctAnswer": "They feed on the fallen food.",
           "answerStatus": "verified",
@@ -434,9 +434,9 @@
           "questionDisplay": "Why did the writer not breathe?",
           "options": [
             "The smell of pigeon waste",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "They feed on the fallen food.",
+            "Mixed feelings",
+            "Active at night"
           ],
           "correctAnswer": "The smell of pigeon waste",
           "answerStatus": "verified",
@@ -451,9 +451,9 @@
           "questionDisplay": "Where did the pigeons build nests?",
           "options": [
             "They build nests in any place.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Active at night",
+            "They feed on the fallen food.",
+            "The smell of pigeon waste"
           ],
           "correctAnswer": "They build nests in any place.",
           "answerStatus": "verified",
@@ -480,9 +480,9 @@
           "questionDisplay": "What is NOT a use of pigeons?",
           "options": [
             "They are pets",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Mixed feelings",
+            "Pigeons can live in all circumstances or conditions.",
+            "They build nests in any place."
           ],
           "correctAnswer": "They are pets",
           "answerStatus": "verified",
@@ -497,9 +497,9 @@
           "questionDisplay": "What is the paragraph about?",
           "options": [
             "Pigeons can live in all circumstances or conditions.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "They are pets",
+            "Mixed feelings",
+            "The smell of pigeon waste"
           ],
           "correctAnswer": "Pigeons can live in all circumstances or conditions.",
           "answerStatus": "verified",
@@ -525,9 +525,9 @@
           "questionDisplay": "Do all the ants lay eggs?",
           "options": [
             "No, only the queen",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "All insects",
+            "By smell",
+            "They cut food and eat"
           ],
           "correctAnswer": "No, only the queen",
           "answerStatus": "verified",
@@ -542,9 +542,9 @@
           "questionDisplay": "Which creatures have no skeleton?",
           "options": [
             "All insects",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "By smell",
+            "They cut food and eat",
+            "Liquid"
           ],
           "correctAnswer": "All insects",
           "answerStatus": "verified",
@@ -571,9 +571,9 @@
           "questionDisplay": "How do ants know each other?",
           "options": [
             "By smell",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Liquid",
+            "They live for a period of 20 to 30 days.",
+            "The ant has two eyes, and in every eye there are some eyes."
           ],
           "correctAnswer": "By smell",
           "answerStatus": "verified",
@@ -588,9 +588,9 @@
           "questionDisplay": "What does the pronoun “they” refer to?",
           "options": [
             "Ants",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Colonies",
+            "They cut food and eat",
+            "Liquid"
           ],
           "correctAnswer": "Ants",
           "answerStatus": "verified",
@@ -605,9 +605,9 @@
           "questionDisplay": "Where do ants live?",
           "options": [
             "Colonies",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Complex",
+            "They live for a period of 20 to 30 days.",
+            "The ant has two eyes, and in every eye there are some eyes."
           ],
           "correctAnswer": "Colonies",
           "answerStatus": "verified",
@@ -622,9 +622,9 @@
           "questionDisplay": "Which is true?",
           "options": [
             "They cut food and eat",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "No, only the queen",
+            "All insects",
+            "By smell"
           ],
           "correctAnswer": "They cut food and eat",
           "answerStatus": "verified",
@@ -639,9 +639,9 @@
           "questionDisplay": "What food can ants eat?",
           "options": [
             "Liquid",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "All insects",
+            "By smell",
+            "They cut food and eat"
           ],
           "correctAnswer": "Liquid",
           "answerStatus": "verified",
@@ -671,9 +671,9 @@
           "questionDisplay": "What does the word “compound” mean?",
           "options": [
             "Complex",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "The ant has two eyes, and in every eye there are some eyes.",
+            "The Fascinating Creatures",
+            "No, only the queen"
           ],
           "correctAnswer": "Complex",
           "answerStatus": "verified",
@@ -688,9 +688,9 @@
           "questionDisplay": "Do ants live long?",
           "options": [
             "They live for a period of 20 to 30 days.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Liquid",
+            "The ant has two eyes, and in every eye there are some eyes.",
+            "No, only the queen"
           ],
           "correctAnswer": "They live for a period of 20 to 30 days.",
           "answerStatus": "verified",
@@ -705,9 +705,9 @@
           "questionDisplay": "What are the holes in the ant’s eyes?",
           "options": [
             "The ant has two eyes, and in every eye there are some eyes.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "They live for a period of 20 to 30 days.",
+            "No, only the queen",
+            "All insects"
           ],
           "correctAnswer": "The ant has two eyes, and in every eye there are some eyes.",
           "answerStatus": "verified",
@@ -722,9 +722,9 @@
           "questionDisplay": "What is the best title for the passage?",
           "options": [
             "The Fascinating Creatures",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Complex",
+            "They live for a period of 20 to 30 days.",
+            "The ant has two eyes, and in every eye there are some eyes."
           ],
           "correctAnswer": "The Fascinating Creatures",
           "answerStatus": "verified",
@@ -750,9 +750,9 @@
           "questionDisplay": "Why do people watch TV?",
           "options": [
             "To spend more enjoyable time for entertainment (have fun).",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Giving you 3 years to your life, reducing the rate of death by 14%, and reducing other dangers by 4%.",
+            "Add three years to the total time of your life.",
+            "Early"
           ],
           "correctAnswer": "To spend more enjoyable time for entertainment (have fun).",
           "answerStatus": "verified",
@@ -767,9 +767,9 @@
           "questionDisplay": "How does watching TV shorten your life?",
           "options": [
             "Staying long hours without moving.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Add three years to the total time of your life.",
+            "They cut off 11 minutes of their lives.",
+            "Watch TV for two hours a day."
           ],
           "correctAnswer": "Staying long hours without moving.",
           "answerStatus": "verified",
@@ -784,9 +784,9 @@
           "questionDisplay": "How does exercising make your life longer?",
           "options": [
             "Giving you 3 years to your life, reducing the rate of death by 14%, and reducing other dangers by 4%.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "They cut off 11 minutes of their lives.",
+            "Watch TV for two hours a day.",
+            "Staying long hours without moving."
           ],
           "correctAnswer": "Giving you 3 years to your life, reducing the rate of death by 14%, and reducing other dangers by 4%.",
           "answerStatus": "verified",
@@ -904,9 +904,9 @@
           "questionDisplay": "What does the pronoun “that” refer to?",
           "options": [
             "Minerals",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Bones",
+            "Soup",
+            "People"
           ],
           "correctAnswer": "Minerals",
           "answerStatus": "verified",
@@ -933,9 +933,9 @@
           "questionDisplay": "What is the meaning of the word “lacking”?",
           "options": [
             "Missing",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Available",
+            "Complete",
+            "Extra"
           ],
           "correctAnswer": "Missing",
           "answerStatus": "verified",
@@ -961,9 +961,9 @@
           "questionDisplay": "When was the previous meeting?",
           "options": [
             "The day before the message",
-            "The day before message",
             "On the same day",
-            "Before sending"
+            "A week before",
+            "The following day"
           ],
           "correctAnswer": "The day before the message",
           "answerStatus": "verified",
@@ -978,9 +978,9 @@
           "questionDisplay": "When was the last meeting?",
           "options": [
             "The day before the message",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "On the same day",
+            "The following morning",
+            "One week earlier"
           ],
           "correctAnswer": "The day before the message",
           "answerStatus": "verified",
@@ -995,9 +995,9 @@
           "questionDisplay": "Why was the manager angry at the clerk?",
           "options": [
             "Because he came later than him.",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Because he cancelled the meeting",
+            "Because he lost the agenda",
+            "Because he left too early"
           ],
           "correctAnswer": "Because he came later than him.",
           "answerStatus": "verified",
@@ -1014,7 +1014,7 @@
             "Because the secretary arrived late last time.",
             "He apologized",
             "He did not bring the papers or files.",
-            "Not mentioned in the passage."
+            "He changed the meeting room"
           ],
           "correctAnswer": "Because the secretary arrived late last time.",
           "answerStatus": "verified",
@@ -1040,9 +1040,9 @@
           "questionDisplay": "What are the skills required for the jobs?",
           "options": [
             "Bachelor degree and fluent in English",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Salary",
+            "Travel and tourism company",
+            "Explain"
           ],
           "correctAnswer": "Bachelor degree and fluent in English",
           "answerStatus": "verified",
@@ -1057,9 +1057,9 @@
           "questionDisplay": "What is NOT mentioned in the job offer?",
           "options": [
             "Salary",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Travel and tourism company",
+            "Bachelor degree and fluent in English",
+            "Powerful"
           ],
           "correctAnswer": "Salary",
           "answerStatus": "verified",
@@ -1074,9 +1074,9 @@
           "questionDisplay": "Which company is asking for applicants for these jobs?",
           "options": [
             "Travel and tourism company",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Bachelor degree and fluent in English",
+            "Salary",
+            "Explain"
           ],
           "correctAnswer": "Travel and tourism company",
           "answerStatus": "verified",
@@ -1093,7 +1093,7 @@
             "Powerful",
             "Smart",
             "Mindful",
-            "Not mentioned in the passage."
+            "Explain"
           ],
           "correctAnswer": "Powerful",
           "answerStatus": "verified",
@@ -1108,9 +1108,9 @@
           "questionDisplay": "What does the word “express” mean?",
           "options": [
             "Explain",
-            "Not mentioned in the passage.",
-            "Another possibility.",
-            "None of these."
+            "Powerful",
+            "Salary",
+            "Travel and tourism company"
           ],
           "correctAnswer": "Explain",
           "answerStatus": "verified",
@@ -1136,9 +1136,9 @@
           "questionDisplay": "What is Dave’s response?",
           "options": [
             "Working",
-            "Fast",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "Resting",
+            "Travelling",
+            "Unavailable"
           ],
           "correctAnswer": "Working",
           "answerStatus": "verified",
@@ -1164,9 +1164,9 @@
           "questionDisplay": "Who should respond to the questionnaires?",
           "options": [
             "The students",
-            "The students and professors",
-            "Not mentioned in the passage.",
-            "Another possibility."
+            "The professors",
+            "The administrators",
+            "The parents"
           ],
           "correctAnswer": "The students",
           "answerStatus": "verified",
