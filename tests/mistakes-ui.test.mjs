@@ -9,6 +9,7 @@ const readingResultSource = mainSource.slice(mainSource.indexOf('function result
 const grammarConfirmationSource = mainSource.slice(mainSource.indexOf('function confirmGrammarAnswer('), mainSource.indexOf('function libraryView('));
 const grammarRetrySource = mainSource.slice(mainSource.indexOf("if (event.target.closest('[data-grammar-retry]'))"), mainSource.indexOf("if (event.target.closest('[data-dashboard]'))"));
 const readingRetrySource = mainSource.slice(mainSource.indexOf("if (event.target.closest('[data-reset-quiz]'))"), mainSource.indexOf("if (event.target.closest('[data-restore-progress]'))"));
+const mistakeSurfaceSource = mainSource.slice(mainSource.indexOf('function renderMistakeSurface('), mainSource.indexOf('function dashboardSectionView('));
 
 test('reading quiz renders its question prompt once', () => {
   assert.equal(quizSource.match(/renderQuestionText\(question\)/g)?.length, 1);
@@ -31,6 +32,22 @@ test('reading questions expose only the professional retry and restore session a
 test('correct answers do not automatically remove saved mistakes', () => {
   assert.doesNotMatch(mainSource, /correctReviews\s*=\s*Number\(previous\.correctReviews/);
   assert.match(mainSource, /removeLocalMistake\(mistake\)/);
+});
+
+test('every mistake card offers a fresh solve flow and an explanatory review', () => {
+  assert.match(mistakeSurfaceSource, /data-solve-mistake=/);
+  assert.match(mistakeSurfaceSource, /data-review-mistake=/);
+  assert.match(mistakeSurfaceSource, /سبب اختيارك السابق/);
+  assert.match(mistakeSurfaceSource, /لن يظهر الحل قبل إجابتك، ولن يُحذف الخطأ تلقائيًا/);
+  assert.match(mainSource, /data-mistake-solve-option/);
+  assert.match(mainSource, /data-retry-mistake-solve/);
+});
+
+test('grammar mistake cards show the correct answer and a concise reason', () => {
+  assert.match(mistakeSurfaceSource, /mistake\.skill === 'grammar'/);
+  assert.match(mistakeSurfaceSource, /الإجابة الصحيحة/);
+  assert.match(mistakeSurfaceSource, /grammarMistakeReason\(mistake\)/);
+  assert.match(cssSource, /\.mistake-card-rule\{/);
 });
 
 test('retry clears attempt answers but explicitly preserves saved mistakes', () => {

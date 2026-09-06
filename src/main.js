@@ -64,12 +64,12 @@ const readSessionStored = (key, fallback) => {
 };
 const requestedView = new URLSearchParams(window.location.search).get('view');
 const hasAuthHint = localStorage.getItem(authHintKey) === '1';
-const restorableViews = new Set(['dashboard', 'dashboard-models', 'dashboard-section', 'grammar-quiz', 'grammar-result', 'model', 'quiz', 'solutions', 'result']);
+const restorableViews = new Set(['dashboard', 'dashboard-models', 'dashboard-section', 'grammar-quiz', 'grammar-result', 'mistake-question', 'mistake-solve', 'model', 'quiz', 'solutions', 'result']);
 const savedWorkspace = hasAuthHint ? readSessionStored(workspaceViewKey, {}) : {};
 const savedView = restorableViews.has(savedWorkspace.view) ? savedWorkspace.view : null;
 const initialView = requestedView === 'dashboard' ? (hasAuthHint ? 'dashboard' : 'login') : (!requestedView ? savedView ?? (hasAuthHint ? 'dashboard' : null) : requestedView);
 const initialViews = new Set(['login', 'register', ...restorableViews]);
-let state = { view: initialViews.has(initialView) ? initialView : 'library', dashboardSection: typeof savedWorkspace.dashboardSection === 'string' ? savedWorkspace.dashboardSection : 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: typeof savedWorkspace.selectedModelId === 'string' ? savedWorkspace.selectedModelId : null, selectedPassageId: typeof savedWorkspace.selectedPassageId === 'string' ? savedWorkspace.selectedPassageId : null, selectedGrammarModelId: typeof savedWorkspace.selectedGrammarModelId === 'string' ? savedWorkspace.selectedGrammarModelId : null, grammarQuestionIndex: Math.max(0, Number(savedWorkspace.grammarQuestionIndex) || 0), grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: Math.max(0, Number(savedWorkspace.questionIndex) || 0), questionStartedAt: Date.now(), translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
+let state = { view: initialViews.has(initialView) ? initialView : 'library', dashboardSection: typeof savedWorkspace.dashboardSection === 'string' ? savedWorkspace.dashboardSection : 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: typeof savedWorkspace.selectedModelId === 'string' ? savedWorkspace.selectedModelId : null, selectedPassageId: typeof savedWorkspace.selectedPassageId === 'string' ? savedWorkspace.selectedPassageId : null, selectedGrammarModelId: typeof savedWorkspace.selectedGrammarModelId === 'string' ? savedWorkspace.selectedGrammarModelId : null, grammarQuestionIndex: Math.max(0, Number(savedWorkspace.grammarQuestionIndex) || 0), grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: Math.max(0, Number(savedWorkspace.questionIndex) || 0), questionStartedAt: Date.now(), translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, mistakeReviewId: typeof savedWorkspace.mistakeReviewId === 'string' ? savedWorkspace.mistakeReviewId : null, mistakeSolveId: typeof savedWorkspace.mistakeSolveId === 'string' ? savedWorkspace.mistakeSolveId : null, mistakeSolveAnswer: null, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -164,6 +164,28 @@ function visibleMistakes() {
 }
 
 const mistakeOccurrenceCount = (items) => items.reduce((total, mistake) => total + Math.max(1, Number(mistake.mistakeCount) || 1), 0);
+
+function grammarMistakeReason(mistake) {
+  const questionId = mistake.questionSourceId ?? mistake.questionId;
+  const question = grammarModels.flatMap((model) => model.questions).find((candidate) => candidate.id === questionId);
+  const reasons = {
+    general: 'الخيار الصحيح هو الذي يُكمل تركيب الجملة وفق القاعدة والسياق معًا.',
+    incorrect: 'هذا هو موضع الخطأ النحوي المطلوب اكتشافه في الجملة.',
+    'correct-sentence': 'هذه الصياغة تحافظ على تركيب الجملة الصحيح واتساق عناصرها.',
+    'word-order': 'هذا الترتيب يضع عناصر الجملة في مواقعها النحوية الصحيحة.',
+    capitalization: 'هذه الصياغة تطبّق قاعدة الأحرف الكبيرة في موضعها الصحيح.',
+    punctuation: 'هذه العلامة تناسب بناء الجملة والمعنى المقصود.',
+    special: 'هذا الخيار يطابق المطلوب في السؤال والصياغة المعتمدة في المصدر.',
+  };
+  return reasons[question?.category] ?? 'الإجابة الصحيحة هي التي تطابق القاعدة المطلوبة وسياق الجملة.';
+}
+
+function mistakeChoiceReason(mistake) {
+  if (!mistake.selectedAnswer) return 'لم تُحفظ إجابتك السابقة؛ راجع المطلوب ثم قارن الخيارات بالإجابة الصحيحة.';
+  if (mistake.skill === 'grammar') return `اخترت «${mistake.selectedAnswer}»، لكنه لا يطابق القاعدة المطلوبة في هذا التركيب.`;
+  if (mistake.skill === 'listening') return `اخترت «${mistake.selectedAnswer}»، لكنه لا يطابق المعنى أو التفصيل المسموع في المقطع.`;
+  return `اخترت «${mistake.selectedAnswer}»، لكنه لا يجيب بدقة عن المطلوب أو لا يطابق المعلومة في القطعة.`;
+}
 
 function removeLocalMistake(mistake) {
   if (!mistake) return;
@@ -578,7 +600,7 @@ function renderMistakeSurface() {
   const confirmDialog = dismissing ? `<div class="mistake-confirm-backdrop" role="presentation"><section class="mistake-confirm-dialog" role="alertdialog" aria-modal="true" aria-labelledby="dismiss-mistake-title"><h2 id="dismiss-mistake-title">إزالة من أخطائي</h2><p>هل تريد إزالة هذا السؤال من قائمة أخطائك؟</p><div><button class="outline-action" data-cancel-dismiss-mistake>إلغاء</button><button class="navy-action" data-confirm-dismiss-mistake="${dismissing.id}">إزالة</button></div></section></div>` : '';
   if (!activeSkill) return `<section class="mistake-category-grid">${skills.map((skill) => `<button class="mistake-category-card" data-mistake-skill="${skill}"><span>${labels[skill]}</span><strong>${mistakeOccurrenceCount(source.filter((mistake) => mistake.skill === skill))}</strong><small>خطأ · راجع أخطاءك ←</small></button>`).join('')}</section><p class="mistakes-total">الإجمالي <strong>${mistakeOccurrenceCount(source)}</strong> خطأ</p>${confirmDialog}`;
   const items = source.filter((mistake) => mistake.skill === activeSkill);
-  const list = items.length ? `<div class="dashboard-mistakes-list">${items.map((mistake) => `<article class="dashboard-mistake-card"><span class="mistake-meta">سؤال · ${mistake.mistakeCount} ${mistake.mistakeCount === 1 ? 'مرة' : 'مرات'}</span><h3 dir="ltr">${escapeHtml(mistake.questionText)}</h3><p>آخر خطأ: ${mistake.lastSeenAt ? new Date(mistake.lastSeenAt).toLocaleDateString('ar-SA') : '—'}</p><button data-review-mistake="${mistake.id}">مراجعة السؤال</button><button class="mistake-dismiss-action" data-dismiss-mistake="${mistake.id}">إزالة من أخطائي</button></article>`).join('')}</div>` : '<div class="dashboard-empty"><strong>لا توجد أخطاء في هذا القسم</strong><p>ستظهر هنا الإجابات الخاطئة المحفوظة في حسابك.</p></div>';
+  const list = items.length ? `<div class="dashboard-mistakes-list">${items.map((mistake) => `<article class="dashboard-mistake-card"><span class="mistake-meta">سؤال · ${mistake.mistakeCount} ${mistake.mistakeCount === 1 ? 'مرة' : 'مرات'}</span><h3 dir="ltr">${escapeHtml(mistake.questionText)}</h3><p>آخر خطأ: ${mistake.lastSeenAt ? new Date(mistake.lastSeenAt).toLocaleDateString('ar-SA') : '—'}</p>${mistake.skill === 'grammar' ? `<div class="mistake-card-rule"><span>الإجابة الصحيحة</span><strong dir="ltr">${escapeHtml(mistake.correctAnswer ?? 'غير محددة')}</strong><small>${escapeHtml(grammarMistakeReason(mistake))}</small></div>` : ''}<div class="mistake-card-actions"><button class="mistake-solve-action" data-solve-mistake="${mistake.id}">حل السؤال</button><button data-review-mistake="${mistake.id}">مراجعة السؤال</button><button class="mistake-dismiss-action" data-dismiss-mistake="${mistake.id}">إزالة من أخطائي</button></div></article>`).join('')}</div>` : '<div class="dashboard-empty"><strong>لا توجد أخطاء في هذا القسم</strong><p>ستظهر هنا الإجابات الخاطئة المحفوظة في حسابك.</p></div>';
   return `<button class="back-button mistake-back" data-clear-mistake-skill>← كل الأقسام</button>${list}${confirmDialog}`;
 }
 
@@ -586,7 +608,18 @@ function mistakeQuestionView(mistake) {
   const labels = { reading: 'القراءة', grammar: 'القواعد', listening: 'الاستماع' };
   const explanationLabel = mistake.skill === 'reading' ? 'لماذا هذه الإجابة؟' : mistake.skill === 'grammar' ? 'القاعدة والتفسير' : 'تفسير الإجابة';
   const options = mistake.options ?? [];
-  return `<main class="dashboard-shell mistake-question-shell">${dashboardHeader('mistakes')}<header class="dashboard-page-heading mistake-question-top"><div><span>مراجعة أخطائي · ${labels[mistake.skill] ?? 'التدريب'}</span><h1>مراجعة السؤال ${mistake.questionOrder ?? ''}</h1><p>يبقى هذا الخطأ محفوظًا حتى تزيله بنفسك من قسم أخطائي.</p></div><button class="outline-action" data-back-to-mistakes>العودة لأخطاء ${labels[mistake.skill] ?? 'القسم'}</button></header><article class="mistake-question-card">${mistake.skill === 'listening' && mistake.audioUrl ? `<audio controls preload="metadata" src="${escapeHtml(mistake.audioUrl)}" data-listening-review></audio>` : ''}<div class="question-heading mistake-question-heading" dir="ltr"><span class="question-number">${String(mistake.questionOrder ?? '').padStart(2, '0')}</span><div class="question-text">${escapeHtml(mistake.questionText)}</div></div><div class="mistake-question-options" role="list">${options.map((option, index) => { const isCorrect = option.value === mistake.correctAnswer; const isSelected = option.value === mistake.selectedAnswer; return `<div class="mistake-question-option ${isCorrect ? 'is-correct' : ''} ${isSelected && !isCorrect ? 'is-wrong' : ''}" role="listitem"><span>${String.fromCharCode(65 + index)}</span><strong>${escapeHtml(option.value)}</strong>${isCorrect ? '<small>الإجابة الصحيحة</small>' : isSelected ? '<small>إجابتك</small>' : ''}</div>`; }).join('')}</div><section class="mistake-answer-summary"><p><span>إجابتك الأخيرة</span><strong>${escapeHtml(mistake.selectedAnswer ?? '—')}</strong></p><p><span>الإجابة الصحيحة</span><strong>${escapeHtml(mistake.correctAnswer ?? 'غير محددة')}</strong></p></section><div class="mistake-explanation"><strong>${explanationLabel}</strong><p>${escapeHtml(mistake.explanation ?? 'راجع سبب الإجابة ثم طبّق القاعدة في سؤال مشابه.')}</p></div></article></main>`;
+  const correctReason = mistake.skill === 'grammar' ? grammarMistakeReason(mistake) : mistake.explanation ?? 'الإجابة الصحيحة هي الأقرب إلى النص والمطلوب في السؤال.';
+  return `<main class="dashboard-shell mistake-question-shell">${dashboardHeader('mistakes')}<header class="dashboard-page-heading mistake-question-top"><div><span>مراجعة أخطائي · ${labels[mistake.skill] ?? 'التدريب'}</span><h1>مراجعة السؤال ${mistake.questionOrder ?? ''}</h1><p>يبقى هذا الخطأ محفوظًا حتى تزيله بنفسك من قسم أخطائي.</p></div><button class="outline-action" data-back-to-mistakes>العودة لأخطاء ${labels[mistake.skill] ?? 'القسم'}</button></header><article class="mistake-question-card">${mistake.skill === 'listening' && mistake.audioUrl ? `<audio controls preload="metadata" src="${escapeHtml(mistake.audioUrl)}" data-listening-review></audio>` : ''}<div class="question-heading mistake-question-heading" dir="ltr"><span class="question-number">${String(mistake.questionOrder ?? '').padStart(2, '0')}</span><div class="question-text">${escapeHtml(mistake.questionText)}</div></div><div class="mistake-question-options" role="list">${options.map((option, index) => { const isCorrect = option.value === mistake.correctAnswer; const isSelected = option.value === mistake.selectedAnswer; return `<div class="mistake-question-option ${isCorrect ? 'is-correct' : ''} ${isSelected && !isCorrect ? 'is-wrong' : ''}" role="listitem"><span>${String.fromCharCode(65 + index)}</span><strong>${escapeHtml(option.value)}</strong>${isCorrect ? '<small>الإجابة الصحيحة</small>' : isSelected ? '<small>إجابتك</small>' : ''}</div>`; }).join('')}</div><section class="mistake-answer-summary"><p><span>إجابتك الأخيرة</span><strong>${escapeHtml(mistake.selectedAnswer ?? '—')}</strong></p><p><span>الإجابة الصحيحة</span><strong>${escapeHtml(mistake.correctAnswer ?? 'غير محددة')}</strong></p></section><div class="mistake-explanation mistake-choice-explanation"><strong>سبب اختيارك السابق</strong><p>${escapeHtml(mistakeChoiceReason(mistake))}</p></div><div class="mistake-explanation"><strong>${explanationLabel}</strong><p>${escapeHtml(correctReason)}</p></div></article></main>`;
+}
+
+function mistakeSolveView(mistake) {
+  const labels = { reading: 'القراءة', grammar: 'القواعد', listening: 'الاستماع' };
+  const options = mistake.options ?? [];
+  const selected = state.mistakeSolveAnswer;
+  const answered = selected !== null && selected !== undefined;
+  const isCorrect = answered && selected === mistake.correctAnswer;
+  const explanation = mistake.skill === 'grammar' ? grammarMistakeReason(mistake) : mistake.explanation ?? 'قارن الإجابة بالمعلومة المباشرة المطلوبة في السؤال.';
+  return `<main class="dashboard-shell mistake-question-shell mistake-solve-shell">${dashboardHeader('mistakes')}<header class="dashboard-page-heading mistake-question-top"><div><span>حل من أخطائي · ${labels[mistake.skill] ?? 'التدريب'}</span><h1>حل السؤال ${mistake.questionOrder ?? ''}</h1><p>اختر إجابتك من جديد. لن يظهر الحل قبل إجابتك، ولن يُحذف الخطأ تلقائيًا.</p></div><button class="outline-action" data-back-to-mistakes>العودة لأخطاء ${labels[mistake.skill] ?? 'القسم'}</button></header><article class="mistake-question-card">${mistake.skill === 'listening' && mistake.audioUrl ? `<audio controls preload="metadata" src="${escapeHtml(mistake.audioUrl)}" data-listening-review></audio>` : ''}<div class="question-heading mistake-question-heading" dir="ltr"><span class="question-number">${String(mistake.questionOrder ?? '').padStart(2, '0')}</span><div class="question-text">${escapeHtml(mistake.questionText)}</div></div><div class="mistake-question-options mistake-solve-options" role="list">${options.map((option, index) => { const optionSelected = selected === option.value; const showCorrect = answered && option.value === mistake.correctAnswer; return `<button class="mistake-question-option ${showCorrect ? 'is-correct' : ''} ${optionSelected && !showCorrect ? 'is-wrong' : ''}" data-mistake-solve-option="${index}" ${answered ? 'disabled' : ''}><span>${String.fromCharCode(65 + index)}</span><strong>${escapeHtml(option.value)}</strong>${showCorrect ? '<small>الإجابة الصحيحة</small>' : optionSelected ? '<small>اختيارك</small>' : ''}</button>`; }).join('')}</div>${answered ? `<div class="mistake-solve-feedback ${isCorrect ? 'is-correct' : 'is-wrong'}"><strong>${isCorrect ? 'أحسنت، إجابتك صحيحة.' : `ليست الإجابة الصحيحة. الحل: ${escapeHtml(mistake.correctAnswer ?? 'غير محدد')}`}</strong><p>${escapeHtml(explanation)}</p>${!isCorrect ? '<button data-retry-mistake-solve>حاول مرة أخرى</button>' : ''}</div>` : ''}</article></main>`;
 }
 
 function dashboardSectionView(section) {
@@ -1054,6 +1087,8 @@ function persistWorkspaceView() {
       selectedGrammarModelId: state.selectedGrammarModelId,
       grammarQuestionIndex: state.grammarQuestionIndex,
       questionIndex: state.questionIndex,
+      mistakeReviewId: state.mistakeReviewId,
+      mistakeSolveId: state.mistakeSolveId,
     }));
   } catch {
     // Navigation still works when session storage is unavailable.
@@ -1116,6 +1151,7 @@ function render() {
   const model = currentModel();
   const passage = currentPassage(model);
   const reviewedMistake = state.mistakeReviewId ? visibleMistakes().find((mistake) => mistake.id === state.mistakeReviewId) : null;
+  const solvedMistake = state.mistakeSolveId ? visibleMistakes().find((mistake) => mistake.id === state.mistakeSolveId) : null;
   if (state.view === 'login') app.innerHTML = loginView();
   else if (state.view === 'register') app.innerHTML = registerView();
   else if (state.view === 'dashboard') app.innerHTML = account ? dashboardView() : loginView();
@@ -1124,6 +1160,7 @@ function render() {
   else if (state.view === 'grammar-quiz' && currentGrammarModel()) app.innerHTML = account ? grammarQuestionView(currentGrammarModel()) : loginView();
   else if (state.view === 'grammar-result' && currentGrammarModel()) app.innerHTML = account ? grammarResultView(currentGrammarModel()) : loginView();
   else if (state.view === 'mistake-question' && reviewedMistake) app.innerHTML = account ? mistakeQuestionView(reviewedMistake) : loginView();
+  else if (state.view === 'mistake-solve' && solvedMistake) app.innerHTML = account ? mistakeSolveView(solvedMistake) : loginView();
   else if (state.view === 'model' && model) app.innerHTML = modelView(model);
   else if (state.view === 'quiz' && model && passage) app.innerHTML = quizView(model, passage);
   else if (state.view === 'solutions' && model && passage) app.innerHTML = solutionsView(model, passage);
@@ -1354,12 +1391,33 @@ app.addEventListener('click', (event) => {
   }
   const reviewMistakeButton = event.target.closest('[data-review-mistake]');
   if (reviewMistakeButton) {
-    state = { ...state, view: 'mistake-question', mistakeReviewId: reviewMistakeButton.dataset.reviewMistake };
+    state = { ...state, view: 'mistake-question', mistakeReviewId: reviewMistakeButton.dataset.reviewMistake, mistakeSolveId: null, mistakeSolveAnswer: null };
+    render();
+    return;
+  }
+  const solveMistakeButton = event.target.closest('[data-solve-mistake]');
+  if (solveMistakeButton) {
+    state = { ...state, view: 'mistake-solve', mistakeSolveId: solveMistakeButton.dataset.solveMistake, mistakeSolveAnswer: null, mistakeReviewId: null };
+    render();
+    return;
+  }
+  const mistakeSolveOption = event.target.closest('[data-mistake-solve-option]');
+  if (mistakeSolveOption && state.mistakeSolveAnswer === null) {
+    const mistake = visibleMistakes().find((candidate) => candidate.id === state.mistakeSolveId);
+    const selectedOption = mistake?.options?.[Number(mistakeSolveOption.dataset.mistakeSolveOption)];
+    if (!selectedOption) return;
+    state = { ...state, mistakeSolveAnswer: selectedOption.value };
+    soundManager.play(selectedOption.value === mistake.correctAnswer ? 'answer-correct' : 'answer-wrong');
+    render();
+    return;
+  }
+  if (event.target.closest('[data-retry-mistake-solve]')) {
+    state = { ...state, mistakeSolveAnswer: null };
     render();
     return;
   }
   if (event.target.closest('[data-back-to-mistakes]')) {
-    state = { ...state, view: 'dashboard-section', dashboardSection: 'mistakes', mistakeReviewId: null };
+    state = { ...state, view: 'dashboard-section', dashboardSection: 'mistakes', mistakeReviewId: null, mistakeSolveId: null, mistakeSolveAnswer: null };
     render();
     return;
   }
