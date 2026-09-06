@@ -897,7 +897,7 @@ function tutorPopover(model, passage, question, selectedOption) {
   const actions = tutorActions(selectedOption);
   const messages = session.messages.map((message) => `<div class="tutor-message ${message.role === 'user' ? 'is-user' : 'is-assistant'} ${message.streaming ? 'is-streaming' : ''}">
     ${message.role === 'assistant' && message.source === 'human-note' ? `<span class="tutor-source-badge">شرح ${NIBRAS_BRAND.name}</span>` : ''}
-    <p><span class="tutor-message-content">${formatTutorContent(message.content)}</span>${message.streaming ? '<span class="tutor-cursor" aria-hidden="true">▋</span>' : ''}</p>
+    <p><span class="tutor-message-content">${formatTutorContent(message.content)}</span>${message.streaming ? `<span class="tutor-writing-label">${NIBRAS_BRAND.name} يكتب</span><span class="tutor-cursor" aria-hidden="true">▋</span>` : ''}</p>
   </div>`).join('');
   return nibrasizeTutorMarkup(`<section class="question-tutor-popover ${hasConversation ? 'has-conversation' : ''} ${session.expanded ? 'is-expanded' : ''}" id="question-tutor" role="dialog" aria-label="مساعد نباهة">
     <header class="tutor-header">
@@ -920,7 +920,12 @@ function tutorPopover(model, passage, question, selectedOption) {
 function paintTutorStream(key, content) {
   if (!state.tutorOpen || state.tutorQuestionKey !== key) return;
   const streamText = document.querySelector('.tutor-message.is-streaming .tutor-message-content');
-  if (streamText) streamText.innerHTML = formatTutorContent(content);
+  const cursor = streamText?.closest('.tutor-message')?.querySelector('.tutor-cursor');
+  if (streamText) {
+    streamText.innerHTML = formatTutorContent(content);
+    const cursorLine = [...streamText.querySelectorAll('.tutor-content-line, .tutor-content-heading')].at(-1) ?? streamText;
+    if (cursor) cursorLine.append(cursor);
+  }
   const conversation = streamText?.closest('.tutor-conversation');
   const session = state.tutorSessions[key];
   if (conversation && session?.autoScroll !== false) {
