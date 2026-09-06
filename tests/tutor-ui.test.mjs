@@ -29,8 +29,20 @@ test('tutor stream updates only its text at a paced rate instead of rebuilding t
 
 test('tutor follows the streamed response and stays above fixed question controls', () => {
   assert.match(mainSource, /conversation\.scrollTop = conversation\.scrollHeight/);
+  assert.match(mainSource, /state\.tutorSessions\[key\]\?\.autoScroll === false/);
   assert.match(cssSource, /\.question-tutor-popover\{[^}]*z-index:120/);
   assert.match(cssSource, /\.question-tutor-popover\.has-conversation,\.question-tutor-popover\.has-conversation\.is-expanded\{right:18px;left:auto;bottom:18px;width:min\(336px/);
+});
+
+test('user can scroll upward immediately while the tutor is streaming', () => {
+  assert.match(popoverSource, /data-tutor-latest \$\{session\.autoScroll === false \? '' : 'hidden'\}/);
+  assert.match(mainSource, /const movingUp = [^;]+conversation\.scrollTop < previousTop - 1/);
+  assert.match(mainSource, /movingUp \? false : atBottom \? true/);
+  assert.match(mainSource, /event\.deltaY < 0/);
+  assert.match(mainSource, /event\.clientY > previousY \+ 2/);
+  assert.match(mainSource, /<= 12/);
+  assert.match(cssSource, /touch-action:pan-y/);
+  assert.match(cssSource, /\.question-tutor-popover\.has-conversation[^}]*overflow:hidden/);
 });
 
 test('tutor opens inward in reading and grammar and shows the Nibras name once', () => {

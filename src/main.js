@@ -925,7 +925,7 @@ function tutorPopover(model, passage, question, selectedOption) {
       <button class="tutor-close" data-tutor-close aria-label="إغلاق مساعد نباهة">×</button>
     </header>
     ${hasConversation ? `<div class="tutor-conversation" aria-live="polite">${messages}</div>` : `<div class="tutor-quick-actions">${actions.map((action) => `<button data-tutor-action="${action}"><span>${escapeHtml(tutorActionLabels[action])}</span><b aria-hidden="true">←</b></button>`).join('')}</div>`}
-    ${hasConversation && session.loading && session.autoScroll === false ? '<button class="tutor-latest" data-tutor-latest>↓ أحدث رسالة</button>' : ''}
+    ${hasConversation && session.loading ? `<button class="tutor-latest" data-tutor-latest ${session.autoScroll === false ? '' : 'hidden'}>↓ أحدث رسالة</button>` : ''}
     ${hasConversation && !session.loading ? `<div class="tutor-followups"><button data-tutor-action="simplify">أبسط أكثر</button><button data-tutor-action="similar">مثال آخر</button><button data-tutor-understood>فهمت ✓</button></div>` : ''}
     <form class="tutor-composer" data-tutor-form>
       <textarea name="message" rows="1" maxlength="1000" autocomplete="off" placeholder="اسأل نِبراس عن هذا السؤال..." aria-label="اكتب سؤالك عن السؤال الحالي" ${session.loading ? 'disabled' : ''}></textarea>
@@ -947,7 +947,11 @@ function paintTutorStream(key, content) {
   const conversation = streamText?.closest('.tutor-conversation');
   const session = state.tutorSessions[key];
   if (conversation && session?.autoScroll !== false) {
-    requestAnimationFrame(() => { conversation.scrollTop = conversation.scrollHeight; });
+    requestAnimationFrame(() => {
+      if (!conversation.isConnected || state.tutorSessions[key]?.autoScroll === false) return;
+      conversation.scrollTop = conversation.scrollHeight;
+      conversation.dataset.tutorScrollTop = String(conversation.scrollTop);
+    });
   }
 }
 
@@ -1189,6 +1193,7 @@ function restoreTutorViewport(viewport, scrollTutor, tutorViewport) {
     const session = state.tutorSessions[state.tutorQuestionKey];
     if (scrollTutor || session?.autoScroll !== false) conversation.scrollTop = conversation.scrollHeight;
     else if (tutorViewport) conversation.scrollTop = Math.min(tutorViewport.scrollTop, conversation.scrollHeight);
+    conversation.dataset.tutorScrollTop = String(conversation.scrollTop);
   });
 }
 
@@ -1325,16 +1330,47 @@ app.addEventListener('input', (event) => {
   }, 200);
 });
 
+function setTutorAutoScroll(conversation, autoScroll) {
+  if (!conversation || state.tutorQuestionKey === null) return;
+  const session = state.tutorSessions[state.tutorQuestionKey];
+  if (!session?.loading) return;
+  if (session.autoScroll !== autoScroll) {
+    state.tutorSessions = { ...state.tutorSessions, [state.tutorQuestionKey]: { ...session, autoScroll } };
+  }
+  const latestButton = conversation.parentElement?.querySelector('[data-tutor-latest]');
+  if (latestButton) latestButton.hidden = autoScroll;
+}
+
+app.addEventListener('pointerdown', (event) => {
+  const conversation = event.target.closest?.('.tutor-conversation');
+  if (!conversation) return;
+  conversation.dataset.tutorScrollTop = String(conversation.scrollTop);
+  conversation.dataset.tutorPointerY = String(event.clientY);
+}, { passive: true });
+
+app.addEventListener('pointermove', (event) => {
+  const conversation = event.target.closest?.('.tutor-conversation');
+  if (!conversation || event.pointerType !== 'touch') return;
+  const previousY = Number(conversation.dataset.tutorPointerY);
+  if (Number.isFinite(previousY) && event.clientY > previousY + 2) setTutorAutoScroll(conversation, false);
+  conversation.dataset.tutorPointerY = String(event.clientY);
+}, { passive: true });
+
+app.addEventListener('wheel', (event) => {
+  const conversation = event.target.closest?.('.tutor-conversation');
+  if (conversation && event.deltaY < 0) setTutorAutoScroll(conversation, false);
+}, { passive: true });
+
 app.addEventListener('scroll', (event) => {
   const conversation = event.target.closest?.('.tutor-conversation');
   if (!conversation || state.tutorQuestionKey === null) return;
   const session = state.tutorSessions[state.tutorQuestionKey];
   if (!session?.loading) return;
-  const nearBottom = conversation.scrollHeight - conversation.scrollTop - conversation.clientHeight < 120;
-  if (session.autoScroll === nearBottom) return;
-  state.tutorSessions = { ...state.tutorSessions, [state.tutorQuestionKey]: { ...session, autoScroll: nearBottom } };
-  const latestButton = conversation.parentElement?.querySelector('[data-tutor-latest]');
-  if (latestButton) latestButton.hidden = nearBottom;
+  const previousTop = Number(conversation.dataset.tutorScrollTop);
+  const movingUp = Number.isFinite(previousTop) && conversation.scrollTop < previousTop - 1;
+  const atBottom = conversation.scrollHeight - conversation.scrollTop - conversation.clientHeight <= 12;
+  conversation.dataset.tutorScrollTop = String(conversation.scrollTop);
+  setTutorAutoScroll(conversation, movingUp ? false : atBottom ? true : session.autoScroll !== false);
 }, true);
 
 app.addEventListener('keydown', (event) => {
@@ -1462,8 +1498,12 @@ app.addEventListener('click', (event) => {
     const session = state.tutorSessions[key];
     if (session) state.tutorSessions = { ...state.tutorSessions, [key]: { ...session, autoScroll: true } };
     const conversation = document.querySelector('.tutor-conversation');
-    if (conversation) conversation.scrollTop = conversation.scrollHeight;
-    render();
+    if (conversation) {
+      conversation.scrollTop = conversation.scrollHeight;
+      conversation.dataset.tutorScrollTop = String(conversation.scrollTop);
+      const latestButton = conversation.parentElement?.querySelector('[data-tutor-latest]');
+      if (latestButton) latestButton.hidden = true;
+    }
     return;
   }
 
