@@ -19,7 +19,9 @@ test('every scored reading question has a memorable answer link', async () => {
     assert.ok(link, question.id);
     assert.equal(link.answer, question.correctAnswer, question.id);
     assert.ok(prompt.toLocaleLowerCase('en').includes(link.keyword.toLocaleLowerCase('en')), `${question.id}: ${link.keyword}`);
-    assert.match(link.memory, /←/, question.id);
+    assert.ok(link.memory.includes(link.keyword), `${question.id}: memory misses keyword`);
+    assert.match(link.memory, /لأن/u, `${question.id}: memory needs a logical cause`);
+    assert.doesNotMatch(link.memory, /زوج|احفظهما|الأولى مفتاح السؤال|ثبّت في ذهنك/u, `${question.id}: generic memory phrase`);
     assert.ok(link.reason.length >= 12, question.id);
   }
 });
@@ -29,7 +31,7 @@ test('answer-link control is prominently placed above word translation', async (
   assert.match(source, /data-toggle-answer-link/);
   assert.ok(source.indexOf('class="answer-link-feature"') < source.indexOf('class="question-tools"'));
   assert.doesNotMatch(source, /if \(!selected\) return;/);
-  assert.match(source, /رابط سريع للحفظ/);
-  assert.match(source, /احفظها هكذا/);
-  assert.match(source, /المنطق/);
+  assert.match(source, /ربط منطقي سهل للحفظ/);
+  assert.match(source, /سبب الربط/);
+  assert.match(source, /لماذا الإجابة صحيحة/);
 });
