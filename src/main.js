@@ -760,7 +760,7 @@ function tutorPopover(model, passage, question, selectedOption) {
   const actions = tutorActions(selectedOption);
   const messages = session.messages.map((message) => `<div class="tutor-message ${message.role === 'user' ? 'is-user' : 'is-assistant'} ${message.streaming ? 'is-streaming' : ''}">
     ${message.role === 'assistant' && message.source === 'human-note' ? `<span class="tutor-source-badge">شرح ${NIBRAS_BRAND.name}</span>` : ''}
-    <p>${escapeHtml(String(message.content ?? '').replace(/^\s*(?:\*{3,}|-{3,}|_{3,})\s*$/gm, '').replace(/\n{3,}/g, '\n\n')).replace(/\n/g, '<br>')}${message.streaming && !message.content ? '<span class="tutor-cursor" aria-hidden="true">▋</span>' : ''}</p>
+    <p><span class="tutor-message-content">${escapeHtml(String(message.content ?? '').replace(/^\s*(?:\*{3,}|-{3,}|_{3,})\s*$/gm, '').replace(/\n{3,}/g, '\n\n')).replace(/\n/g, '<br>')}</span>${message.streaming ? '<span class="tutor-cursor" aria-hidden="true">▋</span>' : ''}</p>
   </div>`).join('');
   return nibrasizeTutorMarkup(`<section class="question-tutor-popover ${hasConversation ? 'has-conversation' : ''} ${session.expanded ? 'is-expanded' : ''}" id="question-tutor" role="dialog" aria-label="مساعد نباهة">
     <header class="tutor-header">
@@ -769,7 +769,7 @@ function tutorPopover(model, passage, question, selectedOption) {
       ${hasConversation ? `<button class="tutor-expand" data-tutor-expand aria-label="${session.expanded ? 'تصغير النافذة' : 'توسيع النافذة'}" title="${session.expanded ? 'تصغير' : 'توسيع'}">${session.expanded ? '↙' : '↗'}</button>` : ''}
       <button class="tutor-close" data-tutor-close aria-label="إغلاق مساعد نباهة">×</button>
     </header>
-    ${hasConversation ? `<div class="tutor-conversation" aria-live="polite">${messages}${session.loading && !session.messages.some((message) => message.streaming && message.content) ? `<div class="tutor-message is-assistant is-loading"><span></span><p>${escapeHtml(session.loadingMessage || 'نباهة يجهز الشرح...')}</p></div>` : ''}</div>` : `<div class="tutor-quick-actions">${actions.map((action) => `<button data-tutor-action="${action}"><span>${escapeHtml(tutorActionLabels[action])}</span><b aria-hidden="true">←</b></button>`).join('')}</div>`}
+    ${hasConversation ? `<div class="tutor-conversation" aria-live="polite">${messages}</div>` : `<div class="tutor-quick-actions">${actions.map((action) => `<button data-tutor-action="${action}"><span>${escapeHtml(tutorActionLabels[action])}</span><b aria-hidden="true">←</b></button>`).join('')}</div>`}
     ${hasConversation && session.loading && session.autoScroll === false ? '<button class="tutor-latest" data-tutor-latest>↓ أحدث رسالة</button>' : ''}
     ${hasConversation && !session.loading ? `<div class="tutor-followups"><button data-tutor-action="simplify">أبسط أكثر</button><button data-tutor-action="similar">مثال آخر</button><button data-tutor-understood>فهمت ✓</button></div>` : ''}
     <form class="tutor-composer" data-tutor-form>
@@ -777,8 +777,18 @@ function tutorPopover(model, passage, question, selectedOption) {
       <button type="submit" aria-label="إرسال السؤال" ${session.loading ? 'disabled' : ''}>↑</button>
     </form>
     ${session.error ? `<div class="tutor-error" role="alert"><p>${session.errorCode === 'AI_TIMEOUT' ? 'استغرق مساعد نباهة وقتًا أطول من المتوقع.' : 'تعذر الحصول على الرد الآن.'}</p><button type="button" data-tutor-retry>إعادة المحاولة</button></div>` : ''}
-    <small class="tutor-privacy">السياق محفوظ لهذا السؤال فقط</small>
   </section>`);
+}
+
+function paintTutorStream(key, content) {
+  if (!state.tutorOpen || state.tutorQuestionKey !== key) return;
+  const streamText = document.querySelector('.tutor-message.is-streaming .tutor-message-content');
+  if (streamText) streamText.textContent = String(content ?? '').replace(/^\s*(?:\*{3,}|-{3,}|_{3,})\s*$/gm, '').replace(/\n{3,}/g, '\n\n');
+  const conversation = streamText?.closest('.tutor-conversation');
+  const session = state.tutorSessions[key];
+  if (conversation && session?.autoScroll !== false) {
+    requestAnimationFrame(() => { conversation.scrollTop = conversation.scrollHeight; });
+  }
 }
 
 async function requestTutor({ key, question, selectedOption, action, message }) {
@@ -787,7 +797,6 @@ async function requestTutor({ key, question, selectedOption, action, message }) 
   const prompt = String(message || tutorActionLabels[action] || '').trim();
   if (!prompt) return;
   const history = session.messages.map(({ role, content }) => ({ role, content }));
-  let loadingTimer;
   state.tutorOpen = true;
   state.tutorQuestionKey = key;
   state.tutorSessions = {
@@ -798,7 +807,6 @@ async function requestTutor({ key, question, selectedOption, action, message }) 
       error: '',
       errorCode: '',
       loading: true,
-      loadingMessage: 'نباهة يجهز الشرح...',
       lastRequest: { action, message: prompt },
       autoScroll: true,
       messages: [...session.messages, { role: 'user', content: prompt }, { role: 'assistant', content: '', streaming: true }],
@@ -806,28 +814,36 @@ async function requestTutor({ key, question, selectedOption, action, message }) 
   };
   state.tutorScrollToEnd = true;
   render();
-  loadingTimer = setTimeout(() => {
-    const latest = state.tutorSessions[key];
-    if (!latest?.loading) return;
-    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loadingMessage: 'جاري الاتصال بالمساعد...' } };
-    render();
-  }, 8_000);
   let pending = '';
-  let flushTimer = null;
-  const flushStream = () => {
-    flushTimer = null;
+  let streamTimer = null;
+  let drainWaiters = [];
+  const resolveDrainWaiters = () => {
+    const waiters = drainWaiters;
+    drainWaiters = [];
+    waiters.forEach((resolve) => resolve());
+  };
+  const animateStream = () => {
+    streamTimer = null;
     if (!pending) return;
-    const delta = pending;
-    pending = '';
+    const characterCount = Math.min(7, Math.max(2, Math.ceil(pending.length / 28)));
+    const delta = pending.slice(0, characterCount);
+    pending = pending.slice(characterCount);
     const latest = state.tutorSessions[key];
     if (!latest) return;
     const messages = latest.messages.slice();
     const index = messages.length - 1;
     messages[index] = { ...messages[index], content: `${messages[index].content ?? ''}${delta}` };
     state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, messages } };
-    state.tutorScrollToEnd = latest.autoScroll !== false;
-    render();
+    paintTutorStream(key, messages[index].content);
+    if (pending) streamTimer = window.setTimeout(animateStream, 36);
+    else resolveDrainWaiters();
   };
+  const scheduleStream = () => {
+    if (!streamTimer) streamTimer = window.setTimeout(animateStream, 36);
+  };
+  const waitForStream = () => pending || streamTimer
+    ? new Promise((resolve) => drainWaiters.push(resolve))
+    : Promise.resolve();
   try {
     const response = await questionTutorProvider.chat({
       questionId: question.id,
@@ -838,22 +854,22 @@ async function requestTutor({ key, question, selectedOption, action, message }) 
       history: history.slice(-12),
     }, { onChunk: (delta) => {
       pending += delta;
-      if (!flushTimer) flushTimer = window.setTimeout(flushStream, 30);
+      scheduleStream();
     } });
-    if (flushTimer) { window.clearTimeout(flushTimer); flushStream(); }
+    await waitForStream();
     const latest = state.tutorSessions[key];
     const messages = latest.messages.slice();
     messages[messages.length - 1] = { ...messages[messages.length - 1], content: response.content, streaming: false, source: response.source, provider: response.provider, model: response.model };
     state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, messages } };
   } catch (error) {
-    if (flushTimer) { window.clearTimeout(flushTimer); flushStream(); }
+    await waitForStream();
     const latest = state.tutorSessions[key];
     const messages = latest.messages.filter((item, index) => !(index === latest.messages.length - 1 && item.role === 'assistant' && !item.content));
+    if (messages.at(-1)?.role === 'assistant') messages[messages.length - 1] = { ...messages.at(-1), streaming: false };
     state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, messages, error: true, errorCode: error?.code || 'AI_REQUEST_FAILED' } };
   } finally {
-    clearTimeout(loadingTimer);
     const latest = state.tutorSessions[key];
-    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false, loadingMessage: '' } };
+    state.tutorSessions = { ...state.tutorSessions, [key]: { ...latest, loading: false } };
     state.tutorScrollToEnd = latest.autoScroll !== false;
     render();
   }
