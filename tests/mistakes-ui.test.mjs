@@ -5,6 +5,7 @@ import test from 'node:test';
 const mainSource = await readFile(new URL('../src/main.js', import.meta.url), 'utf8');
 const cssSource = await readFile(new URL('../src/raseen.css', import.meta.url), 'utf8');
 const quizSource = mainSource.slice(mainSource.indexOf('function quizView('), mainSource.indexOf('function resultView('));
+const readingResultSource = mainSource.slice(mainSource.indexOf('function resultView('), mainSource.indexOf('function currentModel('));
 const grammarConfirmationSource = mainSource.slice(mainSource.indexOf('function confirmGrammarAnswer('), mainSource.indexOf('function libraryView('));
 const grammarRetrySource = mainSource.slice(mainSource.indexOf("if (event.target.closest('[data-grammar-retry]'))"), mainSource.indexOf("if (event.target.closest('[data-dashboard]'))"));
 const readingRetrySource = mainSource.slice(mainSource.indexOf("if (event.target.closest('[data-reset-quiz]'))"), mainSource.indexOf("if (event.target.closest('[data-restore-progress]'))"));
@@ -13,10 +14,18 @@ test('reading quiz renders its question prompt once', () => {
   assert.equal(quizSource.match(/renderQuestionText\(question\)/g)?.length, 1);
 });
 
-test('result and quiz surfaces expose section-specific mistake review', () => {
-  assert.match(mainSource, /data-open-mistakes="reading"/);
+test('reading question and result surfaces do not expose mistake review actions', () => {
+  assert.doesNotMatch(quizSource, /data-open-mistakes="reading"|مراجعة أخطاء القراءة/);
+  assert.doesNotMatch(readingResultSource, /data-open-mistakes="reading"|مراجعة أخطاء القراءة/);
   assert.match(mainSource, /data-open-mistakes="grammar"/);
   assert.match(mainSource, /view: 'mistake-question'/);
+});
+
+test('reading questions expose only the professional retry and restore session actions', () => {
+  assert.match(quizSource, /class="quiz-session-actions"/);
+  assert.match(quizSource, /data-reset-quiz>إعادة الاختبار/);
+  assert.match(quizSource, /data-restore-progress/);
+  assert.match(cssSource, /\.quiz-session-actions\{display:grid;grid-template-columns:repeat\(2,minmax\(0,1fr\)\)/);
 });
 
 test('correct answers do not automatically remove saved mistakes', () => {

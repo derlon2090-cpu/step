@@ -909,6 +909,7 @@ function quizView(model, passage) {
   const activeAnswers = state.activeAnswers ?? {};
   const answered = Object.keys(activeAnswers).length;
   const savedCount = Object.keys(item.answers ?? {}).length;
+  const canRestoreProgress = !state.restoredProgress && item.status === 'in-progress' && savedCount > 0;
   const index = Math.min(state.questionIndex, passage.questions.length - 1);
   const question = passage.questions[index];
   const selectedId = activeAnswers[question.id];
@@ -947,8 +948,10 @@ function quizView(model, passage) {
       </article>
     </section>
     <footer class="quiz-actions">
-      <div class="result-retry-stack"><button data-reset-quiz>إعادة الاختبار</button><button class="result-mistakes-action" data-open-mistakes="reading">مراجعة أخطاء القراءة</button></div>
-      ${!state.restoredProgress && item.status === 'in-progress' && savedCount ? `<button data-restore-progress>استعادة التقدم (${savedCount})</button>` : ''}
+      <div class="quiz-session-actions" aria-label="إجراءات الاختبار">
+        <button class="quiz-session-reset" data-reset-quiz>إعادة الاختبار</button>
+        <button class="quiz-session-restore" data-restore-progress ${canRestoreProgress ? '' : 'disabled'}>استعادة التقدم${canRestoreProgress ? ` (${savedCount})` : ''}</button>
+      </div>
       <span>${answered} إجابة محفوظة</span>
       <div class="quiz-navigation">
         <button class="primary-action next-action" data-next-question ${selectedId || answerPending ? '' : 'disabled'}>${isLastQuestion ? 'عرض النتيجة' : 'التالي'} <span aria-hidden="true">←</span></button>
@@ -997,7 +1000,7 @@ function resultView(model, passage) {
       }).join('')}
     </section>
     <footer class="quiz-actions">
-      <div class="result-retry-stack"><button class="primary-action" data-reset-quiz>معاودة الاختبار</button><button class="result-mistakes-action" data-open-mistakes="reading">مراجعة أخطاء القراءة</button></div>
+      <button class="primary-action" data-reset-quiz>إعادة الاختبار</button>
       <button class="primary-action" data-model>العودة للقطع</button>
     </footer>
   </main>`;
