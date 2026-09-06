@@ -129,11 +129,13 @@ function localMistakeRecords() {
   const grammarMistakes = Object.entries(progress.grammar ?? {}).flatMap(([modelId, item]) => {
     const model = grammarModels.find((candidate) => candidate.id === modelId);
     if (!model) return [];
-    return Object.entries(item?.results ?? {}).filter(([, result]) => result === false).map(([questionId]) => {
+    const questionIds = [...new Set([...Object.entries(item?.results ?? {}).filter(([, result]) => result === false).map(([questionId]) => questionId), ...Object.keys(item?.mistakes ?? {})])];
+    return questionIds.map((questionId) => {
       const question = model.questions.find((candidate) => candidate.id === questionId);
       if (!question) return null;
       const selectedIndex = item.answers?.[questionId];
-      return { id: `local-grammar-${questionId}`, skill: 'grammar', questionId, questionSourceId: questionId, modelOrder: model.order, pieceOrder: null, questionOrder: question.displayOrder, questionText: question.prompt, options: question.options.map((value, optionIndex) => ({ id: `${questionId}-${optionIndex}`, value, optionOrder: optionIndex + 1 })), selectedAnswer: Number.isInteger(selectedIndex) ? question.options[selectedIndex] : null, correctAnswer: Number.isInteger(question.correctIndex) ? question.options[question.correctIndex] : null, explanation: question.sourceNote ?? null, mistakeCount: 1, lastSeenAt: item.updatedAt, status: 'unreviewed' };
+      const savedMistake = item.mistakes?.[questionId];
+      return { id: `local-grammar-${questionId}`, skill: 'grammar', questionId, questionSourceId: questionId, modelOrder: model.order, pieceOrder: null, questionOrder: question.displayOrder, questionText: question.prompt, options: question.options.map((value, optionIndex) => ({ id: `${questionId}-${optionIndex}`, value, optionOrder: optionIndex + 1 })), selectedAnswer: Number.isInteger(selectedIndex) ? question.options[selectedIndex] : savedMistake?.selectedAnswer ?? null, correctAnswer: Number.isInteger(question.correctIndex) ? question.options[question.correctIndex] : null, explanation: question.sourceNote ?? null, mistakeCount: savedMistake?.mistakeCount ?? 1, lastSeenAt: savedMistake?.lastSeenAt ?? item.updatedAt, status: 'unreviewed' };
     }).filter(Boolean);
   });
   return [...readingMistakes, ...grammarMistakes];
@@ -152,6 +154,26 @@ function visibleMistakes() {
 }
 
 const mistakeOccurrenceCount = (items) => items.reduce((total, mistake) => total + Math.max(1, Number(mistake.mistakeCount) || 1), 0);
+
+function removeLocalMistake(mistake) {
+  if (!mistake) return;
+  if (mistake.skill === 'grammar') {
+    const model = grammarModels.find((candidate) => candidate.questions.some((question) => question.id === mistake.questionSourceId));
+    if (!model) return;
+    const item = grammarProgress(model.id);
+    const mistakes = { ...(item.mistakes ?? {}) };
+    delete mistakes[mistake.questionSourceId];
+    const results = { ...(item.results ?? {}) };
+    delete results[mistake.questionSourceId];
+    setGrammarProgress(model.id, { mistakes, results });
+    return;
+  }
+  Object.entries(progress).filter(([key, item]) => key.includes(':') && item?.mistakes).forEach(([key, item]) => {
+    const mistakes = item.mistakes.filter((candidate) => candidate.questionId !== mistake.questionSourceId);
+    if (mistakes.length !== item.mistakes.length) progress[key] = { ...item, mistakes };
+  });
+  saveProgress();
+}
 
 const authErrorMessage = (error, fallback = 'تعذر تنفيذ الطلب. حاول مرة أخرى.') => {
   const code = String(error?.code ?? error?.status ?? '').toUpperCase();
@@ -538,15 +560,19 @@ function renderMistakeSurface() {
   const labels = { reading: 'القراءة', grammar: 'القواعد', listening: 'الاستماع' };
   const skills = Object.keys(labels);
   const activeSkill = state.mistakeSkill && labels[state.mistakeSkill] ? state.mistakeSkill : null;
-  const selected = state.mistakeReviewId ? source.find((mistake) => mistake.id === state.mistakeReviewId) : null;
   const dismissing = state.dismissMistakeId ? source.find((mistake) => mistake.id === state.dismissMistakeId) : null;
   const confirmDialog = dismissing ? `<div class="mistake-confirm-backdrop" role="presentation"><section class="mistake-confirm-dialog" role="alertdialog" aria-modal="true" aria-labelledby="dismiss-mistake-title"><h2 id="dismiss-mistake-title">إزالة من أخطائي</h2><p>هل تريد إزالة هذا السؤال من قائمة أخطائك؟</p><div><button class="outline-action" data-cancel-dismiss-mistake>إلغاء</button><button class="navy-action" data-confirm-dismiss-mistake="${dismissing.id}">إزالة</button></div></section></div>` : '';
   if (!activeSkill) return `<section class="mistake-category-grid">${skills.map((skill) => `<button class="mistake-category-card" data-mistake-skill="${skill}"><span>${labels[skill]}</span><strong>${mistakeOccurrenceCount(source.filter((mistake) => mistake.skill === skill))}</strong><small>خطأ · راجع أخطاءك ←</small></button>`).join('')}</section><p class="mistakes-total">الإجمالي <strong>${mistakeOccurrenceCount(source)}</strong> خطأ</p>${confirmDialog}`;
   const items = source.filter((mistake) => mistake.skill === activeSkill);
   const list = items.length ? `<div class="dashboard-mistakes-list">${items.map((mistake) => `<article class="dashboard-mistake-card"><span class="mistake-meta">سؤال · ${mistake.mistakeCount} ${mistake.mistakeCount === 1 ? 'مرة' : 'مرات'}</span><h3 dir="ltr">${escapeHtml(mistake.questionText)}</h3><p>آخر خطأ: ${mistake.lastSeenAt ? new Date(mistake.lastSeenAt).toLocaleDateString('ar-SA') : '—'}</p><button data-review-mistake="${mistake.id}">مراجعة السؤال</button><button class="mistake-dismiss-action" data-dismiss-mistake="${mistake.id}">إزالة من أخطائي</button></article>`).join('')}</div>` : '<div class="dashboard-empty"><strong>لا توجد أخطاء في هذا القسم</strong><p>ستظهر هنا الإجابات الخاطئة المحفوظة في حسابك.</p></div>';
-  const explanationLabel = selected?.skill === 'reading' ? 'كيف وصلت للإجابة؟' : selected?.skill === 'grammar' ? 'القاعدة ولماذا وكيف أعرفها؟' : 'تفسير الإجابة';
-  const review = selected ? `<aside class="mistake-review-drawer"><button class="tutor-close" data-close-mistake-review aria-label="إغلاق المراجعة">×</button><span class="eyebrow">مراجعة ${labels[selected.skill]}</span><h2 dir="ltr">${escapeHtml(selected.questionText)}</h2>${selected.skill === 'listening' && selected.audioUrl ? `<audio controls preload="metadata" src="${escapeHtml(selected.audioUrl)}" data-listening-review></audio>` : ''}<div class="mistake-review-options">${(selected.options ?? []).map((option) => `<div>${escapeHtml(option.value)}</div>`).join('')}</div><p><strong>إجابة الطالب الأخيرة:</strong> ${escapeHtml(selected.selectedAnswer ?? '—')}</p><p><strong>الإجابة الصحيحة:</strong> ${escapeHtml(selected.correctAnswer ?? 'غير محددة')}</p><p><strong>${explanationLabel}</strong><br>${escapeHtml(selected.explanation ?? 'راجع سبب الإجابة ثم حاول تطبيق القاعدة في سؤال مشابه.')}</p></aside>` : '';
-  return `<button class="back-button mistake-back" data-clear-mistake-skill>← كل الأقسام</button>${list}${review}${confirmDialog}`;
+  return `<button class="back-button mistake-back" data-clear-mistake-skill>← كل الأقسام</button>${list}${confirmDialog}`;
+}
+
+function mistakeQuestionView(mistake) {
+  const labels = { reading: 'القراءة', grammar: 'القواعد', listening: 'الاستماع' };
+  const explanationLabel = mistake.skill === 'reading' ? 'لماذا هذه الإجابة؟' : mistake.skill === 'grammar' ? 'القاعدة والتفسير' : 'تفسير الإجابة';
+  const options = mistake.options ?? [];
+  return `<main class="dashboard-shell mistake-question-shell">${dashboardHeader('mistakes')}<header class="dashboard-page-heading mistake-question-top"><div><span>مراجعة أخطائي · ${labels[mistake.skill] ?? 'التدريب'}</span><h1>مراجعة السؤال ${mistake.questionOrder ?? ''}</h1><p>يبقى هذا الخطأ محفوظًا حتى تزيله بنفسك من قسم أخطائي.</p></div><button class="outline-action" data-back-to-mistakes>العودة لأخطاء ${labels[mistake.skill] ?? 'القسم'}</button></header><article class="mistake-question-card">${mistake.skill === 'listening' && mistake.audioUrl ? `<audio controls preload="metadata" src="${escapeHtml(mistake.audioUrl)}" data-listening-review></audio>` : ''}<div class="question-heading mistake-question-heading" dir="ltr"><span class="question-number">${String(mistake.questionOrder ?? '').padStart(2, '0')}</span><div class="question-text">${escapeHtml(mistake.questionText)}</div></div><div class="mistake-question-options" role="list">${options.map((option, index) => { const isCorrect = option.value === mistake.correctAnswer; const isSelected = option.value === mistake.selectedAnswer; return `<div class="mistake-question-option ${isCorrect ? 'is-correct' : ''} ${isSelected && !isCorrect ? 'is-wrong' : ''}" role="listitem"><span>${String.fromCharCode(65 + index)}</span><strong>${escapeHtml(option.value)}</strong>${isCorrect ? '<small>الإجابة الصحيحة</small>' : isSelected ? '<small>إجابتك</small>' : ''}</div>`; }).join('')}</div><section class="mistake-answer-summary"><p><span>إجابتك الأخيرة</span><strong>${escapeHtml(mistake.selectedAnswer ?? '—')}</strong></p><p><span>الإجابة الصحيحة</span><strong>${escapeHtml(mistake.correctAnswer ?? 'غير محددة')}</strong></p></section><div class="mistake-explanation"><strong>${explanationLabel}</strong><p>${escapeHtml(mistake.explanation ?? 'راجع سبب الإجابة ثم طبّق القاعدة في سؤال مشابه.')}</p></div></article></main>`;
 }
 
 function dashboardSectionView(section) {
@@ -613,7 +639,7 @@ function grammarResultView(model) {
   const scored = model.questions.filter((question) => question.correctIndex !== null);
   const correct = scored.filter((question) => saved.results?.[question.id] === true).length;
   const score = scored.length ? Math.round((correct / scored.length) * 100) : 0;
-  return `<main class="dashboard-shell grammar-result-shell">${dashboardHeader('grammar')}<section class="grammar-result-card"><span class="eyebrow">نتيجة التدريب</span><h1>${escapeHtml(model.title)} مكتمل</h1><div class="grammar-score"><strong>${score}%</strong><span>${correct} من ${scored.length} إجابة صحيحة</span></div><p>حافظنا على ترتيبك وإجابات المصدر لتتمكن من مراجعة كل سؤال بهدوء.</p><div class="grammar-result-actions"><button class="mint-action" data-grammar-retry>إعادة التدريب</button><button class="outline-action" data-grammar-library>العودة للنماذج</button></div></section></main>`;
+  return `<main class="dashboard-shell grammar-result-shell">${dashboardHeader('grammar')}<section class="grammar-result-card"><span class="eyebrow">نتيجة التدريب</span><h1>${escapeHtml(model.title)} مكتمل</h1><div class="grammar-score"><strong>${score}%</strong><span>${correct} من ${scored.length} إجابة صحيحة</span></div><p>حافظنا على ترتيبك وإجابات المصدر لتتمكن من مراجعة كل سؤال بهدوء.</p><div class="grammar-result-actions"><div class="result-retry-stack"><button class="mint-action" data-grammar-retry>إعادة التدريب</button><button class="outline-action result-mistakes-action" data-open-mistakes="grammar">مراجعة أخطاء القواعد</button></div><button class="outline-action" data-grammar-library>العودة للنماذج</button></div></section></main>`;
 }
 
 async function confirmGrammarAnswer(model, question, optionIndex) {
@@ -634,7 +660,9 @@ async function confirmGrammarAnswer(model, question, optionIndex) {
     isCorrect = question.correctIndex === null ? null : optionIndex === question.correctIndex;
   }
   const saved = grammarProgress(model.id);
-  setGrammarProgress(model.id, { answers: { ...(saved.answers ?? {}), [question.id]: optionIndex }, results: { ...(saved.results ?? {}), [question.id]: isCorrect }, attemptId: attemptId ?? saved.attemptId, status: 'in-progress', currentQuestionIndex: state.grammarQuestionIndex });
+  const savedMistakes = { ...(saved.mistakes ?? {}) };
+  if (isCorrect === false) savedMistakes[question.id] = { mistakeCount: Number(savedMistakes[question.id]?.mistakeCount ?? 0) + 1, selectedAnswer: question.options[optionIndex], lastSeenAt: new Date().toISOString() };
+  setGrammarProgress(model.id, { answers: { ...(saved.answers ?? {}), [question.id]: optionIndex }, results: { ...(saved.results ?? {}), [question.id]: isCorrect }, mistakes: savedMistakes, attemptId: attemptId ?? saved.attemptId, status: 'in-progress', currentQuestionIndex: state.grammarQuestionIndex });
   state.grammarConfirmed = { ...(state.grammarConfirmed ?? {}), [question.id]: isCorrect === true };
   if (serverSaved) await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false, hydrate: false, flushPending: false })]);
   state.grammarPendingQuestionId = null;
@@ -881,7 +909,6 @@ function quizView(model, passage) {
           <button data-toggle-translation="${question.id}">${state.translationQuestionId === question.id ? 'إخفاء ترجمة الكلمات' : 'ترجمة الكلمات'}</button>
           <small>${state.translationQuestionId === question.id ? 'اضغط على الكلمة لعرض ترجمتها.' : 'فعّل الترجمة لتصبح كل كلمة في السؤال قابلة للضغط.'}</small>
         </div>
-          <div class="question-heading result-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${renderQuestionText(question)}</div></div>
         <div class="quiz-options">
           ${displayedOptions(question).map((option, optionIndex) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && hasKnownAnswer && option.isCorrect ? 'correct' : ''} ${selectedId && hasKnownAnswer && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}" ${selectedId ? 'disabled' : ''}>
             <span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span>
@@ -893,7 +920,7 @@ function quizView(model, passage) {
       </article>
     </section>
     <footer class="quiz-actions">
-      <button data-reset-quiz>إعادة الاختبار</button>
+      <div class="result-retry-stack"><button data-reset-quiz>إعادة الاختبار</button><button class="result-mistakes-action" data-open-mistakes="reading">مراجعة أخطاء القراءة</button></div>
       ${!state.restoredProgress && item.status === 'in-progress' && savedCount ? `<button data-restore-progress>استعادة التقدم (${savedCount})</button>` : ''}
       <span>${answered} إجابة محفوظة</span>
       <div class="quiz-navigation">
@@ -943,7 +970,7 @@ function resultView(model, passage) {
       }).join('')}
     </section>
     <footer class="quiz-actions">
-      <button class="primary-action" data-reset-quiz>معاودة الاختبار</button>
+      <div class="result-retry-stack"><button class="primary-action" data-reset-quiz>معاودة الاختبار</button><button class="result-mistakes-action" data-open-mistakes="reading">مراجعة أخطاء القراءة</button></div>
       <button class="primary-action" data-model>العودة للقطع</button>
     </footer>
   </main>`;
@@ -997,6 +1024,7 @@ function render() {
   }
   const model = currentModel();
   const passage = currentPassage(model);
+  const reviewedMistake = state.mistakeReviewId ? visibleMistakes().find((mistake) => mistake.id === state.mistakeReviewId) : null;
   if (state.view === 'login') app.innerHTML = loginView();
   else if (state.view === 'register') app.innerHTML = registerView();
   else if (state.view === 'dashboard') app.innerHTML = account ? dashboardView() : loginView();
@@ -1004,6 +1032,7 @@ function render() {
   else if (state.view === 'dashboard-section') app.innerHTML = account ? (state.dashboardSection === 'grammar' ? grammarLibraryView() : dashboardSectionView(state.dashboardSection)) : loginView();
   else if (state.view === 'grammar-quiz' && currentGrammarModel()) app.innerHTML = account ? grammarQuestionView(currentGrammarModel()) : loginView();
   else if (state.view === 'grammar-result' && currentGrammarModel()) app.innerHTML = account ? grammarResultView(currentGrammarModel()) : loginView();
+  else if (state.view === 'mistake-question' && reviewedMistake) app.innerHTML = account ? mistakeQuestionView(reviewedMistake) : loginView();
   else if (state.view === 'model' && model) app.innerHTML = modelView(model);
   else if (state.view === 'quiz' && model && passage) app.innerHTML = quizView(model, passage);
   else if (state.view === 'solutions' && model && passage) app.innerHTML = solutionsView(model, passage);
@@ -1233,7 +1262,12 @@ app.addEventListener('click', (event) => {
   }
   const reviewMistakeButton = event.target.closest('[data-review-mistake]');
   if (reviewMistakeButton) {
-    state = { ...state, mistakeReviewId: reviewMistakeButton.dataset.reviewMistake };
+    state = { ...state, view: 'mistake-question', mistakeReviewId: reviewMistakeButton.dataset.reviewMistake };
+    render();
+    return;
+  }
+  if (event.target.closest('[data-back-to-mistakes]')) {
+    state = { ...state, view: 'dashboard-section', dashboardSection: 'mistakes', mistakeReviewId: null };
     render();
     return;
   }
@@ -1256,12 +1290,23 @@ app.addEventListener('click', (event) => {
   const confirmDismissButton = event.target.closest('[data-confirm-dismiss-mistake]');
   if (confirmDismissButton) {
     const mistakeId = confirmDismissButton.dataset.confirmDismissMistake;
+    const mistake = visibleMistakes().find((candidate) => candidate.id === mistakeId);
     confirmDismissButton.disabled = true;
     void fetch(`/api/me/mistakes/${encodeURIComponent(mistakeId)}`, { method: 'DELETE', credentials: 'include', headers: { accept: 'application/json' } }).then(async (response) => {
       if (!response.ok) throw new Error('dismiss failed');
+      removeLocalMistake(mistake);
       state = { ...state, dismissMistakeId: null, mistakeReviewId: state.mistakeReviewId === mistakeId ? null : state.mistakeReviewId };
       await refreshLearningState();
     }).catch(() => { state = { ...state, dismissMistakeId: null }; render(); });
+    return;
+  }
+
+  const openMistakesButton = event.target.closest('[data-open-mistakes]');
+  if (openMistakesButton) {
+    const skill = openMistakesButton.dataset.openMistakes;
+    state = { ...state, view: 'dashboard-section', dashboardSection: 'mistakes', mistakeSkill: skill, mistakeReviewId: null, dismissMistakeId: null, dashboardMenuOpen: false };
+    render();
+    void refreshLearningState();
     return;
   }
 
@@ -1459,10 +1504,6 @@ app.addEventListener('click', (event) => {
     const mistakeIndex = mistakes.findIndex((mistake) => mistake.questionId === question.id);
     if (question?.correctAnswer !== null && option && !option.isCorrect && mistakeIndex === -1) {
       mistakes.push({ questionId: question.id, optionId: option.id, attempt: state.questionIndex, createdAt: now, reason: inferMistakeReason(question, seconds), reviewAt: addDays(now, 2), reviewStage: 1, correctReviews: 0, mastered: false });
-    } else if (question?.correctAnswer !== null && option?.isCorrect && mistakeIndex >= 0) {
-      const previous = mistakes[mistakeIndex];
-      const correctReviews = Number(previous.correctReviews ?? 0) + 1;
-      mistakes[mistakeIndex] = { ...previous, correctReviews, reviewStage: correctReviews >= 2 ? 3 : 2, reviewAt: correctReviews >= 2 ? null : addDays(now, 7), mastered: correctReviews >= 2, lastReviewedAt: now };
     }
     const activityDates = [...new Set([...(item.activityDates ?? []), dateKey(now)])];
     setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, answers, answerMeta, activityDates, mistakes, status: 'in-progress', currentQuestionIndex: state.questionIndex });
