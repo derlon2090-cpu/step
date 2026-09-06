@@ -22,3 +22,11 @@ test('transient session errors are retried before changing the visible page', ()
   assert.match(source, /250 \* \(attempt \+ 1\)/);
   assert.doesNotMatch(bootstrapCatch, /localStorage\.removeItem\(authHintKey\)/);
 });
+
+test('authenticated chrome never flashes the public navigation during session hydration', () => {
+  const header = source.slice(source.indexOf("function raseenHeader("), source.indexOf("function dashboardHeader("));
+  assert.match(header, /state\.authLoading && hasAuthHint && restorableViews\.has\(state\.view\)/);
+  assert.match(header, /account \|\| pendingAuthenticatedWorkspace/);
+  assert.match(loadingRender, /sessionLoadingView\(\)/);
+  assert.doesNotMatch(loadingRender, /libraryView\(\)/);
+});

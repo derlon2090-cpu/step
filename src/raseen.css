@@ -2353,6 +2353,22 @@ input[type='radio'] {
   .dashboard-header nav button.active::after,.dashboard-step-menu[open] summary::after,.dashboard-header nav button:hover::after,.dashboard-step-menu summary:hover::after{right:8px;left:8px}
 }
 
+/* Keep the device safe area and the authenticated header visually continuous.
+   This also provides a neutral chrome while the server session is hydrating. */
+html{min-height:100%;background:#071F51}
+body{min-height:100%;margin:0;padding-top:env(safe-area-inset-top,0px)}
+body::before{content:'';position:fixed;z-index:10000;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:#071F51;pointer-events:none}
+.dashboard-header,.session-loading-header{background:#071F51}
+.session-loading-shell{min-height:calc(100dvh - env(safe-area-inset-top,0px));background:var(--bg-page,#F6F8FD)}
+.session-loading-header{display:flex;align-items:center;justify-content:flex-start;min-height:76px;padding-inline:max(24px,calc((100vw - 1440px)/2 + 24px));color:#fff;box-shadow:0 8px 24px rgba(7,31,81,.14)}
+.session-loading-header .brand-symbol{color:#fff}
+.session-loading-shell>section{display:grid;place-items:center;gap:12px;min-height:calc(100dvh - 76px - env(safe-area-inset-top,0px));color:#667085;font-size:12px}
+.session-loading-shell>section span{width:30px;height:30px;border:3px solid #DCE5F8;border-top-color:#071F51;border-radius:50%;animation:session-loading-spin .8s linear infinite}
+.session-loading-shell>section p{margin:0}
+@keyframes session-loading-spin{to{transform:rotate(1turn)}}
+@media(max-width:900px){.session-loading-header{min-height:68px;padding-inline:14px}.session-loading-shell>section{min-height:calc(100dvh - 68px - env(safe-area-inset-top,0px))}}
+@media(prefers-reduced-motion:reduce){.session-loading-shell>section span{animation:none}}
+
 /* Learner intelligence layer: metrics, recommendation, mastery and review. */
 .dashboard-focus-grid{align-items:stretch}
 .recommendation-card{background:linear-gradient(145deg,#071F51,#153B83);color:#fff;border-radius:16px;padding:24px;display:flex;flex-direction:column;justify-content:center;box-shadow:0 12px 28px rgba(7,31,81,.16)}

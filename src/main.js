@@ -467,7 +467,8 @@ function renderQuestionText(question) {
 }
 
 function raseenHeader(active = 'النماذج') {
-  if (account) return dashboardHeader(['model', 'quiz', 'solutions', 'result'].includes(state.view) ? 'reading' : 'dashboard');
+  const pendingAuthenticatedWorkspace = state.authLoading && hasAuthHint && restorableViews.has(state.view);
+  if (account || pendingAuthenticatedWorkspace) return dashboardHeader(['model', 'quiz', 'solutions', 'result'].includes(state.view) ? 'reading' : 'dashboard');
   const nav = ['الرئيسية', 'أقسام STEP', 'النماذج', 'المدونة', 'من نحن', 'تواصل معنا'];
   return `<header class="raseen-header"><button class="brand-mark brand-button" data-library aria-label="العودة للرئيسية">${brandLogo()}</button><nav>${nav.map((item) => `<button class="${item === active ? 'active' : ''}" ${item === 'الرئيسية' ? 'data-library' : item === 'النماذج' || item === 'أقسام STEP' ? 'data-models-scroll' : 'data-dashboard'}>${item}</button>`).join('')}</nav><div class="header-actions"><button class="outline-action" data-login>تسجيل الدخول</button><button class="orange-action" data-dashboard>ابدأ الآن</button></div></header>`;
 }
@@ -476,6 +477,10 @@ function dashboardHeader(active = 'dashboard') {
   const name = account?.name ? escapeHtml(account.name) : 'حسابي';
   const mistakesCount = mistakeOccurrenceCount(visibleMistakes().filter((mistake) => ['reading', 'grammar', 'listening'].includes(mistake.skill)));
   return `<header class="dashboard-header ${state.dashboardMenuOpen ? 'menu-open' : ''}"><button class="dashboard-menu-toggle" data-toggle-dashboard-menu aria-expanded="${state.dashboardMenuOpen}" aria-label="فتح قائمة لوحة المستخدم">☰</button><button class="dashboard-brand" data-dashboard-section="dashboard" aria-label="لوحة المستخدم">${dashboardBrandLogo()}</button><nav aria-label="تنقل لوحة المستخدم"><button class="${active === 'dashboard' ? 'active' : ''}" data-dashboard-section="dashboard">لوحتي</button><button class="${active === 'reading' ? 'active' : ''}" data-models-scroll>القراءة</button><button class="${active === 'grammar' ? 'active' : ''}" data-dashboard-section="grammar">القواعد</button><button class="${active === 'listening' ? 'active' : ''}" data-dashboard-section="listening">الاستماع</button><button class="${active === 'exams' ? 'active' : ''}" data-dashboard-section="exams">الاختبارات</button><button class="${active === 'mistakes' ? 'active' : ''}" data-dashboard-section="mistakes">أخطائي${mistakesCount ? `<b class="nav-badge">${mistakesCount}</b>` : ''}</button><button class="${active === 'progress' ? 'active' : ''}" data-dashboard-section="progress">تقدمي</button><button class="${active === 'frequent' ? 'active' : ''}" data-dashboard-section="frequent">الأكثر تكرارًا</button></nav><details class="dashboard-profile-menu"><summary><span class="dashboard-avatar" aria-hidden="true">${name.charAt(0)}</span><span>${name}</span><span class="profile-caret" aria-hidden="true">⌄</span></summary><div><button data-dashboard-section="profile">ملفي الشخصي</button><button data-dashboard-section="settings">إعدادات الحساب</button><button data-dashboard-section="subscription">الاشتراك</button><button data-dashboard-section="help">المساعدة</button><button class="dashboard-logout" data-logout>تسجيل الخروج</button></div></details></header>`;
+}
+
+function sessionLoadingView() {
+  return `<main class="session-loading-shell" aria-live="polite" aria-busy="true"><header class="session-loading-header">${dashboardBrandLogo()}</header><section><span aria-hidden="true"></span><p>جارٍ استعادة جلستك…</p></section></main>`;
 }
 
 function loginView() {
@@ -1262,7 +1267,7 @@ function render() {
     else if (hasAuthHint && state.view === 'result' && pendingModel && pendingPassage) app.innerHTML = resultView(pendingModel, pendingPassage);
     else if (state.view === 'login') app.innerHTML = loginView();
     else if (state.view === 'register') app.innerHTML = registerView();
-    else app.innerHTML = hasAuthHint ? dashboardView() : libraryView();
+    else app.innerHTML = hasAuthHint ? dashboardView() : sessionLoadingView();
     applyNibrasAccessibility();
     restoreTutorViewport(viewport, scrollTutor, tutorViewport);
     return;
