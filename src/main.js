@@ -657,7 +657,7 @@ function dashboardSectionView(section) {
   } else if (section === 'settings') {
     const soundSettings = soundManager.getSettings();
     const soundPercent = (value) => Math.round(value * 100);
-    content = `<section class="dashboard-panel settings-panel"><header class="panel-heading"><div><span class="eyebrow">تجربة هادئة</span><h2>الصوت</h2></div><span class="settings-state ${soundSettings.enabled ? 'on' : 'off'}">${soundSettings.enabled ? 'مفعّلة' : 'متوقفة'}</span></header><p class="muted-copy">تحكم في كل مستوى بشكل مستقل. التغيير يُحفظ على هذا الجهاز ويُطبّق فورًا.</p><div class="sound-setting-row"><div><strong>🔊 أصوات التفاعل</strong><span>اختيار الإجابة، الصحيح والخطأ، الانتقال والإنجاز</span></div><button class="sound-toggle ${soundSettings.enabled ? 'is-on' : ''}" data-toggle-sounds aria-pressed="${soundSettings.enabled}">${soundSettings.enabled ? 'تشغيل' : 'إيقاف'}</button></div><div class="sound-controls"><label class="sound-control"><span><strong>أصوات التفاعل</strong><output data-sound-value="volume">${soundPercent(soundSettings.volume)}%</output></span><input type="range" min="0" max="100" step="5" value="${soundPercent(soundSettings.volume)}" data-sound-slider="volume" aria-label="مستوى أصوات التفاعل"></label><label class="sound-control"><span><strong>صوت الاستماع</strong><output data-sound-value="listeningVolume">${soundPercent(soundSettings.listeningVolume)}%</output></span><input type="range" min="0" max="100" step="5" value="${soundPercent(soundSettings.listeningVolume)}" data-sound-slider="listeningVolume" aria-label="مستوى صوت الاستماع"></label></div><button class="outline-action sound-test-button" data-sound-test ${soundSettings.enabled ? '' : 'disabled'}>تشغيل صوت تجريبي</button><small class="sound-settings-hint">الصحيح والخطأ أوضح، والانتقال أخف حتى يبقى التدريب مريحًا.</small></section>`;
+    content = `<section class="dashboard-panel settings-panel"><header class="panel-heading"><div><span class="eyebrow">تجربة هادئة</span><h2>الصوت</h2></div><span class="settings-state ${soundSettings.enabled ? 'on' : 'off'}">${soundSettings.enabled ? 'مفعّلة' : 'متوقفة'}</span></header><p class="muted-copy">تحكم في كل مستوى بشكل مستقل. التغيير يُحفظ على هذا الجهاز ويُطبّق فورًا.</p><div class="sound-setting-row"><div><strong>🔊 أصوات التفاعل</strong><span>اختيار الإجابة، الصحيح والخطأ، والإنجاز</span></div><button class="sound-toggle ${soundSettings.enabled ? 'is-on' : ''}" data-toggle-sounds aria-pressed="${soundSettings.enabled}">${soundSettings.enabled ? 'تشغيل' : 'إيقاف'}</button></div><div class="sound-controls"><label class="sound-control"><span><strong>أصوات التفاعل</strong><output data-sound-value="volume">${soundPercent(soundSettings.volume)}%</output></span><input type="range" min="0" max="100" step="5" value="${soundPercent(soundSettings.volume)}" data-sound-slider="volume" aria-label="مستوى أصوات التفاعل"></label><label class="sound-control"><span><strong>صوت الاستماع</strong><output data-sound-value="listeningVolume">${soundPercent(soundSettings.listeningVolume)}%</output></span><input type="range" min="0" max="100" step="5" value="${soundPercent(soundSettings.listeningVolume)}" data-sound-slider="listeningVolume" aria-label="مستوى صوت الاستماع"></label></div><button class="outline-action sound-test-button" data-sound-test ${soundSettings.enabled ? '' : 'disabled'}>تشغيل صوت تجريبي</button><small class="sound-settings-hint">تبقى أصوات الإجابات والإنجاز مفعّلة، بينما الانتقال بين الأسئلة صامت.</small></section>`;
   } else {
     content = `<div class="dashboard-empty"><strong>هذا القسم قيد التجهيز</strong><p>ستتم إضافة المحتوى المعتمد إلى هذا القسم قريبًا. يمكنك متابعة نماذج القراءة المتاحة الآن.</p><button class="orange-action" data-models-scroll>استكشف القراءة</button></div>`;
   }
@@ -1663,7 +1663,6 @@ app.addEventListener('click', (event) => {
     } else {
       state.listeningQuestionIndex += 1;
       setListeningProgress(model.id, recordingItem.id, { status: 'in-progress', currentQuestionIndex: state.listeningQuestionIndex });
-      soundManager.play('question-next');
     }
     render();
     keepQuestionInPlace();
@@ -1730,7 +1729,6 @@ app.addEventListener('click', (event) => {
     } else {
       state.grammarQuestionIndex += 1;
       setGrammarProgress(model.id, { currentQuestionIndex: state.grammarQuestionIndex });
-      soundManager.play('question-next');
     }
     state.tutorOpen = false;
     state.tutorQuestionKey = null;
@@ -1903,7 +1901,6 @@ app.addEventListener('click', (event) => {
       state.view = 'result';
       void submitLearningAttempt(item.attemptId);
     } else {
-      soundManager.play('question-next');
       const nextIndex = state.questionIndex + 1;
       setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'in-progress', currentQuestionIndex: nextIndex });
       state.questionIndex = nextIndex;
