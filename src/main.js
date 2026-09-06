@@ -57,6 +57,13 @@ let serverLearningStateLoaded = false;
 let serverMistakes = [];
 let serverMistakesLoaded = false;
 let grammarAnswerQueue = Promise.resolve();
+const resetServerSnapshot = () => {
+  serverDashboard = null;
+  serverLearningState = null;
+  serverLearningStateLoaded = false;
+  serverMistakes = [];
+  serverMistakesLoaded = false;
+};
 const progressKey = () => account?.email ? `${storageKey}:${account.email}` : storageKey;
 const migrationMarkerKey = () => `nabahah-learning-migrated-v1:${account?.id ?? 'anonymous'}`;
 const pendingAnswersKey = () => `nabahah-pending-answers-v1:${account?.id ?? 'anonymous'}`;
@@ -355,7 +362,7 @@ async function submitLearningAttempt(attemptId) {
   try {
     const response = await fetch('/api/learning/submit', { method: 'POST', credentials: 'include', headers: { 'content-type': 'application/json', accept: 'application/json' }, body: JSON.stringify({ attemptId }) });
     if (!response.ok && response.status !== 409) throw new Error('attempt submit failed');
-    await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false, hydrate: false, flushPending: false })]);
+    await syncAccountSnapshot({ renderAfter: false, hydrate: false, flushPending: false });
   } catch {
     // The saved answers remain resumable and a later state refresh can retry.
   }
@@ -404,6 +411,17 @@ async function refreshLearningState({ renderAfter = true, hydrate = true, flushP
   } catch {
     serverLearningStateLoaded = false;
   }
+}
+
+async function syncAccountSnapshot({ renderAfter = true, hydrate = true, flushPending = true } = {}) {
+  if (!account) return;
+  if (flushPending) await flushPendingAnswers();
+  await Promise.all([
+    refreshServerDashboard(),
+    refreshLearningState({ renderAfter: false, hydrate, flushPending: false }),
+  ]);
+  if (!serverMistakesLoaded) await refreshServerMistakes({ renderAfter: false });
+  if (renderAfter) render();
 }
 
 function setQuizProgress(modelId, passageId, update) {
@@ -480,7 +498,7 @@ function dashboardHeader(active = 'dashboard') {
 }
 
 function sessionLoadingView() {
-  return `<main class="session-loading-shell" aria-live="polite" aria-busy="true"><header class="session-loading-header">${dashboardBrandLogo()}</header><section><span aria-hidden="true"></span><p>جارٍ استعادة جلستك…</p></section></main>`;
+  return `<main class="session-loading-shell" aria-live="polite" aria-busy="true"><header class="session-loading-header">${dashboardBrandLogo()}</header><section><span aria-hidden="true"></span><p>جارٍ مزامنة تقدمك وبياناتك…</p></section></main>`;
 }
 
 function loginView() {
@@ -529,10 +547,10 @@ function dashboardData() {
   const serverReadingProgress = serverLearningStateLoaded ? (serverLearningState?.progress ?? []).filter((item) => item.skill === 'reading' && item.pieceSourceId) : null;
   const completedPieces = serverReadingProgress ? serverReadingProgress.filter((item) => item.status === 'completed').length : completedEntries.length;
   const progressPercent = passageCount ? (serverReadingProgress ? Math.round(serverReadingProgress.reduce((sum, item) => sum + Number(item.progressPercent ?? 0), 0) / passageCount) : Math.round((completedPieces / passageCount) * 100)) : 0;
-  const hasLocalActivity = entries.length > 0;
   const remoteOverall = serverDashboard?.overall;
+  const hasRemoteOverall = Boolean(remoteOverall);
   const remoteAnswered = Number(remoteOverall?.correctAnswers ?? 0) + Number(remoteOverall?.wrongAnswers ?? 0);
-  const accuracy = serverLearningStateLoaded ? (remoteAnswered ? Math.round((Number(remoteOverall?.correctAnswers ?? 0) / remoteAnswered) * 100) : 0) : hasLocalActivity ? (scoredAnswers ? Math.round((correctAnswers / scoredAnswers) * 100) : 0) : (remoteAnswered ? Math.round((Number(remoteOverall.correctAnswers) / remoteAnswered) * 100) : 0);
+  const accuracy = hasRemoteOverall ? (remoteAnswered ? Math.round((Number(remoteOverall.correctAnswers) / remoteAnswered) * 100) : 0) : (scoredAnswers ? Math.round((correctAnswers / scoredAnswers) * 100) : 0);
   const latest = entries.slice().sort((a, b) => String(b[1].updatedAt ?? '').localeCompare(String(a[1].updatedAt ?? '')))[0];
   let latestContext = null;
   if (latest) {
@@ -584,8 +602,8 @@ function dashboardData() {
   const weeklyAnswered = entries.reduce((sum, [, item]) => sum + Object.values(item.answerMeta ?? {}).filter((meta) => meta?.answeredAt && new Date(meta.answeredAt) >= weekStart).length, 0);
   const previousWeekStart = new Date(weekStart); previousWeekStart.setDate(previousWeekStart.getDate() - 7);
   const previousWeekAnswered = entries.reduce((sum, [, item]) => sum + Object.values(item.answerMeta ?? {}).filter((meta) => meta?.answeredAt && new Date(meta.answeredAt) >= previousWeekStart && new Date(meta.answeredAt) < weekStart).length, 0);
-  const dashboardAnswered = serverLearningStateLoaded ? remoteAnswered : hasLocalActivity ? answered : remoteAnswered;
-  const dashboardMistakeCount = serverMistakesLoaded || hasLocalActivity ? mistakeOccurrenceCount(mistakes.filter((mistake) => ['reading', 'grammar', 'listening'].includes(mistake.skill))) : Number(serverDashboard?.unreviewedMistakes ?? 0);
+  const dashboardAnswered = hasRemoteOverall ? remoteAnswered : answered;
+  const dashboardMistakeCount = serverMistakesLoaded ? mistakeOccurrenceCount(mistakes.filter((mistake) => ['reading', 'grammar', 'listening'].includes(mistake.skill))) : Number(serverDashboard?.unreviewedMistakes ?? 0);
   return { passageCount, questionCount, completedPieces, completedEntries, answered: dashboardAnswered, mistakes, uniqueMistakes, dueMistakes, resultRows, progressPercent, accuracy, latestContext, firstModel, firstPassage, weeklyCompleted, improvement, dashboardMistakeCount, streak, activeDaysThisWeek, avgSeconds, skillStats, reasonBreakdown, focusSkill, weeklyAnswered, previousWeekAnswered };
 }
 
@@ -802,7 +820,7 @@ function confirmGrammarAnswer(model, question, optionIndex) {
       const payload = await sendLearningAnswer(answerPayload);
       const latest = grammarProgress(model.id);
       setGrammarProgress(model.id, { attemptId: payload.attemptId ?? latest.attemptId });
-      await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false, hydrate: false, flushPending: false })]);
+      await syncAccountSnapshot({ renderAfter: false, hydrate: false, flushPending: false });
     } catch {
       // The answer is already queued locally by sendLearningAnswer when the
       // connection is unavailable; feedback never waits for synchronization.
@@ -1254,25 +1272,9 @@ function render() {
   const scrollTutor = state.tutorScrollToEnd;
   state.tutorScrollToEnd = false;
   if (state.authLoading) {
-    // Keep the restored surface in place while Better Auth verifies the
-    // session. Never flash the dashboard or public library over another view.
-    const pendingModel = currentModel();
-    const pendingPassage = currentPassage(pendingModel);
-    if (hasAuthHint && state.view === 'dashboard') app.innerHTML = dashboardView();
-    else if (hasAuthHint && state.view === 'dashboard-models') app.innerHTML = dashboardModelsView();
-    else if (hasAuthHint && state.view === 'dashboard-section') app.innerHTML = state.dashboardSection === 'grammar' ? grammarLibraryView() : state.dashboardSection === 'listening' ? listeningLibraryView() : dashboardSectionView(state.dashboardSection);
-    else if (hasAuthHint && state.view === 'grammar-quiz' && currentGrammarModel()) app.innerHTML = grammarQuestionView(currentGrammarModel());
-    else if (hasAuthHint && state.view === 'grammar-result' && currentGrammarModel()) app.innerHTML = grammarResultView(currentGrammarModel());
-    else if (hasAuthHint && state.view === 'listening-model' && currentListeningModel()) app.innerHTML = listeningModelView(currentListeningModel());
-    else if (hasAuthHint && state.view === 'listening-quiz' && currentListeningModel() && currentRecording()) app.innerHTML = listeningQuizView(currentListeningModel(), currentRecording());
-    else if (hasAuthHint && state.view === 'listening-result' && currentListeningModel() && currentRecording()) app.innerHTML = listeningResultView(currentListeningModel(), currentRecording());
-    else if (hasAuthHint && state.view === 'model' && pendingModel) app.innerHTML = modelView(pendingModel);
-    else if (hasAuthHint && state.view === 'quiz' && pendingModel && pendingPassage) app.innerHTML = quizView(pendingModel, pendingPassage);
-    else if (hasAuthHint && state.view === 'solutions' && pendingModel && pendingPassage) app.innerHTML = solutionsView(pendingModel, pendingPassage);
-    else if (hasAuthHint && state.view === 'result' && pendingModel && pendingPassage) app.innerHTML = resultView(pendingModel, pendingPassage);
-    else if (state.view === 'login') app.innerHTML = loginView();
-    else if (state.view === 'register') app.innerHTML = registerView();
-    else app.innerHTML = hasAuthHint ? dashboardView() : sessionLoadingView();
+    // Do not render cached metrics while the authoritative account snapshot is
+    // still loading. The whole authenticated surface appears atomically once.
+    app.innerHTML = sessionLoadingView();
     applyNibrasAccessibility();
     restoreTutorViewport(viewport, scrollTutor, tutorViewport);
     return;
@@ -1406,16 +1408,19 @@ app.addEventListener('submit', async (event) => {
       render();
       return;
     }
+    resetServerSnapshot();
     const localSnapshot = form.classList.contains('register-form') ? {} : readStored(progressKey(), {});
     progress = localSnapshot;
     if (form.classList.contains('register-form')) saveProgress();
+    state.authLoading = true;
+    render();
     await migrateLegacyProgress(localSnapshot);
-    await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false })]);
-    if (!serverMistakesLoaded) await refreshServerMistakes({ renderAfter: false });
+    await syncAccountSnapshot({ renderAfter: false });
     localStorage.setItem(authHintKey, '1');
     state = { ...state, view: 'dashboard', authError: '', authLoading: false };
     render();
   } catch (error) {
+    state.authLoading = false;
     state.authError = authErrorMessage(error, 'تعذر الاتصال بخدمة الحساب. حاول مرة أخرى.');
     render();
   }
@@ -1578,7 +1583,7 @@ app.addEventListener('click', (event) => {
       if (!response.ok) throw new Error('dismiss failed');
       removeLocalMistake(mistake);
       state = { ...state, dismissMistakeId: null, mistakeReviewId: state.mistakeReviewId === mistakeId ? null : state.mistakeReviewId };
-      await refreshLearningState();
+      await syncAccountSnapshot();
     }).catch(() => { state = { ...state, dismissMistakeId: null }; render(); });
     return;
   }
@@ -1588,7 +1593,7 @@ app.addEventListener('click', (event) => {
     const skill = openMistakesButton.dataset.openMistakes;
     state = { ...state, view: 'dashboard-section', dashboardSection: 'mistakes', mistakeSkill: skill, mistakeReviewId: null, dismissMistakeId: null, dashboardMenuOpen: false };
     render();
-    void refreshLearningState();
+    void syncAccountSnapshot();
     return;
   }
 
@@ -1597,7 +1602,7 @@ app.addEventListener('click', (event) => {
     const section = dashboardSectionButton.dataset.dashboardSection;
     state = { ...state, view: section === 'dashboard' ? 'dashboard' : section === 'reading' ? 'dashboard-models' : 'dashboard-section', dashboardSection: section, dashboardMenuOpen: false };
     render();
-    void Promise.all([refreshServerDashboard(), refreshLearningState()]);
+    void syncAccountSnapshot();
     return;
   }
 
@@ -1775,7 +1780,7 @@ app.addEventListener('click', (event) => {
   if (event.target.closest('[data-dashboard]')) {
     state = { ...state, view: account ? 'dashboard' : 'login', authError: account ? '' : 'سجّل الدخول أو أنشئ حسابًا للوصول إلى لوحة المستخدم.' };
     render();
-    if (account) void Promise.all([refreshServerDashboard(), refreshLearningState()]);
+    if (account) void syncAccountSnapshot();
     return;
   }
 
@@ -1785,11 +1790,7 @@ app.addEventListener('click', (event) => {
     authClient.signOut()
       .then(() => {
         account = null;
-        serverDashboard = null;
-        serverLearningState = null;
-        serverLearningStateLoaded = false;
-        serverMistakes = [];
-        serverMistakesLoaded = false;
+        resetServerSnapshot();
         localStorage.removeItem(authHintKey);
         sessionStorage.removeItem(workspaceViewKey);
         progress = {};
@@ -1896,7 +1897,7 @@ app.addEventListener('click', (event) => {
       const latest = quizProgress(state.selectedModelId, state.selectedPassageId);
       setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...latest, attemptId: savedAnswer.attemptId });
       if (latest.status === 'completed') await submitLearningAttempt(savedAnswer.attemptId);
-      await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: state.dashboardSection === 'mistakes', hydrate: false, flushPending: false })]);
+      await syncAccountSnapshot({ renderAfter: state.dashboardSection === 'mistakes', hydrate: false, flushPending: false });
     }).catch(() => null);
     soundManager.play(option?.isCorrect ? 'answer-correct' : 'answer-wrong');
     render();
@@ -2020,16 +2021,14 @@ async function bootstrapSession() {
       if (restorableViews.has(state.view)) state.view = requestedView === 'dashboard' ? 'login' : 'library';
       return;
     }
+    resetServerSnapshot();
     if (['login', 'register', 'library'].includes(state.view)) state.view = savedView ?? 'dashboard';
     const localSnapshot = readStored(progressKey(), {});
     progress = localSnapshot;
     restoreActiveWorkspaceProgress();
     localStorage.setItem(authHintKey, '1');
-    state.authLoading = false;
-    render();
     await migrateLegacyProgress(localSnapshot);
-    await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false })]);
-    if (!serverMistakesLoaded) await refreshServerMistakes({ renderAfter: false });
+    await syncAccountSnapshot({ renderAfter: false });
     restoreActiveWorkspaceProgress();
   } catch (error) {
     account = null;
@@ -2046,6 +2045,6 @@ async function bootstrapSession() {
 
 void bootstrapSession();
 
-window.addEventListener('focus', () => { if (account) void Promise.all([refreshServerDashboard(), refreshLearningState()]); });
-document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && account) void Promise.all([refreshServerDashboard(), refreshLearningState()]); });
-window.setInterval(() => { if (account && document.visibilityState === 'visible') void refreshLearningState({ renderAfter: false }); }, 25_000);
+window.addEventListener('focus', () => { if (account) void syncAccountSnapshot(); });
+document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && account) void syncAccountSnapshot(); });
+window.setInterval(() => { if (account && document.visibilityState === 'visible') void syncAccountSnapshot({ renderAfter: false }); }, 25_000);
