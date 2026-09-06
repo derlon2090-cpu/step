@@ -6,6 +6,8 @@ const mainSource = await readFile(new URL('../src/main.js', import.meta.url), 'u
 const cssSource = await readFile(new URL('../src/raseen.css', import.meta.url), 'utf8');
 const quizSource = mainSource.slice(mainSource.indexOf('function quizView('), mainSource.indexOf('function resultView('));
 const grammarConfirmationSource = mainSource.slice(mainSource.indexOf('function confirmGrammarAnswer('), mainSource.indexOf('function libraryView('));
+const grammarRetrySource = mainSource.slice(mainSource.indexOf("if (event.target.closest('[data-grammar-retry]'))"), mainSource.indexOf("if (event.target.closest('[data-dashboard]'))"));
+const readingRetrySource = mainSource.slice(mainSource.indexOf("if (event.target.closest('[data-reset-quiz]'))"), mainSource.indexOf("if (event.target.closest('[data-restore-progress]'))"));
 
 test('reading quiz renders its question prompt once', () => {
   assert.equal(quizSource.match(/renderQuestionText\(question\)/g)?.length, 1);
@@ -20,6 +22,13 @@ test('result and quiz surfaces expose section-specific mistake review', () => {
 test('correct answers do not automatically remove saved mistakes', () => {
   assert.doesNotMatch(mainSource, /correctReviews\s*=\s*Number\(previous\.correctReviews/);
   assert.match(mainSource, /removeLocalMistake\(mistake\)/);
+});
+
+test('retry clears attempt answers but explicitly preserves saved mistakes', () => {
+  assert.match(grammarRetrySource, /mistakes: \{ \.\.\.\(saved\.mistakes \?\? \{\}\) \}/);
+  assert.match(readingRetrySource, /mistakes: \[\.\.\.\(saved\.mistakes \?\? \[\]\)\]/);
+  assert.match(grammarRetrySource, /attemptId: null/);
+  assert.match(readingRetrySource, /attemptId: null/);
 });
 
 test('grammar feedback is immediate while persistence runs in the background', () => {

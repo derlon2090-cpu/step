@@ -1417,7 +1417,8 @@ app.addEventListener('click', (event) => {
   if (event.target.closest('[data-grammar-retry]')) {
     const model = currentGrammarModel();
     if (!model) return;
-    setGrammarProgress(model.id, { answers: {}, results: {}, status: 'in-progress', currentQuestionIndex: 0 });
+    const saved = grammarProgress(model.id);
+    setGrammarProgress(model.id, { answers: {}, results: {}, mistakes: { ...(saved.mistakes ?? {}) }, attemptId: null, status: 'in-progress', currentQuestionIndex: 0 });
     state = { ...state, view: 'grammar-quiz', grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, grammarPendingQuestionId: null, tutorOpen: false, tutorQuestionKey: null };
     render();
     keepQuestionInPlace();
@@ -1593,7 +1594,8 @@ app.addEventListener('click', (event) => {
   }
 
   if (event.target.closest('[data-reset-quiz]')) {
-    setQuizProgress(state.selectedModelId, state.selectedPassageId, { answers: {}, status: 'not-started', currentQuestionIndex: 0 });
+    const saved = quizProgress(state.selectedModelId, state.selectedPassageId);
+    setQuizProgress(state.selectedModelId, state.selectedPassageId, { answers: {}, answerMeta: {}, mistakes: [...(saved.mistakes ?? [])], attemptId: null, status: 'not-started', currentQuestionIndex: 0 });
     state.view = 'quiz';
     state.questionIndex = 0;
     state.questionStartedAt = Date.now();
