@@ -23,11 +23,11 @@ test('tutor stream updates only its text at a paced rate instead of rebuilding t
 test('tutor follows the streamed response and stays above fixed question controls', () => {
   assert.match(mainSource, /conversation\.scrollTop = conversation\.scrollHeight/);
   assert.match(cssSource, /\.question-tutor-popover\{[^}]*z-index:120/);
-  assert.match(cssSource, /\.question-tutor-popover\.has-conversation,\.question-tutor-popover\.has-conversation\.is-expanded\{right:20px;left:auto;bottom:86px/);
+  assert.match(cssSource, /\.question-tutor-popover\.has-conversation,\.question-tutor-popover\.has-conversation\.is-expanded\{right:18px;left:auto;bottom:18px;width:min\(336px/);
 });
 
 test('tutor opens inward in reading and grammar and shows the Nibras name once', () => {
-  assert.match(cssSource, /\.question-tutor-popover:not\(\.has-conversation\)\{right:0;left:auto;width:300px\}/);
-  assert.match(cssSource, /\.grammar-tutor-anchor \.question-tutor-popover:not\(\.has-conversation\)\{right:auto;left:0\}/);
+  assert.match(cssSource, /\.reading-question-heading \.question-tutor-anchor\{right:auto;left:0\}/);
+  assert.match(cssSource, /\.grammar-tutor-anchor \.question-tutor-popover:not\(\.has-conversation\)\{right:auto;left:0;width:284px\}/);
   assert.match(cssSource, /\.tutor-header strong\{font-size:13px\}\.tutor-header strong::after\{content:none\}/);
 });
