@@ -4,6 +4,7 @@ import './listening.css';
 import { readings } from './data/readings.js';
 import { questionGlossary } from './data/reading/questionGlossary.js';
 import { buildReadingExplanation } from './data/readingExplanations.js';
+import { buildReadingAnswerLink } from './data/readingAnswerLinks.js';
 import { grammarModels } from './data/grammarModels.js';
 import { listeningModels } from './data/listeningModels.js';
 import { soundManager } from './soundManager.js';
@@ -72,7 +73,7 @@ const savedWorkspace = hasAuthHint ? readSessionStored(workspaceViewKey, {}) : {
 const savedView = restorableViews.has(savedWorkspace.view) ? savedWorkspace.view : null;
 const initialView = requestedView === 'dashboard' ? (hasAuthHint ? 'dashboard' : 'login') : (!requestedView ? savedView ?? (hasAuthHint ? 'dashboard' : null) : requestedView);
 const initialViews = new Set(['login', 'register', ...restorableViews]);
-let state = { view: initialViews.has(initialView) ? initialView : 'library', dashboardSection: typeof savedWorkspace.dashboardSection === 'string' ? savedWorkspace.dashboardSection : 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: typeof savedWorkspace.selectedModelId === 'string' ? savedWorkspace.selectedModelId : null, selectedPassageId: typeof savedWorkspace.selectedPassageId === 'string' ? savedWorkspace.selectedPassageId : null, selectedGrammarModelId: typeof savedWorkspace.selectedGrammarModelId === 'string' ? savedWorkspace.selectedGrammarModelId : null, grammarQuestionIndex: Math.max(0, Number(savedWorkspace.grammarQuestionIndex) || 0), grammarAnswers: {}, grammarConfirmed: {}, selectedListeningModelId: typeof savedWorkspace.selectedListeningModelId === 'string' ? savedWorkspace.selectedListeningModelId : null, selectedRecordingId: typeof savedWorkspace.selectedRecordingId === 'string' ? savedWorkspace.selectedRecordingId : null, listeningQuestionIndex: Math.max(0, Number(savedWorkspace.listeningQuestionIndex) || 0), listeningAnswers: {}, query: '', questionIndex: Math.max(0, Number(savedWorkspace.questionIndex) || 0), questionStartedAt: Date.now(), translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, mistakeReviewId: typeof savedWorkspace.mistakeReviewId === 'string' ? savedWorkspace.mistakeReviewId : null, mistakeSolveId: typeof savedWorkspace.mistakeSolveId === 'string' ? savedWorkspace.mistakeSolveId : null, mistakeSolveAnswer: null, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
+let state = { view: initialViews.has(initialView) ? initialView : 'library', dashboardSection: typeof savedWorkspace.dashboardSection === 'string' ? savedWorkspace.dashboardSection : 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: typeof savedWorkspace.selectedModelId === 'string' ? savedWorkspace.selectedModelId : null, selectedPassageId: typeof savedWorkspace.selectedPassageId === 'string' ? savedWorkspace.selectedPassageId : null, selectedGrammarModelId: typeof savedWorkspace.selectedGrammarModelId === 'string' ? savedWorkspace.selectedGrammarModelId : null, grammarQuestionIndex: Math.max(0, Number(savedWorkspace.grammarQuestionIndex) || 0), grammarAnswers: {}, grammarConfirmed: {}, selectedListeningModelId: typeof savedWorkspace.selectedListeningModelId === 'string' ? savedWorkspace.selectedListeningModelId : null, selectedRecordingId: typeof savedWorkspace.selectedRecordingId === 'string' ? savedWorkspace.selectedRecordingId : null, listeningQuestionIndex: Math.max(0, Number(savedWorkspace.listeningQuestionIndex) || 0), listeningAnswers: {}, query: '', questionIndex: Math.max(0, Number(savedWorkspace.questionIndex) || 0), questionStartedAt: Date.now(), translationQuestionId: null, answerLinkQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, mistakeReviewId: typeof savedWorkspace.mistakeReviewId === 'string' ? savedWorkspace.mistakeReviewId : null, mistakeSolveId: typeof savedWorkspace.mistakeSolveId === 'string' ? savedWorkspace.mistakeSolveId : null, mistakeSolveAnswer: null, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -1041,6 +1042,8 @@ function quizView(model, passage) {
   const hasKnownAnswer = question.correctAnswer !== null;
   const confidence = item.answerMeta?.[question.id]?.confidence;
   const isLastQuestion = index === passage.questions.length - 1;
+  const answerLink = buildReadingAnswerLink(question);
+  const answerLinkOpen = state.answerLinkQuestionId === question.id && selectedId && answerLink;
   return `<main class="quiz-shell quiz-active-shell">
     ${raseenHeader('النماذج')}
     <header class="quiz-top">
@@ -1057,8 +1060,10 @@ function quizView(model, passage) {
         <div class="question-heading reading-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${renderQuestionText(question)}</div><div class="question-tutor-anchor"><button class="question-tutor-trigger" data-tutor-toggle="${question.id}" aria-label="اسأل نباهة" title="اسأل نباهة" aria-haspopup="dialog" aria-expanded="${state.tutorOpen && state.tutorQuestionKey === tutorSessionKey(model, passage, question)}" aria-controls="question-tutor">${tutorSparkleIcon()}</button>${tutorPopover(model, passage, question, selectedOption)}</div></div>
         <div class="question-tools">
           <button data-toggle-translation="${question.id}">${state.translationQuestionId === question.id ? 'إخفاء ترجمة الكلمات' : 'ترجمة الكلمات'}</button>
-          <small>${state.translationQuestionId === question.id ? 'اضغط على الكلمة لعرض ترجمتها.' : 'فعّل الترجمة لتصبح كل كلمة في السؤال قابلة للضغط.'}</small>
+          <button class="answer-link-trigger ${answerLinkOpen ? 'is-open' : ''}" data-toggle-answer-link="${question.id}" aria-expanded="${Boolean(answerLinkOpen)}" aria-controls="answer-link-${question.id}" ${!selectedId || !answerLink ? 'disabled' : ''}><span aria-hidden="true">↔</span> ربط الإجابة</button>
+          <small>${state.translationQuestionId === question.id ? 'اضغط على الكلمة لعرض ترجمتها.' : !selectedId ? 'اختر إجابتك أولًا، ثم استخدم الربط لتثبيتها.' : 'افتح الربط لتحفظ الإجابة من كلمة مفتاحية.'}</small>
         </div>
+        ${answerLinkOpen ? `<aside class="answer-link-card" id="answer-link-${question.id}" aria-label="ربط الإجابة"><header><span>رابط سريع للحفظ</span><button data-toggle-answer-link="${question.id}" aria-label="إغلاق ربط الإجابة">×</button></header><div class="answer-link-bridge" dir="ltr"><span>${escapeHtml(answerLink.keyword)}</span><i aria-hidden="true">→</i><strong>${escapeHtml(answerLink.answer)}</strong></div><p class="answer-link-memory"><b>احفظها هكذا:</b> ${escapeHtml(answerLink.memory)}</p><p class="answer-link-reason"><b>المنطق:</b> ${escapeHtml(answerLink.reason)}</p></aside>` : ''}
         <div class="quiz-options">
           ${displayedOptions(question).map((option, optionIndex) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && hasKnownAnswer && option.isCorrect ? 'correct' : ''} ${selectedId && hasKnownAnswer && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}" ${selectedId ? 'disabled' : ''}>
             <span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span>
@@ -1842,6 +1847,16 @@ app.addEventListener('click', (event) => {
     return;
   }
 
+  const answerLinkButton = event.target.closest('[data-toggle-answer-link]');
+  if (answerLinkButton) {
+    const questionId = answerLinkButton.dataset.toggleAnswerLink;
+    const selected = state.activeAnswers?.[questionId];
+    if (!selected) return;
+    state.answerLinkQuestionId = state.answerLinkQuestionId === questionId ? null : questionId;
+    render();
+    return;
+  }
+
   const wordButton = event.target.closest('[data-word]');
   if (wordButton) {
     state.translatedWords = { ...state.translatedWords, [wordButton.dataset.questionWord]: { word: wordButton.dataset.word, index: Number(wordButton.dataset.wordIndex) } };
@@ -1907,6 +1922,7 @@ app.addEventListener('click', (event) => {
       state.questionIndex = nextIndex;
       state.questionStartedAt = Date.now();
       state.translationQuestionId = null;
+      state.answerLinkQuestionId = null;
       state.tutorOpen = false;
       state.tutorQuestionKey = null;
     }
@@ -1919,6 +1935,7 @@ app.addEventListener('click', (event) => {
     state.questionIndex -= 1;
     state.questionStartedAt = Date.now();
     state.translationQuestionId = null;
+    state.answerLinkQuestionId = null;
     state.tutorOpen = false;
     state.tutorQuestionKey = null;
     render();
@@ -1932,6 +1949,7 @@ app.addEventListener('click', (event) => {
     state.questionIndex = 0;
     state.questionStartedAt = Date.now();
     state.translationQuestionId = null;
+    state.answerLinkQuestionId = null;
     state.activeAnswers = {};
     state.restoredProgress = false;
     state.tutorOpen = false;
@@ -1947,6 +1965,7 @@ app.addEventListener('click', (event) => {
     state.questionIndex = Math.min(item.currentQuestionIndex ?? 0, passage.questions.length - 1);
     state.questionStartedAt = Date.now();
     state.translationQuestionId = null;
+    state.answerLinkQuestionId = null;
     state.restoredProgress = true;
     render();
     return;
