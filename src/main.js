@@ -443,8 +443,10 @@ function renderQuestionText(question) {
     if (match.index > cursor) parts.push(escapeHtml(question.question.slice(cursor, match.index)));
     const token = match[0];
     const clean = normalizeWord(token);
-    const popover = (selectedIndex === null ? clean === selectedWord : wordIndex === selectedIndex) ? `<span class="word-meaning-popover" role="status">${escapeHtml(wordMeaning(clean))}</span>` : '';
-    parts.push(`<span class="word-chip-wrap"><button class="word-chip" data-word="${escapeHtml(clean)}" data-word-index="${wordIndex}" data-question-word="${question.id}">${escapeHtml(token)}</button>${popover}</span>`);
+    const isTranslated = selectedIndex === null ? clean === selectedWord : wordIndex === selectedIndex;
+    const meaningId = `word-meaning-${question.id}-${wordIndex}`;
+    const popover = isTranslated ? `<span class="word-meaning-popover" id="${meaningId}" role="status">${escapeHtml(wordMeaning(clean))}</span>` : '';
+    parts.push(`<span class="word-chip-wrap ${isTranslated ? 'is-translated' : ''}"><button class="word-chip" data-word="${escapeHtml(clean)}" data-word-index="${wordIndex}" data-question-word="${question.id}" aria-expanded="${isTranslated}" ${isTranslated ? `aria-describedby="${meaningId}"` : ''}>${escapeHtml(token)}</button>${popover}</span>`);
     cursor = match.index + token.length;
     wordIndex += 1;
   }

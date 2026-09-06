@@ -69,6 +69,9 @@ test('grammar feedback is immediate while persistence runs in the background', (
 test('word translation targets the exact clicked occurrence', () => {
   assert.match(mainSource, /data-word-index=/);
   assert.match(mainSource, /index: Number\(wordButton\.dataset\.wordIndex\)/);
+  assert.match(mainSource, /wordIndex === selectedIndex/);
+  assert.match(mainSource, /word-chip-wrap \$\{isTranslated \? 'is-translated' : ''\}/);
+  assert.match(cssSource, /\.word-meaning-popover\{inset-inline-start:auto;right:auto;left:50%/);
 });
 
 test('question actions stay anchored below the question instead of following viewport scroll', () => {
