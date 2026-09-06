@@ -24,10 +24,11 @@ test('every scored reading question has a memorable answer link', async () => {
   }
 });
 
-test('answer-link control stays compact and reveals the answer only after submission', async () => {
+test('answer-link control is prominently placed above word translation', async () => {
   const source = await readFile(new URL('../src/main.js', import.meta.url), 'utf8');
   assert.match(source, /data-toggle-answer-link/);
-  assert.match(source, /!selectedId \|\| !answerLink \? 'disabled'/);
+  assert.ok(source.indexOf('class="answer-link-feature"') < source.indexOf('class="question-tools"'));
+  assert.doesNotMatch(source, /if \(!selected\) return;/);
   assert.match(source, /رابط سريع للحفظ/);
   assert.match(source, /احفظها هكذا/);
   assert.match(source, /المنطق/);

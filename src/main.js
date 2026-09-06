@@ -1043,7 +1043,7 @@ function quizView(model, passage) {
   const confidence = item.answerMeta?.[question.id]?.confidence;
   const isLastQuestion = index === passage.questions.length - 1;
   const answerLink = buildReadingAnswerLink(question);
-  const answerLinkOpen = state.answerLinkQuestionId === question.id && selectedId && answerLink;
+  const answerLinkOpen = state.answerLinkQuestionId === question.id && answerLink;
   return `<main class="quiz-shell quiz-active-shell">
     ${raseenHeader('النماذج')}
     <header class="quiz-top">
@@ -1058,12 +1058,12 @@ function quizView(model, passage) {
     <section class="quiz-list">
       <article class="quiz-question active-question ${selectedId ? answeredCorrectly ? 'answered-correct' : 'answered-wrong' : ''}">
         <div class="question-heading reading-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${renderQuestionText(question)}</div><div class="question-tutor-anchor"><button class="question-tutor-trigger" data-tutor-toggle="${question.id}" aria-label="اسأل نباهة" title="اسأل نباهة" aria-haspopup="dialog" aria-expanded="${state.tutorOpen && state.tutorQuestionKey === tutorSessionKey(model, passage, question)}" aria-controls="question-tutor">${tutorSparkleIcon()}</button>${tutorPopover(model, passage, question, selectedOption)}</div></div>
+        <div class="answer-link-feature"><button class="${answerLinkOpen ? 'is-open' : ''}" data-toggle-answer-link="${question.id}" aria-expanded="${Boolean(answerLinkOpen)}" aria-controls="answer-link-${question.id}" ${!answerLink ? 'disabled' : ''}><span class="answer-link-feature-icon" aria-hidden="true">↔</span><span><strong>ربط الإجابة</strong><small>${answerLink ? 'اربط كلمة من السؤال بالإجابة واحفظها بمنطق بسيط' : 'لا توجد إجابة معتمدة لربطها في هذا السؤال'}</small></span><b>${answerLinkOpen ? 'إغلاق' : answerLink ? 'فتح الربط' : 'غير متاح'}</b></button></div>
+        ${answerLinkOpen ? `<aside class="answer-link-card" id="answer-link-${question.id}" aria-label="ربط الإجابة"><header><span>رابط سريع للحفظ</span><button data-toggle-answer-link="${question.id}" aria-label="إغلاق ربط الإجابة">×</button></header><div class="answer-link-bridge" dir="ltr"><span>${escapeHtml(answerLink.keyword)}</span><i aria-hidden="true">→</i><strong>${escapeHtml(answerLink.answer)}</strong></div><p class="answer-link-memory"><b>احفظها هكذا:</b> ${escapeHtml(answerLink.memory)}</p><p class="answer-link-reason"><b>المنطق:</b> ${escapeHtml(answerLink.reason)}</p></aside>` : ''}
         <div class="question-tools">
           <button data-toggle-translation="${question.id}">${state.translationQuestionId === question.id ? 'إخفاء ترجمة الكلمات' : 'ترجمة الكلمات'}</button>
-          <button class="answer-link-trigger ${answerLinkOpen ? 'is-open' : ''}" data-toggle-answer-link="${question.id}" aria-expanded="${Boolean(answerLinkOpen)}" aria-controls="answer-link-${question.id}" ${!selectedId || !answerLink ? 'disabled' : ''}><span aria-hidden="true">↔</span> ربط الإجابة</button>
-          <small>${state.translationQuestionId === question.id ? 'اضغط على الكلمة لعرض ترجمتها.' : !selectedId ? 'اختر إجابتك أولًا، ثم استخدم الربط لتثبيتها.' : 'افتح الربط لتحفظ الإجابة من كلمة مفتاحية.'}</small>
+          <small>${state.translationQuestionId === question.id ? 'اضغط على الكلمة لعرض ترجمتها.' : 'فعّل الترجمة لتصبح كل كلمة في السؤال قابلة للضغط.'}</small>
         </div>
-        ${answerLinkOpen ? `<aside class="answer-link-card" id="answer-link-${question.id}" aria-label="ربط الإجابة"><header><span>رابط سريع للحفظ</span><button data-toggle-answer-link="${question.id}" aria-label="إغلاق ربط الإجابة">×</button></header><div class="answer-link-bridge" dir="ltr"><span>${escapeHtml(answerLink.keyword)}</span><i aria-hidden="true">→</i><strong>${escapeHtml(answerLink.answer)}</strong></div><p class="answer-link-memory"><b>احفظها هكذا:</b> ${escapeHtml(answerLink.memory)}</p><p class="answer-link-reason"><b>المنطق:</b> ${escapeHtml(answerLink.reason)}</p></aside>` : ''}
         <div class="quiz-options">
           ${displayedOptions(question).map((option, optionIndex) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && hasKnownAnswer && option.isCorrect ? 'correct' : ''} ${selectedId && hasKnownAnswer && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}" ${selectedId ? 'disabled' : ''}>
             <span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span>
@@ -1850,8 +1850,6 @@ app.addEventListener('click', (event) => {
   const answerLinkButton = event.target.closest('[data-toggle-answer-link]');
   if (answerLinkButton) {
     const questionId = answerLinkButton.dataset.toggleAnswerLink;
-    const selected = state.activeAnswers?.[questionId];
-    if (!selected) return;
     state.answerLinkQuestionId = state.answerLinkQuestionId === questionId ? null : questionId;
     render();
     return;
