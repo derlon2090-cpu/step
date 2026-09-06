@@ -22,6 +22,41 @@ async function upsertProgress(db, { userId, skill, modelId = null, pieceId = nul
   return created;
 }
 
+async function insertMissingMistake(db, { userId, questionId, attemptId, seenAt = now() }) {
+  await db.insert(userMistakes).values({
+    userId,
+    questionId,
+    firstAttemptId: attemptId,
+    lastAttemptId: attemptId,
+    firstSeenAt: seenAt,
+    lastSeenAt: seenAt,
+    updatedAt: seenAt,
+  }).onConflictDoNothing({ target: [userMistakes.userId, userMistakes.questionId] });
+}
+
+async function restoreMissingMistakes(db, userId) {
+  await db.execute(sql`INSERT INTO user_mistakes (
+      user_id, question_id, first_attempt_id, last_attempt_id, mistake_count,
+      review_count, status, first_seen_at, last_seen_at, updated_at
+    )
+    SELECT
+      aa.user_id,
+      aa.question_id,
+      (ARRAY_AGG(aa.attempt_id ORDER BY aa.answered_at ASC))[1],
+      (ARRAY_AGG(aa.attempt_id ORDER BY aa.answered_at DESC))[1],
+      COUNT(*)::int,
+      0,
+      'unreviewed',
+      MIN(aa.answered_at),
+      MAX(aa.answered_at),
+      MAX(aa.answered_at)
+    FROM attempt_answers aa
+    LEFT JOIN user_mistakes um ON um.user_id=aa.user_id AND um.question_id=aa.question_id
+    WHERE aa.user_id=${userId} AND aa.is_correct=false AND um.id IS NULL
+    GROUP BY aa.user_id, aa.question_id
+    ON CONFLICT (user_id, question_id) DO NOTHING`);
+}
+
 export async function startAttempt(user, { skill = 'reading', modelId = null, pieceId = null, mode = 'practice', totalQuestions = 0 }) {
   const db = getDb();
   const userId = identity(user);
@@ -31,11 +66,17 @@ export async function startAttempt(user, { skill = 'reading', modelId = null, pi
 }
 
 export async function saveAnswer(user, attemptId, { questionId, selectedAnswer = null, responseTimeMs = null, clientMutationId = null }) {
-  const db = getDb();
+  const rootDb = getDb();
   const userId = identity(user);
+  return rootDb.transaction(async (db) => {
   if (clientMutationId) {
     const [existing] = await db.select().from(attemptAnswers).where(and(eq(attemptAnswers.userId, userId), eq(attemptAnswers.clientMutationId, clientMutationId))).limit(1);
-    if (existing) return { id: existing.id, questionId: existing.questionId, selectedAnswer: existing.selectedAnswer, isCorrect: existing.isCorrect, duplicate: true };
+    if (existing) {
+      // A previous request may have saved the answer before the mistake write
+      // failed. Idempotent retries must heal that partial write, not skip it.
+      if (existing.isCorrect === false) await insertMissingMistake(db, { userId, questionId: existing.questionId, attemptId: existing.attemptId, seenAt: existing.answeredAt });
+      return { id: existing.id, questionId: existing.questionId, selectedAnswer: existing.selectedAnswer, isCorrect: existing.isCorrect, duplicate: true };
+    }
   }
   const [attempt] = await db.select().from(attempts).where(and(eq(attempts.id, attemptId), eq(attempts.userId, userId))).limit(1);
   if (!attempt) throw Object.assign(new Error('Attempt not found'), { status: 404 });
@@ -57,6 +98,7 @@ export async function saveAnswer(user, attemptId, { questionId, selectedAnswer =
     await db.insert(userMistakes).values({ userId, questionId, firstAttemptId: attemptId, lastAttemptId: attemptId }).onConflictDoUpdate({ target: [userMistakes.userId, userMistakes.questionId], set: { mistakeCount: sql`${userMistakes.mistakeCount} + 1`, lastAttemptId: attemptId, lastSeenAt: now(), status: 'unreviewed', masteredAt: null, updatedAt: now() } });
   }
   return { id: answer.id, questionId, selectedAnswer: selectedValue, isCorrect };
+  });
 }
 
 export async function submitAttempt(user, attemptId, { durationSeconds = null } = {}) {
@@ -95,6 +137,7 @@ export async function getResumeAttempt(user, modelId) {
 
 export async function getDashboard(user) {
   const db = getDb(); const userId = identity(user);
+  await restoreMissingMistakes(db, userId);
   const [summary] = await db.execute(sql`SELECT
     COUNT(*) FILTER (WHERE status='submitted')::int AS completed_attempts,
     COUNT(*) FILTER (WHERE status='in_progress')::int AS in_progress_attempts,
@@ -104,7 +147,7 @@ export async function getDashboard(user) {
     COUNT(*) FILTER (WHERE is_correct=true)::int AS correct_answers,
     COUNT(*) FILTER (WHERE is_correct=false)::int AS wrong_answers
     FROM attempt_answers WHERE user_id=${userId}`);
-  const [mistakes] = await db.execute(sql`SELECT COUNT(*)::int AS count FROM user_mistakes WHERE user_id=${userId} AND status NOT IN ('mastered','dismissed')`);
+  const [mistakes] = await db.execute(sql`SELECT COALESCE(SUM(mistake_count), 0)::int AS count FROM user_mistakes WHERE user_id=${userId} AND status NOT IN ('mastered','dismissed')`);
   return { overall: { completedAttempts: summary?.completed_attempts ?? 0, correctAnswers: answerSummary?.correct_answers ?? 0, wrongAnswers: answerSummary?.wrong_answers ?? 0, inProgressAttempts: summary?.in_progress_attempts ?? 0 }, unreviewedMistakes: mistakes?.count ?? 0, lastActivity: summary?.last_activity ?? null };
 }
 
@@ -215,7 +258,7 @@ export async function getLearningState(user) {
     activeAttempts,
     recentAttempts,
     mistakes,
-    unreviewedMistakes: mistakes.length,
+    unreviewedMistakes: mistakes.reduce((total, mistake) => total + Math.max(1, Number(mistake.mistakeCount) || 1), 0),
     lastActivity,
     resume: activeAttempts[0] ?? null,
     updatedAt: lastActivity ? new Date(lastActivity).toISOString() : new Date(0).toISOString(),
@@ -255,18 +298,20 @@ export async function importLocalLearningState(user, records, importKey = 'step-
 }
 
 function mapMistake(row) {
-  return { id: row.id, skill: row.skill, questionId: row.question_id, questionSourceId: row.question_source_id, questionText: row.question_display || row.question_source, options: row.options ?? [], selectedAnswer: row.selected_answer, correctAnswer: row.correct_answer, explanation: row.source_note, audioUrl: row.audio_url, mistakeCount: row.mistake_count, lastSeenAt: row.last_seen_at, updatedAt: row.updated_at, status: row.status };
+  return { id: row.id, skill: row.skill, questionId: row.question_id, questionSourceId: row.question_source_id, modelOrder: row.model_number, pieceOrder: row.piece_order, questionOrder: row.question_order, questionText: row.question_display || row.question_source, options: row.options ?? [], selectedAnswer: row.selected_answer, correctAnswer: row.correct_answer, explanation: row.source_note, audioUrl: row.audio_url, mistakeCount: row.mistake_count, lastSeenAt: row.last_seen_at, updatedAt: row.updated_at, status: row.status };
 }
 
 export async function listMistakes(user, { skill = null } = {}) {
   const userId = identity(user);
   const db = getDb();
-  const rows = await db.execute(sql`SELECT um.id, um.question_id, q.source_id AS question_source_id, um.mistake_count, um.last_seen_at, um.updated_at, um.status, q.skill, q.question_display, q.question_source, q.correct_answer, q.source_note, p.audio_url,
+  await restoreMissingMistakes(db, userId);
+  const rows = await db.execute(sql`SELECT um.id, um.question_id, q.source_id AS question_source_id, lm.model_number, p.piece_order, q.question_order, um.mistake_count, um.last_seen_at, um.updated_at, um.status, q.skill, q.question_display, q.question_source, q.correct_answer, q.source_note, p.audio_url,
     latest.selected_answer, COALESCE((SELECT json_agg(json_build_object('id', qo.id, 'value', qo.value, 'optionOrder', qo.option_order) ORDER BY qo.option_order) FROM question_options qo WHERE qo.question_id=q.id), '[]') AS options
-    FROM user_mistakes um JOIN questions q ON q.id=um.question_id LEFT JOIN learning_pieces p ON p.id=q.piece_id
+    FROM user_mistakes um JOIN questions q ON q.id=um.question_id LEFT JOIN learning_pieces p ON p.id=q.piece_id LEFT JOIN learning_models lm ON lm.id=q.model_id
     LEFT JOIN LATERAL (SELECT aa.selected_answer FROM attempt_answers aa WHERE aa.question_id=q.id AND aa.user_id=${userId} ORDER BY aa.answered_at DESC LIMIT 1) latest ON TRUE
     WHERE um.user_id=${userId} AND um.status NOT IN ('mastered', 'dismissed') ${skill ? sql`AND q.skill=${skill}` : sql``}
-    ORDER BY um.last_seen_at DESC`);
+    ORDER BY CASE q.skill WHEN 'reading' THEN 1 WHEN 'grammar' THEN 2 WHEN 'listening' THEN 3 ELSE 4 END,
+      lm.model_number NULLS LAST, p.piece_order NULLS LAST, q.question_order, um.first_seen_at, q.source_id`);
   return rows.map(mapMistake);
 }
 

@@ -81,6 +81,13 @@ try {
   assert.equal(duplicate.response.status, 200);
   assert.equal(duplicate.body.duplicate, true);
 
+  // Simulate the historical partial-write bug: answers exist but their
+  // mistake rows are missing. A duplicate retry and a mistakes read must heal it.
+  await sql`DELETE FROM user_mistakes WHERE user_id=${signup.body.user.id} AND question_id IN (${seeded[0].questionId}, ${seeded[1].questionId}, ${seeded[3].questionId})`;
+  const healedDuplicate = await deviceA('/api/learning/answer', { method: 'POST', body: { skill: reading.skill, questionSourceId: reading.questionSource, modelSourceId: reading.modelSource, selectedIndex: 0, totalQuestions: 1, clientMutationId: mutationIds.get(reading.questionSource) } });
+  assert.equal(healedDuplicate.response.status, 200);
+  assert.equal(healedDuplicate.body.duplicate, true);
+
   const learningStateB = await deviceB('/api/me/learning-state');
   assert.equal(learningStateB.response.status, 200);
   assert.equal(learningStateB.body.activeAttempts.length, 4);
@@ -98,6 +105,8 @@ try {
   assert.equal(counts.grammar.length, 2);
   assert.equal(counts.listening.length, 1);
   assert.equal(onDeviceB.body.mistakes.length, 4);
+  assert.deepEqual(onDeviceB.body.mistakes.map((mistake) => mistake.questionSourceId), [reading.questionSource, grammarOne.questionSource, grammarTwo.questionSource, listening.questionSource]);
+  assert.equal(counts.reading[0].mistakeCount, 1);
 
   const dismissed = counts.grammar[0];
   const removal = await deviceB(`/api/me/mistakes/${dismissed.id}`, { method: 'DELETE' });
@@ -116,7 +125,9 @@ try {
   assert.equal(finalState.body.mistakes.filter((mistake) => mistake.skill === 'grammar').length, 2);
   const changedAfterReopen = await deviceB(`/api/me/learning-state?since=${encodeURIComponent(changedAfterRemoval.body.updatedAt)}`);
   assert.notEqual(changedAfterReopen.body.unchanged, true);
-  assert.equal(changedAfterReopen.body.unreviewedMistakes, 4);
+  assert.equal(changedAfterReopen.body.unreviewedMistakes, 5);
+  const dashboardAfterReopen = await deviceB('/api/dashboard');
+  assert.equal(dashboardAfterReopen.body.unreviewedMistakes, 5);
 
   const [activity] = await sql`SELECT answered_count, wrong_count FROM daily_activity WHERE user_id=${signup.body.user.id}`;
   assert.equal(activity.answered_count, 5);
