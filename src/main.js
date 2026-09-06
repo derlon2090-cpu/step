@@ -57,10 +57,18 @@ const migrationMarkerKey = () => `nabahah-learning-migrated-v1:${account?.id ?? 
 const pendingAnswersKey = () => `nabahah-pending-answers-v1:${account?.id ?? 'anonymous'}`;
 let progress = readStored(progressKey(), {});
 const authHintKey = 'step-reading-auth-hint';
+const workspaceViewKey = 'nabahah-workspace-view-v1';
+const readSessionStored = (key, fallback) => {
+  try { return JSON.parse(sessionStorage.getItem(key)) ?? fallback; } catch { return fallback; }
+};
 const requestedView = new URLSearchParams(window.location.search).get('view');
 const hasAuthHint = localStorage.getItem(authHintKey) === '1';
-const initialView = requestedView === 'dashboard' ? 'login' : (!requestedView && hasAuthHint ? 'dashboard' : requestedView);
-let state = { view: ['login', 'register', 'dashboard'].includes(initialView) ? initialView : 'library', dashboardSection: 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: null, selectedPassageId: null, selectedGrammarModelId: null, grammarQuestionIndex: 0, grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: 0, questionStartedAt: Date.now(), translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
+const restorableViews = new Set(['dashboard', 'dashboard-models', 'dashboard-section', 'grammar-quiz', 'grammar-result', 'model', 'quiz', 'solutions', 'result']);
+const savedWorkspace = hasAuthHint ? readSessionStored(workspaceViewKey, {}) : {};
+const savedView = restorableViews.has(savedWorkspace.view) ? savedWorkspace.view : null;
+const initialView = requestedView === 'dashboard' ? (hasAuthHint ? 'dashboard' : 'login') : (!requestedView ? savedView ?? (hasAuthHint ? 'dashboard' : null) : requestedView);
+const initialViews = new Set(['login', 'register', ...restorableViews]);
+let state = { view: initialViews.has(initialView) ? initialView : 'library', dashboardSection: typeof savedWorkspace.dashboardSection === 'string' ? savedWorkspace.dashboardSection : 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: typeof savedWorkspace.selectedModelId === 'string' ? savedWorkspace.selectedModelId : null, selectedPassageId: typeof savedWorkspace.selectedPassageId === 'string' ? savedWorkspace.selectedPassageId : null, selectedGrammarModelId: typeof savedWorkspace.selectedGrammarModelId === 'string' ? savedWorkspace.selectedGrammarModelId : null, grammarQuestionIndex: Math.max(0, Number(savedWorkspace.grammarQuestionIndex) || 0), grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: Math.max(0, Number(savedWorkspace.questionIndex) || 0), questionStartedAt: Date.now(), translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -1031,6 +1039,49 @@ function applyNibrasAccessibility() {
   });
 }
 
+function persistWorkspaceView() {
+  if (!account || !restorableViews.has(state.view)) return;
+  try {
+    sessionStorage.setItem(workspaceViewKey, JSON.stringify({
+      view: state.view,
+      dashboardSection: state.dashboardSection,
+      selectedModelId: state.selectedModelId,
+      selectedPassageId: state.selectedPassageId,
+      selectedGrammarModelId: state.selectedGrammarModelId,
+      grammarQuestionIndex: state.grammarQuestionIndex,
+      questionIndex: state.questionIndex,
+    }));
+  } catch {
+    // Navigation still works when session storage is unavailable.
+  }
+}
+
+function restoreActiveWorkspaceProgress() {
+  if (state.view === 'quiz') {
+    const model = currentModel();
+    const passage = currentPassage(model);
+    if (!model || !passage) { state.view = 'dashboard-models'; return; }
+    const saved = quizProgress(model.id, passage.id);
+    state.questionIndex = Math.min(state.questionIndex, Math.max(0, passage.questions.length - 1));
+    state.activeAnswers = { ...(saved.answers ?? {}) };
+    state.restoredProgress = Object.keys(saved.answers ?? {}).length > 0;
+  }
+  if (state.view === 'grammar-quiz' || state.view === 'grammar-result') {
+    const model = currentGrammarModel();
+    if (!model || model.status !== 'available') { state.view = 'dashboard-section'; state.dashboardSection = 'grammar'; return; }
+    const saved = grammarProgress(model.id);
+    state.grammarQuestionIndex = Math.min(state.grammarQuestionIndex, Math.max(0, model.questions.length - 1));
+    state.grammarAnswers = { ...(saved.answers ?? {}) };
+    state.grammarConfirmed = Object.fromEntries(Object.entries(saved.results ?? {}).filter(([, value]) => value !== null));
+  }
+  if (['model', 'solutions', 'result'].includes(state.view)) {
+    const model = currentModel();
+    const passage = currentPassage(model);
+    if (!model) state.view = 'dashboard-models';
+    else if (state.view !== 'model' && !passage) state.view = 'model';
+  }
+}
+
 function render() {
   const conversation = document.querySelector('.tutor-conversation');
   const tutorViewport = conversation ? { scrollTop: conversation.scrollTop } : null;
@@ -1038,12 +1089,23 @@ function render() {
   const scrollTutor = state.tutorScrollToEnd;
   state.tutorScrollToEnd = false;
   if (state.authLoading) {
-    // Keep the target surface visible while Better Auth hydrates. This avoids
-    // the distracting full-page loading jump on every visit.
-    if (state.view === 'dashboard' && hasAuthHint) app.innerHTML = dashboardView();
+    // Keep the restored surface in place while Better Auth verifies the
+    // session. Never flash the dashboard or public library over another view.
+    const pendingModel = currentModel();
+    const pendingPassage = currentPassage(pendingModel);
+    if (hasAuthHint && state.view === 'dashboard') app.innerHTML = dashboardView();
+    else if (hasAuthHint && state.view === 'dashboard-models') app.innerHTML = dashboardModelsView();
+    else if (hasAuthHint && state.view === 'dashboard-section') app.innerHTML = state.dashboardSection === 'grammar' ? grammarLibraryView() : dashboardSectionView(state.dashboardSection);
+    else if (hasAuthHint && state.view === 'grammar-quiz' && currentGrammarModel()) app.innerHTML = grammarQuestionView(currentGrammarModel());
+    else if (hasAuthHint && state.view === 'grammar-result' && currentGrammarModel()) app.innerHTML = grammarResultView(currentGrammarModel());
+    else if (hasAuthHint && state.view === 'model' && pendingModel) app.innerHTML = modelView(pendingModel);
+    else if (hasAuthHint && state.view === 'quiz' && pendingModel && pendingPassage) app.innerHTML = quizView(pendingModel, pendingPassage);
+    else if (hasAuthHint && state.view === 'solutions' && pendingModel && pendingPassage) app.innerHTML = solutionsView(pendingModel, pendingPassage);
+    else if (hasAuthHint && state.view === 'result' && pendingModel && pendingPassage) app.innerHTML = resultView(pendingModel, pendingPassage);
     else if (state.view === 'login') app.innerHTML = loginView();
     else if (state.view === 'register') app.innerHTML = registerView();
-    else app.innerHTML = libraryView();
+    else app.innerHTML = hasAuthHint ? dashboardView() : libraryView();
+    applyNibrasAccessibility();
     restoreTutorViewport(viewport, scrollTutor, tutorViewport);
     return;
   }
@@ -1065,6 +1127,7 @@ function render() {
   else app.innerHTML = libraryView();
   applyNibrasAccessibility();
   document.querySelectorAll('[data-listening-review]').forEach((audio) => soundManager.applyListeningVolume(audio));
+  persistWorkspaceView();
   restoreTutorViewport(viewport, scrollTutor, tutorViewport);
 }
 
@@ -1444,6 +1507,7 @@ app.addEventListener('click', (event) => {
         serverMistakes = [];
         serverMistakesLoaded = false;
         localStorage.removeItem(authHintKey);
+        sessionStorage.removeItem(workspaceViewKey);
         progress = {};
         state = { ...state, view: 'library', dashboardSection: 'dashboard', authError: '' };
       })
@@ -1636,31 +1700,56 @@ render();
 
 // Hydrate the UI from the server session on every page load. No account
 // credentials or authentication identity are read from localStorage.
-authClient.getSession()
-  .then(async (response) => {
-    account = response?.data?.user ?? null;
-    if (account) {
-      const localSnapshot = readStored(progressKey(), {});
-      progress = localSnapshot;
-      await migrateLegacyProgress(localSnapshot);
-      await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false })]);
-      if (!serverMistakesLoaded) await refreshServerMistakes({ renderAfter: false });
-      localStorage.setItem(authHintKey, '1');
-      state.view = 'dashboard';
-    } else if (state.view === 'dashboard') {
-      localStorage.removeItem(authHintKey);
-      state.view = requestedView === 'dashboard' ? 'login' : 'library';
+async function getSessionWithRetry() {
+  let lastError;
+  for (let attempt = 0; attempt < 3; attempt += 1) {
+    try {
+      const response = await authClient.getSession();
+      if (response?.error) throw response.error;
+      return response;
+    } catch (error) {
+      lastError = error;
+      if (attempt < 2) await new Promise((resolve) => window.setTimeout(resolve, 250 * (attempt + 1)));
     }
-  })
-  .catch(() => {
-    account = null;
-    localStorage.removeItem(authHintKey);
-    if (state.view === 'dashboard') state.view = requestedView === 'dashboard' ? 'login' : 'library';
-  })
-  .finally(() => {
+  }
+  throw lastError;
+}
+
+async function bootstrapSession() {
+  try {
+    const response = await getSessionWithRetry();
+    account = response?.data?.user ?? null;
+    if (!account) {
+      localStorage.removeItem(authHintKey);
+      sessionStorage.removeItem(workspaceViewKey);
+      if (restorableViews.has(state.view)) state.view = requestedView === 'dashboard' ? 'login' : 'library';
+      return;
+    }
+    if (['login', 'register', 'library'].includes(state.view)) state.view = savedView ?? 'dashboard';
+    const localSnapshot = readStored(progressKey(), {});
+    progress = localSnapshot;
+    restoreActiveWorkspaceProgress();
+    localStorage.setItem(authHintKey, '1');
     state.authLoading = false;
     render();
-  });
+    await migrateLegacyProgress(localSnapshot);
+    await Promise.all([refreshServerDashboard(), refreshLearningState({ renderAfter: false })]);
+    if (!serverMistakesLoaded) await refreshServerMistakes({ renderAfter: false });
+    restoreActiveWorkspaceProgress();
+  } catch (error) {
+    account = null;
+    if (!hasAuthHint) state.view = requestedView === 'dashboard' ? 'login' : 'library';
+    else {
+      state.view = 'login';
+      state.authError = 'تعذر التحقق من الجلسة مؤقتًا. حاول تحديث الصفحة.';
+    }
+  } finally {
+    state.authLoading = false;
+    render();
+  }
+}
+
+void bootstrapSession();
 
 window.addEventListener('focus', () => { if (account) void Promise.all([refreshServerDashboard(), refreshLearningState()]); });
 document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible' && account) void Promise.all([refreshServerDashboard(), refreshLearningState()]); });
