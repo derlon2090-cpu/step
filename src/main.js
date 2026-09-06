@@ -1,8 +1,10 @@
 import './style.css';
 import './raseen.css';
+import './listening.css';
 import { readings } from './data/readings.js';
 import { questionGlossary } from './data/reading/questionGlossary.js';
 import { grammarModels } from './data/grammarModels.js';
+import { listeningModels } from './data/listeningModels.js';
 import { soundManager } from './soundManager.js';
 import { authClient } from '../lib/auth-client.ts';
 import { normalizeEmail } from '../lib/email.js';
@@ -64,12 +66,12 @@ const readSessionStored = (key, fallback) => {
 };
 const requestedView = new URLSearchParams(window.location.search).get('view');
 const hasAuthHint = localStorage.getItem(authHintKey) === '1';
-const restorableViews = new Set(['dashboard', 'dashboard-models', 'dashboard-section', 'grammar-quiz', 'grammar-result', 'mistake-question', 'mistake-solve', 'model', 'quiz', 'solutions', 'result']);
+const restorableViews = new Set(['dashboard', 'dashboard-models', 'dashboard-section', 'grammar-quiz', 'grammar-result', 'listening-model', 'listening-quiz', 'listening-result', 'mistake-question', 'mistake-solve', 'model', 'quiz', 'solutions', 'result']);
 const savedWorkspace = hasAuthHint ? readSessionStored(workspaceViewKey, {}) : {};
 const savedView = restorableViews.has(savedWorkspace.view) ? savedWorkspace.view : null;
 const initialView = requestedView === 'dashboard' ? (hasAuthHint ? 'dashboard' : 'login') : (!requestedView ? savedView ?? (hasAuthHint ? 'dashboard' : null) : requestedView);
 const initialViews = new Set(['login', 'register', ...restorableViews]);
-let state = { view: initialViews.has(initialView) ? initialView : 'library', dashboardSection: typeof savedWorkspace.dashboardSection === 'string' ? savedWorkspace.dashboardSection : 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: typeof savedWorkspace.selectedModelId === 'string' ? savedWorkspace.selectedModelId : null, selectedPassageId: typeof savedWorkspace.selectedPassageId === 'string' ? savedWorkspace.selectedPassageId : null, selectedGrammarModelId: typeof savedWorkspace.selectedGrammarModelId === 'string' ? savedWorkspace.selectedGrammarModelId : null, grammarQuestionIndex: Math.max(0, Number(savedWorkspace.grammarQuestionIndex) || 0), grammarAnswers: {}, grammarConfirmed: {}, query: '', questionIndex: Math.max(0, Number(savedWorkspace.questionIndex) || 0), questionStartedAt: Date.now(), translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, mistakeReviewId: typeof savedWorkspace.mistakeReviewId === 'string' ? savedWorkspace.mistakeReviewId : null, mistakeSolveId: typeof savedWorkspace.mistakeSolveId === 'string' ? savedWorkspace.mistakeSolveId : null, mistakeSolveAnswer: null, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
+let state = { view: initialViews.has(initialView) ? initialView : 'library', dashboardSection: typeof savedWorkspace.dashboardSection === 'string' ? savedWorkspace.dashboardSection : 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: typeof savedWorkspace.selectedModelId === 'string' ? savedWorkspace.selectedModelId : null, selectedPassageId: typeof savedWorkspace.selectedPassageId === 'string' ? savedWorkspace.selectedPassageId : null, selectedGrammarModelId: typeof savedWorkspace.selectedGrammarModelId === 'string' ? savedWorkspace.selectedGrammarModelId : null, grammarQuestionIndex: Math.max(0, Number(savedWorkspace.grammarQuestionIndex) || 0), grammarAnswers: {}, grammarConfirmed: {}, selectedListeningModelId: typeof savedWorkspace.selectedListeningModelId === 'string' ? savedWorkspace.selectedListeningModelId : null, selectedRecordingId: typeof savedWorkspace.selectedRecordingId === 'string' ? savedWorkspace.selectedRecordingId : null, listeningQuestionIndex: Math.max(0, Number(savedWorkspace.listeningQuestionIndex) || 0), listeningAnswers: {}, query: '', questionIndex: Math.max(0, Number(savedWorkspace.questionIndex) || 0), questionStartedAt: Date.now(), translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, mistakeReviewId: typeof savedWorkspace.mistakeReviewId === 'string' ? savedWorkspace.mistakeReviewId : null, mistakeSolveId: typeof savedWorkspace.mistakeSolveId === 'string' ? savedWorkspace.mistakeSolveId : null, mistakeSolveAnswer: null, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -593,7 +595,7 @@ function dashboardView() {
   const skillCards = data.skillStats.map((skill) => `<div class="mastery-item"><div><strong>${escapeHtml(skill.label)}</strong><span>${skill.answered ? `${skill.answered} سؤالًا محلولًا` : 'لم تُقَس بعد'}</span></div><b>${skill.accuracy}%</b><div class="skill-track"><i style="width:${skill.accuracy}%"></i></div></div>`).join('');
   const speedLabel = data.avgSeconds ? `${data.avgSeconds}ث` : '—';
   const speedHint = data.avgSeconds > 60 && data.accuracy >= 80 ? 'دقة ممتازة — تحتاج تحسين السرعة' : data.avgSeconds > 60 ? 'سرعتك أبطأ من هدفك — راجع بهدوء' : data.accuracy >= 80 && data.avgSeconds ? 'سرعتك متوازنة مع دقتك' : 'سنقيس سرعتك مع أول تدريب';
-  return `<main class="dashboard-shell">${dashboardHeader('dashboard')}<section class="dashboard-intro"><span class="eyebrow">مساحة تعلمك الشخصية</span><h1>مرحبًا${account?.name ? `، ${escapeHtml(account.name)}` : ''} 👋</h1><p>لوحة هادئة تعرف مستواك وتقرر معك الخطوة التالية.</p></section><section class="dashboard-focus-grid"><article class="continue-card"><div class="continue-card-copy"><span class="eyebrow">تابع من حيث توقفت</span><h2>${resume ? `${escapeHtml(resume.model.title)} — ${escapeHtml(resume.passage.title)}` : 'ابدأ رحلتك الأولى'}</h2><p>${data.latestContext ? `آخر نشاط ${resume.item.updatedAt ? new Date(resume.item.updatedAt).toLocaleString('ar-SA') : 'محفوظ'}` : 'اختر قطعة وابدأ أول جلسة تدريب.'}</p><div class="continue-progress"><div><i style="width:${resumePercent}%"></i></div><strong>${resumePercent}%</strong></div>${resumeButton}</div><div class="continue-meta"><strong>${Object.keys(resume?.item?.answers ?? {}).length} من ${resume?.passage?.questions.length ?? 0}</strong><span>أسئلة مجابة</span></div></article><aside class="recommendation-card"><span class="eyebrow">ماذا أدرس الآن؟</span><h2>ننصحك اليوم بمراجعة <em>${escapeHtml(data.focusSkill.label)}</em></h2><p>دقتك فيه ${data.focusSkill.accuracy}%${data.focusSkill.answered ? ` بعد ${data.focusSkill.answered} سؤالًا` : ''}.</p><button class="mint-action" data-open-model="${data.firstModel?.id ?? 'reading-01'}">ابدأ تدريبًا مخصصًا <span>←</span></button></aside></section><section class="dashboard-stats dashboard-stats-four metric-strip"><article><strong>${data.progressPercent}%</strong><span>إنجاز المحتوى</span><small>${data.completedPieces} من ${data.passageCount} قطعة</small></article><article><strong>${data.accuracy}%</strong><span>دقة الإجابات</span><small>من ${data.answered} سؤالًا</small></article><article><strong>${data.streak} أيام</strong><span>أيام الانتظام</span><small>${data.activeDaysThisWeek}/7 أيام نشطة هذا الأسبوع</small></article><article><strong>${speedLabel}</strong><span>متوسط السؤال</span><small>${speedHint}</small></article></section><section class="dashboard-main-grid insight-grid"><article class="dashboard-panel mastery-panel"><header class="panel-heading"><div><span class="eyebrow">درجة إتقان لكل مهارة</span><h2>ملف المهارات</h2></div><span class="panel-note">Reading</span></header><div class="mastery-grid">${skillCards}</div></article><article class="dashboard-panel weekly-summary"><header class="panel-heading"><div><span class="eyebrow">ملخصك الأسبوعي</span><h2>هذا الأسبوع</h2></div></header><div class="weekly-summary-number"><strong>${data.weeklyAnswered}</strong><span>سؤالًا حللت</span></div><p>${data.previousWeekAnswered ? `مقابل ${data.previousWeekAnswered} الأسبوع الماضي` : 'أكمل تدريبًا اليوم ليبدأ ملخصك.'}</p><div class="weekly-quality"><span>أقوى مهارة <b>${escapeHtml(data.skillStats.slice().sort((a, b) => b.accuracy - a.accuracy)[0]?.label ?? '—')}</b></span><span>تحتاج تحسين <b>${escapeHtml(data.focusSkill.label)}</b></span></div></article></section><section class="dashboard-main-grid"><article class="dashboard-panel skills-panel"><header class="panel-heading"><div><span class="eyebrow">تقدمك حسب القسم</span><h2>المسارات</h2></div></header><div class="skill-row"><div><strong>Reading</strong><span>${data.completedPieces} من ${data.passageCount} قطعة مكتملة</span></div><b>${data.progressPercent}%</b><div class="skill-track"><i style="width:${data.progressPercent}%"></i></div></div><div class="skill-row"><div><strong>Grammar</strong><span>تدريبات القواعد قيد الإضافة</span></div><b>0%</b><div class="skill-track"><i style="width:0%"></i></div></div><div class="skill-row"><div><strong>Listening</strong><span>تدريبات الاستماع قيد الإضافة</span></div><b>0%</b><div class="skill-track"><i style="width:0%"></i></div></div></article>${improvement}</section><section class="dashboard-main-grid lower-grid"><article class="dashboard-panel mistakes-panel"><header class="panel-heading"><div><span class="eyebrow">مراجعة أخطائي</span><h2>${data.dashboardMistakeCount} خطأ جاهزًا للمراجعة</h2></div><button class="text-action" data-dashboard-section="mistakes">عرض الكل</button></header>${mistakeBreakdown}<button class="navy-action" data-dashboard-section="mistakes">ابدأ المراجعة <span>←</span></button></article><article class="dashboard-panel suggestion-panel"><span class="eyebrow">تدريب اليوم</span><h2>${data.dashboardMistakeCount ? 'جلسة من أخطائك ونقاط ضعفك' : 'جلسة تأسيسية قصيرة'}</h2><p>جلسة قصيرة من الأخطاء والمهارات التي تحتاج تركيزك، ثم نعيد جدولة ما يحتاج مراجعة.</p><button class="mint-action" data-open-model="${data.firstModel?.id ?? 'reading-01'}">ابدأ تدريب اليوم</button></article></section><section class="dashboard-main-grid lower-grid"><article class="dashboard-panel results-panel"><header class="panel-heading"><div><span class="eyebrow">آخر النتائج</span><h2>محاولاتك الأخيرة</h2></div><button class="text-action" data-dashboard-section="progress">عرض جميع النتائج</button></header><table><thead><tr><th>التدريب</th><th>النتيجة</th><th>التاريخ</th></tr></thead><tbody>${recentResults || '<tr><td colspan="3" class="table-empty">لا توجد نتائج مكتملة بعد.</td></tr>'}</tbody></table></article><article class="dashboard-panel chart-panel"><header class="panel-heading"><div><span class="eyebrow">تحسن الطالب</span><h2>تطور دقتك</h2></div><span class="chart-range">آخر 30 يومًا</span></header><div class="dashboard-chart" aria-label="تطور دقة الإجابات">${trendMarkup}</div></article></section></main>`;
+  return `<main class="dashboard-shell">${dashboardHeader('dashboard')}<section class="dashboard-intro"><span class="eyebrow">مساحة تعلمك الشخصية</span><h1>مرحبًا${account?.name ? `، ${escapeHtml(account.name)}` : ''} 👋</h1><p>لوحة هادئة تعرف مستواك وتقرر معك الخطوة التالية.</p></section><section class="dashboard-focus-grid"><article class="continue-card"><div class="continue-card-copy"><span class="eyebrow">تابع من حيث توقفت</span><h2>${resume ? `${escapeHtml(resume.model.title)} — ${escapeHtml(resume.passage.title)}` : 'ابدأ رحلتك الأولى'}</h2><p>${data.latestContext ? `آخر نشاط ${resume.item.updatedAt ? new Date(resume.item.updatedAt).toLocaleString('ar-SA') : 'محفوظ'}` : 'اختر قطعة وابدأ أول جلسة تدريب.'}</p><div class="continue-progress"><div><i style="width:${resumePercent}%"></i></div><strong>${resumePercent}%</strong></div>${resumeButton}</div><div class="continue-meta"><strong>${Object.keys(resume?.item?.answers ?? {}).length} من ${resume?.passage?.questions.length ?? 0}</strong><span>أسئلة مجابة</span></div></article><aside class="recommendation-card"><span class="eyebrow">ماذا أدرس الآن؟</span><h2>ننصحك اليوم بمراجعة <em>${escapeHtml(data.focusSkill.label)}</em></h2><p>دقتك فيه ${data.focusSkill.accuracy}%${data.focusSkill.answered ? ` بعد ${data.focusSkill.answered} سؤالًا` : ''}.</p><button class="mint-action" data-open-model="${data.firstModel?.id ?? 'reading-01'}">ابدأ تدريبًا مخصصًا <span>←</span></button></aside></section><section class="dashboard-stats dashboard-stats-four metric-strip"><article><strong>${data.progressPercent}%</strong><span>إنجاز المحتوى</span><small>${data.completedPieces} من ${data.passageCount} قطعة</small></article><article><strong>${data.accuracy}%</strong><span>دقة الإجابات</span><small>من ${data.answered} سؤالًا</small></article><article><strong>${data.streak} أيام</strong><span>أيام الانتظام</span><small>${data.activeDaysThisWeek}/7 أيام نشطة هذا الأسبوع</small></article><article><strong>${speedLabel}</strong><span>متوسط السؤال</span><small>${speedHint}</small></article></section><section class="dashboard-main-grid insight-grid"><article class="dashboard-panel mastery-panel"><header class="panel-heading"><div><span class="eyebrow">درجة إتقان لكل مهارة</span><h2>ملف المهارات</h2></div><span class="panel-note">Reading</span></header><div class="mastery-grid">${skillCards}</div></article><article class="dashboard-panel weekly-summary"><header class="panel-heading"><div><span class="eyebrow">ملخصك الأسبوعي</span><h2>هذا الأسبوع</h2></div></header><div class="weekly-summary-number"><strong>${data.weeklyAnswered}</strong><span>سؤالًا حللت</span></div><p>${data.previousWeekAnswered ? `مقابل ${data.previousWeekAnswered} الأسبوع الماضي` : 'أكمل تدريبًا اليوم ليبدأ ملخصك.'}</p><div class="weekly-quality"><span>أقوى مهارة <b>${escapeHtml(data.skillStats.slice().sort((a, b) => b.accuracy - a.accuracy)[0]?.label ?? '—')}</b></span><span>تحتاج تحسين <b>${escapeHtml(data.focusSkill.label)}</b></span></div></article></section><section class="dashboard-main-grid"><article class="dashboard-panel skills-panel"><header class="panel-heading"><div><span class="eyebrow">تقدمك حسب القسم</span><h2>المسارات</h2></div></header><div class="skill-row"><div><strong>Reading</strong><span>${data.completedPieces} من ${data.passageCount} قطعة مكتملة</span></div><b>${data.progressPercent}%</b><div class="skill-track"><i style="width:${data.progressPercent}%"></i></div></div><div class="skill-row"><div><strong>Grammar</strong><span>تدريبات القواعد قيد الإضافة</span></div><b>0%</b><div class="skill-track"><i style="width:0%"></i></div></div><div class="skill-row"><div><strong>Listening</strong><span>4 نماذج · 34 مقطعًا جاهزًا للأسئلة</span></div><b>متاح</b><div class="skill-track"><i style="width:100%"></i></div></div></article>${improvement}</section><section class="dashboard-main-grid lower-grid"><article class="dashboard-panel mistakes-panel"><header class="panel-heading"><div><span class="eyebrow">مراجعة أخطائي</span><h2>${data.dashboardMistakeCount} خطأ جاهزًا للمراجعة</h2></div><button class="text-action" data-dashboard-section="mistakes">عرض الكل</button></header>${mistakeBreakdown}<button class="navy-action" data-dashboard-section="mistakes">ابدأ المراجعة <span>←</span></button></article><article class="dashboard-panel suggestion-panel"><span class="eyebrow">تدريب اليوم</span><h2>${data.dashboardMistakeCount ? 'جلسة من أخطائك ونقاط ضعفك' : 'جلسة تأسيسية قصيرة'}</h2><p>جلسة قصيرة من الأخطاء والمهارات التي تحتاج تركيزك، ثم نعيد جدولة ما يحتاج مراجعة.</p><button class="mint-action" data-open-model="${data.firstModel?.id ?? 'reading-01'}">ابدأ تدريب اليوم</button></article></section><section class="dashboard-main-grid lower-grid"><article class="dashboard-panel results-panel"><header class="panel-heading"><div><span class="eyebrow">آخر النتائج</span><h2>محاولاتك الأخيرة</h2></div><button class="text-action" data-dashboard-section="progress">عرض جميع النتائج</button></header><table><thead><tr><th>التدريب</th><th>النتيجة</th><th>التاريخ</th></tr></thead><tbody>${recentResults || '<tr><td colspan="3" class="table-empty">لا توجد نتائج مكتملة بعد.</td></tr>'}</tbody></table></article><article class="dashboard-panel chart-panel"><header class="panel-heading"><div><span class="eyebrow">تحسن الطالب</span><h2>تطور دقتك</h2></div><span class="chart-range">آخر 30 يومًا</span></header><div class="dashboard-chart" aria-label="تطور دقة الإجابات">${trendMarkup}</div></article></section></main>`;
 }
 
 function dashboardModelsView() {
@@ -633,7 +635,7 @@ function mistakeSolveView(mistake) {
 }
 
 function dashboardSectionView(section) {
-  const labels = { mistakes: ['أخطائي', 'راجع الإجابات التي تحتاج إلى تحسين وحوّلها إلى تقدم.'], grammar: ['القواعد', 'مسارات القواعد ستضاف تدريجيًا إلى خطتك.'], listening: ['الاستماع', 'تدريبات الاستماع ستضاف تدريجيًا إلى خطتك.'], writing: ['الكتابة', 'تدريبات الكتابة ستضاف تدريجيًا إلى خطتك.'], exams: ['الاختبارات', 'ابدأ اختبارًا تدريبيًا وتابع نتائج محاولاتك.'], progress: ['تقدمي', 'راجع نتائجك وتطور دقتك عبر الوقت.'], frequent: ['الأكثر تكرارًا', 'وصول مباشر إلى تدريبات STEP الأعلى تكرارًا.'], profile: ['الملف الشخصي', 'بيانات حسابك وإعدادات الوصول.'], settings: ['إعدادات الحساب', 'تحكم في تفضيلات حسابك وبيانات جلستك.'], subscription: ['الاشتراك', 'تفاصيل الوصول إلى مزايا نباهة.'], help: ['المساعدة', 'إجابات سريعة وإرشادات استخدام المنصة.'], reading: ['فهم المقروء', 'تدرب على فهم القطع وربط الفكرة بالتفاصيل.'] };
+  const labels = { mistakes: ['أخطائي', 'راجع الإجابات التي تحتاج إلى تحسين وحوّلها إلى تقدم.'], grammar: ['القواعد', 'مسارات القواعد ستضاف تدريجيًا إلى خطتك.'], listening: ['الاستماع', 'نماذج استماع منظمة إلى مقاطع وأسئلة قصيرة.'], writing: ['الكتابة', 'تدريبات الكتابة ستضاف تدريجيًا إلى خطتك.'], exams: ['الاختبارات', 'ابدأ اختبارًا تدريبيًا وتابع نتائج محاولاتك.'], progress: ['تقدمي', 'راجع نتائجك وتطور دقتك عبر الوقت.'], frequent: ['الأكثر تكرارًا', 'وصول مباشر إلى تدريبات STEP الأعلى تكرارًا.'], profile: ['الملف الشخصي', 'بيانات حسابك وإعدادات الوصول.'], settings: ['إعدادات الحساب', 'تحكم في تفضيلات حسابك وبيانات جلستك.'], subscription: ['الاشتراك', 'تفاصيل الوصول إلى مزايا نباهة.'], help: ['المساعدة', 'إجابات سريعة وإرشادات استخدام المنصة.'], reading: ['فهم المقروء', 'تدرب على فهم القطع وربط الفكرة بالتفاصيل.'] };
   const [title, subtitle] = labels[section] ?? labels.mistakes;
   const mistakes = Object.values(progress).flatMap((item) => item.mistakes ?? []);
   const questionMap = new Map(models.flatMap((model) => model.passages.flatMap((passage) => passage.questions.map((question) => [question.id, { model, passage, question }]))));
@@ -699,6 +701,82 @@ function grammarResultView(model) {
   return `<main class="dashboard-shell grammar-result-shell">${dashboardHeader('grammar')}<section class="grammar-result-card"><span class="eyebrow">نتيجة التدريب</span><h1>${escapeHtml(model.title)} مكتمل</h1><div class="grammar-score"><strong>${score}%</strong><span>${correct} من ${scored.length} إجابة صحيحة</span></div><p>حافظنا على ترتيبك وإجابات المصدر لتتمكن من مراجعة كل سؤال بهدوء.</p><div class="grammar-result-actions"><div class="result-retry-stack"><button class="mint-action" data-grammar-retry>إعادة التدريب</button><button class="outline-action result-mistakes-action" data-open-mistakes="grammar">مراجعة أخطاء القواعد</button></div><button class="outline-action" data-grammar-library>العودة للنماذج</button></div></section></main>`;
 }
 
+function listeningProgress(modelId, recordingId) {
+  return progress.listening?.[modelId]?.[recordingId] ?? { answers: {}, results: {}, status: 'not-started', currentQuestionIndex: 0 };
+}
+
+function setListeningProgress(modelId, recordingId, update) {
+  progress.listening = {
+    ...(progress.listening ?? {}),
+    [modelId]: {
+      ...(progress.listening?.[modelId] ?? {}),
+      [recordingId]: { ...listeningProgress(modelId, recordingId), ...update, updatedAt: new Date().toISOString() },
+    },
+  };
+  saveProgress();
+}
+
+function listeningLibraryView() {
+  const totalRecordings = listeningModels.reduce((sum, model) => sum + model.recordings.length, 0);
+  const totalQuestions = listeningModels.reduce((sum, model) => sum + model.recordings.reduce((count, item) => count + item.questions.length, 0), 0);
+  return `<main class="dashboard-shell listening-shell">${dashboardHeader('listening')}
+    <header class="dashboard-page-heading listening-page-heading"><div><span>مسار STEP · الاستماع</span><h1>نماذج الاستماع</h1><p>اختر نموذجًا، استمع إلى كل مقطع، ثم أجب عن أسئلته بالترتيب.</p></div><button class="outline-action" data-dashboard-section="dashboard">لوحة التحكم</button></header>
+    <section class="listening-overview" aria-label="ملخص محتوى الاستماع"><div><strong>${listeningModels.length}</strong><span>نماذج</span></div><div><strong>${totalRecordings}</strong><span>مقطعًا صوتيًا</span></div><div><strong>${totalQuestions}</strong><span>سؤالًا</span></div><p><b>ملاحظة المصدر</b><span>الأسئلة غير المحسومة محفوظة بلا إجابة معتمدة حتى تتم مراجعتها.</span></p></section>
+    <section class="listening-model-grid" aria-label="نماذج الاستماع">${listeningModels.map((model) => {
+      const completed = model.recordings.filter((item) => listeningProgress(model.id, item.id).status === 'completed').length;
+      const percent = Math.round((completed / model.recordings.length) * 100);
+      return `<article class="listening-model-card"><header><span class="listening-model-index">${String(model.order).padStart(2, '0')}</span><span class="listening-model-state ${percent === 100 ? 'is-complete' : ''}">${percent === 100 ? 'مكتمل' : percent ? 'قيد التدريب' : 'جديد'}</span></header><div><span class="eyebrow">نموذج ${model.order}</span><h2>${escapeHtml(model.title)}</h2><p>${escapeHtml(model.subtitle)}</p></div><div class="listening-model-facts"><span><b>${model.recordings.length}</b> مقاطع</span><span><b>${model.recordings.reduce((count, item) => count + item.questions.length, 0)}</b> سؤالًا</span></div><div class="listening-card-progress"><div><i style="width:${percent}%"></i></div><span>${completed}/${model.recordings.length}</span></div><button class="navy-action" data-open-listening-model="${model.id}">${percent ? 'متابعة النموذج' : 'عرض المقاطع'} <span>←</span></button></article>`;
+    }).join('')}</section>
+  </main>`;
+}
+
+function listeningModelView(model) {
+  const completed = model.recordings.filter((item) => listeningProgress(model.id, item.id).status === 'completed').length;
+  return `<main class="dashboard-shell listening-shell">${dashboardHeader('listening')}
+    <header class="listening-model-hero"><button class="back-button" data-listening-library>← نماذج الاستماع</button><div><span class="eyebrow">النموذج ${model.order}</span><h1>${escapeHtml(model.title)}</h1><p>${completed} من ${model.recordings.length} مقاطع مكتملة</p></div><div class="listening-wave" aria-hidden="true">${[32,54,76,42,88,62,36,70,48,82,56,28].map((height) => `<i style="height:${height}%"></i>`).join('')}</div></header>
+    <section class="recording-grid" aria-label="مقاطع ${escapeHtml(model.title)}">${model.recordings.map((item) => {
+      const saved = listeningProgress(model.id, item.id);
+      const answered = Object.keys(saved.answers ?? {}).length;
+      const done = saved.status === 'completed';
+      const questionRange = item.questions.length === 1 ? `السؤال ${item.questions[0].number}` : `الأسئلة ${item.questions[0].number}–${item.questions.at(-1).number}`;
+      return `<article class="recording-card ${done ? 'is-complete' : ''}"><div class="recording-icon" aria-hidden="true"><span>▶</span></div><div class="recording-copy"><span>${questionRange}</span><h2>المقطع ${item.order}</h2><p>${item.questions.length} ${item.questions.length === 1 ? 'سؤال' : 'أسئلة'} · ${done ? 'مكتمل' : answered ? `${answered} مجابة` : 'لم يبدأ'}</p></div><span class="recording-status">${done ? '✓' : String(item.order).padStart(2, '0')}</span><button data-open-recording="${item.id}">${done ? 'مراجعة المقطع' : answered ? 'متابعة التدريب' : 'ابدأ الاستماع'} <span>←</span></button></article>`;
+    }).join('')}</section>
+  </main>`;
+}
+
+function listeningQuizView(model, recordingItem) {
+  const questions = recordingItem.questions;
+  const index = Math.min(state.listeningQuestionIndex, Math.max(0, questions.length - 1));
+  const question = questions[index];
+  const saved = listeningProgress(model.id, recordingItem.id);
+  const selected = state.listeningAnswers?.[question.id];
+  const answered = selected !== undefined;
+  const hasSourceAnswer = Number.isInteger(question.correctIndex);
+  const progressPercent = Math.round(((index + (answered || !question.options.length ? 1 : 0)) / questions.length) * 100);
+  const options = question.options.map((option, optionIndex) => {
+    const isSelected = selected === optionIndex;
+    const isCorrect = answered && hasSourceAnswer && optionIndex === question.correctIndex;
+    const isWrong = answered && hasSourceAnswer && isSelected && !isCorrect;
+    return `<button class="listening-option ${isSelected ? 'is-selected' : ''} ${isCorrect ? 'is-correct' : ''} ${isWrong ? 'is-wrong' : ''}" data-listening-option="${optionIndex}" ${answered ? 'disabled' : ''}><span>${String.fromCharCode(65 + optionIndex)}</span><strong>${escapeHtml(option)}</strong>${isCorrect ? '<small>الإجابة الصحيحة</small>' : isWrong ? '<small>اختيارك</small>' : ''}</button>`;
+  }).join('');
+  const feedback = answered ? `<div class="listening-feedback ${!hasSourceAnswer ? 'is-neutral' : selected === question.correctIndex ? 'is-correct' : 'is-wrong'}"><strong>${!hasSourceAnswer ? 'تم حفظ اختيارك' : selected === question.correctIndex ? 'إجابة صحيحة، أحسنت.' : 'راجع التفصيل المسموع مرة أخرى.'}</strong><span>${!hasSourceAnswer ? escapeHtml(question.note || 'لا توجد إجابة معتمدة في المصدر.') : selected === question.correctIndex ? 'يمكنك الانتقال إلى السؤال التالي.' : `الإجابة الصحيحة: ${String.fromCharCode(65 + question.correctIndex)}) ${escapeHtml(question.options[question.correctIndex])}`}</span></div>` : '';
+  return `<main class="dashboard-shell listening-quiz-shell">${dashboardHeader('listening')}
+    <header class="listening-quiz-top"><button class="back-button" data-listening-model>← مقاطع النموذج</button><div><span>${escapeHtml(model.title)} · المقطع ${recordingItem.order}</span><h1>السؤال ${index + 1} من ${questions.length}</h1></div><div class="grammar-quiz-progress"><span>${progressPercent}%</span><div><i style="width:${progressPercent}%"></i></div></div></header>
+    <section class="listening-player-card"><div class="player-orbit" aria-hidden="true"><span>♪</span></div><div class="player-copy"><span>المقطع الصوتي ${recordingItem.order}</span><strong>${recordingItem.audioUrl ? 'استمع جيدًا قبل الإجابة' : 'الصوت بانتظار الإرفاق'}</strong><small>${recordingItem.audioUrl ? 'يمكنك إعادة التشغيل أثناء حل أسئلة المقطع.' : 'الأسئلة جاهزة، وسيظهر ملف الصوت هنا فور إضافته.'}</small></div>${recordingItem.audioUrl ? `<audio controls preload="metadata" src="${escapeHtml(recordingItem.audioUrl)}" data-listening-review></audio>` : '<span class="audio-pending-badge">ملف الصوت غير مرفق</span>'}</section>
+    <section class="listening-question-card"><div class="listening-question-meta"><span>Question ${question.number}</span><span>${hasSourceAnswer ? 'إجابة معتمدة' : 'يحتاج مراجعة'}</span></div><div class="question-heading grammar-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${escapeHtml(question.prompt)}</div></div>${question.options.length ? `<div class="listening-options" role="list">${options}</div>` : `<div class="listening-missing-source"><strong>هذا السؤال غير متوفر في المصدر</strong><p>${escapeHtml(question.note)}</p></div>`}${feedback}</section>
+    <footer class="listening-quiz-actions"><button class="outline-action" data-listening-previous ${index === 0 ? 'disabled' : ''}>السابق</button><button class="mint-action" data-listening-next ${question.options.length && !answered ? 'disabled' : ''}>${index === questions.length - 1 ? 'إنهاء المقطع' : 'السؤال التالي'} <span>←</span></button></footer>
+  </main>`;
+}
+
+function listeningResultView(model, recordingItem) {
+  const saved = listeningProgress(model.id, recordingItem.id);
+  const scored = recordingItem.questions.filter((question) => Number.isInteger(question.correctIndex));
+  const correct = scored.filter((question) => saved.results?.[question.id] === true).length;
+  const score = scored.length ? Math.round((correct / scored.length) * 100) : 0;
+  const nextRecording = model.recordings[recordingItem.order] ?? null;
+  return `<main class="dashboard-shell listening-result-shell">${dashboardHeader('listening')}<section class="listening-result-card"><span class="result-headphones" aria-hidden="true">♫</span><span class="eyebrow">اكتمل المقطع ${recordingItem.order}</span><h1>أحسنت، أنهيت هذا المقطع</h1><div class="listening-result-score"><strong>${score}%</strong><span>${correct} من ${scored.length} إجابات معتمدة صحيحة</span></div><p>${recordingItem.questions.length - scored.length ? `${recordingItem.questions.length - scored.length} من الأسئلة لا تحمل إجابة معتمدة، لذلك لم تدخل في النتيجة.` : 'استمر على هذا الإيقاع وأكمل بقية مقاطع النموذج.'}</p><div><button class="outline-action" data-listening-retry>إعادة المقطع</button>${nextRecording ? `<button class="mint-action" data-open-recording="${nextRecording.id}">المقطع التالي <span>←</span></button>` : '<button class="mint-action" data-listening-library>العودة للنماذج</button>'}</div></section></main>`;
+}
+
 function confirmGrammarAnswer(model, question, optionIndex) {
   const isCorrect = question.correctIndex === null ? null : optionIndex === question.correctIndex;
   state.grammarAnswers = { ...(state.grammarAnswers ?? {}), [question.id]: optionIndex };
@@ -734,7 +812,7 @@ function libraryView() {
     ${raseenHeader('الرئيسية')}
     <section class="raseen-hero"><div class="hero-copy"><span class="hero-kicker">منصة متخصصة في STEP فقط</span><h1>خطتك الأذكى لاجتياز <em>STEP</em></h1><p>تدرّب على القراءة من مكان واحد، وتابع تقدمك وأخطاءك حتى تصل إلى هدفك بثقة واحترافية.</p><ul class="hero-features"><li>نماذج مرتبة وواضحة</li><li>تصحيح فوري مع تفسير</li><li>متابعة وحفظ للتقدم</li><li>تجربة مناسبة لكل الأجهزة</li></ul><div class="hero-actions"><button class="orange-action" data-open-model="reading-01">ابدأ رحلتك مع نباهة ←</button><button class="outline-action" data-models-scroll>استكشف النماذج</button></div></div><div class="hero-art"><img src="/assets/raseen-student-hero.png" alt="طالب يستعد لاختبار STEP باستخدام منصة نباهة"><span class="hero-photo-badge">منصة متخصصة في<br><strong>STEP فقط</strong></span></div></section>
     <section class="hero-stats"><div><strong>${models.filter((model) => model.passages.length).length}</strong><span>نماذج متاحة</span></div><div><strong>${totalPassages}</strong><span>قطعة تدريبية</span></div><div><strong>${totalQuestions}</strong><span>سؤالًا منظمًا</span></div><div><strong>${completed}</strong><span>اختبارات مكتملة</span></div></section>
-     <section class="goals-section" aria-labelledby="goals-title"><header class="landing-section-heading"><span>اختر مسارك وابدأ المسار المناسب لك</span><h2 id="goals-title">ماذا تريد أن تحقق؟</h2><p>خطوات صغيرة اليوم تصنع فرقًا كبيرًا في نتيجتك.</p></header><div class="goals-grid"><article class="goal-card goal-reading"><b aria-hidden="true">◫</b><h3>أهم 11 مقطع</h3><p>مقاطع الاستماع الأكثر تكرارًا في STEP</p><button data-open-model="reading-01">ابدأ الآن <span>←</span></button></article><article class="goal-card goal-pieces"><b aria-hidden="true">▤</b><h3>أهم 22 قطعة</h3><p>قطع القراءة الأكثر احتمالًا في الاختبار</p><button data-models-scroll>ابدأ الآن <span>←</span></button></article><article class="goal-card goal-questions"><b aria-hidden="true">☆</b><h3>أهم 150 سؤال</h3><p>أسئلة مركزة على المفاهيم الأساسية</p><button data-models-scroll>ابدأ الآن <span>←</span></button></article><article class="goal-card goal-rules"><b aria-hidden="true">⬡</b><h3>القواعد</h3><p>تقوية الأساس اللغوي خطوة بخطوة</p><button data-dashboard-section="grammar">ابدأ الآن <span>←</span></button></article><article class="goal-card goal-reading-main"><b aria-hidden="true">▣</b><h3>القراءة</h3><p>افهم القطع وأجب بدقة وسرعة</p><button data-open-model="reading-01">ابدأ الآن <span>←</span></button></article><article class="goal-card goal-writing"><b aria-hidden="true">✎</b><h3>الكتابة</h3><p>تعلم الكتابة الصحيحة وبناء الجملة</p><button data-dashboard>ابدأ الآن <span>←</span></button></article><article class="goal-card goal-listening"><b aria-hidden="true">◉</b><h3>الاستماع</h3><p>درّب أذنك على الفكرة والتفاصيل</p><button data-dashboard>ابدأ الآن <span>←</span></button></article></div></section>
+    <section class="goals-section" aria-labelledby="goals-title"><header class="landing-section-heading"><span>اختر مسارك وابدأ المسار المناسب لك</span><h2 id="goals-title">ماذا تريد أن تحقق؟</h2><p>خطوات صغيرة اليوم تصنع فرقًا كبيرًا في نتيجتك.</p></header><div class="goals-grid"><article class="goal-card goal-reading"><b aria-hidden="true">◫</b><h3>34 مقطعًا</h3><p>مقاطع الاستماع المنظمة في 4 نماذج</p><button data-dashboard-section="listening">ابدأ الآن <span>←</span></button></article><article class="goal-card goal-pieces"><b aria-hidden="true">▤</b><h3>أهم 22 قطعة</h3><p>قطع القراءة الأكثر احتمالًا في الاختبار</p><button data-models-scroll>ابدأ الآن <span>←</span></button></article><article class="goal-card goal-questions"><b aria-hidden="true">☆</b><h3>أهم 150 سؤال</h3><p>أسئلة مركزة على المفاهيم الأساسية</p><button data-models-scroll>ابدأ الآن <span>←</span></button></article><article class="goal-card goal-rules"><b aria-hidden="true">⬡</b><h3>القواعد</h3><p>تقوية الأساس اللغوي خطوة بخطوة</p><button data-dashboard-section="grammar">ابدأ الآن <span>←</span></button></article><article class="goal-card goal-reading-main"><b aria-hidden="true">▣</b><h3>القراءة</h3><p>افهم القطع وأجب بدقة وسرعة</p><button data-open-model="reading-01">ابدأ الآن <span>←</span></button></article><article class="goal-card goal-writing"><b aria-hidden="true">✎</b><h3>الكتابة</h3><p>تعلم الكتابة الصحيحة وبناء الجملة</p><button data-dashboard>ابدأ الآن <span>←</span></button></article><article class="goal-card goal-listening"><b aria-hidden="true">◉</b><h3>الاستماع</h3><p>درّب أذنك على الفكرة والتفاصيل</p><button data-dashboard-section="listening">ابدأ الآن <span>←</span></button></article></div></section>
     <section class="models-section" aria-labelledby="models-title"><div class="landing-section-heading models-heading"><span>نماذج واختبارات منظمة</span><h2 id="models-title">نماذج STEP المتاحة</h2><p>اختر النموذج وابدأ التدريب من القطعة المناسبة لك.</p><span class="completion">${completed} مكتملة</span></div>
     <section class="toolbar" aria-label="أدوات القراءة">
       <label class="search"><span>⌕</span><input id="search" value="${escapeHtml(state.query)}" placeholder="ابحث برقم النموذج أو اسم القطعة" /></label>
@@ -1061,6 +1139,14 @@ function currentGrammarModel() {
   return grammarModels.find((model) => model.id === state.selectedGrammarModelId);
 }
 
+function currentListeningModel() {
+  return listeningModels.find((model) => model.id === state.selectedListeningModelId);
+}
+
+function currentRecording(model = currentListeningModel()) {
+  return model?.recordings.find((item) => item.id === state.selectedRecordingId);
+}
+
 function restoreTutorViewport(viewport, scrollTutor, tutorViewport) {
   requestAnimationFrame(() => {
     if (viewport) window.scrollTo(viewport.x, viewport.y);
@@ -1096,6 +1182,9 @@ function persistWorkspaceView() {
       selectedPassageId: state.selectedPassageId,
       selectedGrammarModelId: state.selectedGrammarModelId,
       grammarQuestionIndex: state.grammarQuestionIndex,
+      selectedListeningModelId: state.selectedListeningModelId,
+      selectedRecordingId: state.selectedRecordingId,
+      listeningQuestionIndex: state.listeningQuestionIndex,
       questionIndex: state.questionIndex,
       mistakeReviewId: state.mistakeReviewId,
       mistakeSolveId: state.mistakeSolveId,
@@ -1123,6 +1212,17 @@ function restoreActiveWorkspaceProgress() {
     state.grammarAnswers = { ...(saved.answers ?? {}) };
     state.grammarConfirmed = Object.fromEntries(Object.entries(saved.results ?? {}).filter(([, value]) => value !== null));
   }
+  if (['listening-model', 'listening-quiz', 'listening-result'].includes(state.view)) {
+    const model = currentListeningModel();
+    const recordingItem = currentRecording(model);
+    if (!model) { state.view = 'dashboard-section'; state.dashboardSection = 'listening'; return; }
+    if (state.view !== 'listening-model' && !recordingItem) { state.view = 'listening-model'; return; }
+    if (state.view === 'listening-quiz') {
+      const saved = listeningProgress(model.id, recordingItem.id);
+      state.listeningQuestionIndex = Math.min(state.listeningQuestionIndex, Math.max(0, recordingItem.questions.length - 1));
+      state.listeningAnswers = { ...(saved.answers ?? {}) };
+    }
+  }
   if (['model', 'solutions', 'result'].includes(state.view)) {
     const model = currentModel();
     const passage = currentPassage(model);
@@ -1134,7 +1234,7 @@ function restoreActiveWorkspaceProgress() {
 function render() {
   const conversation = document.querySelector('.tutor-conversation');
   const tutorViewport = conversation ? { scrollTop: conversation.scrollTop } : null;
-  const viewport = ['quiz', 'grammar-quiz'].includes(state.view) ? { x: window.scrollX, y: window.scrollY } : null;
+  const viewport = ['quiz', 'grammar-quiz', 'listening-quiz'].includes(state.view) ? { x: window.scrollX, y: window.scrollY } : null;
   const scrollTutor = state.tutorScrollToEnd;
   state.tutorScrollToEnd = false;
   if (state.authLoading) {
@@ -1144,9 +1244,12 @@ function render() {
     const pendingPassage = currentPassage(pendingModel);
     if (hasAuthHint && state.view === 'dashboard') app.innerHTML = dashboardView();
     else if (hasAuthHint && state.view === 'dashboard-models') app.innerHTML = dashboardModelsView();
-    else if (hasAuthHint && state.view === 'dashboard-section') app.innerHTML = state.dashboardSection === 'grammar' ? grammarLibraryView() : dashboardSectionView(state.dashboardSection);
+    else if (hasAuthHint && state.view === 'dashboard-section') app.innerHTML = state.dashboardSection === 'grammar' ? grammarLibraryView() : state.dashboardSection === 'listening' ? listeningLibraryView() : dashboardSectionView(state.dashboardSection);
     else if (hasAuthHint && state.view === 'grammar-quiz' && currentGrammarModel()) app.innerHTML = grammarQuestionView(currentGrammarModel());
     else if (hasAuthHint && state.view === 'grammar-result' && currentGrammarModel()) app.innerHTML = grammarResultView(currentGrammarModel());
+    else if (hasAuthHint && state.view === 'listening-model' && currentListeningModel()) app.innerHTML = listeningModelView(currentListeningModel());
+    else if (hasAuthHint && state.view === 'listening-quiz' && currentListeningModel() && currentRecording()) app.innerHTML = listeningQuizView(currentListeningModel(), currentRecording());
+    else if (hasAuthHint && state.view === 'listening-result' && currentListeningModel() && currentRecording()) app.innerHTML = listeningResultView(currentListeningModel(), currentRecording());
     else if (hasAuthHint && state.view === 'model' && pendingModel) app.innerHTML = modelView(pendingModel);
     else if (hasAuthHint && state.view === 'quiz' && pendingModel && pendingPassage) app.innerHTML = quizView(pendingModel, pendingPassage);
     else if (hasAuthHint && state.view === 'solutions' && pendingModel && pendingPassage) app.innerHTML = solutionsView(pendingModel, pendingPassage);
@@ -1166,9 +1269,12 @@ function render() {
   else if (state.view === 'register') app.innerHTML = registerView();
   else if (state.view === 'dashboard') app.innerHTML = account ? dashboardView() : loginView();
   else if (state.view === 'dashboard-models') app.innerHTML = account ? dashboardModelsView() : loginView();
-  else if (state.view === 'dashboard-section') app.innerHTML = account ? (state.dashboardSection === 'grammar' ? grammarLibraryView() : dashboardSectionView(state.dashboardSection)) : loginView();
+  else if (state.view === 'dashboard-section') app.innerHTML = account ? (state.dashboardSection === 'grammar' ? grammarLibraryView() : state.dashboardSection === 'listening' ? listeningLibraryView() : dashboardSectionView(state.dashboardSection)) : loginView();
   else if (state.view === 'grammar-quiz' && currentGrammarModel()) app.innerHTML = account ? grammarQuestionView(currentGrammarModel()) : loginView();
   else if (state.view === 'grammar-result' && currentGrammarModel()) app.innerHTML = account ? grammarResultView(currentGrammarModel()) : loginView();
+  else if (state.view === 'listening-model' && currentListeningModel()) app.innerHTML = account ? listeningModelView(currentListeningModel()) : loginView();
+  else if (state.view === 'listening-quiz' && currentListeningModel() && currentRecording()) app.innerHTML = account ? listeningQuizView(currentListeningModel(), currentRecording()) : loginView();
+  else if (state.view === 'listening-result' && currentListeningModel() && currentRecording()) app.innerHTML = account ? listeningResultView(currentListeningModel(), currentRecording()) : loginView();
   else if (state.view === 'mistake-question' && reviewedMistake) app.innerHTML = account ? mistakeQuestionView(reviewedMistake) : loginView();
   else if (state.view === 'mistake-solve' && solvedMistake) app.innerHTML = account ? mistakeSolveView(solvedMistake) : loginView();
   else if (state.view === 'model' && model) app.innerHTML = modelView(model);
@@ -1487,6 +1593,98 @@ app.addEventListener('click', (event) => {
 
   if (event.target.closest('[data-sound-test]')) {
     soundManager.play('answer-correct');
+    return;
+  }
+
+  if (event.target.closest('[data-listening-library]')) {
+    state = { ...state, view: 'dashboard-section', dashboardSection: 'listening', selectedListeningModelId: null, selectedRecordingId: null, listeningQuestionIndex: 0, listeningAnswers: {} };
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-listening-model]')) {
+    state = { ...state, view: 'listening-model', selectedRecordingId: null, listeningQuestionIndex: 0, listeningAnswers: {} };
+    render();
+    return;
+  }
+
+  const listeningModelButton = event.target.closest('[data-open-listening-model]');
+  if (listeningModelButton) {
+    const model = listeningModels.find((candidate) => candidate.id === listeningModelButton.dataset.openListeningModel);
+    if (!model) return;
+    state = { ...state, view: 'listening-model', dashboardSection: 'listening', selectedListeningModelId: model.id, selectedRecordingId: null, listeningQuestionIndex: 0, listeningAnswers: {} };
+    render();
+    return;
+  }
+
+  const recordingButton = event.target.closest('[data-open-recording]');
+  if (recordingButton) {
+    const model = currentListeningModel();
+    const recordingItem = model?.recordings.find((item) => item.id === recordingButton.dataset.openRecording);
+    if (!model || !recordingItem) return;
+    const saved = listeningProgress(model.id, recordingItem.id);
+    state = { ...state, view: 'listening-quiz', dashboardSection: 'listening', selectedRecordingId: recordingItem.id, listeningQuestionIndex: Math.min(saved.currentQuestionIndex ?? 0, recordingItem.questions.length - 1), listeningAnswers: { ...(saved.answers ?? {}) } };
+    setListeningProgress(model.id, recordingItem.id, { status: saved.status === 'completed' ? 'completed' : 'in-progress' });
+    render();
+    return;
+  }
+
+  const listeningOption = event.target.closest('[data-listening-option]');
+  if (listeningOption) {
+    const model = currentListeningModel();
+    const recordingItem = currentRecording(model);
+    const question = recordingItem?.questions[state.listeningQuestionIndex];
+    if (!model || !recordingItem || !question || state.listeningAnswers?.[question.id] !== undefined) return;
+    const selectedIndex = Number(listeningOption.dataset.listeningOption);
+    const hasSourceAnswer = Number.isInteger(question.correctIndex);
+    const result = hasSourceAnswer ? selectedIndex === question.correctIndex : null;
+    const saved = listeningProgress(model.id, recordingItem.id);
+    const answers = { ...(saved.answers ?? {}), [question.id]: selectedIndex };
+    const results = { ...(saved.results ?? {}), [question.id]: result };
+    state.listeningAnswers = answers;
+    setListeningProgress(model.id, recordingItem.id, { answers, results, status: 'in-progress', currentQuestionIndex: state.listeningQuestionIndex });
+    soundManager.play(result === true ? 'answer-correct' : result === false ? 'answer-wrong' : 'option-select');
+    const answerPayload = { skill: 'listening', questionSourceId: question.id, selectedIndex, modelSourceId: model.id, pieceSourceId: recordingItem.id, totalQuestions: recordingItem.questions.length, clientMutationId: crypto.randomUUID() };
+    void sendLearningAnswer(answerPayload).catch(() => null);
+    render();
+    return;
+  }
+
+  if (event.target.closest('[data-listening-next]')) {
+    const model = currentListeningModel();
+    const recordingItem = currentRecording(model);
+    const question = recordingItem?.questions[state.listeningQuestionIndex];
+    if (!model || !recordingItem || !question || (question.options.length && state.listeningAnswers?.[question.id] === undefined)) return;
+    const saved = listeningProgress(model.id, recordingItem.id);
+    if (state.listeningQuestionIndex >= recordingItem.questions.length - 1) {
+      setListeningProgress(model.id, recordingItem.id, { status: 'completed', currentQuestionIndex: 0 });
+      state.view = 'listening-result';
+      soundManager.play('exercise-complete');
+    } else {
+      state.listeningQuestionIndex += 1;
+      setListeningProgress(model.id, recordingItem.id, { status: 'in-progress', currentQuestionIndex: state.listeningQuestionIndex });
+      soundManager.play('question-next');
+    }
+    render();
+    keepQuestionInPlace();
+    return;
+  }
+
+  if (event.target.closest('[data-listening-previous]')) {
+    if (state.listeningQuestionIndex <= 0) return;
+    state.listeningQuestionIndex -= 1;
+    render();
+    keepQuestionInPlace();
+    return;
+  }
+
+  if (event.target.closest('[data-listening-retry]')) {
+    const model = currentListeningModel();
+    const recordingItem = currentRecording(model);
+    if (!model || !recordingItem) return;
+    setListeningProgress(model.id, recordingItem.id, { answers: {}, results: {}, status: 'in-progress', currentQuestionIndex: 0 });
+    state = { ...state, view: 'listening-quiz', listeningQuestionIndex: 0, listeningAnswers: {} };
+    render();
     return;
   }
 
