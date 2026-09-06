@@ -31,3 +31,7 @@ test('tutor opens inward in reading and grammar and shows the Nibras name once',
   assert.match(cssSource, /\.grammar-tutor-anchor \.question-tutor-popover:not\(\.has-conversation\)\{right:auto;left:0;width:284px\}/);
   assert.match(cssSource, /\.tutor-header strong\{font-size:13px\}\.tutor-header strong::after\{content:none\}/);
 });
+
+test('reading tutor conversation remains directly below its icon', () => {
+  assert.match(cssSource, /\.reading-question-heading \.question-tutor-popover\.has-conversation,\.reading-question-heading \.question-tutor-popover\.has-conversation\.is-expanded\{position:absolute;right:auto;bottom:auto;left:0;top:calc\(100% \+ 10px\)/);
+});
