@@ -7,6 +7,7 @@ import { soundManager } from './soundManager.js';
 import { authClient } from '../lib/auth-client.ts';
 import { normalizeEmail } from '../lib/email.js';
 import { questionTutorProvider } from './services/ai/questionTutorProvider.js';
+import { formatTutorContent } from './utils/tutorFormatting.js';
 
 const jsonModelFiles = import.meta.glob('./data/reading/models/model-*.json', { eager: true, import: 'default' });
 const jsonModelsById = new Map(Object.values(jsonModelFiles).map((model) => [
@@ -768,7 +769,7 @@ function tutorPopover(model, passage, question, selectedOption) {
   const actions = tutorActions(selectedOption);
   const messages = session.messages.map((message) => `<div class="tutor-message ${message.role === 'user' ? 'is-user' : 'is-assistant'} ${message.streaming ? 'is-streaming' : ''}">
     ${message.role === 'assistant' && message.source === 'human-note' ? `<span class="tutor-source-badge">شرح ${NIBRAS_BRAND.name}</span>` : ''}
-    <p><span class="tutor-message-content">${escapeHtml(String(message.content ?? '').replace(/^\s*(?:\*{3,}|-{3,}|_{3,})\s*$/gm, '').replace(/\n{3,}/g, '\n\n')).replace(/\n/g, '<br>')}</span>${message.streaming ? '<span class="tutor-cursor" aria-hidden="true">▋</span>' : ''}</p>
+    <p><span class="tutor-message-content">${formatTutorContent(message.content)}</span>${message.streaming ? '<span class="tutor-cursor" aria-hidden="true">▋</span>' : ''}</p>
   </div>`).join('');
   return nibrasizeTutorMarkup(`<section class="question-tutor-popover ${hasConversation ? 'has-conversation' : ''} ${session.expanded ? 'is-expanded' : ''}" id="question-tutor" role="dialog" aria-label="مساعد نباهة">
     <header class="tutor-header">
@@ -791,7 +792,7 @@ function tutorPopover(model, passage, question, selectedOption) {
 function paintTutorStream(key, content) {
   if (!state.tutorOpen || state.tutorQuestionKey !== key) return;
   const streamText = document.querySelector('.tutor-message.is-streaming .tutor-message-content');
-  if (streamText) streamText.textContent = String(content ?? '').replace(/^\s*(?:\*{3,}|-{3,}|_{3,})\s*$/gm, '').replace(/\n{3,}/g, '\n\n');
+  if (streamText) streamText.innerHTML = formatTutorContent(content);
   const conversation = streamText?.closest('.tutor-conversation');
   const session = state.tutorSessions[key];
   if (conversation && session?.autoScroll !== false) {

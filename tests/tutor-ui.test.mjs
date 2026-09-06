@@ -18,6 +18,7 @@ test('tutor stream updates only its text at a paced rate instead of rebuilding t
   assert.match(animatorSource, /paintTutorStream\(key, messages\[index\]\.content\)/);
   assert.match(animatorSource, /setTimeout\(animateStream, 36\)/);
   assert.doesNotMatch(animatorSource, /render\(\)/);
+  assert.match(mainSource, /streamText\.innerHTML = formatTutorContent\(content\)/);
 });
 
 test('tutor follows the streamed response and stays above fixed question controls', () => {
