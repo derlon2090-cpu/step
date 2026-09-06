@@ -17,3 +17,10 @@ test('tutor formatting styles headings and safely escapes generated HTML', () =>
   assert.doesNotMatch(formatted, /<script>/);
   assert.match(formatted, /&lt;script&gt;/);
 });
+
+test('tutor formatting emphasizes educational labels without bolding body copy', () => {
+  const formatted = formatTutorContent('الإجابة الصحيحة: It is mainly spoken by elders.\nهذا شرح طبيعي يبقى خفيفًا.');
+  assert.match(formatted, /class="tutor-inline-label">الإجابة الصحيحة:<\/strong>/);
+  assert.match(formatted, /<span class="tutor-content-line">هذا شرح طبيعي يبقى خفيفًا.<\/span>/);
+  assert.doesNotMatch(formatted, /<strong>هذا شرح طبيعي/);
+});
