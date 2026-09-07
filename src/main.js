@@ -1118,6 +1118,7 @@ function quizView(model, passage) {
     <div class="reading-v2-modebar"><span class="is-active">✓ وضع الاختبار</span><span>▤ الوضع العادي</span></div>
     <section class="reading-v2-quiz-layout">
       <article class="quiz-question active-question reading-v2-question-panel ${selectedId ? answeredCorrectly ? 'answered-correct' : 'answered-wrong' : ''}">
+        <div class="reading-v2-question-scroll">
         <div class="reading-v2-question-kicker"><span>السؤال ${index + 1} من ${passage.questions.length}</span><div class="question-tutor-anchor"><button class="question-tutor-trigger" data-tutor-toggle="${question.id}" aria-label="اسأل نباهة" title="اسأل نباهة" aria-haspopup="dialog" aria-expanded="${state.tutorOpen && state.tutorQuestionKey === tutorSessionKey(model, passage, question)}" aria-controls="question-tutor">${tutorSparkleIcon()}</button>${tutorPopover(model, passage, question, selectedOption)}</div></div>
         <div class="question-heading reading-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${renderQuestionText(question)}</div></div>
         <div class="answer-link-feature"><button class="${answerLinkOpen ? 'is-open' : ''}" data-toggle-answer-link="${question.id}" aria-expanded="${Boolean(answerLinkOpen)}" aria-controls="answer-link-${question.id}" ${!answerLink ? 'disabled' : ''}><span class="answer-link-feature-icon" aria-hidden="true">↔</span><span><strong>ربط الإجابة</strong><small>${answerLink ? 'اربط كلمة من السؤال بالإجابة واحفظها بمنطق بسيط' : 'لا توجد إجابة معتمدة لربطها في هذا السؤال'}</small></span><b>${answerLinkOpen ? 'إغلاق' : answerLink ? 'فتح الربط' : 'غير متاح'}</b></button></div>
@@ -1126,20 +1127,21 @@ function quizView(model, passage) {
         <div class="quiz-options">${displayedOptions(question).map((option, optionIndex) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && hasKnownAnswer && option.isCorrect ? 'correct' : ''} ${selectedId && hasKnownAnswer && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}" ${selectedId ? 'disabled' : ''}><span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span></button>`).join('')}${answerPending && !question.options.length ? '<div class="pending-answer">مفتاح الإجابة والخيارات قيد المراجعة. يمكنك الانتقال للسؤال التالي.</div>' : ''}</div>
         ${selectedId ? answeredCorrectly ? '<p class="answer-note correct-note">صحيح، إجابتك ممتازة.</p>' : `<div class="answer-note wrong-note"><strong>${question.correctAnswer ? `غير صحيح. الحل الصحيح: ${escapeHtml(question.correctAnswer)}` : 'لم تُحدَّد الإجابة الصحيحة في المصدر.'}</strong><p>${escapeHtml(question.explanation)}</p></div>` : ''}
         ${selectedId && hasKnownAnswer ? `<div class="confidence-check"><span>كيف كانت ثقتك قبل التأكيد؟</span><button data-confidence="certain" class="${confidence === 'certain' ? 'selected' : ''}">متأكد</button><button data-confidence="uncertain" class="${confidence === 'uncertain' ? 'selected' : ''}">غير متأكد</button></div>` : ''}
+        </div>
+        <footer class="quiz-actions reading-v2-quiz-actions">
+          <div class="quiz-session-actions" aria-label="إجراءات الاختبار">
+            <button class="quiz-session-reset" data-reset-quiz>إعادة الاختبار</button>
+            <button class="quiz-session-restore" data-restore-progress ${canRestoreProgress ? '' : 'disabled'}>استعادة التقدم${canRestoreProgress ? ` (${savedCount})` : ''}</button>
+          </div>
+          <span>${answered} إجابة محفوظة</span>
+          <div class="quiz-navigation">
+            <button class="primary-action next-action" data-next-question ${selectedId || answerPending ? '' : 'disabled'}>${isLastQuestion ? 'عرض النتيجة' : 'التالي'} <span aria-hidden="true">←</span></button>
+            <button class="secondary-action previous-action" data-previous-question ${index === 0 ? 'disabled' : ''}><span aria-hidden="true">→</span> السابق</button>
+          </div>
+        </footer>
       </article>
       <aside class="passage-reading reading-v2-passage-panel" lang="en" dir="ltr"><header><div><span>▤ نص القطعة</span><h2>${escapeHtml(passage.englishTitle)}</h2><p>${escapeHtml(passage.externalTitle)}</p></div><img src="/assets/reading-passage-landscape.jpg" alt="صورة توضيحية للقطعة" /></header><div>${passageBody}</div></aside>
     </section>
-    <footer class="quiz-actions reading-v2-quiz-actions">
-      <div class="quiz-session-actions" aria-label="إجراءات الاختبار">
-        <button class="quiz-session-reset" data-reset-quiz>إعادة الاختبار</button>
-        <button class="quiz-session-restore" data-restore-progress ${canRestoreProgress ? '' : 'disabled'}>استعادة التقدم${canRestoreProgress ? ` (${savedCount})` : ''}</button>
-      </div>
-      <span>${answered} إجابة محفوظة</span>
-      <div class="quiz-navigation">
-        <button class="primary-action next-action" data-next-question ${selectedId || answerPending ? '' : 'disabled'}>${isLastQuestion ? 'عرض النتيجة' : 'التالي'} <span aria-hidden="true">←</span></button>
-        <button class="secondary-action previous-action" data-previous-question ${index === 0 ? 'disabled' : ''}><span aria-hidden="true">→</span> السابق</button>
-      </div>
-    </footer>
   </main>`;
 }
 

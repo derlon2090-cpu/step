@@ -35,3 +35,26 @@ test('reading redesign includes responsive desktop, tablet, and phone layouts', 
   assert.match(cssSource, /@media\(max-width:900px\)/);
   assert.match(cssSource, /@media\(max-width:600px\)/);
 });
+
+test('desktop reading session keeps the page chrome and question actions inside the viewport', () => {
+  const quizStart = mainSource.indexOf('function quizView');
+  const quizEnd = mainSource.indexOf('function resultView');
+  const quizSource = mainSource.slice(quizStart, quizEnd);
+
+  assert.match(quizSource, /class="reading-v2-question-scroll"/);
+  assert.match(
+    quizSource,
+    /class="reading-v2-question-scroll"[\s\S]*class="quiz-actions reading-v2-quiz-actions"[\s\S]*<\/footer>\s*<\/article>/,
+  );
+  assert.match(reviewCssSource, /html:has\(\.reading-v2-quiz-shell\),body:has\(\.reading-v2-quiz-shell\)\{height:100%;overflow:hidden\}/);
+  assert.match(reviewCssSource, /\.reading-v2-quiz-shell\{[^}]*height:100dvh;[^}]*grid-template-rows:[^}]*minmax\(0,1fr\)/);
+  assert.match(reviewCssSource, /grid-template-areas:"question passage"/);
+  assert.match(reviewCssSource, /\.reading-v2-question-scroll\{[^}]*overflow-y:auto/);
+  assert.match(reviewCssSource, /\.reading-v2-passage-panel>div\{[^}]*overflow-y:auto/);
+});
+
+test('short desktop viewports compact the session while smaller screens retain natural page scrolling', () => {
+  assert.match(reviewCssSource, /@media\(min-width:1100px\) and \(max-height:800px\)/);
+  assert.match(reviewCssSource, /@media\(max-width:1099px\)\{[\s\S]*\.reading-v2-question-scroll\{overflow:visible\}/);
+  assert.match(reviewCssSource, /@media\(max-width:1099px\)\{[\s\S]*\.reading-v2-question-panel>\.reading-v2-quiz-actions\{position:static;height:auto/);
+});
