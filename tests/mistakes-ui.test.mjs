@@ -75,7 +75,7 @@ test('word translation targets the exact clicked occurrence', () => {
 });
 
 test('question actions stay anchored below the question instead of following viewport scroll', () => {
-  assert.match(quizSource, /<main class="quiz-shell quiz-active-shell">/);
+  assert.match(quizSource, /<main class="quiz-shell quiz-active-shell reading-v2-quiz-shell">/);
   assert.match(cssSource, /\.quiz-active-shell>\.quiz-actions,\.grammar-quiz-actions\{position:static;right:auto;bottom:auto;left:auto;width:100%;margin-top:12px/);
   assert.match(cssSource, /padding:8px 0 10px;transform:none;border:0;border-radius:0;background:transparent;box-shadow:none;backdrop-filter:none/);
   assert.match(cssSource, /@media\(min-width:701px\) and \(max-width:1024px\)/);

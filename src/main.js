@@ -1,5 +1,6 @@
 import './style.css';
 import './raseen.css';
+import './reading-v2-review.css';
 import './listening.css';
 import { readings } from './data/readings.js';
 import { questionGlossary } from './data/reading/questionGlossary.js';
@@ -626,7 +627,17 @@ function dashboardView() {
 
 function dashboardModelsView() {
   const filtered = visibleModels();
-  return `<main class="dashboard-shell dashboard-models-shell">${dashboardHeader('reading')}<header class="dashboard-page-heading"><div><span>مكتبة التدريب</span><h1>نماذج القراءة</h1><p>اختر النموذج للوصول إلى قطعه واختباراته.</p></div><button class="outline-action" data-dashboard>لوحة التحكم</button></header><section class="models-section dashboard-models-section"><section class="toolbar" aria-label="أدوات النماذج"><label class="search"><span>⌕</span><input id="search" value="${escapeHtml(state.query)}" placeholder="ابحث برقم النموذج أو اسم القطعة" /></label></section><section class="reading-grid">${filtered.map((model) => { const modelState = readingModelState(model); return `<button class="reading-card ${model.passages.length ? '' : 'locked'} ${modelState.className}" ${model.passages.length ? `data-open-model="${model.id}"` : 'disabled'}><span class="reading-number">${modelNumber(model)}</span><span class="reading-title">${escapeHtml(model.title)}</span><span class="reading-meta">${model.passages.length ? `${model.passages.length} قطع داخلية` : 'بانتظار الإضافة'}</span><span class="reading-status ${modelState.className}">${modelState.label}</span></button>`; }).join('')}</section></section></main>`;
+  return `<main class="dashboard-shell dashboard-models-shell reading-v2-shell">${dashboardHeader('reading')}
+    <section class="reading-v2-hero"><div class="reading-v2-hero-copy"><span>▣ مكتبة التدريب</span><h1>نماذج القراءة</h1><p>اختر النموذج للوصول إلى القطع واختباراتها.</p></div><div class="reading-v2-hero-note"><strong>خطوة</strong><span>أقرب لهدفك</span></div><img src="/assets/reading-library-books.jpg" alt="كتب مفتوحة ومجموعة كتب للدراسة" /></section>
+    <section class="reading-v2-toolbar" aria-label="أدوات نماذج القراءة"><label><span aria-hidden="true">⌕</span><input id="search" value="${escapeHtml(state.query)}" placeholder="ابحث برقم النموذج أو اسم القطعة..." /></label><div><span>▦ ترتيب افتراضي</span><span>▽ جميع الحالات</span></div></section>
+    <section class="reading-v2-model-grid">${filtered.map((model) => {
+      const modelState = readingModelState(model);
+      const questionCount = model.passages.reduce((sum, passage) => sum + passage.questions.length, 0);
+      const completedPieces = model.passages.filter((passage) => quizProgress(model.id, passage.id).status === 'completed').length;
+      const summary = model.passages.slice(0, 2).map((passage) => passage.englishTitle).filter(Boolean).join('، ');
+      return `<button class="reading-v2-model-card ${modelState.className}" ${model.passages.length ? `data-open-model="${model.id}"` : 'disabled'}><span class="reading-v2-file-icon" aria-hidden="true">▯</span><div class="reading-v2-model-number">${String(model.order).padStart(2, '0')}</div><h2>${escapeHtml(model.title)}</h2><small>${model.passages.length} قطع داخلية · ${questionCount} سؤالًا</small><span class="reading-v2-state ${modelState.className}">${modelState.className === 'status-completed' ? '✓' : '◷'} ${escapeHtml(modelState.label)}</span><p>${escapeHtml(summary || model.subtitle)}</p><footer><b>${completedPieces}/${model.passages.length} مكتملة</b><i aria-hidden="true">←</i></footer></button>`;
+    }).join('')}</section>
+  </main>`;
 }
 
 function renderMistakeSurface() {
@@ -876,32 +887,31 @@ function libraryView() {
 }
 
 function modelView(model) {
-  return `<main class="reader-shell">
+  const completedPieces = model.passages.filter((passage) => quizProgress(model.id, passage.id).status === 'completed').length;
+  const answeredQuestions = model.passages.reduce((sum, passage) => sum + Object.keys(quizProgress(model.id, passage.id).answers ?? {}).length, 0);
+  const totalQuestions = model.passages.reduce((sum, passage) => sum + passage.questions.length, 0);
+  const progressPercent = totalQuestions ? Math.round((answeredQuestions / totalQuestions) * 100) : 0;
+  return `<main class="reader-shell reading-v2-shell reading-v2-pieces-shell">
     ${raseenHeader('النماذج')}
-    <header class="reader-top">
-      <button class="back-button" data-library>← النماذج</button>
-      <div><p>النموذج ${modelNumber(model)}</p><h1>${escapeHtml(model.title)}</h1><small>${escapeHtml(model.subtitle)}</small></div>
-    </header>
-    <section class="passage-grid">
+    <section class="reading-v2-piece-hero"><button class="reading-v2-back" data-library>← النماذج</button><div><span>النموذج ${String(model.order).padStart(2, '0')}</span><h1>${escapeHtml(model.title)}</h1><p>اختر قطعة داخل النموذج ثم ابدأ الاختبار.</p></div><div class="reading-v2-piece-motto"><strong>خطوة</strong><span>أقرب لهدفك</span></div><img src="/assets/reading-library-books.jpg" alt="كتب للدراسة والاستعداد لاختبار STEP" /></section>
+    <section class="reading-v2-model-summary"><div class="reading-v2-ring" style="--reading-progress:${progressPercent * 3.6}deg"><span>${progressPercent}%</span></div><p><strong>متوسط التقدم</strong><small>${answeredQuestions} من ${totalQuestions} سؤالًا</small></p><i></i><div class="reading-v2-summary-icon is-complete">✓</div><p><strong>القطع المكتملة</strong><small>${completedPieces} من ${model.passages.length} قطع</small></p><i></i><div class="reading-v2-summary-icon">▯</div><p><strong>إجمالي القطع</strong><small>${model.passages.length} قطع داخل النموذج</small></p></section>
+    <section class="reading-v2-passage-grid">
       ${model.passages.length ? model.passages.map((passage) => {
         const item = quizProgress(model.id, passage.id);
-        return `<article class="passage-card">
-          <span>${String(passage.order).padStart(2, '0')}</span>
-          <strong>${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</strong>
-          <em>${escapeHtml(passage.externalTitle)}</em>
-          <small>${passage.questions.length} أسئلة · ${item.status === 'completed' ? 'مكتملة' : item.status === 'in-progress' ? 'قيد الحل' : 'لم تبدأ'}</small>
-          <div class="passage-actions"><button data-open-passage="${passage.id}">ابدأ الاختبار</button><button data-open-solutions="${passage.id}">عرض الحلول</button></div>
-        </article>`;
-      }).join('') : '<div class="empty-state"><h2>لا توجد قطع داخل هذا النموذج بعد</h2><p>أرسل القطعة التالية بنفس التنسيق وسأضيفها كاختبار مستقل.</p></div>'}
+        const answered = Object.keys(item.answers ?? {}).length;
+        const statusLabel = item.status === 'completed' ? 'تم الحل' : item.status === 'in-progress' ? 'قيد الحل' : 'لم يبدأ';
+        return `<article class="reading-v2-passage-card ${item.status}"><header><span class="reading-v2-file-icon" aria-hidden="true">▯</span><b>${String(passage.order).padStart(2, '0')}</b></header><h2>${escapeHtml(passage.title)}</h2><strong>${escapeHtml(passage.englishTitle)}</strong><p>${escapeHtml(passage.externalTitle)}</p><div class="reading-v2-passage-meta"><span>● ${passage.questions.length} أسئلة</span><span>${answered}/${passage.questions.length}</span><em>${statusLabel}</em></div><footer><button data-open-passage="${passage.id}">${item.status === 'in-progress' ? 'متابعة الاختبار' : 'ابدأ الاختبار'}</button><button data-open-solutions="${passage.id}">عرض الحلول</button></footer></article>`;
+      }).join('') : '<div class="empty-state"><h2>لا توجد قطع داخل هذا النموذج بعد</h2><p>ستظهر القطع هنا فور اعتمادها.</p></div>'}
     </section>
   </main>`;
 }
 
 function solutionsView(model, passage) {
-  return `<main class="solutions-shell">
+  return `<main class="solutions-shell reading-v2-shell reading-v2-solutions-shell">
     ${raseenHeader('النماذج')}
-    <header class="solutions-top"><button class="back-button" data-model>← قطع النموذج</button><div><p>${escapeHtml(model.title)}</p><h1>حلول ${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</h1><small>${escapeHtml(passage.externalTitle)}</small></div><strong>${passage.questions.length} سؤالًا محلولًا</strong></header>
-    <section class="solutions-list">${passage.questions.map((question) => `<article class="solution-card"><div class="solution-content"><div class="question-heading solution-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${escapeHtml(question.question)}</div></div><div class="solution-answer"><span>الإجابة الصحيحة</span><strong>${question.correctAnswer ? escapeHtml(question.correctAnswer) : 'غير محددة في المصدر'}</strong></div><p class="solution-why"><b>لماذا؟</b> ${escapeHtml(question.explanation)}</p></div></article>`).join('')}</section>
+    <nav class="reading-v2-breadcrumb" aria-label="مسار حلول القراءة"><button data-library>مكتبة القراءة</button><span>‹</span><button data-model>${escapeHtml(model.title)}</button><span>‹</span><b>عرض الحلول</b></nav>
+    <header class="reading-v2-review-hero"><div><button class="reading-v2-back" data-model>← قطع النموذج</button><span>مراجعة ما بعد التدريب</span><h1>حلول ${escapeHtml(passage.title)}</h1><p>${escapeHtml(passage.englishTitle)} · ${escapeHtml(passage.externalTitle)}</p></div><section><strong>${passage.questions.length}</strong><span>سؤالًا مشروحًا</span></section><img src="/assets/reading-passage-landscape.jpg" alt="صورة توضيحية لقطعة القراءة" /></header>
+    <section class="solutions-list reading-v2-solutions-list">${passage.questions.map((question) => `<article class="solution-card reading-v2-solution-card"><div class="solution-content"><div class="question-heading solution-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${escapeHtml(question.question)}</div></div><div class="solution-answer"><span>الإجابة الصحيحة</span><strong>${question.correctAnswer ? escapeHtml(question.correctAnswer) : 'غير محددة في المصدر'}</strong></div><p class="solution-why"><b>لماذا؟</b> ${escapeHtml(question.explanation)}</p></div></article>`).join('')}</section>
   </main>`;
 }
 
@@ -1096,37 +1106,30 @@ function quizView(model, passage) {
   const isLastQuestion = index === passage.questions.length - 1;
   const answerLink = buildReadingAnswerLink(question);
   const answerLinkOpen = state.answerLinkQuestionId === question.id && answerLink;
-  return `<main class="quiz-shell quiz-active-shell">
+  const progressPercent = Math.round(((index + 1) / passage.questions.length) * 100);
+  const passageBody = passage.passageText
+    ? escapeHtml(passage.passageText).split('\n\n').map((paragraph) => `<p>${paragraph}</p>`).join('')
+    : `<div class="reading-v2-passage-empty"><strong>نص القطعة غير مرفق في المصدر</strong><p>اعتمد على السؤال وخياراته الموثقة، وستظهر القطعة هنا فور توفر نصها الأصلي.</p></div>`;
+  return `<main class="quiz-shell quiz-active-shell reading-v2-quiz-shell">
     ${raseenHeader('النماذج')}
-    <header class="quiz-top">
-      <button class="back-button" data-model>← قطع النموذج</button>
-      <div><p>${escapeHtml(model.title)}</p><h1>${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</h1><small>${escapeHtml(passage.externalTitle)}</small></div>
-      <strong>${index + 1} / ${passage.questions.length}</strong>
-    </header>
-    <section class="question-progress" aria-label="تقدم الاختبار">
-      <span style="width:${((index + 1) / passage.questions.length) * 100}%"></span>
-    </section>
-    ${passage.passageText ? `<section class="passage-reading" lang="en" dir="ltr"><header><span>Passage</span><small>Read the passage, then answer the question</small></header><div>${escapeHtml(passage.passageText).split('\n\n').map((paragraph) => `<p>${paragraph}</p>`).join('')}</div></section>` : ''}
-    <section class="quiz-list">
-      <article class="quiz-question active-question ${selectedId ? answeredCorrectly ? 'answered-correct' : 'answered-wrong' : ''}">
-        <div class="question-heading reading-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${renderQuestionText(question)}</div><div class="question-tutor-anchor"><button class="question-tutor-trigger" data-tutor-toggle="${question.id}" aria-label="اسأل نباهة" title="اسأل نباهة" aria-haspopup="dialog" aria-expanded="${state.tutorOpen && state.tutorQuestionKey === tutorSessionKey(model, passage, question)}" aria-controls="question-tutor">${tutorSparkleIcon()}</button>${tutorPopover(model, passage, question, selectedOption)}</div></div>
+    <nav class="reading-v2-breadcrumb" aria-label="مسار القراءة"><button data-library>مكتبة القراءة</button><span>‹</span><button data-model>${escapeHtml(model.title)}</button><span>‹</span><b>${escapeHtml(passage.title)}</b></nav>
+    <button class="reading-v2-back reading-v2-quiz-back" data-model>← قائمة القطع</button>
+    <header class="reading-v2-quiz-overview"><img src="/assets/reading-passage-landscape.jpg" alt="منظر جبلي يرمز إلى قطعة القراءة" /><div><span>${escapeHtml(passage.title)}</span><h1>${escapeHtml(passage.englishTitle)}</h1><p>${escapeHtml(passage.externalTitle)}</p></div><section><div class="reading-v2-overview-progress"><i><b style="width:${progressPercent}%"></b></i><span>${progressPercent}%</span></div><strong>${index + 1} / ${passage.questions.length}</strong><small>السؤال الحالي</small></section></header>
+    <div class="reading-v2-modebar"><span class="is-active">✓ وضع الاختبار</span><span>▤ الوضع العادي</span></div>
+    <section class="reading-v2-quiz-layout">
+      <article class="quiz-question active-question reading-v2-question-panel ${selectedId ? answeredCorrectly ? 'answered-correct' : 'answered-wrong' : ''}">
+        <div class="reading-v2-question-kicker"><span>السؤال ${index + 1} من ${passage.questions.length}</span><div class="question-tutor-anchor"><button class="question-tutor-trigger" data-tutor-toggle="${question.id}" aria-label="اسأل نباهة" title="اسأل نباهة" aria-haspopup="dialog" aria-expanded="${state.tutorOpen && state.tutorQuestionKey === tutorSessionKey(model, passage, question)}" aria-controls="question-tutor">${tutorSparkleIcon()}</button>${tutorPopover(model, passage, question, selectedOption)}</div></div>
+        <div class="question-heading reading-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${renderQuestionText(question)}</div></div>
         <div class="answer-link-feature"><button class="${answerLinkOpen ? 'is-open' : ''}" data-toggle-answer-link="${question.id}" aria-expanded="${Boolean(answerLinkOpen)}" aria-controls="answer-link-${question.id}" ${!answerLink ? 'disabled' : ''}><span class="answer-link-feature-icon" aria-hidden="true">↔</span><span><strong>ربط الإجابة</strong><small>${answerLink ? 'اربط كلمة من السؤال بالإجابة واحفظها بمنطق بسيط' : 'لا توجد إجابة معتمدة لربطها في هذا السؤال'}</small></span><b>${answerLinkOpen ? 'إغلاق' : answerLink ? 'فتح الربط' : 'غير متاح'}</b></button></div>
         ${answerLinkOpen ? `<aside class="answer-link-card" id="answer-link-${question.id}" aria-label="ربط الإجابة"><header><span>ربط منطقي سهل للحفظ</span><button data-toggle-answer-link="${question.id}" aria-label="إغلاق ربط الإجابة">×</button></header><div class="answer-link-bridge" dir="ltr"><span>${escapeHtml(answerLink.keyword)}</span><i aria-hidden="true">→</i><strong>${escapeHtml(answerLink.answer)}</strong></div><p class="answer-link-memory"><b>سبب الربط:</b> ${escapeHtml(answerLink.memory)}</p><p class="answer-link-reason"><b>لماذا الإجابة صحيحة؟</b> ${escapeHtml(answerLink.reason)}</p></aside>` : ''}
-        <div class="question-tools">
-          <button data-toggle-translation="${question.id}">${state.translationQuestionId === question.id ? 'إخفاء ترجمة الكلمات' : 'ترجمة الكلمات'}</button>
-          <small>${state.translationQuestionId === question.id ? 'اضغط على الكلمة لعرض ترجمتها.' : 'فعّل الترجمة لتصبح كل كلمة في السؤال قابلة للضغط.'}</small>
-        </div>
-        <div class="quiz-options">
-          ${displayedOptions(question).map((option, optionIndex) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && hasKnownAnswer && option.isCorrect ? 'correct' : ''} ${selectedId && hasKnownAnswer && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}" ${selectedId ? 'disabled' : ''}>
-            <span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span>
-          </button>`).join('')}
-          ${answerPending && !question.options.length ? '<div class="pending-answer">مفتاح الإجابة والخيارات قيد المراجعة. يمكنك الانتقال للسؤال التالي.</div>' : ''}
-        </div>
+        <div class="question-tools"><button data-toggle-translation="${question.id}">${state.translationQuestionId === question.id ? 'إخفاء ترجمة الكلمات' : 'ترجمة الكلمات'}</button><small>${state.translationQuestionId === question.id ? 'اضغط على الكلمة لعرض ترجمتها.' : 'فعّل الترجمة لتصبح كلمات السؤال قابلة للضغط.'}</small></div>
+        <div class="quiz-options">${displayedOptions(question).map((option, optionIndex) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && hasKnownAnswer && option.isCorrect ? 'correct' : ''} ${selectedId && hasKnownAnswer && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}" ${selectedId ? 'disabled' : ''}><span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span></button>`).join('')}${answerPending && !question.options.length ? '<div class="pending-answer">مفتاح الإجابة والخيارات قيد المراجعة. يمكنك الانتقال للسؤال التالي.</div>' : ''}</div>
         ${selectedId ? answeredCorrectly ? '<p class="answer-note correct-note">صحيح، إجابتك ممتازة.</p>' : `<div class="answer-note wrong-note"><strong>${question.correctAnswer ? `غير صحيح. الحل الصحيح: ${escapeHtml(question.correctAnswer)}` : 'لم تُحدَّد الإجابة الصحيحة في المصدر.'}</strong><p>${escapeHtml(question.explanation)}</p></div>` : ''}
         ${selectedId && hasKnownAnswer ? `<div class="confidence-check"><span>كيف كانت ثقتك قبل التأكيد؟</span><button data-confidence="certain" class="${confidence === 'certain' ? 'selected' : ''}">متأكد</button><button data-confidence="uncertain" class="${confidence === 'uncertain' ? 'selected' : ''}">غير متأكد</button></div>` : ''}
       </article>
+      <aside class="passage-reading reading-v2-passage-panel" lang="en" dir="ltr"><header><div><span>▤ نص القطعة</span><h2>${escapeHtml(passage.englishTitle)}</h2><p>${escapeHtml(passage.externalTitle)}</p></div><img src="/assets/reading-passage-landscape.jpg" alt="صورة توضيحية للقطعة" /></header><div>${passageBody}</div></aside>
     </section>
-    <footer class="quiz-actions">
+    <footer class="quiz-actions reading-v2-quiz-actions">
       <div class="quiz-session-actions" aria-label="إجراءات الاختبار">
         <button class="quiz-session-reset" data-reset-quiz>إعادة الاختبار</button>
         <button class="quiz-session-restore" data-restore-progress ${canRestoreProgress ? '' : 'disabled'}>استعادة التقدم${canRestoreProgress ? ` (${savedCount})` : ''}</button>
@@ -1148,13 +1151,10 @@ function resultView(model, passage) {
   const unanswered = scoredQuestions.filter((question) => !item.answers?.[question.id]).length;
   const wrong = scoredQuestions.length - correct - unanswered;
   const percentage = scoredQuestions.length ? Math.round((correct / scoredQuestions.length) * 100) : 0;
-  return `<main class="quiz-shell">
+  return `<main class="quiz-shell reading-v2-shell reading-v2-result-shell">
     ${raseenHeader('النماذج')}
-    <header class="quiz-top">
-      <button class="back-button" data-model>← قطع النموذج</button>
-      <div><p>نتيجة الاختبار</p><h1>${escapeHtml(passage.title)} — ${escapeHtml(passage.englishTitle)}</h1><small>${escapeHtml(model.title)}</small></div>
-      <strong>${correct} / ${scoredQuestions.length}</strong>
-    </header>
+    <nav class="reading-v2-breadcrumb" aria-label="مسار نتيجة القراءة"><button data-library>مكتبة القراءة</button><span>‹</span><button data-model>${escapeHtml(model.title)}</button><span>‹</span><b>النتيجة</b></nav>
+    <header class="reading-v2-result-hero"><div><span>اكتمل اختبار ${escapeHtml(passage.title)}</span><h1>${percentage >= 80 ? 'أداء رائع، واصل تقدمك' : percentage >= 60 ? 'نتيجة جيدة، والمراجعة سترفعها' : 'بداية موفقة، راجع الحلول وثبّت الفكرة'}</h1><p>${escapeHtml(passage.englishTitle)} · ${escapeHtml(model.title)}</p><button class="reading-v2-back" data-model>← العودة إلى القطع</button></div><section><strong>${percentage}%</strong><span>${correct} من ${scoredQuestions.length} صحيحة</span></section><img src="/assets/reading-passage-landscape.jpg" alt="منظر جبلي يرمز إلى إكمال اختبار القراءة" /></header>
     <section class="result-summary">
       <div><strong>${percentage}%</strong><span>النسبة</span></div>
       <div><strong>${correct}</strong><span>صحيح</span></div>
@@ -1162,7 +1162,7 @@ function resultView(model, passage) {
       <div><strong>${unanswered}</strong><span>غير مجاب</span></div>
       ${pendingCount ? `<div><strong>${pendingCount}</strong><span>مفتاح معلّق</span></div>` : ''}
     </section>
-    <section class="quiz-list review-mode">
+    <section class="quiz-list review-mode reading-v2-result-review">
       ${passage.questions.map((question) => {
         const selectedId = item.answers?.[question.id];
         const selected = question.options.find((option) => option.id === selectedId);
@@ -1178,7 +1178,7 @@ function resultView(model, passage) {
         </article>`;
       }).join('')}
     </section>
-    <footer class="quiz-actions">
+    <footer class="quiz-actions reading-v2-result-actions">
       <button class="primary-action" data-reset-quiz>إعادة الاختبار</button>
       <button class="primary-action" data-model>العودة للقطع</button>
     </footer>
