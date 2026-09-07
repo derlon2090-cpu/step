@@ -1,6 +1,6 @@
 /* Reading workspace v2 — solution review and results. */
 html,body{overflow-x:clip}
-.reading-v2-shell>.dashboard-header{margin-inline:calc(50% - 50vw)}
+.reading-v2-shell>.dashboard-header{margin-block-start:0;margin-inline:calc(50% - 50vw)}
 .reading-v2-review-hero,.reading-v2-result-hero{position:relative;display:flex;align-items:center;min-height:150px;margin-top:12px;padding:24px 280px 24px 28px;border:1px solid #dce6f3;border-radius:17px;background:linear-gradient(110deg,#fff 0%,#f2f7ff 58%,#dceaff 100%);box-shadow:0 9px 25px rgba(20,55,116,.05);overflow:hidden}
 .reading-v2-review-hero>img,.reading-v2-result-hero>img{position:absolute;right:0;inset-block:0;width:240px;height:100%;object-fit:cover}
 .reading-v2-review-hero>div,.reading-v2-result-hero>div{display:grid;justify-items:start;gap:7px;min-width:0}
