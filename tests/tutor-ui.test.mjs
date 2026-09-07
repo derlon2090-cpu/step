@@ -53,4 +53,6 @@ test('tutor opens inward in reading and grammar and shows the Nibras name once',
 
 test('reading tutor conversation remains directly below its icon', () => {
   assert.match(cssSource, /\.reading-question-heading \.question-tutor-popover\.has-conversation,\.reading-question-heading \.question-tutor-popover\.has-conversation\.is-expanded\{position:absolute;right:auto;bottom:auto;left:0;top:calc\(100% \+ 10px\)/);
+  assert.match(cssSource, /\.reading-v2-question-kicker \.question-tutor-popover,\.reading-question-heading \.question-tutor-popover,\.grammar-tutor-anchor \.question-tutor-popover\{position:absolute;right:auto;bottom:auto;left:0;top:calc\(100% \+ 10px\);width:min\(336px/);
+  assert.match(cssSource, /\.reading-v2-question-kicker \.question-tutor-popover\.is-expanded[^}]*width:min\(368px/);
 });
