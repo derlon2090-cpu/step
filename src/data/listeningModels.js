@@ -14,6 +14,8 @@ const answerOnly = (number, prompt, answer, note = '') => ({
   answerStatus: 'source_reference',
 });
 
+const reviewOnly = (number, prompt, note) => q(number, prompt, [], null, note);
+
 const recording = (order, questions, title = '') => ({
   id: `recording-${order}`,
   order,
@@ -601,6 +603,203 @@ export const listeningModels = [
         answerOnly(25, 'ما وظيفته؟', 'Lecturer of Mathematics', 'المصدر يقدم السؤال والإجابة دون خيارات.'),
       ], 'Studying in Japan'),
       recording(10, [answerOnly(26, 'متى تصل الرحلة؟', 'Thirty minutes — 30 دقيقة', 'الإجابة موثقة في وصف المصدر دون خيارات.')], 'محادثة رحلة الدمام'),
+    ],
+  },
+  {
+    id: 'listening-16', order: 16, title: 'نموذج الاستماع السادس عشر', subtitle: 'حوارات سفر وعمل ومواقف يومية موثقة',
+    recordings: [
+      recording(1, [
+        q(19, 'The two people talking in the conversation are probably …', ['a receptionist and a university applicant', 'a secretary and a job applicant', 'a banker and a loan applicant', 'a boss and a new employee'], 1, 'رقما السؤالين 19 و20 محفوظان كما ظهرا في بداية المصدر.'),
+        q(20, 'This conversation probably takes place in a …', ['university office', 'conference room', 'business office', 'cafeteria'], 2, 'رقما السؤالين 19 و20 محفوظان كما ظهرا في بداية المصدر.'),
+      ], 'Job Applicant'),
+      recording(2, [
+        answerOnly(1, 'كيف أتقن اللغة الإنجليزية؟', 'Talking to many people — التحدث مع كثير من الناس', 'محادثة مع شخص متقن للغة الإنجليزية؛ المصدر لا يعرض خيارات كاملة.'),
+        answerOnly(2, 'ما الطريقة الأفضل التي اقترحها لتعلم اللغة؟', 'We enjoy learning English — الاستمتاع في التعلم', 'الإجابة موثقة نصيًا دون خيارات.'),
+      ], 'Learning English'),
+      recording(3, [
+        reviewOnly(1, 'أين تدور المحادثة؟', 'المصدر كتب “Sport shirt”، لكن الصياغة لا تحسم هل المقصود محل ملابس رياضية أم قميص رياضي؛ يحتاج مراجعة الصوت.'),
+        answerOnly(2, 'ما لون القميص؟', 'White — أبيض', 'محادثة في محل ملابس رياضية؛ الإجابة موثقة دون خيارات.'),
+        answerOnly(3, 'ما مقاس القميص؟', 'XL', 'الإجابة موثقة دون خيارات.'),
+      ], 'Sportswear Shop'),
+      recording(4, [
+        answerOnly(1, 'متى انتظر الشخص الأول صديقه؟', 'Yesterday — بالأمس', 'محادثة بين صديقين؛ أحدهما انشغل بعمل استمر معه طوال الليل.'),
+        answerOnly(2, 'لماذا لم يذهب إلى صديقه؟', 'he has hard working — كان لديه عمل كثير أو شاق', 'العبارة الإنجليزية محفوظة كما وردت في المصدر، مع توضيح معناها بالعربية.'),
+      ], 'Busy Friend'),
+      recording(5, [
+        answerOnly(1, 'ما المخالفة التي ارتكبها؟', 'Speeding — السرعة', 'محادثة بين شرطي ومخالف.'),
+        answerOnly(2, 'أين تدور المحادثة؟', 'On the side of the road', 'الإجابة موثقة دون خيارات.'),
+      ], 'Speeding Stop'),
+      recording(6, [
+        answerOnly(1, 'لماذا تأخر المعلم عن الدوام؟', 'Accident — لأن أخاه تعرض لحادث', 'محادثة عن معلم تأخر بسبب حادث حصل لأخيه.'),
+        reviewOnly(2, 'ماذا طلب من المعلم الثاني؟', 'المصدر يذكر أنه طلب أن يقول أو يشرح شيئًا لتلاميذه، لكن الصياغة والإجابة غير مؤكدتين.'),
+        answerOnly(3, 'ماذا سيفعل صديقه إذا سأله المدير عن سبب تأخر زميله؟', 'سيقدم عذرًا أو اعتذارًا أمام المدير.', 'السؤال مكتوب كملاحظة عربية وليس بصياغة اختبار إنجليزية كاملة.'),
+      ], "Brother's Accident"),
+      recording(7, [
+        answerOnly(1, 'أين تدور المحادثة؟', 'In or at the university — في الجامعة', 'شخص يسأل عن كلية معينة داخل الجامعة.'),
+        answerOnly(2, 'أين انتقلت الكلية؟', 'The building is moved — انتقلت إلى مكان آخر', 'العبارة محفوظة كما وردت في المصدر.'),
+        reviewOnly(3, 'هل السائل طالب جديد أم زائر؟', 'الإجابة غير ظاهرة في المصدر.'),
+      ], 'University Directions'),
+      recording(8, [
+        answerOnly(1, 'ما جنسية المسافرة؟', 'كويتية', 'محادثة مع مسافرة كويتية ستسافر إلى لبنان.'),
+        answerOnly(2, 'إلى أين كانت ذاهبة؟', 'لبنان', 'الإجابة موثقة دون خيارات.'),
+      ], 'Kuwaiti Traveler'),
+      recording(9, [
+        answerOnly(1, 'ماذا كان يريد أن يشتري؟', 'Ticket — تذكرة', 'محادثة لشخص في مطار أو محطة قطار.'),
+        answerOnly(2, 'ماذا سيفعل عندما تأتي الرحلة؟', 'يأكل شطيرة.', 'الإجابة موثقة دون خيارات.'),
+      ], 'Ticket & Sandwich'),
+    ],
+  },
+  {
+    id: 'listening-17', order: 17, title: 'نموذج الاستماع السابع عشر', subtitle: 'حوارات تعلم وسفر وصحة ومراجعات',
+    recordings: [
+      recording(1, [
+        answerOnly(1, 'أين ظهر الإعلان؟', 'على YouTube', 'محادثة عن امرأة أعدت إعلانًا.'),
+        answerOnly(2, 'ما أول شيء شرحته أو عرضته؟', 'Samsung 6s edge', 'الإجابة موثقة دون خيارات.'),
+      ], 'YouTube Advertisement'),
+      recording(2, [
+        answerOnly(1, 'لماذا استعارت أسماء الكتاب؟', 'لأن كتابها غير مكتمل.', 'أسماء تريد استعارة كتاب صاحبتها لأنها فاتها درس.'),
+        answerOnly(2, 'لماذا تقطعت الورقة؟', 'لأن أخاها الصغير أتلفها.', 'الإجابة موثقة في وصف المصدر دون خيارات.'),
+      ], 'Borrowed Book'),
+      recording(3, [
+        answerOnly(1, 'ماذا تسمي أروى الشيء الذي تعمل عليه؟', 'A memory books', 'العبارة محفوظة كما وردت في المصدر.'),
+        answerOnly(2, 'ما نوع التعديل الذي أجرته على الصورة؟', 'Notes', 'الإجابة موثقة دون خيارات.'),
+      ], 'Memory Book'),
+      recording(4, [
+        reviewOnly(1, 'لماذا تحدث سعود مع نواف؟', 'المصدر يذكر أن الإجابة هي الخيار الأخير، لكن الخيارات غير موجودة؛ يحتاج مراجعة الصوت.'),
+        answerOnly(2, 'من سيقوم بتدريب سعود على القيادة؟', "Nawaf's brother — أخو نواف", 'نواف طلب منه الحضور غدًا وأخبره أن أخاه سيعلمه القيادة.'),
+      ], 'Driving Practice'),
+      recording(5, [answerOnly(1, 'أي مقعد اختار الرجل؟', 'The aisle seat — المقعد بجانب الممر', 'الموظفة سألته هل يريد مقعد النافذة أم الممر.')], 'Aisle Seat'),
+      recording(6, [
+        reviewOnly(1, 'من المتحدث في المقطع؟', 'المصدر يرجح قائد رحلة أو سائق حافلة، لكن هذه ملاحظة تذكّر غير مؤكدة.'),
+        answerOnly(2, 'ما وقت الموعد؟', '6:00 تمامًا', 'المقطع وقع بعد الظهر وفيه موعد؛ تفاصيل المغادرة والوصول غير مكتملة.'),
+      ], "Six O'Clock Appointment"),
+      recording(7, [reviewOnly(1, 'كيف استجاب الشخص لطلب استخدام هاتفه؟', 'لا توجد إجابة مؤكدة؛ الملاحظات المحتملة تذكر نفاد الشحن أو أن الهاتف في البيت أو أنه غاضب.')], 'Phone Request'),
+      recording(8, [
+        q(1, 'Bone strength depends on …', ['old', 'Life style'], 1),
+        reviewOnly(2, 'متى أو كيف تكون العظام قوية؟', 'المصدر يذكر معنى أنها أقوى في مرحلة مبكرة أو حول الولادة، لكن الصياغة غير واضحة بما يكفي لاعتماد إجابة.'),
+        answerOnly(3, 'متى تقل قوة العظم؟', 'Age — عندما يكبر الإنسان في العمر', 'الإجابة موثقة دون خيارات.'),
+      ], 'Bone Strength'),
+      recording(9, [
+        answerOnly(1, 'أين تدور المحادثة؟', 'إذاعة الراديو', 'ثلاثة أشخاص يناقشون كتابًا في برنامج إذاعي.'),
+        reviewOnly(2, 'ما اسم الكتاب أو مؤلفه؟', 'المصدر كتب “By…” فقط، واسم الكتاب أو المؤلف غير ظاهر.'),
+        answerOnly(3, 'ما رأي الدكتورة في الكتاب؟', 'غير مناسب للأطفال لأنه ليس عن الحياة الواقعية — Real life', 'الإجابة موثقة بحسب ملاحظة المصدر.'),
+      ], 'Radio Book Review'),
+      recording(10, [
+        answerOnly(1, 'ماذا نفهم من المحادثة عن الطالب؟', 'يحب الكتابة ويكتب مقالة — writes and loves writing', 'طالب كتب مقالة عن أهمية لعب كرة القدم وناقشها مع أستاذه.'),
+        answerOnly(2, 'ما الصفة التي ليست من صفات معلمه؟', 'It does not accept the opinion of students.', 'العبارة غير الصحيحة؛ المصدر يوضح أن المعلم تقبل رأي الطالب بصدر رحب.'),
+      ], 'Student Article'),
+    ],
+  },
+  {
+    id: 'listening-18', order: 18, title: 'نموذج الاستماع الثامن عشر', subtitle: 'عادات يومية وخدمات وإعلانات قصيرة',
+    recordings: [
+      recording(1, [
+        answerOnly(1, 'أي شعب يشاهد التلفاز أكثر؟', 'Egyptian people — الشعب المصري', 'حديث عن عدة أشخاص وشعوب ومقدار مشاهدة التلفاز.'),
+        answerOnly(2, 'كم ساعة يشاهدون التلفاز؟', 'Six hours', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(3, 'من الشخص الذي يشاهد مثل المصريين؟', 'نورة', 'الإجابة موثقة دون خيارات.'),
+      ], 'TV Viewing Habits'),
+      recording(2, [answerOnly(1, 'ما الأداة التي طُعن بها الشخص؟', 'Knife — السكين', 'المصدر يصف حادثة طعن ويحدد الأداة.')], 'Knife Incident'),
+      recording(3, [
+        reviewOnly(1, 'ما لعبته المفضلة؟', 'لا توجد الإجابة في الصورة.'),
+        reviewOnly(2, 'ما هوايته؟', 'لا توجد الإجابة في الصورة.'),
+      ], 'Hobbies'),
+      recording(4, [
+        answerOnly(1, 'في أي يوم وقعت المحادثة؟', 'Friday — يوم الجمعة', 'نص السؤال الأصلي غير مكتمل؛ المعلومة الظاهرة موثقة في المصدر.'),
+        answerOnly(2, 'في أي وقت من اليوم وقعت المحادثة؟', 'Afternoon — بعد الظهر', 'نص السؤال الأصلي غير مكتمل؛ المعلومة الظاهرة موثقة في المصدر.'),
+      ], 'Friday Afternoon'),
+      recording(5, [
+        answerOnly(1, 'لماذا لم يجد الكتاب؟', 'Outsold — نفدت النسخ', 'شخص اتصل بالمكتبة يسأل عن كتاب ولم يجده.'),
+        answerOnly(2, 'أين يمكن أن يجد الكتاب؟', 'In another branch — في فرع آخر', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(3, 'لماذا لم يدله البائع على الطريق؟', 'لأنه كان يعرف الطريق أو يستطيع معرفته بنفسه.', 'الإجابة موثقة بحسب وصف المصدر.'),
+      ], 'Library Book'),
+      recording(6, [
+        reviewOnly(1, 'أين يضع العميل أمتعته؟', 'المصدر يتوقع وضعها في خزانة عند الاستقبال، لكن الإجابة غير مؤكدة.'),
+        reviewOnly(2, 'ما المعلومة المطلوبة عن الإفطار؟', 'السؤال ناقص في المصدر ويحتاج إجابة مؤكدة من الصوت.'),
+      ], 'Hotel Luggage'),
+      recording(7, [answerOnly(1, 'من الذي لم يعجبه الفيلم؟', 'واحد من المجموعة.', 'لا يوجد نص إنجليزي أو خيارات كاملة، لكن الإجابة موثقة في الوصف.')], 'Movie Opinion'),
+      recording(8, [reviewOnly(1, 'ماذا تقصد المرأة بقولها إنها أخذت حافلة مبكرًا ومع ذلك تأخرت؟', 'المصدر يرجح أن الحافلة تأخرت، لكنه يصرح بأن الإجابة تخمين؛ تحتاج مراجعة الصوت.')], 'Late Bus'),
+      recording(9, [reviewOnly(1, 'ما المقصود من إعلان الموظفة قبل إغلاق المتجر؟', 'المصدر يذكر أن المتجر سيغلق بعد دقائق، لكن السؤال والإجابة ناقصان ويحتاجان مراجعة الصوت.')], 'Store Closing'),
+      recording(10, [
+        answerOnly(1, 'ما وظيفة الرجل؟', 'Customer Service — خدمة العملاء', 'حوار بين موظف خدمة عملاء وزبون.'),
+        reviewOnly(2, 'ماذا كان يريد الزبون؟', 'الإجابة غير موجودة في الصورة.'),
+      ], 'Customer Service'),
+      recording(11, [
+        answerOnly(1, 'أين تدور المحادثة؟', 'المكتب', 'امرأة تتحدث عن نقل المكتب وتعطل بعض الخدمات بسبب ظرف عائلي.'),
+        answerOnly(2, 'لماذا ينتقل المكتب أو تتعطل خدماته؟', 'Family emergency — ظرف عائلي طارئ', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(3, 'متى يفتح المكتب؟', 'Next Saturday — السبت القادم', 'الإجابة موثقة دون خيارات.'),
+      ], 'Office Relocation'),
+      recording(12, [
+        q(19, 'The two people talking in the conversation are probably …', ['a receptionist and a university applicant', 'a secretary and a job applicant', 'a banker and a loan applicant', 'a boss and a new employee'], 1),
+        q(20, 'This conversation probably takes place in a …', ['university office', 'conference room', 'business office', 'cafeteria'], 2),
+      ], 'Job Applicant'),
+    ],
+  },
+  {
+    id: 'listening-19', order: 19, title: 'نموذج الاستماع التاسع عشر', subtitle: 'موضوعات كأس العالم والصحة والنقاش الصفي',
+    recordings: [
+      recording(1, [
+        answerOnly(1, 'When was the first international football tournament held under the name of the World Cup?', '1930', 'موضوع عن تتويج ألمانيا وكأس العالم 2014؛ الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'How many people attended the 2014 tournament?', '3.2 million', 'الإجابة موثقة دون خيارات.'),
+        q(3, 'How many groups of teams were there?', ['3', '4', '6', '8'], null, 'لا يوجد خط واضح تحت إجابة في المصدر.'),
+        answerOnly(4, 'What was the host country for the 2014 World Cup?', 'Brazil', 'الإجابة موثقة دون خيارات.'),
+      ], 'World Cup History'),
+      recording(2, [reviewOnly(1, 'What is the idea that the lecturer talked about?', 'الملاحظة ترجح أن الفكرة هي توضيح كمية الملح على ملصقات الأغذية، واستخدام الأحمر للكمية المرتفعة، لكن لا توجد إجابة صريحة.')], 'Salt Labels'),
+      recording(3, [reviewOnly(1, 'أسئلة فوائد الرياضة للعقل وللمسنين', 'المصدر يذكر موضوع المقطع فقط، ولا يحتوي أسئلة أو اختيارات كاملة؛ ينتظر مراجعة الصوت.')], 'Exercise Benefits'),
+      recording(4, [
+        answerOnly(1, 'The exam day?', 'On Thursday', 'المحاضر حدد اختبار المادة يوم الخميس.'),
+        q(2, 'Next lesson class day?', ['Thursday and Monday', 'Thursday only', 'Tuesday only', 'Monday only'], 3),
+        reviewOnly(3, 'ما الرأيان اللذان وافق عليهما المعلم حول الموضوع؟', 'المصدر يذكر جانبًا سلبيًا وآخر إيجابيًا، لكن صياغة السؤال وإجابته الكاملة غير موجودتين.'),
+      ], 'Exam Schedule'),
+      recording(5, [reviewOnly(1, 'أسئلة تقبل آراء الطلاب', 'المصدر يذكر أن المحاضر يناقش رأيه وكيفية تقبل رأي الطلاب، ويشير إلى نحو سؤالين دون صياغة أو إجابات واضحة.')], 'Student Opinions'),
+      recording(6, [reviewOnly(1, 'أسئلة موضوع الخجل', 'المصدر يذكر موضوعًا عن كيف يصبح الشخص خجولًا وتفاعل الناس معه، ويشير إلى سؤالين دون نص كامل أو إجابات.')], 'Shyness'),
+      recording(7, [reviewOnly(1, 'أسئلة الفكرة الرئيسية', 'المصدر يذكر موضوعين للفكرة الرئيسية وأن أحدهما معه سؤال ثانٍ، لكن التفاصيل لا تكفي لبناء مفتاح إجابة.')], 'Main Idea Topics'),
+    ],
+  },
+  {
+    id: 'listening-20', order: 20, title: 'نموذج الاستماع العشرون', subtitle: 'علوم وصحة واقتصاد ومحاضرات متنوعة',
+    recordings: [
+      recording(1, [
+        answerOnly(1, 'When was Fahrenheit invented?', '1724 — seventeen twenty-four', 'يظهر أيضًا الرقم 1742 في المصدر، لكنه غير مربوط بسؤال محدد لذلك لم يُعتمد.'),
+        q(2, 'The Celsius inventor was …', ['German', 'Swedish'], 1),
+        q(3, 'What is the main idea of the thermometer?', ['Measuring temperature', 'It contains liquid'], null, 'لا توجد إجابة مسطّرة بوضوح في المصدر.'),
+      ], 'Record about scales'),
+      recording(2, [q(1, 'Adding or making jokes in the presentation?', ['We can use jokes anytime', 'We can use some jokes'], 1, 'المصدر يوضح أن humor تعني joke في سياق المقطع.')], 'Presentation Jokes'),
+      recording(3, [reviewOnly(1, 'أسئلة استخدام ألعاب الفيديو في العلاج الطبيعي', 'المصدر يتذكر موضوع المقطع المتعلق بالمرضى والعلاج الطبيعي فقط، ولا يتذكر الأسئلة أو الإجابات.')], 'Video Games & Physical Therapy'),
+      recording(4, [
+        q(1, 'Which vitamin is important for fighting diseases or illnesses?', ['Vitamin C', 'Vitamin D', 'Vitamin K'], 0),
+        q(2, 'What is the main idea of vitamins?', ['They are found in vegetables', "They're important for our bodies"], 1),
+      ], 'Record about Vitamins'),
+      recording(5, [
+        answerOnly(1, 'What is the main idea about stress?', 'It can damage our bodies.', 'الإجابة موثقة في المصدر دون خيارات كاملة.'),
+        q(2, 'What is the solution for stress, or what can we do?', ['Avoid stressful situations', 'Learn how to deal with stress'], 1),
+      ], 'Record about stress'),
+      recording(6, [
+        q(1, 'What is the main idea about thallus?', ['Why it is stuck', 'Thallus and weather conditions'], null, 'لا يوجد خط واضح تحت الإجابة.'),
+        q(2, 'What does the lecturer believe about thallus?', ['They separate from each other', 'The weather affects thallus'], null, 'الإجابة غير محددة في المصدر.'),
+      ], 'Record about thallus'),
+      recording(7, [
+        answerOnly(1, 'What is the name of the aircraft manufacturer?', 'General Electric', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'How many planes did General Electric buy from Boeing?', '60 planes', "المصدر: General Electric's aircraft leasing unit buys 60 Boeing planes."),
+        answerOnly(3, 'What is the name of the first company to sell light aircraft?', 'Dynamic Aviation', 'الإجابة موثقة دون خيارات.'),
+        reviewOnly(4, 'كم تقطع الطائرات مسافة بالكيلومترات؟', 'يظهر الرقم 1070 مع ملاحظة عدم التأكد؛ لا يُعتمد حتى مراجعة الصوت.'),
+      ], 'Aircraft Leasing'),
+      recording(8, [reviewOnly(1, 'ما الذي فهمه الطلاب عن السيارات الهجينة؟', 'المصدر يرجح مقارنة السيارات الهجينة بسيارات البنزين، لكنه غير واثق ولا توجد صياغة كاملة أو مفتاح إجابة.')], 'Hybrid Cars'),
+      recording(9, [reviewOnly(1, 'أسئلة المشاركة الصفية', 'المصدر يتذكر موضوع الدرس وطلب رفع الأيدي وإعطاء أمثلة، لكنها ملاحظات تذكّر وليست أسئلة موثقة.')], 'Classroom Participation'),
+      recording(10, [
+        answerOnly(1, 'How much did the German economy grow in 2018?', '1.5%', 'المعلومة الأساسية موثقة في المصدر.'),
+        reviewOnly(2, 'ما نسبة الزيادة في قطاع السيارات؟', 'المصدر يذكر زيادة تقارب 40%، لكن الصياغة والربط بالسؤال غير مؤكدين.'),
+        reviewOnly(3, 'ما سبب النقص أو التراجع؟', 'من الخيارات المتذكرة أن الناس أصبحت أكثر وعيًا، لكن الخيارات الأخرى والإجابة النهائية غير واضحة.'),
+      ], 'German Economy'),
+      recording(11, [reviewOnly(1, 'أسئلة Queen Elizabeth', 'المصدر يذكر معلومات محتملة عن أبريل، وصغر سنها، وسباق الطيور، وكونها شخصية مشهورة؛ تفاصيل السؤال والإجابة غير موثقة.')], 'Queen Elizabeth'),
+      recording(12, [
+        answerOnly(1, 'When is the report due?', 'Thursday', 'شخصان يتحدثان عن تقرير سيقدمانه إلى Dr. Jackson.'),
+        reviewOnly(2, 'لماذا اتصل بصديقته؟', 'الخيارات المتذكرة تشمل الانشغال أو الاستمرار في التقرير، لكن الإجابة غير مؤكدة.'),
+        reviewOnly(3, 'ما طبيعة العلاقة بين المتحدثين؟', 'قد يكونان طالبين أو مساعدين للدكتور أو شخصين يخططان لزيارته؛ يحتاج الصوت للحسم.'),
+      ], 'Dr. Jackson Report'),
+      recording(13, [
+        answerOnly(1, 'What is the main idea about debt?', 'Debt is necessary sometimes — الديون قد تكون ضرورية أحيانًا', 'الإجابة موثقة بحسب ملاحظة المصدر، دون خيارات كاملة.'),
+        reviewOnly(2, 'ماذا يحدث إذا أخذ الشخص دينًا أكثر من قدرته؟', 'الخيارات المتذكرة تشمل خسارة الأصدقاء أو عدم القدرة على شراء الاحتياجات، لكن لا توجد إجابة مؤكدة.'),
+      ], 'Finance & Debt'),
     ],
   },
 ];
