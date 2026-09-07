@@ -16,7 +16,7 @@ test('reading dashboard uses the redesigned library, passage, and split-question
   assert.match(mainSource, /class="quiz-shell reading-v2-shell reading-v2-result-shell"/);
   assert.match(cssSource, /\.reading-v2-quiz-layout\{display:grid;grid-template-columns:/);
   assert.match(reviewCssSource, /\.reading-v2-solutions-list\{display:grid;grid-template-columns:/);
-  assert.match(reviewCssSource, /\.reading-v2-shell>\.dashboard-header\{margin-block-start:0;margin-inline:calc\(50% - 50vw\)\}/);
+  assert.match(reviewCssSource, /\.reading-v2-shell>\.dashboard-header\{height:76px;min-height:76px;max-height:76px;margin-block-start:0/);
   assert.match(reviewCssSource, /html,body\{overflow-x:clip\}/);
 });
 
@@ -47,7 +47,8 @@ test('desktop reading session keeps the page chrome and question actions inside 
     /class="reading-v2-question-scroll"[\s\S]*class="quiz-actions reading-v2-quiz-actions"[\s\S]*<\/footer>\s*<\/article>/,
   );
   assert.match(reviewCssSource, /html:has\(\.reading-v2-quiz-shell\),body:has\(\.reading-v2-quiz-shell\)\{height:100%;overflow:hidden\}/);
-  assert.match(reviewCssSource, /\.reading-v2-quiz-shell\{[^}]*height:100dvh;[^}]*grid-template-rows:[^}]*minmax\(0,1fr\)/);
+  assert.match(reviewCssSource, /\.reading-v2-quiz-shell\{[^}]*height:100dvh;[^}]*grid-template-rows:76px[^}]*minmax\(0,1fr\)/);
+  assert.match(reviewCssSource, /\.reading-v2-quiz-shell>\.dashboard-header\{[^}]*height:76px;min-height:76px;max-height:76px/);
   assert.match(reviewCssSource, /grid-template-areas:"question passage"/);
   assert.match(reviewCssSource, /\.reading-v2-question-scroll\{[^}]*overflow-y:auto/);
   assert.match(reviewCssSource, /\.reading-v2-passage-panel>div\{[^}]*overflow-y:auto/);
