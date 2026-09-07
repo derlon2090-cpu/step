@@ -82,6 +82,12 @@ const initialView = requestedView === 'dashboard' ? (hasAuthHint ? 'dashboard' :
 const initialViews = new Set(['login', 'register', ...restorableViews]);
 let state = { view: initialViews.has(initialView) ? initialView : 'library', dashboardSection: typeof savedWorkspace.dashboardSection === 'string' ? savedWorkspace.dashboardSection : 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: typeof savedWorkspace.selectedModelId === 'string' ? savedWorkspace.selectedModelId : null, selectedPassageId: typeof savedWorkspace.selectedPassageId === 'string' ? savedWorkspace.selectedPassageId : null, selectedGrammarModelId: typeof savedWorkspace.selectedGrammarModelId === 'string' ? savedWorkspace.selectedGrammarModelId : null, grammarQuestionIndex: Math.max(0, Number(savedWorkspace.grammarQuestionIndex) || 0), grammarAnswers: {}, grammarConfirmed: {}, selectedListeningModelId: typeof savedWorkspace.selectedListeningModelId === 'string' ? savedWorkspace.selectedListeningModelId : null, selectedRecordingId: typeof savedWorkspace.selectedRecordingId === 'string' ? savedWorkspace.selectedRecordingId : null, listeningQuestionIndex: Math.max(0, Number(savedWorkspace.listeningQuestionIndex) || 0), listeningAnswers: {}, query: '', questionIndex: Math.max(0, Number(savedWorkspace.questionIndex) || 0), questionStartedAt: Date.now(), translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, readingMode: 'normal', readingTimeLeft: 60, readingTimerDeadline: null, readingTimedOutQuestions: {}, mistakeReviewId: typeof savedWorkspace.mistakeReviewId === 'string' ? savedWorkspace.mistakeReviewId : null, mistakeSolveId: typeof savedWorkspace.mistakeSolveId === 'string' ? savedWorkspace.mistakeSolveId : null, mistakeSolveAnswer: null, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
 const app = document.querySelector('#app');
+const readingWorkspaceViews = new Set(['dashboard-models', 'model', 'quiz', 'solutions', 'result']);
+let renderedReadingWorkspaceKey = '';
+
+const readingWorkspaceKey = () => readingWorkspaceViews.has(state.view)
+  ? `${state.view}:${state.selectedModelId ?? ''}:${state.selectedPassageId ?? ''}`
+  : '';
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
 const brandLogo = (variant = 'default') => `<img class="brand-image ${variant === 'light' ? 'brand-image-light' : ''}" src="/assets/nabahah-logo.png" alt="نباهة" />`;
@@ -1216,9 +1222,10 @@ function currentRecording(model = currentListeningModel()) {
   return model?.recordings.find((item) => item.id === state.selectedRecordingId);
 }
 
-function restoreTutorViewport(viewport, scrollTutor, tutorViewport) {
+function restoreTutorViewport(viewport, scrollTutor, tutorViewport, resetPageScroll = false) {
   requestAnimationFrame(() => {
-    if (viewport) window.scrollTo(viewport.x, viewport.y);
+    if (resetPageScroll) window.scrollTo(0, 0);
+    else if (viewport) window.scrollTo(viewport.x, viewport.y);
     const conversation = document.querySelector('.tutor-conversation');
     if (!conversation) return;
     const session = state.tutorSessions[state.tutorQuestionKey];
@@ -1386,7 +1393,9 @@ function restoreActiveWorkspaceProgress() {
 }
 
 function render() {
-  if (state.view === 'quiz' && (window.scrollX || window.scrollY)) window.scrollTo(0, 0);
+  const nextReadingWorkspaceKey = readingWorkspaceKey();
+  const resetReadingPageScroll = Boolean(nextReadingWorkspaceKey && nextReadingWorkspaceKey !== renderedReadingWorkspaceKey);
+  if ((resetReadingPageScroll || state.view === 'quiz') && (window.scrollX || window.scrollY)) window.scrollTo(0, 0);
   const conversation = document.querySelector('.tutor-conversation');
   const tutorViewport = conversation ? { scrollTop: conversation.scrollTop } : null;
   const viewport = ['quiz', 'grammar-quiz', 'listening-quiz'].includes(state.view) ? { x: window.scrollX, y: window.scrollY } : null;
@@ -1397,7 +1406,7 @@ function render() {
     // still loading. The whole authenticated surface appears atomically once.
     app.innerHTML = sessionLoadingView();
     applyNibrasAccessibility();
-    restoreTutorViewport(viewport, scrollTutor, tutorViewport);
+    restoreTutorViewport(viewport, scrollTutor, tutorViewport, resetReadingPageScroll);
     return;
   }
   const model = currentModel();
@@ -1424,7 +1433,8 @@ function render() {
   applyNibrasAccessibility();
   document.querySelectorAll('[data-listening-review]').forEach((audio) => soundManager.applyListeningVolume(audio));
   persistWorkspaceView();
-  restoreTutorViewport(viewport, scrollTutor, tutorViewport);
+  renderedReadingWorkspaceKey = nextReadingWorkspaceKey;
+  restoreTutorViewport(viewport, scrollTutor, tutorViewport, resetReadingPageScroll);
   syncReadingQuestionTimer();
 }
 

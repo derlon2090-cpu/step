@@ -62,6 +62,9 @@ test('short desktop viewports compact the session while smaller screens retain n
 
 test('reading always opens at the top with normal mode and offers a timed exam mode', () => {
   assert.match(mainSource, /readingMode: 'normal'/);
+  assert.match(mainSource, /readingWorkspaceViews = new Set\(\['dashboard-models', 'model', 'quiz', 'solutions', 'result'\]\)/);
+  assert.match(mainSource, /nextReadingWorkspaceKey !== renderedReadingWorkspaceKey/);
+  assert.match(mainSource, /restoreTutorViewport\(viewport, scrollTutor, tutorViewport, resetReadingPageScroll\)/);
   assert.match(mainSource, /data-reading-mode="normal"/);
   assert.match(mainSource, /data-reading-mode="exam"/);
   assert.match(mainSource, /const READING_QUESTION_TIME_SECONDS = 60/);
