@@ -778,6 +778,14 @@ function listeningQuizView(model, recordingItem) {
   const selected = state.listeningAnswers?.[question.id];
   const answered = question.answerOnly || selected !== undefined;
   const hasSourceAnswer = Number.isInteger(question.correctIndex);
+  const sourceStatusLabels = {
+    verified: 'إجابة معتمدة',
+    source_reference: 'إجابة موثقة من المصدر',
+    needs_audio_review: 'تحتاج مراجعة الصوت',
+    expected: 'إجابة متوقعة',
+    incomplete_source: 'المصدر ناقص',
+    needs_review: 'تحتاج مراجعة',
+  };
   const progressPercent = Math.round(((index + (answered || !question.options.length ? 1 : 0)) / questions.length) * 100);
   const options = question.options.map((option, optionIndex) => {
     const isSelected = selected === optionIndex;
@@ -788,12 +796,12 @@ function listeningQuizView(model, recordingItem) {
   const feedback = !question.answerOnly && answered ? `<div class="listening-feedback ${!hasSourceAnswer ? 'is-neutral' : selected === question.correctIndex ? 'is-correct' : 'is-wrong'}"><strong>${!hasSourceAnswer ? 'تم حفظ اختيارك' : selected === question.correctIndex ? 'إجابة صحيحة، أحسنت.' : 'راجع التفصيل المسموع مرة أخرى.'}</strong><span>${!hasSourceAnswer ? escapeHtml(question.note || 'لا توجد إجابة معتمدة في المصدر.') : selected === question.correctIndex ? 'يمكنك الانتقال إلى السؤال التالي.' : `الإجابة الصحيحة: ${String.fromCharCode(65 + question.correctIndex)}) ${escapeHtml(question.options[question.correctIndex])}`}</span></div>` : '';
   const sourceNote = question.note && question.options.length ? `<aside class="listening-source-note"><strong>ملاحظة المصدر</strong><p>${escapeHtml(question.note)}</p></aside>` : '';
   const answerContent = question.answerOnly
-    ? `<div class="listening-source-answer"><span>الإجابة الموثقة</span><strong>${escapeHtml(question.options[0])}</strong><small>عرض مرجعي من المصدر — لا يدخل في احتساب الدرجة.</small></div>`
+    ? `<div class="listening-source-answer ${question.answerStatus === 'source_reference' ? '' : 'is-unverified'}"><span>${question.answerStatus === 'expected' ? 'الإجابة المتوقعة في المصدر' : question.answerStatus === 'source_reference' ? 'الإجابة الموثقة' : 'الإجابة المكتوبة وتحتاج مراجعة'}</span><strong>${escapeHtml(question.options[0])}</strong><small>${question.answerStatus === 'source_reference' ? 'عرض مرجعي من المصدر' : 'ليست مفتاح إجابة نهائيًا'} — لا تدخل في احتساب الدرجة.</small></div>`
     : question.options.length ? `<div class="listening-options" role="list">${options}</div>` : `<div class="listening-missing-source"><strong>هذا السؤال غير متوفر في المصدر</strong><p>${escapeHtml(question.note)}</p></div>`;
   return `<main class="dashboard-shell listening-quiz-shell">${dashboardHeader('listening')}
     <header class="listening-quiz-top"><button class="back-button" data-listening-model>← مقاطع النموذج</button><div><span>${escapeHtml(model.title)} · المقطع ${recordingItem.order}</span><h1>السؤال ${index + 1} من ${questions.length}</h1></div><div class="grammar-quiz-progress"><span>${progressPercent}%</span><div><i style="width:${progressPercent}%"></i></div></div></header>
     <section class="listening-player-card"><div class="player-orbit" aria-hidden="true"><span>♪</span></div><div class="player-copy"><span>${escapeHtml(recordingItem.title)}</span><strong>${recordingItem.audioUrl ? 'استمع جيدًا قبل الإجابة' : 'الصوت بانتظار الإرفاق'}</strong><small>${recordingItem.audioUrl ? 'يمكنك إعادة التشغيل أثناء حل أسئلة المقطع.' : 'الأسئلة جاهزة، وسيظهر ملف الصوت هنا فور إضافته.'}</small></div>${recordingItem.audioUrl ? `<audio controls preload="metadata" src="${escapeHtml(recordingItem.audioUrl)}" data-listening-review></audio>` : '<span class="audio-pending-badge">ملف الصوت غير مرفق</span>'}</section>
-    <section class="listening-question-card"><div class="listening-question-meta"><span>Question ${question.number}</span><span>${question.answerOnly ? 'إجابة موثقة من المصدر' : hasSourceAnswer ? 'إجابة معتمدة' : 'يحتاج مراجعة'}</span></div><div class="question-heading grammar-question-heading" dir="auto"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${escapeHtml(question.prompt)}</div></div>${sourceNote}${answerContent}${feedback}</section>
+    <section class="listening-question-card"><div class="listening-question-meta"><span>Question ${question.number}</span><span>${sourceStatusLabels[question.answerStatus] ?? (hasSourceAnswer ? 'إجابة معتمدة' : 'تحتاج مراجعة')}</span></div><div class="question-heading grammar-question-heading" dir="auto"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${escapeHtml(question.prompt)}</div></div>${sourceNote}${answerContent}${feedback}</section>
     <footer class="listening-quiz-actions"><button class="outline-action" data-listening-previous ${index === 0 ? 'disabled' : ''}>السابق</button><button class="mint-action" data-listening-next ${!question.answerOnly && question.options.length && !answered ? 'disabled' : ''}>${index === questions.length - 1 ? 'إنهاء المقطع' : 'السؤال التالي'} <span>←</span></button></footer>
   </main>`;
 }
@@ -802,12 +810,14 @@ function listeningResultView(model, recordingItem) {
   const saved = listeningProgress(model.id, recordingItem.id);
   const scored = recordingItem.questions.filter((question) => Number.isInteger(question.correctIndex) && !question.answerOnly);
   const answerOnlyCount = recordingItem.questions.filter((question) => question.answerOnly).length;
+  const sourceReferenceCount = recordingItem.questions.filter((question) => question.answerStatus === 'source_reference').length;
+  const unverifiedAnswerCount = answerOnlyCount - sourceReferenceCount;
   const needsReviewCount = recordingItem.questions.length - scored.length - answerOnlyCount;
   const correct = scored.filter((question) => saved.results?.[question.id] === true).length;
   const score = scored.length ? Math.round((correct / scored.length) * 100) : 0;
   const nextRecording = model.recordings[recordingItem.order] ?? null;
-  const resultSummary = scored.length ? `<strong>${score}%</strong><span>${correct} من ${scored.length} إجابات معتمدة صحيحة</span>` : `<strong>تم</strong><span>راجعت ${answerOnlyCount} ${answerOnlyCount === 1 ? 'إجابة موثقة' : 'إجابات موثقة'}</span>`;
-  const sourceSummary = [answerOnlyCount ? `${answerOnlyCount} إجابات مرجعية موثقة لا تدخل في الدرجة` : '', needsReviewCount ? `${needsReviewCount} أسئلة تحتاج مراجعة الصوت` : ''].filter(Boolean).join('، ');
+  const resultSummary = scored.length ? `<strong>${score}%</strong><span>${correct} من ${scored.length} إجابات معتمدة صحيحة</span>` : `<strong>تم</strong><span>راجعت ${recordingItem.questions.length} ${recordingItem.questions.length === 1 ? 'عنصرًا من المصدر' : 'عناصر من المصدر'}</span>`;
+  const sourceSummary = [sourceReferenceCount ? `${sourceReferenceCount} إجابات مرجعية موثقة` : '', unverifiedAnswerCount ? `${unverifiedAnswerCount} إجابات مكتوبة غير معتمدة` : '', needsReviewCount ? `${needsReviewCount} أسئلة تحتاج مراجعة أو استكمال` : ''].filter(Boolean).join('، ');
   return `<main class="dashboard-shell listening-result-shell">${dashboardHeader('listening')}<section class="listening-result-card"><span class="result-headphones" aria-hidden="true">♫</span><span class="eyebrow">اكتمل المقطع ${recordingItem.order}</span><h1>أحسنت، أنهيت هذا المقطع</h1><div class="listening-result-score">${resultSummary}</div><p>${sourceSummary ? `${sourceSummary}، لذلك لم تُحتسب ضمن النتيجة.` : 'استمر على هذا الإيقاع وأكمل بقية مقاطع النموذج.'}</p><div><button class="outline-action" data-listening-retry>إعادة المقطع</button>${nextRecording ? `<button class="mint-action" data-open-recording="${nextRecording.id}">المقطع التالي <span>←</span></button>` : '<button class="mint-action" data-listening-library>العودة للنماذج</button>'}</div></section></main>`;
 }
 

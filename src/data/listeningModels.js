@@ -14,7 +14,20 @@ const answerOnly = (number, prompt, answer, note = '') => ({
   answerStatus: 'source_reference',
 });
 
-const reviewOnly = (number, prompt, note) => q(number, prompt, [], null, note);
+const reviewOnly = (number, prompt, note, answerStatus = 'needs_review') => ({
+  ...q(number, prompt, [], null, note),
+  answerStatus,
+});
+
+const reviewQuestion = (number, prompt, options, note, answerStatus = 'needs_review') => ({
+  ...q(number, prompt, options, null, note),
+  answerStatus,
+});
+
+const uncertainAnswer = (number, prompt, answer, note, answerStatus = 'needs_review') => ({
+  ...answerOnly(number, prompt, answer, note),
+  answerStatus,
+});
 
 const recording = (order, questions, title = '') => ({
   id: `recording-${order}`,
@@ -800,6 +813,206 @@ export const listeningModels = [
         answerOnly(1, 'What is the main idea about debt?', 'Debt is necessary sometimes — الديون قد تكون ضرورية أحيانًا', 'الإجابة موثقة بحسب ملاحظة المصدر، دون خيارات كاملة.'),
         reviewOnly(2, 'ماذا يحدث إذا أخذ الشخص دينًا أكثر من قدرته؟', 'الخيارات المتذكرة تشمل خسارة الأصدقاء أو عدم القدرة على شراء الاحتياجات، لكن لا توجد إجابة مؤكدة.'),
       ], 'Finance & Debt'),
+    ],
+  },
+  {
+    id: 'listening-23', order: 23, title: 'نموذج الاستماع الثالث والعشرون', subtitle: 'بداية المصدر ناقصة وتبدأ من السؤال الثاني',
+    recordings: [
+      recording(1, [
+        q(2, 'What type of tickets did the customer buy?', ['An economy ticket', 'A couple of tickets', 'A one-way ticket', 'A round-trip ticket'], 3, 'السؤال الأول غير موجود في الصور؛ حُفظ الترقيم الأصلي دون اختراع بديل.'),
+        q(3, 'The customer actually booked a seat for …', ['Wednesday', 'Thursday', 'Saturday', 'Sunday'], 0),
+      ], 'Travel Booking'),
+      recording(2, [
+        q(1, 'What important point does the lecturer mention about car companies?', ['They will produce electric cars', 'They will gain more profits', 'They will sell regular cars', 'They are becoming bigger'], 0),
+        q(2, 'What do the students need to read?', ['A story', 'An article', 'A letter', 'An email'], 1),
+        q(3, 'Where do students need to put their homework?', ['On the shelf', 'In the office', 'On the desk', 'In the drawer'], 2),
+      ], 'Electric Cars & Homework'),
+      recording(3, [
+        q(1, 'What is the main idea of the lecture?', ['Because cyberbullying is new, laws are weak.', 'Cyberbullying is common on Twitter.', 'We need to protect young people.', 'Cyberbullying is slowly decreasing.'], 0),
+        q(2, 'How does the lecturer feel about government taking action against cyberbullying in the future?', ['Doubtful', 'Slightly confident', 'Completely sure', 'Very negative'], 2),
+      ], 'Cyberbullying'),
+      recording(4, [
+        q(1, 'The cost of the special offer was …', ['55 Riyals', '60 Riyals', '65 Riyals', '75 Riyals'], 2),
+        q(2, 'The pizzas and soda are most likely to be …', ["Shared with friends at Ahmad’s Pizza Place.", "Eaten by the customer at Ahmad’s Pizza Place.", "Delivered in one hour from Ahmad’s Pizza Place.", "Ready to pick up in one hour from Ahmad’s Pizza Place."], 2),
+      ], 'Pizza Special Offer'),
+      recording(5, [q(1, 'What does the professor think about sports law?', ['It needs a clear system', 'It is special and balanced', 'It has to be clearly explained', 'It should be stopped'], 1)], 'Sports Law'),
+      recording(6, [
+        q(1, 'What does the professor think about giving people free money?', ['It allows finding a good job', 'It makes them lazy', 'It saves families', 'It will increase unemployment'], 0),
+        reviewQuestion(2, 'What does the professor think about the experiment?', ['It will make job search more difficult.', 'It will allow skill development.', 'It will improve public health.', 'It will cost the country too much money.'], 'لا توجد إجابة مسطّرة بوضوح في المصدر.', 'incomplete_source'),
+      ], 'Free Money Experiment'),
+      recording(7, [
+        q(1, 'Why does the lecturer mention flooding?', ['To give an example', 'To explain', 'To argue', 'To compare'], 0),
+        q(2, 'What information about categories of migration does the lecturer think is more important?', ['Social migration', 'Environmental migration', 'Political migration', 'Economic migration'], 3),
+      ], 'Migration'),
+      recording(8, [q(1, 'What information about hexagons does the lecturer think is more important?', ['It protects the colony', 'It contains six sides', 'It is space efficient', 'It’s the strongest shape'], 2)], 'Hexagons'),
+      recording(9, [q(1, 'How does the lecturer feel about everyone having fears?', ['Doubtful', 'Certain', 'Surprised', 'Worried'], 1)], 'Fear'),
+      recording(10, [reviewQuestion(1, 'What is the main idea of the lecture?', ['A taiga plant eating animals', 'How predators survive the winter', 'The climate of the Arctic', 'Characteristics of Arctic predators'], 'الحل حسب الصوت في الاختبار؛ لا تعتمد إجابة من الصورة.', 'needs_audio_review')], 'Arctic Predators'),
+    ],
+  },
+  {
+    id: 'listening-24', order: 24, title: 'نموذج الاستماع الرابع والعشرون', subtitle: 'النوم والنباتات والأبحاث والتقنية',
+    recordings: [
+      recording(1, [q(1, 'What is the most important idea about non-REM sleep?', ['Muscles relax', 'Breathing slows down', 'Our bodies organize and restore functions'], 2)], 'NON-REM SLEEP'),
+      recording(2, [q(1, 'What did the professor add about plant defense?', ['Caffeine kills insects completely', 'Insects remember the plant and avoid it'], 1)], 'CAFFEINE AND PLANTS'),
+      recording(3, [answerOnly(1, 'Where does the lecturer tell the students to search first?', 'Google', 'الإجابة موثقة دون خيارات.')], 'RESEARCH TASK'),
+      recording(4, [
+        answerOnly(1, 'What is the conversation mainly about?', 'The history of the Eiffel Tower', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'What did the students ask about?', 'Why the tower is still standing', 'الإجابة موثقة دون خيارات.'),
+      ], 'EIFFEL TOWER'),
+      recording(5, [
+        answerOnly(1, 'What does the professor suggest?', 'That it is difficult work', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'What does the student think is easy?', 'Finding enough people', 'الإجابة موثقة دون خيارات.'),
+      ], 'SURVEY'),
+      recording(6, [
+        answerOnly(1, 'What is the name of the company?', 'Alies Airlines', 'الاسم محفوظ كما كُتب في المصدر دون تصحيح.'),
+        answerOnly(2, 'What is the flight distance?', '1500 km', 'الإجابة موثقة دون خيارات.'),
+      ], 'AIRLINES'),
+      recording(7, [answerOnly(1, 'What is the main idea of the talk?', 'A new car technology that could increase sales', 'الإجابة موثقة دون خيارات.')], 'NEW CAR TECHNOLOGY'),
+      recording(8, [q(1, 'What does the speaker say about ADHD?', ['It affects sleeping only.', 'It cannot be treated.', 'It only affects adults.', 'It is more serious or critical in children.'], 3)], 'ADHD TOPIC'),
+      recording(9, [q(1, 'What is the main point of this announcement?', ['Hiring a worker', 'Fired', 'Manager', 'Death'], 3, 'الإعلان يتحدث عن وفاة المدير.')], 'MANAGER ANNOUNCEMENT'),
+      recording(10, [
+        answerOnly(1, 'According to the passage, which is correct?', 'Some companies use overbooking.', 'رقم المقطع غير ظاهر في المصدر.'),
+        answerOnly(2, 'How many people lose seats every year?', '50,000', 'الإجابة موثقة دون خيارات.'),
+      ], 'OVERBOOKING'),
+      recording(11, [
+        answerOnly(1, 'How many examples did the professor mention about algorithms in the last lecture?', '4', 'رقم المقطع غير ظاهر في المصدر.'),
+        answerOnly(2, 'What is the main idea of the listening?', 'Algorithms are used in daily life.', 'الإجابة موثقة دون خيارات.'),
+      ], 'ALGORITHMS (COUNT)'),
+      recording(12, [q(1, 'What is the most important idea from the listening?', ['It is complicated', 'It has four steps', 'It is important in Software Engineering'], 2)], 'SOFTWARE ENGINEERING'),
+    ],
+  },
+  {
+    id: 'listening-25', order: 25, title: 'نموذج الاستماع الخامس والعشرون', subtitle: 'الحاسوب والطاقة والتجارة والبيئة',
+    recordings: [
+      recording(1, [
+        q(1, 'Why was the first computer invented?', ['For schools.', 'For the U.S. Army.', 'For scientists.'], 1),
+        q(2, 'What was the most important feature?', ['It was very fast.', 'It was very heavy.', 'It was very small.'], 1),
+      ], 'First Computer'),
+      recording(2, [q(1, 'What does the speaker say about solar or renewable energy?', ['It is cheap and easy to use.', 'It is expensive but important for the future.', 'It is useless and not reliable.', 'It causes more pollution.'], 1)], 'Solar / Renewable Energy'),
+      recording(3, [
+        uncertainAnswer(1, 'Brazil said 200 million pollution reached in which year?', 'For 135 years', 'صياغة السؤال والإجابة غريبة في المصدر؛ حُفظت المعلومة دون اعتمادها مفتاحًا نهائيًا.'),
+        answerOnly(2, 'What is the main idea of the text?', 'Brazil does not get tourists.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(3, 'When was the speaker supposed to visit it?', 'In summer.', 'الإجابة موثقة دون خيارات.'),
+      ], 'Brazil'),
+      recording(4, [q(1, "What's the example the student gave the lecturer about the algorithm?", ['Solving a math problem', 'Writing a computer program', 'Making a cup of tea', 'Walking for a certain distance'], 2)], 'Algorithm'),
+      recording(5, [q(1, 'What was the main message of the speaker?', ['Milk is expensive.', 'Many people do not drink enough milk.', 'Milk tastes bad.', 'Children should avoid milk.'], 1)], 'Importance of Milk'),
+      recording(6, [
+        answerOnly(1, 'What is the speaker mainly talking about?', 'The rise in candy prices.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, "What is the adults' attitude toward the rise?", 'They support the rise in prices.', 'الإجابة موثقة دون خيارات.'),
+      ], 'Rise in Candy Prices'),
+      recording(7, [
+        answerOnly(1, 'When will he actually book the train?', 'He will book it on Sunday.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'Which package does he actually choose?', 'Economy package.', 'الإجابة موثقة دون خيارات.'),
+      ], 'Train / Package'),
+      recording(8, [
+        answerOnly(1, 'What is the test about?', 'It is about Chapter 7.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'What happened on Tuesday?', 'Something happened at the library — a problem or closure.', 'التفصيل بين المشكلة والإغلاق غير محسوم؛ العبارة محفوظة كما وردت.'),
+        answerOnly(3, 'What is the conversation mainly about?', 'It is about the test.', 'الإجابة موثقة دون خيارات.'),
+      ], 'Test Conversation'),
+      recording(9, [
+        q(1, 'Why is Eyad good at English?', ['Because he studies grammar a lot.', 'Because he watches English movies.', 'Because he speaks English a lot with people.', 'Because he lives abroad.'], 2),
+        q(2, 'Why should a person learn English?', ['Because it is easy.', 'Because everyone speaks it.', 'Because the person wants to learn it and is interested.', 'Because it is required at school.'], 2),
+      ], 'Eyad & English'),
+      recording(10, [answerOnly(1, 'What units does the lecturer ask students to study?', 'Units 6 to 10, except Unit 9.', 'الإجابة موثقة دون خيارات.')], 'Trade and business'),
+      recording(11, [uncertainAnswer(1, 'What does underemployed mean?', 'Unemployed.', 'الإجابة مشكوك فيها من ناحية المعنى، ويخالفها تعريف لاحق في النموذج 26؛ تحتاج مراجعة الصوت.')], 'EMPLOYMENT'),
+      recording(12, [
+        answerOnly(1, 'How can countries reduce overfishing?', 'If they cooperate with each other.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'What does the speaker warn about?', 'Overfishing.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(3, 'What is one result of overfishing?', 'Damage to the sea.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(4, 'What activity is mentioned as a cause of the problem?', 'Illegal fishing.', 'الإجابة موثقة دون خيارات.'),
+      ], 'OVERFISHING'),
+      recording(13, [answerOnly(1, 'What is the main idea?', 'Housing crisis.', 'الإجابة موثقة دون خيارات.')], 'NEW ZEALAND HOUSING CRISIS'),
+      recording(14, [answerOnly(1, 'What is the most important fact mentioned by the lecturer?', 'It was the largest mosque in Europe.', 'الإجابة موثقة دون خيارات.')], 'GREAT MOSQUE OF CÓRDOBA'),
+    ],
+  },
+  {
+    id: 'listening-26', order: 26, title: 'نموذج الاستماع السادس والعشرون', subtitle: 'علوم وتقنية ومهارات صفية مع ملحق المصدر',
+    recordings: [
+      recording(1, [
+        answerOnly(1, 'How many types of bear are there?', 'Eight types of bears.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'What is the speed mentioned?', '40 km.', 'الإجابة موثقة دون خيارات.'),
+      ], 'Bear and Speed'),
+      recording(2, [answerOnly(1, 'Who lives longer, women or men?', 'Women live longer than men. The average age is 74 years.', 'الإجابة موثقة دون خيارات.')], 'Life Expectancy'),
+      recording(3, [
+        answerOnly(1, 'What does Arwa make?', 'She makes a memory book.', 'الإجابة موثقة دون خيارات.'),
+        uncertainAnswer(2, 'What is the answer to the second question?', 'Notes. Starlite', 'يبدو أن المصدر دمج موضوع Starlite مع Memory Book؛ تحتاج الإجابة مراجعة الصوت.'),
+        uncertainAnswer(3, 'What is the benefit of Starlite?', 'It reduces fire.', 'السؤال يبدو تابعًا لموضوع آخر داخل المصدر؛ لا يُعتمد حتى مراجعة الصوت.'),
+      ], 'Memory Book'),
+      recording(4, [
+        answerOnly(1, "How does music affect people's food choices?", 'Loud music leads to fast-food choices; soft music leads to healthier food choices.', 'الإجابة موثقة بالمعنى الوارد في المصدر.'),
+        answerOnly(2, 'Why does this happen?', 'Because soft music makes people feel relaxed.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(3, 'What does the teacher think the research needs?', 'More study.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(4, 'What does the teacher think music can affect?', "People's feelings.", 'الإجابة موثقة دون خيارات.'),
+      ], 'Music & Shopping Choices'),
+      recording(5, [answerOnly(1, 'How much is the pizza?', '65 SR.', 'الإجابة موثقة دون خيارات.')], 'Pizza Order'),
+      recording(6, [
+        answerOnly(1, 'How many types of tigers are there?', 'There are eight types.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'What is the speed of the black tiger?', '65 kilometers per hour.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(3, 'What is the most important thing mentioned about the tiger?', 'It is afraid of water and eats different kinds of meat.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(4, 'What does the tiger eat?', 'Horse.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(5, 'What is the main idea of the passage?', 'Saving tigers from extinction.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(6, 'What is one reason tigers are endangered?', 'Illegal hunting.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(7, 'What can help protect tigers?', 'Creating wildlife reserves.', 'الإجابة موثقة دون خيارات.'),
+      ], 'Tigers (Detailed Core)'),
+      recording(7, [
+        answerOnly(1, 'What year was mentioned about the first computer?', '1962.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'What was the size of the first computer?', 'It was huge and filled an entire room.', 'الإجابة موثقة دون خيارات.'),
+      ], 'Computer (History)'),
+      recording(8, [answerOnly(1, 'When will the order arrive?', 'After one hour.', 'الإجابة موثقة دون خيارات.')], 'Pizza Delivery'),
+      recording(9, [answerOnly(1, 'Why can eating wild mushrooms be dangerous?', 'They can contain toxins that cause poisoning.', 'الإجابة موثقة دون خيارات.')], 'Mushrooms'),
+      recording(10, [
+        uncertainAnswer(1, 'What is the passage mainly about?', 'Geography.', 'المقطع موسوم Expected في المصدر؛ الإجابة متوقعة وليست مفتاحًا نهائيًا.', 'expected'),
+        uncertainAnswer(2, 'Which is the second largest river by area?', 'Amazon River.', 'المقطع موسوم Expected في المصدر؛ يحتاج مراجعة الصوت.', 'expected'),
+      ], 'Geography (Expected)'),
+      recording(11, [
+        uncertainAnswer(1, 'When was the first electronic computer created?', '1940.', 'المقطع موسوم Expected في المصدر؛ الإجابة متوقعة وليست مفتاحًا نهائيًا.', 'expected'),
+        uncertainAnswer(2, 'When was the first personal computer created?', '1970.', 'المقطع موسوم Expected في المصدر؛ يحتاج مراجعة الصوت.', 'expected'),
+        uncertainAnswer(3, 'What is one disadvantage of old computers?', 'Their size was very large.', 'المقطع موسوم Expected في المصدر؛ يحتاج مراجعة الصوت.', 'expected'),
+      ], 'Computer (Expected)'),
+      recording(12, [
+        answerOnly(1, 'What is the main idea of the listening?', 'The history of Pepsi.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'What extra information does the speaker give?', 'Soft drinks like Pepsi are unhealthy.', 'الإجابة موثقة بالمعنى الوارد في المصدر.'),
+      ], 'Pepsi'),
+      recording(13, [
+        answerOnly(1, 'What is the new idea in IKEA?', 'Custom furniture.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'Where is the first branch of IKEA located?', 'Sweden.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(3, 'When did IKEA launch its first branch in Norway?', 'In 1963.', 'الإجابة موثقة دون خيارات.'),
+      ], 'IKEA'),
+      recording(14, [
+        answerOnly(1, 'What is an important fact about Queen Elizabeth II?', 'She raced birds.', 'الإجابة موثقة دون خيارات.'),
+        uncertainAnswer(2, 'When will the students present their presentation?', 'On Sunday.', 'السؤال لا يبدو مرتبطًا مباشرة بموضوع Queen Elizabeth II؛ يوجد احتمال دمج مقطعين.'),
+        uncertainAnswer(3, 'Which chapters will be included in the quiz?', 'Chapters 1–2.', 'السؤال لا يبدو مرتبطًا مباشرة بموضوع Queen Elizabeth II؛ يحتاج مراجعة الصوت.'),
+      ], 'Queen Elizabeth II'),
+      recording(15, [
+        answerOnly(1, 'What is the main idea of the telescope?', 'To make objects look bigger.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'When was the telescope invented?', 'In 1608.', 'الإجابة محفوظة كما وردت في المصدر.'),
+        answerOnly(3, 'Who invented it?', 'Galileo.', 'الإجابة محفوظة كما وردت في المصدر.'),
+        answerOnly(4, 'What nationality is Galileo?', 'Italian.', 'الإجابة موثقة دون خيارات.'),
+      ], 'The Telescope'),
+      recording(16, [answerOnly(1, 'What is the main idea of the talk?', 'A new car technology that could increase sales.', 'الإجابة موثقة دون خيارات.')], 'New Car Technology'),
+      recording(17, [
+        answerOnly(1, 'What does “underemployed” mean?', 'A person whose job does not match their qualifications.', 'الإجابة موثقة وتوضح سبب تعليق إجابة Employment في النموذج 25.'),
+        answerOnly(2, 'What problem may underemployed workers face?', 'They do not use their skills effectively.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(3, 'What is the main difference between unemployed and underemployed people?', 'Underemployed people have a job, while unemployed people do not.', 'الإجابة موثقة دون خيارات.'),
+      ], 'Underemployed'),
+      recording(18, [
+        answerOnly(1, 'What information was mentioned about people who write with their right hand?', 'They see it as something positive.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'What was the first thing the teacher asked the students to do?', 'Raise their hands.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(3, 'What did the teacher ask the students to do?', 'Give an example.', 'الإجابة موثقة دون خيارات.'),
+      ], 'Right-Handed People'),
+      recording(19, [
+        q(1, 'Why did people start using treadmills while working?', ['To find a healthier way to stay active while working.', 'Because everyone started using them.', 'To improve their work performance.', 'Because it was a new method of working.'], 0),
+        q(2, 'What are people now looking for after using treadmills while working?', ['A new way to improve their health.', 'A way to become less active.', 'A way to work longer hours.', 'A way to improve their performance.'], 0),
+      ], 'Treadmills'),
+      recording(20, [answerOnly(1, 'What was the main idea of the listening?', 'Probability is part of everyday life.', 'الإجابة موثقة دون خيارات.')], 'Probability'),
+      recording(21, [reviewQuestion(2, 'What did the students not understand?', ['The test questions.', 'The math problems.', 'The teacher’s explanation.'], 'الحل حسب الصوت في الاختبار؛ السؤال الأول والعنوان غير ظاهرين.', 'needs_audio_review')], 'Unnamed Classroom Question'),
+      recording(22, [q(1, 'What was the main idea of the listening?', ['The cost of cancer treatment in the U.S. reached $94 billion.', 'Cancer research and ways to improve cancer treatment and prevention.'], 1)], 'Cancer'),
+      recording(23, [answerOnly(1, 'How do stores use map locations?', 'They use them to send advertisements to people.', 'الإجابة موثقة دون خيارات.')], 'Advertisements'),
+      recording(24, [
+        answerOnly(1, 'What does the professor think is needed to memorize vocabulary?', 'Effort.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(2, 'What homework did the professor give the students?', 'Write 10 sentences.', 'الإجابة موثقة دون خيارات.'),
+        answerOnly(3, 'What test did the professor remind the students about?', 'A test on Units 7, 8, and 10.', 'الإجابة موثقة دون خيارات.'),
+      ], 'Vocabulary'),
     ],
   },
 ];
