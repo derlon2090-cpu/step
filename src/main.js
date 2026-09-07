@@ -765,7 +765,7 @@ function listeningModelView(model) {
       const answered = Object.keys(saved.answers ?? {}).length;
       const done = saved.status === 'completed';
       const questionRange = item.questions.length === 1 ? `السؤال ${item.questions[0].number}` : `الأسئلة ${item.questions[0].number}–${item.questions.at(-1).number}`;
-      return `<article class="recording-card ${done ? 'is-complete' : ''}"><div class="recording-icon" aria-hidden="true"><span>▶</span></div><div class="recording-copy"><span>${questionRange}</span><h2>المقطع ${item.order}</h2><p>${item.questions.length} ${item.questions.length === 1 ? 'سؤال' : 'أسئلة'} · ${done ? 'مكتمل' : answered ? `${answered} مجابة` : 'لم يبدأ'}</p></div><span class="recording-status">${done ? '✓' : String(item.order).padStart(2, '0')}</span><button data-open-recording="${item.id}">${done ? 'مراجعة المقطع' : answered ? 'متابعة التدريب' : 'ابدأ الاستماع'} <span>←</span></button></article>`;
+      return `<article class="recording-card ${done ? 'is-complete' : ''}"><div class="recording-icon" aria-hidden="true"><span>▶</span></div><div class="recording-copy"><span>${questionRange}</span><h2>${escapeHtml(item.title)}</h2><p>${item.questions.length} ${item.questions.length === 1 ? 'سؤال' : 'أسئلة'} · ${done ? 'مكتمل' : answered ? `${answered} مجابة` : saved.status === 'in-progress' ? 'قيد المراجعة' : 'لم يبدأ'}</p></div><span class="recording-status">${done ? '✓' : String(item.order).padStart(2, '0')}</span><button data-open-recording="${item.id}">${done ? 'مراجعة المقطع' : answered || saved.status === 'in-progress' ? 'متابعة التدريب' : 'ابدأ الاستماع'} <span>←</span></button></article>`;
     }).join('')}</section>
   </main>`;
 }
@@ -776,7 +776,7 @@ function listeningQuizView(model, recordingItem) {
   const question = questions[index];
   const saved = listeningProgress(model.id, recordingItem.id);
   const selected = state.listeningAnswers?.[question.id];
-  const answered = selected !== undefined;
+  const answered = question.answerOnly || selected !== undefined;
   const hasSourceAnswer = Number.isInteger(question.correctIndex);
   const progressPercent = Math.round(((index + (answered || !question.options.length ? 1 : 0)) / questions.length) * 100);
   const options = question.options.map((option, optionIndex) => {
@@ -785,22 +785,30 @@ function listeningQuizView(model, recordingItem) {
     const isWrong = answered && hasSourceAnswer && isSelected && !isCorrect;
     return `<button class="listening-option ${isSelected ? 'is-selected' : ''} ${isCorrect ? 'is-correct' : ''} ${isWrong ? 'is-wrong' : ''}" data-listening-option="${optionIndex}" ${answered ? 'disabled' : ''}><span>${String.fromCharCode(65 + optionIndex)}</span><strong>${escapeHtml(option)}</strong>${isCorrect ? '<small>الإجابة الصحيحة</small>' : isWrong ? '<small>اختيارك</small>' : ''}</button>`;
   }).join('');
-  const feedback = answered ? `<div class="listening-feedback ${!hasSourceAnswer ? 'is-neutral' : selected === question.correctIndex ? 'is-correct' : 'is-wrong'}"><strong>${!hasSourceAnswer ? 'تم حفظ اختيارك' : selected === question.correctIndex ? 'إجابة صحيحة، أحسنت.' : 'راجع التفصيل المسموع مرة أخرى.'}</strong><span>${!hasSourceAnswer ? escapeHtml(question.note || 'لا توجد إجابة معتمدة في المصدر.') : selected === question.correctIndex ? 'يمكنك الانتقال إلى السؤال التالي.' : `الإجابة الصحيحة: ${String.fromCharCode(65 + question.correctIndex)}) ${escapeHtml(question.options[question.correctIndex])}`}</span></div>` : '';
+  const feedback = !question.answerOnly && answered ? `<div class="listening-feedback ${!hasSourceAnswer ? 'is-neutral' : selected === question.correctIndex ? 'is-correct' : 'is-wrong'}"><strong>${!hasSourceAnswer ? 'تم حفظ اختيارك' : selected === question.correctIndex ? 'إجابة صحيحة، أحسنت.' : 'راجع التفصيل المسموع مرة أخرى.'}</strong><span>${!hasSourceAnswer ? escapeHtml(question.note || 'لا توجد إجابة معتمدة في المصدر.') : selected === question.correctIndex ? 'يمكنك الانتقال إلى السؤال التالي.' : `الإجابة الصحيحة: ${String.fromCharCode(65 + question.correctIndex)}) ${escapeHtml(question.options[question.correctIndex])}`}</span></div>` : '';
+  const sourceNote = question.note && question.options.length ? `<aside class="listening-source-note"><strong>ملاحظة المصدر</strong><p>${escapeHtml(question.note)}</p></aside>` : '';
+  const answerContent = question.answerOnly
+    ? `<div class="listening-source-answer"><span>الإجابة الموثقة</span><strong>${escapeHtml(question.options[0])}</strong><small>عرض مرجعي من المصدر — لا يدخل في احتساب الدرجة.</small></div>`
+    : question.options.length ? `<div class="listening-options" role="list">${options}</div>` : `<div class="listening-missing-source"><strong>هذا السؤال غير متوفر في المصدر</strong><p>${escapeHtml(question.note)}</p></div>`;
   return `<main class="dashboard-shell listening-quiz-shell">${dashboardHeader('listening')}
     <header class="listening-quiz-top"><button class="back-button" data-listening-model>← مقاطع النموذج</button><div><span>${escapeHtml(model.title)} · المقطع ${recordingItem.order}</span><h1>السؤال ${index + 1} من ${questions.length}</h1></div><div class="grammar-quiz-progress"><span>${progressPercent}%</span><div><i style="width:${progressPercent}%"></i></div></div></header>
-    <section class="listening-player-card"><div class="player-orbit" aria-hidden="true"><span>♪</span></div><div class="player-copy"><span>المقطع الصوتي ${recordingItem.order}</span><strong>${recordingItem.audioUrl ? 'استمع جيدًا قبل الإجابة' : 'الصوت بانتظار الإرفاق'}</strong><small>${recordingItem.audioUrl ? 'يمكنك إعادة التشغيل أثناء حل أسئلة المقطع.' : 'الأسئلة جاهزة، وسيظهر ملف الصوت هنا فور إضافته.'}</small></div>${recordingItem.audioUrl ? `<audio controls preload="metadata" src="${escapeHtml(recordingItem.audioUrl)}" data-listening-review></audio>` : '<span class="audio-pending-badge">ملف الصوت غير مرفق</span>'}</section>
-    <section class="listening-question-card"><div class="listening-question-meta"><span>Question ${question.number}</span><span>${hasSourceAnswer ? 'إجابة معتمدة' : 'يحتاج مراجعة'}</span></div><div class="question-heading grammar-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${escapeHtml(question.prompt)}</div></div>${question.options.length ? `<div class="listening-options" role="list">${options}</div>` : `<div class="listening-missing-source"><strong>هذا السؤال غير متوفر في المصدر</strong><p>${escapeHtml(question.note)}</p></div>`}${feedback}</section>
-    <footer class="listening-quiz-actions"><button class="outline-action" data-listening-previous ${index === 0 ? 'disabled' : ''}>السابق</button><button class="mint-action" data-listening-next ${question.options.length && !answered ? 'disabled' : ''}>${index === questions.length - 1 ? 'إنهاء المقطع' : 'السؤال التالي'} <span>←</span></button></footer>
+    <section class="listening-player-card"><div class="player-orbit" aria-hidden="true"><span>♪</span></div><div class="player-copy"><span>${escapeHtml(recordingItem.title)}</span><strong>${recordingItem.audioUrl ? 'استمع جيدًا قبل الإجابة' : 'الصوت بانتظار الإرفاق'}</strong><small>${recordingItem.audioUrl ? 'يمكنك إعادة التشغيل أثناء حل أسئلة المقطع.' : 'الأسئلة جاهزة، وسيظهر ملف الصوت هنا فور إضافته.'}</small></div>${recordingItem.audioUrl ? `<audio controls preload="metadata" src="${escapeHtml(recordingItem.audioUrl)}" data-listening-review></audio>` : '<span class="audio-pending-badge">ملف الصوت غير مرفق</span>'}</section>
+    <section class="listening-question-card"><div class="listening-question-meta"><span>Question ${question.number}</span><span>${question.answerOnly ? 'إجابة موثقة من المصدر' : hasSourceAnswer ? 'إجابة معتمدة' : 'يحتاج مراجعة'}</span></div><div class="question-heading grammar-question-heading" dir="auto"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${escapeHtml(question.prompt)}</div></div>${sourceNote}${answerContent}${feedback}</section>
+    <footer class="listening-quiz-actions"><button class="outline-action" data-listening-previous ${index === 0 ? 'disabled' : ''}>السابق</button><button class="mint-action" data-listening-next ${!question.answerOnly && question.options.length && !answered ? 'disabled' : ''}>${index === questions.length - 1 ? 'إنهاء المقطع' : 'السؤال التالي'} <span>←</span></button></footer>
   </main>`;
 }
 
 function listeningResultView(model, recordingItem) {
   const saved = listeningProgress(model.id, recordingItem.id);
-  const scored = recordingItem.questions.filter((question) => Number.isInteger(question.correctIndex));
+  const scored = recordingItem.questions.filter((question) => Number.isInteger(question.correctIndex) && !question.answerOnly);
+  const answerOnlyCount = recordingItem.questions.filter((question) => question.answerOnly).length;
+  const needsReviewCount = recordingItem.questions.length - scored.length - answerOnlyCount;
   const correct = scored.filter((question) => saved.results?.[question.id] === true).length;
   const score = scored.length ? Math.round((correct / scored.length) * 100) : 0;
   const nextRecording = model.recordings[recordingItem.order] ?? null;
-  return `<main class="dashboard-shell listening-result-shell">${dashboardHeader('listening')}<section class="listening-result-card"><span class="result-headphones" aria-hidden="true">♫</span><span class="eyebrow">اكتمل المقطع ${recordingItem.order}</span><h1>أحسنت، أنهيت هذا المقطع</h1><div class="listening-result-score"><strong>${score}%</strong><span>${correct} من ${scored.length} إجابات معتمدة صحيحة</span></div><p>${recordingItem.questions.length - scored.length ? `${recordingItem.questions.length - scored.length} من الأسئلة لا تحمل إجابة معتمدة، لذلك لم تدخل في النتيجة.` : 'استمر على هذا الإيقاع وأكمل بقية مقاطع النموذج.'}</p><div><button class="outline-action" data-listening-retry>إعادة المقطع</button>${nextRecording ? `<button class="mint-action" data-open-recording="${nextRecording.id}">المقطع التالي <span>←</span></button>` : '<button class="mint-action" data-listening-library>العودة للنماذج</button>'}</div></section></main>`;
+  const resultSummary = scored.length ? `<strong>${score}%</strong><span>${correct} من ${scored.length} إجابات معتمدة صحيحة</span>` : `<strong>تم</strong><span>راجعت ${answerOnlyCount} ${answerOnlyCount === 1 ? 'إجابة موثقة' : 'إجابات موثقة'}</span>`;
+  const sourceSummary = [answerOnlyCount ? `${answerOnlyCount} إجابات مرجعية موثقة لا تدخل في الدرجة` : '', needsReviewCount ? `${needsReviewCount} أسئلة تحتاج مراجعة الصوت` : ''].filter(Boolean).join('، ');
+  return `<main class="dashboard-shell listening-result-shell">${dashboardHeader('listening')}<section class="listening-result-card"><span class="result-headphones" aria-hidden="true">♫</span><span class="eyebrow">اكتمل المقطع ${recordingItem.order}</span><h1>أحسنت، أنهيت هذا المقطع</h1><div class="listening-result-score">${resultSummary}</div><p>${sourceSummary ? `${sourceSummary}، لذلك لم تُحتسب ضمن النتيجة.` : 'استمر على هذا الإيقاع وأكمل بقية مقاطع النموذج.'}</p><div><button class="outline-action" data-listening-retry>إعادة المقطع</button>${nextRecording ? `<button class="mint-action" data-open-recording="${nextRecording.id}">المقطع التالي <span>←</span></button>` : '<button class="mint-action" data-listening-library>العودة للنماذج</button>'}</div></section></main>`;
 }
 
 function confirmGrammarAnswer(model, question, optionIndex) {
@@ -1717,7 +1725,7 @@ app.addEventListener('click', (event) => {
     const model = currentListeningModel();
     const recordingItem = currentRecording(model);
     const question = recordingItem?.questions[state.listeningQuestionIndex];
-    if (!model || !recordingItem || !question || (question.options.length && state.listeningAnswers?.[question.id] === undefined)) return;
+    if (!model || !recordingItem || !question || (!question.answerOnly && question.options.length && state.listeningAnswers?.[question.id] === undefined)) return;
     const saved = listeningProgress(model.id, recordingItem.id);
     if (state.listeningQuestionIndex >= recordingItem.questions.length - 1) {
       setListeningProgress(model.id, recordingItem.id, { status: 'completed', currentQuestionIndex: 0 });

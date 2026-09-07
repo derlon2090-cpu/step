@@ -4,7 +4,14 @@ const q = (number, prompt, options, correctIndex = null, note = '') => ({
   prompt,
   options,
   correctIndex,
+  answerStatus: Number.isInteger(correctIndex) ? 'verified' : 'needs_review',
   note,
+});
+
+const answerOnly = (number, prompt, answer, note = '') => ({
+  ...q(number, prompt, [answer], null, note),
+  answerOnly: true,
+  answerStatus: 'source_reference',
 });
 
 const recording = (order, questions, title = '') => ({
@@ -396,6 +403,204 @@ export const listeningModels = [
         q(19, 'Raising teacher awareness can …', ['save money.', 'prevent diabetes.', 'target school staff.', "save students' lives."], 3),
       ]),
       recording(10, [q(20, 'Why does Ali call Mohammed?', ['to set up a meeting.', 'to set the time for a meeting.', 'to find out the time of a meeting.', 'to ask Mohammed to come to a meeting.'], 2)]),
+    ],
+  },
+  {
+    id: 'listening-11', order: 11, title: 'نموذج الاستماع الحادي عشر', subtitle: 'مدفوعات وصحة وعمل وخدمات يومية',
+    recordings: [
+      recording(1, [q(1, 'The man paid by …', ['Debit card', 'Credit card', 'Check', 'Cash'], 1)], 'Payment Method'),
+      recording(2, [q(2, 'Why did Mrs. Noura go to the dentist?', ['She has made an appointment.', 'Her tooth was hurting very badly.', 'Mr. Ahmed did NOT keep his appointment.', 'Dr. Rashid had no other patients that day.'], 1)], 'Dentist Visit'),
+      recording(3, [
+        q(3, 'Last weekend, Mike was …', ['At home', 'At work', 'In the desert', 'At school'], 2),
+        q(4, 'Mike spent last weekend with …', ['People from work', 'A racing team', 'His family', 'His friends'], 3),
+        q(5, 'Roger was surprised when he saw Mike because he …', ['Had a new four-wheeler', 'Had a broken arm.'], 1),
+      ], 'Desert Weekend'),
+      recording(4, [
+        q(6, 'How did the man know about the job?', ['He heard about it on the radio.', 'He found the advertisement.', 'He saw it in a shop window.', 'He read about E.F.T. in a newspaper.'], 1),
+        q(7, 'What is the last date to submit the application?', ['This Friday', 'Next Friday', 'In one week', 'In two weeks'], 1),
+      ], 'Job Application'),
+      recording(5, [
+        q(8, 'Which is true about the Moon in French?', ["It's male.", "It's female.", "It's two words.", "It's difficult to pronounce."], 1),
+        q(9, 'What do we understand about the student?', ['He disagrees with the teacher.', 'He was late for class.', 'He translates books.', 'He knows Arabic and English.'], 3),
+      ], 'French Moon'),
+      recording(6, [
+        q(10, 'They will look at figures for …', ['The next year', 'The next months', 'The last four months', 'The last two months'], 3),
+        q(11, 'The agenda is part of a …', ['Sports meeting', 'School meeting', 'Business meeting', 'Government meeting'], 2),
+      ], 'Business Figures'),
+      recording(7, [
+        q(12, 'The conversation takes place in the …', ['morning', 'evening', 'afternoon', 'night'], 2),
+        q(13, "The customer's choice for the method of …", ['Cheapest', 'Slowest', 'Latest', 'Quickest'], 3, 'نص السؤال غير مكتمل في المصدر؛ الخيارات والإجابة محفوظة كما وردت.'),
+        q(14, 'The conversation takes place at …', ['Home', 'a post office', 'a supermarket', 'hospital'], 1),
+      ], 'Shipment Office'),
+      recording(8, [
+        q(15, 'What is the main problem discussed in the conversation?', ["Will's work", "Will's supervisor", "Will's family", "Will's health"], 3),
+        q(16, "Why hasn't Will seen a doctor?", ["He doesn't have time.", 'He is afraid of something.', "He doesn't want to.", "His family doesn't want to."], 0),
+      ], "Will's Health"),
+      recording(9, [
+        q(17, 'What was the problem the people were talking about?', ['The air conditioning is working and the repairman is there.', 'The air conditioning is NOT working and the repairman is not there.', 'The air conditioning is NOT working and the repairman is there.', 'The air conditioning is working and the repairman is NOT there.'], 1),
+        q(18, 'The phrase “it’s anyone’s guess” is closest in meaning to …', ['Everyone can be sure when the repairman will come.', 'Only the office can be sure when the repairman will come.', 'No one can be sure when the repairman will come.', 'Anyone can be sure when the repairman will come.'], 2),
+      ], 'Air Conditioner'),
+      recording(10, [
+        q(19, 'We can understand that Virginia …', ['Has a job', 'Has children', 'Goes to the mall often', 'Is far from Makah Road'], 1),
+        q(20, 'Virginia wants to go to Mega to …', ['get some furniture', 'eat at a restaurant', 'buy a stroller', 'pick up her husband'], 0),
+      ], 'Mega Shopping'),
+    ],
+  },
+  {
+    id: 'listening-12', order: 12, title: 'نموذج الاستماع الثاني عشر', subtitle: '18 سؤالًا موثقًا من صور المصدر',
+    recordings: [
+      recording(1, [q(1, 'In what subject does Salah have an examination?', ['geology', 'psychology', 'biology', 'chemistry'], 2)], 'Biology Exam'),
+      recording(2, [
+        q(2, 'What did the man order?', ['salad', 'burger', 'chicken and soup', 'chicken and potatoes'], 3),
+        q(3, 'This conversation mostly takes place in …', ['a restaurant', 'a house', 'a hospital', 'a school'], 0),
+      ], 'Restaurant Order'),
+      recording(3, [
+        q(4, 'How much did travelers spend in 1990?', ['4.2 trillion dollars', '3.2 trillion dollars', '41.3 million dollars', '46.3 million dollars'], 1),
+        q(5, 'What is the most popular country people go to?', ['France', 'U.S.A.', 'Spain', 'China'], 0),
+        q(6, 'How many people visited the USA in 1996?', ['43.3 million people', '14.6 million people', '16.4 million people', '46.3 million people'], 3),
+      ], 'Travel Statistics'),
+      recording(4, [q(7, 'Who was at home when the house burned down?', ['Hassan', 'the whole family', 'Nobody', 'many people'], 2)], 'House Fire'),
+      recording(5, [
+        q(8, 'Why did Ali call the Sales Employment Office?', ['to have his computer fixed', 'to travel abroad', 'looking for a hotel', 'looking for a job as a sales manager'], 3),
+        q(9, 'In what area does Ali have a degree?', ['Computer programming', 'sales management', 'public relations', 'computer maintenance'], 0),
+      ], 'Sales Job'),
+      recording(6, [
+        q(10, 'The conversation takes place in the …', ['morning', 'afternoon', 'evening', 'night'], 1),
+        q(11, "The customer's choice of delivery is the …", ['regular delivery', 'urgent delivery', 'long-term delivery', 'next-day delivery'], 3),
+        q(12, 'The conversation takes place at …', ['a shipment office', 'a hotel', 'a house', 'Abu Dhabi'], 0),
+      ], 'Delivery Service'),
+      recording(7, [q(13, 'What does Bader mean?', ["He doesn't have many hands.", 'He can help.', "He can't take the suitcase.", "He doesn't like his colleague."], 2)], "Bader's Suitcase"),
+      recording(8, [q(14, 'The lecture started at …', ['10:30', '10:00', '9:30', '12:30'], 3)], 'Lecture Time'),
+      recording(9, [q(15, 'What does this teacher imply about Abdullah?', ['Abdullah has free time.', 'Abdullah will be very busy.', 'Abdullah finished his research.', "Abdullah's hands hurt."], 1)], "Abdullah's Schedule"),
+      recording(10, [q(16, 'What information does the customer know about the book?', ['The publishing year 2008.', 'The price of the book.', 'The names of the authors.', 'The title of the book.'], 0)], 'Book Inquiry'),
+      recording(11, [
+        q(17, 'Where does this announcement take place?', ['in an airport', 'in a train station', 'in a school', 'on a street'], 1),
+        q(18, 'What should the people do?', ['They should change from Platform 2 to Platform 3.', 'They should change from Platform 3 to Platform 2.', 'They should change from Platform 1 to Platform 2.', 'They should change from Platform 2 to Platform 1.'], 0),
+      ], 'Train Station'),
+    ],
+  },
+  {
+    id: 'listening-13', order: 13, title: 'نموذج الاستماع الثالث عشر', subtitle: 'محاضرات صفية في التاريخ والعلوم والأعمال',
+    recordings: [
+      recording(1, [
+        q(1, 'What does the lecturer think about the invention of the powder?', ['It is amazing.', 'It was improved in Japan.', 'It is used to hurt people.'], 2),
+        q(2, 'Why did the Chinese scientists first invent the powder?', ['as a weapon', 'for the army', 'as a medicine'], 2),
+      ], 'a lecture on History'),
+      recording(2, [
+        q(3, 'What important point does the teacher mention about the Internet?', ['It was invented in 1983.', 'It uses wireless technology.', 'It connects computers worldwide.'], null, 'الحل حسب الصوت في الاختبار؛ لا توجد إجابة مسطّرة في المصدر.'),
+        q(4, 'What pages should the students read in chapter 8?', ['129–133', '120–130', '133–138'], null, 'الحل حسب الصوت في الاختبار.'),
+        q(5, 'When will the students meet for their next class?', ['Monday', 'Tuesday', 'Thursday'], null, 'الحل حسب الصوت في الاختبار.'),
+      ], 'classroom discussion about Computer Science'),
+      recording(3, [
+        q(6, 'What important point does the lecturer mention about tea?', ['It is a vegetable.', 'It was cultivated in China.', 'It became a drink later in history.'], null, 'الحل حسب الصوت في الاختبار.'),
+        q(7, 'When was tea first used as a drink?', ['500 years ago', '1,500 years ago', '6,000 years ago'], null, 'الحل حسب الصوت في الاختبار.'),
+        q(8, 'What developed in China after tea became a drink?', ['A popular tea culture', 'A lot of new book clubs', 'Many new tea businesses'], null, 'الحل حسب الصوت في الاختبار.'),
+        q(9, 'What is the most popular drink in the world today?', ['Tea', 'Water', 'Coffee'], null, 'الحل حسب الصوت في الاختبار.'),
+      ], 'Tea'),
+      recording(4, [
+        q(10, 'What important point does the lecturer mention about the center of mass?', ['It involves a stick.', "It's important in math.", "It's in the middle of objects."], 2),
+        q(11, 'Where is the center of mass of a stick?', ["It's in the middle.", 'It moves around.', "It's in different positions."], 0),
+        q(12, 'Where is the center of mass of a standing human?', ['Where the hands meet.', 'Around the heart.', 'Around the stomach.'], 2),
+      ], 'center of mass'),
+      recording(5, [
+        q(13, 'What does the teacher think about presentations?', ['They are easy to do.', 'They can be very boring.', 'They can make people anxious.'], null, 'الحل حسب الصوت في الاختبار.'),
+        q(14, 'What does the teacher think about telling jokes in presentations?', ['Jokes are okay anytime.', 'Telling jokes is a way bad.', 'Few jokes can be useful.'], null, 'الحل حسب الصوت في الاختبار.'),
+      ], 'a class discussion about psychology'),
+      recording(6, [q(15, 'What will the lecture be about?', ['How birds find family members.', 'How birds dance.', 'The meaning of bird behaviors.'], null, 'لا توجد إجابة مسطّرة في المصدر؛ الحل يعتمد على الصوت.')], 'a classroom lecture'),
+      recording(7, [
+        q(16, 'What is the main idea of the lecture?', ['The shell method of product portfolio analysis.', 'The BCG method.', 'The importance of product portfolio analysis.'], null, 'لا توجد إجابة مسطّرة في المصدر.'),
+        q(17, 'What information about the investment portfolio does the professor think is important?', ['making more money', 'a balanced group of stocks', 'products that show promise'], null, 'لا توجد إجابة مسطّرة في المصدر.'),
+      ], 'Business Administration'),
+      recording(8, [
+        q(18, 'How does the lecturer support the claim that people are bad at judging themselves?', ['Over 100 studies', '30% of engineers', 'Engineers at two companies'], null, 'الإجابة غير محددة في المصدر.'),
+        q(19, 'Why does the lecturer mention that engineers put themselves in the top 5%?', ['Companies need them.', "Most engineers AREN'T the best.", "People CAN'T assess themselves well."], null, 'الإجابة غير محددة في المصدر.'),
+      ], 'Psychology'),
+      recording(9, [q(20, 'What will the lecture be about?', ['The special talent of Humpback Whales.', 'The largest member of the whale family.', 'The difference between two kinds of whales.'], null, 'الإجابة غير محددة في المصدر.')], 'a classroom lecture'),
+    ],
+  },
+  {
+    id: 'listening-14', order: 14, title: 'نموذج الاستماع الرابع عشر', subtitle: '17 سؤالًا موثقًا من صور المصدر',
+    recordings: [
+      recording(1, [
+        q(1, 'What did the man order?', ['chicken wings', 'chicken and bread', 'potatoes and drink', 'potatoes and chicken'], 3),
+        q(2, 'What can be inferred from this conversation?', ['The two speakers are hungry.', 'The first speaker is NOT hungry.', 'The two speakers are NOT hungry.', 'The second speaker is NOT hungry.'], 0),
+      ], 'Food Order'),
+      recording(2, [
+        q(3, "What does Hind's father do?", ['general practitioner', 'businessman', 'surgeon', 'lawyer'], null, 'لا توجد إجابة مسطّرة بوضوح في المصدر.'),
+        q(4, "What was Ahmad's father's previous specialty?", ['surgeon', 'sergeant', 'businessman', 'general practitioner'], 3),
+      ], 'Medical Careers'),
+      recording(3, [
+        q(5, 'Which of the following is TRUE?', ['He is paying for the trip.', 'He has been to Los Angeles.', 'He is going to Los Angeles next month.', 'He is going to Los Angeles for one month.'], 3),
+        q(6, 'Which factor is most important for choosing a hotel?', ['location', 'services', 'rating', 'price'], 0),
+      ], 'Travel Plans'),
+      recording(4, [q(7, 'What will most likely happen next?', ['A phone call will be made.', 'A fax will be transmitted.', 'A letter will be mailed.', 'An email will be sent.'], 3)], 'Email Follow-up'),
+      recording(5, [
+        q(8, 'When did the conversation take place?', ['in the morning', 'at noon', 'in the afternoon', 'in the evening'], 2),
+        q(9, 'How does the first speaker feel?', ['angry', 'tired', 'hungry', 'worried'], 1),
+      ], 'Afternoon Talk'),
+      recording(6, [
+        answerOnly(10, 'لماذا ذهبوا إلى City Center؟', 'Hotel and food.', 'رجل وزوجته يتشاوران في الذهاب إلى City Center، ويسألها عن القطار أو التاكسي، وتذكر أن الطرق مزدحمة.'),
+        answerOnly(11, 'لماذا لا يفضل الذهاب بالتاكسي؟', 'Heavy traffic.', 'الإجابة موثقة نصيًا في المصدر دون خيارات.'),
+        answerOnly(12, 'في النهاية، كيف سيذهبون؟', 'By Metro.', 'الإجابة موثقة نصيًا في المصدر دون خيارات.'),
+      ], 'City Center Trip'),
+      recording(7, [
+        q(13, 'What does the lecturer think about students standing up at school?', ['It is stupid.', 'It is good.', 'It is common.'], null, 'لا توجد إجابة مسطّرة في المصدر.'),
+        q(14, 'What does the lecturer say about sitting down for short periods?', ['It is acceptable.', 'It is what we want.', 'It is very unhealthy.'], null, 'الإجابة غير محددة في المصدر.'),
+      ], 'Standing at School'),
+      recording(8, [
+        q(15, 'What pages should the students read for next class?', ['33–45', '46–49', '55–68'], 2),
+        q(16, 'When will the students have their test?', ['Monday', 'Tuesday', 'Thursday'], 2),
+        q(17, 'When must the students hand in their projects?', ['Monday', 'Tuesday', 'Thursday'], 0),
+      ], 'Class Schedule'),
+    ],
+  },
+  {
+    id: 'listening-15', order: 15, title: 'نموذج الاستماع الخامس عشر', subtitle: 'أسئلة وإجابات موثقة من وصف المصدر',
+    recordings: [
+      recording(1, [
+        answerOnly(1, 'أين حدثت المحادثة؟', 'Pharmacy — الصيدلية', 'امرأة لديها ألم شديد في أسنانها ولا تستطيع النوم، وتتحدث مع الصيدلي.'),
+        answerOnly(2, 'ماذا يطلب أو يسأل الصيدلي عنها؟', 'Prescription — وصفة', 'المصدر يقدم وصف المحادثة والسؤال والإجابة دون خيارات.'),
+        answerOnly(3, 'ما نوع الألم؟', 'Toothache — ألم أسنان', 'المصدر يقدم وصف المحادثة والسؤال والإجابة دون خيارات.'),
+      ], 'الصيدلية'),
+      recording(2, [
+        answerOnly(4, 'المحادثة بين من ومن؟', 'Director or manager and secretary — المدير والسكرتير', 'محادثة بين مدير وسكرتير حول غرفة الاجتماع.'),
+        answerOnly(5, 'لماذا اختار الغرفة B؟', 'The biggest — لأنها الأكبر', 'المصدر يقدم السؤال والإجابة دون خيارات.'),
+        answerOnly(6, 'لماذا طلب حجز غرفة أو لماذا سيقيم الاجتماع؟', 'To discuss makes report', 'العبارة الإنجليزية محفوظة كما كُتبت في المصدر، مع توضيح عربي متعلق بمناقشة العمل أو التقرير؛ تحتاج مراجعة الصوت قبل تصحيح الصياغة.'),
+      ], 'محادثة المدير والسكرتير حول غرفة الاجتماع'),
+      recording(3, [
+        answerOnly(7, 'لماذا لم يصف له الرجل الأول الموقع؟', 'لأنه من خارج المدينة.', 'شخص ضائع يريد معرفة مكان المخبز؛ سأل رجلًا ليس من المنطقة ثم أعطته امرأة الاتجاه.'),
+        answerOnly(8, 'أين يقع المبنى أو المخبز؟', 'On the left.', 'المصدر يقدم السؤال والإجابة دون خيارات.'),
+      ], 'Bakery'),
+      recording(4, [
+        answerOnly(9, 'ما وظيفة الرجل المتعلقة بمشكلة الجهاز؟', 'Responsible for solving customer problems.', 'زبون اشترى تلفازًا وتعطّل خلال أقل من 24 ساعة، وطلب من المحل استرجاع المبلغ.'),
+        answerOnly(10, 'ماذا حدث في النهاية أو ماذا فعل الرجل بالمنتج؟', 'استرجع المبلغ.', 'الإجابة المكتوبة في المصدر: أخذ فلوسه.'),
+      ], 'TV Refund'),
+      recording(5, [
+        answerOnly(11, 'ما الذي طلبه الزبون للشرب؟', 'Lemon and soda.', 'زبون في فندق يطلب وجبة، والطلب سيجهز خلال نصف ساعة.'),
+        answerOnly(12, 'ما رقم الغرفة؟', '60 — sixty', 'المصدر يقدم السؤال والإجابة دون خيارات.'),
+        answerOnly(13, 'متى يجهز الطلب؟', 'Thirty minutes — 30 دقيقة', 'المصدر يقدم السؤال والإجابة دون خيارات.'),
+      ], 'Room Service'),
+      recording(6, [
+        answerOnly(14, 'ماذا يعمل عم خالد؟', 'Lecturer — محاضر', 'خالد يتحدث مع صديقه عن زيارته لدبي وعن عمه الذي يعيش ويعمل فيها.'),
+        answerOnly(15, 'هل عم خالد سعيد في دبي؟', 'He is happy, but he still thinks of Saudi Arabia and misses it.', 'الإجابة محفوظة بالمعنى الوارد في المصدر.'),
+        answerOnly(16, 'أين يسكن عم خالد؟', 'In Dubai.', 'المصدر يقدم السؤال والإجابة دون خيارات.'),
+      ], 'Khaled in Dubai'),
+      recording(7, [
+        answerOnly(17, 'أين توجد التذاكر؟', 'In the pocket of the jacket.', 'زوجان مسافران في زيارة عائلية ومشتاقان للعائلة، وهما في السيارة.'),
+        answerOnly(18, 'ما نوع الرحلة؟', 'Family visit.', 'المصدر يقدم السؤال والإجابة دون خيارات.'),
+      ], 'Family Visit'),
+      recording(8, [
+        answerOnly(19, 'أين سيلتقي الطالب بالمعلم؟', 'المكتب.', 'الطالب يحتاج شرحًا للدرس، والمعلم طلب منه أن يأتي إلى مكتبه.'),
+        answerOnly(20, 'ما الذي لم يفهمه الطالب؟', 'كل شيء.', 'المصدر يقدم السؤال والإجابة دون خيارات.'),
+        answerOnly(21, 'الساعة كم سيلتقي به؟', '3 p.m.', 'المصدر يقدم السؤال والإجابة دون خيارات.'),
+        answerOnly(22, 'أين يعمل البروفيسور أو ما عمله؟', 'دكتور في الجامعة.', 'المصدر يقدم السؤال والإجابة دون خيارات.'),
+      ], 'Student Office Meeting'),
+      recording(9, [
+        answerOnly(23, 'ما اللغة التي يدرس بها؟', 'Japanese — اليابانية', 'شخص يدرس في اليابان وواجه في البداية صعوبة في فهم اللغة اليابانية.'),
+        answerOnly(24, 'ماذا كان يدرس في الجامعة؟', 'Mathematics', 'المصدر يقدم السؤال والإجابة دون خيارات.'),
+        answerOnly(25, 'ما وظيفته؟', 'Lecturer of Mathematics', 'المصدر يقدم السؤال والإجابة دون خيارات.'),
+      ], 'Studying in Japan'),
+      recording(10, [answerOnly(26, 'متى تصل الرحلة؟', 'Thirty minutes — 30 دقيقة', 'الإجابة موثقة في وصف المصدر دون خيارات.')], 'محادثة رحلة الدمام'),
     ],
   },
 ];
