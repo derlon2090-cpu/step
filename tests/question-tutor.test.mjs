@@ -110,6 +110,28 @@ test('question tutor receives the answer key only after a valid option is select
   assert.match(requestBody.messages[0].content, /"correctAnswer":"bigger"/);
 });
 
+test('Nibras receives the verified reading answer link only for the dedicated action', async () => {
+  process.env.DEEPSEEK_API_KEY = 'test-key';
+  let requestBody;
+  globalThis.fetch = async (_url, options) => {
+    requestBody = JSON.parse(options.body);
+    return new Response(JSON.stringify({ choices: [{ message: { content: 'اربط كلمة language بأن كبار السن هم من يتحدثون بها غالبًا.' } }] }), { status: 200 });
+  };
+  await chatWithQuestionTutor({
+    questionId: 'reading-01-ktunaxa-language-q01',
+    sessionId: 'reading-01:ktunaxa-language:reading-01-ktunaxa-language-q01',
+    message: 'ربط الإجابة',
+    action: 'answer_link',
+    selectedOptionId: null,
+    history: [],
+  });
+  assert.equal(requestBody.messages.at(-1).content, 'ربط الإجابة');
+  assert.match(requestBody.messages[0].content, /طلب الطالب ربط الإجابة/);
+  assert.match(requestBody.messages[0].content, /"correctAnswer":"It is mainly spoken by elders\."/);
+  assert.match(requestBody.messages[0].content, /"answerLink":\{"keyword":"language"/);
+  assert.match(requestBody.messages[0].content, /سبب الربط/);
+});
+
 test('a new question cannot reuse another question session', async () => {
   process.env.DEEPSEEK_API_KEY = 'test-key';
   await assert.rejects(() => chatWithQuestionTutor(input({ questionId: 'grammar-01-q03', sessionId: 'grammar-01:grammar:grammar-01-q02' })), (error) => error.code === 'TUTOR_SESSION_MISMATCH');

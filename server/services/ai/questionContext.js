@@ -1,5 +1,6 @@
 import { readdir, readFile } from 'node:fs/promises';
 import { grammarModels } from '../../../src/data/grammarModels.js';
+import { buildReadingAnswerLink } from '../../../src/data/readingAnswerLinks.js';
 
 const readingModelsDirectory = new URL('../../../src/data/reading/models/', import.meta.url);
 let readingQuestionIndexPromise;
@@ -29,10 +30,10 @@ function publicOptions(questionId, options, skill) {
   return (options ?? []).map((text, index) => ({ id: optionId(questionId, index, skill), text }));
 }
 
-function withAnswerState(base, selectedOptionId, correctAnswer, humanNote) {
+function withAnswerState(base, selectedOptionId, correctAnswer, humanNote, { forceReveal = false, answerLink = null } = {}) {
   const selectedOption = base.options.find((option) => option.id === selectedOptionId) ?? null;
   const answered = Boolean(selectedOption);
-  const canRevealAnswer = answered && Boolean(correctAnswer);
+  const canRevealAnswer = (answered || forceReveal) && Boolean(correctAnswer);
   return {
     ...base,
     isAnswered: answered,
@@ -40,10 +41,11 @@ function withAnswerState(base, selectedOptionId, correctAnswer, humanNote) {
     selectedOptionText: answered ? selectedOption.text : null,
     correctAnswer: canRevealAnswer ? correctAnswer : null,
     humanNote: canRevealAnswer ? humanNote || null : null,
+    answerLink: canRevealAnswer ? answerLink : null,
   };
 }
 
-export async function resolveQuestionContext(questionId, selectedOptionId = null) {
+export async function resolveQuestionContext(questionId, selectedOptionId = null, { revealAnswer = false } = {}) {
   for (const model of grammarModels) {
     const question = model.questions.find((candidate) => candidate.id === questionId);
     if (!question) continue;
@@ -64,6 +66,7 @@ export async function resolveQuestionContext(questionId, selectedOptionId = null
   if (match) {
     const { model, piece, question } = match;
     const verifiedAnswer = question.answerStatus === 'verified' ? question.correctAnswer : null;
+    const answerLink = revealAnswer && verifiedAnswer ? buildReadingAnswerLink(question) : null;
     return withAnswerState({
       questionId,
       skill: 'reading',
@@ -72,7 +75,7 @@ export async function resolveQuestionContext(questionId, selectedOptionId = null
       options: publicOptions(question.id, question.options, 'reading'),
       grammarType: null,
       passage: piece.passage ? String(piece.passage).slice(0, 12_000) : null,
-    }, selectedOptionId, verifiedAnswer, question.sourceNote);
+    }, selectedOptionId, verifiedAnswer, question.sourceNote, { forceReveal: revealAnswer, answerLink });
   }
 
   const error = new Error('QUESTION_NOT_FOUND');

@@ -26,12 +26,11 @@ test('every scored reading question has a memorable answer link', async () => {
   }
 });
 
-test('answer-link control is prominently placed above word translation', async () => {
+test('answer linking is removed from the question surface and offered through Nibras', async () => {
   const source = await readFile(new URL('../src/main.js', import.meta.url), 'utf8');
-  assert.match(source, /data-toggle-answer-link/);
-  assert.ok(source.indexOf('class="answer-link-feature"') < source.indexOf('class="question-tools"'));
-  assert.doesNotMatch(source, /if \(!selected\) return;/);
-  assert.match(source, /ربط منطقي سهل للحفظ/);
-  assert.match(source, /سبب الربط/);
-  assert.match(source, /لماذا الإجابة صحيحة/);
+  const quizSource = source.slice(source.indexOf('function quizView('), source.indexOf('function resultView('));
+  assert.doesNotMatch(quizSource, /data-toggle-answer-link|answer-link-feature|answer-link-card/);
+  assert.match(source, /answer_link: 'ربط الإجابة'/);
+  assert.match(source, /\['hint', 'simplify', 'rule', 'answer_link', 'explain'\]/);
+  assert.match(source, /passage\?\.id === 'grammar' \? 'grammar' : 'reading'/);
 });

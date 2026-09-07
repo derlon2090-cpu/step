@@ -23,7 +23,7 @@ test('reading dashboard uses the redesigned library, passage, and split-question
 test('reading visuals are project assets and all existing question tools remain available', () => {
   assert.equal(existsSync(new URL('../public/assets/reading-library-books.jpg', import.meta.url)), true);
   assert.equal(existsSync(new URL('../public/assets/reading-passage-landscape.jpg', import.meta.url)), true);
-  assert.match(mainSource, /data-toggle-answer-link=/);
+  assert.match(mainSource, /answer_link: 'ربط الإجابة'/);
   assert.match(mainSource, /data-toggle-translation=/);
   assert.match(mainSource, /data-tutor-toggle=/);
   assert.match(mainSource, /data-reset-quiz/);
@@ -51,10 +51,22 @@ test('desktop reading session keeps the page chrome and question actions inside 
   assert.match(reviewCssSource, /grid-template-areas:"question passage"/);
   assert.match(reviewCssSource, /\.reading-v2-question-scroll\{[^}]*overflow-y:auto/);
   assert.match(reviewCssSource, /\.reading-v2-passage-panel>div\{[^}]*overflow-y:auto/);
+  assert.match(reviewCssSource, /\.reading-v2-question-panel\{border:0!important;background:transparent!important;box-shadow:none!important\}/);
 });
 
 test('short desktop viewports compact the session while smaller screens retain natural page scrolling', () => {
   assert.match(reviewCssSource, /@media\(min-width:1100px\) and \(max-height:800px\)/);
   assert.match(reviewCssSource, /@media\(max-width:1099px\)\{[\s\S]*\.reading-v2-question-scroll\{overflow:visible\}/);
   assert.match(reviewCssSource, /@media\(max-width:1099px\)\{[\s\S]*\.reading-v2-question-panel>\.reading-v2-quiz-actions\{position:static;height:auto/);
+});
+
+test('reading always opens at the top with normal mode and offers a timed exam mode', () => {
+  assert.match(mainSource, /readingMode: 'normal'/);
+  assert.match(mainSource, /data-reading-mode="normal"/);
+  assert.match(mainSource, /data-reading-mode="exam"/);
+  assert.match(mainSource, /const READING_QUESTION_TIME_SECONDS = 60/);
+  assert.match(mainSource, /window\.scrollTo\(0, 0\)/);
+  assert.match(mainSource, /if \(seconds === 0\) \{[\s\S]*handleReadingTimeExpired\(question\.id\)/);
+  assert.match(mainSource, /state\.questionIndex = nextIndex;[\s\S]*resetReadingQuestionClock\(\)/);
+  assert.match(reviewCssSource, /\.reading-v2-timer\.is-urgent/);
 });

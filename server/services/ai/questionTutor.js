@@ -6,7 +6,7 @@ export const questionTutorSchema = z.object({
   questionId: z.string().min(1).max(200),
   sessionId: z.string().min(1).max(400),
   message: z.string().min(1).max(1000),
-  action: z.enum(['explain', 'simplify', 'rule', 'hint', 'options', 'why_wrong', 'why_correct', 'similar', 'custom']),
+  action: z.enum(['explain', 'simplify', 'rule', 'hint', 'options', 'answer_link', 'why_wrong', 'why_correct', 'similar', 'custom']),
   selectedOptionId: z.string().max(200).nullable().optional().default(null),
   history: z.array(z.object({ role: z.enum(['user', 'assistant']), content: z.string().max(4000) })).max(12).default([]),
 });
@@ -17,6 +17,7 @@ const ACTION_LABELS = {
   rule: 'ما القاعدة؟',
   hint: 'أعطني تلميحًا',
   options: 'اشرح الخيارات',
+  answer_link: 'ربط الإجابة',
   why_wrong: 'لماذا إجابتي خطأ؟',
   why_correct: 'لماذا هذه الإجابة صحيحة؟',
   similar: 'أعطني مثالًا مشابهًا',
@@ -96,7 +97,10 @@ export async function deepseekCheck({ requestId = randomUUID() } = {}) {
 }
 
 function systemPrompt(context, input) {
-  const phaseRule = context.isAnswered && context.correctAnswer
+  const answerLinkRequest = input.action === 'answer_link' && context.skill === 'reading';
+  const phaseRule = answerLinkRequest && context.correctAnswer
+    ? 'طلب الطالب ربط الإجابة. مسموح في هذا الطلب إظهار الإجابة الصحيحة الموثقة فقط، مع ربطها بكلمة واضحة من السؤال وسبب منطقي قصير يسهل حفظه.'
+    : context.isAnswered && context.correctAnswer
     ? 'تم إرسال إجابة الطالب. يمكنك الآن شرح الإجابة الصحيحة وسبب صحة أو خطأ اختياره والقاعدة ومثال مشابه.'
     : 'لم يثبت إرسال إجابة صحيحة المصدر بعد. ممنوع منعًا باتًا ذكر الإجابة الصحيحة أو تعيين خيار بعينه أو تقديم تلميح يكشفه مباشرة. ساعده بخطوة تفكير قصيرة فقط، حتى لو طلب الحل صراحة.';
   const message = input.message.trim();
@@ -112,6 +116,9 @@ function systemPrompt(context, input) {
     phaseRule,
     'أجب بإيجاز ووضوح، وركز على ما سأله الطالب الآن تحديدًا.',
     'في الشرح التعليمي وضح: ما الفكرة؟ لماذا؟ وكيف يعرفها الطالب أو يطبقها في سؤال مشابه؟',
+    answerLinkRequest
+      ? 'في ربط الإجابة: استخدم answerLink المرجعي إن توفر. اكتب الكلمة المفتاحية، ثم الإجابة الصحيحة، ثم جملة «سبب الربط» واحدة منطقية وسهلة الحفظ. لا تخترع ربطًا عامًا ولا تضف خيارات أخرى.'
+      : 'حافظ على الشرح مرتبطًا بطلب الطالب الحالي.',
     'لا تكرر السؤال كاملًا إلا إذا كان ضروريًا، ولا تعيد شرحًا سابقًا بنفس الصياغة.',
     'إذا قال الطالب «ليه؟» فاشرح سبب آخر إجابة. وإذا قال «كيف؟» فاشرح طريقة الوصول للحل.',
     'إذا قال «ما فهمت» فبسّط نفس النقطة بطريقة مختلفة. وإذا قال «اختصر» فاختصر الرد السابق. وإذا قال «مثال» فأعطه مثالًا واحدًا فقط.',
@@ -136,6 +143,7 @@ function systemPrompt(context, input) {
       passage: context.passage,
       selectedOption: context.selectedOptionText,
       correctAnswer: context.correctAnswer,
+      answerLink: context.answerLink,
       noteFromNabahah: context.humanNote,
     })}`,
   ].join('\n');
@@ -214,7 +222,7 @@ export async function chatWithQuestionTutor(input, { requestId = randomUUID(), o
     if (!apiKey) throw tutorError('AI_NOT_CONFIGURED', 503, 'DEEPSEEK_API_KEY_MISSING');
 
     const contextStartedAt = Date.now();
-    const context = await resolveQuestionContext(input.questionId, input.selectedOptionId);
+    const context = await resolveQuestionContext(input.questionId, input.selectedOptionId, { revealAnswer: input.action === 'answer_link' });
     const contextMs = Date.now() - contextStartedAt;
     console.info(`[TUTOR_CONTEXT_READY] requestId=${requestId} questionId=${input.questionId} skill=${context.skill} answered=${context.isAnswered} contextMs=${contextMs}`);
     const deepseekStartedAt = Date.now();

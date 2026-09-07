@@ -5,7 +5,6 @@ import './listening.css';
 import { readings } from './data/readings.js';
 import { questionGlossary } from './data/reading/questionGlossary.js';
 import { buildReadingExplanation } from './data/readingExplanations.js';
-import { buildReadingAnswerLink } from './data/readingAnswerLinks.js';
 import { grammarModels } from './data/grammarModels.js';
 import { listeningModels } from './data/listeningModels.js';
 import { soundManager } from './soundManager.js';
@@ -81,7 +80,7 @@ const savedWorkspace = hasAuthHint ? readSessionStored(workspaceViewKey, {}) : {
 const savedView = restorableViews.has(savedWorkspace.view) ? savedWorkspace.view : null;
 const initialView = requestedView === 'dashboard' ? (hasAuthHint ? 'dashboard' : 'login') : (!requestedView ? savedView ?? (hasAuthHint ? 'dashboard' : null) : requestedView);
 const initialViews = new Set(['login', 'register', ...restorableViews]);
-let state = { view: initialViews.has(initialView) ? initialView : 'library', dashboardSection: typeof savedWorkspace.dashboardSection === 'string' ? savedWorkspace.dashboardSection : 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: typeof savedWorkspace.selectedModelId === 'string' ? savedWorkspace.selectedModelId : null, selectedPassageId: typeof savedWorkspace.selectedPassageId === 'string' ? savedWorkspace.selectedPassageId : null, selectedGrammarModelId: typeof savedWorkspace.selectedGrammarModelId === 'string' ? savedWorkspace.selectedGrammarModelId : null, grammarQuestionIndex: Math.max(0, Number(savedWorkspace.grammarQuestionIndex) || 0), grammarAnswers: {}, grammarConfirmed: {}, selectedListeningModelId: typeof savedWorkspace.selectedListeningModelId === 'string' ? savedWorkspace.selectedListeningModelId : null, selectedRecordingId: typeof savedWorkspace.selectedRecordingId === 'string' ? savedWorkspace.selectedRecordingId : null, listeningQuestionIndex: Math.max(0, Number(savedWorkspace.listeningQuestionIndex) || 0), listeningAnswers: {}, query: '', questionIndex: Math.max(0, Number(savedWorkspace.questionIndex) || 0), questionStartedAt: Date.now(), translationQuestionId: null, answerLinkQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, mistakeReviewId: typeof savedWorkspace.mistakeReviewId === 'string' ? savedWorkspace.mistakeReviewId : null, mistakeSolveId: typeof savedWorkspace.mistakeSolveId === 'string' ? savedWorkspace.mistakeSolveId : null, mistakeSolveAnswer: null, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
+let state = { view: initialViews.has(initialView) ? initialView : 'library', dashboardSection: typeof savedWorkspace.dashboardSection === 'string' ? savedWorkspace.dashboardSection : 'dashboard', dashboardMenuOpen: false, authError: '', authLoading: true, selectedModelId: typeof savedWorkspace.selectedModelId === 'string' ? savedWorkspace.selectedModelId : null, selectedPassageId: typeof savedWorkspace.selectedPassageId === 'string' ? savedWorkspace.selectedPassageId : null, selectedGrammarModelId: typeof savedWorkspace.selectedGrammarModelId === 'string' ? savedWorkspace.selectedGrammarModelId : null, grammarQuestionIndex: Math.max(0, Number(savedWorkspace.grammarQuestionIndex) || 0), grammarAnswers: {}, grammarConfirmed: {}, selectedListeningModelId: typeof savedWorkspace.selectedListeningModelId === 'string' ? savedWorkspace.selectedListeningModelId : null, selectedRecordingId: typeof savedWorkspace.selectedRecordingId === 'string' ? savedWorkspace.selectedRecordingId : null, listeningQuestionIndex: Math.max(0, Number(savedWorkspace.listeningQuestionIndex) || 0), listeningAnswers: {}, query: '', questionIndex: Math.max(0, Number(savedWorkspace.questionIndex) || 0), questionStartedAt: Date.now(), translationQuestionId: null, translatedWords: {}, activeAnswers: {}, restoredProgress: false, readingMode: 'normal', readingTimeLeft: 60, readingTimerDeadline: null, readingTimedOutQuestions: {}, mistakeReviewId: typeof savedWorkspace.mistakeReviewId === 'string' ? savedWorkspace.mistakeReviewId : null, mistakeSolveId: typeof savedWorkspace.mistakeSolveId === 'string' ? savedWorkspace.mistakeSolveId : null, mistakeSolveAnswer: null, tutorOpen: false, tutorQuestionKey: null, tutorSessions: {}, tutorScrollToEnd: false };
 const app = document.querySelector('#app');
 
 const escapeHtml = (value = '') => String(value).replace(/[&<>'"]/g, (char) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' })[char]);
@@ -921,6 +920,7 @@ const tutorActionLabels = {
   rule: 'ما القاعدة؟',
   hint: 'أعطني تلميحًا',
   options: 'اشرح الخيارات',
+  answer_link: 'ربط الإجابة',
   why_wrong: 'لماذا إجابتي خطأ؟',
   why_correct: 'لماذا هذه الإجابة صحيحة؟',
   similar: 'أعطني مثالًا مشابهًا',
@@ -932,9 +932,13 @@ function tutorSessionKey(model, passage, question) {
   return `${model.id}:${passage?.id ?? 'grammar'}:${question.id}`;
 }
 
-function tutorActions(selectedOption) {
-  if (!selectedOption) return ['hint', 'simplify', 'rule', 'options', 'explain'];
-  return [selectedOption.isCorrect ? 'why_correct' : 'why_wrong', 'rule', 'explain', 'similar'];
+function tutorActions(selectedOption, skill = 'reading') {
+  if (!selectedOption) return skill === 'reading'
+    ? ['hint', 'simplify', 'rule', 'answer_link', 'explain']
+    : ['hint', 'simplify', 'rule', 'options', 'explain'];
+  return skill === 'reading'
+    ? [selectedOption.isCorrect ? 'why_correct' : 'why_wrong', 'answer_link', 'explain', 'similar']
+    : [selectedOption.isCorrect ? 'why_correct' : 'why_wrong', 'rule', 'explain', 'similar'];
 }
 
 function tutorPopover(model, passage, question, selectedOption) {
@@ -942,7 +946,7 @@ function tutorPopover(model, passage, question, selectedOption) {
   if (!state.tutorOpen || state.tutorQuestionKey !== key) return '';
   const session = state.tutorSessions[key] ?? { messages: [], loading: false, expanded: false };
   const hasConversation = session.messages.length > 0 || session.loading;
-  const actions = tutorActions(selectedOption);
+  const actions = tutorActions(selectedOption, passage?.id === 'grammar' ? 'grammar' : 'reading');
   const messages = session.messages.map((message) => `<div class="tutor-message ${message.role === 'user' ? 'is-user' : 'is-assistant'} ${message.streaming ? 'is-streaming' : ''}">
     ${message.role === 'assistant' && message.source === 'human-note' ? `<span class="tutor-source-badge">شرح ${NIBRAS_BRAND.name}</span>` : ''}
     <p><span class="tutor-message-content">${formatTutorContent(message.content)}</span>${message.streaming ? `<span class="tutor-writing-label">${NIBRAS_BRAND.name} يكتب</span><span class="tutor-cursor" aria-hidden="true">▋</span>` : ''}</p>
@@ -1104,8 +1108,10 @@ function quizView(model, passage) {
   const hasKnownAnswer = question.correctAnswer !== null;
   const confidence = item.answerMeta?.[question.id]?.confidence;
   const isLastQuestion = index === passage.questions.length - 1;
-  const answerLink = buildReadingAnswerLink(question);
-  const answerLinkOpen = state.answerLinkQuestionId === question.id && answerLink;
+  const examMode = state.readingMode === 'exam';
+  const questionTimedOut = examMode && Boolean(state.readingTimedOutQuestions?.[question.id]);
+  const timerSeconds = questionTimedOut ? 0 : Math.max(0, Math.min(60, Number(state.readingTimeLeft) || 0));
+  const timerText = `${String(Math.floor(timerSeconds / 60)).padStart(2, '0')}:${String(timerSeconds % 60).padStart(2, '0')}`;
   const progressPercent = Math.round(((index + 1) / passage.questions.length) * 100);
   const passageBody = passage.passageText
     ? escapeHtml(passage.passageText).split('\n\n').map((paragraph) => `<p>${paragraph}</p>`).join('')
@@ -1115,16 +1121,19 @@ function quizView(model, passage) {
     <nav class="reading-v2-breadcrumb" aria-label="مسار القراءة"><button data-library>مكتبة القراءة</button><span>‹</span><button data-model>${escapeHtml(model.title)}</button><span>‹</span><b>${escapeHtml(passage.title)}</b></nav>
     <button class="reading-v2-back reading-v2-quiz-back" data-model>← قائمة القطع</button>
     <header class="reading-v2-quiz-overview"><img src="/assets/reading-passage-landscape.jpg" alt="منظر جبلي يرمز إلى قطعة القراءة" /><div><span>${escapeHtml(passage.title)}</span><h1>${escapeHtml(passage.englishTitle)}</h1><p>${escapeHtml(passage.externalTitle)}</p></div><section><div class="reading-v2-overview-progress"><i><b style="width:${progressPercent}%"></b></i><span>${progressPercent}%</span></div><strong>${index + 1} / ${passage.questions.length}</strong><small>السؤال الحالي</small></section></header>
-    <div class="reading-v2-modebar"><span class="is-active">✓ وضع الاختبار</span><span>▤ الوضع العادي</span></div>
+    <div class="reading-v2-modebar" role="group" aria-label="نمط جلسة القراءة">
+      <button class="${examMode ? '' : 'is-active'}" data-reading-mode="normal" aria-pressed="${!examMode}">▤ الوضع العادي</button>
+      <button class="${examMode ? 'is-active' : ''}" data-reading-mode="exam" aria-pressed="${examMode}">◷ وضع الاختبار</button>
+      ${examMode ? `<span class="reading-v2-timer ${timerSeconds <= 10 ? 'is-urgent' : ''} ${selectedId ? 'is-complete' : ''}" role="timer" aria-live="off"><small>${selectedId ? 'تمت الإجابة' : 'وقت السؤال'}</small><strong data-reading-timer-value>${timerText}</strong></span>` : '<small class="reading-v2-mode-hint">تدرّب بهدوء، أو فعّل وضع الاختبار لدقيقة لكل سؤال.</small>'}
+    </div>
     <section class="reading-v2-quiz-layout">
       <article class="quiz-question active-question reading-v2-question-panel ${selectedId ? answeredCorrectly ? 'answered-correct' : 'answered-wrong' : ''}">
         <div class="reading-v2-question-scroll">
         <div class="reading-v2-question-kicker"><span>السؤال ${index + 1} من ${passage.questions.length}</span><div class="question-tutor-anchor"><button class="question-tutor-trigger" data-tutor-toggle="${question.id}" aria-label="اسأل نباهة" title="اسأل نباهة" aria-haspopup="dialog" aria-expanded="${state.tutorOpen && state.tutorQuestionKey === tutorSessionKey(model, passage, question)}" aria-controls="question-tutor">${tutorSparkleIcon()}</button>${tutorPopover(model, passage, question, selectedOption)}</div></div>
         <div class="question-heading reading-question-heading" dir="ltr"><span class="question-number">${String(question.number).padStart(2, '0')}</span><div class="question-text">${renderQuestionText(question)}</div></div>
-        <div class="answer-link-feature"><button class="${answerLinkOpen ? 'is-open' : ''}" data-toggle-answer-link="${question.id}" aria-expanded="${Boolean(answerLinkOpen)}" aria-controls="answer-link-${question.id}" ${!answerLink ? 'disabled' : ''}><span class="answer-link-feature-icon" aria-hidden="true">↔</span><span><strong>ربط الإجابة</strong><small>${answerLink ? 'اربط كلمة من السؤال بالإجابة واحفظها بمنطق بسيط' : 'لا توجد إجابة معتمدة لربطها في هذا السؤال'}</small></span><b>${answerLinkOpen ? 'إغلاق' : answerLink ? 'فتح الربط' : 'غير متاح'}</b></button></div>
-        ${answerLinkOpen ? `<aside class="answer-link-card" id="answer-link-${question.id}" aria-label="ربط الإجابة"><header><span>ربط منطقي سهل للحفظ</span><button data-toggle-answer-link="${question.id}" aria-label="إغلاق ربط الإجابة">×</button></header><div class="answer-link-bridge" dir="ltr"><span>${escapeHtml(answerLink.keyword)}</span><i aria-hidden="true">→</i><strong>${escapeHtml(answerLink.answer)}</strong></div><p class="answer-link-memory"><b>سبب الربط:</b> ${escapeHtml(answerLink.memory)}</p><p class="answer-link-reason"><b>لماذا الإجابة صحيحة؟</b> ${escapeHtml(answerLink.reason)}</p></aside>` : ''}
         <div class="question-tools"><button data-toggle-translation="${question.id}">${state.translationQuestionId === question.id ? 'إخفاء ترجمة الكلمات' : 'ترجمة الكلمات'}</button><small>${state.translationQuestionId === question.id ? 'اضغط على الكلمة لعرض ترجمتها.' : 'فعّل الترجمة لتصبح كلمات السؤال قابلة للضغط.'}</small></div>
-        <div class="quiz-options">${displayedOptions(question).map((option, optionIndex) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && hasKnownAnswer && option.isCorrect ? 'correct' : ''} ${selectedId && hasKnownAnswer && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}" ${selectedId ? 'disabled' : ''}><span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span></button>`).join('')}${answerPending && !question.options.length ? '<div class="pending-answer">مفتاح الإجابة والخيارات قيد المراجعة. يمكنك الانتقال للسؤال التالي.</div>' : ''}</div>
+        <div class="quiz-options">${displayedOptions(question).map((option, optionIndex) => `<button class="quiz-option ${selectedId === option.id ? 'selected' : ''} ${selectedId && hasKnownAnswer && option.isCorrect ? 'correct' : ''} ${selectedId && hasKnownAnswer && !option.isCorrect ? 'wrong' : ''}" data-question="${question.id}" data-option="${option.id}" ${selectedId || questionTimedOut ? 'disabled' : ''}><span class="option-marker" aria-hidden="true">${String.fromCharCode(65 + optionIndex)}</span><span>${escapeHtml(option.text)}</span></button>`).join('')}${answerPending && !question.options.length ? '<div class="pending-answer">مفتاح الإجابة والخيارات قيد المراجعة. يمكنك الانتقال للسؤال التالي.</div>' : ''}</div>
+        ${questionTimedOut && !selectedId ? '<p class="reading-v2-timeout-note">انتهت دقيقة هذا السؤال وانتقل الاختبار تلقائيًا. يمكنك متابعة بقية الأسئلة.</p>' : ''}
         ${selectedId ? answeredCorrectly ? '<p class="answer-note correct-note">صحيح، إجابتك ممتازة.</p>' : `<div class="answer-note wrong-note"><strong>${question.correctAnswer ? `غير صحيح. الحل الصحيح: ${escapeHtml(question.correctAnswer)}` : 'لم تُحدَّد الإجابة الصحيحة في المصدر.'}</strong><p>${escapeHtml(question.explanation)}</p></div>` : ''}
         ${selectedId && hasKnownAnswer ? `<div class="confidence-check"><span>كيف كانت ثقتك قبل التأكيد؟</span><button data-confidence="certain" class="${confidence === 'certain' ? 'selected' : ''}">متأكد</button><button data-confidence="uncertain" class="${confidence === 'uncertain' ? 'selected' : ''}">غير متأكد</button></div>` : ''}
         </div>
@@ -1135,7 +1144,7 @@ function quizView(model, passage) {
           </div>
           <span>${answered} إجابة محفوظة</span>
           <div class="quiz-navigation">
-            <button class="primary-action next-action" data-next-question ${selectedId || answerPending ? '' : 'disabled'}>${isLastQuestion ? 'عرض النتيجة' : 'التالي'} <span aria-hidden="true">←</span></button>
+            <button class="primary-action next-action" data-next-question ${selectedId || answerPending || questionTimedOut ? '' : 'disabled'}>${isLastQuestion ? 'عرض النتيجة' : 'التالي'} <span aria-hidden="true">←</span></button>
             <button class="secondary-action previous-action" data-previous-question ${index === 0 ? 'disabled' : ''}><span aria-hidden="true">→</span> السابق</button>
           </div>
         </footer>
@@ -1221,9 +1230,93 @@ function restoreTutorViewport(viewport, scrollTutor, tutorViewport) {
 
 function keepQuestionInPlace() {
   requestAnimationFrame(() => {
+    if (state.view === 'quiz') {
+      window.scrollTo(0, 0);
+      return;
+    }
     const question = document.querySelector('.active-question, .grammar-question-card');
     if (question) question.scrollIntoView({ block: 'start', behavior: 'auto' });
   });
+}
+
+const READING_QUESTION_TIME_SECONDS = 60;
+let readingTimerInterval = null;
+
+function clearReadingQuestionTimer() {
+  if (readingTimerInterval) window.clearInterval(readingTimerInterval);
+  readingTimerInterval = null;
+}
+
+function resetReadingQuestionClock() {
+  clearReadingQuestionTimer();
+  state.readingTimeLeft = READING_QUESTION_TIME_SECONDS;
+  state.readingTimerDeadline = state.readingMode === 'exam'
+    ? Date.now() + READING_QUESTION_TIME_SECONDS * 1000
+    : null;
+}
+
+function paintReadingTimer(seconds) {
+  const timer = document.querySelector('.reading-v2-timer');
+  const value = timer?.querySelector('[data-reading-timer-value]');
+  if (!timer || !value) return;
+  value.textContent = `${String(Math.floor(seconds / 60)).padStart(2, '0')}:${String(seconds % 60).padStart(2, '0')}`;
+  timer.classList.toggle('is-urgent', seconds <= 10);
+}
+
+function handleReadingTimeExpired(questionId) {
+  clearReadingQuestionTimer();
+  if (state.view !== 'quiz' || state.readingMode !== 'exam') return;
+  const passage = currentPassage();
+  const question = passage?.questions[state.questionIndex];
+  if (!passage || question?.id !== questionId || state.activeAnswers?.[questionId]) return;
+  const item = quizProgress(state.selectedModelId, state.selectedPassageId);
+  state.readingTimedOutQuestions = { ...state.readingTimedOutQuestions, [questionId]: true };
+  if (state.questionIndex >= passage.questions.length - 1) {
+    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'completed', currentQuestionIndex: 0 });
+    state.view = 'result';
+    state.readingTimerDeadline = null;
+    void submitLearningAttempt(item.attemptId);
+  } else {
+    const nextIndex = state.questionIndex + 1;
+    setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'in-progress', currentQuestionIndex: nextIndex });
+    state.questionIndex = nextIndex;
+    state.questionStartedAt = Date.now();
+    state.translationQuestionId = null;
+    state.tutorOpen = false;
+    state.tutorQuestionKey = null;
+    resetReadingQuestionClock();
+  }
+  render();
+}
+
+function syncReadingQuestionTimer() {
+  clearReadingQuestionTimer();
+  if (state.view !== 'quiz' || state.readingMode !== 'exam') return;
+  const passage = currentPassage();
+  const question = passage?.questions[state.questionIndex];
+  if (!question || state.activeAnswers?.[question.id]) return;
+  if (state.readingTimedOutQuestions?.[question.id]) {
+    state.readingTimeLeft = 0;
+    paintReadingTimer(0);
+    return;
+  }
+  if (!state.readingTimerDeadline) state.readingTimerDeadline = Date.now() + READING_QUESTION_TIME_SECONDS * 1000;
+  let expired = false;
+  const tick = () => {
+    if (state.view !== 'quiz' || state.readingMode !== 'exam') {
+      clearReadingQuestionTimer();
+      return;
+    }
+    const seconds = Math.max(0, Math.ceil((state.readingTimerDeadline - Date.now()) / 1000));
+    state.readingTimeLeft = seconds;
+    paintReadingTimer(seconds);
+    if (seconds === 0) {
+      expired = true;
+      handleReadingTimeExpired(question.id);
+    }
+  };
+  tick();
+  if (!expired && state.view === 'quiz' && state.readingMode === 'exam' && state.readingTimeLeft > 0) readingTimerInterval = window.setInterval(tick, 250);
 }
 
 function applyNibrasAccessibility() {
@@ -1293,6 +1386,7 @@ function restoreActiveWorkspaceProgress() {
 }
 
 function render() {
+  if (state.view === 'quiz' && (window.scrollX || window.scrollY)) window.scrollTo(0, 0);
   const conversation = document.querySelector('.tutor-conversation');
   const tutorViewport = conversation ? { scrollTop: conversation.scrollTop } : null;
   const viewport = ['quiz', 'grammar-quiz', 'listening-quiz'].includes(state.view) ? { x: window.scrollX, y: window.scrollY } : null;
@@ -1331,6 +1425,7 @@ function render() {
   document.querySelectorAll('[data-listening-review]').forEach((audio) => soundManager.applyListeningVolume(audio));
   persistWorkspaceView();
   restoreTutorViewport(viewport, scrollTutor, tutorViewport);
+  syncReadingQuestionTimer();
 }
 
 let debounce;
@@ -1882,7 +1977,7 @@ app.addEventListener('click', (event) => {
     const passage = model?.passages.find((candidate) => candidate.id === passageId);
     if (!model || !passage) return;
     const saved = quizProgress(modelId, passageId);
-    state = { ...state, view: 'quiz', selectedModelId: modelId, selectedPassageId: passageId, questionIndex: Math.min(saved.currentQuestionIndex ?? 0, Math.max(0, passage.questions.length - 1)), questionStartedAt: Date.now(), translationQuestionId: null, activeAnswers: { ...(saved.answers ?? {}) }, restoredProgress: true, tutorOpen: false, tutorQuestionKey: null };
+    state = { ...state, view: 'quiz', selectedModelId: modelId, selectedPassageId: passageId, questionIndex: Math.min(saved.currentQuestionIndex ?? 0, Math.max(0, passage.questions.length - 1)), questionStartedAt: Date.now(), translationQuestionId: null, activeAnswers: { ...(saved.answers ?? {}) }, restoredProgress: true, readingMode: 'normal', readingTimeLeft: READING_QUESTION_TIME_SECONDS, readingTimerDeadline: null, readingTimedOutQuestions: {}, tutorOpen: false, tutorQuestionKey: null };
     render();
     keepQuestionInPlace();
     return;
@@ -1897,7 +1992,7 @@ app.addEventListener('click', (event) => {
 
   const passageButton = event.target.closest('[data-open-passage]');
   if (passageButton) {
-    state = { ...state, view: 'quiz', selectedPassageId: passageButton.dataset.openPassage, questionIndex: 0, questionStartedAt: Date.now(), translationQuestionId: null, activeAnswers: {}, restoredProgress: false, tutorOpen: false, tutorQuestionKey: null };
+    state = { ...state, view: 'quiz', selectedPassageId: passageButton.dataset.openPassage, questionIndex: 0, questionStartedAt: Date.now(), translationQuestionId: null, activeAnswers: {}, restoredProgress: false, readingMode: 'normal', readingTimeLeft: READING_QUESTION_TIME_SECONDS, readingTimerDeadline: null, readingTimedOutQuestions: {}, tutorOpen: false, tutorQuestionKey: null };
     const passage = currentPassage();
     const saved = quizProgress(state.selectedModelId, passage.id);
     setQuizProgress(state.selectedModelId, passage.id, { ...saved, status: saved.status === 'completed' ? 'completed' : 'in-progress' });
@@ -1920,10 +2015,12 @@ app.addEventListener('click', (event) => {
     return;
   }
 
-  const answerLinkButton = event.target.closest('[data-toggle-answer-link]');
-  if (answerLinkButton) {
-    const questionId = answerLinkButton.dataset.toggleAnswerLink;
-    state.answerLinkQuestionId = state.answerLinkQuestionId === questionId ? null : questionId;
+  const readingModeButton = event.target.closest('[data-reading-mode]');
+  if (readingModeButton) {
+    const mode = readingModeButton.dataset.readingMode === 'exam' ? 'exam' : 'normal';
+    if (state.readingMode === mode) return;
+    state.readingMode = mode;
+    resetReadingQuestionClock();
     render();
     return;
   }
@@ -1944,6 +2041,7 @@ app.addEventListener('click', (event) => {
     const option = question?.options.find((candidate) => candidate.id === optionButton.dataset.option);
     const answers = { ...(state.activeAnswers ?? {}), [optionButton.dataset.question]: optionButton.dataset.option };
     state.activeAnswers = answers;
+    state.readingTimerDeadline = null;
     const now = new Date().toISOString();
     const seconds = Math.max(1, Math.round((Date.now() - (state.questionStartedAt || Date.now())) / 1000));
     const answerMeta = { ...(item.answerMeta ?? {}), [question.id]: { ...(item.answerMeta?.[question.id] ?? {}), answeredAt: now, seconds, skill: inferReadingSkill(question) } };
@@ -1982,7 +2080,8 @@ app.addEventListener('click', (event) => {
     const item = quizProgress(state.selectedModelId, state.selectedPassageId);
     const passage = currentPassage();
     const question = passage.questions[state.questionIndex];
-    if (!state.activeAnswers?.[question.id] && question.correctAnswer !== null) return;
+    const timedOut = state.readingMode === 'exam' && state.readingTimedOutQuestions?.[question.id];
+    if (!state.activeAnswers?.[question.id] && question.correctAnswer !== null && !timedOut) return;
     if (state.questionIndex >= passage.questions.length - 1) {
       setQuizProgress(state.selectedModelId, state.selectedPassageId, { ...item, status: 'completed', currentQuestionIndex: 0 });
       state.view = 'result';
@@ -1993,9 +2092,9 @@ app.addEventListener('click', (event) => {
       state.questionIndex = nextIndex;
       state.questionStartedAt = Date.now();
       state.translationQuestionId = null;
-      state.answerLinkQuestionId = null;
       state.tutorOpen = false;
       state.tutorQuestionKey = null;
+      resetReadingQuestionClock();
     }
     render();
     return;
@@ -2006,9 +2105,9 @@ app.addEventListener('click', (event) => {
     state.questionIndex -= 1;
     state.questionStartedAt = Date.now();
     state.translationQuestionId = null;
-    state.answerLinkQuestionId = null;
     state.tutorOpen = false;
     state.tutorQuestionKey = null;
+    resetReadingQuestionClock();
     render();
     return;
   }
@@ -2020,9 +2119,11 @@ app.addEventListener('click', (event) => {
     state.questionIndex = 0;
     state.questionStartedAt = Date.now();
     state.translationQuestionId = null;
-    state.answerLinkQuestionId = null;
     state.activeAnswers = {};
     state.restoredProgress = false;
+    state.readingMode = 'normal';
+    state.readingTimedOutQuestions = {};
+    resetReadingQuestionClock();
     state.tutorOpen = false;
     state.tutorQuestionKey = null;
     render();
@@ -2036,8 +2137,8 @@ app.addEventListener('click', (event) => {
     state.questionIndex = Math.min(item.currentQuestionIndex ?? 0, passage.questions.length - 1);
     state.questionStartedAt = Date.now();
     state.translationQuestionId = null;
-    state.answerLinkQuestionId = null;
     state.restoredProgress = true;
+    resetReadingQuestionClock();
     render();
     return;
   }
