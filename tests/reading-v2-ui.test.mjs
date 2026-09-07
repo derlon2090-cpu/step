@@ -17,6 +17,7 @@ test('reading dashboard uses the redesigned library, passage, and split-question
   assert.match(cssSource, /\.reading-v2-quiz-layout\{display:grid;grid-template-columns:/);
   assert.match(reviewCssSource, /\.reading-v2-solutions-list\{display:grid;grid-template-columns:/);
   assert.match(reviewCssSource, /\.reading-v2-shell>\.dashboard-header\{margin-inline:calc\(50% - 50vw\)\}/);
+  assert.match(reviewCssSource, /html,body\{overflow-x:clip\}/);
 });
 
 test('reading visuals are project assets and all existing question tools remain available', () => {
