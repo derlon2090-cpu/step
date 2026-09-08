@@ -1,3 +1,5 @@
+import { grammarModels45 } from './grammarModels45.js';
+
 // Generated from the source transcript. Keep source answers unchanged.
 export const grammarModels = [
   {
@@ -1707,22 +1709,7 @@ export const grammarModels = [
       }
     ]
   },
-  {
-    "id": "grammar-04",
-    "order": 4,
-    "title": "النموذج 4",
-    "subtitle": "سيُضاف المحتوى المعتمد قريبًا",
-    "status": "coming-soon",
-    "questions": []
-  },
-  {
-    "id": "grammar-05",
-    "order": 5,
-    "title": "النموذج 5",
-    "subtitle": "سيُضاف المحتوى المعتمد قريبًا",
-    "status": "coming-soon",
-    "questions": []
-  },
+  ...grammarModels45,
   {
     "id": "grammar-06",
     "order": 6,
